@@ -129,320 +129,407 @@ function var_0_0.preload(arg_12_0, arg_12_1)
 	}, arg_12_1)
 end
 
-function var_0_0.didEnter(arg_15_0)
-	onButton(arg_15_0, arg_15_0.back, function()
-		arg_15_0:emit(GuildMainMediator.ON_BACK)
-	end, SOUND_BACK)
+function var_0_0.getResource(arg_15_0)
+	local var_15_0 = var_0_0.super.getResource(arg_15_0)
+	local var_15_1 = {
+		"ui/GuildResPanel",
+		"furnitrues/guild/chair",
+		"furnitrues/guild/chair1",
+		"ui/guildmainui_atlas",
+		"dutyicon",
+		"guildpainting/guild_office_blue",
+		"guildpainting/guild_office_red",
+		"guildpainting/guild_event_boss_2",
+		"guildpainting/guild_event_boss_3",
+		"guildpainting/guild_event_boss_4",
+		"guildtechnology",
+		"ui/guildtechnologyredui_atlas",
+		"ui/guildtechnologyblueui_atlas",
+		"ui/guildtechnologyui_atlas",
+		"commonbg/guild_event_bg",
+		"guildevent/1",
+		"guildevent/2",
+		"guildevent/3",
+		"guildevent/4",
+		"guildevent/5",
+		"guildevent/0_0",
+		"guildevent/0",
+		"guildevent/i_1",
+		"guildevent/i_2",
+		"guildevent/i_3",
+		"guildevent/i_4",
+		"guildevent/i_5",
+		"ui/guildeventui_atlas",
+		"guildeventicon",
+		"ui/guildmissionui_atlas",
+		"guildmission/midway",
+		"guildmission/1_4"
+	}
 
-	arg_15_0.hideFlag = false
-
-	onButton(arg_15_0, arg_15_0.eyeTF, function()
-		arg_15_0.hideFlag = not arg_15_0.hideFlag
-
-		arg_15_0:EnterOrExitPreView()
-	end, SFX_PANEL)
-	arg_15_0.guildRes:ExecuteAction("Update", arg_15_0.playerVO, arg_15_0.guildVO)
-	arg_15_0:initToggles()
-	arg_15_0:UpdateRes()
-	pg.GuildLayerMgr.GetInstance():BlurTopPanel(arg_15_0.blurPanel)
-
-	if arg_15_0.guildVO:shouldRefreshCaptial() then
-		arg_15_0:emit(GuildMainMediator.ON_FETCH_CAPITAL)
+	local function var_15_2(arg_16_0)
+		if noEmptyStr(arg_16_0) and not table.contains(var_15_1, arg_16_0) then
+			table.insert(var_15_1, arg_16_0)
+		end
 	end
 
-	local var_15_0 = arg_15_0.guildVO:GetMemberShips(GuildConst.MAX_DISPLAY_MEMBER_SHIP)
+	local var_15_3 = getProxy(GuildProxy):getRawData()
 
-	arg_15_0.dynamicBg:Init(var_15_0)
-	arg_15_0:UpdateNotices(var_0_0.NOTIFY_TYPE_ALL)
+	if var_15_3 then
+		var_15_2(var_15_3:getBgName())
+
+		local var_15_4 = getProxy(SettingsProxy):IsMellowStyle()
+		local var_15_5 = var_15_3:getFaction()
+
+		if var_15_5 == GuildConst.FACTION_TYPE_BLHX then
+			var_15_2(var_15_4 and "ui/GuildThemeBlueUI4Mellow" or "ui/GuildThemeBlueUI")
+		elseif var_15_5 == GuildConst.FACTION_TYPE_CSZZ then
+			var_15_2(var_15_4 and "ui/GuildThemeRedUI4Mellow" or "ui/GuildThemeRedUI")
+		end
+	end
+
+	local var_15_6 = pg.item_data_frame.all
+
+	for iter_15_0, iter_15_1 in ipairs(var_15_6) do
+		local var_15_7 = pg.item_data_frame[iter_15_1]
+
+		var_15_2("iconframe/" .. var_15_7.id)
+	end
+
+	if not arg_15_0.memberShips then
+		arg_15_0.memberShips = getProxy(GuildProxy):getData():GetMemberShips(GuildConst.MAX_DISPLAY_MEMBER_SHIP)
+	end
+
+	if arg_15_0.memberShips and #arg_15_0.memberShips > 0 then
+		for iter_15_2, iter_15_3 in ipairs(arg_15_0.memberShips) do
+			var_15_2("char/" .. iter_15_3:getPainting())
+		end
+	end
+
+	for iter_15_4, iter_15_5 in ipairs(var_15_1) do
+		if not table.contains(var_15_0, iter_15_5) then
+			table.insert(var_15_0, iter_15_5)
+		end
+	end
+
+	return var_15_0
 end
 
-function var_0_0.OnDeleteMember(arg_18_0, arg_18_1)
-	local var_18_0 = arg_18_1:GetShip()
+function var_0_0.didEnter(arg_17_0)
+	onButton(arg_17_0, arg_17_0.back, function()
+		arg_17_0:emit(GuildMainMediator.ON_BACK)
+	end, SOUND_BACK)
 
-	arg_18_0.dynamicBg:ExitShip(var_18_0.name)
+	arg_17_0.hideFlag = false
+
+	onButton(arg_17_0, arg_17_0.eyeTF, function()
+		arg_17_0.hideFlag = not arg_17_0.hideFlag
+
+		arg_17_0:EnterOrExitPreView()
+	end, SFX_PANEL)
+	arg_17_0.guildRes:ExecuteAction("Update", arg_17_0.playerVO, arg_17_0.guildVO)
+	arg_17_0:initToggles()
+	arg_17_0:UpdateRes()
+	pg.GuildLayerMgr.GetInstance():BlurTopPanel(arg_17_0.blurPanel)
+
+	if arg_17_0.guildVO:shouldRefreshCaptial() then
+		arg_17_0:emit(GuildMainMediator.ON_FETCH_CAPITAL)
+	end
+
+	if not arg_17_0.memberShips then
+		arg_17_0.memberShips = arg_17_0.guildVO:GetMemberShips(GuildConst.MAX_DISPLAY_MEMBER_SHIP)
+	end
+
+	arg_17_0.dynamicBg:Init(arg_17_0.memberShips)
+	arg_17_0:UpdateNotices(var_0_0.NOTIFY_TYPE_ALL)
 end
 
-function var_0_0.OnAddMember(arg_19_0, arg_19_1)
-	local var_19_0 = arg_19_1:GetShip()
+function var_0_0.OnDeleteMember(arg_20_0, arg_20_1)
+	local var_20_0 = arg_20_1:GetShip()
 
-	arg_19_0.dynamicBg:AddShip(var_19_0, function()
+	arg_20_0.dynamicBg:ExitShip(var_20_0.name)
+end
+
+function var_0_0.OnAddMember(arg_21_0, arg_21_1)
+	local var_21_0 = arg_21_1:GetShip()
+
+	arg_21_0.dynamicBg:AddShip(var_21_0, function()
 		return
 	end)
 end
 
-function var_0_0.EnterOrExitPreView(arg_21_0)
-	if LeanTween.isTweening(go(arg_21_0._topPanel)) or LeanTween.isTweening(go(arg_21_0._leftLength)) or LeanTween.isTweening(go(arg_21_0.topBg)) then
+function var_0_0.EnterOrExitPreView(arg_23_0)
+	if LeanTween.isTweening(go(arg_23_0._topPanel)) or LeanTween.isTweening(go(arg_23_0._leftLength)) or LeanTween.isTweening(go(arg_23_0.topBg)) then
 		return
 	end
 
-	if arg_21_0.themePage and arg_21_0.themePage:GetLoaded() then
-		arg_21_0.themePage:EnterOrExitPreView(arg_21_0.hideFlag)
+	if arg_23_0.themePage and arg_23_0.themePage:GetLoaded() then
+		arg_23_0.themePage:EnterOrExitPreView(arg_23_0.hideFlag)
 	end
 
-	local var_21_0 = arg_21_0.hideFlag and {
+	local var_23_0 = arg_23_0.hideFlag and {
 		0,
-		arg_21_0.topWidth
+		arg_23_0.topWidth
 	} or {
-		arg_21_0.topWidth,
+		arg_23_0.topWidth,
 		0
 	}
 
-	LeanTween.value(go(arg_21_0._topPanel), var_21_0[1], var_21_0[2], 0.3):setOnUpdate(System.Action_float(function(arg_22_0)
-		setAnchoredPosition(arg_21_0._topPanel, {
-			y = arg_22_0
-		})
-	end))
-
-	local var_21_1 = arg_21_0.hideFlag and {
-		0,
-		arg_21_0.letfWidth
-	} or {
-		arg_21_0.letfWidth,
-		0
-	}
-
-	LeanTween.value(go(arg_21_0._leftLength), var_21_1[1], var_21_1[2], 0.3):setOnUpdate(System.Action_float(function(arg_23_0)
-		setAnchoredPosition(arg_21_0._leftLength, {
-			x = arg_23_0
-		})
-	end))
-
-	local var_21_2 = arg_21_0.hideFlag and {
-		0,
-		arg_21_0.topBgWidth
-	} or {
-		arg_21_0.topBgWidth,
-		0
-	}
-
-	LeanTween.value(go(arg_21_0.topBg), var_21_2[1], var_21_2[2], 0.3):setOnUpdate(System.Action_float(function(arg_24_0)
-		setAnchoredPosition(arg_21_0.topBg, {
+	LeanTween.value(go(arg_23_0._topPanel), var_23_0[1], var_23_0[2], 0.3):setOnUpdate(System.Action_float(function(arg_24_0)
+		setAnchoredPosition(arg_23_0._topPanel, {
 			y = arg_24_0
 		})
 	end))
+
+	local var_23_1 = arg_23_0.hideFlag and {
+		0,
+		arg_23_0.letfWidth
+	} or {
+		arg_23_0.letfWidth,
+		0
+	}
+
+	LeanTween.value(go(arg_23_0._leftLength), var_23_1[1], var_23_1[2], 0.3):setOnUpdate(System.Action_float(function(arg_25_0)
+		setAnchoredPosition(arg_23_0._leftLength, {
+			x = arg_25_0
+		})
+	end))
+
+	local var_23_2 = arg_23_0.hideFlag and {
+		0,
+		arg_23_0.topBgWidth
+	} or {
+		arg_23_0.topBgWidth,
+		0
+	}
+
+	LeanTween.value(go(arg_23_0.topBg), var_23_2[1], var_23_2[2], 0.3):setOnUpdate(System.Action_float(function(arg_26_0)
+		setAnchoredPosition(arg_23_0.topBg, {
+			y = arg_26_0
+		})
+	end))
 end
 
-function var_0_0.UpdateBg(arg_25_0)
-	local var_25_0 = arg_25_0.guildVO:getBgName()
+function var_0_0.UpdateBg(arg_27_0)
+	local var_27_0 = arg_27_0.guildVO:getBgName()
 
-	if arg_25_0.bgName ~= var_25_0 then
-		GetSpriteFromAtlasAsync(var_25_0, "", function(arg_26_0)
-			if not IsNil(arg_25_0._tf) then
-				setImageSprite(arg_25_0._bg, arg_26_0, false)
+	if arg_27_0.bgName ~= var_27_0 then
+		GetSpriteFromAtlasAsync(var_27_0, "", function(arg_28_0)
+			if not IsNil(arg_27_0._tf) then
+				setImageSprite(arg_27_0._bg, arg_28_0, false)
 			end
 		end)
 
-		arg_25_0.bgName = var_25_0
+		arg_27_0.bgName = var_27_0
 	end
 end
 
-function var_0_0.UpdateNotices(arg_27_0, arg_27_1)
-	local var_27_0 = getProxy(GuildProxy)
-	local var_27_1 = arg_27_0.guildVO
+function var_0_0.UpdateNotices(arg_29_0, arg_29_1)
+	local var_29_0 = getProxy(GuildProxy)
+	local var_29_1 = arg_29_0.guildVO
 
-	if arg_27_1 == var_0_0.NOTIFY_TYPE_ALL or arg_27_1 == var_0_0.NOTIFY_TYPE_MAIN then
-		setActive(arg_27_0.mainTip, var_27_0:ShouldShowMainTip())
+	if arg_29_1 == var_0_0.NOTIFY_TYPE_ALL or arg_29_1 == var_0_0.NOTIFY_TYPE_MAIN then
+		setActive(arg_29_0.mainTip, var_29_0:ShouldShowMainTip())
 	end
 
-	if arg_27_1 == var_0_0.NOTIFY_TYPE_ALL or arg_27_1 == var_0_0.NOTIFY_TYPE_APPLY then
-		setActive(arg_27_0.applyTip, var_27_0:ShouldShowApplyTip())
+	if arg_29_1 == var_0_0.NOTIFY_TYPE_ALL or arg_29_1 == var_0_0.NOTIFY_TYPE_APPLY then
+		setActive(arg_29_0.applyTip, var_29_0:ShouldShowApplyTip())
 	end
 
-	if arg_27_1 == var_0_0.NOTIFY_TYPE_ALL or arg_27_1 == var_0_0.NOTIFY_TYPE_OFFICE then
-		setActive(arg_27_0.officeTip, var_27_1:ShouldShowOfficeTip())
+	if arg_29_1 == var_0_0.NOTIFY_TYPE_ALL or arg_29_1 == var_0_0.NOTIFY_TYPE_OFFICE then
+		setActive(arg_29_0.officeTip, var_29_1:ShouldShowOfficeTip())
 	end
 
-	if arg_27_1 == var_0_0.NOTIFY_TYPE_ALL or arg_27_1 == var_0_0.NOTIFY_TYPE_BATTLE then
-		setActive(arg_27_0.battleTip, var_27_0:ShouldShowBattleTip())
+	if arg_29_1 == var_0_0.NOTIFY_TYPE_ALL or arg_29_1 == var_0_0.NOTIFY_TYPE_BATTLE then
+		setActive(arg_29_0.battleTip, var_29_0:ShouldShowBattleTip())
 	end
 
-	if arg_27_1 == var_0_0.NOTIFY_TYPE_ALL or arg_27_1 == var_0_0.NOTIFY_TYPE_TECH then
-		setActive(arg_27_0.techTip, var_27_1:ShouldShowTechTip())
+	if arg_29_1 == var_0_0.NOTIFY_TYPE_ALL or arg_29_1 == var_0_0.NOTIFY_TYPE_TECH then
+		setActive(arg_29_0.techTip, var_29_1:ShouldShowTechTip())
 	end
 end
 
-function var_0_0.initTheme(arg_28_0)
-	local var_28_0 = arg_28_0.guildVO:getFaction()
+function var_0_0.initTheme(arg_30_0)
+	local var_30_0 = arg_30_0.guildVO:getFaction()
 
-	if not arg_28_0.faction or arg_28_0.faction ~= var_28_0 then
-		if arg_28_0.themePage then
-			arg_28_0.themePage:Destroy()
+	if not arg_30_0.faction or arg_30_0.faction ~= var_30_0 then
+		if arg_30_0.themePage then
+			arg_30_0.themePage:Destroy()
 		end
 
-		arg_28_0.themePage = GuildThemePage.New(arg_28_0.mainTF, arg_28_0.event, arg_28_0.contextData)
+		arg_30_0.themePage = GuildThemePage.New(arg_30_0.mainTF, arg_30_0.event, arg_30_0.contextData)
 
-		arg_28_0.themePage:ExecuteAction("Update", arg_28_0.guildVO, arg_28_0.playerVO, arg_28_0.chatMsgs)
+		arg_30_0.themePage:ExecuteAction("Update", arg_30_0.guildVO, arg_30_0.playerVO, arg_30_0.chatMsgs)
 
-		arg_28_0.faction = var_28_0
+		arg_30_0.faction = var_30_0
 	else
-		arg_28_0.themePage:ActionInvoke("Update", arg_28_0.guildVO, arg_28_0.playerVO, arg_28_0.chatMsgs)
+		arg_30_0.themePage:ActionInvoke("Update", arg_30_0.guildVO, arg_30_0.playerVO, arg_30_0.chatMsgs)
 	end
 end
 
-function var_0_0.OpenMainPage(arg_29_0)
-	if not arg_29_0.themePage or not arg_29_0.themePage:GetLoaded() then
-		arg_29_0:initTheme()
+function var_0_0.OpenMainPage(arg_31_0)
+	if not arg_31_0.themePage or not arg_31_0.themePage:GetLoaded() then
+		arg_31_0:initTheme()
 	else
-		arg_29_0.themePage:Show()
+		arg_31_0.themePage:Show()
 	end
 end
 
-function var_0_0.initToggles(arg_30_0)
-	arg_30_0.contextData.toggles = {}
+function var_0_0.initToggles(arg_32_0)
+	arg_32_0.contextData.toggles = {}
 
-	for iter_30_0, iter_30_1 in ipairs(var_0_0.TOGGLE_TAG) do
-		arg_30_0.contextData.toggles[iter_30_1] = arg_30_0.toggleRoot:Find(iter_30_1)
+	for iter_32_0, iter_32_1 in ipairs(var_0_0.TOGGLE_TAG) do
+		arg_32_0.contextData.toggles[iter_32_1] = arg_32_0.toggleRoot:Find(iter_32_1)
 
-		assert(arg_30_0.contextData.toggles[iter_30_1], "transform canot be nil" .. iter_30_1)
-		onToggle(arg_30_0, arg_30_0.contextData.toggles[iter_30_1], function(arg_31_0)
-			if arg_31_0 then
-				arg_30_0:openPage(iter_30_1)
-				setActive(arg_30_0._bg, iter_30_1 ~= var_0_1)
+		assert(arg_32_0.contextData.toggles[iter_32_1], "transform canot be nil" .. iter_32_1)
+		onToggle(arg_32_0, arg_32_0.contextData.toggles[iter_32_1], function(arg_33_0)
+			if arg_33_0 then
+				arg_32_0:openPage(iter_32_1)
+				setActive(arg_32_0._bg, iter_32_1 ~= var_0_1)
 			else
-				arg_30_0:closePage(iter_30_1)
+				arg_32_0:closePage(iter_32_1)
 			end
 		end, SFX_PANEL)
 	end
 
 	if LOCK_GUILD_BATTLE then
-		setActive(arg_30_0.contextData.toggles[var_0_6], false)
+		setActive(arg_32_0.contextData.toggles[var_0_6], false)
 	end
 
-	local var_30_0 = arg_30_0.guildVO:getDutyByMemberId(arg_30_0.playerVO.id)
+	local var_32_0 = arg_32_0.guildVO:getDutyByMemberId(arg_32_0.playerVO.id)
 
-	setActive(arg_30_0.contextData.toggles[var_0_3], var_30_0 == GuildConst.DUTY_COMMANDER or var_30_0 == GuildConst.DUTY_DEPUTY_COMMANDER)
+	setActive(arg_32_0.contextData.toggles[var_0_3], var_32_0 == GuildConst.DUTY_COMMANDER or var_32_0 == GuildConst.DUTY_DEPUTY_COMMANDER)
 
-	local var_30_1 = arg_30_0.contextData.page or var_0_1
+	local var_32_1 = arg_32_0.contextData.page or var_0_1
 
-	arg_30_0.contextData.page = nil
+	arg_32_0.contextData.page = nil
 
-	assert(arg_30_0.contextData.toggles[var_30_1])
-	triggerToggle(arg_30_0.contextData.toggles[var_30_1], true)
+	assert(arg_32_0.contextData.toggles[var_32_1])
+	triggerToggle(arg_32_0.contextData.toggles[var_32_1], true)
 end
 
-function var_0_0.TriggerOfficePage(arg_32_0)
-	triggerToggle(arg_32_0.contextData.toggles[var_0_4], true)
+function var_0_0.TriggerOfficePage(arg_34_0)
+	triggerToggle(arg_34_0.contextData.toggles[var_0_4], true)
 end
 
-function var_0_0.openPage(arg_33_0, arg_33_1)
-	setActive(arg_33_0.eyeTF, arg_33_1 == var_0_1)
+function var_0_0.openPage(arg_35_0, arg_35_1)
+	setActive(arg_35_0.eyeTF, arg_35_1 == var_0_1)
 
-	if arg_33_1 == var_0_4 or arg_33_1 == var_0_5 then
-		arg_33_0.guildRes:Show()
-	elseif arg_33_1 == var_0_6 or arg_33_1 == var_0_3 or arg_33_1 == var_0_2 then
-		arg_33_0.guildRes:Hide()
+	if arg_35_1 == var_0_4 or arg_35_1 == var_0_5 then
+		arg_35_0.guildRes:Show()
+	elseif arg_35_1 == var_0_6 or arg_35_1 == var_0_3 or arg_35_1 == var_0_2 then
+		arg_35_0.guildRes:Hide()
 	else
-		arg_33_0.guildRes:Hide()
+		arg_35_0.guildRes:Hide()
 	end
 
-	if arg_33_0.themePage and arg_33_0.themePage:GetLoaded() and arg_33_0.themePage.isShowChatWindow then
-		arg_33_0.themePage:ShowOrHideChatWindow(false)
+	if arg_35_0.themePage and arg_35_0.themePage:GetLoaded() and arg_35_0.themePage.isShowChatWindow then
+		arg_35_0.themePage:ShowOrHideChatWindow(false)
 	end
 
-	if arg_33_0.contextData.page == arg_33_1 then
+	if arg_35_0.contextData.page == arg_35_1 then
 		return
 	end
 
-	if arg_33_1 == var_0_1 then
-		arg_33_0:OpenMainPage()
-		arg_33_0:emit(GuildMainMediator.OPEN_MAIN)
-	elseif arg_33_1 == var_0_2 then
-		arg_33_0:emit(GuildMainMediator.OPEN_MEMBER)
-	elseif arg_33_1 == var_0_3 then
-		arg_33_0:emit(GuildMainMediator.OPEN_APPLY)
-	elseif arg_33_1 == var_0_4 then
-		arg_33_0:emit(GuildMainMediator.OPEN_OFFICE)
-	elseif arg_33_1 == var_0_5 then
-		arg_33_0:emit(GuildMainMediator.OPEN_TECH)
-	elseif arg_33_1 == var_0_6 then
-		arg_33_0:emit(GuildMainMediator.OPEN_BATTLE)
+	if arg_35_1 == var_0_1 then
+		arg_35_0:OpenMainPage()
+		arg_35_0:emit(GuildMainMediator.OPEN_MAIN)
+	elseif arg_35_1 == var_0_2 then
+		arg_35_0:emit(GuildMainMediator.OPEN_MEMBER)
+	elseif arg_35_1 == var_0_3 then
+		arg_35_0:emit(GuildMainMediator.OPEN_APPLY)
+	elseif arg_35_1 == var_0_4 then
+		arg_35_0:emit(GuildMainMediator.OPEN_OFFICE)
+	elseif arg_35_1 == var_0_5 then
+		arg_35_0:emit(GuildMainMediator.OPEN_TECH)
+	elseif arg_35_1 == var_0_6 then
+		arg_35_0:emit(GuildMainMediator.OPEN_BATTLE)
 	end
 
-	arg_33_0:UpdateBg()
+	arg_35_0:UpdateBg()
 
-	arg_33_0.contextData.page = arg_33_1
+	arg_35_0.contextData.page = arg_35_1
 end
 
-function var_0_0.closePage(arg_34_0, arg_34_1)
-	if arg_34_1 == var_0_1 then
-		if arg_34_0.themePage then
-			arg_34_0.themePage:ExecuteAction("Hide")
+function var_0_0.closePage(arg_36_0, arg_36_1)
+	if arg_36_1 == var_0_1 then
+		if arg_36_0.themePage then
+			arg_36_0.themePage:ExecuteAction("Hide")
 		end
-	elseif arg_34_1 == var_0_2 then
-		arg_34_0:emit(GuildMainMediator.CLOSE_MEMBER)
-	elseif arg_34_1 == var_0_3 then
-		arg_34_0:emit(GuildMainMediator.CLOSE_APPLY)
-	elseif arg_34_1 == var_0_4 then
-		arg_34_0:emit(GuildMainMediator.CLOSE_OFFICE)
-	elseif arg_34_1 == var_0_5 then
-		arg_34_0:emit(GuildMainMediator.CLOSE_TECH)
-	elseif arg_34_1 == var_0_6 then
-		arg_34_0:emit(GuildMainMediator.CLOSE_BATTLE)
+	elseif arg_36_1 == var_0_2 then
+		arg_36_0:emit(GuildMainMediator.CLOSE_MEMBER)
+	elseif arg_36_1 == var_0_3 then
+		arg_36_0:emit(GuildMainMediator.CLOSE_APPLY)
+	elseif arg_36_1 == var_0_4 then
+		arg_36_0:emit(GuildMainMediator.CLOSE_OFFICE)
+	elseif arg_36_1 == var_0_5 then
+		arg_36_0:emit(GuildMainMediator.CLOSE_TECH)
+	elseif arg_36_1 == var_0_6 then
+		arg_36_0:emit(GuildMainMediator.CLOSE_BATTLE)
 	end
 end
 
-function var_0_0.BlurView(arg_35_0, arg_35_1)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_35_1, {
+function var_0_0.BlurView(arg_37_0, arg_37_1)
+	pg.UIMgr.GetInstance():OverlayPanel(arg_37_1, {
 		pbList = {
-			arg_35_1:Find("Image1/Image1")
+			arg_37_1:Find("Image1/Image1")
 		}
 	})
 end
 
-function var_0_0.UnBlurView(arg_36_0, arg_36_1, arg_36_2)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_36_1, arg_36_2)
+function var_0_0.UnBlurView(arg_38_0, arg_38_1, arg_38_2)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_38_1, arg_38_2)
 end
 
-function var_0_0.Append(arg_37_0, arg_37_1, arg_37_2)
-	if arg_37_0.themePage and arg_37_0.themePage:GetLoaded() then
-		arg_37_0.themePage:Append(arg_37_1, arg_37_2)
-	end
-end
-
-function var_0_0.UpdateAllChat(arg_38_0, arg_38_1)
-	if arg_38_0.themePage and arg_38_0.themePage:GetLoaded() then
-		arg_38_0.themePage:UpdateAllChat(arg_38_1)
-	end
-end
-
-function var_0_0.UpdateAllLog(arg_39_0, arg_39_1)
+function var_0_0.Append(arg_39_0, arg_39_1, arg_39_2)
 	if arg_39_0.themePage and arg_39_0.themePage:GetLoaded() then
-		arg_39_0.themePage:UpdateAllChat(arg_39_1)
+		arg_39_0.themePage:Append(arg_39_1, arg_39_2)
 	end
 end
 
-function var_0_0.AppendLog(arg_40_0, arg_40_1, arg_40_2)
+function var_0_0.UpdateAllChat(arg_40_0, arg_40_1)
 	if arg_40_0.themePage and arg_40_0.themePage:GetLoaded() then
-		arg_40_0.themePage:AppendLog(arg_40_1, arg_40_2)
+		arg_40_0.themePage:UpdateAllChat(arg_40_1)
 	end
 end
 
-function var_0_0.openResourceLog(arg_41_0)
-	arg_41_0.logPage:ExecuteAction("Show", arg_41_0.guildVO)
+function var_0_0.UpdateAllLog(arg_41_0, arg_41_1)
+	if arg_41_0.themePage and arg_41_0.themePage:GetLoaded() then
+		arg_41_0.themePage:UpdateAllChat(arg_41_1)
+	end
 end
 
-function var_0_0.willExit(arg_42_0)
-	arg_42_0.dynamicBg:Dispose()
-	arg_42_0.logPage:Destroy()
-	arg_42_0.guildRes:Destroy()
+function var_0_0.AppendLog(arg_42_0, arg_42_1, arg_42_2)
+	if arg_42_0.themePage and arg_42_0.themePage:GetLoaded() then
+		arg_42_0.themePage:AppendLog(arg_42_1, arg_42_2)
+	end
+end
 
-	if arg_42_0.themePage then
-		arg_42_0.themePage:Destroy()
+function var_0_0.openResourceLog(arg_43_0)
+	arg_43_0.logPage:ExecuteAction("Show", arg_43_0.guildVO)
+end
+
+function var_0_0.willExit(arg_44_0)
+	arg_44_0.dynamicBg:Dispose()
+	arg_44_0.logPage:Destroy()
+	arg_44_0.guildRes:Destroy()
+
+	if arg_44_0.themePage then
+		arg_44_0.themePage:Destroy()
 	end
 
 	pg.GuildLayerMgr.GetInstance():Clear()
 	pg.GuildPaintingMgr.GetInstance():Exit()
 
-	if arg_42_0.contextData.page then
-		arg_42_0:closePage(arg_42_0.contextData.page)
+	if arg_44_0.contextData.page then
+		arg_44_0:closePage(arg_44_0.contextData.page)
 	end
 
 	Input.multiTouchEnabled = true
 end
 
-function var_0_0.insertEmojiToInputText(arg_43_0, arg_43_1)
-	if arg_43_0.themePage then
-		arg_43_0.themePage:InsertEmojiToInputText(arg_43_1)
+function var_0_0.insertEmojiToInputText(arg_45_0, arg_45_1)
+	if arg_45_0.themePage then
+		arg_45_0.themePage:InsertEmojiToInputText(arg_45_1)
 	end
 end
 

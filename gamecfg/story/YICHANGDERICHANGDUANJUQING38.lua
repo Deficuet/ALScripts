@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "大楼里常年都是这样昏暗的光线，我有点看腻了……",
 			typewriter = {
 				speed = 0.05,
@@ -17,10 +18,11 @@ return {
 		},
 		{
 			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			NextIcon = 1,
 			say = "好想换点新鲜的氛围……指挥官你有什么想法吗？",
 			typewriter = {
 				speed = 0.05,
@@ -40,11 +42,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 900562,
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
 			optionFlag = 1,
+			actor = 900562,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "如此新奇的想法……一定能让大楼充满新感觉！",
 			typewriter = {
 				speed = 0.05,
@@ -54,11 +57,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 900562,
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
 			optionFlag = 1,
+			actor = 900562,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我这就去采购！",
 			typewriter = {
 				speed = 0.05,
@@ -67,11 +71,12 @@ return {
 		},
 		{
 			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			NextIcon = 1,
 			say = "你真的这么觉得……？",
 			typewriter = {
 				speed = 0.05,
@@ -81,11 +86,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 900562,
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
 			optionFlag = 2,
+			actor = 900562,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "算了，我还是自己想想主意吧。",
 			typewriter = {
 				speed = 0.05,

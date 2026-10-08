@@ -376,7 +376,46 @@ pg.dorm3d_camera_anim_template.all = {
 	26002,
 	26003,
 	26004,
-	26005
+	26005,
+	26006,
+	26007,
+	26008,
+	26009,
+	26010,
+	22001,
+	22002,
+	22003,
+	22004,
+	22005,
+	22006,
+	22007,
+	22008,
+	22009,
+	22010,
+	22011,
+	22012,
+	22013,
+	22014,
+	22015,
+	22101,
+	22102,
+	22103,
+	22104,
+	22201,
+	22202,
+	22203,
+	22204,
+	22301,
+	22302,
+	22303,
+	22304,
+	22401,
+	22402,
+	22403,
+	22404,
+	22405,
+	22406,
+	22407
 }
 pg.dorm3d_camera_anim_template.get_id_list_by_furniture_id = {
 	[0] = {
@@ -523,7 +562,27 @@ pg.dorm3d_camera_anim_template.get_id_list_by_furniture_id = {
 		26002,
 		26003,
 		26004,
-		26005
+		26005,
+		26006,
+		26007,
+		26008,
+		26009,
+		26010,
+		22001,
+		22002,
+		22003,
+		22004,
+		22005,
+		22006,
+		22007,
+		22008,
+		22009,
+		22010,
+		22011,
+		22012,
+		22013,
+		22014,
+		22015
 	},
 	{
 		1201,
@@ -842,6 +901,33 @@ pg.dorm3d_camera_anim_template.get_id_list_by_furniture_id = {
 		21403,
 		21404,
 		21405
+	},
+	[2201] = {
+		22101,
+		22102,
+		22103,
+		22104
+	},
+	[2202] = {
+		22201,
+		22202,
+		22203,
+		22204
+	},
+	[2203] = {
+		22301,
+		22302,
+		22303,
+		22304
+	},
+	[2261] = {
+		22401,
+		22402,
+		22403,
+		22404,
+		22405,
+		22406,
+		22407
 	}
 }
 pg.base = pg.base or {}
@@ -8549,7 +8635,7 @@ end)()
 		pre_anim = 0,
 		zone = "",
 		icon = "camera_action2",
-		room = 21,
+		room = 26,
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 26001,
@@ -8567,7 +8653,7 @@ end)()
 		pre_anim = 26001,
 		zone = "",
 		icon = "camera_action6",
-		room = 21,
+		room = 26,
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 26001,
@@ -8585,7 +8671,7 @@ end)()
 		pre_anim = 26001,
 		zone = "",
 		icon = "camera_action9",
-		room = 21,
+		room = 26,
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 26001,
@@ -8603,7 +8689,7 @@ end)()
 		pre_anim = 26001,
 		zone = "",
 		icon = "camera_action5",
-		room = 21,
+		room = 26,
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 26001,
@@ -8621,11 +8707,850 @@ end)()
 		pre_anim = 26001,
 		zone = "",
 		icon = "camera_action11",
-		room = 21,
+		room = 26,
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 26001,
 		hide_scene_item = "",
 		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[26006] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 20707,
+		state = "Idle",
+		desc = "静待",
+		staypoint = "",
+		id = 26006,
+		pre_anim = 0,
+		zone = "",
+		icon = "camera_action2",
+		room = 26,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 26006,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[26007] = {
+		anim_time = 6,
+		unlock = "",
+		ship_group = 20707,
+		state = "XC_entice_01-start",
+		desc = "邀请",
+		staypoint = "",
+		id = 26007,
+		pre_anim = 26006,
+		zone = "",
+		icon = "camera_action6",
+		room = 26,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 26006,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[26008] = {
+		anim_time = 8.2,
+		unlock = "",
+		ship_group = 20707,
+		state = "XC_heart_01-start",
+		desc = "亲昵",
+		staypoint = "",
+		id = 26008,
+		pre_anim = 26006,
+		zone = "",
+		icon = "camera_action9",
+		room = 26,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 26006,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[26009] = {
+		anim_time = 6.33,
+		unlock = "",
+		ship_group = 20707,
+		state = "XC_hug_01-start",
+		desc = "拥抱",
+		staypoint = "",
+		id = 26009,
+		pre_anim = 26006,
+		zone = "",
+		icon = "camera_action5",
+		room = 26,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 26006,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[26010] = {
+		anim_time = 7.5,
+		unlock = "",
+		ship_group = 20707,
+		state = "XC_pray_01-start",
+		desc = "思考 ",
+		staypoint = "",
+		id = 26010,
+		pre_anim = 26006,
+		zone = "",
+		icon = "camera_action11",
+		room = 26,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 26006,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22001] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 20707,
+		state = "Idle",
+		desc = "静待",
+		staypoint = "",
+		id = 22001,
+		pre_anim = 0,
+		zone = "",
+		icon = "camera_action2",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22002] = {
+		anim_time = 7.2,
+		unlock = "",
+		ship_group = 20707,
+		state = "nod_01",
+		desc = "点头",
+		staypoint = "",
+		id = 22002,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action7",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22003] = {
+		anim_time = 6.467,
+		unlock = "",
+		ship_group = 20707,
+		state = "shake_01",
+		desc = "摇头",
+		staypoint = "",
+		id = 22003,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action12",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22004] = {
+		anim_time = 7.066,
+		unlock = "",
+		ship_group = 20707,
+		state = "doubt_01-start",
+		desc = "疑惑",
+		staypoint = "",
+		id = 22004,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action1",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22005] = {
+		anim_time = 6,
+		unlock = "",
+		ship_group = 20707,
+		state = "entice_01-start",
+		desc = "邀请",
+		staypoint = "",
+		id = 22005,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action6",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22006] = {
+		anim_time = 6.06,
+		unlock = "",
+		ship_group = 20707,
+		state = "happy_01-start",
+		desc = "开心",
+		staypoint = "",
+		id = 22006,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action8",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22007] = {
+		anim_time = 6.27,
+		unlock = "",
+		ship_group = 20707,
+		state = "excited_01-start",
+		desc = "激动",
+		staypoint = "",
+		id = 22007,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action7",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22008] = {
+		anim_time = 6.67,
+		unlock = "",
+		ship_group = 20707,
+		state = "talk_01-start",
+		desc = "交谈",
+		staypoint = "",
+		id = 22008,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action8",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22009] = {
+		anim_time = 8.2,
+		unlock = "",
+		ship_group = 20707,
+		state = "heart_01-start",
+		desc = "亲昵",
+		staypoint = "",
+		id = 22009,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action9",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22010] = {
+		anim_time = 6.33,
+		unlock = "",
+		ship_group = 20707,
+		state = "hug_01-start",
+		desc = "拥抱",
+		staypoint = "",
+		id = 22010,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action5",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22011] = {
+		anim_time = 6.933,
+		unlock = "",
+		ship_group = 20707,
+		state = "anger_01-start",
+		desc = "害羞 ",
+		staypoint = "",
+		id = 22011,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action5",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22012] = {
+		anim_time = 6.5,
+		unlock = "",
+		ship_group = 20707,
+		state = "talk_02-start",
+		desc = "解释",
+		staypoint = "",
+		id = 22012,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action11",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22013] = {
+		anim_time = 6,
+		unlock = "",
+		ship_group = 20707,
+		state = "think_01-start",
+		desc = "思考 ",
+		staypoint = "",
+		id = 22013,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action3",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22014] = {
+		anim_time = 6,
+		unlock = "",
+		ship_group = 20707,
+		state = "expect_01-start",
+		desc = "期待",
+		staypoint = "",
+		id = 22014,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action11",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22015] = {
+		anim_time = 7.5,
+		unlock = "",
+		ship_group = 20707,
+		state = "pray_01-start",
+		desc = "思考 ",
+		staypoint = "",
+		id = 22015,
+		pre_anim = 22001,
+		zone = "",
+		icon = "camera_action11",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 22001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22101] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_bed01_idle01",
+		desc = "静待",
+		staypoint = "Pos800110",
+		id = 22101,
+		pre_anim = 0,
+		zone = "22001",
+		icon = "camera_action13",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2201,
+		finish_anim = 22101,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22102] = {
+		anim_time = 12.933,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_bed01_idle01_fb01",
+		desc = "放松",
+		staypoint = "Pos800110",
+		id = 22102,
+		pre_anim = 22101,
+		zone = "22001",
+		icon = "camera_action14",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2201,
+		finish_anim = 22101,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22103] = {
+		anim_time = 13.333,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_bed01_idle01_fb02",
+		desc = "邀请",
+		staypoint = "Pos800110",
+		id = 22103,
+		pre_anim = 22101,
+		zone = "22001",
+		icon = "camera_action15",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2201,
+		finish_anim = 22101,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22104] = {
+		anim_time = 14.233,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_bed01_idle01_fb03",
+		desc = "伸展",
+		staypoint = "Pos800110",
+		id = 22104,
+		pre_anim = 22101,
+		zone = "22001",
+		icon = "camera_action16",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2201,
+		finish_anim = 22101,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22201] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_desk01_idle01",
+		desc = "静待",
+		staypoint = "Pos800210",
+		id = 22201,
+		pre_anim = 0,
+		zone = "22002",
+		icon = "camera_action17",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2202,
+		finish_anim = 22201,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22202] = {
+		anim_time = 14.667,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_desk01_idle01_fb01",
+		desc = "猫式伸展",
+		staypoint = "Pos800210",
+		id = 22202,
+		pre_anim = 22201,
+		zone = "22002",
+		icon = "camera_action18",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2202,
+		finish_anim = 22201,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+end)()
+;(function()
+	pg.base.dorm3d_camera_anim_template[22203] = {
+		anim_time = 14.333,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_desk01_idle01_fb02",
+		desc = "伸懒腰",
+		staypoint = "Pos800210",
+		id = 22203,
+		pre_anim = 22201,
+		zone = "22002",
+		icon = "camera_action19",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2202,
+		finish_anim = 22201,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22204] = {
+		anim_time = 15.5,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_desk01_idle01_fb03",
+		desc = "蹭动",
+		staypoint = "Pos800210",
+		id = 22204,
+		pre_anim = 22201,
+		zone = "22002",
+		icon = "camera_action20",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2202,
+		finish_anim = 22201,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	}
+	pg.base.dorm3d_camera_anim_template[22301] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_living01_idle01",
+		desc = "静待",
+		staypoint = "Pos800310",
+		id = 22301,
+		pre_anim = 0,
+		zone = "22003",
+		icon = "camera_action13",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2203,
+		finish_anim = 22301,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				4001,
+				"IK_living01_idle01_shafa"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[22302] = {
+		anim_time = 21.5,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_living01_idle01_fb01",
+		desc = "侧身",
+		staypoint = "Pos800310",
+		id = 22302,
+		pre_anim = 22301,
+		zone = "22003",
+		icon = "camera_action14",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2203,
+		finish_anim = 22301,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				4001,
+				"IK_living01_idle01_fb01_shafa"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[22303] = {
+		anim_time = 18.333,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_living01_idle01_fb02",
+		desc = "品尝",
+		staypoint = "Pos800310",
+		id = 22303,
+		pre_anim = 22301,
+		zone = "22003",
+		icon = "camera_action15",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2203,
+		finish_anim = 22301,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				4001,
+				"IK_living01_idle01_fb02_shafa"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[22304] = {
+		anim_time = 18.333,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_living01_idle01_fb03",
+		desc = "放松",
+		staypoint = "Pos800310",
+		id = 22304,
+		pre_anim = 22301,
+		zone = "22003",
+		icon = "camera_action16",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2203,
+		finish_anim = 22301,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				4001,
+				"IK_living01_idle01_fb03_shafa"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[22401] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_desk02_idle01",
+		desc = "静待",
+		staypoint = "Pos800410",
+		id = 22401,
+		pre_anim = 0,
+		zone = "22002",
+		icon = "camera_action13",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2261,
+		finish_anim = 22401,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle01-MYZ"
+			},
+			{
+				4003,
+				"vfx_bomb02_idle1"
+			},
+			{
+				4004,
+				"vfx_bomb02_idle2"
+			},
+			{
+				4006,
+				"vfx_moping01_idle"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[22402] = {
+		anim_time = 14.933,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_desk02_idle01_fb01",
+		desc = "惊讶",
+		staypoint = "Pos800410",
+		id = 22402,
+		pre_anim = 22401,
+		zone = "22002",
+		icon = "camera_action20",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2261,
+		finish_anim = 22401,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle01_fb01_MYZ"
+			},
+			{
+				4003,
+				"vfx_IK_desk02_idle01_fb01"
+			},
+			{
+				4004,
+				"vfx_bomb02_idle2"
+			},
+			{
+				4006,
+				"vfx_moping01_idle"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[22403] = {
+		anim_time = 15.2,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_desk02_idle01_fb02",
+		desc = "紧张",
+		staypoint = "Pos800410",
+		id = 22403,
+		pre_anim = 22401,
+		zone = "22002",
+		icon = "camera_action21",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2261,
+		finish_anim = 22401,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle01_fb02_MYZ"
+			},
+			{
+				4003,
+				"vfx_bomb02_idle1"
+			},
+			{
+				4004,
+				"vfx_IK_desk02_idle01_fb02"
+			},
+			{
+				4006,
+				"vfx_IK_desk02_idle01_fb02-MYZ"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[22404] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_desk02_idle02",
+		desc = "静待",
+		staypoint = "Pos800410",
+		id = 22404,
+		pre_anim = 0,
+		zone = "22002",
+		icon = "camera_action2",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2261,
+		finish_anim = 22404,
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle02-MYZ"
+			},
+			{
+				4005,
+				"vfx_bomb_g_idle2"
+			},
+			{
+				4007,
+				"vfx_bomb03_idle"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0",
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0_night"
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[22405] = {
+		anim_time = 19.033,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_desk02_idle02_fb01",
+		desc = "吓一跳",
+		staypoint = "Pos800430",
+		id = 22405,
+		pre_anim = 22404,
+		zone = "22002",
+		icon = "camera_action11",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2261,
+		finish_anim = 22404,
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle02_fb01_MYZ"
+			},
+			{
+				4005,
+				"vfx_desk02_idle02_fb01-MYZ_shuizi"
+			},
+			{
+				4007,
+				"vfx_desk02_idle02_fb01-MYZ"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0",
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0_night"
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[22406] = {
+		anim_time = 31.433,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_desk02_idle02_fb02",
+		desc = "撒娇",
+		staypoint = "Pos800430",
+		id = 22406,
+		pre_anim = 22404,
+		zone = "22002",
+		icon = "camera_action12",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2261,
+		finish_anim = 22404,
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle02_fb02_MYZ"
+			},
+			{
+				4005,
+				"vfx_bomb_g_idle2"
+			},
+			{
+				4007,
+				"vfx_bomb03_idle"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0",
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0_night"
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[22407] = {
+		anim_time = 21.967,
+		unlock = "",
+		ship_group = 20707,
+		state = "IK_desk02_idle02_fb03",
+		desc = "品尝",
+		staypoint = "Pos800430",
+		id = 22407,
+		pre_anim = 22404,
+		zone = "22002",
+		icon = "camera_action13",
+		room = 22,
+		enter_extra_item = "",
+		furniture_id = 2261,
+		finish_anim = 22404,
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle02_fb03_MYZ"
+			},
+			{
+				4005,
+				"vfx_bomb_g_idle2"
+			},
+			{
+				4007,
+				"vfx_bomb03_idle"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0",
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0_night"
+		}
 	}
 end)()

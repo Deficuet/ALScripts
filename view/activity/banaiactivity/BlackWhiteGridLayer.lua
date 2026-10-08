@@ -1053,309 +1053,318 @@ function var_0_0.getUIName(arg_123_0)
 	return "BlackWhiteGridUI"
 end
 
-function var_0_0.preload(arg_124_0, arg_124_1)
-	local var_124_0 = {}
+function var_0_0.getResource(arg_124_0)
+	local var_124_0 = var_0_0.super.getResource(arg_124_0)
 
-	for iter_124_0 = 0, 4 do
-		for iter_124_1 = 0, 2 do
-			table.insert(var_124_0, iter_124_0 .. "_" .. iter_124_1)
+	table.insert(var_124_0, "ui/blackwhitegrid_atlas")
+	table.insert(var_124_0, "clutter/blackwhite_bg")
+
+	return var_124_0
+end
+
+function var_0_0.preload(arg_125_0, arg_125_1)
+	local var_125_0 = {}
+
+	for iter_125_0 = 0, 4 do
+		for iter_125_1 = 0, 2 do
+			table.insert(var_125_0, iter_125_0 .. "_" .. iter_125_1)
 		end
 	end
 
 	var_0_17 = {}
 
-	AssetBundleHelper.LoadManyAssets("ui/blackwhitegrid_atlas", var_124_0, nil, true, function(arg_125_0)
-		for iter_125_0 = 0, 4 do
-			var_0_17[iter_125_0] = {}
+	AssetBundleHelper.LoadManyAssets("ui/blackwhitegrid_atlas", var_125_0, nil, true, function(arg_126_0)
+		for iter_126_0 = 0, 4 do
+			var_0_17[iter_126_0] = {}
 
-			for iter_125_1 = 0, 2 do
-				var_0_17[iter_125_0][iter_125_1] = arg_125_0[iter_125_0 .. "_" .. iter_125_1]
+			for iter_126_1 = 0, 2 do
+				var_0_17[iter_126_0][iter_126_1] = arg_126_0[iter_126_0 .. "_" .. iter_126_1]
 			end
 		end
 	end, true)
 
-	arg_124_0.bgSprite = nil
+	arg_125_0.bgSprite = nil
 
-	LoadSpriteAsync("clutter/blackwhite_bg", function(arg_126_0)
-		arg_124_0.bgSprite = arg_126_0
+	LoadSpriteAsync("clutter/blackwhite_bg", function(arg_127_0)
+		arg_125_0.bgSprite = arg_127_0
 
-		arg_124_1()
+		arg_125_1()
 	end)
 end
 
-function var_0_0.setActivity(arg_127_0, arg_127_1)
-	arg_127_0.activityVO = arg_127_1
-	arg_127_0.passIds = arg_127_1.data1_list
-	arg_127_0.scores = arg_127_1.data2_list
+function var_0_0.setActivity(arg_128_0, arg_128_1)
+	arg_128_0.activityVO = arg_128_1
+	arg_128_0.passIds = arg_128_1.data1_list
+	arg_128_0.scores = arg_128_1.data2_list
 
-	arg_127_0:updateFur()
+	arg_128_0:updateFur()
 end
 
-function var_0_0.setPlayer(arg_128_0, arg_128_1)
-	arg_128_0.player = arg_128_1
+function var_0_0.setPlayer(arg_129_0, arg_129_1)
+	arg_129_0.player = arg_129_1
 end
 
-function var_0_0.init(arg_129_0)
-	arg_129_0.mapTF = arg_129_0._tf:Find("map")
-	arg_129_0.backBtn = arg_129_0._tf:Find("back")
-	arg_129_0.toggleTFs = arg_129_0._tf:Find("toggles")
-	arg_129_0.poolMgr = var_0_20(arg_129_0.mapTF:Find("root"))
-	arg_129_0.successMsgbox = var_0_26(arg_129_0._tf:Find("success_bg"))
-	arg_129_0.failedMsgbox = var_0_26(arg_129_0._tf:Find("failed_bg"))
-	arg_129_0.furGot = arg_129_0._tf:Find("fur/got")
-	arg_129_0.helpBtn = arg_129_0._tf:Find("help")
-	arg_129_0._tf:GetComponent(typeof(Image)).sprite = arg_129_0.bgSprite
+function var_0_0.init(arg_130_0)
+	arg_130_0.mapTF = arg_130_0._tf:Find("map")
+	arg_130_0.backBtn = arg_130_0._tf:Find("back")
+	arg_130_0.toggleTFs = arg_130_0._tf:Find("toggles")
+	arg_130_0.poolMgr = var_0_20(arg_130_0.mapTF:Find("root"))
+	arg_130_0.successMsgbox = var_0_26(arg_130_0._tf:Find("success_bg"))
+	arg_130_0.failedMsgbox = var_0_26(arg_130_0._tf:Find("failed_bg"))
+	arg_130_0.furGot = arg_130_0._tf:Find("fur/got")
+	arg_130_0.helpBtn = arg_130_0._tf:Find("help")
+	arg_130_0._tf:GetComponent(typeof(Image)).sprite = arg_130_0.bgSprite
 end
 
-function var_0_0.didEnter(arg_130_0)
-	onButton(arg_130_0, arg_130_0.backBtn, function()
-		arg_130_0:emit(var_0_0.ON_CLOSE)
+function var_0_0.didEnter(arg_131_0)
+	onButton(arg_131_0, arg_131_0.backBtn, function()
+		arg_131_0:emit(var_0_0.ON_CLOSE)
 	end, SFX_PANEL)
-	onButton(arg_130_0, arg_130_0.helpBtn, function()
+	onButton(arg_131_0, arg_131_0.helpBtn, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.black_white_grid_notice.tip
 		})
 	end, SFX_PANEL)
 
-	local var_130_0 = arg_130_0.activityVO
+	local var_131_0 = arg_131_0.activityVO
 
-	arg_130_0.selecteds = {}
+	arg_131_0.selecteds = {}
 
-	local function var_130_1(arg_133_0)
-		eachChild(arg_133_0, function(arg_134_0)
-			if go(arg_134_0).name ~= "text" and go(arg_134_0).activeSelf then
-				local var_134_0 = arg_134_0:GetComponent(typeof(Image))
+	local function var_131_1(arg_134_0)
+		eachChild(arg_134_0, function(arg_135_0)
+			if go(arg_135_0).name ~= "text" and go(arg_135_0).activeSelf then
+				local var_135_0 = arg_135_0:GetComponent(typeof(Image))
 
-				var_134_0.color = var_0_12
+				var_135_0.color = var_0_12
 
-				table.insert(arg_130_0.selecteds, var_134_0)
+				table.insert(arg_131_0.selecteds, var_135_0)
 			end
 		end)
 	end
 
-	local function var_130_2()
-		for iter_135_0, iter_135_1 in ipairs(arg_130_0.selecteds) do
-			iter_135_1.color = Color.New(1, 1, 1, 1)
+	local function var_131_2()
+		for iter_136_0, iter_136_1 in ipairs(arg_131_0.selecteds) do
+			iter_136_1.color = Color.New(1, 1, 1, 1)
 		end
 
-		arg_130_0.selecteds = {}
+		arg_131_0.selecteds = {}
 	end
 
-	arg_130_0.btns = {}
-	arg_130_0.maps = {}
+	arg_131_0.btns = {}
+	arg_131_0.maps = {}
 
-	for iter_130_0, iter_130_1 in ipairs(var_130_0:getConfig("config_data")) do
-		local var_130_3 = var_0_16[iter_130_1]
-		local var_130_4 = arg_130_0.toggleTFs:GetChild(iter_130_0 - 1)
+	for iter_131_0, iter_131_1 in ipairs(var_131_0:getConfig("config_data")) do
+		local var_131_3 = var_0_16[iter_131_1]
+		local var_131_4 = arg_131_0.toggleTFs:GetChild(iter_131_0 - 1)
 
-		arg_130_0.maps[iter_130_1] = arg_130_0:GetMapVO(var_130_3)
+		arg_131_0.maps[iter_131_1] = arg_131_0:GetMapVO(var_131_3)
 
-		onButton(arg_130_0, var_130_4, function()
-			if arg_130_0.id == iter_130_1 then
+		onButton(arg_131_0, var_131_4, function()
+			if arg_131_0.id == iter_131_1 then
 				return
 			end
 
-			if arg_130_0.mapView and arg_130_0.mapView.map:inProcess() then
+			if arg_131_0.mapView and arg_131_0.mapView.map:inProcess() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("black_white_grid_switch_tip"))
 
 				return
 			end
 
-			arg_130_0.id = iter_130_1
+			arg_131_0.id = iter_131_1
 
-			local var_136_0 = arg_130_0:GetMapVO(var_130_3)
+			local var_137_0 = arg_131_0:GetMapVO(var_131_3)
 
-			arg_130_0:loadMap(var_136_0)
+			arg_131_0:loadMap(var_137_0)
 
-			if #arg_130_0.selecteds > 0 then
-				var_130_2()
+			if #arg_131_0.selecteds > 0 then
+				var_131_2()
 			end
 
-			var_130_1(var_130_4)
+			var_131_1(var_131_4)
 		end, SFX_PANEL)
 
-		arg_130_0.btns[iter_130_1] = var_130_4
+		arg_131_0.btns[iter_131_1] = var_131_4
 	end
 
-	local var_130_5 = arg_130_0:GetLastestUnlockMap()
+	local var_131_5 = arg_131_0:GetLastestUnlockMap()
 
-	if var_130_5 then
-		triggerButton(var_130_5)
+	if var_131_5 then
+		triggerButton(var_131_5)
 	end
 
-	arg_130_0:updateBtnsState()
+	arg_131_0:updateBtnsState()
 end
 
-function var_0_0.updateFur(arg_137_0)
-	if arg_137_0.furGot then
-		local var_137_0 = arg_137_0.activityVO:getConfig("config_data")
-		local var_137_1 = var_137_0[#var_137_0 - 1]
+function var_0_0.updateFur(arg_138_0)
+	if arg_138_0.furGot then
+		local var_138_0 = arg_138_0.activityVO:getConfig("config_data")
+		local var_138_1 = var_138_0[#var_138_0 - 1]
 
-		setActive(arg_137_0.furGot, table.contains(arg_137_0.passIds, var_137_1))
+		setActive(arg_138_0.furGot, table.contains(arg_138_0.passIds, var_138_1))
 	end
 end
 
-function var_0_0.isUnlock(arg_138_0, arg_138_1)
-	local var_138_0 = arg_138_1.unlock[1]
-	local var_138_1 = arg_138_1.unlock[2]
-	local var_138_2 = getProxy(ChapterProxy):getChapterById(var_138_1)
-	local var_138_3 = var_138_2 and var_138_2:isUnlock() and var_138_2:isAllAchieve()
-	local var_138_4 = var_138_0 == 0 or table.contains(arg_138_0.passIds, var_138_0)
+function var_0_0.isUnlock(arg_139_0, arg_139_1)
+	local var_139_0 = arg_139_1.unlock[1]
+	local var_139_1 = arg_139_1.unlock[2]
+	local var_139_2 = getProxy(ChapterProxy):getChapterById(var_139_1)
+	local var_139_3 = var_139_2 and var_139_2:isUnlock() and var_139_2:isAllAchieve()
+	local var_139_4 = var_139_0 == 0 or table.contains(arg_139_0.passIds, var_139_0)
 
-	return var_138_3 and var_138_4
+	return var_139_3 and var_139_4
 end
 
-function var_0_0.GetLastestUnlockMap(arg_139_0)
-	local var_139_0 = arg_139_0:GetMapIndex()
+function var_0_0.GetLastestUnlockMap(arg_140_0)
+	local var_140_0 = arg_140_0:GetMapIndex()
 
-	if arg_139_0.btns[var_139_0] then
-		return arg_139_0.btns[var_139_0]
+	if arg_140_0.btns[var_140_0] then
+		return arg_140_0.btns[var_140_0]
 	else
-		local var_139_1
-		local var_139_2 = 0
+		local var_140_1
+		local var_140_2 = 0
 
-		for iter_139_0, iter_139_1 in pairs(arg_139_0.btns) do
-			var_139_2 = var_139_2 + 1
+		for iter_140_0, iter_140_1 in pairs(arg_140_0.btns) do
+			var_140_2 = var_140_2 + 1
 
-			if arg_139_0:isUnlock(var_0_16[iter_139_0]) or var_139_2 == 1 then
-				var_139_1 = iter_139_1
+			if arg_140_0:isUnlock(var_0_16[iter_140_0]) or var_140_2 == 1 then
+				var_140_1 = iter_140_1
 			end
 		end
 
-		return var_139_1
+		return var_140_1
 	end
 end
 
-function var_0_0.updateBtnsState(arg_140_0)
-	for iter_140_0, iter_140_1 in pairs(arg_140_0.btns) do
-		local var_140_0 = table.contains(arg_140_0.passIds, iter_140_0)
-		local var_140_1 = arg_140_0:isUnlock(var_0_16[iter_140_0])
+function var_0_0.updateBtnsState(arg_141_0)
+	for iter_141_0, iter_141_1 in pairs(arg_141_0.btns) do
+		local var_141_0 = table.contains(arg_141_0.passIds, iter_141_0)
+		local var_141_1 = arg_141_0:isUnlock(var_0_16[iter_141_0])
 
-		setActive(iter_140_1:Find("finished"), var_140_0)
-		setActive(iter_140_1:Find("locked"), not var_140_1)
-		setActive(iter_140_1:Find("opening"), not var_140_0 and var_140_1)
+		setActive(iter_141_1:Find("finished"), var_141_0)
+		setActive(iter_141_1:Find("locked"), not var_141_1)
+		setActive(iter_141_1:Find("opening"), not var_141_0 and var_141_1)
 	end
 end
 
-function var_0_0.GetMapVO(arg_141_0, arg_141_1)
-	local var_141_0
-	local var_141_1 = table.indexof(arg_141_0.passIds, arg_141_1.id)
-	local var_141_2 = table.contains(arg_141_0.passIds, arg_141_1.id)
-	local var_141_3 = var_141_1 and arg_141_0.scores[var_141_1] or 0
-	local var_141_4 = {
-		highestScore = var_141_3,
-		isFinished = var_141_2,
-		isUnlock = arg_141_0:isUnlock(arg_141_1)
+function var_0_0.GetMapVO(arg_142_0, arg_142_1)
+	local var_142_0
+	local var_142_1 = table.indexof(arg_142_0.passIds, arg_142_1.id)
+	local var_142_2 = table.contains(arg_142_0.passIds, arg_142_1.id)
+	local var_142_3 = var_142_1 and arg_142_0.scores[var_142_1] or 0
+	local var_142_4 = {
+		highestScore = var_142_3,
+		isFinished = var_142_2,
+		isUnlock = arg_142_0:isUnlock(arg_142_1)
 	}
 
-	if arg_141_0.maps[arg_141_1.id] then
-		var_141_0 = arg_141_0.maps[arg_141_1.id]
+	if arg_142_0.maps[arg_142_1.id] then
+		var_142_0 = arg_142_0.maps[arg_142_1.id]
 
-		var_141_0:UpdateData(var_141_4)
+		var_142_0:UpdateData(var_142_4)
 	else
-		local var_141_5, var_141_6, var_141_7 = arg_141_0:parseMap(arg_141_1)
-		local var_141_8 = {
-			id = arg_141_1.id,
-			maps = var_141_5,
-			calcStep = var_141_6,
-			maxCount = arg_141_1.num,
-			condition = arg_141_1.condition,
-			started = var_141_7
+		local var_142_5, var_142_6, var_142_7 = arg_142_0:parseMap(arg_142_1)
+		local var_142_8 = {
+			id = arg_142_1.id,
+			maps = var_142_5,
+			calcStep = var_142_6,
+			maxCount = arg_142_1.num,
+			condition = arg_142_1.condition,
+			started = var_142_7
 		}
 
-		var_141_0 = var_0_23(var_141_8)
+		var_142_0 = var_0_23(var_142_8)
 
-		var_141_0:UpdateData(var_141_4)
+		var_142_0:UpdateData(var_142_4)
 	end
 
-	return var_141_0
+	return var_142_0
 end
 
-function var_0_0.parseMap(arg_142_0, arg_142_1)
-	local var_142_0 = PlayerPrefs.GetString("BlackWhiteGridMapData-" .. arg_142_1.id .. "-" .. arg_142_0.player.id, "")
+function var_0_0.parseMap(arg_143_0, arg_143_1)
+	local var_143_0 = PlayerPrefs.GetString("BlackWhiteGridMapData-" .. arg_143_1.id .. "-" .. arg_143_0.player.id, "")
 
-	if not var_142_0 or var_142_0 == "" then
-		return arg_142_1.map, arg_142_1.num, false
+	if not var_143_0 or var_143_0 == "" then
+		return arg_143_1.map, arg_143_1.num, false
 	else
-		local var_142_1 = var_142_0:split("#")
+		local var_143_1 = var_143_0:split("#")
 
-		return loadstring("return " .. var_142_1[1])(), tonumber(var_142_1[2]), var_142_1[3] == "1"
+		return loadstring("return " .. var_143_1[1])(), tonumber(var_143_1[2]), var_143_1[3] == "1"
 	end
 end
 
-function var_0_0.SaveMapsData(arg_143_0)
-	local var_143_0 = arg_143_0.maps
+function var_0_0.SaveMapsData(arg_144_0)
+	local var_144_0 = arg_144_0.maps
 
-	for iter_143_0, iter_143_1 in ipairs(var_143_0) do
-		local var_143_1 = iter_143_1:Serialize()
+	for iter_144_0, iter_144_1 in ipairs(var_144_0) do
+		local var_144_1 = iter_144_1:Serialize()
 
-		if var_143_1 and var_143_1 ~= "" then
-			PlayerPrefs.SetString("BlackWhiteGridMapData-" .. iter_143_1.id .. "-" .. arg_143_0.player.id, var_143_1)
+		if var_144_1 and var_144_1 ~= "" then
+			PlayerPrefs.SetString("BlackWhiteGridMapData-" .. iter_144_1.id .. "-" .. arg_144_0.player.id, var_144_1)
 		end
 	end
 
 	PlayerPrefs.Save()
 end
 
-function var_0_0.GetMapIndex(arg_144_0)
-	return (PlayerPrefs.GetInt("BlackWhiteGridMapIndex-" .. arg_144_0.player.id, 1))
+function var_0_0.GetMapIndex(arg_145_0)
+	return (PlayerPrefs.GetInt("BlackWhiteGridMapIndex-" .. arg_145_0.player.id, 1))
 end
 
-function var_0_0.SaveMapIndex(arg_145_0)
-	local var_145_0 = arg_145_0.id or 1
+function var_0_0.SaveMapIndex(arg_146_0)
+	local var_146_0 = arg_146_0.id or 1
 
-	PlayerPrefs.SetInt("BlackWhiteGridMapIndex-" .. arg_145_0.player.id, var_145_0)
+	PlayerPrefs.SetInt("BlackWhiteGridMapIndex-" .. arg_146_0.player.id, var_146_0)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.loadMap(arg_146_0, arg_146_1)
-	if arg_146_0.mapView then
-		arg_146_0.mapView:Dispose()
+function var_0_0.loadMap(arg_147_0, arg_147_1)
+	if arg_147_0.mapView then
+		arg_147_0.mapView:Dispose()
 	end
 
-	arg_146_0.mapView = var_0_25(arg_146_0.mapTF, arg_146_1, arg_146_0.poolMgr)
+	arg_147_0.mapView = var_0_25(arg_147_0.mapTF, arg_147_1, arg_147_0.poolMgr)
 
-	function arg_146_0.mapView.onFirstFinished(arg_147_0, arg_147_1)
-		arg_146_0:emit(BlackWhiteGridMediator.ON_FINISH, arg_147_0, arg_147_1)
+	function arg_147_0.mapView.onFirstFinished(arg_148_0, arg_148_1)
+		arg_147_0:emit(BlackWhiteGridMediator.ON_FINISH, arg_148_0, arg_148_1)
 	end
 
-	function arg_146_0.mapView.onHighestScore(arg_148_0, arg_148_1)
-		arg_146_0:emit(BlackWhiteGridMediator.ON_UPDATE_SCORE, arg_148_0, arg_148_1)
+	function arg_147_0.mapView.onHighestScore(arg_149_0, arg_149_1)
+		arg_147_0:emit(BlackWhiteGridMediator.ON_UPDATE_SCORE, arg_149_0, arg_149_1)
 	end
 
-	function arg_146_0.mapView.onShowResult(arg_149_0, arg_149_1, arg_149_2)
-		if arg_149_1 >= 0 then
-			arg_146_0.successMsgbox:Show(arg_149_1, arg_149_2)
+	function arg_147_0.mapView.onShowResult(arg_150_0, arg_150_1, arg_150_2)
+		if arg_150_1 >= 0 then
+			arg_147_0.successMsgbox:Show(arg_150_1, arg_150_2)
 		else
-			arg_146_0.failedMsgbox:Show(arg_149_1, arg_149_2)
+			arg_147_0.failedMsgbox:Show(arg_150_1, arg_150_2)
 		end
 	end
 
-	arg_146_1:Init()
+	arg_147_1:Init()
 end
 
-function var_0_0.playStory(arg_150_0, arg_150_1)
-	local var_150_0 = var_0_16[arg_150_0.mapView.map.id].story
+function var_0_0.playStory(arg_151_0, arg_151_1)
+	local var_151_0 = var_0_16[arg_151_0.mapView.map.id].story
 
-	if var_150_0 and var_150_0 ~= "" then
-		pg.NewStoryMgr.GetInstance():Play(var_150_0, arg_150_1, true, true)
+	if var_151_0 and var_151_0 ~= "" then
+		pg.NewStoryMgr.GetInstance():Play(var_151_0, arg_151_1, true, true)
 	else
-		arg_150_1()
+		arg_151_1()
 	end
 end
 
-function var_0_0.willExit(arg_151_0)
-	arg_151_0:SaveMapsData()
-	arg_151_0:SaveMapIndex()
+function var_0_0.willExit(arg_152_0)
+	arg_152_0:SaveMapsData()
+	arg_152_0:SaveMapIndex()
 
-	if arg_151_0.mapView then
-		arg_151_0.mapView:Dispose()
+	if arg_152_0.mapView then
+		arg_152_0.mapView:Dispose()
 	end
 
-	arg_151_0.successMsgbox:Dispose()
-	arg_151_0.failedMsgbox:Dispose()
-	arg_151_0.poolMgr:Dispose()
+	arg_152_0.successMsgbox:Dispose()
+	arg_152_0.failedMsgbox:Dispose()
+	arg_152_0.poolMgr:Dispose()
 
 	var_0_17 = nil
 end

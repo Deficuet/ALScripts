@@ -8,6 +8,7 @@ function var_0_0.Ctor(arg_1_0)
 	arg_1_0.activeIKLayers = {}
 	arg_1_0.holdingStatus = {}
 	arg_1_0.cacheIKInfos = {}
+	arg_1_0.moveCallback = nil
 end
 
 function var_0_0.RegisterEnv(arg_2_0, arg_2_1, arg_2_2)
@@ -402,11 +403,7 @@ function var_0_0.ResetIK(arg_32_0, arg_32_1)
 
 	arg_32_0.holdingStatus[var_32_0] = nil
 
-	if arg_32_0.moveTimer then
-		arg_32_0.moveTimer:Stop()
-
-		arg_32_0.moveTimer = nil
-	end
+	arg_32_0:CancelMove(true)
 end
 
 function var_0_0.ResetIKLayers(arg_35_0, arg_35_1)
@@ -465,11 +462,7 @@ function var_0_0.ResetAllIKLayers(arg_38_0)
 	arg_38_0.ikHandler = nil
 	arg_38_0.ikRevertHandler = nil
 
-	if arg_38_0.moveTimer then
-		arg_38_0.moveTimer:Stop()
-
-		arg_38_0.moveTimer = nil
-	end
+	arg_38_0:CancelMove(true)
 end
 
 function var_0_0.ResetActiveIKs(arg_40_0)
@@ -477,12 +470,7 @@ function var_0_0.ResetActiveIKs(arg_40_0)
 	table.clear(arg_40_0.holdingStatus)
 	arg_40_0:ResetIKLayers(arg_40_0.activeIKLayers)
 	table.clear(arg_40_0.activeIKLayers)
-
-	if arg_40_0.moveTimer then
-		arg_40_0.moveTimer:Stop()
-
-		arg_40_0.moveTimer = nil
-	end
+	arg_40_0:CancelMove(true)
 end
 
 function var_0_0.PlayIKAction(arg_41_0, arg_41_1)
@@ -500,11 +488,7 @@ function var_0_0.PlayIKAction(arg_41_0, arg_41_1)
 end
 
 function var_0_0.PlayIKMove(arg_44_0, arg_44_1, arg_44_2, arg_44_3, arg_44_4, arg_44_5, arg_44_6)
-	if arg_44_0.moveTimer then
-		arg_44_0.moveTimer:Stop()
-
-		arg_44_0.moveTimer = nil
-	end
+	arg_44_0:CancelMove(true)
 
 	arg_44_0.ikRevertHandler = nil
 
@@ -531,27 +515,35 @@ function var_0_0.PlayIKMove(arg_44_0, arg_44_1, arg_44_2, arg_44_3, arg_44_4, ar
 	local var_44_2 = arg_44_1
 	local var_44_3 = arg_44_0.ikHandler.originScreenPosition + arg_44_0.ikHandler.rect:NormalizedToPoint(arg_44_3) * arg_44_4
 
+	arg_44_0.moveCallback = arg_44_6
+
 	local function var_44_4()
 		if not arg_44_0.ikHandler or Time.time > var_44_1 then
+			local var_46_0 = arg_44_0.moveTimer
+
+			arg_44_0.moveTimer = nil
+
+			local var_46_1 = arg_44_0.moveCallback
+
+			arg_44_0.moveCallback = nil
+
 			arg_44_0:ReleaseDrag()
 
-			if arg_44_0.moveTimer then
-				arg_44_0.moveTimer:Stop()
-
-				arg_44_0.moveTimer = nil
+			if var_46_0 then
+				var_46_0:Stop()
 			end
 
-			existCall(arg_44_6)
+			existCall(var_46_1, false)
 
 			return
 		end
 
-		local var_46_0 = math.max(0, var_44_1 - Time.time) / arg_44_5
-		local var_46_1 = Vector2.Lerp(var_44_3, var_44_2, var_46_0)
-		local var_46_2 = pg.UIMgr.GetInstance().uiCamera:Find("Canvas").rect
-		local var_46_3 = Vector2.New(var_46_1.x / var_46_2.width * Screen.width, var_46_1.y / var_46_2.height * Screen.height)
+		local var_46_2 = math.max(0, var_44_1 - Time.time) / arg_44_5
+		local var_46_3 = Vector2.Lerp(var_44_3, var_44_2, var_46_2)
+		local var_46_4 = pg.UIMgr.GetInstance().uiCamera:Find("Canvas").rect
+		local var_46_5 = Vector2.New(var_46_3.x / var_46_4.width * Screen.width, var_46_3.y / var_46_4.height * Screen.height)
 
-		arg_44_0:HandleBodyDrag(var_46_3)
+		arg_44_0:HandleBodyDrag(var_46_5)
 	end
 
 	arg_44_0.moveTimer = FrameTimer.New(var_44_4, 1, -1)
@@ -560,20 +552,36 @@ function var_0_0.PlayIKMove(arg_44_0, arg_44_1, arg_44_2, arg_44_3, arg_44_4, ar
 	var_44_4()
 end
 
-function var_0_0.TransformMesh(arg_47_0)
-	local var_47_0 = arg_47_0.sharedMesh
-	local var_47_1 = {}
-	local var_47_2 = arg_47_0.transform:TransformPoint(var_47_0.vertices[0])
-	local var_47_3 = arg_47_0.transform:TransformPoint(var_47_0.vertices[1])
-	local var_47_4 = arg_47_0.transform:TransformPoint(var_47_0.vertices[2])
+function var_0_0.CancelMove(arg_47_0, arg_47_1)
+	local var_47_0 = arg_47_0.moveTimer
 
-	var_47_1.horizontal = var_47_3 - var_47_2
-	var_47_1.verticle = var_47_4 - var_47_2
-	var_47_1.origin = var_47_2
+	arg_47_0.moveTimer = nil
 
-	return var_47_1
+	if var_47_0 then
+		var_47_0:Stop()
+	end
+
+	local var_47_1 = arg_47_0.moveCallback
+
+	arg_47_0.moveCallback = nil
+
+	existCall(var_47_1, arg_47_1)
 end
 
-function var_0_0.GetPostionByRatio(arg_48_0, arg_48_1)
-	return arg_48_0.horizontal * arg_48_1.x + arg_48_0.verticle * arg_48_1.y + arg_48_0.origin
+function var_0_0.TransformMesh(arg_48_0)
+	local var_48_0 = arg_48_0.sharedMesh
+	local var_48_1 = {}
+	local var_48_2 = arg_48_0.transform:TransformPoint(var_48_0.vertices[0])
+	local var_48_3 = arg_48_0.transform:TransformPoint(var_48_0.vertices[1])
+	local var_48_4 = arg_48_0.transform:TransformPoint(var_48_0.vertices[2])
+
+	var_48_1.horizontal = var_48_3 - var_48_2
+	var_48_1.verticle = var_48_4 - var_48_2
+	var_48_1.origin = var_48_2
+
+	return var_48_1
+end
+
+function var_0_0.GetPostionByRatio(arg_49_0, arg_49_1)
+	return arg_49_0.horizontal * arg_49_1.x + arg_49_0.verticle * arg_49_1.y + arg_49_0.origin
 end

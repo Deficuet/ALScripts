@@ -335,7 +335,12 @@ var_0_0.hxPathList = {
 	"shipdesignicon",
 	"herohrzicon",
 	"skinunlockanim",
-	"spinePainting"
+	"spinePainting",
+	"dorm3dins/",
+	"dorm3dbanner/",
+	"livingareacover/",
+	"dorm3dicon/",
+	"dorm3dselect/"
 }
 var_0_0.folderBundle = {
 	"paintingface"

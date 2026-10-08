@@ -108,6 +108,8 @@ pg.item_data_frame.all = {
 	1012,
 	1013,
 	1014,
+	1015,
+	1016,
 	10001,
 	10002,
 	10003,
@@ -1009,7 +1011,7 @@ pg.base.item_data_frame = {}
 	}
 	pg.base.item_data_frame[1009] = {
 		time_limit_type = 0,
-		name = "樱华树语 ",
+		name = "樱华树语",
 		gain_by = "",
 		id = 1009,
 		time_second = 0,
@@ -1018,7 +1020,7 @@ pg.base.item_data_frame = {}
 	}
 	pg.base.item_data_frame[1010] = {
 		time_limit_type = 0,
-		name = "金凤翎辉 ",
+		name = "金凤翎辉",
 		gain_by = "",
 		id = 1010,
 		time_second = 0,
@@ -1029,7 +1031,7 @@ end)()
 ;(function()
 	pg.base.item_data_frame[1011] = {
 		time_limit_type = 0,
-		name = "深渊之锁 ",
+		name = "深渊之锁",
 		gain_by = "",
 		id = 1011,
 		time_second = 0,
@@ -1038,7 +1040,7 @@ end)()
 	}
 	pg.base.item_data_frame[1012] = {
 		time_limit_type = 0,
-		name = "碧海金冠 ",
+		name = "碧海金冠",
 		gain_by = "",
 		id = 1012,
 		time_second = 0,
@@ -1056,11 +1058,29 @@ end)()
 	}
 	pg.base.item_data_frame[1014] = {
 		time_limit_type = 0,
-		name = "赛博问候 ",
+		name = "赛博问候",
 		gain_by = "",
 		id = 1014,
 		time_second = 0,
 		desc = "爪印与尾巴在数据流中浮现，那是来自赛博空间的猫猫问候。\n<color=#A7A7AA>通过提升「宿舍计划」中纳希莫夫海军上将的契合度等级获取</color>",
+		scene = {}
+	}
+	pg.base.item_data_frame[1015] = {
+		time_limit_type = 0,
+		name = "金雀花冠",
+		gain_by = "",
+		id = 1015,
+		time_second = 0,
+		desc = "深色缎带包裹着圣洁的光泽，花藤蜿蜒的弧度恰似晨祷时指尖划过的轨迹。 \n<color=#A7A7AA>通过提升「宿舍计划」中怨仇的契合度等级获取</color>",
+		scene = {}
+	}
+	pg.base.item_data_frame[1016] = {
+		time_limit_type = 0,
+		name = "绚烂幽光",
+		gain_by = "",
+		id = 1016,
+		time_second = 0,
+		desc = "玫瑰窗的彩光嵌在暗影里，绚烂与幽暗正在穹顶深处和谐相融。 \n<color=#A7A7AA>通过提升「宿舍计划」中怨仇的契合度等级获取</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[10001] = {

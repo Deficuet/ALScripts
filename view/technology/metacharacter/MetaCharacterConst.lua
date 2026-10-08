@@ -346,9 +346,22 @@ function var_0_0.addReMetaTransItem(arg_17_0, arg_17_1)
 	end
 end
 
-function var_0_0.isMetaTaskSkillID(arg_18_0)
-	for iter_18_0, iter_18_1 in ipairs(pg.ship_meta_skilltask.all) do
-		if pg.ship_meta_skilltask[iter_18_1].skill_ID == arg_18_0 then
+function var_0_0.getReMetaTransItem(arg_18_0)
+	local var_18_0 = Player.metaShip2Res(arg_18_0.configId)
+	local var_18_1 = var_18_0[1].type
+	local var_18_2 = var_18_0[1].id
+	local var_18_3 = var_18_0[1].count
+
+	return (Drop.New({
+		type = var_18_1,
+		id = var_18_2,
+		count = var_18_3
+	}))
+end
+
+function var_0_0.isMetaTaskSkillID(arg_19_0)
+	for iter_19_0, iter_19_1 in ipairs(pg.ship_meta_skilltask.all) do
+		if pg.ship_meta_skilltask[iter_19_1].skill_ID == arg_19_0 then
 			return true
 		end
 	end
@@ -356,10 +369,10 @@ function var_0_0.isMetaTaskSkillID(arg_18_0)
 	return false
 end
 
-function var_0_0.isMetaInArchive(arg_19_0)
-	local var_19_0 = getProxy(MetaCharacterProxy):getMetaProgressVOByID(arg_19_0)
+function var_0_0.isMetaInArchive(arg_20_0)
+	local var_20_0 = getProxy(MetaCharacterProxy):getMetaProgressVOByID(arg_20_0)
 
-	if var_19_0:isPtType() and var_19_0:isInArchive() then
+	if var_20_0:isPtType() and var_20_0:isInArchive() then
 		return true
 	else
 		return false
@@ -367,47 +380,32 @@ function var_0_0.isMetaInArchive(arg_19_0)
 end
 
 function var_0_0.getRepairAbleMetaProgressVOList()
-	local var_20_0 = {}
-	local var_20_1 = getProxy(MetaCharacterProxy):getMetaProgressVOList()
-
-	for iter_20_0, iter_20_1 in ipairs(var_20_1) do
-		local var_20_2 = iter_20_1.metaShipVO
-
-		if var_20_2 then
-			local var_20_3 = var_20_2:getMetaCharacter()
-
-			if var_20_3 and var_20_3:getRepairRate() < 1 then
-				table.insert(var_20_0, iter_20_1)
-			end
-		end
-	end
-
-	return var_20_0
-end
-
-function var_0_0.getTacticsAbleMetaProgressVOList()
 	local var_21_0 = {}
 	local var_21_1 = getProxy(MetaCharacterProxy):getMetaProgressVOList()
 
 	for iter_21_0, iter_21_1 in ipairs(var_21_1) do
 		local var_21_2 = iter_21_1.metaShipVO
 
-		if var_21_2 and not var_21_2:isAllMetaSkillLevelMax() then
-			table.insert(var_21_0, iter_21_1)
+		if var_21_2 then
+			local var_21_3 = var_21_2:getMetaCharacter()
+
+			if var_21_3 and var_21_3:getRepairRate() < 1 then
+				table.insert(var_21_0, iter_21_1)
+			end
 		end
 	end
 
 	return var_21_0
 end
 
-function var_0_0.getEnergyAbleMetaProgressVOList()
+function var_0_0.getTacticsAbleMetaProgressVOList()
 	local var_22_0 = {}
 	local var_22_1 = getProxy(MetaCharacterProxy):getMetaProgressVOList()
 
 	for iter_22_0, iter_22_1 in ipairs(var_22_1) do
 		local var_22_2 = iter_22_1.metaShipVO
 
-		if var_22_2 and not var_22_2:isMaxStar() then
+		if var_22_2 and not var_22_2:isAllMetaSkillLevelMax() then
 			table.insert(var_22_0, iter_22_1)
 		end
 	end
@@ -415,53 +413,68 @@ function var_0_0.getEnergyAbleMetaProgressVOList()
 	return var_22_0
 end
 
-function var_0_0.filteMetaByType(arg_23_0, arg_23_1)
-	if not arg_23_1 or arg_23_1 == ShipIndexConst.TypeAll then
+function var_0_0.getEnergyAbleMetaProgressVOList()
+	local var_23_0 = {}
+	local var_23_1 = getProxy(MetaCharacterProxy):getMetaProgressVOList()
+
+	for iter_23_0, iter_23_1 in ipairs(var_23_1) do
+		local var_23_2 = iter_23_1.metaShipVO
+
+		if var_23_2 and not var_23_2:isMaxStar() then
+			table.insert(var_23_0, iter_23_1)
+		end
+	end
+
+	return var_23_0
+end
+
+function var_0_0.filteMetaByType(arg_24_0, arg_24_1)
+	if not arg_24_1 or arg_24_1 == ShipIndexConst.TypeAll then
 		return true
 	end
 
-	local function var_23_0(arg_24_0)
-		local var_24_0
+	local function var_24_0(arg_25_0)
+		local var_25_0
 
-		for iter_24_0 = 1, 4 do
-			local var_24_1 = arg_24_0 * 10 + iter_24_0
+		for iter_25_0 = 1, 4 do
+			local var_25_1 = arg_25_0 * 10 + iter_25_0
 
-			if pg.ship_data_template[var_24_1] then
-				var_24_0 = var_24_1
+			if pg.ship_data_template[var_25_1] then
+				var_25_0 = var_25_1
 			end
 
 			break
 		end
 
-		return pg.ship_data_statistics[var_24_0].type
+		return pg.ship_data_statistics[var_25_0].type
 	end
 
-	local function var_23_1(arg_25_0)
-		return ShipType.GetTeamFromShipType(arg_25_0)
+	local function var_24_1(arg_26_0)
+		return ShipType.GetTeamFromShipType(arg_26_0)
 	end
 
-	for iter_23_0 = 2, #ShipIndexCfg.type do
-		local var_23_2 = bit.lshift(1, iter_23_0 - 2)
+	for iter_24_0 = 2, #ShipIndexCfg.type do
+		local var_24_2 = bit.lshift(1, iter_24_0 - 2)
 
-		if bit.band(var_23_2, arg_23_1) > 0 then
-			if iter_23_0 < 4 then
-				local var_23_3 = var_23_0(arg_23_0.id)
-				local var_23_4 = var_23_1(var_23_3)
-				local var_23_5 = ShipIndexCfg.type[iter_23_0].shipTypes
-				local var_23_6 = ShipIndexCfg.type[iter_23_0].types
+		if bit.band(var_24_2, arg_24_1) > 0 then
+			if iter_24_0 < 4 then
+				local var_24_3 = var_24_0(arg_24_0.id)
+				local var_24_4 = var_24_1(var_24_3)
+				local var_24_5 = ShipIndexCfg.type[iter_24_0].shipTypes
+				local var_24_6 = ShipIndexCfg.type[iter_24_0].types
 
-				if table.contains(var_23_5, var_23_3) then
+				if table.contains(var_24_5, var_24_3) then
 					return true
 				end
 
-				if table.contains(var_23_6, var_23_4) then
+				if table.contains(var_24_6, var_24_4) then
 					return true
 				end
 			else
-				local var_23_7 = var_23_0(arg_23_0.id)
-				local var_23_8 = ShipIndexCfg.type[iter_23_0].types
+				local var_24_7 = var_24_0(arg_24_0.id)
+				local var_24_8 = ShipIndexCfg.type[iter_24_0].types
 
-				if table.contains(var_23_8, var_23_7) then
+				if table.contains(var_24_8, var_24_7) then
 					return true
 				end
 			end
@@ -471,34 +484,34 @@ function var_0_0.filteMetaByType(arg_23_0, arg_23_1)
 	return false
 end
 
-function var_0_0.filteMetaByRarity(arg_26_0, arg_26_1)
-	if not arg_26_1 or arg_26_1 == ShipIndexConst.RarityAll then
+function var_0_0.filteMetaByRarity(arg_27_0, arg_27_1)
+	if not arg_27_1 or arg_27_1 == ShipIndexConst.RarityAll then
 		return true
 	end
 
-	local function var_26_0(arg_27_0)
-		local var_27_0
+	local function var_27_0(arg_28_0)
+		local var_28_0
 
-		for iter_27_0 = 1, 4 do
-			local var_27_1 = arg_27_0 * 10 + iter_27_0
+		for iter_28_0 = 1, 4 do
+			local var_28_1 = arg_28_0 * 10 + iter_28_0
 
-			if pg.ship_data_template[var_27_1] then
-				var_27_0 = var_27_1
+			if pg.ship_data_template[var_28_1] then
+				var_28_0 = var_28_1
 			end
 
 			break
 		end
 
-		return pg.ship_data_statistics[var_27_0].rarity
+		return pg.ship_data_statistics[var_28_0].rarity
 	end
 
-	for iter_26_0 = 2, #ShipIndexCfg.rarity do
-		local var_26_1 = bit.lshift(1, iter_26_0 - 2)
+	for iter_27_0 = 2, #ShipIndexCfg.rarity do
+		local var_27_1 = bit.lshift(1, iter_27_0 - 2)
 
-		if bit.band(var_26_1, arg_26_1) > 0 then
-			local var_26_2 = ShipIndexCfg.rarity[iter_26_0].types
+		if bit.band(var_27_1, arg_27_1) > 0 then
+			local var_27_2 = ShipIndexCfg.rarity[iter_27_0].types
 
-			if table.contains(var_26_2, var_26_0(arg_26_0.id)) then
+			if table.contains(var_27_2, var_27_0(arg_27_0.id)) then
 				return true
 			end
 		end
@@ -507,29 +520,29 @@ function var_0_0.filteMetaByRarity(arg_26_0, arg_26_1)
 	return false
 end
 
-function var_0_0.filteMetaExtra(arg_28_0, arg_28_1)
-	if not arg_28_1 or arg_28_1 == ShipIndexConst.MetaExtraAll then
+function var_0_0.filteMetaExtra(arg_29_0, arg_29_1)
+	if not arg_29_1 or arg_29_1 == ShipIndexConst.MetaExtraAll then
 		return true
 	end
 
-	if ShipIndexConst.MetaExtraRepair == arg_28_1 then
-		return var_0_0.filteMetaRepairAble(arg_28_0)
-	elseif ShipIndexConst.MetaExtraTactics == arg_28_1 then
-		return var_0_0.filteMetaTacticsAble(arg_28_0)
-	elseif ShipIndexConst.MetaExtraEnergy == arg_28_1 then
-		return var_0_0.filteMetaEnergyAble(arg_28_0)
+	if ShipIndexConst.MetaExtraRepair == arg_29_1 then
+		return var_0_0.filteMetaRepairAble(arg_29_0)
+	elseif ShipIndexConst.MetaExtraTactics == arg_29_1 then
+		return var_0_0.filteMetaTacticsAble(arg_29_0)
+	elseif ShipIndexConst.MetaExtraEnergy == arg_29_1 then
+		return var_0_0.filteMetaEnergyAble(arg_29_0)
 	else
 		return false
 	end
 end
 
-function var_0_0.filteMetaRepairAble(arg_29_0)
-	local var_29_0 = arg_29_0.metaShipVO
+function var_0_0.filteMetaRepairAble(arg_30_0)
+	local var_30_0 = arg_30_0.metaShipVO
 
-	if var_29_0 then
-		local var_29_1 = var_29_0:getMetaCharacter()
+	if var_30_0 then
+		local var_30_1 = var_30_0:getMetaCharacter()
 
-		if var_29_1 and var_29_1:getRepairRate() < 1 then
+		if var_30_1 and var_30_1:getRepairRate() < 1 then
 			return true
 		end
 	end
@@ -537,29 +550,29 @@ function var_0_0.filteMetaRepairAble(arg_29_0)
 	return false
 end
 
-function var_0_0.filteMetaTacticsAble(arg_30_0)
-	local var_30_0 = arg_30_0.metaShipVO
-
-	if var_30_0 and not var_30_0:isAllMetaSkillLevelMax() then
-		return true
-	end
-
-	return false
-end
-
-function var_0_0.filteMetaEnergyAble(arg_31_0)
+function var_0_0.filteMetaTacticsAble(arg_31_0)
 	local var_31_0 = arg_31_0.metaShipVO
 
-	if var_31_0 and not var_31_0:isMaxStar() then
+	if var_31_0 and not var_31_0:isAllMetaSkillLevelMax() then
 		return true
 	end
 
 	return false
 end
 
-function var_0_0.filteMetaSynAble(arg_32_0)
-	if arg_32_0:isPtType() then
-		return not arg_32_0:IsGotAllAwards()
+function var_0_0.filteMetaEnergyAble(arg_32_0)
+	local var_32_0 = arg_32_0.metaShipVO
+
+	if var_32_0 and not var_32_0:isMaxStar() then
+		return true
+	end
+
+	return false
+end
+
+function var_0_0.filteMetaSynAble(arg_33_0)
+	if arg_33_0:isPtType() then
+		return not arg_33_0:IsGotAllAwards()
 	else
 		return false
 	end

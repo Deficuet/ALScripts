@@ -5,6 +5,11 @@ var_0_0.TYPE = {
 	WORLD = 2,
 	TIME = 3
 }
+var_0_0.GET_SHOW_ID = {
+	[var_0_0.TYPE.MAIN] = 68710,
+	[var_0_0.TYPE.TIME] = 68711,
+	[var_0_0.TYPE.WORLD] = 68712
+}
 var_0_0.FOREVER_TIME = 4294967295
 
 function var_0_0.Ctor(arg_1_0, arg_1_1)
@@ -44,68 +49,78 @@ function var_0_0.ReduceCount(arg_8_0, arg_8_1)
 	arg_8_0.count = math.max(0, arg_8_0.count - arg_8_1)
 end
 
-function var_0_0.CreateByItem(arg_9_0, arg_9_1)
-	return var_0_0.New({
-		type = arg_9_0,
-		time = var_0_0.GetExpireTimeByArg(arg_9_1:getConfig("drop_arg")),
-		num = arg_9_1.count
+function var_0_0.GetDrop(arg_9_0)
+	local var_9_0 = var_0_0.GET_SHOW_ID[arg_9_0]
+
+	return Drop.New({
+		count = 0,
+		type = DROP_TYPE_VITEM,
+		id = var_9_0
 	})
 end
 
-function var_0_0.GetExpireTimeByArg(arg_10_0)
-	if type(arg_10_0) ~= "table" then
+function var_0_0.CreateByItem(arg_10_0, arg_10_1)
+	return var_0_0.New({
+		type = arg_10_0,
+		time = var_0_0.GetExpireTimeByArg(arg_10_1:getConfig("drop_arg")),
+		num = arg_10_1.count
+	})
+end
+
+function var_0_0.GetExpireTimeByArg(arg_11_0)
+	if type(arg_11_0) ~= "table" then
 		return var_0_0.FOREVER_TIME
 	end
 
-	if #arg_10_0 == 0 then
+	if #arg_11_0 == 0 then
 		return var_0_0.FOREVER_TIME
 	end
 
-	local var_10_0 = arg_10_0[1]
-	local var_10_1 = arg_10_0[2]
+	local var_11_0 = arg_11_0[1]
+	local var_11_1 = arg_11_0[2]
 
-	if type(var_10_0) == "table" then
-		return pg.TimeMgr.GetInstance():parseTimeFromConfig(arg_10_0)
+	if type(var_11_0) == "table" then
+		return pg.TimeMgr.GetInstance():parseTimeFromConfig(arg_11_0)
 	end
 
-	if type(var_10_0) == "string" then
-		local var_10_2 = pg.TimeMgr.GetInstance()
+	if type(var_11_0) == "string" then
+		local var_11_2 = pg.TimeMgr.GetInstance()
 
-		return switch(var_10_0, {
+		return switch(var_11_0, {
 			always = function()
 				return var_0_0.FOREVER_TIME
 			end,
 			day = function()
-				return var_10_2:GetTimeToNextTime() + var_10_1 * 86400
+				return var_11_2:GetTimeToNextTime() + var_11_1 * 86400
 			end,
 			week = function()
-				return var_10_2:GetNextWeekTime(1, 0, 0, 0) + var_10_1 * 604800
+				return var_11_2:GetNextWeekTime(1, 0, 0, 0) + var_11_1 * 604800
 			end,
 			month = function()
-				local var_14_0 = var_10_2:STimeDescS(var_10_2:GetServerTime(), "*t")
-				local var_14_1 = var_14_0.month + var_10_1 + 1
-				local var_14_2 = var_14_0.year + math.floor((var_14_1 - 1) / 12)
-				local var_14_3 = (var_14_1 - 1) % 12 + 1
+				local var_15_0 = var_11_2:STimeDescS(var_11_2:GetServerTime(), "*t")
+				local var_15_1 = var_15_0.month + var_11_1 + 1
+				local var_15_2 = var_15_0.year + math.floor((var_15_1 - 1) / 12)
+				local var_15_3 = (var_15_1 - 1) % 12 + 1
 
-				return var_10_2:Table2ServerTime({
+				return var_11_2:Table2ServerTime({
 					sec = 0,
 					min = 0,
 					hour = 0,
 					day = 1,
-					year = var_14_2,
-					month = var_14_3
+					year = var_15_2,
+					month = var_15_3
 				})
 			end,
 			year = function()
-				local var_15_0 = tonumber(var_10_2:STimeDescS(var_10_2:GetServerTime(), "%Y")) + var_10_1 + 1
+				local var_16_0 = tonumber(var_11_2:STimeDescS(var_11_2:GetServerTime(), "%Y")) + var_11_1 + 1
 
-				return var_10_2:Table2ServerTime({
+				return var_11_2:Table2ServerTime({
 					min = 0,
 					month = 1,
 					hour = 0,
 					sec = 0,
 					day = 1,
-					year = var_15_0
+					year = var_16_0
 				})
 			end
 		}, function()

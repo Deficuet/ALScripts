@@ -31,6 +31,10 @@ function var_0_0.EachGroupTrack(arg_6_0, arg_6_1)
 end
 
 function var_0_0.DynamicBinding(arg_8_0)
+	if TimelineHelper.ApplyManifestBindings(arg_8_0) then
+		return
+	end
+
 	local var_8_0 = _.reduce(pg.dorm3d_timeline_dynamic_binding.all, {}, function(arg_9_0, arg_9_1)
 		local var_9_0 = pg.dorm3d_timeline_dynamic_binding[arg_9_1]
 

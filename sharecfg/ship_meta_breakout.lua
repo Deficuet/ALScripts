@@ -52,6 +52,10 @@ pg.ship_meta_breakout.all = {
 	9701122,
 	9701123,
 	9701124,
+	9701131,
+	9701132,
+	9701133,
+	9701134,
 	9702011,
 	9702012,
 	9702013,
@@ -1025,6 +1029,69 @@ pg.base.ship_meta_breakout = {}
 		pre_id = 9701123,
 		weapon_ids = {}
 	}
+	pg.base.ship_meta_breakout[9701131] = {
+		breakout_view = "习得技能【摇曳之火·灵敏】/主炮效率提高5%",
+		gold = 500,
+		breakout_id = 9701132,
+		repair = 0,
+		item2 = 21066,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9701131,
+		item1 = 21066,
+		pre_id = 0,
+		weapon_ids = {
+			171161
+		}
+	}
+	pg.base.ship_meta_breakout[9701132] = {
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		gold = 1500,
+		breakout_id = 9701133,
+		repair = 0,
+		item2 = 21066,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9701132,
+		item1 = 21066,
+		pre_id = 9701131,
+		weapon_ids = {
+			106,
+			106
+		}
+	}
+	pg.base.ship_meta_breakout[9701133] = {
+		breakout_view = "【摇曳之火·灵敏】升级/全武器效率提高5%",
+		gold = 2500,
+		breakout_id = 9701134,
+		repair = 0,
+		item2 = 21066,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9701133,
+		item1 = 21066,
+		pre_id = 9701132,
+		weapon_ids = {
+			171162
+		}
+	}
+	pg.base.ship_meta_breakout[9701134] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21066,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9701134,
+		item1 = 21066,
+		pre_id = 9701133,
+		weapon_ids = {}
+	}
 	pg.base.ship_meta_breakout[9702011] = {
 		breakout_view = "习得技能【破敌之炬·海伦娜】/主炮效率提高5%",
 		gold = 1000,
@@ -1781,6 +1848,8 @@ pg.base.ship_meta_breakout = {}
 		pre_id = 9702123,
 		weapon_ids = {}
 	}
+end)()
+;(function()
 	pg.base.ship_meta_breakout[9702131] = {
 		breakout_view = "习得技能【逐光之焰·{namecode:446}】/全武器效率提高2%",
 		gold = 500,
@@ -1844,8 +1913,6 @@ pg.base.ship_meta_breakout = {}
 		pre_id = 9702133,
 		weapon_ids = {}
 	}
-end)()
-;(function()
 	pg.base.ship_meta_breakout[9703011] = {
 		breakout_view = "习得技能【摇曳之火·特伦托】/主炮效率提高5%",
 		gold = 500,
@@ -3427,6 +3494,8 @@ end)()
 		pre_id = 9706023,
 		weapon_ids = {}
 	}
+end)()
+;(function()
 	pg.base.ship_meta_breakout[9706031] = {
 		breakout_view = "习得技能【破敌之炬·普林斯顿】/所有战斗机+1/战斗机效率提高5%",
 		gold = 500,
@@ -3496,8 +3565,6 @@ end)()
 		pre_id = 9706033,
 		weapon_ids = {}
 	}
-end)()
-;(function()
 	pg.base.ship_meta_breakout[9706041] = {
 		breakout_view = "习得技能【湮烬之核·{namecode:89}】/所有战斗机+1/舰载机效率提高3%",
 		gold = 500,

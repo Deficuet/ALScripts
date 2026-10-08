@@ -4,11 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			oldPhoto = true,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_youyingmicheng_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
 			say = "{namecode:315:安土}的宣言通过公共频道扩散后，整个新纪元都市NO.7在最短时间内进入了一级警戒状态。",
 			bgm = "story-antarctica-serious",
 			typewriter = {
@@ -26,10 +27,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_youyingmicheng_cg3",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			say = "但与预期相反的是——幽影们并没有再次进攻NO.7。",
 			typewriter = {
@@ -38,10 +40,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "紧急召开的作战应对会议上，一块块悬浮屏幕上显示着来自不同城市的警报。",
 			typewriter = {
 				speed = 0.05,
@@ -70,10 +73,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "每个资深老道的作战参谋都在等沉不住气的人先开头。",
 			typewriter = {
 				speed = 0.05,
@@ -86,6 +90,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -106,10 +111,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "作为调查中心行动组成员的标枪，被推到了本不属于新人的席位上。",
 			typewriter = {
 				speed = 0.05,
@@ -122,6 +128,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "参谋团成员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 602030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -137,6 +144,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "参谋团成员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 404070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -147,11 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 102030,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			factiontag = "参谋团成员",
 			dir = 1,
+			actor = 102030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "但这样的话，外交方面……",
@@ -161,11 +170,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			factiontag = "参谋团成员",
 			dir = 1,
+			actor = 202030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "谁能保证这不是诱敌手段？万一我们被调虎离山了怎么办？",
@@ -175,11 +185,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			factiontag = "参谋团成员",
 			dir = 1,
+			actor = 301180,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "帮或不帮都可以……我只是觉得趁机卖一波已淘汰……唔，库存溢出的军火也能给城市创收。",
@@ -194,6 +205,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -209,6 +221,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "参谋团成员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 602030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -224,6 +237,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "参谋团成员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 404070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -234,10 +248,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "几道平静却密不透风的声音叠在一起，很快就将标枪的反对压了下去。",
 			typewriter = {
 				speed = 0.05,
@@ -245,10 +260,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "铃——就在这时，标枪的手机响了。",
 			typewriter = {
 				speed = 0.05,
@@ -261,6 +277,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -286,6 +303,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -308,10 +326,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_503",
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 201250,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "标枪姐姐！你终于接电话了！",
 			typewriter = {
 				speed = 0.05,
@@ -343,10 +362,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_503",
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 201250,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "新闻里说新纪元都市出事了，我们给你打了好多电话！真的吓死了！",
 			typewriter = {
 				speed = 0.05,
@@ -359,6 +379,7 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -369,11 +390,12 @@ return {
 			}
 		},
 		{
-			actor = 231211,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "新手行动员",
 			dir = 1,
+			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不对不对，刚才说得太委婉了。因为有超厉害的指挥官保护我们，只要齐心协力很快就能把坏幽影都赶出去啦！",
@@ -386,10 +408,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_503",
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 201250,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "虽然短短几天就听你说了不少那位“指挥官”的好话……但是……",
 			typewriter = {
 				speed = 0.05,
@@ -400,10 +423,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_503",
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 201240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "姐姐，回家吗？",
 			typewriter = {
 				speed = 0.05,
@@ -416,6 +440,7 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -431,6 +456,7 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -446,6 +472,7 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -456,10 +483,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "——真的吗？回想起会议室刚才甚至不算争吵的讨论，标枪的笑容黯淡了一些。",
 			typewriter = {
 				speed = 0.05,
@@ -470,10 +498,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_503",
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 201250,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "好吧……那你遇到危险的时候一定先保护好自己！",
 			typewriter = {
 				speed = 0.05,
@@ -486,6 +515,7 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -496,10 +526,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "挂断通讯后，走廊里一下子安静了下来。",
 			typewriter = {
 				speed = 0.05,
@@ -512,6 +543,7 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -522,11 +554,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "助理参谋",
 			dir = 1,
+			actor = 401231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "会议室不是靠嗓门分胜负的地方。",
@@ -536,10 +569,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "抱着资料箱的少女从拐角处出现，姿态依旧利落可靠——就和她在前往NO.7的列车上带给标枪的感受一般。",
 			typewriter = {
 				speed = 0.05,
@@ -552,6 +586,7 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -562,11 +597,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "助理参谋",
 			dir = 1,
+			actor = 401231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "助理参谋，负责送资料、做整理，以及替某些大人物寻找她们五分钟前刚放下的文件。",
@@ -581,6 +617,7 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -591,11 +628,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "助理参谋",
 			dir = 1,
+			actor = 401231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "是事实。",
@@ -610,6 +648,7 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -620,11 +659,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "助理参谋",
 			dir = 1,
+			actor = 401231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "你刚刚在里面的发言，我听到了一部分。你想说服她们去帮忙，对吧？",
@@ -639,6 +679,7 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -649,11 +690,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "助理参谋",
 			dir = 1,
+			actor = 401231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "那就别先想着“赢过所有人”。先找到最容易动摇的人，说出能让她们点头的话。",
@@ -663,11 +705,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "助理参谋",
 			dir = 1,
+			actor = 401231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "有的人随波逐流，有的人听从利益，有的人只相信风险评估表。",
@@ -677,11 +720,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "助理参谋",
 			dir = 1,
+			actor = 401231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "说服别人不需要喊口号，是需要让对方觉得——你的观点，也是她的观点。",
@@ -691,10 +735,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "她从资料箱的最上面，抽出一叠文件。",
 			typewriter = {
 				speed = 0.05,
@@ -702,11 +747,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "助理参谋",
 			dir = 1,
+			actor = 401231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "给。参会者名单、近期立场判断、过去三年的会议发言习惯。",
@@ -716,11 +762,12 @@ return {
 			}
 		},
 		{
-			actor = 231211,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "新手行动员",
 			dir = 1,
+			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "好、好厉害……",
@@ -730,11 +777,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "助理参谋",
 			dir = 1,
+			actor = 401231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "为了进入我梦想中的行业，这些准备不算什么。",
@@ -744,11 +792,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "助理参谋",
 			dir = 1,
+			actor = 401231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……我们曾经说过一样的对话，是吧。",
@@ -758,11 +807,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "助理参谋",
 			dir = 1,
+			actor = 401231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "但现在，你已经站在那个能改变些什么的位置上了——至少该试着相信自己做得到吧。",
@@ -772,10 +822,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "标枪紧紧握住了{namecode:408:Z23}递来的文件，就像努力握住了某种险些从手中滑走的东西。",
 			typewriter = {
 				speed = 0.05,
@@ -783,11 +834,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "助理参谋",
 			dir = 1,
+			actor = 401231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "好了，我得去准备黑咖啡了。拯救世界的大人们，必须保持清醒。",
@@ -797,11 +849,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "助理参谋",
 			dir = 1,
+			actor = 401231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "标枪，加油干。总有一天，我也会赶上你的。",
@@ -811,10 +864,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "说完，{namecode:408:Z23}冲标枪轻轻点了点头，抱起剩下的资料离开了走廊。",
 			typewriter = {
 				speed = 0.05,
@@ -827,6 +881,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "参谋团成员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 404070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -859,6 +914,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -869,10 +925,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "返场的标枪的声音平稳而清晰。",
 			typewriter = {
 				speed = 0.05,
@@ -885,6 +942,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -900,6 +958,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -915,6 +974,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "参谋团成员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 404070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -925,10 +985,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "会议室内原本一边倒的气氛，终于出现一丝松动。",
 			typewriter = {
 				speed = 0.05,
@@ -936,11 +997,12 @@ return {
 			}
 		},
 		{
-			actor = 102030,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			factiontag = "参谋团成员",
 			dir = 1,
+			actor = 102030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "鉴于目前联络不上位于中心区域的NO.2和NO.1……或许我们可以先打通一座外围都市，逐步扩建联络系统。",
@@ -955,6 +1017,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "参谋团成员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 602030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -970,6 +1033,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -980,10 +1044,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "就在争论即将再度开启时，会议室大门再度开启。",
 			typewriter = {
 				speed = 0.05,
@@ -991,12 +1056,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "我支持标枪的提案。",
 			typewriter = {
 				speed = 0.05,
@@ -1004,12 +1070,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "与其坐等NO.7成为孤岛，不如趁现在还有行动能力，主动把道路重新连起来。",
 			typewriter = {
 				speed = 0.05,
@@ -1022,6 +1089,7 @@ return {
 			bgName = "bg_guild_blue_n",
 			factiontag = "lady",
 			dir = 1,
+			NextIcon = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1032,10 +1100,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "短暂而高效的整备工作结束后，NO.7的支援行动组通过都市间的环形公路，前往相邻的城市——新纪元都市NO.5。",
 			typewriter = {
 				speed = 0.05,

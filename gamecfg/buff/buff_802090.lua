@@ -1,28 +1,28 @@
 return {
 	effect_list = {
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCastSkill",
 			trigger = {
 				"onStartGame",
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				buff_id = 802093,
 				hpUpperBound = 1,
 				target = "TargetSelf",
+				skill_id = 802090,
 				hpLowerBound = 0.3
 			}
 		},
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCastSkill",
 			trigger = {
 				"onStartGame",
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				buff_id = 802091,
 				hpUpperBound = 0.3,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				skill_id = 802091
 			}
 		},
 		{

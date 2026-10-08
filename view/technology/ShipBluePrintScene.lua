@@ -577,13 +577,15 @@ function var_0_0.createShipItem(arg_52_0, arg_52_1)
 			setActive(arg_54_0.count, arg_54_0.shipBluePrintVO.id > 0)
 
 			if arg_54_0.shipBluePrintVO.id > 0 then
-				LoadSpriteAsync("shipdesignicon/" .. arg_54_0.shipBluePrintVO:getShipVO():getPainting(), function(arg_55_0)
+				local var_54_0 = "shipdesignicon/" .. arg_54_0.shipBluePrintVO:getShipVO():getPainting()
+
+				LoadSpriteAsync(var_54_0, function(arg_55_0)
 					if arg_54_0.shipBluePrintVO.id > 0 and string.find(arg_55_0.name, arg_54_0.shipBluePrintVO:getShipVO():getPainting()) then
 						setImageSprite(arg_54_0.icon, arg_55_0)
 					end
 				end)
 
-				local var_54_0 = {
+				local var_54_1 = {
 					tip = false,
 					pursuing = arg_54_1:isPursuing(),
 					fate = arg_54_1:canFateSimulation()
@@ -591,34 +593,36 @@ function var_0_0.createShipItem(arg_52_0, arg_52_1)
 
 				switch(arg_54_1.state, {
 					[ShipBluePrint.STATE_LOCK] = function()
-						var_54_0.state = "lock" .. (arg_54_1:getUnlockItem() and "_item" or "")
+						var_54_1.state = "lock" .. (arg_54_1:getUnlockItem() and "_item" or "")
 					end,
 					[ShipBluePrint.STATE_DEV] = function()
-						var_54_0.state = "research"
+						var_54_1.state = "research"
 					end,
 					[ShipBluePrint.STATE_DEV_FINISHED] = function()
-						var_54_0.state = var_54_0.fate and "fate" or "dev"
-						var_54_0.tip = true
+						var_54_1.state = var_54_1.fate and "fate" or "dev"
+						var_54_1.tip = true
 					end,
 					[ShipBluePrint.STATE_UNLOCK] = function()
-						var_54_0.state = var_54_0.fate and "fate" or "dev"
+						var_54_1.state = var_54_1.fate and "fate" or "dev"
 					end
 				})
 				setText(arg_54_0.count, arg_54_2.count > 999 and "999+" or arg_54_2.count)
-				setActive(arg_54_0.count:Find("icon"), not var_54_0.pursuing)
-				setActive(arg_54_0.count:Find("icon_2"), var_54_0.pursuing)
+				setActive(arg_54_0.count:Find("icon"), not var_54_1.pursuing)
+				setActive(arg_54_0.count:Find("icon_2"), var_54_1.pursuing)
 				setText(arg_54_0.state:Find("dev/Text"), arg_54_0.shipBluePrintVO.level)
 
-				if var_54_0.fate then
+				if var_54_1.fate then
 					GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "icon_phase_" .. arg_54_0.shipBluePrintVO.fateLevel, arg_54_0.state:Find("fate/Image"), true)
 				end
 
 				eachChild(arg_54_0.state, function(arg_60_0)
-					setActive(arg_60_0, arg_60_0.name == var_54_0.state)
+					setActive(arg_60_0, arg_60_0.name == var_54_1.state)
 				end)
-				setActive(arg_54_0.tip, var_54_0.tip)
+				setActive(arg_54_0.tip, var_54_1.tip)
 			else
-				LoadSpriteAsync("shipdesignicon/empty", function(arg_61_0)
+				local var_54_2 = "shipdesignicon/empty"
+
+				LoadSpriteAsync(var_54_2, function(arg_61_0)
 					if arg_54_0.shipBluePrintVO.id < 0 then
 						setImageSprite(arg_54_0.icon, arg_61_0)
 					end
@@ -756,364 +760,427 @@ function var_0_0.filterBlueprints(arg_71_0)
 	}))
 end
 
-function var_0_0.setSelectedBluePrint(arg_74_0)
-	assert(arg_74_0.contextData.shipBluePrintVO, "should exist blue print")
+function var_0_0.getSelectedBluePrintResList(arg_74_0, arg_74_1)
+	local var_74_0 = {}
+	local var_74_1 = arg_74_1:getShipVO():getPainting()
+	local var_74_2 = arg_74_1:getTaskIds()
 
-	local var_74_0 = arg_74_0.contextData.shipBluePrintVO
+	table.insert(var_74_0, "painting/" .. var_74_1)
 
-	arg_74_0:updateInfo()
-	arg_74_0:updatePainting()
-	arg_74_0:updateProperty()
+	if checkABExist("painting/" .. var_74_1 .. "_blueprint") then
+		table.insert(var_74_0, "painting/" .. var_74_1 .. "_blueprint")
+	end
 
-	local var_74_1 = var_74_0:isUnlock()
-
-	setActive(arg_74_0.taskListPanel, not var_74_1)
-	setActive(arg_74_0.attrDisableBtn, not var_74_1)
-
-	if var_74_1 then
-		if not var_74_0:canFateSimulation() or not pg.NewStoryMgr.GetInstance():IsPlayed(var_74_0:getConfig("luck_story")) then
-			arg_74_0.isFate = false
+	if PLATFORM_CODE == PLATFORM_CH then
+		if checkABExist("painting/" .. var_74_1 .. "_hx") then
+			table.insert(var_74_0, "painting/" .. var_74_1 .. "_hx")
 		end
 
-		arg_74_0:updateMod()
-		arg_74_0:updatePhantomQuest()
-	else
-		arg_74_0.isFate = false
+		if checkABExist("painting/" .. var_74_1 .. "n_hx") then
+			table.insert(var_74_0, "painting/" .. var_74_1 .. "n_hx")
+		end
 
-		arg_74_0:updateTaskList()
-		triggerToggle(arg_74_0.initBtn, true)
+		if checkABExist("painting/" .. var_74_1 .. "n") then
+			table.insert(var_74_0, "painting/" .. var_74_1 .. "n")
+		end
 	end
 
-	setActive(arg_74_0.phantomPanel, var_74_1 and arg_74_0.isPhantom)
-	setActive(arg_74_0.fittingPanel, var_74_1 and arg_74_0.isFate)
-	setActive(arg_74_0.modPanel, var_74_1 and not arg_74_0.isFate and not arg_74_0.isPhantom)
-	setActive(arg_74_0.itemUnlockBtn, not var_74_1 and var_74_0:getUnlockItem())
+	if arg_74_1:canFateSimulation() then
+		for iter_74_0 = 1, arg_74_1:getMaxFateLevel() do
+			local var_74_3 = arg_74_1:getFateStrengthenConfig(iter_74_0)
 
-	if var_74_0:isDeving() then
-		arg_74_0:emit(ShipBluePrintMediator.ON_CHECK_TAKES, var_74_0.id)
+			if var_74_3 and var_74_3.special == 1 and type(var_74_3.special_effect) == "table" then
+				for iter_74_1, iter_74_2 in ipairs(var_74_3.special_effect) do
+					if iter_74_2[1] == ShipBluePrint.STRENGTHEN_TYPE_CHANGE_SKILL then
+						local var_74_4 = iter_74_2[2][2]
+
+						if var_74_4 then
+							table.insert(var_74_0, "tecfateskillicon/skill_" .. var_74_4)
+							table.insert(var_74_0, "tecfateskillicon/skill_on_" .. var_74_4)
+						end
+
+						break
+					end
+				end
+			end
+		end
 	end
+
+	return var_74_0
 end
 
-function var_0_0.updateMod(arg_75_0)
-	if arg_75_0.noUpdateMod then
+function var_0_0.downloadSelectedBluePrintResList(arg_75_0, arg_75_1, arg_75_2)
+	local var_75_0 = arg_75_0:getSelectedBluePrintResList(arg_75_1)
+
+	SplitPackConst.DownloadByLuaArr(var_75_0, function()
+		if arg_75_0.exited then
+			return
+		end
+
+		arg_75_2()
+	end)
+end
+
+function var_0_0.setSelectedBluePrint(arg_77_0)
+	assert(arg_77_0.contextData.shipBluePrintVO, "should exist blue print")
+
+	local var_77_0 = arg_77_0.contextData.shipBluePrintVO
+
+	arg_77_0:downloadSelectedBluePrintResList(var_77_0, function()
+		arg_77_0:updateInfo()
+		arg_77_0:updatePainting()
+		arg_77_0:updateProperty()
+
+		local var_78_0 = var_77_0:isUnlock()
+
+		setActive(arg_77_0.taskListPanel, not var_78_0)
+		setActive(arg_77_0.attrDisableBtn, not var_78_0)
+
+		if var_78_0 then
+			if not var_77_0:canFateSimulation() or not pg.NewStoryMgr.GetInstance():IsPlayed(var_77_0:getConfig("luck_story")) then
+				arg_77_0.isFate = false
+			end
+
+			arg_77_0:updateMod()
+			arg_77_0:updatePhantomQuest()
+		else
+			arg_77_0.isFate = false
+
+			arg_77_0:updateTaskList()
+			triggerToggle(arg_77_0.initBtn, true)
+		end
+
+		setActive(arg_77_0.phantomPanel, var_78_0 and arg_77_0.isPhantom)
+		setActive(arg_77_0.fittingPanel, var_78_0 and arg_77_0.isFate)
+		setActive(arg_77_0.modPanel, var_78_0 and not arg_77_0.isFate and not arg_77_0.isPhantom)
+		setActive(arg_77_0.itemUnlockBtn, not var_78_0 and var_77_0:getUnlockItem())
+
+		if var_77_0:isDeving() then
+			arg_77_0:emit(ShipBluePrintMediator.ON_CHECK_TAKES, var_77_0.id)
+		end
+	end)
+end
+
+function var_0_0.updateMod(arg_79_0)
+	if arg_79_0.noUpdateMod then
 		return
 	end
 
-	local var_75_0 = arg_75_0.contextData.shipBluePrintVO
+	local var_79_0 = arg_79_0.contextData.shipBluePrintVO
 
-	if not var_75_0 or not var_75_0:isUnlock() or not var_75_0:isFetched() then
+	if not var_79_0 or not var_79_0:isUnlock() or not var_79_0:isFetched() then
 		return
 	end
 
-	arg_75_0:updateModPanel()
-	arg_75_0:updateModAdditionPanel()
+	arg_79_0:updateModPanel()
+	arg_79_0:updateModAdditionPanel()
 end
 
-function var_0_0.updateModInfo(arg_76_0, arg_76_1)
-	local var_76_0 = arg_76_0:getShipById(arg_76_1.shipId)
-	local var_76_1 = arg_76_0.contextData.shipBluePrintVO
-	local var_76_2 = intProperties(var_76_1:getShipProperties(var_76_0))
-	local var_76_3 = intProperties(arg_76_1:getShipProperties(var_76_0))
-	local var_76_4 = Clone(arg_76_1)
+function var_0_0.updateModInfo(arg_80_0, arg_80_1)
+	local var_80_0 = arg_80_0:getShipById(arg_80_1.shipId)
+	local var_80_1 = arg_80_0.contextData.shipBluePrintVO
+	local var_80_2 = intProperties(var_80_1:getShipProperties(var_80_0))
+	local var_80_3 = intProperties(arg_80_1:getShipProperties(var_80_0))
+	local var_80_4 = Clone(arg_80_1)
 
-	var_76_4.level = var_76_4:getMaxLevel()
+	var_80_4.level = var_80_4:getMaxLevel()
 
-	local var_76_5 = intProperties(var_76_4:getShipProperties(var_76_0))
+	local var_80_5 = intProperties(var_80_4:getShipProperties(var_80_0))
 
-	local function var_76_6(arg_77_0, arg_77_1, arg_77_2, arg_77_3)
-		local var_77_0 = arg_77_0:Find("attr_bg/name")
-		local var_77_1 = arg_77_0:Find("attr_bg/value")
-		local var_77_2 = arg_77_0:Find("attr_bg/max")
-		local var_77_3 = arg_77_0:Find("slider"):GetComponent(typeof(Slider))
-		local var_77_4 = arg_77_0:Find("pre_slider"):GetComponent(typeof(Slider))
-		local var_77_5 = arg_77_0:Find("exp")
+	local function var_80_6(arg_81_0, arg_81_1, arg_81_2, arg_81_3)
+		local var_81_0 = arg_81_0:Find("attr_bg/name")
+		local var_81_1 = arg_81_0:Find("attr_bg/value")
+		local var_81_2 = arg_81_0:Find("attr_bg/max")
+		local var_81_3 = arg_81_0:Find("slider"):GetComponent(typeof(Slider))
+		local var_81_4 = arg_81_0:Find("pre_slider"):GetComponent(typeof(Slider))
+		local var_81_5 = arg_81_0:Find("exp")
 
-		if arg_76_1:isMaxLevel() then
-			arg_77_3 = arg_77_2
+		if arg_80_1:isMaxLevel() then
+			arg_81_3 = arg_81_2
 		end
 
-		setText(var_77_2, arg_77_3)
-		setText(var_77_0, AttributeType.Type2Name(arg_77_1))
-		setText(var_77_1, arg_77_2)
+		setText(var_81_2, arg_81_3)
+		setText(var_81_0, AttributeType.Type2Name(arg_81_1))
+		setText(var_81_1, arg_81_2)
 
-		local var_77_6, var_77_7 = var_76_1:getBluePrintAddition(arg_77_1)
-		local var_77_8 = table.indexof(ShipModAttr.BLUEPRINT_ATTRS, arg_77_1)
-		local var_77_9 = var_76_1:getExpRetio(var_77_8)
+		local var_81_6, var_81_7 = var_80_1:getBluePrintAddition(arg_81_1)
+		local var_81_8 = table.indexof(ShipModAttr.BLUEPRINT_ATTRS, arg_81_1)
+		local var_81_9 = var_80_1:getExpRetio(var_81_8)
 
-		var_77_3.value = var_77_7 / var_77_9
+		var_81_3.value = var_81_7 / var_81_9
 
-		local var_77_10, var_77_11 = arg_76_1:getBluePrintAddition(arg_77_1)
-		local var_77_12 = arg_76_1:getExpRetio(var_77_8)
+		local var_81_10, var_81_11 = arg_80_1:getBluePrintAddition(arg_81_1)
+		local var_81_12 = arg_80_1:getExpRetio(var_81_8)
 
-		setText(var_77_5, math.floor(var_77_11) .. "/" .. var_77_9)
+		setText(var_81_5, math.floor(var_81_11) .. "/" .. var_81_9)
 
-		var_77_4.value = math.floor(var_77_10) > math.floor(var_77_6) and 1 or var_77_11 / var_77_12
+		var_81_4.value = math.floor(var_81_10) > math.floor(var_81_6) and 1 or var_81_11 / var_81_12
 	end
 
-	local var_76_7 = 0
+	local var_80_7 = 0
 
-	for iter_76_0, iter_76_1 in pairs(var_76_3) do
-		if table.contains(ShipModAttr.BLUEPRINT_ATTRS, iter_76_0) then
-			local var_76_8 = arg_76_0.attrContainer:Find(iter_76_0)
+	for iter_80_0, iter_80_1 in pairs(var_80_3) do
+		if table.contains(ShipModAttr.BLUEPRINT_ATTRS, iter_80_0) then
+			local var_80_8 = arg_80_0.attrContainer:Find(iter_80_0)
 
-			var_76_7 = var_76_7 + 1
+			var_80_7 = var_80_7 + 1
 
-			var_76_6(var_76_8, iter_76_0, iter_76_1, var_76_5[iter_76_0] or 0)
+			var_80_6(var_80_8, iter_80_0, iter_80_1, var_80_5[iter_80_0] or 0)
 		end
 	end
 
-	arg_76_0.modLevel.text = arg_76_0:formatModLvTxt(arg_76_1.level, arg_76_1:getMaxLevel())
+	arg_80_0.modLevel.text = arg_80_0:formatModLvTxt(arg_80_1.level, arg_80_1:getMaxLevel())
 
-	local var_76_9 = var_76_1:getNextLevelExp()
+	local var_80_9 = var_80_1:getNextLevelExp()
 
-	if var_76_9 == -1 then
-		arg_76_0.levelSlider.value = 1
+	if var_80_9 == -1 then
+		arg_80_0.levelSlider.value = 1
 	else
-		arg_76_0.levelSlider.value = var_76_1.exp / var_76_9
+		arg_80_0.levelSlider.value = var_80_1.exp / var_80_9
 	end
 
-	local var_76_10 = arg_76_1:getNextLevelExp()
+	local var_80_10 = arg_80_1:getNextLevelExp()
 
-	if var_76_10 == -1 then
-		setText(arg_76_0.levelSliderTxt, "MAX")
+	if var_80_10 == -1 then
+		setText(arg_80_0.levelSliderTxt, "MAX")
 
-		arg_76_0.preLevelSlider.value = 1
+		arg_80_0.preLevelSlider.value = 1
 	else
-		setText(arg_76_0.levelSliderTxt, arg_76_1.exp .. "/" .. arg_76_1:getNextLevelExp())
+		setText(arg_80_0.levelSliderTxt, arg_80_1.exp .. "/" .. arg_80_1:getNextLevelExp())
 
-		arg_76_0.preLevelSlider.value = arg_76_1.level > var_76_1.level and 1 or arg_76_1.exp / var_76_10
+		arg_80_0.preLevelSlider.value = arg_80_1.level > var_80_1.level and 1 or arg_80_1.exp / var_80_10
 	end
 
-	local var_76_11, var_76_12 = arg_76_1:isShipModMaxLevel(var_76_0)
+	local var_80_11, var_80_12 = arg_80_1:isShipModMaxLevel(var_80_0)
 
-	setActive(arg_76_0.needLevelTxt, var_76_11)
-	setActive(arg_76_0.levelSliderTxt, not var_76_11)
+	setActive(arg_80_0.needLevelTxt, var_80_11)
+	setActive(arg_80_0.levelSliderTxt, not var_80_11)
 
-	if var_76_11 then
-		setText(arg_76_0.needLevelTxt, i18n("buleprint_need_level_tip", var_76_12))
+	if var_80_11 then
+		setText(arg_80_0.needLevelTxt, i18n("buleprint_need_level_tip", var_80_12))
 
-		arg_76_0.levelSlider.value = 1
+		arg_80_0.levelSlider.value = 1
 	end
 end
 
-function var_0_0.inModAnim(arg_78_0)
-	return arg_78_0.inAnim
+function var_0_0.inModAnim(arg_82_0)
+	return arg_82_0.inAnim
 end
 
-function var_0_0.formatModLvTxt(arg_79_0, arg_79_1, arg_79_2)
-	return "<size=45>" .. arg_79_1 .. "</size>/<size=27>" .. arg_79_2 .. "</size>"
+function var_0_0.formatModLvTxt(arg_83_0, arg_83_1, arg_83_2)
+	return "<size=45>" .. arg_83_1 .. "</size>/<size=27>" .. arg_83_2 .. "</size>"
 end
 
 local var_0_8 = 0.2
 
-function var_0_0.doModAnim(arg_80_0, arg_80_1, arg_80_2)
-	arg_80_0:clearLeanTween()
+function var_0_0.doModAnim(arg_84_0, arg_84_1, arg_84_2)
+	arg_84_0:clearLeanTween()
 
-	arg_80_0.inAnim = true
+	arg_84_0.inAnim = true
 
-	local var_80_0 = {}
-	local var_80_1 = arg_80_2:getMaxLevel()
+	local var_84_0 = {}
+	local var_84_1 = arg_84_2:getMaxLevel()
 
-	if arg_80_1.level ~= var_80_1 then
-		local function var_80_2(arg_81_0, arg_81_1, arg_81_2)
-			arg_81_0 = Clone(arg_81_0)
-			arg_81_0.level = arg_81_1
-			arg_81_0.exp = arg_81_2
-
-			return arg_81_0
-		end
-
-		arg_80_0.preLevelSlider.value = 0
-
-		for iter_80_0 = arg_80_1.level, arg_80_2.level do
-			local var_80_3 = iter_80_0 == arg_80_1.level and arg_80_1.exp / arg_80_1:getNextLevelExp() or 0
-			local var_80_4 = iter_80_0 == arg_80_2.level and arg_80_2.level ~= var_80_1 and arg_80_2.exp / arg_80_2:getNextLevelExp() or 1
-
-			table.insert(var_80_0, function(arg_82_0)
-				TweenValue(go(arg_80_0.levelSlider), var_80_3, var_80_4, var_0_8, nil, function(arg_83_0)
-					arg_80_0.levelSlider.value = arg_83_0
-				end, function()
-					local var_84_0 = iter_80_0 == arg_80_1.level and arg_80_1 or var_80_2(arg_80_1, iter_80_0, 0)
-					local var_84_1 = iter_80_0 == arg_80_2.level and arg_80_2 or var_80_2(arg_80_1, iter_80_0 + 1, 0)
-
-					arg_80_0:doAttrsAinm(var_84_0, var_84_1, arg_82_0)
-
-					arg_80_0.modLevel.text = arg_80_0:formatModLvTxt(var_84_1.level, var_80_1)
-				end)
-			end)
-		end
-
-		table.insert(arg_80_0.leanTweens, arg_80_0.levelSlider)
-	else
-		var_80_1 = arg_80_2:getMaxFateLevel()
-
-		local function var_80_5(arg_85_0, arg_85_1, arg_85_2)
+	if arg_84_1.level ~= var_84_1 then
+		local function var_84_2(arg_85_0, arg_85_1, arg_85_2)
 			arg_85_0 = Clone(arg_85_0)
-			arg_85_0.fateLevel = arg_85_1
+			arg_85_0.level = arg_85_1
 			arg_85_0.exp = arg_85_2
 
 			return arg_85_0
 		end
 
-		arg_80_0.prePhaseSlider.value = 0
+		arg_84_0.preLevelSlider.value = 0
 
-		for iter_80_1 = arg_80_1.fateLevel, arg_80_2.fateLevel do
-			local var_80_6 = iter_80_1 == arg_80_1.fateLevel and arg_80_1.exp / arg_80_1:getNextFateLevelExp() or 0
-			local var_80_7 = iter_80_1 == arg_80_2.fateLevel and arg_80_2.fateLevel ~= var_80_1 and arg_80_2.exp / arg_80_2:getNextFateLevelExp() or 1
+		for iter_84_0 = arg_84_1.level, arg_84_2.level do
+			local var_84_3 = iter_84_0 == arg_84_1.level and arg_84_1.exp / arg_84_1:getNextLevelExp() or 0
+			local var_84_4 = iter_84_0 == arg_84_2.level and arg_84_2.level ~= var_84_1 and arg_84_2.exp / arg_84_2:getNextLevelExp() or 1
 
-			table.insert(var_80_0, function(arg_86_0)
-				TweenValue(go(arg_80_0.phaseSlider), var_80_6, var_80_7, var_0_8, nil, function(arg_87_0)
-					arg_80_0.phaseSlider.value = arg_87_0
+			table.insert(var_84_0, function(arg_86_0)
+				TweenValue(go(arg_84_0.levelSlider), var_84_3, var_84_4, var_0_8, nil, function(arg_87_0)
+					arg_84_0.levelSlider.value = arg_87_0
 				end, function()
-					if iter_80_1 ~= arg_80_1.fateLevel or not arg_80_1 then
-						local var_88_0 = var_80_5(arg_80_1, iter_80_1, 0)
-					end
+					local var_88_0 = iter_84_0 == arg_84_1.level and arg_84_1 or var_84_2(arg_84_1, iter_84_0, 0)
+					local var_88_1 = iter_84_0 == arg_84_2.level and arg_84_2 or var_84_2(arg_84_1, iter_84_0 + 1, 0)
 
-					local var_88_1 = iter_80_1 == arg_80_2.fateLevel and arg_80_2 or var_80_5(arg_80_1, iter_80_1 + 1, 0)
+					arg_84_0:doAttrsAinm(var_88_0, var_88_1, arg_86_0)
 
-					arg_80_0:updateFittingAttrPanel(var_88_1)
-					GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "phase_" .. math.min(var_88_1.fateLevel + 1, var_88_1:getMaxFateLevel()), arg_80_0.phasePic, true)
-					arg_86_0()
+					arg_84_0.modLevel.text = arg_84_0:formatModLvTxt(var_88_1.level, var_84_1)
 				end)
 			end)
 		end
 
-		table.insert(arg_80_0.leanTweens, arg_80_0.phaseSlider)
+		table.insert(arg_84_0.leanTweens, arg_84_0.levelSlider)
+	else
+		var_84_1 = arg_84_2:getMaxFateLevel()
+
+		local function var_84_5(arg_89_0, arg_89_1, arg_89_2)
+			arg_89_0 = Clone(arg_89_0)
+			arg_89_0.fateLevel = arg_89_1
+			arg_89_0.exp = arg_89_2
+
+			return arg_89_0
+		end
+
+		arg_84_0.prePhaseSlider.value = 0
+
+		for iter_84_1 = arg_84_1.fateLevel, arg_84_2.fateLevel do
+			local var_84_6 = iter_84_1 == arg_84_1.fateLevel and arg_84_1.exp / arg_84_1:getNextFateLevelExp() or 0
+			local var_84_7 = iter_84_1 == arg_84_2.fateLevel and arg_84_2.fateLevel ~= var_84_1 and arg_84_2.exp / arg_84_2:getNextFateLevelExp() or 1
+
+			table.insert(var_84_0, function(arg_90_0)
+				TweenValue(go(arg_84_0.phaseSlider), var_84_6, var_84_7, var_0_8, nil, function(arg_91_0)
+					arg_84_0.phaseSlider.value = arg_91_0
+				end, function()
+					if iter_84_1 ~= arg_84_1.fateLevel or not arg_84_1 then
+						local var_92_0 = var_84_5(arg_84_1, iter_84_1, 0)
+					end
+
+					local var_92_1 = iter_84_1 == arg_84_2.fateLevel and arg_84_2 or var_84_5(arg_84_1, iter_84_1 + 1, 0)
+
+					arg_84_0:updateFittingAttrPanel(var_92_1)
+					GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "phase_" .. math.min(var_92_1.fateLevel + 1, var_92_1:getMaxFateLevel()), arg_84_0.phasePic, true)
+					arg_90_0()
+				end)
+			end)
+		end
+
+		table.insert(arg_84_0.leanTweens, arg_84_0.phaseSlider)
 	end
 
-	seriesAsync(var_80_0, function()
-		arg_80_0.noUpdateMod = false
+	seriesAsync(var_84_0, function()
+		arg_84_0.noUpdateMod = false
 
-		arg_80_0:updateMod()
+		arg_84_0:updateMod()
 
-		arg_80_0.inAnim = false
+		arg_84_0.inAnim = false
 	end)
 end
 
-function var_0_0.doAttrsAinm(arg_90_0, arg_90_1, arg_90_2, arg_90_3)
-	local var_90_0 = {}
-	local var_90_1 = arg_90_0:getShipById(arg_90_1.shipId)
-	local var_90_2 = intProperties(arg_90_1:getShipProperties(var_90_1))
-	local var_90_3 = intProperties(arg_90_2:getShipProperties(var_90_1))
+function var_0_0.doAttrsAinm(arg_94_0, arg_94_1, arg_94_2, arg_94_3)
+	local var_94_0 = {}
+	local var_94_1 = arg_94_0:getShipById(arg_94_1.shipId)
+	local var_94_2 = intProperties(arg_94_1:getShipProperties(var_94_1))
+	local var_94_3 = intProperties(arg_94_2:getShipProperties(var_94_1))
 
-	for iter_90_0, iter_90_1 in ipairs(ShipModAttr.BLUEPRINT_ATTRS) do
-		if iter_90_1 ~= AttributeType.AntiAircraft then
-			local var_90_4 = arg_90_0.attrContainer:Find(iter_90_1)
-			local var_90_5 = var_90_4:Find("attr_bg/value"):GetComponent(typeof(Text))
-			local var_90_6 = var_90_4:Find("slider"):GetComponent(typeof(Slider))
-			local var_90_7 = var_90_4:Find("pre_slider"):GetComponent(typeof(Slider))
-			local var_90_8 = table.indexof(ShipModAttr.BLUEPRINT_ATTRS, iter_90_1)
-			local var_90_9 = arg_90_1:getExpRetio(var_90_8)
-			local var_90_10 = var_90_2[iter_90_1]
-			local var_90_11 = var_90_3[iter_90_1]
-			local var_90_12, var_90_13 = arg_90_1:getBluePrintAddition(iter_90_1)
-			local var_90_14, var_90_15 = arg_90_2:getBluePrintAddition(iter_90_1)
-			local var_90_16 = var_90_13 / var_90_9
-			local var_90_17 = var_90_15 / var_90_9
+	for iter_94_0, iter_94_1 in ipairs(ShipModAttr.BLUEPRINT_ATTRS) do
+		if iter_94_1 ~= AttributeType.AntiAircraft then
+			local var_94_4 = arg_94_0.attrContainer:Find(iter_94_1)
+			local var_94_5 = var_94_4:Find("attr_bg/value"):GetComponent(typeof(Text))
+			local var_94_6 = var_94_4:Find("slider"):GetComponent(typeof(Slider))
+			local var_94_7 = var_94_4:Find("pre_slider"):GetComponent(typeof(Slider))
+			local var_94_8 = table.indexof(ShipModAttr.BLUEPRINT_ATTRS, iter_94_1)
+			local var_94_9 = arg_94_1:getExpRetio(var_94_8)
+			local var_94_10 = var_94_2[iter_94_1]
+			local var_94_11 = var_94_3[iter_94_1]
+			local var_94_12, var_94_13 = arg_94_1:getBluePrintAddition(iter_94_1)
+			local var_94_14, var_94_15 = arg_94_2:getBluePrintAddition(iter_94_1)
+			local var_94_16 = var_94_13 / var_94_9
+			local var_94_17 = var_94_15 / var_94_9
 
-			var_90_7.value = 0
+			var_94_7.value = 0
 
-			table.insert(var_90_0, function(arg_91_0)
-				arg_90_0:doAttrAnim(var_90_6, var_90_5, var_90_16, var_90_17, math.floor(var_90_12), math.floor(var_90_14), var_90_10, var_90_11, arg_91_0)
+			table.insert(var_94_0, function(arg_95_0)
+				arg_94_0:doAttrAnim(var_94_6, var_94_5, var_94_16, var_94_17, math.floor(var_94_12), math.floor(var_94_14), var_94_10, var_94_11, arg_95_0)
 			end)
 		end
 	end
 
-	parallelAsync(var_90_0, arg_90_3)
+	parallelAsync(var_94_0, arg_94_3)
 end
 
 local var_0_9 = 0.1
 
-function var_0_0.doAttrAnim(arg_92_0, arg_92_1, arg_92_2, arg_92_3, arg_92_4, arg_92_5, arg_92_6, arg_92_7, arg_92_8, arg_92_9)
-	table.insert(arg_92_0.leanTweens, arg_92_1)
+function var_0_0.doAttrAnim(arg_96_0, arg_96_1, arg_96_2, arg_96_3, arg_96_4, arg_96_5, arg_96_6, arg_96_7, arg_96_8, arg_96_9)
+	table.insert(arg_96_0.leanTweens, arg_96_1)
 
-	local var_92_0 = {}
+	local var_96_0 = {}
 
-	for iter_92_0 = arg_92_5, arg_92_6 do
-		local var_92_1 = iter_92_0 == arg_92_5 and arg_92_3 or 0
-		local var_92_2 = iter_92_0 == arg_92_6 and arg_92_4 or 1
+	for iter_96_0 = arg_96_5, arg_96_6 do
+		local var_96_1 = iter_96_0 == arg_96_5 and arg_96_3 or 0
+		local var_96_2 = iter_96_0 == arg_96_6 and arg_96_4 or 1
 
-		table.insert(var_92_0, function(arg_93_0)
-			TweenValue(go(arg_92_1), var_92_1, var_92_2, var_0_9, nil, function(arg_94_0)
-				arg_92_1.value = arg_94_0
+		table.insert(var_96_0, function(arg_97_0)
+			TweenValue(go(arg_96_1), var_96_1, var_96_2, var_0_9, nil, function(arg_98_0)
+				arg_96_1.value = arg_98_0
 			end, function()
-				arg_92_2.text = arg_92_8 - math.min(arg_92_6 - iter_92_0, arg_92_8 - arg_92_7)
+				arg_96_2.text = arg_96_8 - math.min(arg_96_6 - iter_96_0, arg_96_8 - arg_96_7)
 
-				arg_93_0()
+				arg_97_0()
 			end)
 		end)
 	end
 
-	seriesAsync(var_92_0, function()
-		arg_92_9()
+	seriesAsync(var_96_0, function()
+		arg_96_9()
 	end)
 end
 
-function var_0_0.clearLeanTween(arg_97_0, arg_97_1)
-	for iter_97_0, iter_97_1 in pairs(arg_97_0.leanTweens) do
-		if LeanTween.isTweening(go(iter_97_1)) then
-			LeanTween.cancel(go(iter_97_1))
+function var_0_0.clearLeanTween(arg_101_0, arg_101_1)
+	for iter_101_0, iter_101_1 in pairs(arg_101_0.leanTweens) do
+		if LeanTween.isTweening(go(iter_101_1)) then
+			LeanTween.cancel(go(iter_101_1))
 		end
 	end
 
-	if arg_97_0.inAnim then
-		arg_97_0.inAnim = nil
+	if arg_101_0.inAnim then
+		arg_101_0.inAnim = nil
 
-		if not arg_97_1 then
-			arg_97_0.noUpdateMod = false
+		if not arg_101_1 then
+			arg_101_0.noUpdateMod = false
 		end
 	end
 
-	arg_97_0.leanTweens = {}
+	arg_101_0.leanTweens = {}
 end
 
-function var_0_0.updateModPanel(arg_98_0)
-	local var_98_0 = arg_98_0.contextData.shipBluePrintVO
-	local var_98_1 = arg_98_0:getShipById(var_98_0.shipId)
-	local var_98_2 = var_98_0:getConfig("strengthen_item")
-	local var_98_3 = arg_98_0:getItemById(var_98_2)
-	local var_98_4 = var_98_3.count == 0 and var_98_0:isPursuing()
-	local var_98_5 = 0
-	local var_98_6
-	local var_98_7
+function var_0_0.updateModPanel(arg_102_0)
+	local var_102_0 = arg_102_0.contextData.shipBluePrintVO
+	local var_102_1 = arg_102_0:getShipById(var_102_0.shipId)
+	local var_102_2 = var_102_0:getConfig("strengthen_item")
+	local var_102_3 = arg_102_0:getItemById(var_102_2)
+	local var_102_4 = var_102_3.count == 0 and var_102_0:isPursuing()
+	local var_102_5 = 0
+	local var_102_6
+	local var_102_7
 
-	if var_98_4 then
-		local var_98_8 = getProxy(TechnologyProxy)
+	if var_102_4 then
+		local var_102_8 = getProxy(TechnologyProxy)
 
-		var_98_6 = math.min(var_98_8:calcMaxPursuingCount(var_98_0), var_98_0:getUseageMaxItem())
+		var_102_6 = math.min(var_102_8:calcMaxPursuingCount(var_102_0), var_102_0:getUseageMaxItem())
 
-		function var_98_7(arg_99_0)
-			local var_99_0 = arg_99_0 * var_98_0:getItemExp()
-			local var_99_1 = Clone(var_98_0)
+		function var_102_7(arg_103_0)
+			local var_103_0 = arg_103_0 * var_102_0:getItemExp()
+			local var_103_1 = Clone(var_102_0)
 
-			var_99_1:addExp(var_99_0)
-			arg_98_0:updateModInfo(var_99_1)
-			setText(arg_98_0.calcTxt, arg_99_0)
+			var_103_1:addExp(var_103_0)
+			arg_102_0:updateModInfo(var_103_1)
+			setText(arg_102_0.calcTxt, arg_103_0)
 
-			local var_99_2 = var_98_0:isRarityUR()
-			local var_99_3 = TechnologyProxy.getPursuingDiscount(var_98_8:getPursuingTimes(var_99_2) + var_98_5 + 1, var_99_2)
+			local var_103_2 = var_102_0:isRarityUR()
+			local var_103_3 = TechnologyProxy.getPursuingDiscount(var_102_8:getPursuingTimes(var_103_2) + var_102_5 + 1, var_103_2)
 
-			setText(arg_98_0.itemInfoIcon:Find("icon_bg/count"), var_98_0:getPursuingPrice(var_99_3))
-			setActive(arg_98_0.itemInfo:Find("no_cost"), var_99_3 == 0)
-			setActive(arg_98_0.itemInfo:Find("discount"), var_99_3 > 0 and var_99_3 < 100)
+			setText(arg_102_0.itemInfoIcon:Find("icon_bg/count"), var_102_0:getPursuingPrice(var_103_3))
+			setActive(arg_102_0.itemInfo:Find("no_cost"), var_103_3 == 0)
+			setActive(arg_102_0.itemInfo:Find("discount"), var_103_3 > 0 and var_103_3 < 100)
 
-			if var_99_3 > 0 and var_99_3 < 100 then
-				setText(arg_98_0.itemInfo:Find("discount/Text"), 100 - var_99_3 .. "%OFF")
+			if var_103_3 > 0 and var_103_3 < 100 then
+				setText(arg_102_0.itemInfo:Find("discount/Text"), 100 - var_103_3 .. "%OFF")
 			end
 
-			setActive(arg_98_0.modBtn:Find("pursuing_cost"), var_98_5 > 0)
-			setText(arg_98_0.modBtn:Find("pursuing_cost/Text"), var_98_8:calcPursuingCost(var_98_0, arg_99_0))
+			setActive(arg_102_0.modBtn:Find("pursuing_cost"), var_102_5 > 0)
+			setText(arg_102_0.modBtn:Find("pursuing_cost/Text"), var_102_8:calcPursuingCost(var_102_0, arg_103_0))
 		end
 
-		local var_98_9 = {
+		local var_102_9 = {
 			type = DROP_TYPE_RESOURCE,
 			id = PlayerConst.ResGold
 		}
 
-		updateDrop(arg_98_0.itemInfoIcon, var_98_9)
-		onButton(arg_98_0, arg_98_0.itemInfoIcon, function()
+		updateDrop(arg_102_0.itemInfoIcon, var_102_9)
+		onButton(arg_102_0, arg_102_0.itemInfoIcon, function()
 			if LOCK_TECHNOLOGY_PURSUING_TIP then
-				arg_98_0:emit(BaseUI.ON_DROP, var_98_9)
+				arg_102_0:emit(BaseUI.ON_DROP, var_102_9)
 			else
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					type = MSGBOX_TYPE_HELP,
@@ -1121,205 +1188,205 @@ function var_0_0.updateModPanel(arg_98_0)
 				})
 			end
 		end, SFX_PANEL)
-		setScrollText(findTF(arg_98_0.itemInfo, "name/Text"), var_98_9:getConfig("name"))
-		setText(arg_98_0.itemInfoCount, i18n("tec_tip_material_stock") .. ":" .. getProxy(PlayerProxy):getRawData():getResource(PlayerConst.ResGold))
-		setText(arg_98_0.itemInfo:Find("no_cost/Text"), i18n("tec_tip_no_consumption"))
-		setText(arg_98_0.modBtn:Find("pursuing_cost/word"), i18n("tec_tip_to_consumption"))
-		onButton(arg_98_0, arg_98_0.modBtn, function()
-			if arg_98_0:inModAnim() then
+		setScrollText(findTF(arg_102_0.itemInfo, "name/Text"), var_102_9:getConfig("name"))
+		setText(arg_102_0.itemInfoCount, i18n("tec_tip_material_stock") .. ":" .. getProxy(PlayerProxy):getRawData():getResource(PlayerConst.ResGold))
+		setText(arg_102_0.itemInfo:Find("no_cost/Text"), i18n("tec_tip_no_consumption"))
+		setText(arg_102_0.modBtn:Find("pursuing_cost/word"), i18n("tec_tip_to_consumption"))
+		onButton(arg_102_0, arg_102_0.modBtn, function()
+			if arg_102_0:inModAnim() then
 				return
 			end
 
-			if var_98_5 == 0 then
+			if var_102_5 == 0 then
 				return
 			end
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("blueprint_catchup_by_gold_confirm", var_98_8:calcPursuingCost(var_98_0, var_98_5)),
+				content = i18n("blueprint_catchup_by_gold_confirm", var_102_8:calcPursuingCost(var_102_0, var_102_5)),
 				onYes = function()
-					arg_98_0:emit(ShipBluePrintMediator.ON_PURSUING, var_98_0.id, var_98_5)
+					arg_102_0:emit(ShipBluePrintMediator.ON_PURSUING, var_102_0.id, var_102_5)
 				end
 			})
 		end, SFX_PANEL)
 	else
-		var_98_6 = math.min(var_98_3.count, var_98_0:getUseageMaxItem())
+		var_102_6 = math.min(var_102_3.count, var_102_0:getUseageMaxItem())
 
-		function var_98_7(arg_103_0)
-			local var_103_0 = arg_103_0 * var_98_0:getItemExp()
-			local var_103_1 = Clone(var_98_0)
+		function var_102_7(arg_107_0)
+			local var_107_0 = arg_107_0 * var_102_0:getItemExp()
+			local var_107_1 = Clone(var_102_0)
 
-			var_103_1:addExp(var_103_0)
-			arg_98_0:updateModInfo(var_103_1)
-			setText(arg_98_0.calcTxt, arg_103_0)
+			var_107_1:addExp(var_107_0)
+			arg_102_0:updateModInfo(var_107_1)
+			setText(arg_102_0.calcTxt, arg_107_0)
 		end
 
-		updateDrop(arg_98_0.itemInfoIcon, {
+		updateDrop(arg_102_0.itemInfoIcon, {
 			type = DROP_TYPE_ITEM,
-			id = var_98_3.id
+			id = var_102_3.id
 		})
-		onButton(arg_98_0, arg_98_0.itemInfoIcon, function()
-			ItemTipPanel.ShowItemTipbyID(var_98_3.id, i18n("title_item_ways", var_98_3:getConfig("name")))
+		onButton(arg_102_0, arg_102_0.itemInfoIcon, function()
+			ItemTipPanel.ShowItemTipbyID(var_102_3.id, i18n("title_item_ways", var_102_3:getConfig("name")))
 		end, SFX_PANEL)
-		setScrollText(findTF(arg_98_0.itemInfo, "name/Text"), var_98_3:getConfig("name"))
-		setText(arg_98_0.itemInfoCount, i18n("tec_tip_material_stock") .. ":" .. var_98_3.count)
-		setActive(arg_98_0.itemInfo:Find("no_cost"), false)
-		setActive(arg_98_0.itemInfo:Find("discount"), false)
-		setActive(arg_98_0.modBtn:Find("pursuing_cost"), false)
-		onButton(arg_98_0, arg_98_0.modBtn, function()
-			if arg_98_0:inModAnim() then
+		setScrollText(findTF(arg_102_0.itemInfo, "name/Text"), var_102_3:getConfig("name"))
+		setText(arg_102_0.itemInfoCount, i18n("tec_tip_material_stock") .. ":" .. var_102_3.count)
+		setActive(arg_102_0.itemInfo:Find("no_cost"), false)
+		setActive(arg_102_0.itemInfo:Find("discount"), false)
+		setActive(arg_102_0.modBtn:Find("pursuing_cost"), false)
+		onButton(arg_102_0, arg_102_0.modBtn, function()
+			if arg_102_0:inModAnim() then
 				return
 			end
 
-			if var_98_5 == 0 then
+			if var_102_5 == 0 then
 				return
 			end
 
-			arg_98_0:emit(ShipBluePrintMediator.ON_MOD, var_98_0.id, var_98_5)
+			arg_102_0:emit(ShipBluePrintMediator.ON_MOD, var_102_0.id, var_102_5)
 		end, SFX_PANEL)
 	end
 
-	var_98_7(var_98_5)
+	var_102_7(var_102_5)
 
-	local var_98_10 = 0
-	local var_98_11 = Clone(var_98_0)
-	local var_98_12 = var_98_0:getItemExp()
+	local var_102_10 = 0
+	local var_102_11 = Clone(var_102_0)
+	local var_102_12 = var_102_0:getItemExp()
 
-	while var_98_11.level < var_98_11:getMaxLevel() and var_98_1.level >= var_98_11:getStrengthenConfig(math.min(var_98_11.level + 1, var_98_11:getMaxLevel())).need_lv do
-		var_98_10 = var_98_10 + 1
+	while var_102_11.level < var_102_11:getMaxLevel() and var_102_1.level >= var_102_11:getStrengthenConfig(math.min(var_102_11.level + 1, var_102_11:getMaxLevel())).need_lv do
+		var_102_10 = var_102_10 + 1
 
-		var_98_11:addExp(var_98_12)
+		var_102_11:addExp(var_102_12)
 	end
 
-	local var_98_13 = math.min(var_98_6, var_98_10)
+	local var_102_13 = math.min(var_102_6, var_102_10)
 
-	pressPersistTrigger(arg_98_0.calcMinusBtn, 0.5, function(arg_106_0)
-		if arg_98_0:inModAnim() or var_98_0:isMaxLevel() or var_98_5 == 0 then
-			arg_106_0()
+	pressPersistTrigger(arg_102_0.calcMinusBtn, 0.5, function(arg_110_0)
+		if arg_102_0:inModAnim() or var_102_0:isMaxLevel() or var_102_5 == 0 then
+			arg_110_0()
 
 			return
 		end
 
-		var_98_5 = var_98_5 - 1
+		var_102_5 = var_102_5 - 1
 
-		var_98_7(var_98_5)
+		var_102_7(var_102_5)
 	end, nil, true, true, 0.1, SFX_PANEL)
-	pressPersistTrigger(arg_98_0.calcPlusBtn, 0.5, function(arg_107_0)
-		if arg_98_0:inModAnim() or var_98_0:isMaxLevel() or var_98_5 == var_98_13 then
-			arg_107_0()
+	pressPersistTrigger(arg_102_0.calcPlusBtn, 0.5, function(arg_111_0)
+		if arg_102_0:inModAnim() or var_102_0:isMaxLevel() or var_102_5 == var_102_13 then
+			arg_111_0()
 
 			return
 		end
 
-		var_98_5 = var_98_5 + 1
+		var_102_5 = var_102_5 + 1
 
-		var_98_7(var_98_5)
+		var_102_7(var_102_5)
 	end, nil, true, true, 0.1, SFX_PANEL)
-	onButton(arg_98_0, arg_98_0.calcMaxBtn, function()
-		if arg_98_0:inModAnim() or var_98_0:isMaxLevel() or var_98_5 == var_98_13 then
+	onButton(arg_102_0, arg_102_0.calcMaxBtn, function()
+		if arg_102_0:inModAnim() or var_102_0:isMaxLevel() or var_102_5 == var_102_13 then
 			return
 		end
 
-		var_98_5 = var_98_13
+		var_102_5 = var_102_13
 
-		var_98_7(var_98_5)
+		var_102_7(var_102_5)
 	end, SFX_PANEL)
-	setActive(arg_98_0.calcMaxBtn, not var_98_4)
+	setActive(arg_102_0.calcMaxBtn, not var_102_4)
 
-	local var_98_14 = var_98_0:canFateSimulation()
+	local var_102_14 = var_102_0:canFateSimulation()
 
-	if var_98_14 then
-		onButton(arg_98_0, arg_98_0.fittingBtn, function()
-			if arg_98_0.isSwitchAnim then
+	if var_102_14 then
+		onButton(arg_102_0, arg_102_0.fittingBtn, function()
+			if arg_102_0.isSwitchAnim then
 				return
 			end
 
-			setActive(arg_98_0.fittingBtnEffect, true)
+			setActive(arg_102_0.fittingBtnEffect, true)
 
-			arg_98_0.cbTimer = Timer.New(function()
-				arg_98_0.cbTimer = nil
+			arg_102_0.cbTimer = Timer.New(function()
+				arg_102_0.cbTimer = nil
 
-				setActive(arg_98_0.fittingBtnEffect, false)
-				arg_98_0:switchState(var_0_7, true, function()
-					arg_98_0.isFate = true
+				setActive(arg_102_0.fittingBtnEffect, false)
+				arg_102_0:switchState(var_0_7, true, function()
+					arg_102_0.isFate = true
 
-					setActive(arg_98_0.fittingPanel, arg_98_0.isFate)
-					setActive(arg_98_0.modPanel, not arg_98_0.isFate)
+					setActive(arg_102_0.fittingPanel, arg_102_0.isFate)
+					setActive(arg_102_0.modPanel, not arg_102_0.isFate)
 
 					if not PlayerPrefs.HasKey("first_fate") then
-						triggerButton(arg_98_0.helpBtn)
+						triggerButton(arg_102_0.helpBtn)
 						PlayerPrefs.SetInt("first_fate", 1)
 						PlayerPrefs.Save()
 					end
 				end)
 			end, 0.6)
 
-			arg_98_0.cbTimer:Start()
+			arg_102_0.cbTimer:Start()
 		end, SFX_PANEL)
-		arg_98_0:updateFittingPanel()
+		arg_102_0:updateFittingPanel()
 
 		if not inGuide then
-			pg.NewStoryMgr.GetInstance():Play(var_98_0:getConfig("luck_story"), function(arg_112_0)
-				if arg_112_0 then
-					arg_98_0:buildStartAni("fateStartWindow", function()
-						triggerButton(arg_98_0.fittingBtn)
+			pg.NewStoryMgr.GetInstance():Play(var_102_0:getConfig("luck_story"), function(arg_116_0)
+				if arg_116_0 then
+					arg_102_0:buildStartAni("fateStartWindow", function()
+						triggerButton(arg_102_0.fittingBtn)
 					end)
 				end
 			end)
 		end
 	end
 
-	setActive(arg_98_0.calcPanel, not var_98_14)
-	setActive(arg_98_0.fittingBtn, var_98_14)
-	setActive(arg_98_0.fittingBtnEffect, false)
+	setActive(arg_102_0.calcPanel, not var_102_14)
+	setActive(arg_102_0.fittingBtn, var_102_14)
+	setActive(arg_102_0.fittingBtnEffect, false)
 end
 
-function var_0_0.updateFittingPanel(arg_114_0)
-	local var_114_0 = arg_114_0.contextData.shipBluePrintVO
-	local var_114_1 = arg_114_0:getShipById(var_114_0.shipId)
-	local var_114_2 = var_114_0:getConfig("strengthen_item")
-	local var_114_3 = arg_114_0:getItemById(var_114_2)
-	local var_114_4 = var_114_3.count == 0 and var_114_0:isPursuing()
-	local var_114_5 = 0
-	local var_114_6
-	local var_114_7
+function var_0_0.updateFittingPanel(arg_118_0)
+	local var_118_0 = arg_118_0.contextData.shipBluePrintVO
+	local var_118_1 = arg_118_0:getShipById(var_118_0.shipId)
+	local var_118_2 = var_118_0:getConfig("strengthen_item")
+	local var_118_3 = arg_118_0:getItemById(var_118_2)
+	local var_118_4 = var_118_3.count == 0 and var_118_0:isPursuing()
+	local var_118_5 = 0
+	local var_118_6
+	local var_118_7
 
-	if var_114_4 then
-		local var_114_8 = getProxy(TechnologyProxy)
+	if var_118_4 then
+		local var_118_8 = getProxy(TechnologyProxy)
 
-		var_114_6 = math.min(var_114_8:calcMaxPursuingCount(var_114_0), var_114_0:getFateUseageMaxItem())
+		var_118_6 = math.min(var_118_8:calcMaxPursuingCount(var_118_0), var_118_0:getFateUseageMaxItem())
 
-		function var_114_7(arg_115_0)
-			local var_115_0 = arg_115_0 * var_114_0:getItemExp()
-			local var_115_1 = Clone(var_114_0)
+		function var_118_7(arg_119_0)
+			local var_119_0 = arg_119_0 * var_118_0:getItemExp()
+			local var_119_1 = Clone(var_118_0)
 
-			var_115_1:addExp(var_115_0)
-			arg_114_0:updateFittingInfo(var_115_1)
-			setText(arg_114_0.fittingCalcTxt, arg_115_0)
+			var_119_1:addExp(var_119_0)
+			arg_118_0:updateFittingInfo(var_119_1)
+			setText(arg_118_0.fittingCalcTxt, arg_119_0)
 
-			local var_115_2 = var_114_0:isRarityUR()
-			local var_115_3 = TechnologyProxy.getPursuingDiscount(var_114_8:getPursuingTimes(var_115_2) + var_114_5 + 1, var_115_2)
+			local var_119_2 = var_118_0:isRarityUR()
+			local var_119_3 = TechnologyProxy.getPursuingDiscount(var_118_8:getPursuingTimes(var_119_2) + var_118_5 + 1, var_119_2)
 
-			setText(arg_114_0.fittingItemInfoIcon:Find("icon_bg/count"), var_114_0:getPursuingPrice(var_115_3))
-			setActive(arg_114_0.fittingItemInfo:Find("no_cost"), var_115_3 == 0)
-			setActive(arg_114_0.fittingItemInfo:Find("discount"), var_115_3 > 0 and var_115_3 < 100)
+			setText(arg_118_0.fittingItemInfoIcon:Find("icon_bg/count"), var_118_0:getPursuingPrice(var_119_3))
+			setActive(arg_118_0.fittingItemInfo:Find("no_cost"), var_119_3 == 0)
+			setActive(arg_118_0.fittingItemInfo:Find("discount"), var_119_3 > 0 and var_119_3 < 100)
 
-			if var_115_3 > 0 and var_115_3 < 100 then
-				setText(arg_114_0.fittingItemInfo:Find("discount/Text"), 100 - var_115_3 .. "%OFF")
+			if var_119_3 > 0 and var_119_3 < 100 then
+				setText(arg_118_0.fittingItemInfo:Find("discount/Text"), 100 - var_119_3 .. "%OFF")
 			end
 
-			setActive(arg_114_0.fittingConfirmBtn:Find("pursuing_cost"), arg_115_0 > 0)
-			setText(arg_114_0.fittingConfirmBtn:Find("pursuing_cost/Text"), var_114_8:calcPursuingCost(var_114_0, arg_115_0))
+			setActive(arg_118_0.fittingConfirmBtn:Find("pursuing_cost"), arg_119_0 > 0)
+			setText(arg_118_0.fittingConfirmBtn:Find("pursuing_cost/Text"), var_118_8:calcPursuingCost(var_118_0, arg_119_0))
 		end
 
-		local var_114_9 = {
+		local var_118_9 = {
 			type = DROP_TYPE_RESOURCE,
 			id = PlayerConst.ResGold
 		}
 
-		updateDrop(arg_114_0.fittingItemInfoIcon, var_114_9)
-		onButton(arg_114_0, arg_114_0.fittingItemInfoIcon, function()
+		updateDrop(arg_118_0.fittingItemInfoIcon, var_118_9)
+		onButton(arg_118_0, arg_118_0.fittingItemInfoIcon, function()
 			if LOCK_TECHNOLOGY_PURSUING_TIP then
-				arg_114_0:emit(BaseUI.ON_DROP, var_114_9)
+				arg_118_0:emit(BaseUI.ON_DROP, var_118_9)
 			else
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					type = MSGBOX_TYPE_HELP,
@@ -1327,1021 +1394,1021 @@ function var_0_0.updateFittingPanel(arg_114_0)
 				})
 			end
 		end, SFX_PANEL)
-		setScrollText(findTF(arg_114_0.fittingItemInfo, "name/Text"), var_114_9:getConfig("name"))
-		setText(arg_114_0.fittingItemInfoCount, i18n("tec_tip_material_stock") .. ":" .. getProxy(PlayerProxy):getRawData():getResource(PlayerConst.ResGold))
-		setText(arg_114_0.fittingItemInfo:Find("no_cost/Text"), i18n("tec_tip_no_consumption"))
-		setText(arg_114_0.fittingConfirmBtn:Find("pursuing_cost/word"), i18n("tec_tip_to_consumption"))
-		onButton(arg_114_0, arg_114_0.fittingConfirmBtn, function()
-			if arg_114_0:inModAnim() then
+		setScrollText(findTF(arg_118_0.fittingItemInfo, "name/Text"), var_118_9:getConfig("name"))
+		setText(arg_118_0.fittingItemInfoCount, i18n("tec_tip_material_stock") .. ":" .. getProxy(PlayerProxy):getRawData():getResource(PlayerConst.ResGold))
+		setText(arg_118_0.fittingItemInfo:Find("no_cost/Text"), i18n("tec_tip_no_consumption"))
+		setText(arg_118_0.fittingConfirmBtn:Find("pursuing_cost/word"), i18n("tec_tip_to_consumption"))
+		onButton(arg_118_0, arg_118_0.fittingConfirmBtn, function()
+			if arg_118_0:inModAnim() then
 				return
 			end
 
-			if var_114_5 == 0 then
+			if var_118_5 == 0 then
 				return
 			end
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("blueprint_catchup_by_gold_confirm", var_114_8:calcPursuingCost(var_114_0, var_114_5)),
+				content = i18n("blueprint_catchup_by_gold_confirm", var_118_8:calcPursuingCost(var_118_0, var_118_5)),
 				onYes = function()
-					arg_114_0:emit(ShipBluePrintMediator.ON_PURSUING, var_114_0.id, var_114_5)
+					arg_118_0:emit(ShipBluePrintMediator.ON_PURSUING, var_118_0.id, var_118_5)
 				end
 			})
 		end, SFX_PANEL)
 	else
-		var_114_6 = math.min(var_114_3.count, var_114_0:getFateUseageMaxItem())
+		var_118_6 = math.min(var_118_3.count, var_118_0:getFateUseageMaxItem())
 
-		function var_114_7(arg_119_0)
-			local var_119_0 = arg_119_0 * var_114_0:getItemExp()
-			local var_119_1 = Clone(var_114_0)
+		function var_118_7(arg_123_0)
+			local var_123_0 = arg_123_0 * var_118_0:getItemExp()
+			local var_123_1 = Clone(var_118_0)
 
-			var_119_1:addExp(var_119_0)
-			arg_114_0:updateFittingInfo(var_119_1)
-			setText(arg_114_0.fittingCalcTxt, arg_119_0)
+			var_123_1:addExp(var_123_0)
+			arg_118_0:updateFittingInfo(var_123_1)
+			setText(arg_118_0.fittingCalcTxt, arg_123_0)
 		end
 
-		updateDrop(arg_114_0.fittingItemInfoIcon, {
+		updateDrop(arg_118_0.fittingItemInfoIcon, {
 			type = DROP_TYPE_ITEM,
-			id = var_114_3.id
+			id = var_118_3.id
 		})
-		onButton(arg_114_0, arg_114_0.fittingItemInfoIcon, function()
-			ItemTipPanel.ShowItemTipbyID(var_114_3.id, i18n("title_item_ways", var_114_3:getConfig("name")))
+		onButton(arg_118_0, arg_118_0.fittingItemInfoIcon, function()
+			ItemTipPanel.ShowItemTipbyID(var_118_3.id, i18n("title_item_ways", var_118_3:getConfig("name")))
 		end, SFX_PANEL)
-		setScrollText(arg_114_0.fittingItemInfo:Find("name/Text"), var_114_3:getConfig("name"))
-		setText(arg_114_0.fittingItemInfoCount, i18n("tec_tip_material_stock") .. ":" .. var_114_3.count)
-		setActive(arg_114_0.fittingItemInfo:Find("no_cost"), false)
-		setActive(arg_114_0.fittingItemInfo:Find("discount"), false)
-		setActive(arg_114_0.fittingConfirmBtn:Find("pursuing_cost"), false)
-		onButton(arg_114_0, arg_114_0.fittingConfirmBtn, function()
-			if arg_114_0:inModAnim() then
+		setScrollText(arg_118_0.fittingItemInfo:Find("name/Text"), var_118_3:getConfig("name"))
+		setText(arg_118_0.fittingItemInfoCount, i18n("tec_tip_material_stock") .. ":" .. var_118_3.count)
+		setActive(arg_118_0.fittingItemInfo:Find("no_cost"), false)
+		setActive(arg_118_0.fittingItemInfo:Find("discount"), false)
+		setActive(arg_118_0.fittingConfirmBtn:Find("pursuing_cost"), false)
+		onButton(arg_118_0, arg_118_0.fittingConfirmBtn, function()
+			if arg_118_0:inModAnim() then
 				return
 			end
 
-			if var_114_5 == 0 then
+			if var_118_5 == 0 then
 				return
 			end
 
-			arg_114_0:emit(ShipBluePrintMediator.ON_MOD, var_114_0.id, var_114_5)
+			arg_118_0:emit(ShipBluePrintMediator.ON_MOD, var_118_0.id, var_118_5)
 		end, SFX_PANEL)
 	end
 
-	setText(arg_114_0.fittingAttrPanel:Find("attr/name"), AttributeType.Type2Name(AttributeType.Luck))
-	setText(arg_114_0.fittingPanel:Find("desc/top/text/Text"), i18n("fate_phase_word"))
-	onButton(arg_114_0, arg_114_0.fittingCancelBtn, function()
-		arg_114_0:switchState(var_0_7, true, function()
-			arg_114_0.isFate = false
+	setText(arg_118_0.fittingAttrPanel:Find("attr/name"), AttributeType.Type2Name(AttributeType.Luck))
+	setText(arg_118_0.fittingPanel:Find("desc/top/text/Text"), i18n("fate_phase_word"))
+	onButton(arg_118_0, arg_118_0.fittingCancelBtn, function()
+		arg_118_0:switchState(var_0_7, true, function()
+			arg_118_0.isFate = false
 
-			setActive(arg_114_0.fittingPanel, arg_114_0.isFate)
-			setActive(arg_114_0.modPanel, not arg_114_0.isFate)
+			setActive(arg_118_0.fittingPanel, arg_118_0.isFate)
+			setActive(arg_118_0.modPanel, not arg_118_0.isFate)
 		end)
 	end, SFX_PANEL)
 
-	local var_114_10 = 0
-	local var_114_11 = Clone(var_114_0)
-	local var_114_12 = var_114_0:getItemExp()
+	local var_118_10 = 0
+	local var_118_11 = Clone(var_118_0)
+	local var_118_12 = var_118_0:getItemExp()
 
-	while var_114_11.fateLevel < var_114_11:getMaxFateLevel() and var_114_1.level >= var_114_11:getFateStrengthenConfig(math.min(var_114_11.fateLevel + 1, var_114_11:getMaxFateLevel())).need_lv do
-		var_114_10 = var_114_10 + 1
+	while var_118_11.fateLevel < var_118_11:getMaxFateLevel() and var_118_1.level >= var_118_11:getFateStrengthenConfig(math.min(var_118_11.fateLevel + 1, var_118_11:getMaxFateLevel())).need_lv do
+		var_118_10 = var_118_10 + 1
 
-		var_114_11:addExp(var_114_12)
+		var_118_11:addExp(var_118_12)
 	end
 
-	local var_114_13 = math.min(var_114_6, var_114_10)
+	local var_118_13 = math.min(var_118_6, var_118_10)
 
-	pressPersistTrigger(arg_114_0.fittingCalcMinusBtn, 0.5, function(arg_124_0)
-		if arg_114_0:inModAnim() or var_114_0:isMaxFateLevel() or var_114_5 == 0 then
-			arg_124_0()
+	pressPersistTrigger(arg_118_0.fittingCalcMinusBtn, 0.5, function(arg_128_0)
+		if arg_118_0:inModAnim() or var_118_0:isMaxFateLevel() or var_118_5 == 0 then
+			arg_128_0()
 
 			return
 		end
 
-		var_114_5 = math.max(var_114_5 - 1, 0)
+		var_118_5 = math.max(var_118_5 - 1, 0)
 
-		var_114_7(var_114_5)
+		var_118_7(var_118_5)
 	end, nil, true, true, 0.1, SFX_PANEL)
-	pressPersistTrigger(arg_114_0.fittingCalcPlusBtn, 0.5, function(arg_125_0)
-		if arg_114_0:inModAnim() or var_114_0:isMaxFateLevel() or var_114_5 == var_114_13 then
-			arg_125_0()
+	pressPersistTrigger(arg_118_0.fittingCalcPlusBtn, 0.5, function(arg_129_0)
+		if arg_118_0:inModAnim() or var_118_0:isMaxFateLevel() or var_118_5 == var_118_13 then
+			arg_129_0()
 
 			return
 		end
 
-		var_114_5 = math.max(math.min(var_114_5 + 1, var_114_13), 0)
+		var_118_5 = math.max(math.min(var_118_5 + 1, var_118_13), 0)
 
-		var_114_7(var_114_5)
+		var_118_7(var_118_5)
 	end, nil, true, true, 0.1, SFX_PANEL)
-	onButton(arg_114_0, arg_114_0.fittingCalcMaxBtn, function()
-		if arg_114_0:inModAnim() or var_114_0:isMaxFateLevel() or var_114_5 == var_114_13 then
+	onButton(arg_118_0, arg_118_0.fittingCalcMaxBtn, function()
+		if arg_118_0:inModAnim() or var_118_0:isMaxFateLevel() or var_118_5 == var_118_13 then
 			return
 		end
 
-		var_114_5 = var_114_13
+		var_118_5 = var_118_13
 
-		var_114_7(var_114_5)
+		var_118_7(var_118_5)
 	end, SFX_PANEL)
-	setActive(arg_114_0.fittingCalcMaxBtn, not var_114_4)
+	setActive(arg_118_0.fittingCalcMaxBtn, not var_118_4)
 
-	local var_114_14 = arg_114_0.fittingAttrPanel:Find("phase_panel")
-	local var_114_15 = var_114_14:Find("phase_tpl")
+	local var_118_14 = arg_118_0.fittingAttrPanel:Find("phase_panel")
+	local var_118_15 = var_118_14:Find("phase_tpl")
 
-	setActive(var_114_15, false)
+	setActive(var_118_15, false)
 
-	local var_114_16 = {
+	local var_118_16 = {
 		0,
 		-60,
 		0,
 		60
 	}
-	local var_114_17 = {}
+	local var_118_17 = {}
 
-	for iter_114_0 = 1, var_114_0:getMaxFateLevel() do
-		local var_114_18 = var_114_14:Find("phase_" .. iter_114_0) or cloneTplTo(var_114_15, var_114_14, "phase_" .. iter_114_0)
-		local var_114_19 = var_114_0:getFateStrengthenConfig(iter_114_0)
+	for iter_118_0 = 1, var_118_0:getMaxFateLevel() do
+		local var_118_18 = var_118_14:Find("phase_" .. iter_118_0) or cloneTplTo(var_118_15, var_118_14, "phase_" .. iter_118_0)
+		local var_118_19 = var_118_0:getFateStrengthenConfig(iter_118_0)
 
-		assert(var_114_19.special == 1 and type(var_114_19.special_effect) == "table", "without fate config")
+		assert(var_118_19.special == 1 and type(var_118_19.special_effect) == "table", "without fate config")
 
-		local var_114_20 = var_114_19.special_effect
-		local var_114_21
+		local var_118_20 = var_118_19.special_effect
+		local var_118_21
 
-		for iter_114_1, iter_114_2 in ipairs(var_114_20) do
-			if iter_114_2[1] == ShipBluePrint.STRENGTHEN_TYPE_CHANGE_SKILL then
-				var_114_21 = iter_114_2[2][2]
+		for iter_118_1, iter_118_2 in ipairs(var_118_20) do
+			if iter_118_2[1] == ShipBluePrint.STRENGTHEN_TYPE_CHANGE_SKILL then
+				var_118_21 = iter_118_2[2][2]
 
 				break
 			end
 		end
 
-		for iter_114_3, iter_114_4 in ipairs({
+		for iter_118_3, iter_118_4 in ipairs({
 			"off",
 			"on"
 		}) do
-			setActive(var_114_18:Find(iter_114_4 .. "/icon"), not var_114_21)
-			setActive(var_114_18:Find(iter_114_4 .. "/skill"), var_114_21)
-			setActive(var_114_18:Find(iter_114_4 .. "/icon/line"), var_114_16[iter_114_0])
-			setActive(var_114_18:Find(iter_114_4 .. "/skill/line"), var_114_16[iter_114_0])
+			setActive(var_118_18:Find(iter_118_4 .. "/icon"), not var_118_21)
+			setActive(var_118_18:Find(iter_118_4 .. "/skill"), var_118_21)
+			setActive(var_118_18:Find(iter_118_4 .. "/icon/line"), var_118_16[iter_118_0])
+			setActive(var_118_18:Find(iter_118_4 .. "/skill/line"), var_118_16[iter_118_0])
 
-			if var_114_16[iter_114_0] then
-				var_114_18:Find(iter_114_4 .. "/icon/line").localEulerAngles = Vector3(0, 0, var_114_16[iter_114_0])
-				var_114_18:Find(iter_114_4 .. "/skill/line").localEulerAngles = Vector3(0, 0, var_114_16[iter_114_0])
+			if var_118_16[iter_118_0] then
+				var_118_18:Find(iter_118_4 .. "/icon/line").localEulerAngles = Vector3(0, 0, var_118_16[iter_118_0])
+				var_118_18:Find(iter_118_4 .. "/skill/line").localEulerAngles = Vector3(0, 0, var_118_16[iter_118_0])
 
-				GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", iter_114_0 .. "_" .. iter_114_4, var_114_18:Find(iter_114_4 .. "/icon/icon"), true)
+				GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", iter_118_0 .. "_" .. iter_118_4, var_118_18:Find(iter_118_4 .. "/icon/icon"), true)
 			end
 		end
 
-		if var_114_21 then
-			GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_" .. var_114_21, "", var_114_18:Find("off/skill/icon"), true)
-			GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_on_" .. var_114_21, "", var_114_18:Find("on/skill/icon"), true)
+		if var_118_21 then
+			GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_" .. var_118_21, "", var_118_18:Find("off/skill/icon"), true)
+			GetImageSpriteFromAtlasAsync("tecfateskillicon/skill_on_" .. var_118_21, "", var_118_18:Find("on/skill/icon"), true)
 
-			var_114_17[iter_114_0] = 55
+			var_118_17[iter_118_0] = 55
 		else
-			var_114_17[iter_114_0] = 40
+			var_118_17[iter_118_0] = 40
 		end
 
-		onButton(arg_114_0, var_114_18, function()
-			arg_114_0:showFittingMsgPanel(iter_114_0)
+		onButton(arg_118_0, var_118_18, function()
+			arg_118_0:showFittingMsgPanel(iter_118_0)
 		end, SFX_PANEL)
 	end
 
-	local var_114_22 = Vector2.zero
-	local var_114_23 = Vector2.zero
-	local var_114_24 = Vector2.zero
+	local var_118_22 = Vector2.zero
+	local var_118_23 = Vector2.zero
+	local var_118_24 = Vector2.zero
 
-	for iter_114_5 = 1, var_114_0:getMaxFateLevel() do
-		local var_114_25 = var_114_14:Find("phase_" .. iter_114_5)
+	for iter_118_5 = 1, var_118_0:getMaxFateLevel() do
+		local var_118_25 = var_118_14:Find("phase_" .. iter_118_5)
 
-		setAnchoredPosition(var_114_25, var_114_22)
+		setAnchoredPosition(var_118_25, var_118_22)
 
-		var_114_23.x = math.min(var_114_23.x, var_114_22.x)
-		var_114_23.y = math.min(var_114_23.y, var_114_22.y)
-		var_114_24.x = math.max(var_114_24.x, var_114_22.x)
-		var_114_24.y = math.max(var_114_24.y, var_114_22.y)
+		var_118_23.x = math.min(var_118_23.x, var_118_22.x)
+		var_118_23.y = math.min(var_118_23.y, var_118_22.y)
+		var_118_24.x = math.max(var_118_24.x, var_118_22.x)
+		var_118_24.y = math.max(var_118_24.y, var_118_22.y)
 
-		if var_114_16[iter_114_5] then
-			var_114_22 = var_114_22 + (var_114_17[iter_114_5] + var_114_17[iter_114_5 + 1]) * Vector2(math.cos(math.pi * var_114_16[iter_114_5] / 180), math.sin(math.pi * var_114_16[iter_114_5] / 180))
+		if var_118_16[iter_118_5] then
+			var_118_22 = var_118_22 + (var_118_17[iter_118_5] + var_118_17[iter_118_5 + 1]) * Vector2(math.cos(math.pi * var_118_16[iter_118_5] / 180), math.sin(math.pi * var_118_16[iter_118_5] / 180))
 		end
 	end
 
-	setSizeDelta(var_114_14, var_114_24 - var_114_23)
-	setAnchoredPosition(var_114_14, {
-		y = -var_114_24.y
+	setSizeDelta(var_118_14, var_118_24 - var_118_23)
+	setAnchoredPosition(var_118_14, {
+		y = -var_118_24.y
 	})
-	var_114_7(var_114_5)
+	var_118_7(var_118_5)
 end
 
-function var_0_0.updateFittingInfo(arg_128_0, arg_128_1)
-	local var_128_0 = arg_128_0:getShipById(arg_128_1.shipId)
-	local var_128_1 = arg_128_0.contextData.shipBluePrintVO
+function var_0_0.updateFittingInfo(arg_132_0, arg_132_1)
+	local var_132_0 = arg_132_0:getShipById(arg_132_1.shipId)
+	local var_132_1 = arg_132_0.contextData.shipBluePrintVO
 
-	arg_128_0:updateFittingAttrPanel(var_128_1, arg_128_1)
-	GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "phase_" .. math.max(arg_128_1.fateLevel, 1), arg_128_0.phasePic, true)
+	arg_132_0:updateFittingAttrPanel(var_132_1, arg_132_1)
+	GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "phase_" .. math.max(arg_132_1.fateLevel, 1), arg_132_0.phasePic, true)
 
-	local var_128_2 = var_128_1:getNextFateLevelExp()
+	local var_132_2 = var_132_1:getNextFateLevelExp()
 
-	if var_128_2 == -1 then
-		arg_128_0.phaseSlider.value = 1
+	if var_132_2 == -1 then
+		arg_132_0.phaseSlider.value = 1
 	else
-		arg_128_0.phaseSlider.value = var_128_1.exp / var_128_2
+		arg_132_0.phaseSlider.value = var_132_1.exp / var_132_2
 	end
 
-	local var_128_3 = arg_128_1:getNextFateLevelExp()
+	local var_132_3 = arg_132_1:getNextFateLevelExp()
 
-	if var_128_3 == -1 then
-		setText(arg_128_0.phaseSliderTxt, "MAX")
+	if var_132_3 == -1 then
+		setText(arg_132_0.phaseSliderTxt, "MAX")
 
-		arg_128_0.prePhaseSlider.value = 1
+		arg_132_0.prePhaseSlider.value = 1
 	else
-		local var_128_4 = math.floor(arg_128_1.exp / arg_128_1:getNextFateLevelExp() * 100)
+		local var_132_4 = math.floor(arg_132_1.exp / arg_132_1:getNextFateLevelExp() * 100)
 
-		setText(arg_128_0.phaseSliderTxt, tostring(var_128_4) .. "%")
+		setText(arg_132_0.phaseSliderTxt, tostring(var_132_4) .. "%")
 
-		arg_128_0.prePhaseSlider.value = arg_128_1.fateLevel > var_128_1.fateLevel and 1 or arg_128_1.exp / var_128_3
+		arg_132_0.prePhaseSlider.value = arg_132_1.fateLevel > var_132_1.fateLevel and 1 or arg_132_1.exp / var_132_3
 	end
 
-	local var_128_5, var_128_6 = arg_128_1:isShipModMaxFateLevel(var_128_0)
+	local var_132_5, var_132_6 = arg_132_1:isShipModMaxFateLevel(var_132_0)
 
-	setActive(arg_128_0.fittingNeedMask, var_128_5)
+	setActive(arg_132_0.fittingNeedMask, var_132_5)
 
-	if var_128_5 then
-		setText(arg_128_0.fittingNeedMask:Find("limit"), i18n("buleprint_need_level_tip", var_128_6))
+	if var_132_5 then
+		setText(arg_132_0.fittingNeedMask:Find("limit"), i18n("buleprint_need_level_tip", var_132_6))
 
-		arg_128_0.phaseSlider.value = 1
+		arg_132_0.phaseSlider.value = 1
 	end
 end
 
-function var_0_0.updateFittingAttrPanel(arg_129_0, arg_129_1, arg_129_2)
-	setText(arg_129_0.fittingAttrPanel:Find("attr/name/Text"), " + " .. defaultValue((arg_129_2 or arg_129_1):attrSpecialAddition()[AttributeType.Luck], 0))
+function var_0_0.updateFittingAttrPanel(arg_133_0, arg_133_1, arg_133_2)
+	setText(arg_133_0.fittingAttrPanel:Find("attr/name/Text"), " + " .. defaultValue((arg_133_2 or arg_133_1):attrSpecialAddition()[AttributeType.Luck], 0))
 
-	arg_129_0.blinkTarget = arg_129_0.blinkTarget or {
+	arg_133_0.blinkTarget = arg_133_0.blinkTarget or {
 		{},
 		{}
 	}
 
-	for iter_129_0 = 1, arg_129_1:getMaxFateLevel() do
-		local var_129_0 = arg_129_0.fittingAttrPanel:Find("phase_panel/phase_" .. iter_129_0)
-		local var_129_1 = var_129_0:Find("off")
-		local var_129_2 = var_129_0:Find("on")
+	for iter_133_0 = 1, arg_133_1:getMaxFateLevel() do
+		local var_133_0 = arg_133_0.fittingAttrPanel:Find("phase_panel/phase_" .. iter_133_0)
+		local var_133_1 = var_133_0:Find("off")
+		local var_133_2 = var_133_0:Find("on")
 
-		if arg_129_2 and iter_129_0 > arg_129_1.fateLevel and iter_129_0 <= arg_129_2.fateLevel then
-			setActive(var_129_1, true)
-			setActive(var_129_2, true)
+		if arg_133_2 and iter_133_0 > arg_133_1.fateLevel and iter_133_0 <= arg_133_2.fateLevel then
+			setActive(var_133_1, true)
+			setActive(var_133_2, true)
 
-			if not table.contains(arg_129_0.blinkTarget[1], var_129_1) then
-				table.insert(arg_129_0.blinkTarget[1], var_129_1)
-				table.insert(arg_129_0.blinkTarget[2], var_129_2)
+			if not table.contains(arg_133_0.blinkTarget[1], var_133_1) then
+				table.insert(arg_133_0.blinkTarget[1], var_133_1)
+				table.insert(arg_133_0.blinkTarget[2], var_133_2)
 			end
 		else
-			local var_129_3 = table.indexof(arg_129_0.blinkTarget[1], var_129_1)
+			local var_133_3 = table.indexof(arg_133_0.blinkTarget[1], var_133_1)
 
-			if var_129_3 then
-				table.remove(arg_129_0.blinkTarget[1], var_129_3)
-				table.remove(arg_129_0.blinkTarget[2], var_129_3)
+			if var_133_3 then
+				table.remove(arg_133_0.blinkTarget[1], var_133_3)
+				table.remove(arg_133_0.blinkTarget[2], var_133_3)
 			end
 
-			setActive(var_129_1, iter_129_0 > arg_129_1.fateLevel)
-			setActive(var_129_2, iter_129_0 <= arg_129_1.fateLevel)
+			setActive(var_133_1, iter_133_0 > arg_133_1.fateLevel)
+			setActive(var_133_2, iter_133_0 <= arg_133_1.fateLevel)
 
-			var_129_1:GetComponent(typeof(CanvasGroup)).alpha = 1
-			var_129_2:GetComponent(typeof(CanvasGroup)).alpha = 1
+			var_133_1:GetComponent(typeof(CanvasGroup)).alpha = 1
+			var_133_2:GetComponent(typeof(CanvasGroup)).alpha = 1
 		end
 	end
 
-	if #arg_129_0.blinkTarget[1] == 0 then
-		LeanTween.cancel(go(arg_129_0.fittingAttrPanel))
-	elseif not LeanTween.isTweening(go(arg_129_0.fittingAttrPanel)) then
-		LeanTween.value(go(arg_129_0.fittingAttrPanel), 1, 0, 0.8):setOnUpdate(System.Action_float(function(arg_130_0)
-			for iter_130_0, iter_130_1 in ipairs(arg_129_0.blinkTarget[1]) do
-				iter_130_1:GetComponent(typeof(CanvasGroup)).alpha = arg_130_0
+	if #arg_133_0.blinkTarget[1] == 0 then
+		LeanTween.cancel(go(arg_133_0.fittingAttrPanel))
+	elseif not LeanTween.isTweening(go(arg_133_0.fittingAttrPanel)) then
+		LeanTween.value(go(arg_133_0.fittingAttrPanel), 1, 0, 0.8):setOnUpdate(System.Action_float(function(arg_134_0)
+			for iter_134_0, iter_134_1 in ipairs(arg_133_0.blinkTarget[1]) do
+				iter_134_1:GetComponent(typeof(CanvasGroup)).alpha = arg_134_0
 			end
 
-			for iter_130_2, iter_130_3 in ipairs(arg_129_0.blinkTarget[2]) do
-				iter_130_3:GetComponent(typeof(CanvasGroup)).alpha = 1 - arg_130_0
+			for iter_134_2, iter_134_3 in ipairs(arg_133_0.blinkTarget[2]) do
+				iter_134_3:GetComponent(typeof(CanvasGroup)).alpha = 1 - arg_134_0
 			end
 		end)):setEase(LeanTweenType.easeInOutSine):setLoopPingPong(0)
 	end
 end
 
-function var_0_0.updateModAdditionPanel(arg_131_0)
-	local var_131_0 = arg_131_0.contextData.shipBluePrintVO
-	local var_131_1 = var_131_0:specialStrengthens()
-
-	for iter_131_0 = arg_131_0.modAdditionContainer.childCount - 1, #var_131_1 do
-		arg_131_0:cloneTplTo(arg_131_0.modAdditionTpl, arg_131_0.modAdditionContainer)
-	end
-
-	local var_131_2 = arg_131_0.modAdditionContainer.childCount
-
-	for iter_131_1 = 1, var_131_2 do
-		local var_131_3 = iter_131_1 <= #var_131_1
-		local var_131_4 = arg_131_0.modAdditionContainer:GetChild(iter_131_1 - 1)
-
-		setActive(var_131_4, var_131_3)
-
-		if var_131_3 then
-			arg_131_0:updateAdvanceTF(var_131_0, var_131_4, var_131_1[iter_131_1])
-		end
-	end
-end
-
-function var_0_0.updateAdvanceTF(arg_132_0, arg_132_1, arg_132_2, arg_132_3)
-	local var_132_0 = arg_132_1.level < arg_132_3.level
-
-	setActive(arg_132_2:Find("mask"), var_132_0)
-
-	if var_132_0 then
-		setText(arg_132_2:Find("mask/content/Text"), i18n("blueprint_mod_addition_lock", arg_132_3.level))
-	end
-
-	local var_132_1 = arg_132_3.des
-	local var_132_2 = arg_132_3.extraDes or {}
-	local var_132_3 = arg_132_2:Find("additions")
-
-	removeAllChildren(var_132_3)
-
-	local var_132_4 = arg_132_0.modAdditionPanel:Find("scroll_rect/info")
-
-	local function var_132_5(arg_133_0, arg_133_1)
-		local var_133_0 = arg_133_1[2]
-		local var_133_1 = pg.ship_data_breakout[var_133_0].pre_id
-		local var_133_2 = Ship.New({
-			configId = var_133_0
-		})
-		local var_133_3 = Ship.New({
-			configId = var_133_1
-		}):getStar()
-		local var_133_4 = var_133_2:getStar()
-		local var_133_5 = arg_133_0:Find("star_tpl")
-		local var_133_6 = arg_133_0:Find("stars")
-		local var_133_7 = arg_133_0:Find("pre_stars")
-
-		removeAllChildren(var_133_6)
-		removeAllChildren(var_133_7)
-
-		for iter_133_0 = 1, var_133_3 do
-			cloneTplTo(var_133_5, var_133_6)
-		end
-
-		for iter_133_1 = 1, var_133_4 do
-			cloneTplTo(var_133_5, var_133_7)
-		end
-	end
-
-	for iter_132_0 = 1, #var_132_1 do
-		local var_132_6 = cloneTplTo(var_132_4, var_132_3)
-		local var_132_7 = var_132_6:Find("text_tpl")
-		local var_132_8 = var_132_6:Find("breakout_tpl")
-
-		setActive(var_132_7, false)
-		setActive(var_132_6:Find("attr_tpl"), false)
-		setActive(var_132_8, false)
-		setActive(var_132_6:Find("empty_tpl"), false)
-
-		if var_132_1[iter_132_0] then
-			if var_132_1[iter_132_0][1] == ShipBluePrint.STRENGTHEN_TYPE_BREAKOUT then
-				setActive(var_132_8, true)
-				var_132_5(var_132_8, var_132_1[iter_132_0])
-			else
-				setActive(var_132_7, true)
-				setText(var_132_7:Find("Text"), var_132_1[iter_132_0][3])
-			end
-		end
-	end
-
-	for iter_132_1 = 1, #var_132_2 do
-		local var_132_9 = cloneTplTo(var_132_4, var_132_3)
-		local var_132_10 = var_132_9:Find("text_tpl")
-
-		setActive(var_132_10, true)
-		setActive(var_132_9:Find("attr_tpl"), false)
-		setActive(var_132_9:Find("breakout_tpl"), false)
-		setActive(var_132_9:Find("empty_tpl"), false)
-		setText(var_132_10:Find("Text"), var_132_2[iter_132_1])
-	end
-end
-
-function var_0_0.updateInfo(arg_134_0)
-	local var_134_0 = arg_134_0.contextData.shipBluePrintVO
-	local var_134_1
-
-	if var_134_0:isFetched() then
-		var_134_1 = arg_134_0.shipVOs[var_134_0.shipId]
-	end
-
-	var_134_1 = var_134_1 or var_134_0:getShipVO()
-
-	local var_134_2 = var_134_1:getConfigTable()
-	local var_134_3 = var_134_1:getName()
-
-	setText(arg_134_0.shipName, var_134_3)
-	setText(arg_134_0.englishName, var_134_2.english_name)
-	removeAllChildren(arg_134_0.stars)
-
-	local var_134_4 = var_134_1:getStar()
-	local var_134_5 = var_134_1:getMaxStar()
-
-	for iter_134_0 = 1, var_134_5 do
-		cloneTplTo(arg_134_0.shipInfoStarTpl, arg_134_0.stars, "star_" .. iter_134_0)
-	end
-
-	local var_134_6 = var_134_5 - var_134_4
-
-	for iter_134_1 = 1, var_134_6 do
-		local var_134_7 = arg_134_0.stars:GetChild(var_134_5 - iter_134_1)
-
-		setActive(var_134_7:Find("star_tpl"), false)
-		setActive(var_134_7:Find("empty_star_tpl"), true)
-	end
-
-	local var_134_8 = GetSpriteFromAtlas("shiptype", var_134_1:getShipType())
-
-	if not var_134_8 then
-		warning("找不到船形, shipConfigId: " .. var_134_1.configId)
-	end
-
-	setImageSprite(arg_134_0.shipType, var_134_8, true)
-
-	local var_134_9 = var_134_0:isLock()
-
-	setActive(arg_134_0.finishedBtn, var_134_0:isFinished())
-
-	local var_134_10 = var_134_0:isDeving()
-
-	setActive(arg_134_0.progressPanel, var_134_10)
-
-	if not var_134_10 then
-		setActive(arg_134_0.speedupBtn, false)
-	end
-
-	if var_134_10 then
-		arg_134_0:updateTasksProgress()
-	end
-
-	local var_134_11, var_134_12 = var_134_0:isFinishPrevTask()
-
-	if var_134_9 and not var_134_12 then
-		if var_134_11 then
-			for iter_134_2, iter_134_3 in ipairs(var_134_0:getOpenTaskList()) do
-				arg_134_0:emit(ShipBluePrintMediator.ON_FINISH_TASK, iter_134_3)
-			end
-
-			var_134_12 = true
-		else
-			local var_134_13 = getProxy(TaskProxy)
-			local var_134_14 = var_134_0:getOpenTaskList()
-
-			for iter_134_4, iter_134_5 in ipairs(var_134_14) do
-				local var_134_15 = var_134_13:getTaskVO(iter_134_5)
-				local var_134_16 = iter_134_4 > arg_134_0.lockPanel.childCount and cloneTplTo(arg_134_0.lockBtn, arg_134_0.lockPanel) or arg_134_0.lockPanel:GetChild(iter_134_4 - 1)
-
-				setActive(var_134_16, true)
-
-				local var_134_17 = var_134_15:getProgress()
-				local var_134_18 = var_134_15:getConfig("target_num")
-
-				setText(var_134_16:Find("Text"), (var_134_18 <= var_134_17 and setColorStr(var_134_17, COLOR_GREEN) or var_134_17) .. "/" .. var_134_18)
-			end
-
-			for iter_134_6 = #var_134_14 + 1, arg_134_0.lockPanel.childCount do
-				setActive(arg_134_0.lockPanel:GetChild(iter_134_6 - 1), false)
-			end
-		end
-	end
-
-	setText(arg_134_0.openCondition:Find("Text"), var_134_0:getConfig("unlock_word"))
-	setActive(arg_134_0.openCondition, var_134_9)
-	setActive(arg_134_0.startBtn, var_134_9 and var_134_12)
-	setActive(arg_134_0.lockPanel, var_134_9 and not var_134_12)
-end
-
-function var_0_0.updateTasksProgress(arg_135_0)
+function var_0_0.updateModAdditionPanel(arg_135_0)
 	local var_135_0 = arg_135_0.contextData.shipBluePrintVO
+	local var_135_1 = var_135_0:specialStrengthens()
 
-	if not var_135_0:isDeving() then
+	for iter_135_0 = arg_135_0.modAdditionContainer.childCount - 1, #var_135_1 do
+		arg_135_0:cloneTplTo(arg_135_0.modAdditionTpl, arg_135_0.modAdditionContainer)
+	end
+
+	local var_135_2 = arg_135_0.modAdditionContainer.childCount
+
+	for iter_135_1 = 1, var_135_2 do
+		local var_135_3 = iter_135_1 <= #var_135_1
+		local var_135_4 = arg_135_0.modAdditionContainer:GetChild(iter_135_1 - 1)
+
+		setActive(var_135_4, var_135_3)
+
+		if var_135_3 then
+			arg_135_0:updateAdvanceTF(var_135_0, var_135_4, var_135_1[iter_135_1])
+		end
+	end
+end
+
+function var_0_0.updateAdvanceTF(arg_136_0, arg_136_1, arg_136_2, arg_136_3)
+	local var_136_0 = arg_136_1.level < arg_136_3.level
+
+	setActive(arg_136_2:Find("mask"), var_136_0)
+
+	if var_136_0 then
+		setText(arg_136_2:Find("mask/content/Text"), i18n("blueprint_mod_addition_lock", arg_136_3.level))
+	end
+
+	local var_136_1 = arg_136_3.des
+	local var_136_2 = arg_136_3.extraDes or {}
+	local var_136_3 = arg_136_2:Find("additions")
+
+	removeAllChildren(var_136_3)
+
+	local var_136_4 = arg_136_0.modAdditionPanel:Find("scroll_rect/info")
+
+	local function var_136_5(arg_137_0, arg_137_1)
+		local var_137_0 = arg_137_1[2]
+		local var_137_1 = pg.ship_data_breakout[var_137_0].pre_id
+		local var_137_2 = Ship.New({
+			configId = var_137_0
+		})
+		local var_137_3 = Ship.New({
+			configId = var_137_1
+		}):getStar()
+		local var_137_4 = var_137_2:getStar()
+		local var_137_5 = arg_137_0:Find("star_tpl")
+		local var_137_6 = arg_137_0:Find("stars")
+		local var_137_7 = arg_137_0:Find("pre_stars")
+
+		removeAllChildren(var_137_6)
+		removeAllChildren(var_137_7)
+
+		for iter_137_0 = 1, var_137_3 do
+			cloneTplTo(var_137_5, var_137_6)
+		end
+
+		for iter_137_1 = 1, var_137_4 do
+			cloneTplTo(var_137_5, var_137_7)
+		end
+	end
+
+	for iter_136_0 = 1, #var_136_1 do
+		local var_136_6 = cloneTplTo(var_136_4, var_136_3)
+		local var_136_7 = var_136_6:Find("text_tpl")
+		local var_136_8 = var_136_6:Find("breakout_tpl")
+
+		setActive(var_136_7, false)
+		setActive(var_136_6:Find("attr_tpl"), false)
+		setActive(var_136_8, false)
+		setActive(var_136_6:Find("empty_tpl"), false)
+
+		if var_136_1[iter_136_0] then
+			if var_136_1[iter_136_0][1] == ShipBluePrint.STRENGTHEN_TYPE_BREAKOUT then
+				setActive(var_136_8, true)
+				var_136_5(var_136_8, var_136_1[iter_136_0])
+			else
+				setActive(var_136_7, true)
+				setText(var_136_7:Find("Text"), var_136_1[iter_136_0][3])
+			end
+		end
+	end
+
+	for iter_136_1 = 1, #var_136_2 do
+		local var_136_9 = cloneTplTo(var_136_4, var_136_3)
+		local var_136_10 = var_136_9:Find("text_tpl")
+
+		setActive(var_136_10, true)
+		setActive(var_136_9:Find("attr_tpl"), false)
+		setActive(var_136_9:Find("breakout_tpl"), false)
+		setActive(var_136_9:Find("empty_tpl"), false)
+		setText(var_136_10:Find("Text"), var_136_2[iter_136_1])
+	end
+end
+
+function var_0_0.updateInfo(arg_138_0)
+	local var_138_0 = arg_138_0.contextData.shipBluePrintVO
+	local var_138_1
+
+	if var_138_0:isFetched() then
+		var_138_1 = arg_138_0.shipVOs[var_138_0.shipId]
+	end
+
+	var_138_1 = var_138_1 or var_138_0:getShipVO()
+
+	local var_138_2 = var_138_1:getConfigTable()
+	local var_138_3 = var_138_1:getName()
+
+	setText(arg_138_0.shipName, var_138_3)
+	setText(arg_138_0.englishName, var_138_2.english_name)
+	removeAllChildren(arg_138_0.stars)
+
+	local var_138_4 = var_138_1:getStar()
+	local var_138_5 = var_138_1:getMaxStar()
+
+	for iter_138_0 = 1, var_138_5 do
+		cloneTplTo(arg_138_0.shipInfoStarTpl, arg_138_0.stars, "star_" .. iter_138_0)
+	end
+
+	local var_138_6 = var_138_5 - var_138_4
+
+	for iter_138_1 = 1, var_138_6 do
+		local var_138_7 = arg_138_0.stars:GetChild(var_138_5 - iter_138_1)
+
+		setActive(var_138_7:Find("star_tpl"), false)
+		setActive(var_138_7:Find("empty_star_tpl"), true)
+	end
+
+	local var_138_8 = GetSpriteFromAtlas("shiptype", var_138_1:getShipType())
+
+	if not var_138_8 then
+		warning("找不到船形, shipConfigId: " .. var_138_1.configId)
+	end
+
+	setImageSprite(arg_138_0.shipType, var_138_8, true)
+
+	local var_138_9 = var_138_0:isLock()
+
+	setActive(arg_138_0.finishedBtn, var_138_0:isFinished())
+
+	local var_138_10 = var_138_0:isDeving()
+
+	setActive(arg_138_0.progressPanel, var_138_10)
+
+	if not var_138_10 then
+		setActive(arg_138_0.speedupBtn, false)
+	end
+
+	if var_138_10 then
+		arg_138_0:updateTasksProgress()
+	end
+
+	local var_138_11, var_138_12 = var_138_0:isFinishPrevTask()
+
+	if var_138_9 and not var_138_12 then
+		if var_138_11 then
+			for iter_138_2, iter_138_3 in ipairs(var_138_0:getOpenTaskList()) do
+				arg_138_0:emit(ShipBluePrintMediator.ON_FINISH_TASK, iter_138_3)
+			end
+
+			var_138_12 = true
+		else
+			local var_138_13 = getProxy(TaskProxy)
+			local var_138_14 = var_138_0:getOpenTaskList()
+
+			for iter_138_4, iter_138_5 in ipairs(var_138_14) do
+				local var_138_15 = var_138_13:getTaskVO(iter_138_5)
+				local var_138_16 = iter_138_4 > arg_138_0.lockPanel.childCount and cloneTplTo(arg_138_0.lockBtn, arg_138_0.lockPanel) or arg_138_0.lockPanel:GetChild(iter_138_4 - 1)
+
+				setActive(var_138_16, true)
+
+				local var_138_17 = var_138_15:getProgress()
+				local var_138_18 = var_138_15:getConfig("target_num")
+
+				setText(var_138_16:Find("Text"), (var_138_18 <= var_138_17 and setColorStr(var_138_17, COLOR_GREEN) or var_138_17) .. "/" .. var_138_18)
+			end
+
+			for iter_138_6 = #var_138_14 + 1, arg_138_0.lockPanel.childCount do
+				setActive(arg_138_0.lockPanel:GetChild(iter_138_6 - 1), false)
+			end
+		end
+	end
+
+	setText(arg_138_0.openCondition:Find("Text"), var_138_0:getConfig("unlock_word"))
+	setActive(arg_138_0.openCondition, var_138_9)
+	setActive(arg_138_0.startBtn, var_138_9 and var_138_12)
+	setActive(arg_138_0.lockPanel, var_138_9 and not var_138_12)
+end
+
+function var_0_0.updateTasksProgress(arg_139_0)
+	local var_139_0 = arg_139_0.contextData.shipBluePrintVO
+
+	if not var_139_0:isDeving() then
 		return
 	end
 
-	local var_135_1 = var_135_0:getTaskIds()
+	local var_139_1 = var_139_0:getTaskIds()
 
-	for iter_135_0 = arg_135_0.progressContainer.childCount, #var_135_1 do
-		cloneTplTo(arg_135_0.progressTpl, arg_135_0.progressContainer)
+	for iter_139_0 = arg_139_0.progressContainer.childCount, #var_139_1 do
+		cloneTplTo(arg_139_0.progressTpl, arg_139_0.progressContainer)
 	end
 
-	local var_135_2 = arg_135_0.progressContainer.childCount
+	local var_139_2 = arg_139_0.progressContainer.childCount
 
-	for iter_135_1 = 1, var_135_2 do
-		local var_135_3 = arg_135_0.progressContainer:GetChild(iter_135_1 - 1)
-		local var_135_4 = iter_135_1 <= #var_135_1
+	for iter_139_1 = 1, var_139_2 do
+		local var_139_3 = arg_139_0.progressContainer:GetChild(iter_139_1 - 1)
+		local var_139_4 = iter_139_1 <= #var_139_1
 
-		setActive(var_135_3, var_135_4)
+		setActive(var_139_3, var_139_4)
 
-		if var_135_4 then
-			local var_135_5 = var_135_0:getTaskStateById(var_135_1[iter_135_1])
+		if var_139_4 then
+			local var_139_5 = var_139_0:getTaskStateById(var_139_1[iter_139_1])
 
-			setActive(findTF(var_135_3, "complete"), var_135_5 == ShipBluePrint.TASK_STATE_FINISHED)
-			setActive(findTF(var_135_3, "lock"), var_135_5 == ShipBluePrint.TASK_STATE_LOCK or var_135_5 == ShipBluePrint.TASK_STATE_WAIT)
-			setActive(findTF(var_135_3, "working"), var_135_5 == ShipBluePrint.TASK_STATE_ACHIEVED or var_135_5 == ShipBluePrint.TASK_STATE_OPENING or var_135_5 == ShipBluePrint.TASK_STATE_START)
+			setActive(findTF(var_139_3, "complete"), var_139_5 == ShipBluePrint.TASK_STATE_FINISHED)
+			setActive(findTF(var_139_3, "lock"), var_139_5 == ShipBluePrint.TASK_STATE_LOCK or var_139_5 == ShipBluePrint.TASK_STATE_WAIT)
+			setActive(findTF(var_139_3, "working"), var_139_5 == ShipBluePrint.TASK_STATE_ACHIEVED or var_139_5 == ShipBluePrint.TASK_STATE_OPENING or var_139_5 == ShipBluePrint.TASK_STATE_START)
 		end
 	end
 
-	local var_135_6 = var_135_0:getConfig("blueprint_version")
-	local var_135_7 = pg.gameset.technology_catchup_itemid.description[var_135_6]
+	local var_139_6 = var_139_0:getConfig("blueprint_version")
+	local var_139_7 = pg.gameset.technology_catchup_itemid.description[var_139_6]
 
-	if var_135_7 then
-		local var_135_8 = var_135_0:getTaskStateById(var_135_1[1])
-		local var_135_9 = var_135_0:getTaskStateById(var_135_1[4])
-		local var_135_10 = var_135_7[1]
-		local var_135_11 = getProxy(BagProxy):getItemCountById(var_135_10)
+	if var_139_7 then
+		local var_139_8 = var_139_0:getTaskStateById(var_139_1[1])
+		local var_139_9 = var_139_0:getTaskStateById(var_139_1[4])
+		local var_139_10 = var_139_7[1]
+		local var_139_11 = getProxy(BagProxy):getItemCountById(var_139_10)
 
-		setActive(arg_135_0.speedupBtn, (var_135_8 == ShipBluePrint.TASK_STATE_START or var_135_9 == ShipBluePrint.TASK_STATE_START) and var_135_11 > 0)
+		setActive(arg_139_0.speedupBtn, (var_139_8 == ShipBluePrint.TASK_STATE_START or var_139_9 == ShipBluePrint.TASK_STATE_START) and var_139_11 > 0)
 	else
-		setActive(arg_135_0.speedupBtn, false)
+		setActive(arg_139_0.speedupBtn, false)
 	end
 end
 
-function var_0_0.updatePainting(arg_136_0)
-	local var_136_0 = arg_136_0.contextData.shipBluePrintVO:getShipVO():getPainting()
+function var_0_0.updatePainting(arg_140_0)
+	local var_140_0 = arg_140_0.contextData.shipBluePrintVO:getShipVO():getPainting()
 
-	if PLATFORM_CODE == PLATFORM_CH and checkABExist("painting/" .. var_136_0 .. "_blueprint") then
-		var_136_0 = var_136_0 .. "_blueprint"
+	if PLATFORM_CODE == PLATFORM_CH and checkABExist("painting/" .. var_140_0 .. "_blueprint") then
+		var_140_0 = var_140_0 .. "_blueprint"
 	end
 
-	if arg_136_0.lastPaintingName and arg_136_0.lastPaintingName ~= var_136_0 then
-		retPaintingPrefab(arg_136_0.painting, arg_136_0.lastPaintingName)
+	if arg_140_0.lastPaintingName and arg_140_0.lastPaintingName ~= var_140_0 then
+		retPaintingPrefab(arg_140_0.painting, arg_140_0.lastPaintingName)
 	end
 
-	arg_136_0.lastPaintingName = var_136_0
+	arg_140_0.lastPaintingName = var_140_0
 
-	setPaintingPrefab(arg_136_0.painting, var_136_0, "tuzhi")
-	arg_136_0:paintBreath()
+	setPaintingPrefab(arg_140_0.painting, var_140_0, "tuzhi")
+	arg_140_0:paintBreath()
 end
 
-function var_0_0.updateProperty(arg_137_0)
-	local var_137_0 = arg_137_0.contextData.shipBluePrintVO
-	local var_137_1 = var_137_0:getShipVO()
+function var_0_0.updateProperty(arg_141_0)
+	local var_141_0 = arg_141_0.contextData.shipBluePrintVO
+	local var_141_1 = var_141_0:getShipVO()
 
-	arg_137_0.propertyPanel:initProperty(var_137_1.configId, PropertyPanel.TypeFlat)
+	arg_141_0.propertyPanel:initProperty(var_141_1.configId, PropertyPanel.TypeFlat)
 
-	local var_137_2 = var_0_2[var_137_1.configId].buff_list_display
+	local var_141_2 = var_0_2[var_141_1.configId].buff_list_display
 
-	for iter_137_0 = arg_137_0.skillPanel.childCount, #var_137_2 - 1 do
-		cloneTplTo(arg_137_0.skillTpl, arg_137_0.skillPanel)
+	for iter_141_0 = arg_141_0.skillPanel.childCount, #var_141_2 - 1 do
+		cloneTplTo(arg_141_0.skillTpl, arg_141_0.skillPanel)
 	end
 
-	local var_137_3 = arg_137_0.skillPanel.childCount
+	local var_141_3 = arg_141_0.skillPanel.childCount
 
-	for iter_137_1 = 1, var_137_3 do
-		local var_137_4 = arg_137_0.skillPanel:GetChild(iter_137_1 - 1)
-		local var_137_5 = iter_137_1 <= #var_137_2
-		local var_137_6 = findTF(var_137_4, "icon")
+	for iter_141_1 = 1, var_141_3 do
+		local var_141_4 = arg_141_0.skillPanel:GetChild(iter_141_1 - 1)
+		local var_141_5 = iter_141_1 <= #var_141_2
+		local var_141_6 = findTF(var_141_4, "icon")
 
-		if var_137_5 then
-			local var_137_7 = var_137_2[iter_137_1]
-			local var_137_8 = getSkillConfig(var_137_7)
+		if var_141_5 then
+			local var_141_7 = var_141_2[iter_141_1]
+			local var_141_8 = getSkillConfig(var_141_7)
 
-			LoadImageSpriteAsync("skillicon/" .. var_137_8.icon, var_137_6)
-			onButton(arg_137_0, var_137_4, function()
-				arg_137_0:emit(ShipBluePrintMediator.SHOW_SKILL_INFO, var_137_8.id, {
-					id = var_137_8.id,
-					level = pg.skill_data_template[var_137_8.id].max_level
+			LoadImageSpriteAsync("skillicon/" .. var_141_8.icon, var_141_6)
+			onButton(arg_141_0, var_141_4, function()
+				arg_141_0:emit(ShipBluePrintMediator.SHOW_SKILL_INFO, var_141_8.id, {
+					id = var_141_8.id,
+					level = pg.skill_data_template[var_141_8.id].max_level
 				}, function()
 					return
 				end)
 			end, SFX_PANEL)
 		end
 
-		setActive(var_137_4, var_137_5)
+		setActive(var_141_4, var_141_5)
 	end
 
-	setActive(arg_137_0.skillArrLeft, #var_137_2 > 3)
-	setActive(arg_137_0.skillArrRight, #var_137_2 > 3)
+	setActive(arg_141_0.skillArrLeft, #var_141_2 > 3)
+	setActive(arg_141_0.skillArrRight, #var_141_2 > 3)
 
-	if #var_137_2 > 3 then
-		onScroll(arg_137_0, arg_137_0.skillRect, function(arg_140_0)
-			setActive(arg_137_0.skillArrLeft, arg_140_0.x > 0.01)
-			setActive(arg_137_0.skillArrRight, arg_140_0.x < 0.99)
+	if #var_141_2 > 3 then
+		onScroll(arg_141_0, arg_141_0.skillRect, function(arg_144_0)
+			setActive(arg_141_0.skillArrLeft, arg_144_0.x > 0.01)
+			setActive(arg_141_0.skillArrRight, arg_144_0.x < 0.99)
 		end)
 	else
-		GetComponent(arg_137_0.skillRect, typeof(ScrollRect)).onValueChanged:RemoveAllListeners()
+		GetComponent(arg_141_0.skillRect, typeof(ScrollRect)).onValueChanged:RemoveAllListeners()
 	end
 
-	setAnchoredPosition(arg_137_0.skillPanel, {
+	setAnchoredPosition(arg_141_0.skillPanel, {
 		x = 0
 	})
 
-	local var_137_9 = var_137_0:getConfig("simulate_dungeon")
+	local var_141_9 = var_141_0:getConfig("simulate_dungeon")
 
-	setActive(arg_137_0.simulationBtn, var_137_9 ~= 0)
-	onButton(arg_137_0, arg_137_0.simulationBtn, function()
-		if var_137_9 == 0 then
+	setActive(arg_141_0.simulationBtn, var_141_9 ~= 0)
+	onButton(arg_141_0, arg_141_0.simulationBtn, function()
+		if var_141_9 == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("tech_simulate_closed"))
 		else
-			local var_141_0 = i18n("blueprint_simulation_confirm_" .. var_137_0.id)
+			local var_145_0 = i18n("blueprint_simulation_confirm_" .. var_141_0.id)
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = var_141_0,
+				content = var_145_0,
 				onYes = function()
-					arg_137_0:emit(ShipBluePrintMediator.SIMULATION_BATTLE, var_137_9)
+					arg_141_0:emit(ShipBluePrintMediator.SIMULATION_BATTLE, var_141_9)
 				end
 			})
 		end
 	end, SFX_CONFIRM)
 end
 
-function var_0_0.updateTaskList(arg_143_0)
-	local var_143_0 = arg_143_0.contextData.shipBluePrintVO
-	local var_143_1 = var_143_0:getTaskIds()
+function var_0_0.updateTaskList(arg_147_0)
+	local var_147_0 = arg_147_0.contextData.shipBluePrintVO
+	local var_147_1 = var_147_0:getTaskIds()
 
-	UIItemList.StaticAlign(arg_143_0.taskContainer, arg_143_0.taskTpl, #var_143_1, function(arg_144_0, arg_144_1, arg_144_2)
-		arg_144_1 = arg_144_1 + 1
+	UIItemList.StaticAlign(arg_147_0.taskContainer, arg_147_0.taskTpl, #var_147_1, function(arg_148_0, arg_148_1, arg_148_2)
+		arg_148_1 = arg_148_1 + 1
 
-		if arg_144_0 == UIItemList.EventUpdate then
-			if arg_143_0.taskTFs[arg_144_1] then
-				arg_143_0.taskTFs[arg_144_1]:clear()
+		if arg_148_0 == UIItemList.EventUpdate then
+			if arg_147_0.taskTFs[arg_148_1] then
+				arg_147_0.taskTFs[arg_148_1]:clear()
 			end
 
-			if arg_144_1 <= #var_143_1 then
-				if not arg_143_0.taskTFs[arg_144_1] then
-					arg_143_0.taskTFs[arg_144_1] = arg_143_0:createTask(arg_144_2)
+			if arg_148_1 <= #var_147_1 then
+				if not arg_147_0.taskTFs[arg_148_1] then
+					arg_147_0.taskTFs[arg_148_1] = arg_147_0:createTask(arg_148_2)
 				end
 
-				local var_144_0 = var_143_1[arg_144_1]
-				local var_144_1 = arg_143_0:getTaskById(var_144_0)
+				local var_148_0 = var_147_1[arg_148_1]
+				local var_148_1 = arg_147_0:getTaskById(var_148_0)
 
-				if var_143_0.duration > 0 then
-					var_144_1.leftTime = var_143_0:getTaskOpenTimeStamp(var_144_0) - var_143_0.duration
+				if var_147_0.duration > 0 then
+					var_148_1.leftTime = var_147_0:getTaskOpenTimeStamp(var_148_0) - var_147_0.duration
 				end
 
-				var_144_1.taskState = var_143_0:getTaskStateById(var_144_0)
-				var_144_1.dueTime = var_143_0:getTaskOpenTimeStamp(var_144_0)
-				var_144_1.index = arg_144_1
+				var_148_1.taskState = var_147_0:getTaskStateById(var_148_0)
+				var_148_1.dueTime = var_147_0:getTaskOpenTimeStamp(var_148_0)
+				var_148_1.index = arg_148_1
 
-				arg_143_0.taskTFs[arg_144_1]:update(var_144_1)
+				arg_147_0.taskTFs[arg_148_1]:update(var_148_1)
 			end
 		end
 	end)
 end
 
-function var_0_0.updatePhantomQuest(arg_145_0)
-	local var_145_0 = arg_145_0.contextData.shipBluePrintVO
-	local var_145_1 = var_145_0:isUnlockShipPhantom()
+function var_0_0.updatePhantomQuest(arg_149_0)
+	local var_149_0 = arg_149_0.contextData.shipBluePrintVO
+	local var_149_1 = var_149_0:isUnlockShipPhantom()
 
-	setActive(arg_145_0.phantomPanel:Find("title/bg"), var_145_1)
-	setActive(arg_145_0.phantomPanel:Find("title/bg_lock"), not var_145_1)
-	setActive(arg_145_0.phantomPanel:Find("desc/content"), var_145_1)
-	setActive(arg_145_0.phantomPanel:Find("desc/lock_mask"), not var_145_1)
-	setText(arg_145_0.phantomPanel:Find("desc/lock_mask/Text"), i18n("tech_shadow_limit_text", getGameset("technology_shadow_unlock_lv")[1]))
+	setActive(arg_149_0.phantomPanel:Find("title/bg"), var_149_1)
+	setActive(arg_149_0.phantomPanel:Find("title/bg_lock"), not var_149_1)
+	setActive(arg_149_0.phantomPanel:Find("desc/content"), var_149_1)
+	setActive(arg_149_0.phantomPanel:Find("desc/lock_mask"), not var_149_1)
+	setText(arg_149_0.phantomPanel:Find("desc/lock_mask/Text"), i18n("tech_shadow_limit_text", getGameset("technology_shadow_unlock_lv")[1]))
 
-	if not var_145_1 then
+	if not var_149_1 then
 		return
 	end
 
-	local var_145_2 = var_145_0:getAllPhantomQuestInfo()
+	local var_149_2 = var_149_0:getAllPhantomQuestInfo()
 
-	setText(arg_145_0.phantomPanel:Find("title/bg/Text"), string.format("%d/%d", #underscore.filter(var_145_2, function(arg_146_0)
-		return arg_146_0.unlocked
-	end), #var_145_2))
-	UIItemList.StaticAlign(arg_145_0.rtPhantomQuestContainer, arg_145_0.questTpl, #var_145_2, function(arg_147_0, arg_147_1, arg_147_2)
-		arg_147_1 = arg_147_1 + 1
+	setText(arg_149_0.phantomPanel:Find("title/bg/Text"), string.format("%d/%d", #underscore.filter(var_149_2, function(arg_150_0)
+		return arg_150_0.unlocked
+	end), #var_149_2))
+	UIItemList.StaticAlign(arg_149_0.rtPhantomQuestContainer, arg_149_0.questTpl, #var_149_2, function(arg_151_0, arg_151_1, arg_151_2)
+		arg_151_1 = arg_151_1 + 1
 
-		if arg_147_0 == UIItemList.EventUpdate then
-			local var_147_0 = var_145_2[arg_147_1]
+		if arg_151_0 == UIItemList.EventUpdate then
+			local var_151_0 = var_149_2[arg_151_1]
 
-			setActive(arg_147_2:Find("title/bg"), var_147_0.config.type ~= 5)
-			setActive(arg_147_2:Find("title/bg_1"), var_147_0.config.type == 5)
-			setActive(arg_147_2:Find("title/complete"), var_147_0.unlocked)
-			setActive(arg_147_2:Find("title/working"), not var_147_0.unlocked)
-			setText(arg_147_2:Find("title/name"), var_147_0.config.name)
-			setText(arg_147_2:Find("title/number"), arg_147_1)
-			setSlider(arg_147_2:Find("title/slider"), 0, var_147_0.config.target_num, var_147_0.unlocked and var_147_0.config.target_num or var_147_0.progress)
-			setActive(arg_147_2:Find("title/slider/complete"), var_147_0.unlocked)
-			setActive(arg_147_2:Find("title/tip"), not var_147_0.unlocked and var_147_0.progress >= var_147_0.config.target_num)
+			setActive(arg_151_2:Find("title/bg"), var_151_0.config.type ~= 5)
+			setActive(arg_151_2:Find("title/bg_1"), var_151_0.config.type == 5)
+			setActive(arg_151_2:Find("title/complete"), var_151_0.unlocked)
+			setActive(arg_151_2:Find("title/working"), not var_151_0.unlocked)
+			setText(arg_151_2:Find("title/name"), var_151_0.config.name)
+			setText(arg_151_2:Find("title/number"), arg_151_1)
+			setSlider(arg_151_2:Find("title/slider"), 0, var_151_0.config.target_num, var_151_0.unlocked and var_151_0.config.target_num or var_151_0.progress)
+			setActive(arg_151_2:Find("title/slider/complete"), var_151_0.unlocked)
+			setActive(arg_151_2:Find("title/tip"), not var_151_0.unlocked and var_151_0.progress >= var_151_0.config.target_num)
 
-			if var_147_0.config.type == 5 then
-				setText(arg_147_2:Find("desc/info/Text"), stringInset(var_147_0.config.desc, var_147_0.config.target_num))
+			if var_151_0.config.type == 5 then
+				setText(arg_151_2:Find("desc/info/Text"), stringInset(var_151_0.config.desc, var_151_0.config.target_num))
 			else
-				setText(arg_147_2:Find("desc/info/Text"), var_147_0.config.desc)
+				setText(arg_151_2:Find("desc/info/Text"), var_151_0.config.desc)
 			end
 
-			local var_147_1 = string.format("%d", math.clamp(var_147_0.unlocked and var_147_0.config.target_num or var_147_0.progress, 0, var_147_0.config.target_num) * 100 / var_147_0.config.target_num)
+			local var_151_1 = string.format("%d", math.clamp(var_151_0.unlocked and var_151_0.config.target_num or var_151_0.progress, 0, var_151_0.config.target_num) * 100 / var_151_0.config.target_num)
 
-			setText(arg_147_2:Find("desc/info/progress"), var_147_1 .. "%")
-			setText(arg_147_2:Find("desc/info/progress/shadow"), var_147_1 .. "%")
+			setText(arg_151_2:Find("desc/info/progress"), var_151_1 .. "%")
+			setText(arg_151_2:Find("desc/info/progress/shadow"), var_151_1 .. "%")
 
-			local var_147_2 = ShipBluePrint.getPhantomQuestCostDrop(var_147_0)
+			local var_151_2 = ShipBluePrint.getPhantomQuestCostDrop(var_151_0)
 
-			setActive(arg_147_2:Find("desc/item_info/items"), var_147_2)
+			setActive(arg_151_2:Find("desc/item_info/items"), var_151_2)
 
-			if var_147_2 then
-				updateDrop(arg_147_2:Find("desc/item_info/items/item_tpl/award"), var_147_2)
+			if var_151_2 then
+				updateDrop(arg_151_2:Find("desc/item_info/items/item_tpl/award"), var_151_2)
 			end
 
-			local var_147_3 = var_147_0.unlocked or var_147_0.progress < var_147_0.config.target_num
+			local var_151_3 = var_151_0.unlocked or var_151_0.progress < var_151_0.config.target_num
 
-			setActive(arg_147_2:Find("desc/commit_panel/commit_btn"), not canCommit)
-			setActive(arg_147_2:Find("desc/commit_panel/lock_btn"), var_147_3)
-			onButton(arg_145_0, arg_147_2:Find("desc/commit_panel/commit_btn"), function()
-				local var_148_0 = {}
+			setActive(arg_151_2:Find("desc/commit_panel/commit_btn"), not canCommit)
+			setActive(arg_151_2:Find("desc/commit_panel/lock_btn"), var_151_3)
+			onButton(arg_149_0, arg_151_2:Find("desc/commit_panel/commit_btn"), function()
+				local var_152_0 = {}
 
-				if var_147_2 then
-					table.insert(var_148_0, function(arg_149_0)
+				if var_151_2 then
+					table.insert(var_152_0, function(arg_153_0)
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("tech_shadow_commit_tip", var_147_2:getName() .. "x" .. var_147_2.count),
-							onYes = arg_149_0
+							content = i18n("tech_shadow_commit_tip", var_151_2:getName() .. "x" .. var_151_2.count),
+							onYes = arg_153_0
 						})
 					end)
 				end
 
-				seriesAsync(var_148_0, function()
-					arg_145_0:emit(ShipBluePrintMediator.FINISH_PHANTOM_QUEST, var_145_0.id, arg_147_1)
+				seriesAsync(var_152_0, function()
+					arg_149_0:emit(ShipBluePrintMediator.FINISH_PHANTOM_QUEST, var_149_0.id, arg_151_1)
 				end)
 			end, SFX_CONFIRM)
-			onToggle(arg_145_0, arg_147_2, function(arg_151_0)
-				if arg_151_0 then
+			onToggle(arg_149_0, arg_151_2, function(arg_155_0)
+				if arg_155_0 then
 					Canvas.ForceUpdateCanvases()
 
-					local var_151_0 = arg_145_0.rtPhantomQuestContainer.parent.transform:InverseTransformPoint(arg_147_2.position).y
-					local var_151_1 = var_151_0 - arg_147_2.rect.height
-					local var_151_2 = arg_145_0.rtPhantomQuestContainer.parent.transform.rect
-					local var_151_3 = 0
+					local var_155_0 = arg_149_0.rtPhantomQuestContainer.parent.transform:InverseTransformPoint(arg_151_2.position).y
+					local var_155_1 = var_155_0 - arg_151_2.rect.height
+					local var_155_2 = arg_149_0.rtPhantomQuestContainer.parent.transform.rect
+					local var_155_3 = 0
 
-					if var_151_1 < var_151_2.yMin then
-						var_151_3 = var_151_2.yMin - var_151_1
+					if var_155_1 < var_155_2.yMin then
+						var_155_3 = var_155_2.yMin - var_155_1
 					end
 
-					if var_151_0 > var_151_2.yMax then
-						var_151_3 = var_151_2.yMax - var_151_0
+					if var_155_0 > var_155_2.yMax then
+						var_155_3 = var_155_2.yMax - var_155_0
 					end
 
-					local var_151_4 = arg_145_0.rtPhantomQuestContainer.localPosition
+					local var_155_4 = arg_149_0.rtPhantomQuestContainer.localPosition
 
-					var_151_4.y = var_151_4.y + var_151_3
-					arg_145_0.rtPhantomQuestContainer.localPosition = var_151_4
+					var_155_4.y = var_155_4.y + var_155_3
+					arg_149_0.rtPhantomQuestContainer.localPosition = var_155_4
 				end
 			end, SFX_PANEL)
 		end
 	end)
 end
 
-function var_0_0.createTask(arg_152_0, arg_152_1)
-	local var_152_0 = {
-		title = arg_152_1:Find("title/name"),
-		desc = arg_152_1:Find("desc/info/Text"),
-		timerTF = arg_152_1:Find("title/timer"),
-		timerTFTxt = arg_152_1:Find("title/timer/Text"),
-		timerOpen = arg_152_1:Find("title/timer/open"),
-		timerClose = arg_152_1:Find("title/timer/close"),
-		maskAchieved = arg_152_1:Find("title/slider/complete"),
-		tip = arg_152_1:Find("title/tip"),
-		commitBtn = arg_152_1:Find("desc/commit_panel/commit_btn"),
-		itemInfo = arg_152_1:Find("desc/item_info")
+function var_0_0.createTask(arg_156_0, arg_156_1)
+	local var_156_0 = {
+		title = arg_156_1:Find("title/name"),
+		desc = arg_156_1:Find("desc/info/Text"),
+		timerTF = arg_156_1:Find("title/timer"),
+		timerTFTxt = arg_156_1:Find("title/timer/Text"),
+		timerOpen = arg_156_1:Find("title/timer/open"),
+		timerClose = arg_156_1:Find("title/timer/close"),
+		maskAchieved = arg_156_1:Find("title/slider/complete"),
+		tip = arg_156_1:Find("title/tip"),
+		commitBtn = arg_156_1:Find("desc/commit_panel/commit_btn"),
+		itemInfo = arg_156_1:Find("desc/item_info")
 	}
 
-	var_152_0.itemContainer = var_152_0.itemInfo:Find("items")
-	var_152_0.itemTpl = var_152_0.itemContainer:Find("item_tpl")
-	var_152_0.numberTF = arg_152_1:Find("title/number")
-	var_152_0.progressTF = arg_152_1:Find("title/slider")
-	var_152_0.progessSlider = var_152_0.progressTF:GetComponent(typeof(Slider))
-	var_152_0.lockBtn = arg_152_1:Find("desc/commit_panel/lock_btn")
-	var_152_0.itemCount = var_152_0.itemTpl:Find("award/icon_bg/count")
-	var_152_0.progres = arg_152_1:Find("desc/info/progress")
-	var_152_0.progreshadow = arg_152_1:Find("desc/info/progress/shadow")
-	var_152_0.check = findTF(arg_152_1, "title/complete")
-	var_152_0.lock = findTF(arg_152_1, "title/lock")
-	var_152_0.working = findTF(arg_152_1, "title/working")
-	var_152_0.pause = findTF(arg_152_1, "title/pause")
-	var_152_0.pauseLock = findTF(arg_152_1, "title/pause_lock")
-	var_152_0.view = arg_152_0
+	var_156_0.itemContainer = var_156_0.itemInfo:Find("items")
+	var_156_0.itemTpl = var_156_0.itemContainer:Find("item_tpl")
+	var_156_0.numberTF = arg_156_1:Find("title/number")
+	var_156_0.progressTF = arg_156_1:Find("title/slider")
+	var_156_0.progessSlider = var_156_0.progressTF:GetComponent(typeof(Slider))
+	var_156_0.lockBtn = arg_156_1:Find("desc/commit_panel/lock_btn")
+	var_156_0.itemCount = var_156_0.itemTpl:Find("award/icon_bg/count")
+	var_156_0.progres = arg_156_1:Find("desc/info/progress")
+	var_156_0.progreshadow = arg_156_1:Find("desc/info/progress/shadow")
+	var_156_0.check = findTF(arg_156_1, "title/complete")
+	var_156_0.lock = findTF(arg_156_1, "title/lock")
+	var_156_0.working = findTF(arg_156_1, "title/working")
+	var_156_0.pause = findTF(arg_156_1, "title/pause")
+	var_156_0.pauseLock = findTF(arg_156_1, "title/pause_lock")
+	var_156_0.view = arg_156_0
 
-	onToggle(arg_152_0, arg_152_1, function(arg_153_0)
-		setActive(var_152_0.desc, arg_153_0)
-		setActive(var_152_0.progreshadow, arg_153_0)
+	onToggle(arg_156_0, arg_156_1, function(arg_157_0)
+		setActive(var_156_0.desc, arg_157_0)
+		setActive(var_156_0.progreshadow, arg_157_0)
 
-		if arg_153_0 then
+		if arg_157_0 then
 			Canvas.ForceUpdateCanvases()
 
-			local var_153_0 = arg_152_0.taskContainer.parent.transform:InverseTransformPoint(arg_152_1.position).y
-			local var_153_1 = var_153_0 - arg_152_1.rect.height
-			local var_153_2 = arg_152_0.taskContainer.parent.transform.rect
-			local var_153_3 = 0
+			local var_157_0 = arg_156_0.taskContainer.parent.transform:InverseTransformPoint(arg_156_1.position).y
+			local var_157_1 = var_157_0 - arg_156_1.rect.height
+			local var_157_2 = arg_156_0.taskContainer.parent.transform.rect
+			local var_157_3 = 0
 
-			if var_153_1 < var_153_2.yMin then
-				var_153_3 = var_153_2.yMin - var_153_1
+			if var_157_1 < var_157_2.yMin then
+				var_157_3 = var_157_2.yMin - var_157_1
 			end
 
-			if var_153_0 > var_153_2.yMax then
-				var_153_3 = var_153_2.yMax - var_153_0
+			if var_157_0 > var_157_2.yMax then
+				var_157_3 = var_157_2.yMax - var_157_0
 			end
 
-			local var_153_4 = arg_152_0.taskContainer.localPosition
+			local var_157_4 = arg_156_0.taskContainer.localPosition
 
-			var_153_4.y = var_153_4.y + var_153_3
-			arg_152_0.taskContainer.localPosition = var_153_4
+			var_157_4.y = var_157_4.y + var_157_3
+			arg_156_0.taskContainer.localPosition = var_157_4
 		end
 	end, SFX_PANEL)
 
-	function var_152_0.update(arg_154_0, arg_154_1)
-		arg_154_0:clearTimer()
+	function var_156_0.update(arg_158_0, arg_158_1)
+		arg_158_0:clearTimer()
 
-		arg_154_0.autoCommit = true
-		arg_154_0.isExpTask = false
+		arg_158_0.autoCommit = true
+		arg_158_0.isExpTask = false
 
-		removeOnButton(arg_154_0.commitBtn)
-		arg_154_0:updateItemInfo(arg_154_1)
-		arg_154_0:updateView(arg_154_1)
-		arg_154_0:updateProgress(arg_154_1)
+		removeOnButton(arg_158_0.commitBtn)
+		arg_158_0:updateItemInfo(arg_158_1)
+		arg_158_0:updateView(arg_158_1)
+		arg_158_0:updateProgress(arg_158_1)
 	end
 
-	function var_152_0.updateItemInfo(arg_155_0, arg_155_1)
-		arg_155_0.taskVO = arg_155_1
+	function var_156_0.updateItemInfo(arg_159_0, arg_159_1)
+		arg_159_0.taskVO = arg_159_1
 
-		changeToScrollText(arg_155_0.title, arg_155_1:getConfig("name"))
-		setText(arg_155_0.desc, arg_155_1:getConfig("desc") .. "\n\n")
+		changeToScrollText(arg_159_0.title, arg_159_1:getConfig("name"))
+		setText(arg_159_0.desc, arg_159_1:getConfig("desc") .. "\n\n")
 
-		local var_155_0
-		local var_155_1 = arg_155_1:getConfig("target_num")
-		local var_155_2 = arg_155_1:getConfig("sub_type")
+		local var_159_0
+		local var_159_1 = arg_159_1:getConfig("target_num")
+		local var_159_2 = arg_159_1:getConfig("sub_type")
 
-		if var_155_2 == TASK_SUB_TYPE_GIVE_ITEM then
-			arg_155_0.autoCommit = false
-			var_155_0 = tonumber(arg_155_1:getConfig("target_id"))
-		elseif var_155_2 == TASK_SUB_TYPE_PLAYER_RES then
-			arg_155_0.autoCommit = false
-			var_155_0 = id2ItemId(tonumber(arg_155_1:getConfig("target_id")))
-		elseif var_155_2 == TASK_SUB_TYPE_BATTLE_EXP then
-			arg_155_0.isExpTask = true
-			var_155_0 = 59000
+		if var_159_2 == TASK_SUB_TYPE_GIVE_ITEM then
+			arg_159_0.autoCommit = false
+			var_159_0 = tonumber(arg_159_1:getConfig("target_id"))
+		elseif var_159_2 == TASK_SUB_TYPE_PLAYER_RES then
+			arg_159_0.autoCommit = false
+			var_159_0 = id2ItemId(tonumber(arg_159_1:getConfig("target_id")))
+		elseif var_159_2 == TASK_SUB_TYPE_BATTLE_EXP then
+			arg_159_0.isExpTask = true
+			var_159_0 = 59000
 		end
 
-		setActive(arg_155_0.itemContainer, not arg_155_0.autoCommit or arg_155_0.isExpTask)
+		setActive(arg_159_0.itemContainer, not arg_159_0.autoCommit or arg_159_0.isExpTask)
 
-		if var_155_0 then
-			updateDrop(arg_155_0.itemTpl:Find("award"), {
+		if var_159_0 then
+			updateDrop(arg_159_0.itemTpl:Find("award"), {
 				type = 2,
-				id = var_155_0,
-				count = var_155_1
+				id = var_159_0,
+				count = var_159_1
 			})
-			setText(arg_155_0.itemCount, var_155_1 > 1000 and math.floor(var_155_1 / 1000) .. "K" or var_155_1)
+			setText(arg_159_0.itemCount, var_159_1 > 1000 and math.floor(var_159_1 / 1000) .. "K" or var_159_1)
 		end
 
-		setText(arg_155_0.numberTF, arg_155_1.index)
+		setText(arg_159_0.numberTF, arg_159_1.index)
 	end
 
-	function var_152_0.updateView(arg_156_0, arg_156_1)
-		local var_156_0 = arg_156_1.taskState
-		local var_156_1 = false
-		local var_156_2 = false
-		local var_156_3 = false
+	function var_156_0.updateView(arg_160_0, arg_160_1)
+		local var_160_0 = arg_160_1.taskState
+		local var_160_1 = false
+		local var_160_2 = false
+		local var_160_3 = false
 
-		if var_156_0 == ShipBluePrint.TASK_STATE_PAUSE and arg_156_1.leftTime then
-			local var_156_4 = getProxy(TaskProxy):getTaskVO(arg_156_1.id)
+		if var_160_0 == ShipBluePrint.TASK_STATE_PAUSE and arg_160_1.leftTime then
+			local var_160_4 = getProxy(TaskProxy):getTaskVO(arg_160_1.id)
 
-			var_156_1 = var_156_4 and var_156_4:isFinish()
-			var_156_3 = arg_156_1.leftTime > 0
-			var_156_2 = var_156_4 and var_156_4:isReceive()
+			var_160_1 = var_160_4 and var_160_4:isFinish()
+			var_160_3 = arg_160_1.leftTime > 0
+			var_160_2 = var_160_4 and var_160_4:isReceive()
 
-			if arg_156_1.leftTime > 0 then
-				setText(var_152_0.timerTFTxt, pg.TimeMgr.GetInstance():DescCDTime(arg_156_1.leftTime))
+			if arg_160_1.leftTime > 0 then
+				setText(var_156_0.timerTFTxt, pg.TimeMgr.GetInstance():DescCDTime(arg_160_1.leftTime))
 			end
 		end
 
-		setActive(arg_156_0.pause, ShipBluePrint.TASK_STATE_PAUSE == var_156_0 and not var_156_1 and not var_156_3 or ShipBluePrint.TASK_STATE_PAUSE == var_156_0 and not var_156_3 and var_156_1 and not arg_156_0.autoCommit)
-		setActive(arg_156_0.pauseLock, ShipBluePrint.TASK_STATE_PAUSE == var_156_0 and not var_156_1 and var_156_3)
-		setActive(arg_156_0.lockBtn, var_156_0 ~= ShipBluePrint.TASK_STATE_ACHIEVED and (var_156_0 ~= ShipBluePrint.TASK_STATE_START or not not arg_156_0.autoCommit))
-		setActive(arg_156_0.commitBtn, var_156_0 == ShipBluePrint.TASK_STATE_ACHIEVED or var_156_0 == ShipBluePrint.TASK_STATE_START and not arg_156_0.autoCommit)
-		setActive(arg_156_0.progressTF, var_156_0 == ShipBluePrint.TASK_STATE_ACHIEVED or var_156_0 == ShipBluePrint.TASK_STATE_START or var_156_0 == ShipBluePrint.TASK_STATE_FINISHED or var_156_0 == ShipBluePrint.TASK_STATE_PAUSE and not var_156_3)
-		setActive(arg_156_0.lock, var_156_0 == ShipBluePrint.TASK_STATE_LOCK or var_156_0 == ShipBluePrint.TASK_STATE_WAIT)
-		setActive(arg_156_0.working, var_156_0 == ShipBluePrint.TASK_STATE_OPENING or var_156_0 == ShipBluePrint.TASK_STATE_START or var_156_0 == ShipBluePrint.TASK_STATE_ACHIEVED)
-		setActive(arg_156_0.maskAchieved, var_156_0 == ShipBluePrint.TASK_STATE_FINISHED or var_156_0 == ShipBluePrint.TASK_STATE_PAUSE and var_156_2)
-		setActive(arg_156_0.timerTF, var_156_0 == ShipBluePrint.TASK_STATE_WAIT or var_156_0 == ShipBluePrint.TASK_STATE_PAUSE and arg_156_1.leftTime and arg_156_1.leftTime > 0)
-		setActive(arg_156_0.check, arg_156_0.autoCommit and var_156_0 == ShipBluePrint.TASK_STATE_ACHIEVED or var_156_0 == ShipBluePrint.TASK_STATE_FINISHED or var_156_0 == ShipBluePrint.TASK_STATE_PAUSE and var_156_2)
-		setActive(arg_156_0.tip, var_156_0 == ShipBluePrint.TASK_STATE_ACHIEVED)
-		setActive(arg_156_0.timerOpen, var_156_0 == ShipBluePrint.TASK_STATE_WAIT)
-		setActive(arg_156_0.timerClose, var_156_0 == ShipBluePrint.TASK_STATE_PAUSE and arg_156_1.leftTime and arg_156_1.leftTime > 0)
+		setActive(arg_160_0.pause, ShipBluePrint.TASK_STATE_PAUSE == var_160_0 and not var_160_1 and not var_160_3 or ShipBluePrint.TASK_STATE_PAUSE == var_160_0 and not var_160_3 and var_160_1 and not arg_160_0.autoCommit)
+		setActive(arg_160_0.pauseLock, ShipBluePrint.TASK_STATE_PAUSE == var_160_0 and not var_160_1 and var_160_3)
+		setActive(arg_160_0.lockBtn, var_160_0 ~= ShipBluePrint.TASK_STATE_ACHIEVED and (var_160_0 ~= ShipBluePrint.TASK_STATE_START or not not arg_160_0.autoCommit))
+		setActive(arg_160_0.commitBtn, var_160_0 == ShipBluePrint.TASK_STATE_ACHIEVED or var_160_0 == ShipBluePrint.TASK_STATE_START and not arg_160_0.autoCommit)
+		setActive(arg_160_0.progressTF, var_160_0 == ShipBluePrint.TASK_STATE_ACHIEVED or var_160_0 == ShipBluePrint.TASK_STATE_START or var_160_0 == ShipBluePrint.TASK_STATE_FINISHED or var_160_0 == ShipBluePrint.TASK_STATE_PAUSE and not var_160_3)
+		setActive(arg_160_0.lock, var_160_0 == ShipBluePrint.TASK_STATE_LOCK or var_160_0 == ShipBluePrint.TASK_STATE_WAIT)
+		setActive(arg_160_0.working, var_160_0 == ShipBluePrint.TASK_STATE_OPENING or var_160_0 == ShipBluePrint.TASK_STATE_START or var_160_0 == ShipBluePrint.TASK_STATE_ACHIEVED)
+		setActive(arg_160_0.maskAchieved, var_160_0 == ShipBluePrint.TASK_STATE_FINISHED or var_160_0 == ShipBluePrint.TASK_STATE_PAUSE and var_160_2)
+		setActive(arg_160_0.timerTF, var_160_0 == ShipBluePrint.TASK_STATE_WAIT or var_160_0 == ShipBluePrint.TASK_STATE_PAUSE and arg_160_1.leftTime and arg_160_1.leftTime > 0)
+		setActive(arg_160_0.check, arg_160_0.autoCommit and var_160_0 == ShipBluePrint.TASK_STATE_ACHIEVED or var_160_0 == ShipBluePrint.TASK_STATE_FINISHED or var_160_0 == ShipBluePrint.TASK_STATE_PAUSE and var_160_2)
+		setActive(arg_160_0.tip, var_160_0 == ShipBluePrint.TASK_STATE_ACHIEVED)
+		setActive(arg_160_0.timerOpen, var_160_0 == ShipBluePrint.TASK_STATE_WAIT)
+		setActive(arg_160_0.timerClose, var_160_0 == ShipBluePrint.TASK_STATE_PAUSE and arg_160_1.leftTime and arg_160_1.leftTime > 0)
 	end
 
-	function var_152_0.updateProgress(arg_157_0, arg_157_1)
-		local var_157_0 = arg_157_1.taskState
-		local var_157_1 = arg_157_1:getProgress() / arg_157_1:getConfig("target_num")
+	function var_156_0.updateProgress(arg_161_0, arg_161_1)
+		local var_161_0 = arg_161_1.taskState
+		local var_161_1 = arg_161_1:getProgress() / arg_161_1:getConfig("target_num")
 
-		if var_157_0 == ShipBluePrint.TASK_STATE_WAIT then
-			arg_157_0:addTimer(arg_157_1, arg_157_1.dueTime)
+		if var_161_0 == ShipBluePrint.TASK_STATE_WAIT then
+			arg_161_0:addTimer(arg_161_1, arg_161_1.dueTime)
 
-			var_157_1 = 0
-		elseif var_157_0 == ShipBluePrint.TASK_STATE_OPENING then
-			var_157_1 = 0
+			var_161_1 = 0
+		elseif var_161_0 == ShipBluePrint.TASK_STATE_OPENING then
+			var_161_1 = 0
 
-			arg_157_0.view:emit(ShipBluePrintMediator.ON_TASK_OPEN, arg_157_1.id)
-		elseif var_157_0 == ShipBluePrint.TASK_STATE_PAUSE then
-			if arg_157_1:isReceive() then
-				var_157_1 = 1
+			arg_161_0.view:emit(ShipBluePrintMediator.ON_TASK_OPEN, arg_161_1.id)
+		elseif var_161_0 == ShipBluePrint.TASK_STATE_PAUSE then
+			if arg_161_1:isReceive() then
+				var_161_1 = 1
 			end
-		elseif var_157_0 == ShipBluePrint.TASK_STATE_LOCK then
-			var_157_1 = 0
-		elseif var_157_0 == ShipBluePrint.TASK_STATE_ACHIEVED then
-			onButton(arg_157_0.view, arg_157_0.commitBtn, function()
-				arg_157_0.view:emit(ShipBluePrintMediator.ON_FINISH_TASK, arg_157_1.id)
+		elseif var_161_0 == ShipBluePrint.TASK_STATE_LOCK then
+			var_161_1 = 0
+		elseif var_161_0 == ShipBluePrint.TASK_STATE_ACHIEVED then
+			onButton(arg_161_0.view, arg_161_0.commitBtn, function()
+				arg_161_0.view:emit(ShipBluePrintMediator.ON_FINISH_TASK, arg_161_1.id)
 			end, SFX_PANEL)
 
-			var_157_1 = 1
-		elseif var_157_0 == ShipBluePrint.TASK_STATE_FINISHED then
-			var_157_1 = 1
-		elseif var_157_0 == ShipBluePrint.TASK_STATE_START and not arg_157_0.autoCommit then
-			onButton(arg_157_0.view, arg_157_0.commitBtn, function()
-				arg_157_0.view:emit(ShipBluePrintMediator.ON_FINISH_TASK, arg_157_1.id)
+			var_161_1 = 1
+		elseif var_161_0 == ShipBluePrint.TASK_STATE_FINISHED then
+			var_161_1 = 1
+		elseif var_161_0 == ShipBluePrint.TASK_STATE_START and not arg_161_0.autoCommit then
+			onButton(arg_161_0.view, arg_161_0.commitBtn, function()
+				arg_161_0.view:emit(ShipBluePrintMediator.ON_FINISH_TASK, arg_161_1.id)
 			end, SFX_PANEL)
 
-			var_157_1 = 0
+			var_161_1 = 0
 		end
 
-		if var_157_1 > 0 then
-			arg_157_0.itemSliderLT = LeanTween.value(go(arg_157_0.progressTF), 0, math.min(var_157_1, 1), 0.5 * math.min(var_157_1, 1)):setOnUpdate(System.Action_float(function(arg_160_0)
-				arg_157_0.progessSlider.value = arg_160_0
+		if var_161_1 > 0 then
+			arg_161_0.itemSliderLT = LeanTween.value(go(arg_161_0.progressTF), 0, math.min(var_161_1, 1), 0.5 * math.min(var_161_1, 1)):setOnUpdate(System.Action_float(function(arg_164_0)
+				arg_161_0.progessSlider.value = arg_164_0
 			end)).uniqueId
 		else
-			arg_157_0.progessSlider.value = var_157_1
+			arg_161_0.progessSlider.value = var_161_1
 		end
 
-		local var_157_2 = math.floor(var_157_1 * 100)
+		local var_161_2 = math.floor(var_161_1 * 100)
 
-		setText(arg_157_0.progres, math.ceil(math.min(var_157_2, 100)) .. "%")
-		setText(arg_157_0.progreshadow, math.min(var_157_2, 100) .. "%")
+		setText(arg_161_0.progres, math.ceil(math.min(var_161_2, 100)) .. "%")
+		setText(arg_161_0.progreshadow, math.min(var_161_2, 100) .. "%")
 	end
 
-	function var_152_0.addTimer(arg_161_0, arg_161_1, arg_161_2)
-		arg_161_0:clearTimer()
+	function var_156_0.addTimer(arg_165_0, arg_165_1, arg_165_2)
+		arg_165_0:clearTimer()
 
-		arg_161_0.taskTimer = Timer.New(function()
-			local var_162_0 = pg.TimeMgr.GetInstance():GetServerTime()
-			local var_162_1 = arg_161_2 - var_162_0
+		arg_165_0.taskTimer = Timer.New(function()
+			local var_166_0 = pg.TimeMgr.GetInstance():GetServerTime()
+			local var_166_1 = arg_165_2 - var_166_0
 
-			if var_162_1 > 0 then
-				setText(arg_161_0.timerTFTxt, pg.TimeMgr.GetInstance():DescCDTime(var_162_1))
+			if var_166_1 > 0 then
+				setText(arg_165_0.timerTFTxt, pg.TimeMgr.GetInstance():DescCDTime(var_166_1))
 			else
-				arg_161_0:clearTimer()
-				setText(arg_161_0.timerTFTxt, "00:00:00")
-				arg_161_0.view:emit(ShipBluePrintMediator.ON_TASK_OPEN, arg_161_1.id)
+				arg_165_0:clearTimer()
+				setText(arg_165_0.timerTFTxt, "00:00:00")
+				arg_165_0.view:emit(ShipBluePrintMediator.ON_TASK_OPEN, arg_165_1.id)
 			end
 		end, 1, -1)
 
-		arg_161_0.taskTimer:Start()
-		arg_161_0.taskTimer.func()
+		arg_165_0.taskTimer:Start()
+		arg_165_0.taskTimer.func()
 	end
 
-	function var_152_0.clearTimer(arg_163_0)
-		if arg_163_0.taskTimer then
-			arg_163_0.taskTimer:Stop()
+	function var_156_0.clearTimer(arg_167_0)
+		if arg_167_0.taskTimer then
+			arg_167_0.taskTimer:Stop()
 
-			arg_163_0.taskTimer = nil
+			arg_167_0.taskTimer = nil
 		end
 	end
 
-	function var_152_0.clear(arg_164_0)
-		arg_164_0:clearTimer()
+	function var_156_0.clear(arg_168_0)
+		arg_168_0:clearTimer()
 
-		if arg_164_0.itemSliderLT then
-			LeanTween.cancel(arg_164_0.itemSliderLT)
+		if arg_168_0.itemSliderLT then
+			LeanTween.cancel(arg_168_0.itemSliderLT)
 
-			arg_164_0.itemSliderLT = nil
+			arg_168_0.itemSliderLT = nil
 		end
 	end
 
-	return var_152_0
+	return var_156_0
 end
 
-function var_0_0.openPreView(arg_165_0)
-	local var_165_0 = arg_165_0.contextData.shipBluePrintVO
+function var_0_0.openPreView(arg_169_0)
+	local var_169_0 = arg_169_0.contextData.shipBluePrintVO
 
-	if var_165_0 then
-		setActive(arg_165_0.preViewer, true)
-		pg.UIMgr.GetInstance():BlurPanel(arg_165_0.preViewer)
-		arg_165_0:playLoadingAni()
+	if var_169_0 then
+		setActive(arg_169_0.preViewer, true)
+		pg.UIMgr.GetInstance():BlurPanel(arg_169_0.preViewer)
+		arg_169_0:playLoadingAni()
 
-		arg_165_0.viewShipVO = var_165_0:getShipVO()
-		arg_165_0.breakIds = arg_165_0:getStages(arg_165_0.viewShipVO)
+		arg_169_0.viewShipVO = var_169_0:getShipVO()
+		arg_169_0.breakIds = arg_169_0:getStages(arg_169_0.viewShipVO)
 
-		for iter_165_0 = 1, var_0_4 do
-			local var_165_1 = arg_165_0.breakIds[iter_165_0]
-			local var_165_2 = var_0_3[var_165_1]
-			local var_165_3 = arg_165_0.stages:Find("stage" .. iter_165_0)
+		for iter_169_0 = 1, var_0_4 do
+			local var_169_1 = arg_169_0.breakIds[iter_169_0]
+			local var_169_2 = var_0_3[var_169_1]
+			local var_169_3 = arg_169_0.stages:Find("stage" .. iter_169_0)
 
-			onToggle(arg_165_0, var_165_3, function(arg_166_0)
-				if arg_166_0 then
+			onToggle(arg_169_0, var_169_3, function(arg_170_0)
+				if arg_170_0 then
 					if PLATFORM_CODE == PLATFORM_US then
-						changeToScrollText(arg_165_0.breakView, var_0_3[var_165_1].breakout_view)
+						changeToScrollText(arg_169_0.breakView, var_0_3[var_169_1].breakout_view)
 					else
-						setText(arg_165_0.breakView, var_0_3[var_165_1].breakout_view)
+						setText(arg_169_0.breakView, var_0_3[var_169_1].breakout_view)
 					end
 
-					arg_165_0:switchStage(var_165_1)
+					arg_169_0:switchStage(var_169_1)
 				end
 			end, SFX_PANEL)
 
-			if iter_165_0 == 1 then
-				triggerToggle(var_165_3, true)
+			if iter_169_0 == 1 then
+				triggerToggle(var_169_3, true)
 			end
 		end
 
-		arg_165_0.isShowPreview = true
+		arg_169_0.isShowPreview = true
 
-		arg_165_0:updateMaxLevelAttrs(var_165_0)
+		arg_169_0:updateMaxLevelAttrs(var_169_0)
 	end
 end
 
@@ -2356,266 +2423,320 @@ var_0_0.MAX_LEVEL_ATTRS = {
 	AttributeType.Dodge
 }
 
-function var_0_0.updateMaxLevelAttrs(arg_167_0, arg_167_1)
-	if not arg_167_1:isFetched() then
+function var_0_0.updateMaxLevelAttrs(arg_171_0, arg_171_1)
+	if not arg_171_1:isFetched() then
 		return
 	end
 
-	local var_167_0 = arg_167_0.shipVOs[arg_167_1.shipId]
-	local var_167_1 = Clone(var_167_0)
+	local var_171_0 = arg_171_0.shipVOs[arg_171_1.shipId]
+	local var_171_1 = Clone(var_171_0)
 
-	var_167_1.level = 125
+	var_171_1.level = 125
 
-	local var_167_2 = Clone(arg_167_1)
+	local var_171_2 = Clone(arg_171_1)
 
-	var_167_2.level = arg_167_1:getMaxLevel()
+	var_171_2.level = arg_171_1:getMaxLevel()
 
-	local var_167_3 = intProperties(var_167_2:getShipProperties(var_167_1, false))
+	local var_171_3 = intProperties(var_171_2:getShipProperties(var_171_1, false))
 
-	for iter_167_0, iter_167_1 in ipairs(var_0_0.MAX_LEVEL_ATTRS) do
-		local var_167_4 = arg_167_0.previewAttrContainer:Find(iter_167_1)
+	for iter_171_0, iter_171_1 in ipairs(var_0_0.MAX_LEVEL_ATTRS) do
+		local var_171_4 = arg_171_0.previewAttrContainer:Find(iter_171_1)
 
-		if iter_167_1 == AttributeType.ArmorType then
-			setText(var_167_4:Find("bg/value"), var_167_0:getShipArmorName())
+		if iter_171_1 == AttributeType.ArmorType then
+			setText(var_171_4:Find("bg/value"), var_171_0:getShipArmorName())
 		else
-			setText(var_167_4:Find("bg/value"), var_167_3[iter_167_1] or 0)
+			setText(var_171_4:Find("bg/value"), var_171_3[iter_171_1] or 0)
 		end
 
-		setText(var_167_4:Find("bg/name"), AttributeType.Type2Name(iter_167_1))
+		setText(var_171_4:Find("bg/name"), AttributeType.Type2Name(iter_171_1))
 	end
 end
 
-function var_0_0.closePreview(arg_168_0, arg_168_1)
-	if arg_168_0.previewer then
-		arg_168_0.previewer:clear()
+function var_0_0.closePreview(arg_172_0, arg_172_1)
+	if arg_172_0.previewer then
+		arg_172_0.previewer:clear()
 
-		arg_168_0.previewer = nil
+		arg_172_0.previewer = nil
 	end
 
-	setActive(arg_168_0.preViewer, false)
-	setActive(arg_168_0.rawImage, false)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_168_0.preViewer, arg_168_0._tf)
+	setActive(arg_172_0.preViewer, false)
+	setActive(arg_172_0.rawImage, false)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_172_0.preViewer, arg_172_0._tf)
 
-	arg_168_0.isShowPreview = nil
+	arg_172_0.isShowPreview = nil
 end
 
-function var_0_0.playLoadingAni(arg_169_0)
-	setActive(arg_169_0.seaLoading, true)
+function var_0_0.playLoadingAni(arg_173_0)
+	setActive(arg_173_0.seaLoading, true)
 end
 
-function var_0_0.stopLoadingAni(arg_170_0)
-	setActive(arg_170_0.seaLoading, false)
+function var_0_0.stopLoadingAni(arg_174_0)
+	setActive(arg_174_0.seaLoading, false)
 end
 
-function var_0_0.showBarrage(arg_171_0)
-	arg_171_0.previewer = WeaponPreviewer.New(arg_171_0.rawImage)
+function var_0_0.showBarrage(arg_175_0)
+	arg_175_0.previewer = WeaponPreviewer.New(arg_175_0.rawImage)
 
-	arg_171_0.previewer:configUI(arg_171_0.healTF)
-	arg_171_0.previewer:setDisplayWeapon(arg_171_0:getWaponIdsById(arg_171_0.breakOutId))
-	arg_171_0.previewer:load(40000, arg_171_0.viewShipVO, arg_171_0:getAllWeaponIds(), function()
-		arg_171_0:stopLoadingAni()
+	arg_175_0.previewer:configUI(arg_175_0.healTF)
+	arg_175_0.previewer:setDisplayWeapon(arg_175_0:getWaponIdsById(arg_175_0.breakOutId))
+	arg_175_0.previewer:load(40000, arg_175_0.viewShipVO, arg_175_0:getAllWeaponIds(), function()
+		arg_175_0:stopLoadingAni()
 	end)
 end
 
-function var_0_0.getWaponIdsById(arg_173_0, arg_173_1)
-	return var_0_3[arg_173_1].weapon_ids
+function var_0_0.getWaponIdsById(arg_177_0, arg_177_1)
+	return var_0_3[arg_177_1].weapon_ids
 end
 
-function var_0_0.getAllWeaponIds(arg_174_0)
-	local var_174_0 = {}
+function var_0_0.getAllWeaponIds(arg_178_0)
+	local var_178_0 = {}
 
-	for iter_174_0, iter_174_1 in ipairs(arg_174_0.breakIds) do
-		local var_174_1 = Clone(var_0_3[iter_174_1].weapon_ids)
-		local var_174_2 = {
-			__add = function(arg_175_0, arg_175_1)
-				for iter_175_0, iter_175_1 in ipairs(arg_175_0) do
-					if not table.contains(arg_175_1, iter_175_1) then
-						table.insert(arg_175_1, iter_175_1)
+	for iter_178_0, iter_178_1 in ipairs(arg_178_0.breakIds) do
+		local var_178_1 = Clone(var_0_3[iter_178_1].weapon_ids)
+		local var_178_2 = {
+			__add = function(arg_179_0, arg_179_1)
+				for iter_179_0, iter_179_1 in ipairs(arg_179_0) do
+					if not table.contains(arg_179_1, iter_179_1) then
+						table.insert(arg_179_1, iter_179_1)
 					end
 				end
 
-				return arg_175_1
+				return arg_179_1
 			end
 		}
 
-		setmetatable(var_174_0, var_174_2)
+		setmetatable(var_178_0, var_178_2)
 
-		var_174_0 = var_174_0 + var_174_1
+		var_178_0 = var_178_0 + var_178_1
 	end
 
-	return var_174_0
+	return var_178_0
 end
 
-function var_0_0.getStages(arg_176_0, arg_176_1)
-	local var_176_0 = {}
-	local var_176_1 = math.floor(arg_176_1.configId / 10)
+function var_0_0.getStages(arg_180_0, arg_180_1)
+	local var_180_0 = {}
+	local var_180_1 = math.floor(arg_180_1.configId / 10)
 
-	for iter_176_0 = 1, 4 do
-		local var_176_2 = tonumber(var_176_1 .. iter_176_0)
+	for iter_180_0 = 1, 4 do
+		local var_180_2 = tonumber(var_180_1 .. iter_180_0)
 
-		assert(var_0_3[var_176_2], "必须存在配置" .. var_176_2)
-		table.insert(var_176_0, var_176_2)
+		assert(var_0_3[var_180_2], "必须存在配置" .. var_180_2)
+		table.insert(var_180_0, var_180_2)
 	end
 
-	return var_176_0
+	return var_180_0
 end
 
-function var_0_0.switchStage(arg_177_0, arg_177_1)
-	if arg_177_0.breakOutId == arg_177_1 then
+function var_0_0.switchStage(arg_181_0, arg_181_1)
+	if arg_181_0.breakOutId == arg_181_1 then
 		return
 	end
 
-	arg_177_0.breakOutId = arg_177_1
-
-	if arg_177_0.previewer then
-		arg_177_0.previewer:setDisplayWeapon(arg_177_0:getWaponIdsById(arg_177_0.breakOutId))
-	end
-end
-
-function var_0_0.clearTimers(arg_178_0)
-	for iter_178_0, iter_178_1 in pairs(arg_178_0.taskTFs or {}) do
-		iter_178_1:clear()
-	end
-end
-
-function var_0_0.cloneTplTo(arg_179_0, arg_179_1, arg_179_2)
-	local var_179_0 = tf(Instantiate(arg_179_1))
-
-	SetActive(var_179_0, true)
-	var_179_0:SetParent(tf(arg_179_2), false)
-
-	return var_179_0
-end
-
-function var_0_0.onBackPressed(arg_180_0)
-	if isActive(arg_180_0.msgPanel) then
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_180_0.msgPanel, arg_180_0.top)
-		setActive(arg_180_0.msgPanel, false)
-	elseif isActive(arg_180_0.unlockPanel) then
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_180_0.unlockPanel, arg_180_0.top)
-		setActive(arg_180_0.unlockPanel, false)
-	elseif isActive(arg_180_0.versionPanel) then
-		triggerButton(arg_180_0.versionPanel:Find("bg"))
-	elseif arg_180_0.isShowPreview then
-		arg_180_0:closePreview(true)
-	elseif arg_180_0.svQuickExchange:isShowing() then
-		arg_180_0.svQuickExchange:Hide()
-	elseif arg_180_0.awakenPlay or arg_180_0:inModAnim() then
-		-- block empty
-	else
-		arg_180_0:emit(var_0_0.ON_BACK_PRESSED)
-	end
-end
-
-function var_0_0.willExit(arg_181_0)
-	if isActive(arg_181_0.msgPanel) then
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_181_0.msgPanel, arg_181_0.top)
-		setActive(arg_181_0.msgPanel, false)
-	end
-
-	if isActive(arg_181_0.unlockPanel) then
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_181_0.unlockPanel, arg_181_0.top)
-		setActive(arg_181_0.unlockPanel, false)
-	end
-
-	arg_181_0:UnOverlayPanel(arg_181_0.blurPanel, arg_181_0._tf)
-	LeanTween.cancel(go(arg_181_0.fittingAttrPanel))
-
-	if arg_181_0.lastPaintingName then
-		retPaintingPrefab(arg_181_0.painting, arg_181_0.lastPaintingName)
-	end
-
-	for iter_181_0, iter_181_1 in pairs(arg_181_0.taskTFs or {}) do
-		iter_181_1:clear()
-	end
-
-	arg_181_0:closePreview(true)
-	arg_181_0:clearLeanTween(true)
+	arg_181_0.breakOutId = arg_181_1
 
 	if arg_181_0.previewer then
-		arg_181_0.previewer:clear()
-
-		arg_181_0.previewer = nil
+		arg_181_0.previewer:setDisplayWeapon(arg_181_0:getWaponIdsById(arg_181_0.breakOutId))
 	end
-
-	if arg_181_0.cbTimer then
-		arg_181_0.cbTimer:Stop()
-
-		arg_181_0.cbTimer = nil
-	end
-
-	if arg_181_0.svQuickExchange:isShowing() then
-		arg_181_0.svQuickExchange:Hide()
-	end
-
-	arg_181_0.svQuickExchange:Destroy()
 end
 
-function var_0_0.paintBreath(arg_182_0)
-	LeanTween.cancel(go(arg_182_0.painting))
-	LeanTween.moveY(rtf(arg_182_0.painting), var_0_5, var_0_6):setLoopPingPong():setEase(LeanTweenType.easeInOutCubic):setFrom(0)
+function var_0_0.clearTimers(arg_182_0)
+	for iter_182_0, iter_182_1 in pairs(arg_182_0.taskTFs or {}) do
+		iter_182_1:clear()
+	end
 end
 
-function var_0_0.buildStartAni(arg_183_0, arg_183_1, arg_183_2)
-	if arg_183_1 == "researchStartWindow" then
-		arg_183_0.progressPanel.localScale = Vector3(0, 1, 1)
+function var_0_0.cloneTplTo(arg_183_0, arg_183_1, arg_183_2)
+	local var_183_0 = tf(Instantiate(arg_183_1))
 
-		LeanTween.scale(arg_183_0.progressPanel, Vector3(1, 1, 1), 0.2):setDelay(2)
+	SetActive(var_183_0, true)
+	var_183_0:SetParent(tf(arg_183_2), false)
+
+	return var_183_0
+end
+
+function var_0_0.onBackPressed(arg_184_0)
+	if isActive(arg_184_0.msgPanel) then
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_184_0.msgPanel, arg_184_0.top)
+		setActive(arg_184_0.msgPanel, false)
+	elseif isActive(arg_184_0.unlockPanel) then
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_184_0.unlockPanel, arg_184_0.top)
+		setActive(arg_184_0.unlockPanel, false)
+	elseif isActive(arg_184_0.versionPanel) then
+		triggerButton(arg_184_0.versionPanel:Find("bg"))
+	elseif arg_184_0.isShowPreview then
+		arg_184_0:closePreview(true)
+	elseif arg_184_0.svQuickExchange:isShowing() then
+		arg_184_0.svQuickExchange:Hide()
+	elseif arg_184_0.awakenPlay or arg_184_0:inModAnim() then
+		-- block empty
+	else
+		arg_184_0:emit(var_0_0.ON_BACK_PRESSED)
+	end
+end
+
+function var_0_0.getResource(arg_185_0, arg_185_1)
+	local var_185_0 = {
+		"ui/shipblueprintui_atlas",
+		"shipdesignicon/empty",
+		"shiptype",
+		"ui/fateStartWindow"
+	}
+
+	for iter_185_0, iter_185_1 in pairs(var_0_1.all) do
+		local var_185_1 = var_0_1[iter_185_1]
+		local var_185_2 = tonumber(var_185_1.id .. "0")
+		local var_185_3 = tonumber(var_185_1.id .. "1")
+		local var_185_4
+
+		if pg.ship_skin_template[var_185_2] then
+			var_185_4 = pg.ship_skin_template[var_185_2].painting
+		end
+
+		if var_185_4 then
+			if not table.contains(var_185_0, "shipdesignicon/" .. var_185_4) then
+				table.insert(var_185_0, "shipdesignicon/" .. var_185_4)
+			end
+
+			if checkABExist("shipdesignicon/" .. var_185_4 .. "_hx") and not table.contains(var_185_0, "shipdesignicon/" .. var_185_4 .. "_hx") then
+				table.insert(var_185_0, "shipdesignicon/" .. var_185_4 .. "_hx")
+			end
+
+			if not table.contains(var_185_0, "shipYardIcon/" .. var_185_4) then
+				table.insert(var_185_0, "shipYardIcon/" .. var_185_4)
+			end
+		end
+
+		if pg.ship_data_template[var_185_3] then
+			local var_185_5 = pg.ship_data_template[var_185_3].buff_list_display
+
+			if var_185_5 then
+				for iter_185_2, iter_185_3 in ipairs(var_185_5) do
+					local var_185_6 = getSkillConfig(iter_185_3)
+
+					if var_185_6 then
+						local var_185_7 = "skillicon/" .. var_185_6.icon
+
+						if not table.contains(var_185_0, var_185_7) then
+							table.insert(var_185_0, var_185_7)
+						end
+					end
+				end
+			end
+		end
 	end
 
-	local function var_183_0()
-		arg_183_0.awakenAni:SetActive(true)
+	return table.insertto(var_185_0, var_0_0.super.getResource(arg_185_0, arg_185_1))
+end
 
-		arg_183_0.awakenPlay = true
+function var_0_0.willExit(arg_186_0)
+	if isActive(arg_186_0.msgPanel) then
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_186_0.msgPanel, arg_186_0.top)
+		setActive(arg_186_0.msgPanel, false)
+	end
 
-		local var_184_0 = tf(arg_183_0.awakenAni)
+	if isActive(arg_186_0.unlockPanel) then
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_186_0.unlockPanel, arg_186_0.top)
+		setActive(arg_186_0.unlockPanel, false)
+	end
 
-		pg.UIMgr.GetInstance():BlurPanel(var_184_0)
-		var_184_0:SetAsLastSibling()
-		var_184_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_185_0)
-			if not IsNil(arg_183_0.awakenAni) then
-				pg.UIMgr.GetInstance():UnOverlayPanel(var_184_0, arg_183_0.blurPanel)
-				arg_183_0.awakenAni:SetActive(false)
+	arg_186_0:UnOverlayPanel(arg_186_0.blurPanel, arg_186_0._tf)
+	LeanTween.cancel(go(arg_186_0.fittingAttrPanel))
 
-				arg_183_0.awakenPlay = false
+	if arg_186_0.lastPaintingName then
+		retPaintingPrefab(arg_186_0.painting, arg_186_0.lastPaintingName)
+	end
 
-				if arg_183_2 then
-					arg_183_2()
+	for iter_186_0, iter_186_1 in pairs(arg_186_0.taskTFs or {}) do
+		iter_186_1:clear()
+	end
+
+	arg_186_0:closePreview(true)
+	arg_186_0:clearLeanTween(true)
+
+	if arg_186_0.previewer then
+		arg_186_0.previewer:clear()
+
+		arg_186_0.previewer = nil
+	end
+
+	if arg_186_0.cbTimer then
+		arg_186_0.cbTimer:Stop()
+
+		arg_186_0.cbTimer = nil
+	end
+
+	if arg_186_0.svQuickExchange:isShowing() then
+		arg_186_0.svQuickExchange:Hide()
+	end
+
+	arg_186_0.svQuickExchange:Destroy()
+end
+
+function var_0_0.paintBreath(arg_187_0)
+	LeanTween.cancel(go(arg_187_0.painting))
+	LeanTween.moveY(rtf(arg_187_0.painting), var_0_5, var_0_6):setLoopPingPong():setEase(LeanTweenType.easeInOutCubic):setFrom(0)
+end
+
+function var_0_0.buildStartAni(arg_188_0, arg_188_1, arg_188_2)
+	if arg_188_1 == "researchStartWindow" then
+		arg_188_0.progressPanel.localScale = Vector3(0, 1, 1)
+
+		LeanTween.scale(arg_188_0.progressPanel, Vector3(1, 1, 1), 0.2):setDelay(2)
+	end
+
+	local function var_188_0()
+		arg_188_0.awakenAni:SetActive(true)
+
+		arg_188_0.awakenPlay = true
+
+		local var_189_0 = tf(arg_188_0.awakenAni)
+
+		pg.UIMgr.GetInstance():BlurPanel(var_189_0)
+		var_189_0:SetAsLastSibling()
+		var_189_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_190_0)
+			if not IsNil(arg_188_0.awakenAni) then
+				pg.UIMgr.GetInstance():UnOverlayPanel(var_189_0, arg_188_0.blurPanel)
+				arg_188_0.awakenAni:SetActive(false)
+
+				arg_188_0.awakenPlay = false
+
+				if arg_188_2 then
+					arg_188_2()
 				end
 			end
 		end)
 	end
 
-	local var_183_1 = arg_183_0._tf:Find(arg_183_1 .. "(Clone)")
+	local var_188_1 = arg_188_0._tf:Find(arg_188_1 .. "(Clone)")
 
-	arg_183_0.awakenAni = var_183_1 and go(var_183_1)
+	arg_188_0.awakenAni = var_188_1 and go(var_188_1)
 
-	if not arg_183_0.awakenAni then
-		PoolMgr.GetInstance():GetUI(arg_183_1, true, function(arg_186_0)
-			arg_186_0:SetActive(true)
+	if not arg_188_0.awakenAni then
+		PoolMgr.GetInstance():GetUI(arg_188_1, true, function(arg_191_0)
+			arg_191_0:SetActive(true)
 
-			arg_183_0.awakenAni = arg_186_0
+			arg_188_0.awakenAni = arg_191_0
 
-			var_183_0()
+			var_188_0()
 		end)
 	else
-		var_183_0()
+		var_188_0()
 	end
 end
 
-function var_0_0.showFittingMsgPanel(arg_187_0, arg_187_1)
-	pg.UIMgr.GetInstance():BlurPanel(arg_187_0.msgPanel)
-	setActive(arg_187_0.msgPanel, true)
+function var_0_0.showFittingMsgPanel(arg_192_0, arg_192_1)
+	pg.UIMgr.GetInstance():BlurPanel(arg_192_0.msgPanel)
+	setActive(arg_192_0.msgPanel, true)
 
-	local var_187_0 = arg_187_0.contextData.shipBluePrintVO
-	local var_187_1 = var_187_0:getMaxFateLevel()
-	local var_187_2 = arg_187_0.msgPanel:Find("window/content")
-	local var_187_3 = var_187_2:Find("pre_btn")
-	local var_187_4 = var_187_2:Find("next_btn")
-	local var_187_5 = var_187_2:Find("attrl_panel")
-	local var_187_6 = var_187_2:Find("skill_panel")
-	local var_187_7 = var_187_2:Find("phase")
-	local var_187_8 = {
+	local var_192_0 = arg_192_0.contextData.shipBluePrintVO
+	local var_192_1 = var_192_0:getMaxFateLevel()
+	local var_192_2 = arg_192_0.msgPanel:Find("window/content")
+	local var_192_3 = var_192_2:Find("pre_btn")
+	local var_192_4 = var_192_2:Find("next_btn")
+	local var_192_5 = var_192_2:Find("attrl_panel")
+	local var_192_6 = var_192_2:Find("skill_panel")
+	local var_192_7 = var_192_2:Find("phase")
+	local var_192_8 = {
 		"I",
 		"II",
 		"III",
@@ -2623,114 +2744,114 @@ function var_0_0.showFittingMsgPanel(arg_187_0, arg_187_1)
 		"V"
 	}
 
-	local function var_187_9()
-		setActive(var_187_3, arg_187_1 > 1)
-		setActive(var_187_4, arg_187_1 < var_187_1)
-		setText(var_187_7, "PHASE." .. var_187_8[arg_187_1])
+	local function var_192_9()
+		setActive(var_192_3, arg_192_1 > 1)
+		setActive(var_192_4, arg_192_1 < var_192_1)
+		setText(var_192_7, "PHASE." .. var_192_8[arg_192_1])
 
-		local var_188_0 = var_187_0:getFateStrengthenConfig(arg_187_1)
+		local var_193_0 = var_192_0:getFateStrengthenConfig(arg_192_1)
 
-		assert(var_188_0.special == 1 and type(var_188_0.special_effect) == "table", "without fate config")
+		assert(var_193_0.special == 1 and type(var_193_0.special_effect) == "table", "without fate config")
 
-		local var_188_1 = var_188_0.special_effect
-		local var_188_2
-		local var_188_3 = {}
+		local var_193_1 = var_193_0.special_effect
+		local var_193_2
+		local var_193_3 = {}
 
-		for iter_188_0, iter_188_1 in ipairs(var_188_1) do
-			local var_188_4 = iter_188_1[1]
+		for iter_193_0, iter_193_1 in ipairs(var_193_1) do
+			local var_193_4 = iter_193_1[1]
 
-			if var_188_4 == ShipBluePrint.STRENGTHEN_TYPE_CHANGE_SKILL then
-				var_188_2 = iter_188_1[2][2]
-			elseif var_188_4 == ShipBluePrint.STRENGTHEN_TYPE_ATTR then
-				table.insert(var_188_3, iter_188_1[2])
+			if var_193_4 == ShipBluePrint.STRENGTHEN_TYPE_CHANGE_SKILL then
+				var_193_2 = iter_193_1[2][2]
+			elseif var_193_4 == ShipBluePrint.STRENGTHEN_TYPE_ATTR then
+				table.insert(var_193_3, iter_193_1[2])
 			end
 		end
 
-		setActive(var_187_5, #var_188_3 > 0)
-		setActive(var_187_6, var_188_2)
+		setActive(var_192_5, #var_193_3 > 0)
+		setActive(var_192_6, var_193_2)
 
-		if var_188_2 then
-			local var_188_5 = getSkillConfig(var_188_2)
+		if var_193_2 then
+			local var_193_5 = getSkillConfig(var_193_2)
 
-			GetImageSpriteFromAtlasAsync("skillicon/" .. var_188_5.icon, "", var_187_6:Find("skill_icon"))
-			setText(var_187_6:Find("skill_name"), getSkillName(var_188_2))
+			GetImageSpriteFromAtlasAsync("skillicon/" .. var_193_5.icon, "", var_192_6:Find("skill_icon"))
+			setText(var_192_6:Find("skill_name"), getSkillName(var_193_2))
 
-			local var_188_6 = 1
+			local var_193_6 = 1
 
-			setText(var_187_6:Find("skill_lv"), "Lv." .. var_188_6)
-			setText(var_187_6:Find("help_panel/skill_intro"), getSkillDescGet(var_188_2))
+			setText(var_192_6:Find("skill_lv"), "Lv." .. var_193_6)
+			setText(var_192_6:Find("help_panel/skill_intro"), getSkillDescGet(var_193_2))
 		end
 
-		if #var_188_3 > 0 then
-			for iter_188_2, iter_188_3 in ipairs(var_188_3) do
-				local var_188_7 = iter_188_2 < var_187_5.childCount and var_187_5:GetChild(iter_188_2) or cloneTplTo(var_187_5:GetChild(iter_188_2 - 1), var_187_5)
+		if #var_193_3 > 0 then
+			for iter_193_2, iter_193_3 in ipairs(var_193_3) do
+				local var_193_7 = iter_193_2 < var_192_5.childCount and var_192_5:GetChild(iter_193_2) or cloneTplTo(var_192_5:GetChild(iter_193_2 - 1), var_192_5)
 
-				setText(var_188_7:Find("name"), AttributeType.Type2Name(iter_188_3[1]))
-				setText(var_188_7:Find("number"), " + " .. iter_188_3[2])
+				setText(var_193_7:Find("name"), AttributeType.Type2Name(iter_193_3[1]))
+				setText(var_193_7:Find("number"), " + " .. iter_193_3[2])
 			end
 
-			for iter_188_4 = #var_188_3 + 1, var_187_5.childCount - 1 do
-				setActive(var_187_5:GetChild(iter_188_4), false)
+			for iter_193_4 = #var_193_3 + 1, var_192_5.childCount - 1 do
+				setActive(var_192_5:GetChild(iter_193_4), false)
 			end
 		end
 	end
 
-	onButton(arg_187_0, var_187_3, function()
-		arg_187_1 = arg_187_1 - 1
+	onButton(arg_192_0, var_192_3, function()
+		arg_192_1 = arg_192_1 - 1
 
-		var_187_9()
+		var_192_9()
 	end)
-	onButton(arg_187_0, var_187_4, function()
-		arg_187_1 = arg_187_1 + 1
+	onButton(arg_192_0, var_192_4, function()
+		arg_192_1 = arg_192_1 + 1
 
-		var_187_9()
+		var_192_9()
 	end)
-	setText(var_187_5:Find("desc"), i18n("fate_attr_word"))
-	var_187_9()
+	setText(var_192_5:Find("desc"), i18n("fate_attr_word"))
+	var_192_9()
 end
 
-function var_0_0.showUnlockPanel(arg_191_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_191_0.unlockPanel)
-	setActive(arg_191_0.unlockPanel, true)
+function var_0_0.showUnlockPanel(arg_196_0)
+	pg.UIMgr.GetInstance():BlurPanel(arg_196_0.unlockPanel)
+	setActive(arg_196_0.unlockPanel, true)
 
-	local var_191_0 = arg_191_0.contextData.shipBluePrintVO.id
-	local var_191_1 = arg_191_0.contextData.shipBluePrintVO:getUnlockItem()
-	local var_191_2 = Drop.New({
+	local var_196_0 = arg_196_0.contextData.shipBluePrintVO.id
+	local var_196_1 = arg_196_0.contextData.shipBluePrintVO:getUnlockItem()
+	local var_196_2 = Drop.New({
 		type = DROP_TYPE_ITEM,
-		id = var_191_1
+		id = var_196_1
 	})
-	local var_191_3 = arg_191_0.contextData.shipBluePrintVO:getShipVO()
-	local var_191_4 = var_191_3:getPainting()
-	local var_191_5 = arg_191_0.unlockPanel:Find("window/content")
+	local var_196_3 = arg_196_0.contextData.shipBluePrintVO:getShipVO()
+	local var_196_4 = var_196_3:getPainting()
+	local var_196_5 = arg_196_0.unlockPanel:Find("window/content")
 
-	GetImageSpriteFromAtlasAsync("shipYardIcon/" .. var_191_4, var_191_4, var_191_5:Find("Image/mask/icon"), true)
-	setText(var_191_5:Find("words/Text"), i18n("techpackage_item_use_1", var_191_3:getName()))
-	setText(var_191_5:Find("words/Text_2"), i18n("techpackage_item_use_2", var_191_2:getName()))
-	GetImageSpriteFromAtlasAsync(var_191_2:getIcon(), "", arg_191_0.unlockPanel:Find("window/confirm_btn/Image/Image"))
-	setText(arg_191_0.unlockPanel:Find("window/confirm_btn/Image/Text"), i18n("event_ui_consume"))
-	onButton(arg_191_0, arg_191_0.unlockPanel:Find("window/confirm_btn"), function()
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_191_0.unlockPanel, arg_191_0.top)
-		setActive(arg_191_0.unlockPanel, false)
-		arg_191_0:emit(ShipBluePrintMediator.ON_ITEM_UNLOCK, var_191_0, var_191_1)
+	GetImageSpriteFromAtlasAsync("shipYardIcon/" .. var_196_4, var_196_4, var_196_5:Find("Image/mask/icon"), true)
+	setText(var_196_5:Find("words/Text"), i18n("techpackage_item_use_1", var_196_3:getName()))
+	setText(var_196_5:Find("words/Text_2"), i18n("techpackage_item_use_2", var_196_2:getName()))
+	GetImageSpriteFromAtlasAsync(var_196_2:getIcon(), "", arg_196_0.unlockPanel:Find("window/confirm_btn/Image/Image"))
+	setText(arg_196_0.unlockPanel:Find("window/confirm_btn/Image/Text"), i18n("event_ui_consume"))
+	onButton(arg_196_0, arg_196_0.unlockPanel:Find("window/confirm_btn"), function()
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_196_0.unlockPanel, arg_196_0.top)
+		setActive(arg_196_0.unlockPanel, false)
+		arg_196_0:emit(ShipBluePrintMediator.ON_ITEM_UNLOCK, var_196_0, var_196_1)
 	end, SFX_CANCEL)
 end
 
-function var_0_0.checkStory(arg_193_0)
-	local var_193_0 = {
+function var_0_0.checkStory(arg_198_0)
+	local var_198_0 = {
 		nil,
 		"FANGAN3"
 	}
 
-	arg_193_0.storyMgr = arg_193_0.storyMgr or pg.NewStoryMgr.GetInstance()
+	arg_198_0.storyMgr = arg_198_0.storyMgr or pg.NewStoryMgr.GetInstance()
 
-	if var_193_0[arg_193_0.version] and not arg_193_0.storyMgr:IsPlayed(var_193_0[arg_193_0.version]) then
-		arg_193_0.storyMgr:Play(var_193_0[arg_193_0.version])
+	if var_198_0[arg_198_0.version] and not arg_198_0.storyMgr:IsPlayed(var_198_0[arg_198_0.version]) then
+		arg_198_0.storyMgr:Play(var_198_0[arg_198_0.version])
 	end
 end
 
-function var_0_0.changeEffectVisible(arg_194_0, arg_194_1)
-	setActive(arg_194_0.fittingBtn, arg_194_1)
-	setActive(arg_194_0.initPanel, arg_194_1)
+function var_0_0.changeEffectVisible(arg_199_0, arg_199_1)
+	setActive(arg_199_0.fittingBtn, arg_199_1)
+	setActive(arg_199_0.initPanel, arg_199_1)
 end
 
 return var_0_0

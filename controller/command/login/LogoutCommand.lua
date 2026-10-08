@@ -56,6 +56,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	ActivityMainScene.FetchReturnersTime = nil
 	ActivityMainScene.Data2Time = nil
 	MainSkinDiscountItemTipSequence.TipFlag = nil
+	MainPrevPeriodCrusingChargeTipSequence.TIP = true
 	COMBAT_SKIN_KEY = nil
 
 	pg.BrightnessMgr.GetInstance():ExitManualMode()

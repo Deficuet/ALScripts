@@ -4,141 +4,149 @@ function var_0_0.getUIName(arg_1_0)
 	return "BossRushDALCollabUI"
 end
 
-function var_0_0.GetAtalsName(arg_2_0)
+function var_0_0.getAtalsName(arg_2_0)
 	return "ui/BossRushDALCollabUI_atlas"
 end
 
-function var_0_0.ResUISettings(arg_3_0)
+function var_0_0.getResource(arg_3_0)
+	local var_3_0 = var_0_0.super.getResource(arg_3_0)
+
+	table.insert(var_3_0, arg_3_0:getAtalsName())
+
+	return var_3_0
+end
+
+function var_0_0.ResUISettings(arg_4_0)
 	return true
 end
 
-function var_0_0.Ctor(arg_4_0)
-	var_0_0.super.Ctor(arg_4_0)
+function var_0_0.Ctor(arg_5_0)
+	var_0_0.super.Ctor(arg_5_0)
 
-	arg_4_0.loader = AutoLoader.New()
+	arg_5_0.loader = AutoLoader.New()
 end
 
-function var_0_0.preload(arg_5_0, arg_5_1)
-	existCall(arg_5_1)
-	arg_5_0.loader:LoadBundle(arg_5_0:GetAtalsName())
+function var_0_0.preload(arg_6_0, arg_6_1)
+	existCall(arg_6_1)
+	arg_6_0.loader:LoadBundle(arg_6_0:getAtalsName())
 end
 
-function var_0_0.OverlayComponent(arg_6_0, arg_6_1)
-	if arg_6_1 then
-		arg_6_0:OverlayPanel(arg_6_0.top)
-		arg_6_0:OverlayPanel(arg_6_0.right)
-		arg_6_0:OverlayPanel(arg_6_0.pt)
-		arg_6_0:OverlayPanel(arg_6_0.battleNodes)
+function var_0_0.OverlayComponent(arg_7_0, arg_7_1)
+	if arg_7_1 then
+		arg_7_0:OverlayPanel(arg_7_0.top)
+		arg_7_0:OverlayPanel(arg_7_0.right)
+		arg_7_0:OverlayPanel(arg_7_0.pt)
+		arg_7_0:OverlayPanel(arg_7_0.battleNodes)
 	else
-		arg_6_0:UnOverlayPanel(arg_6_0.top, arg_6_0._tf)
-		arg_6_0:UnOverlayPanel(arg_6_0.right, arg_6_0._tf)
-		arg_6_0:UnOverlayPanel(arg_6_0.pt, arg_6_0._tf)
-		arg_6_0:UnOverlayPanel(arg_6_0.battleNodes, arg_6_0._tf)
+		arg_7_0:UnOverlayPanel(arg_7_0.top, arg_7_0._tf)
+		arg_7_0:UnOverlayPanel(arg_7_0.right, arg_7_0._tf)
+		arg_7_0:UnOverlayPanel(arg_7_0.pt, arg_7_0._tf)
+		arg_7_0:UnOverlayPanel(arg_7_0.battleNodes, arg_7_0._tf)
 	end
 end
 
-function var_0_0.init(arg_7_0)
-	arg_7_0.top = arg_7_0._tf:Find("Top")
-	arg_7_0.map = arg_7_0._tf:Find("Map")
-	arg_7_0.right = arg_7_0._tf:Find("Right")
-	arg_7_0.pt = arg_7_0._tf:Find("PT")
-	arg_7_0.battleNodes = arg_7_0._tf:Find("Battle")
-	arg_7_0.seriesNodes = _.map(_.range(arg_7_0._tf:Find("Battle/Nodes").childCount), function(arg_8_0)
-		return arg_7_0._tf:Find("Battle/Nodes"):GetChild(arg_8_0 - 1)
+function var_0_0.init(arg_8_0)
+	arg_8_0.top = arg_8_0._tf:Find("Top")
+	arg_8_0.map = arg_8_0._tf:Find("Map")
+	arg_8_0.right = arg_8_0._tf:Find("Right")
+	arg_8_0.pt = arg_8_0._tf:Find("PT")
+	arg_8_0.battleNodes = arg_8_0._tf:Find("Battle")
+	arg_8_0.seriesNodes = _.map(_.range(arg_8_0._tf:Find("Battle/Nodes").childCount), function(arg_9_0)
+		return arg_8_0._tf:Find("Battle/Nodes"):GetChild(arg_9_0 - 1)
 	end)
 
-	table.Foreach(arg_7_0.seriesNodes, function(arg_9_0, arg_9_1)
-		local var_9_0 = arg_9_1:Find("ship")
-		local var_9_1 = var_9_0:GetComponent(typeof(Animation))
+	table.Foreach(arg_8_0.seriesNodes, function(arg_10_0, arg_10_1)
+		local var_10_0 = arg_10_1:Find("ship")
+		local var_10_1 = var_10_0:GetComponent(typeof(Animation))
 
-		var_9_0:GetComponent(typeof(DftAniEvent)):SetEndEvent(function()
-			if var_9_1:IsPlaying("anim_BossRushDALCollabUI_ship_out") then
-				setActive(arg_7_0._currentShip, true)
-				setActive(arg_7_0._currentShip:Find("vx_teleport_1"), true)
-				setActive(var_9_0:Find("vx_teleport_2"), false)
-				arg_7_0:playAnima(arg_7_0._currentShip, "anim_BossRushDALCollabUI_ship_in")
-				setActive(var_9_0, false)
-			elseif var_9_1:IsPlaying("anim_BossRushDALCollabUI_ship_in") then
-				if arg_7_0._openSeriesData then
-					arg_7_0.stageView:ExecuteAction("SetData", arg_7_0._openSeriesData)
-					arg_7_0.stageView:ExecuteAction("Show")
+		var_10_0:GetComponent(typeof(DftAniEvent)):SetEndEvent(function()
+			if var_10_1:IsPlaying("anim_BossRushDALCollabUI_ship_out") then
+				setActive(arg_8_0._currentShip, true)
+				setActive(arg_8_0._currentShip:Find("vx_teleport_1"), true)
+				setActive(var_10_0:Find("vx_teleport_2"), false)
+				arg_8_0:playAnima(arg_8_0._currentShip, "anim_BossRushDALCollabUI_ship_in")
+				setActive(var_10_0, false)
+			elseif var_10_1:IsPlaying("anim_BossRushDALCollabUI_ship_in") then
+				if arg_8_0._openSeriesData then
+					arg_8_0.stageView:ExecuteAction("SetData", arg_8_0._openSeriesData)
+					arg_8_0.stageView:ExecuteAction("Show")
 
-					arg_7_0.battleNodes:GetComponent(typeof(CanvasGroup)).interactable = true
-					arg_7_0._openSeriesData = nil
+					arg_8_0.battleNodes:GetComponent(typeof(CanvasGroup)).interactable = true
+					arg_8_0._openSeriesData = nil
 				end
 
-				setActive(var_9_0:Find("vx_teleport_1"), false)
+				setActive(var_10_0:Find("vx_teleport_1"), false)
 
-				arg_7_0._lastShip = var_9_0
+				arg_8_0._lastShip = var_10_0
 			end
 		end)
 	end)
 
-	arg_7_0.maps = {}
+	arg_8_0.maps = {}
 
-	for iter_7_0 = 1, 6 do
-		arg_7_0.maps[iter_7_0] = arg_7_0._tf:Find("Map/map_" .. iter_7_0)
+	for iter_8_0 = 1, 6 do
+		arg_8_0.maps[iter_8_0] = arg_8_0._tf:Find("Map/map_" .. iter_8_0)
 	end
 
-	arg_7_0.shiftMap = arg_7_0._tf:Find("Map/Map_1")
-	arg_7_0.shiftMapList = {}
+	arg_8_0.shiftMap = arg_8_0._tf:Find("Map/Map_1")
+	arg_8_0.shiftMapList = {}
 
-	for iter_7_1 = 1, 6 do
-		arg_7_0.shiftMapList[iter_7_1] = arg_7_0.shiftMap:Find("map_" .. iter_7_1)
+	for iter_8_1 = 1, 6 do
+		arg_8_0.shiftMapList[iter_8_1] = arg_8_0.shiftMap:Find("map_" .. iter_8_1)
 	end
 
-	arg_7_0.mapAnima = arg_7_0._tf:Find("Map"):GetComponent(typeof(Animation))
-	arg_7_0.mapDftEvt = arg_7_0._tf:Find("Map"):GetComponent(typeof(DftAniEvent))
-	arg_7_0.mapFX = arg_7_0._tf:Find("Map/state_fx")
-	arg_7_0.upgradeBtn = arg_7_0._tf:Find("Right/Upgrade")
-	arg_7_0.shopBtn = arg_7_0._tf:Find("Right/Store")
-	arg_7_0.ptLabel = arg_7_0._tf:Find("PT/pt_text/icon")
-	arg_7_0.ptIcon = arg_7_0._tf:Find("PT/pt_text/icon/Image")
-	arg_7_0.ptCount = arg_7_0._tf:Find("PT/pt_text/Text")
+	arg_8_0.mapAnima = arg_8_0._tf:Find("Map"):GetComponent(typeof(Animation))
+	arg_8_0.mapDftEvt = arg_8_0._tf:Find("Map"):GetComponent(typeof(DftAniEvent))
+	arg_8_0.mapFX = arg_8_0._tf:Find("Map/state_fx")
+	arg_8_0.upgradeBtn = arg_8_0._tf:Find("Right/Upgrade")
+	arg_8_0.shopBtn = arg_8_0._tf:Find("Right/Store")
+	arg_8_0.ptLabel = arg_8_0._tf:Find("PT/pt_text/icon")
+	arg_8_0.ptIcon = arg_8_0._tf:Find("PT/pt_text/icon/Image")
+	arg_8_0.ptCount = arg_8_0._tf:Find("PT/pt_text/Text")
 
-	setText(arg_7_0.ptLabel, i18n("pt_count_tip"))
+	setText(arg_8_0.ptLabel, i18n("pt_count_tip"))
 
-	arg_7_0.ActionSequence = {}
-	arg_7_0.upgradeView = BossRushDALUpgradeView.New(arg_7_0._tf, arg_7_0.event, arg_7_0.contextData)
+	arg_8_0.ActionSequence = {}
+	arg_8_0.upgradeView = BossRushDALUpgradeView.New(arg_8_0._tf, arg_8_0.event, arg_8_0.contextData)
 
-	arg_7_0.upgradeView:RegisterView(arg_7_0)
+	arg_8_0.upgradeView:RegisterView(arg_8_0)
 
-	arg_7_0.stageView = BossRushDALCollabStageView.New(arg_7_0._tf, arg_7_0.event, arg_7_0.contextData)
+	arg_8_0.stageView = BossRushDALCollabStageView.New(arg_8_0._tf, arg_8_0.event, arg_8_0.contextData)
 end
 
-function var_0_0.SetUpgradeActvity(arg_11_0, arg_11_1)
-	arg_11_0.upgradeView:SetData(arg_11_1)
+function var_0_0.SetUpgradeActvity(arg_12_0, arg_12_1)
+	arg_12_0.upgradeView:SetData(arg_12_1)
 end
 
-function var_0_0.SetActivity(arg_12_0, arg_12_1)
-	arg_12_0.activity = arg_12_1
+function var_0_0.SetActivity(arg_13_0, arg_13_1)
+	arg_13_0.activity = arg_13_1
 end
 
-function var_0_0.SetPTActivity(arg_13_0, arg_13_1)
-	arg_13_0.ptActivity = arg_13_1
+function var_0_0.SetPTActivity(arg_14_0, arg_14_1)
+	arg_14_0.ptActivity = arg_14_1
 end
 
-function var_0_0.onBackPressed(arg_14_0)
-	if arg_14_0.upgradeView:isShowing() then
-		arg_14_0.upgradeView:Hide()
-	elseif arg_14_0.stageView:isShowing() then
-		arg_14_0.stageView:Hide()
+function var_0_0.onBackPressed(arg_15_0)
+	if arg_15_0.upgradeView:isShowing() then
+		arg_15_0.upgradeView:Hide()
+	elseif arg_15_0.stageView:isShowing() then
+		arg_15_0.stageView:Hide()
 	else
-		var_0_0.super.onBackPressed(arg_14_0)
+		var_0_0.super.onBackPressed(arg_15_0)
 	end
 end
 
-function var_0_0.didEnter(arg_15_0)
-	onButton(arg_15_0, arg_15_0.top:Find("back_btn"), function()
-		arg_15_0:onBackPressed()
+function var_0_0.didEnter(arg_16_0)
+	onButton(arg_16_0, arg_16_0.top:Find("back_btn"), function()
+		arg_16_0:onBackPressed()
 	end, SFX_CANCEL)
-	onButton(arg_15_0, arg_15_0.top:Find("option"), function()
-		arg_15_0:quickExitFunc()
+	onButton(arg_16_0, arg_16_0.top:Find("option"), function()
+		arg_16_0:quickExitFunc()
 	end, SFX_PANEL)
-	onButton(arg_15_0, arg_15_0.upgradeBtn, function()
-		arg_15_0.upgradeView:ExecuteAction("Show")
+	onButton(arg_16_0, arg_16_0.upgradeBtn, function()
+		arg_16_0.upgradeView:ExecuteAction("Show")
 	end, SFX_PANEL)
-	onButton(arg_15_0, arg_15_0.top:Find("help"), function()
+	onButton(arg_16_0, arg_16_0.top:Find("help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = {
@@ -148,153 +156,153 @@ function var_0_0.didEnter(arg_15_0)
 			}
 		})
 	end, SFX_PANEL)
-	onButton(arg_15_0, arg_15_0.shopBtn, function()
-		local var_20_0 = arg_15_0.activity:getConfig("config_client").shopID
-		local var_20_1 = getProxy(ActivityProxy):getActivityById(var_20_0)
+	onButton(arg_16_0, arg_16_0.shopBtn, function()
+		local var_21_0 = arg_16_0.activity:getConfig("config_client").shopID
+		local var_21_1 = getProxy(ActivityProxy):getActivityById(var_21_0)
 
-		if not var_20_1 or var_20_1:isEnd() then
+		if not var_21_1 or var_21_1:isEnd() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
 
-		arg_15_0:emit(BossRushDALCollabMediator.GO_SHOPS_LAYER, {
+		arg_16_0:emit(BossRushDALCollabMediator.GO_SHOPS_LAYER, {
 			warp = NewShopsScene.TYPE_ACTIVITY,
-			actId = var_20_1 and var_20_1.id
+			actId = var_21_1 and var_21_1.id
 		})
 	end, SFX_PANEL)
-	arg_15_0:PlayBGM()
-	arg_15_0:playAnima(arg_15_0._tf, "anim_BossRushDALCollabUI_in")
-	arg_15_0:OverlayComponent(true)
+	arg_16_0:PlayBGM()
+	arg_16_0:playAnima(arg_16_0._tf, "anim_BossRushDALCollabUI_in")
+	arg_16_0:OverlayComponent(true)
 end
 
-function var_0_0.getBGM(arg_21_0)
-	local var_21_0 = pg.voice_bgm[arg_21_0.__cname]
+function var_0_0.getBGM(arg_22_0)
+	local var_22_0 = pg.voice_bgm[arg_22_0.__cname]
 
-	if not var_21_0 then
+	if not var_22_0 then
 		return nil
 	end
 
-	return var_21_0.bgm
+	return var_22_0.bgm
 end
 
-function var_0_0.UpdateView(arg_22_0)
-	setActive(arg_22_0.battleNodes, true)
-	arg_22_0:UpdateBattle()
-	arg_22_0:UpdateMap()
-	arg_22_0:updateActivityRes()
+function var_0_0.UpdateView(arg_23_0)
+	setActive(arg_23_0.battleNodes, true)
+	arg_23_0:UpdateBattle()
+	arg_23_0:UpdateMap()
+	arg_23_0:updateActivityRes()
 end
 
-function var_0_0.playAnima(arg_23_0, arg_23_1, arg_23_2, arg_23_3)
-	arg_23_1:GetComponent(typeof(Animation)):Play(arg_23_2)
+function var_0_0.playAnima(arg_24_0, arg_24_1, arg_24_2, arg_24_3)
+	arg_24_1:GetComponent(typeof(Animation)):Play(arg_24_2)
 
-	if arg_23_3 then
-		arg_23_1:GetComponent(typeof(DftAniEvent)):SetEndEvent(function()
-			arg_23_3()
+	if arg_24_3 then
+		arg_24_1:GetComponent(typeof(DftAniEvent)):SetEndEvent(function()
+			arg_24_3()
 		end)
 	end
 end
 
-function var_0_0.PlayMapShiftAnima(arg_25_0, arg_25_1, arg_25_2, arg_25_3)
-	for iter_25_0, iter_25_1 in pairs(arg_25_0.maps) do
-		local var_25_0 = GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. iter_25_0 .. arg_25_2)
+function var_0_0.PlayMapShiftAnima(arg_26_0, arg_26_1, arg_26_2, arg_26_3)
+	for iter_26_0, iter_26_1 in pairs(arg_26_0.maps) do
+		local var_26_0 = GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. iter_26_0 .. arg_26_2)
 
-		setImageSprite(iter_25_1, var_25_0, true)
+		setImageSprite(iter_26_1, var_26_0, true)
 	end
 
-	for iter_25_2, iter_25_3 in pairs(arg_25_0.shiftMapList) do
-		local var_25_1 = GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. iter_25_2 .. arg_25_1)
+	for iter_26_2, iter_26_3 in pairs(arg_26_0.shiftMapList) do
+		local var_26_1 = GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. iter_26_2 .. arg_26_1)
 
-		setImageSprite(iter_25_3, var_25_1, true)
+		setImageSprite(iter_26_3, var_26_1, true)
 	end
 
-	setActive(arg_25_0.shiftMap, true)
-	arg_25_0.mapAnima:Play("anim_BossRushDALCollabUI_Map")
+	setActive(arg_26_0.shiftMap, true)
+	arg_26_0.mapAnima:Play("anim_BossRushDALCollabUI_Map")
 end
 
-function var_0_0.updateActivityRes(arg_26_0)
-	setText(arg_26_0.ptCount, "x" .. arg_26_0.ptActivity.data1)
+function var_0_0.updateActivityRes(arg_27_0)
+	setText(arg_27_0.ptCount, "x" .. arg_27_0.ptActivity.data1)
 	GetImageSpriteFromAtlasAsync(Drop.New({
 		type = DROP_TYPE_RESOURCE,
-		id = tonumber(arg_26_0.ptActivity:getConfig("config_id"))
-	}):getIcon(), "", arg_26_0.ptIcon, true)
+		id = tonumber(arg_27_0.ptActivity:getConfig("config_id"))
+	}):getIcon(), "", arg_27_0.ptIcon, true)
 end
 
-function var_0_0.UpdateMap(arg_27_0)
-	local var_27_0 = arg_27_0.activity
-	local var_27_1 = var_27_0:GetCollabSeriesDataList()
-	local var_27_2 = var_27_1[6]
+function var_0_0.UpdateMap(arg_28_0)
+	local var_28_0 = arg_28_0.activity
+	local var_28_1 = var_28_0:GetCollabSeriesDataList()
+	local var_28_2 = var_28_1[6]
 
-	if var_27_2:IsPass() and var_27_2:GetDefeated(arg_27_0.activity) then
-		setActive(arg_27_0.mapFX:Find("state_3"), true)
-		setActive(arg_27_0.mapFX:Find("state_4"), true)
-		setActive(arg_27_0.mapFX:Find("state_4/6_3"), true)
+	if var_28_2:IsPass() and var_28_2:GetDefeated(arg_28_0.activity) then
+		setActive(arg_28_0.mapFX:Find("state_3"), true)
+		setActive(arg_28_0.mapFX:Find("state_4"), true)
+		setActive(arg_28_0.mapFX:Find("state_4/6_3"), true)
 
-		for iter_27_0, iter_27_1 in pairs(arg_27_0.maps) do
-			if iter_27_0 ~= 1 and iter_27_0 ~= 6 then
-				setActive(arg_27_0.mapFX:Find("state_4/" .. iter_27_0), false)
+		for iter_28_0, iter_28_1 in pairs(arg_28_0.maps) do
+			if iter_28_0 ~= 1 and iter_28_0 ~= 6 then
+				setActive(arg_28_0.mapFX:Find("state_4/" .. iter_28_0), false)
 			end
 
-			setActive(iter_27_1, true)
+			setActive(iter_28_1, true)
 
-			local var_27_3 = GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. iter_27_0)
+			local var_28_3 = GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. iter_28_0)
 
-			setImageSprite(iter_27_1, var_27_3, true)
+			setImageSprite(iter_28_1, var_28_3, true)
 		end
-	elseif var_27_2:IsPlayerUnlock(var_27_0) and (not var_27_2:IsPass() or not var_27_2:GetDefeated(arg_27_0.activity)) then
-		setActive(arg_27_0.mapFX:Find("state_4"), true)
+	elseif var_28_2:IsPlayerUnlock(var_28_0) and (not var_28_2:IsPass() or not var_28_2:GetDefeated(arg_28_0.activity)) then
+		setActive(arg_28_0.mapFX:Find("state_4"), true)
 
-		for iter_27_2, iter_27_3 in pairs(arg_27_0.maps) do
-			setActive(iter_27_3, true)
+		for iter_28_2, iter_28_3 in pairs(arg_28_0.maps) do
+			setActive(iter_28_3, true)
 
-			if iter_27_2 == 6 then
-				local var_27_4
+			if iter_28_2 == 6 then
+				local var_28_4
 
-				if var_27_2:GetBossHpRate() > 0.5 then
-					var_27_4 = "_1"
+				if var_28_2:GetBossHpRate() > 0.5 then
+					var_28_4 = "_1"
 
-					setActive(arg_27_0.mapFX:Find("state_4/6_1"), true)
+					setActive(arg_28_0.mapFX:Find("state_4/6_1"), true)
 				else
-					setActive(arg_27_0.mapFX:Find("state_4/6_2"), true)
+					setActive(arg_28_0.mapFX:Find("state_4/6_2"), true)
 
-					var_27_4 = "_2"
+					var_28_4 = "_2"
 				end
 
-				local var_27_5 = GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. iter_27_2 .. var_27_4)
+				local var_28_5 = GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. iter_28_2 .. var_28_4)
 
-				setImageSprite(iter_27_3, var_27_5, true)
+				setImageSprite(iter_28_3, var_28_5, true)
 			else
-				local var_27_6 = GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. iter_27_2 .. "_3")
+				local var_28_6 = GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. iter_28_2 .. "_3")
 
-				setImageSprite(iter_27_3, var_27_6, true)
+				setImageSprite(iter_28_3, var_28_6, true)
 			end
 		end
 	else
-		setActive(arg_27_0.mapFX:Find("state_2"), true)
-		setActive(arg_27_0.mapFX:Find("state_1"), true)
-		setActive(arg_27_0.mapFX:Find("state_3"), true)
+		setActive(arg_28_0.mapFX:Find("state_2"), true)
+		setActive(arg_28_0.mapFX:Find("state_1"), true)
+		setActive(arg_28_0.mapFX:Find("state_3"), true)
 
-		for iter_27_4, iter_27_5 in pairs(arg_27_0.maps) do
-			if iter_27_4 == 6 then
-				setActive(iter_27_5, false)
+		for iter_28_4, iter_28_5 in pairs(arg_28_0.maps) do
+			if iter_28_4 == 6 then
+				setActive(iter_28_5, false)
 			else
-				setActive(iter_27_5, true)
+				setActive(iter_28_5, true)
 
-				local var_27_7 = var_27_1[iter_27_4]
-				local var_27_8 = var_27_7:GetDefeated(arg_27_0.activity)
-				local var_27_9
-				local var_27_10 = not var_27_8 and "_1" or var_27_7:GetBossTimeStamp() ~= 0 and "" or var_27_7:GetBossHpRate() > 0.5 and "_1" or "_2"
-				local var_27_11 = GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. iter_27_4 .. var_27_10)
+				local var_28_7 = var_28_1[iter_28_4]
+				local var_28_8 = var_28_7:GetDefeated(arg_28_0.activity)
+				local var_28_9
+				local var_28_10 = not var_28_8 and "_1" or var_28_7:GetBossTimeStamp() ~= 0 and "" or var_28_7:GetBossHpRate() > 0.5 and "_1" or "_2"
+				local var_28_11 = GetSpriteFromAtlas("ui/dalcollabbossrushsceneui_atlas", "map_" .. iter_28_4 .. var_28_10)
 
-				setImageSprite(iter_27_5, var_27_11, true)
+				setImageSprite(iter_28_5, var_28_11, true)
 
-				if iter_27_4 ~= 1 then
-					if var_27_10 == "" then
-						setActive(arg_27_0.mapFX:Find("state_3/" .. iter_27_4), true)
-					elseif var_27_10 == "_1" then
-						setActive(arg_27_0.mapFX:Find("state_1/" .. iter_27_4), true)
-					elseif var_27_10 == "_2" then
-						setActive(arg_27_0.mapFX:Find("state_2/" .. iter_27_4), true)
+				if iter_28_4 ~= 1 then
+					if var_28_10 == "" then
+						setActive(arg_28_0.mapFX:Find("state_3/" .. iter_28_4), true)
+					elseif var_28_10 == "_1" then
+						setActive(arg_28_0.mapFX:Find("state_1/" .. iter_28_4), true)
+					elseif var_28_10 == "_2" then
+						setActive(arg_28_0.mapFX:Find("state_2/" .. iter_28_4), true)
 					end
 				end
 			end
@@ -302,302 +310,290 @@ function var_0_0.UpdateMap(arg_27_0)
 	end
 end
 
-function var_0_0.UpdateBattle(arg_28_0)
-	local var_28_0 = arg_28_0.activity
-	local var_28_1 = var_28_0:GetActiveSeriesIds()
-	local var_28_2 = arg_28_0.activity:GetCollabSeriesDataList()
-	local var_28_3 = {}
+function var_0_0.UpdateBattle(arg_29_0)
+	local var_29_0 = arg_29_0.activity
+	local var_29_1 = var_29_0:GetActiveSeriesIds()
+	local var_29_2 = arg_29_0.activity:GetCollabSeriesDataList()
+	local var_29_3 = {}
 
-	for iter_28_0, iter_28_1 in pairs(var_28_2) do
-		table.insert(var_28_3, iter_28_1)
+	for iter_29_0, iter_29_1 in pairs(var_29_2) do
+		table.insert(var_29_3, iter_29_1)
 	end
 
-	table.sort(var_28_3, function(arg_29_0, arg_29_1)
-		return arg_29_0:GetTrafficPerH() > arg_29_1:GetTrafficPerH()
+	table.sort(var_29_3, function(arg_30_0, arg_30_1)
+		return arg_30_0:GetTrafficPerH() > arg_30_1:GetTrafficPerH()
 	end)
-	table.Foreach(arg_28_0.seriesNodes, function(arg_30_0, arg_30_1)
-		local var_30_0 = var_28_1[arg_30_0]
-		local var_30_1 = var_28_0:GetCollabSeriesData(var_30_0)
-		local var_30_2 = var_30_1:IsPlayerUnlock(var_28_0)
-		local var_30_3 = var_30_1:IsPass()
-		local var_30_4 = var_30_1:GetDefeated(arg_28_0.activity)
+	table.Foreach(arg_29_0.seriesNodes, function(arg_31_0, arg_31_1)
+		local var_31_0 = var_29_1[arg_31_0]
+		local var_31_1 = var_29_0:GetCollabSeriesData(var_31_0)
+		local var_31_2 = var_31_1:IsPlayerUnlock(var_29_0)
+		local var_31_3 = var_31_1:IsPass()
+		local var_31_4 = var_31_1:GetDefeated(arg_29_0.activity)
 
-		if var_30_0 == 6 and not var_30_2 then
-			setActive(arg_30_1, false)
+		if var_31_0 == 6 and not var_31_2 then
+			setActive(arg_31_1, false)
 		end
 
-		setActive(arg_30_1:Find("lock"), not var_30_2)
-		setActive(arg_30_1:Find("clear"), var_30_2 and var_30_3 and var_30_4)
-		setActive(arg_30_1:Find("active"), var_30_2 and (not var_30_3 or not var_30_4))
+		setActive(arg_31_1:Find("lock"), not var_31_2)
+		setActive(arg_31_1:Find("clear"), var_31_2 and var_31_3 and var_31_4)
+		setActive(arg_31_1:Find("active"), var_31_2 and (not var_31_3 or not var_31_4))
 
-		local var_30_5 = table.indexof(var_28_3, var_30_1)
+		local var_31_5 = table.indexof(var_29_3, var_31_1)
 
-		if not var_30_2 then
-			setText(arg_30_1:Find("lock/name"), var_30_1:GetSeriesCode())
-		elseif var_30_1:IsPass() and var_30_4 then
-			setText(arg_30_1:Find("clear/current/name/text"), var_30_1:GetSeriesCode())
-			setText(arg_30_1:Find("clear/common/name"), var_30_1:GetSeriesCode())
-			setActive(arg_30_1:Find("clear/common"), true)
-			setActive(arg_30_1:Find("clear/current"), false)
+		if not var_31_2 then
+			setText(arg_31_1:Find("lock/name"), var_31_1:GetSeriesCode())
+		elseif var_31_1:IsPass() and var_31_4 then
+			setText(arg_31_1:Find("clear/current/name/text"), var_31_1:GetSeriesCode())
+			setText(arg_31_1:Find("clear/common/name"), var_31_1:GetSeriesCode())
+			setActive(arg_31_1:Find("clear/common"), true)
+			setActive(arg_31_1:Find("clear/current"), false)
 		else
-			setText(arg_30_1:Find("active/current/name/text"), var_30_1:GetSeriesCode())
-			setText(arg_30_1:Find("active/common/name"), var_30_1:GetSeriesCode())
+			setText(arg_31_1:Find("active/current/name/text"), var_31_1:GetSeriesCode())
+			setText(arg_31_1:Find("active/common/name"), var_31_1:GetSeriesCode())
 
-			local var_30_6 = var_30_1:GetBossHpRate() * 100 .. "%"
+			local var_31_6 = var_31_1:GetBossHpRate() * 100 .. "%"
 
-			setText(arg_30_1:Find("active/common/value"), var_30_1:IsPass() and "HOLD" or var_30_6)
-			setText(arg_30_1:Find("active/current/value"), var_30_1:IsPass() and "HOLD" or var_30_6)
-			setActive(arg_30_1:Find("active/common"), true)
-			setActive(arg_30_1:Find("active/current"), false)
+			setText(arg_31_1:Find("active/common/value"), var_31_1:IsPass() and "HOLD" or var_31_6)
+			setText(arg_31_1:Find("active/current/value"), var_31_1:IsPass() and "HOLD" or var_31_6)
+			setActive(arg_31_1:Find("active/common"), true)
+			setActive(arg_31_1:Find("active/current"), false)
 
-			arg_30_1:Find("active/current/progress"):GetComponent(typeof(Image)).fillAmount = var_30_1:IsPass() and 1 or var_30_1:GetBossHpRate()
+			arg_31_1:Find("active/current/progress"):GetComponent(typeof(Image)).fillAmount = var_31_1:IsPass() and 1 or var_31_1:GetBossHpRate()
 		end
 
-		local function var_30_7(arg_31_0)
-			if var_30_5 > 3 then
-				setActive(arg_31_0, false)
+		local function var_31_7(arg_32_0)
+			if var_31_5 > 3 then
+				setActive(arg_32_0, false)
 			else
-				setActive(arg_31_0, true)
+				setActive(arg_32_0, true)
 
-				local var_31_0 = _.map(_.range(arg_31_0.childCount), function(arg_32_0)
-					return arg_31_0:GetChild(arg_32_0 - 1)
+				local var_32_0 = _.map(_.range(arg_32_0.childCount), function(arg_33_0)
+					return arg_32_0:GetChild(arg_33_0 - 1)
 				end)
 
-				table.Foreach(var_31_0, function(arg_33_0, arg_33_1)
-					setActive(arg_33_1, arg_33_0 <= 4 - var_30_5)
+				table.Foreach(var_32_0, function(arg_34_0, arg_34_1)
+					setActive(arg_34_1, arg_34_0 <= 4 - var_31_5)
 				end)
 			end
 		end
 
-		var_30_7(arg_30_1:Find("active/common/bullets"))
-		var_30_7(arg_30_1:Find("clear/common/bullets"))
-		onButton(arg_28_0, arg_30_1, function()
-			if not var_30_2 then
-				local var_34_0 = var_30_1:GetPreSeriesId()
-				local var_34_1 = ""
-				local var_34_2 = 1
-				local var_34_3 = var_30_1:GetPreSeriesId()
-				local var_34_4 = CollabrateBossRushSeriesData.New({
-					id = var_34_3[var_34_2]
+		var_31_7(arg_31_1:Find("active/common/bullets"))
+		var_31_7(arg_31_1:Find("clear/common/bullets"))
+		onButton(arg_29_0, arg_31_1, function()
+			if not var_31_2 then
+				local var_35_0 = var_31_1:GetPreSeriesId()
+				local var_35_1 = ""
+				local var_35_2 = 1
+				local var_35_3 = var_31_1:GetPreSeriesId()
+				local var_35_4 = CollabrateBossRushSeriesData.New({
+					id = var_35_3[var_35_2]
 				}):GetSeriesCode()
 
-				while var_34_2 < #var_34_3 do
-					var_34_2 = var_34_2 + 1
+				while var_35_2 < #var_35_3 do
+					var_35_2 = var_35_2 + 1
 
-					local var_34_5 = CollabrateBossRushSeriesData.New({
-						id = var_34_3[var_34_2]
+					local var_35_5 = CollabrateBossRushSeriesData.New({
+						id = var_35_3[var_35_2]
 					})
 
-					var_34_4 = var_34_4 .. "、" .. var_34_5:GetSeriesCode()
+					var_35_4 = var_35_4 .. "、" .. var_35_5:GetSeriesCode()
 				end
 
-				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_unlock", var_34_4))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_unlock", var_35_4))
 
 				return
 			end
 
-			local function var_34_6()
-				arg_28_0._openSeriesData = var_30_1
+			local function var_35_6()
+				arg_29_0._openSeriesData = var_31_1
 
-				PlayerPrefs.SetInt("DAL_ship_position", arg_30_0)
+				PlayerPrefs.SetInt("DAL_ship_position", arg_31_0)
 
-				if not arg_28_0:updateShipPosition() then
-					arg_28_0.stageView:ExecuteAction("SetData", var_30_1)
-					arg_28_0.stageView:ExecuteAction("Show")
+				if not arg_29_0:updateShipPosition() then
+					arg_29_0.stageView:ExecuteAction("SetData", var_31_1)
+					arg_29_0.stageView:ExecuteAction("Show")
 
-					arg_28_0.battleNodes:GetComponent(typeof(CanvasGroup)).interactable = true
+					arg_29_0.battleNodes:GetComponent(typeof(CanvasGroup)).interactable = true
 				end
 			end
 
-			local var_34_7 = var_30_1:GetInitStory()
+			local var_35_7 = var_31_1:GetInitStory()
 
-			if var_34_7 then
-				arg_28_0:PlayStory(var_34_7, var_34_6)
+			if var_35_7 then
+				arg_29_0:PlayStory(var_35_7, var_35_6)
 			else
-				var_34_6()
+				var_35_6()
 			end
 		end, SFX_PANEL)
 	end)
-	arg_28_0:updateShipPosition()
-	arg_28_0:addbubbleMsgBoxList({
-		function(arg_36_0)
-			arg_28_0:checkAllStory()
-			arg_36_0()
-		end,
+	arg_29_0:updateShipPosition()
+	arg_29_0:addbubbleMsgBoxList({
 		function(arg_37_0)
-			local var_37_0 = arg_28_0.activity:getConfig("config_client").first_story
-			local var_37_1 = arg_28_0.activity:getConfig("config_client").first_guide
+			arg_29_0:checkAllStory()
+			arg_37_0()
+		end,
+		function(arg_38_0)
+			local var_38_0 = arg_29_0.activity:getConfig("config_client").first_story
+			local var_38_1 = arg_29_0.activity:getConfig("config_client").first_guide
 
 			if first_guide then
-				local function var_37_2()
-					pg.SystemGuideMgr.GetInstance():PlayByGuideId(var_37_1, nil, arg_37_0)
+				local function var_38_2()
+					pg.SystemGuideMgr.GetInstance():PlayByGuideId(var_38_1, nil, arg_38_0)
 				end
 
-				arg_28_0:PlayStory(var_37_0, var_37_2)
+				arg_29_0:PlayStory(var_38_0, var_38_2)
 			else
-				arg_28_0:PlayStory(var_37_0, arg_37_0)
+				arg_29_0:PlayStory(var_38_0, arg_38_0)
 			end
 		end
 	})
 end
 
-function var_0_0.updateCurrent(arg_39_0, arg_39_1)
-	table.Foreach(arg_39_0.seriesNodes, function(arg_40_0, arg_40_1)
-		setActive(arg_40_1:Find("clear/common"), arg_39_1 ~= arg_40_1)
-		setActive(arg_40_1:Find("clear/current"), arg_39_1 == arg_40_1)
-		setActive(arg_40_1:Find("active/common"), arg_39_1 ~= arg_40_1)
-		setActive(arg_40_1:Find("active/current"), arg_39_1 == arg_40_1)
+function var_0_0.updateCurrent(arg_40_0, arg_40_1)
+	table.Foreach(arg_40_0.seriesNodes, function(arg_41_0, arg_41_1)
+		setActive(arg_41_1:Find("clear/common"), arg_40_1 ~= arg_41_1)
+		setActive(arg_41_1:Find("clear/current"), arg_40_1 == arg_41_1)
+		setActive(arg_41_1:Find("active/common"), arg_40_1 ~= arg_41_1)
+		setActive(arg_41_1:Find("active/current"), arg_40_1 == arg_41_1)
 
-		if arg_39_1 == arg_40_1 then
-			arg_39_0:playAnima(arg_39_1, "anim_BossRushDALCollabUI_battle_in")
+		if arg_40_1 == arg_41_1 then
+			arg_40_0:playAnima(arg_40_1, "anim_BossRushDALCollabUI_battle_in")
 		end
 	end)
 end
 
-function var_0_0.updateShipPosition(arg_41_0)
-	local var_41_0 = PlayerPrefs.GetInt("DAL_ship_position", 1)
-	local var_41_1 = arg_41_0.activity:GetActiveSeriesIds()
+function var_0_0.updateShipPosition(arg_42_0)
+	local var_42_0 = PlayerPrefs.GetInt("DAL_ship_position", 1)
+	local var_42_1 = arg_42_0.activity:GetActiveSeriesIds()
 
-	table.Foreach(arg_41_0.seriesNodes, function(arg_42_0, arg_42_1)
-		local var_42_0 = var_41_1[arg_42_0]
-		local var_42_1 = arg_42_1:Find("ship")
+	table.Foreach(arg_42_0.seriesNodes, function(arg_43_0, arg_43_1)
+		local var_43_0 = var_42_1[arg_43_0]
+		local var_43_1 = arg_43_1:Find("ship")
 
-		var_42_1:GetComponent(typeof(Animation)):Stop()
+		var_43_1:GetComponent(typeof(Animation)):Stop()
 
-		if var_41_0 == var_42_0 then
-			arg_41_0:updateCurrent(arg_42_1)
+		if var_42_0 == var_43_0 then
+			arg_42_0:updateCurrent(arg_43_1)
 
-			arg_41_0._currentShip = var_42_1
-		elseif var_42_1 ~= arg_41_0._lastShip then
-			setActive(arg_42_1:Find("ship"), false)
+			arg_42_0._currentShip = var_43_1
+		elseif var_43_1 ~= arg_42_0._lastShip then
+			setActive(arg_43_1:Find("ship"), false)
 		end
 	end)
 
-	if arg_41_0._lastShip then
-		if arg_41_0._lastShip ~= arg_41_0._currentShip then
-			arg_41_0:playAnima(arg_41_0._lastShip, "anim_BossRushDALCollabUI_ship_out")
-			setActive(arg_41_0._lastShip:Find("vx_teleport_2"), true)
+	if arg_42_0._lastShip then
+		if arg_42_0._lastShip ~= arg_42_0._currentShip then
+			arg_42_0:playAnima(arg_42_0._lastShip, "anim_BossRushDALCollabUI_ship_out")
+			setActive(arg_42_0._lastShip:Find("vx_teleport_2"), true)
 
-			arg_41_0.battleNodes:GetComponent(typeof(CanvasGroup)).interactable = false
+			arg_42_0.battleNodes:GetComponent(typeof(CanvasGroup)).interactable = false
 		end
 	else
-		setActive(arg_41_0._currentShip, true)
-		setActive(arg_41_0._currentShip:Find("vx_teleport_1"), true)
-		arg_41_0:playAnima(arg_41_0._currentShip, "anim_BossRushDALCollabUI_ship_in")
+		setActive(arg_42_0._currentShip, true)
+		setActive(arg_42_0._currentShip:Find("vx_teleport_1"), true)
+		arg_42_0:playAnima(arg_42_0._currentShip, "anim_BossRushDALCollabUI_ship_in")
 	end
 
-	return arg_41_0._lastShip ~= arg_41_0._currentShip
+	return arg_42_0._lastShip ~= arg_42_0._currentShip
 end
 
-function var_0_0.checkAllStory(arg_43_0)
-	local var_43_0 = arg_43_0.activity:GetCollabSeriesDataList()
-	local var_43_1 = {}
+function var_0_0.checkAllStory(arg_44_0)
+	local var_44_0 = arg_44_0.activity:GetCollabSeriesDataList()
+	local var_44_1 = {}
 
-	for iter_43_0, iter_43_1 in pairs(var_43_0) do
-		if table.contains(arg_43_0.activity:GetPassCounts(), iter_43_0) then
-			local var_43_2 = iter_43_1:GetStorys()
+	for iter_44_0, iter_44_1 in pairs(var_44_0) do
+		if table.contains(arg_44_0.activity:GetPassCounts(), iter_44_0) then
+			local var_44_2 = iter_44_1:GetStorys()
 
-			for iter_43_2, iter_43_3 in ipairs(var_43_2) do
-				table.insert(var_43_1, iter_43_3)
+			for iter_44_2, iter_44_3 in ipairs(var_44_2) do
+				table.insert(var_44_1, iter_44_3)
 			end
 		end
 	end
 
-	local var_43_3 = 1
+	local var_44_3 = 1
 
-	local function var_43_4()
-		var_43_3 = var_43_3 + 1
+	local function var_44_4()
+		var_44_3 = var_44_3 + 1
 
-		local var_44_0 = var_43_1[var_43_3]
-		local var_44_1
-		local var_44_2 = arg_43_0.activity:getConfig("config_client").storys_unlock_story
+		local var_45_0 = var_44_1[var_44_3]
+		local var_45_1
+		local var_45_2 = arg_44_0.activity:getConfig("config_client").storys_unlock_story
 
-		if var_44_0 == nil and var_44_2 then
-			local var_44_3 = pg.NewStoryMgr.GetInstance()
+		if var_45_0 == nil and var_45_2 then
+			local var_45_3 = pg.NewStoryMgr.GetInstance()
 
-			var_44_1 = true
+			var_45_1 = true
 
-			for iter_44_0, iter_44_1 in ipairs(var_44_2[2]) do
-				var_44_1 = var_44_1 and var_44_3:IsPlayed(iter_44_1)
+			for iter_45_0, iter_45_1 in ipairs(var_45_2[2]) do
+				var_45_1 = var_45_1 and var_45_3:IsPlayed(iter_45_1)
 			end
 
-			var_44_1 = var_44_1 and not var_44_3:IsPlayed(var_44_2[1])
+			var_45_1 = var_45_1 and not var_45_3:IsPlayed(var_45_2[1])
 		end
 
-		if var_44_1 then
-			local function var_44_4()
-				setActive(arg_43_0.shiftMap:Find("map_6"), false)
-				arg_43_0:PlayMapShiftAnima("", "_3")
+		if var_45_1 then
+			local function var_45_4()
+				setActive(arg_44_0.shiftMap:Find("map_6"), false)
+				arg_44_0:PlayMapShiftAnima("", "_3")
 			end
 
-			arg_43_0:PlayStory(var_44_2[1], var_44_4)
+			arg_44_0:PlayStory(var_45_2[1], var_45_4)
 		else
-			arg_43_0:PlayStory(var_44_0, var_43_4)
+			arg_44_0:PlayStory(var_45_0, var_44_4)
 		end
 	end
 
-	arg_43_0:PlayStory(var_43_1[var_43_3], var_43_4)
+	arg_44_0:PlayStory(var_44_1[var_44_3], var_44_4)
 end
 
-function var_0_0.GetFinalStoryName(arg_46_0)
-	local var_46_0 = arg_46_0.activity:GetCollabSeriesDataList()[6]
-	local var_46_1 = Clone(var_46_0:getConfig("story_worldboss"))
+function var_0_0.GetFinalStoryName(arg_47_0)
+	local var_47_0 = arg_47_0.activity:GetCollabSeriesDataList()[6]
+	local var_47_1 = Clone(var_47_0:getConfig("story_worldboss"))
 
-	table.sort(var_46_1, function(arg_47_0, arg_47_1)
-		return arg_47_0[2] < arg_47_1[2]
+	table.sort(var_47_1, function(arg_48_0, arg_48_1)
+		return arg_48_0[2] < arg_48_1[2]
 	end)
 
-	return var_46_1[1][1]
+	return var_47_1[1][1]
 end
 
-function var_0_0.PlayStory(arg_48_0, arg_48_1, arg_48_2)
-	if not arg_48_1 then
+function var_0_0.PlayStory(arg_49_0, arg_49_1, arg_49_2)
+	if not arg_49_1 then
 		return
 	end
 
-	local var_48_0 = pg.NewStoryMgr.GetInstance()
+	local var_49_0 = pg.NewStoryMgr.GetInstance()
 
-	if var_48_0:IsPlayed(arg_48_1) then
-		return existCall(arg_48_2)
+	if var_49_0:IsPlayed(arg_49_1) then
+		return existCall(arg_49_2)
 	end
 
-	if arg_48_1 == arg_48_0:GetFinalStoryName() then
-		local function var_48_1()
-			arg_48_0:PlayMapShiftAnima("_3", "")
+	if arg_49_1 == arg_49_0:GetFinalStoryName() then
+		local function var_49_1()
+			arg_49_0:PlayMapShiftAnima("_3", "")
 		end
 
-		var_48_0:Play(arg_48_1, var_48_1)
+		var_49_0:Play(arg_49_1, var_49_1)
 	else
-		var_48_0:Play(arg_48_1, arg_48_2)
+		var_49_0:Play(arg_49_1, arg_49_2)
 	end
 end
 
-function var_0_0.UpdateTasks(arg_50_0, arg_50_1)
-	if _.any(arg_50_1, function(arg_51_0)
-		return arg_50_0.storyTask and arg_50_0.storyTask.id == arg_51_0
+function var_0_0.UpdateTasks(arg_51_0, arg_51_1)
+	if _.any(arg_51_1, function(arg_52_0)
+		return arg_51_0.storyTask and arg_51_0.storyTask.id == arg_52_0
 	end) then
-		arg_50_0.storyTask.submitTime = 1
+		arg_51_0.storyTask.submitTime = 1
 
-		arg_50_0:UpdateView()
+		arg_51_0:UpdateView()
 	end
 end
 
-function var_0_0.addbubbleMsgBoxList(arg_52_0, arg_52_1)
-	local var_52_0 = #arg_52_0.ActionSequence == 0
-
-	table.insertto(arg_52_0.ActionSequence, arg_52_1)
-
-	if not var_52_0 then
-		return
-	end
-
-	arg_52_0:resumeBubble()
-end
-
-function var_0_0.addbubbleMsgBox(arg_53_0, arg_53_1)
+function var_0_0.addbubbleMsgBoxList(arg_53_0, arg_53_1)
 	local var_53_0 = #arg_53_0.ActionSequence == 0
 
-	table.insert(arg_53_0.ActionSequence, arg_53_1)
+	table.insertto(arg_53_0.ActionSequence, arg_53_1)
 
 	if not var_53_0 then
 		return
@@ -606,37 +602,49 @@ function var_0_0.addbubbleMsgBox(arg_53_0, arg_53_1)
 	arg_53_0:resumeBubble()
 end
 
-function var_0_0.resumeBubble(arg_54_0)
-	if #arg_54_0.ActionSequence == 0 then
+function var_0_0.addbubbleMsgBox(arg_54_0, arg_54_1)
+	local var_54_0 = #arg_54_0.ActionSequence == 0
+
+	table.insert(arg_54_0.ActionSequence, arg_54_1)
+
+	if not var_54_0 then
 		return
 	end
 
-	local var_54_0
+	arg_54_0:resumeBubble()
+end
 
-	local function var_54_1()
-		local var_55_0 = arg_54_0.ActionSequence[1]
+function var_0_0.resumeBubble(arg_55_0)
+	if #arg_55_0.ActionSequence == 0 then
+		return
+	end
 
-		if var_55_0 then
-			var_55_0(function()
-				table.remove(arg_54_0.ActionSequence, 1)
-				var_54_1()
+	local var_55_0
+
+	local function var_55_1()
+		local var_56_0 = arg_55_0.ActionSequence[1]
+
+		if var_56_0 then
+			var_56_0(function()
+				table.remove(arg_55_0.ActionSequence, 1)
+				var_55_1()
 			end)
 		end
 	end
 
-	var_54_1()
+	var_55_1()
 end
 
-function var_0_0.CleanBubbleMsgbox(arg_57_0)
-	table.clean(arg_57_0.ActionSequence)
+function var_0_0.CleanBubbleMsgbox(arg_58_0)
+	table.clean(arg_58_0.ActionSequence)
 end
 
-function var_0_0.willExit(arg_58_0)
-	arg_58_0:OverlayComponent(false)
-	arg_58_0.stageView:Destroy()
-	arg_58_0.upgradeView:Destroy()
-	arg_58_0.loader:Clear()
-	var_0_0.super.willExit(arg_58_0)
+function var_0_0.willExit(arg_59_0)
+	arg_59_0:OverlayComponent(false)
+	arg_59_0.stageView:Destroy()
+	arg_59_0.upgradeView:Destroy()
+	arg_59_0.loader:Clear()
+	var_0_0.super.willExit(arg_59_0)
 end
 
 return var_0_0

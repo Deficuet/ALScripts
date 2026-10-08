@@ -602,7 +602,7 @@ function var_0_0.UpdateGoods(arg_53_0)
 
 	local var_53_0 = arg_53_0.rtShop:Find("frame/scrollview/view")
 	local var_53_1 = var_53_0:GetChild(0)
-	local var_53_2 = underscore.rest(arg_53_0.port.goods, 1)
+	local var_53_2 = underscore.to_array(arg_53_0.port.goods)
 
 	table.sort(var_53_2, CompareFuncs({
 		function(arg_54_0)

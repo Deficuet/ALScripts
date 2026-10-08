@@ -727,22 +727,21 @@ function var_0_0.updateActivity(arg_71_0, arg_71_1)
 	assert(arg_71_0.data[arg_71_1.id], "activity should exist" .. arg_71_1.id)
 	assert(isa(arg_71_1, Activity), "activity should instance of Activity")
 
-	if arg_71_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_CRUSING then
-		local var_71_0 = pg.battlepass_event_pt[arg_71_1.id].target
+	local var_71_0 = arg_71_0.data[arg_71_1.id]
 
-		if arg_71_0.data[arg_71_1.id].data1 < var_71_0[#var_71_0] and arg_71_1.data1 - arg_71_0.data[arg_71_1.id].data1 > 0 then
-			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_CRUSING, {
-				ptId = pg.battlepass_event_pt[arg_71_1.id].pt,
-				ptCount = arg_71_1.data1 - arg_71_0.data[arg_71_1.id].data1
-			})
+	if isa(arg_71_1, CrusingActivity) then
+		local var_71_1 = arg_71_1:GetUpdateToastData(var_71_0)
+
+		if var_71_1 then
+			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_CRUSING, var_71_1)
 		end
 	elseif arg_71_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_HEI5 then
-		local var_71_1 = pg.black_friday_battlepass_event_pt[arg_71_1.id].target
+		local var_71_2 = pg.black_friday_battlepass_event_pt[arg_71_1.id].target
 
-		if arg_71_0.data[arg_71_1.id].data1 < var_71_1[#var_71_1] and arg_71_1.data1 - arg_71_0.data[arg_71_1.id].data1 > 0 then
+		if var_71_0.data1 < var_71_2[#var_71_2] and arg_71_1.data1 - var_71_0.data1 > 0 then
 			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_CRUSING, {
 				ptId = pg.black_friday_battlepass_event_pt[arg_71_1.id].pt,
-				ptCount = arg_71_1.data1 - arg_71_0.data[arg_71_1.id].data1
+				ptCount = arg_71_1.data1 - var_71_0.data1
 			})
 		end
 	end

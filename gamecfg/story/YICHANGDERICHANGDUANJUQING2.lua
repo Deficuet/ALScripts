@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "指挥官，你有没有听见……",
 			typewriter = {
 				speed = 0.05,
@@ -17,10 +18,11 @@ return {
 		},
 		{
 			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			NextIcon = 1,
 			say = "那从遥远天外，缓缓流淌而来的悦耳旋律？",
 			typewriter = {
 				speed = 0.05,
@@ -40,11 +42,12 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			actor = 202381,
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
 			optionFlag = 1,
+			actor = 202381,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "果然，你也能听到群星的共鸣呢~",
 			typewriter = {
 				speed = 0.05,
@@ -53,11 +56,12 @@ return {
 		},
 		{
 			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			NextIcon = 1,
 			say = "暂时听不见也没关系。",
 			typewriter = {
 				speed = 0.05,
@@ -66,11 +70,12 @@ return {
 		},
 		{
 			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			NextIcon = 1,
 			say = "等时机合适了，我会亲自带你去天外，好好听一听那动人的乐章的。",
 			typewriter = {
 				speed = 0.05,

@@ -33,6 +33,7 @@ pg.battlepass_event_pt.all = {
 	7028,
 	7029,
 	7030,
+	7031,
 	45900,
 	45901,
 	45902,
@@ -67,13 +68,14 @@ pg.base.battlepass_event_pt = {}
 
 ;(function()
 	pg.base.battlepass_event_pt[7001] = {
-		spine_name = "chess_hude",
+		bg_tips = "",
 		id = 7001,
 		equip_skin = "",
 		type = 1,
 		bg = "bg_worldcruise_1",
 		map_name = "2110",
-		bg_tips = "",
+		related_activity = 0,
+		spine_name = "chess_hude",
 		crusing_map = "CrusingMap_0",
 		pt = 59599,
 		target = {
@@ -396,13 +398,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7002] = {
-		spine_name = "chess_keluoladuo",
+		bg_tips = "",
 		id = 7002,
 		equip_skin = "",
 		type = 1,
 		bg = "bg_worldcruise_1",
 		map_name = "2112",
-		bg_tips = "",
+		related_activity = 0,
+		spine_name = "chess_keluoladuo",
 		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
@@ -725,13 +728,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7003] = {
-		spine_name = "chess_gelunbiya",
+		bg_tips = "",
 		id = 7003,
 		equip_skin = "",
 		type = 1,
 		bg = "bg_worldcruise_1",
 		map_name = "2202",
-		bg_tips = "",
+		related_activity = 0,
+		spine_name = "chess_gelunbiya",
 		crusing_map = "CrusingMap_2",
 		pt = 59599,
 		target = {
@@ -1054,13 +1058,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7004] = {
-		spine_name = "chess_qiye",
+		bg_tips = "",
 		id = 7004,
 		equip_skin = "",
 		type = 1,
 		bg = "bg_worldcruise_1",
 		map_name = "2204",
-		bg_tips = "",
+		related_activity = 0,
+		spine_name = "chess_qiye",
 		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
@@ -1383,13 +1388,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7005] = {
-		spine_name = "chess_xiao",
+		bg_tips = "",
 		id = 7005,
 		equip_skin = "",
 		type = 1,
 		bg = "bg_worldcruise_1",
 		map_name = "2206",
-		bg_tips = "",
+		related_activity = 0,
+		spine_name = "chess_xiao",
 		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
@@ -1712,13 +1718,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7006] = {
-		spine_name = "chess_beifeng",
 		bg_tips = "",
 		id = 7006,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_1",
 		map_name = "2208",
+		related_activity = 0,
+		spine_name = "chess_beifeng",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -2062,13 +2069,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7007] = {
-		spine_name = "chess_shuixingjinian",
 		bg_tips = "",
 		id = 7007,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_1",
 		map_name = "2210",
+		related_activity = 0,
+		spine_name = "chess_shuixingjinian",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -2412,13 +2420,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7008] = {
-		spine_name = "chess_kelifulan",
 		bg_tips = "",
 		id = 7008,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_1",
 		map_name = "2212",
+		related_activity = 0,
+		spine_name = "chess_kelifulan",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -2762,13 +2771,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7009] = {
-		spine_name = "chess_ximu",
 		bg_tips = "",
 		id = 7009,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_1",
 		map_name = "2302",
+		related_activity = 0,
+		spine_name = "chess_ximu",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -3112,13 +3122,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7010] = {
-		spine_name = "chess_wokelan",
 		bg_tips = "",
 		id = 7010,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_1",
 		map_name = "2304",
+		related_activity = 0,
+		spine_name = "chess_wokelan",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -3462,13 +3473,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7011] = {
-		spine_name = "chess_jiahe",
 		bg_tips = "",
 		id = 7011,
 		type = 1,
-		crusing_map = "CrusingMap_2",
 		bg = "bg_worldcruise_1",
 		map_name = "2306",
+		related_activity = 0,
+		spine_name = "chess_jiahe",
+		crusing_map = "CrusingMap_2",
 		pt = 59599,
 		target = {
 			100,
@@ -3812,13 +3824,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7012] = {
-		spine_name = "chess_fuxu",
 		bg_tips = "",
 		id = 7012,
 		type = 1,
-		crusing_map = "CrusingMap_2",
 		bg = "bg_worldcruise_1",
 		map_name = "2308",
+		related_activity = 0,
+		spine_name = "chess_fuxu",
+		crusing_map = "CrusingMap_2",
 		pt = 59599,
 		target = {
 			100,
@@ -4162,13 +4175,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7013] = {
-		spine_name = "chess_u410",
 		bg_tips = "",
 		id = 7013,
 		type = 1,
-		crusing_map = "CrusingMap_2",
 		bg = "bg_worldcruise_1",
 		map_name = "2310",
+		related_activity = 0,
+		spine_name = "chess_u410",
+		crusing_map = "CrusingMap_2",
 		pt = 59599,
 		target = {
 			100,
@@ -4512,13 +4526,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7014] = {
-		spine_name = "chess_chuchun",
 		bg_tips = "",
 		id = 7014,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_1",
 		map_name = "2312",
+		related_activity = 0,
+		spine_name = "chess_chuchun",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -4862,13 +4877,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7015] = {
-		spine_name = "chess_shenxue",
 		bg_tips = "",
 		id = 7015,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_1",
 		map_name = "2402",
+		related_activity = 0,
+		spine_name = "chess_shenxue",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -5212,13 +5228,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7016] = {
-		spine_name = "chess_dian",
 		bg_tips = "",
 		id = 7016,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_1",
 		map_name = "2404",
+		related_activity = 0,
+		spine_name = "chess_dian",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -5562,13 +5579,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7017] = {
-		spine_name = "chess_adiliao",
 		bg_tips = "",
 		id = 7017,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_1",
 		map_name = "2406",
+		related_activity = 0,
+		spine_name = "chess_adiliao",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -5912,13 +5930,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7018] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7018,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_1",
 		map_name = "2408",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -6262,13 +6281,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7019] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7019,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_2",
 		map_name = "2410",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -6612,13 +6632,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7020] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7020,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_3",
 		map_name = "2412",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -6962,13 +6983,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7021] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7021,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_4",
 		map_name = "2502",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -7312,13 +7334,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7022] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7022,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_5",
 		map_name = "2504",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -7662,13 +7685,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7023] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7023,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_6",
 		map_name = "2506",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -8012,13 +8036,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7024] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7024,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_7",
 		map_name = "2508",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -8362,13 +8387,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7025] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 7025,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_8",
 		map_name = "2510",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -8712,13 +8738,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7026] = {
-		spine_name = "chess_luoma",
 		bg_tips = "bg_worldcruise_9_tip",
 		id = 7026,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_9",
 		map_name = "2512",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -9062,13 +9089,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7027] = {
-		spine_name = "chess_luoma",
 		bg_tips = "bg_worldcruise_10_tip",
 		id = 7027,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_10",
 		map_name = "2602",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -9412,13 +9440,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7028] = {
-		spine_name = "chess_luoma",
 		bg_tips = "bg_worldcruise_11_tip",
 		id = 7028,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_11",
 		map_name = "2604",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -9762,13 +9791,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7029] = {
-		spine_name = "chess_luoma",
 		bg_tips = "bg_worldcruise_12_tip",
 		id = 7029,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_12",
 		map_name = "2606",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -10112,13 +10142,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[7030] = {
-		spine_name = "chess_luoma",
 		bg_tips = "bg_worldcruise_13_tip",
 		id = 7030,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_13",
 		map_name = "2608",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -10461,14 +10492,366 @@ pg.base.battlepass_event_pt = {}
 			}
 		}
 	}
+	pg.base.battlepass_event_pt[7031] = {
+		bg_tips = "bg_worldcruise_14_tip",
+		id = 7031,
+		type = 1,
+		bg = "bg_worldcruise_14",
+		map_name = "2610",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
+		pt = 59599,
+		target = {
+			100,
+			200,
+			300,
+			400,
+			500,
+			600,
+			700,
+			800,
+			900,
+			1000,
+			1100,
+			1200,
+			1300,
+			1400,
+			1500,
+			1600,
+			1700,
+			1800,
+			1900,
+			2000,
+			2100,
+			2200,
+			2300,
+			2400,
+			2500,
+			2600,
+			2700,
+			2800,
+			2900,
+			3000,
+			3100,
+			3200,
+			3300,
+			3400,
+			3500,
+			3600,
+			3700,
+			3800,
+			3900,
+			4000,
+			4100,
+			4200,
+			4300,
+			4400,
+			4500,
+			4600,
+			4700,
+			4800,
+			4900,
+			5000,
+			5100,
+			5200,
+			5300,
+			5400,
+			5500,
+			5600,
+			5700,
+			5800,
+			5900,
+			6000,
+			6100,
+			6200,
+			6300,
+			6400,
+			6500,
+			6600,
+			6700,
+			6800,
+			6900,
+			7000,
+			7100,
+			7200,
+			7300,
+			7400,
+			7500,
+			7600,
+			7700,
+			7800,
+			7900,
+			8000,
+			8100,
+			8200,
+			8300,
+			8400,
+			8500,
+			8600,
+			8700,
+			8800,
+			8900,
+			9000,
+			9100,
+			9200,
+			9300,
+			9400,
+			9500,
+			9600,
+			9700,
+			9800,
+			9900,
+			10000
+		},
+		award = {
+			1,
+			10031,
+			2,
+			31009,
+			3,
+			4,
+			2,
+			1,
+			7,
+			20031,
+			15,
+			1,
+			504,
+			7,
+			11,
+			33,
+			2,
+			8,
+			30006,
+			20031,
+			1,
+			503,
+			10031,
+			31009,
+			3,
+			7,
+			1,
+			4,
+			2,
+			6,
+			1,
+			504,
+			15,
+			7,
+			32093,
+			2,
+			30006,
+			35,
+			10,
+			20031,
+			12031,
+			1,
+			503,
+			31009,
+			3,
+			1,
+			2,
+			7,
+			4,
+			6,
+			1,
+			15,
+			504,
+			7,
+			32093,
+			8,
+			34,
+			30006,
+			2,
+			20031,
+			1,
+			504,
+			12031,
+			31009,
+			3,
+			7,
+			4,
+			1,
+			2,
+			6,
+			15,
+			1,
+			2,
+			7,
+			11,
+			36,
+			30006,
+			2,
+			11031,
+			20031,
+			29,
+			30,
+			29,
+			30,
+			31,
+			29,
+			30,
+			29,
+			30,
+			513,
+			29,
+			30,
+			29,
+			30,
+			31,
+			29,
+			30,
+			29,
+			30,
+			32
+		},
+		award_pay = {
+			23,
+			104,
+			101,
+			13031,
+			11,
+			16,
+			11031,
+			32091,
+			101,
+			103,
+			24,
+			16031,
+			101,
+			104,
+			37,
+			31009,
+			107,
+			17,
+			504,
+			103,
+			25,
+			15031,
+			104,
+			101,
+			12,
+			18,
+			32091,
+			101,
+			503,
+			21031,
+			26,
+			101,
+			14031,
+			104,
+			38,
+			19,
+			110,
+			31009,
+			504,
+			103,
+			27,
+			13031,
+			104,
+			101,
+			13,
+			32092,
+			20,
+			101,
+			503,
+			40031,
+			28,
+			101,
+			16031,
+			104,
+			37,
+			21,
+			31009,
+			108,
+			504,
+			103,
+			28,
+			15031,
+			104,
+			101,
+			14,
+			21,
+			101,
+			32092,
+			504,
+			103,
+			28,
+			14031,
+			104,
+			101,
+			38,
+			31009,
+			106,
+			111,
+			21,
+			103,
+			109,
+			5,
+			105,
+			5,
+			31,
+			109,
+			5,
+			105,
+			5,
+			513,
+			109,
+			5,
+			105,
+			5,
+			31,
+			109,
+			5,
+			105,
+			5,
+			513
+		},
+		key_point_display = {
+			10,
+			20,
+			30,
+			40,
+			50,
+			60,
+			70,
+			80,
+			90,
+			100
+		},
+		equip_skin = {
+			{
+				9,
+				2129,
+				1
+			},
+			{
+				9,
+				2130,
+				1
+			},
+			{
+				9,
+				2131,
+				1
+			},
+			{
+				9,
+				2132,
+				1
+			}
+		}
+	}
 	pg.base.battlepass_event_pt[45900] = {
-		spine_name = "chess_hude",
+		bg_tips = "",
 		id = 45900,
 		equip_skin = "",
 		type = 1,
 		bg = "bg_worldcruise_2",
 		map_name = "2110",
-		bg_tips = "",
+		related_activity = 0,
+		spine_name = "chess_hude",
 		crusing_map = "CrusingMap_0",
 		pt = 4001,
 		target = {
@@ -10791,13 +11174,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45901] = {
-		spine_name = "chess_keluoladuo",
+		bg_tips = "",
 		id = 45901,
 		equip_skin = "",
 		type = 1,
 		bg = "bg_worldcruise_2",
 		map_name = "2112",
-		bg_tips = "",
+		related_activity = 0,
+		spine_name = "chess_keluoladuo",
 		crusing_map = "CrusingMap_1",
 		pt = 4002,
 		target = {
@@ -11120,13 +11504,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45902] = {
-		spine_name = "chess_gelunbiya",
+		bg_tips = "",
 		id = 45902,
 		equip_skin = "",
 		type = 1,
 		bg = "bg_worldcruise_2",
 		map_name = "2202",
-		bg_tips = "",
+		related_activity = 0,
+		spine_name = "chess_gelunbiya",
 		crusing_map = "CrusingMap_2",
 		pt = 4003,
 		target = {
@@ -11449,13 +11834,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45903] = {
-		spine_name = "chess_qiye",
+		bg_tips = "",
 		id = 45903,
 		equip_skin = "",
 		type = 1,
 		bg = "bg_worldcruise_2",
 		map_name = "2204",
-		bg_tips = "",
+		related_activity = 0,
+		spine_name = "chess_qiye",
 		crusing_map = "CrusingMap_1",
 		pt = 4004,
 		target = {
@@ -11778,13 +12164,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45904] = {
-		spine_name = "chess_xiao",
+		bg_tips = "",
 		id = 45904,
 		equip_skin = "",
 		type = 1,
 		bg = "bg_worldcruise_2",
 		map_name = "2206",
-		bg_tips = "",
+		related_activity = 0,
+		spine_name = "chess_xiao",
 		crusing_map = "CrusingMap_1",
 		pt = 4005,
 		target = {
@@ -12107,13 +12494,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45905] = {
-		spine_name = "chess_beifeng",
 		bg_tips = "",
 		id = 45905,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_2",
 		map_name = "2208",
+		related_activity = 0,
+		spine_name = "chess_beifeng",
+		crusing_map = "CrusingMap_1",
 		pt = 4006,
 		target = {
 			100,
@@ -12457,13 +12845,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45906] = {
-		spine_name = "chess_shuixingjinian",
 		bg_tips = "",
 		id = 45906,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_2",
 		map_name = "2210",
+		related_activity = 0,
+		spine_name = "chess_shuixingjinian",
+		crusing_map = "CrusingMap_1",
 		pt = 4007,
 		target = {
 			100,
@@ -12807,13 +13196,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45907] = {
-		spine_name = "chess_kelifulan",
 		bg_tips = "",
 		id = 45907,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_2",
 		map_name = "2212",
+		related_activity = 0,
+		spine_name = "chess_kelifulan",
+		crusing_map = "CrusingMap_1",
 		pt = 4008,
 		target = {
 			100,
@@ -13157,13 +13547,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45908] = {
-		spine_name = "chess_ximu",
 		bg_tips = "",
 		id = 45908,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_2",
 		map_name = "2302",
+		related_activity = 0,
+		spine_name = "chess_ximu",
+		crusing_map = "CrusingMap_1",
 		pt = 4009,
 		target = {
 			100,
@@ -13507,13 +13898,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45909] = {
-		spine_name = "chess_wokelan",
 		bg_tips = "",
 		id = 45909,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_2",
 		map_name = "2304",
+		related_activity = 0,
+		spine_name = "chess_wokelan",
+		crusing_map = "CrusingMap_1",
 		pt = 4010,
 		target = {
 			100,
@@ -13857,13 +14249,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45910] = {
-		spine_name = "chess_jiahe",
 		bg_tips = "",
 		id = 45910,
 		type = 1,
-		crusing_map = "CrusingMap_2",
 		bg = "bg_worldcruise_2",
 		map_name = "2306",
+		related_activity = 0,
+		spine_name = "chess_jiahe",
+		crusing_map = "CrusingMap_2",
 		pt = 4011,
 		target = {
 			100,
@@ -14207,13 +14600,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45911] = {
-		spine_name = "chess_fuxu",
 		bg_tips = "",
 		id = 45911,
 		type = 1,
-		crusing_map = "CrusingMap_2",
 		bg = "bg_worldcruise_2",
 		map_name = "2308",
+		related_activity = 0,
+		spine_name = "chess_fuxu",
+		crusing_map = "CrusingMap_2",
 		pt = 4012,
 		target = {
 			100,
@@ -14557,13 +14951,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45912] = {
-		spine_name = "chess_u410",
 		bg_tips = "",
 		id = 45912,
 		type = 1,
-		crusing_map = "CrusingMap_2",
 		bg = "bg_worldcruise_2",
 		map_name = "2310",
+		related_activity = 0,
+		spine_name = "chess_u410",
+		crusing_map = "CrusingMap_2",
 		pt = 4013,
 		target = {
 			100,
@@ -14907,13 +15302,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45913] = {
-		spine_name = "chess_chuchun",
 		bg_tips = "",
 		id = 45913,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_2",
 		map_name = "2312",
+		related_activity = 0,
+		spine_name = "chess_chuchun",
+		crusing_map = "CrusingMap_1",
 		pt = 4014,
 		target = {
 			100,
@@ -15257,13 +15653,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45914] = {
-		spine_name = "chess_shenxue",
 		bg_tips = "",
 		id = 45914,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_2",
 		map_name = "2402",
+		related_activity = 0,
+		spine_name = "chess_shenxue",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -15607,13 +16004,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45915] = {
-		spine_name = "chess_dian",
 		bg_tips = "",
 		id = 45915,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_2",
 		map_name = "2404",
+		related_activity = 0,
+		spine_name = "chess_dian",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -15957,13 +16355,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45916] = {
-		spine_name = "chess_adiliao",
 		bg_tips = "",
 		id = 45916,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_1",
 		map_name = "2406",
+		related_activity = 0,
+		spine_name = "chess_adiliao",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -16307,13 +16706,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45917] = {
-		spine_name = "chess_adiliao",
 		bg_tips = "",
 		id = 45917,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_2",
 		map_name = "2408",
+		related_activity = 0,
+		spine_name = "chess_adiliao",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -16657,13 +17057,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45918] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 45918,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_1",
 		map_name = "2410",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -17007,13 +17408,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45919] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 45919,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_3",
 		map_name = "2412",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -17357,13 +17759,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45920] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 45920,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_4",
 		map_name = "2502",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -17707,13 +18110,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45921] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 45921,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_5",
 		map_name = "2504",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -18057,13 +18461,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45922] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 45922,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_6",
 		map_name = "2506",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -18407,13 +18812,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45923] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 45923,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_7",
 		map_name = "2508",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -18757,13 +19163,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45924] = {
-		spine_name = "chess_luoma",
 		bg_tips = "",
 		id = 45924,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_8",
 		map_name = "2510",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -19107,13 +19514,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45925] = {
-		spine_name = "chess_luoma",
 		bg_tips = "bg_worldcruise_9_tip",
 		id = 45925,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_9",
 		map_name = "2512",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -19457,13 +19865,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45926] = {
-		spine_name = "chess_luoma",
 		bg_tips = "bg_worldcruise_10_tip",
 		id = 45926,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_10",
 		map_name = "2602",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,
@@ -19807,13 +20216,14 @@ pg.base.battlepass_event_pt = {}
 		}
 	}
 	pg.base.battlepass_event_pt[45927] = {
-		spine_name = "chess_luoma",
 		bg_tips = "bg_worldcruise_11_tip",
 		id = 45927,
 		type = 1,
-		crusing_map = "CrusingMap_1",
 		bg = "bg_worldcruise_11",
 		map_name = "2604",
+		related_activity = 0,
+		spine_name = "chess_luoma",
+		crusing_map = "CrusingMap_1",
 		pt = 59599,
 		target = {
 			100,

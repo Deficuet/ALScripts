@@ -60,7 +60,7 @@ function var_0_0.handleNotification(arg_8_0, arg_8_1)
 			arg_8_0.viewComponent:UpdateView()
 		end
 	elseif var_8_0 == GAME.CRUSING_CMD_DONE then
-		arg_8_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_8_1.awards)
+		arg_8_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_8_1.awards, var_8_1.callback)
 		arg_8_0.viewComponent:UpdateAwardPage()
 		arg_8_0.viewComponent:UpdateView()
 	elseif var_8_0 == GAME.CHARGE_SUCCESS then

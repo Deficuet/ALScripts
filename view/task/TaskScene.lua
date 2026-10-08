@@ -52,28 +52,94 @@ local var_0_1 = {
 	}
 }
 
-function var_0_0.getUIName(arg_1_0)
+function var_0_0.getResource(arg_1_0, arg_1_1)
+	local var_1_0 = {
+		"ui/taskui_atlas",
+		"ui/iconcolorful",
+		"ui/TaskEmptyListUI",
+		"ui/TaskListPage",
+		"ui/TaskListForWeekPage",
+		"ui/ActivitybonusWindow"
+	}
+
+	table.insertto(var_1_0, arg_1_0:GetTaskResourceList())
+
+	return table.insertto(var_1_0, var_0_0.super.getResource(arg_1_0, arg_1_1))
+end
+
+function var_0_0.GetTaskResourceList(arg_2_0)
+	local var_2_0 = {}
+	local var_2_1 = getProxy(TaskProxy)
+
+	for iter_2_0, iter_2_1 in ipairs(var_2_1:getTasks()) do
+		local var_2_2 = arg_2_0:GetTaskResource(iter_2_1)
+
+		if var_2_2 and not table.contains(var_2_0, var_2_2) then
+			table.insert(var_2_0, var_2_2)
+		end
+	end
+
+	for iter_2_2, iter_2_3 in ipairs(var_2_1:getFinishTasks()) do
+		local var_2_3 = arg_2_0:GetTaskResource(iter_2_3)
+
+		if var_2_3 and not table.contains(var_2_0, var_2_3) then
+			table.insert(var_2_0, var_2_3)
+		end
+	end
+
+	local var_2_4 = getProxy(AvatarFrameProxy):getAllAvatarFrame()
+
+	for iter_2_4, iter_2_5 in ipairs(var_2_4) do
+		local var_2_5 = iter_2_5.tasks
+
+		for iter_2_6, iter_2_7 in ipairs(var_2_5) do
+			local var_2_6 = arg_2_0:GetTaskResource(iter_2_7)
+
+			if var_2_6 and not table.contains(var_2_0, var_2_6) then
+				table.insert(var_2_0, var_2_6)
+			end
+		end
+	end
+
+	return var_2_0
+end
+
+function var_0_0.GetTaskResource(arg_3_0, arg_3_1)
+	local var_3_0 = arg_3_1:getConfig("story_id")
+
+	if var_3_0 and var_3_0 ~= "" then
+		local var_3_1 = arg_3_1:getConfig("story_icon")
+
+		if not var_3_1 or var_3_1 == "" then
+			return "memoryicon/task_icon_default"
+		else
+			return "shipmodels/" .. var_3_1
+		end
+	end
+end
+
+function var_0_0.getUIName(arg_4_0)
 	return "TaskScene"
 end
 
-function var_0_0.setTaskVOs(arg_2_0, arg_2_1)
-	arg_2_0.contextData.taskVOsById = arg_2_1
+function var_0_0.setTaskVOs(arg_5_0, arg_5_1)
+	arg_5_0.contextData.taskVOsById = arg_5_1
 end
 
-function var_0_0.SetWeekTaskProgressInfo(arg_3_0, arg_3_1)
-	arg_3_0.contextData.weekTaskProgressInfo = arg_3_1
+function var_0_0.SetWeekTaskProgressInfo(arg_6_0, arg_6_1)
+	arg_6_0.contextData.weekTaskProgressInfo = arg_6_1
 end
 
-function var_0_0.init(arg_4_0)
-	arg_4_0._topPanel = arg_4_0._tf:Find("blur_panel/adapt/top")
-	arg_4_0._backBtn = arg_4_0._topPanel:Find("back_btn")
-	arg_4_0._leftLength = arg_4_0._tf:Find("blur_panel/adapt/left_length")
-	arg_4_0._tagRoot = arg_4_0._tf:Find("blur_panel/adapt/left_length/frame/tagRoot")
-	arg_4_0.taskIconTpl = arg_4_0._tf:Find("taskTagOb/task_icon_default")
-	arg_4_0.weekTip = arg_4_0._tagRoot:Find("weekly/tip")
-	arg_4_0.oneStepBtn = arg_4_0._tf:Find("blur_panel/adapt/top/GetAllButton")
-	arg_4_0.contextData.viewComponent = arg_4_0
-	arg_4_0.pageTF = arg_4_0._tf:Find("pages")
+function var_0_0.init(arg_7_0)
+	arg_7_0._topPanel = arg_7_0._tf:Find("blur_panel/adapt/top")
+	arg_7_0._backBtn = arg_7_0._topPanel:Find("back_btn")
+	arg_7_0._leftLength = arg_7_0._tf:Find("blur_panel/adapt/left_length")
+	arg_7_0._tagRoot = arg_7_0._tf:Find("blur_panel/adapt/left_length/frame/tagRoot")
+	arg_7_0.taskIconTpl = arg_7_0._tf:Find("taskTagOb/task_icon_default")
+	arg_7_0.weekTip = arg_7_0._tagRoot:Find("weekly/tip")
+	arg_7_0.oneStepBtn = arg_7_0._tf:Find("blur_panel/adapt/top/GetAllButton")
+	arg_7_0.contextData.viewComponent = arg_7_0
+	arg_7_0.pageTF = arg_7_0._tf:Find("pages")
 end
 
 function var_0_0.IsNewStyleTime()
@@ -92,272 +158,272 @@ function var_0_0.IsNewStyleTime()
 end
 
 function var_0_0.IsPassScenario()
-	local var_6_0 = pg.gameset.task_first_daily_pre_id.key_value
-	local var_6_1 = getProxy(TaskProxy):getData()
-	local var_6_2 = _.select(_.values(var_6_1), function(arg_7_0)
-		return arg_7_0:getConfig("type") == 1
+	local var_9_0 = pg.gameset.task_first_daily_pre_id.key_value
+	local var_9_1 = getProxy(TaskProxy):getData()
+	local var_9_2 = _.select(_.values(var_9_1), function(arg_10_0)
+		return arg_10_0:getConfig("type") == 1
 	end)
 
-	if #var_6_2 > 0 then
-		table.sort(var_6_2, function(arg_8_0, arg_8_1)
-			return arg_8_0.id < arg_8_1.id
+	if #var_9_2 > 0 then
+		table.sort(var_9_2, function(arg_11_0, arg_11_1)
+			return arg_11_0.id < arg_11_1.id
 		end)
 
-		return var_6_0 < var_6_2[1].id
+		return var_9_0 < var_9_2[1].id
 	else
 		return true
 	end
 end
 
-function var_0_0.didEnter(arg_9_0)
-	local var_9_0 = TaskCommonPage.New(arg_9_0.pageTF, arg_9_0.event, arg_9_0.contextData)
-	local var_9_1 = var_0_0.IsNewStyleTime() and not arg_9_0.contextData.weekTaskProgressInfo:IsMaximum() and TaskWeekPage.New(arg_9_0.pageTF, arg_9_0.event, arg_9_0.contextData) or var_9_0
+function var_0_0.didEnter(arg_12_0)
+	local var_12_0 = TaskCommonPage.New(arg_12_0.pageTF, arg_12_0.event, arg_12_0.contextData)
+	local var_12_1 = var_0_0.IsNewStyleTime() and not arg_12_0.contextData.weekTaskProgressInfo:IsMaximum() and TaskWeekPage.New(arg_12_0.pageTF, arg_12_0.event, arg_12_0.contextData) or var_12_0
 
-	arg_9_0.emptyPage = TaskEmptyListPage.New(arg_9_0._tf, arg_9_0.event)
-	arg_9_0.pages = {
-		[var_0_0.PAGE_TYPE_SCENARIO] = var_9_0,
-		[var_0_0.PAGE_TYPE_BRANCH] = var_9_0,
-		[var_0_0.PAGE_TYPE_ROUTINE] = var_9_0,
-		[var_0_0.PAGE_TYPE_WEEKLY] = var_9_1,
-		[var_0_0.PAGE_TYPE_ALL] = var_9_0,
-		[var_0_0.PAGE_TYPE_ACT] = var_9_0
+	arg_12_0.emptyPage = TaskEmptyListPage.New(arg_12_0._tf, arg_12_0.event)
+	arg_12_0.pages = {
+		[var_0_0.PAGE_TYPE_SCENARIO] = var_12_0,
+		[var_0_0.PAGE_TYPE_BRANCH] = var_12_0,
+		[var_0_0.PAGE_TYPE_ROUTINE] = var_12_0,
+		[var_0_0.PAGE_TYPE_WEEKLY] = var_12_1,
+		[var_0_0.PAGE_TYPE_ALL] = var_12_0,
+		[var_0_0.PAGE_TYPE_ACT] = var_12_0
 	}
-	arg_9_0.contextData.ptAwardWindow = TaskPtAwardPage.New(arg_9_0._tf, arg_9_0.event, arg_9_0.contextData)
+	arg_12_0.contextData.ptAwardWindow = TaskPtAwardPage.New(arg_12_0._tf, arg_12_0.event, arg_12_0.contextData)
 
-	onButton(arg_9_0, arg_9_0._backBtn, function()
-		arg_9_0:emit(var_0_0.ON_BACK)
+	onButton(arg_12_0, arg_12_0._backBtn, function()
+		arg_12_0:emit(var_0_0.ON_BACK)
 	end, SFX_CANCEL)
-	setActive(arg_9_0._tf:Find("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
+	setActive(arg_12_0._tf:Find("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
 
 	if LOCK_CLICK_MINGSHI then
-		setActive(arg_9_0._tf:Find("stamp"), false)
+		setActive(arg_12_0._tf:Find("stamp"), false)
 	end
 
-	onButton(arg_9_0, arg_9_0._tf:Find("stamp"), function()
+	onButton(arg_12_0, arg_12_0._tf:Find("stamp"), function()
 		getProxy(TaskProxy):dealMingshiTouchFlag(5)
 	end, SFX_CONFIRM)
 
-	arg_9_0.toggles = {}
+	arg_12_0.toggles = {}
 
-	for iter_9_0, iter_9_1 in pairs(var_0_1) do
-		local var_9_2 = arg_9_0._tagRoot:Find(iter_9_0)
+	for iter_12_0, iter_12_1 in pairs(var_0_1) do
+		local var_12_2 = arg_12_0._tagRoot:Find(iter_12_0)
 
-		onToggle(arg_9_0, var_9_2, function(arg_12_0)
-			if arg_12_0 then
-				arg_9_0:UpdatePage(iter_9_0)
+		onToggle(arg_12_0, var_12_2, function(arg_15_0)
+			if arg_15_0 then
+				arg_12_0:UpdatePage(iter_12_0)
 			end
 		end, SFX_PANEL)
 
-		arg_9_0.toggles[iter_9_0] = var_9_2
+		arg_12_0.toggles[iter_12_0] = var_12_2
 	end
 
-	local var_9_3 = arg_9_0.toggles[arg_9_0.contextData.page or var_0_0.PAGE_TYPE_ALL]
+	local var_12_3 = arg_12_0.toggles[arg_12_0.contextData.page or var_0_0.PAGE_TYPE_ALL]
 
-	if arg_9_0.toggles and var_9_3 then
-		triggerToggle(var_9_3, true)
+	if arg_12_0.toggles and var_12_3 then
+		triggerToggle(var_12_3, true)
 	end
 
-	arg_9_0:UpdateWeekTip()
+	arg_12_0:UpdateWeekTip()
 end
 
-function var_0_0.refreshPage(arg_13_0)
-	arg_13_0:UpdatePage(arg_13_0._currentToggleType)
+function var_0_0.refreshPage(arg_16_0)
+	arg_16_0:UpdatePage(arg_16_0._currentToggleType)
 end
 
-function var_0_0.UpdatePage(arg_14_0, arg_14_1)
-	local var_14_0 = var_0_1[arg_14_1]
+function var_0_0.UpdatePage(arg_17_0, arg_17_1)
+	local var_17_0 = var_0_1[arg_17_1]
 
-	local function var_14_1(arg_15_0, arg_15_1)
-		if #arg_15_1 <= 0 then
-			arg_14_0.emptyPage:ExecuteAction("ShowOrHide", true)
-		elseif #arg_15_1 > 0 and arg_14_0.emptyPage:GetLoaded() then
-			arg_14_0.emptyPage:ExecuteAction("ShowOrHide", false)
+	local function var_17_1(arg_18_0, arg_18_1)
+		if #arg_18_1 <= 0 then
+			arg_17_0.emptyPage:ExecuteAction("ShowOrHide", true)
+		elseif #arg_18_1 > 0 and arg_17_0.emptyPage:GetLoaded() then
+			arg_17_0.emptyPage:ExecuteAction("ShowOrHide", false)
 		end
 
-		arg_14_0:updateOneStepBtn(arg_15_0)
+		arg_17_0:updateOneStepBtn(arg_18_0)
 	end
 
-	if arg_14_0._currentToggleType and arg_14_0._currentToggleType ~= arg_14_1 then
-		arg_14_0.pages[arg_14_0._currentToggleType]:ExecuteAction("Hide")
+	if arg_17_0._currentToggleType and arg_17_0._currentToggleType ~= arg_17_1 then
+		arg_17_0.pages[arg_17_0._currentToggleType]:ExecuteAction("Hide")
 	end
 
-	local var_14_2 = arg_14_0.pages[arg_14_1]
+	local var_17_2 = arg_17_0.pages[arg_17_1]
 
-	var_14_2:ExecuteAction("Update", arg_14_1, var_14_0, function(arg_16_0)
-		var_14_1(var_14_2, arg_16_0)
+	var_17_2:ExecuteAction("Update", arg_17_1, var_17_0, function(arg_19_0)
+		var_17_1(var_17_2, arg_19_0)
 	end)
 
-	arg_14_0._currentToggleType = arg_14_1
-	arg_14_0.contextData.page = arg_14_1
+	arg_17_0._currentToggleType = arg_17_1
+	arg_17_0.contextData.page = arg_17_1
 end
 
-function var_0_0.addTask(arg_17_0, arg_17_1)
-	arg_17_0.contextData.taskVOsById[arg_17_1.id] = arg_17_1
+function var_0_0.addTask(arg_20_0, arg_20_1)
+	arg_20_0.contextData.taskVOsById[arg_20_1.id] = arg_20_1
 
-	arg_17_0:UpdatePage(arg_17_0._currentToggleType)
+	arg_20_0:UpdatePage(arg_20_0._currentToggleType)
 end
 
-function var_0_0.removeTask(arg_18_0, arg_18_1)
-	arg_18_0.contextData.taskVOsById[arg_18_1.id] = nil
+function var_0_0.removeTask(arg_21_0, arg_21_1)
+	arg_21_0.contextData.taskVOsById[arg_21_1.id] = nil
 
-	arg_18_0:UpdatePage(arg_18_0._currentToggleType)
+	arg_21_0:UpdatePage(arg_21_0._currentToggleType)
 end
 
-function var_0_0.updateTask(arg_19_0, arg_19_1)
-	arg_19_0:addTask(arg_19_1)
+function var_0_0.updateTask(arg_22_0, arg_22_1)
+	arg_22_0:addTask(arg_22_1)
 end
 
-function var_0_0.ResetWeekTaskPage(arg_20_0)
-	local var_20_0 = arg_20_0.pages[var_0_0.PAGE_TYPE_WEEKLY]
+function var_0_0.ResetWeekTaskPage(arg_23_0)
+	local var_23_0 = arg_23_0.pages[var_0_0.PAGE_TYPE_WEEKLY]
 
-	if var_0_0.IsNewStyleTime() and isa(var_20_0, TaskCommonPage) then
-		if var_20_0:GetLoaded() and var_20_0:isShowing() then
-			var_20_0:Hide()
+	if var_0_0.IsNewStyleTime() and isa(var_23_0, TaskCommonPage) then
+		if var_23_0:GetLoaded() and var_23_0:isShowing() then
+			var_23_0:Hide()
 		end
 
-		local var_20_1 = TaskWeekPage.New(arg_20_0.pageTF, arg_20_0.event, arg_20_0.contextData)
+		local var_23_1 = TaskWeekPage.New(arg_23_0.pageTF, arg_23_0.event, arg_23_0.contextData)
 
-		arg_20_0.pages[var_0_0.PAGE_TYPE_WEEKLY] = var_20_1
+		arg_23_0.pages[var_0_0.PAGE_TYPE_WEEKLY] = var_23_1
 	end
 
-	arg_20_0:RefreshWeekTaskPage()
+	arg_23_0:RefreshWeekTaskPage()
 
-	if arg_20_0._currentToggleType ~= var_0_0.PAGE_TYPE_WEEKLY then
-		arg_20_0:UpdatePage(arg_20_0._currentToggleType)
-	end
-end
-
-function var_0_0.RefreshWeekTaskPage(arg_21_0)
-	if arg_21_0._currentToggleType == var_0_0.PAGE_TYPE_WEEKLY then
-		arg_21_0:UpdatePage(arg_21_0._currentToggleType)
-		arg_21_0:UpdateWeekTip()
+	if arg_23_0._currentToggleType ~= var_0_0.PAGE_TYPE_WEEKLY then
+		arg_23_0:UpdatePage(arg_23_0._currentToggleType)
 	end
 end
 
-function var_0_0.RefreshWeekTaskPageBefore(arg_22_0, arg_22_1)
-	if arg_22_0._currentToggleType == var_0_0.PAGE_TYPE_WEEKLY then
-		arg_22_0.pages[arg_22_0._currentToggleType]:RefreshWeekTaskPageBefore(arg_22_1)
+function var_0_0.RefreshWeekTaskPage(arg_24_0)
+	if arg_24_0._currentToggleType == var_0_0.PAGE_TYPE_WEEKLY then
+		arg_24_0:UpdatePage(arg_24_0._currentToggleType)
+		arg_24_0:UpdateWeekTip()
 	end
 end
 
-function var_0_0.RefreshWeekTaskProgress(arg_23_0)
-	local var_23_0 = arg_23_0.pages[arg_23_0._currentToggleType]
-
-	if isa(var_23_0, TaskWeekPage) and arg_23_0.contextData.weekTaskProgressInfo:IsMaximum() then
-		var_23_0:Destroy()
-
-		arg_23_0.pages[var_0_0.PAGE_TYPE_WEEKLY] = arg_23_0.pages[var_0_0.PAGE_TYPE_SCENARIO]
-
-		arg_23_0:UpdatePage(var_0_0.PAGE_TYPE_WEEKLY)
-	elseif arg_23_0._currentToggleType == var_0_0.PAGE_TYPE_WEEKLY and isa(var_23_0, TaskWeekPage) then
-		var_23_0:ExecuteAction("RefreshWeekProgress")
-		arg_23_0:UpdateWeekTip()
+function var_0_0.RefreshWeekTaskPageBefore(arg_25_0, arg_25_1)
+	if arg_25_0._currentToggleType == var_0_0.PAGE_TYPE_WEEKLY then
+		arg_25_0.pages[arg_25_0._currentToggleType]:RefreshWeekTaskPageBefore(arg_25_1)
 	end
 end
 
-function var_0_0.UpdateWeekTip(arg_24_0)
-	local var_24_0 = false
+function var_0_0.RefreshWeekTaskProgress(arg_26_0)
+	local var_26_0 = arg_26_0.pages[arg_26_0._currentToggleType]
+
+	if isa(var_26_0, TaskWeekPage) and arg_26_0.contextData.weekTaskProgressInfo:IsMaximum() then
+		var_26_0:Destroy()
+
+		arg_26_0.pages[var_0_0.PAGE_TYPE_WEEKLY] = arg_26_0.pages[var_0_0.PAGE_TYPE_SCENARIO]
+
+		arg_26_0:UpdatePage(var_0_0.PAGE_TYPE_WEEKLY)
+	elseif arg_26_0._currentToggleType == var_0_0.PAGE_TYPE_WEEKLY and isa(var_26_0, TaskWeekPage) then
+		var_26_0:ExecuteAction("RefreshWeekProgress")
+		arg_26_0:UpdateWeekTip()
+	end
+end
+
+function var_0_0.UpdateWeekTip(arg_27_0)
+	local var_27_0 = false
 
 	if var_0_0.IsPassScenario() and var_0_0.IsNewStyleTime() then
-		for iter_24_0, iter_24_1 in pairs(arg_24_0.contextData.taskVOsById) do
-			if (iter_24_1:getConfig("type") == 4 or iter_24_1:getConfig("type") == 13) and iter_24_1:isFinish() and not iter_24_1:isReceive() and iter_24_1:ShowOnTaskScene() then
-				var_24_0 = true
+		for iter_27_0, iter_27_1 in pairs(arg_27_0.contextData.taskVOsById) do
+			if (iter_27_1:getConfig("type") == 4 or iter_27_1:getConfig("type") == 13) and iter_27_1:isFinish() and not iter_27_1:isReceive() and iter_27_1:ShowOnTaskScene() then
+				var_27_0 = true
 
 				break
 			end
 		end
 
-		if not var_24_0 then
-			local var_24_1 = arg_24_0.contextData.weekTaskProgressInfo
+		if not var_27_0 then
+			local var_27_1 = arg_27_0.contextData.weekTaskProgressInfo
 
-			if var_24_1:CanUpgrade() or var_24_1:AnySubTaskCanSubmit() then
-				var_24_0 = true
+			if var_27_1:CanUpgrade() or var_27_1:AnySubTaskCanSubmit() then
+				var_27_0 = true
 			end
 		end
 	end
 
-	setActive(arg_24_0.weekTip, var_24_0)
+	setActive(arg_27_0.weekTip, var_27_0)
 end
 
-function var_0_0.GoToFilter(arg_25_0, arg_25_1)
-	local var_25_0 = arg_25_0._tagRoot:Find(arg_25_1)
+function var_0_0.GoToFilter(arg_28_0, arg_28_1)
+	local var_28_0 = arg_28_0._tagRoot:Find(arg_28_1)
 
-	triggerToggle(var_25_0, true)
+	triggerToggle(var_28_0, true)
 end
 
-function var_0_0.onSubmit(arg_26_0, arg_26_1)
-	if arg_26_0.onShowAwards then
-		return
-	end
-
-	arg_26_0:emit(TaskMediator.ON_TASK_SUBMIT, arg_26_1)
-end
-
-function var_0_0.onSubmitForWeek(arg_27_0, arg_27_1)
-	if arg_27_0.onShowAwards then
-		return
-	end
-
-	arg_27_0:emit(TaskMediator.ON_SUBMIT_WEEK_TASK, arg_27_1)
-end
-
-function var_0_0.onSubmitForAvatar(arg_28_0, arg_28_1)
-	if arg_28_0.onShowAwards then
-		return
-	end
-
-	arg_28_0:emit(TaskMediator.ON_SUBMIT_AVATAR_TASK, arg_28_1)
-end
-
-function var_0_0.onGo(arg_29_0, arg_29_1)
+function var_0_0.onSubmit(arg_29_0, arg_29_1)
 	if arg_29_0.onShowAwards then
 		return
 	end
 
-	if isa(arg_29_1, AvatarFrameTask) and arg_29_1:IsActEnd() then
+	arg_29_0:emit(TaskMediator.ON_TASK_SUBMIT, arg_29_1)
+end
+
+function var_0_0.onSubmitForWeek(arg_30_0, arg_30_1)
+	if arg_30_0.onShowAwards then
+		return
+	end
+
+	arg_30_0:emit(TaskMediator.ON_SUBMIT_WEEK_TASK, arg_30_1)
+end
+
+function var_0_0.onSubmitForAvatar(arg_31_0, arg_31_1)
+	if arg_31_0.onShowAwards then
+		return
+	end
+
+	arg_31_0:emit(TaskMediator.ON_SUBMIT_AVATAR_TASK, arg_31_1)
+end
+
+function var_0_0.onGo(arg_32_0, arg_32_1)
+	if arg_32_0.onShowAwards then
+		return
+	end
+
+	if isa(arg_32_1, AvatarFrameTask) and arg_32_1:IsActEnd() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return
 	end
 
-	arg_29_0:emit(TaskMediator.ON_TASK_GO, arg_29_1)
+	arg_32_0:emit(TaskMediator.ON_TASK_GO, arg_32_1)
 end
 
-function var_0_0.willExit(arg_30_0)
-	for iter_30_0, iter_30_1 in pairs(arg_30_0.pages) do
-		iter_30_1:Destroy()
+function var_0_0.willExit(arg_33_0)
+	for iter_33_0, iter_33_1 in pairs(arg_33_0.pages) do
+		iter_33_1:Destroy()
 	end
 
-	if arg_30_0.emptyPage then
-		arg_30_0.emptyPage:Destroy()
+	if arg_33_0.emptyPage then
+		arg_33_0.emptyPage:Destroy()
 
-		arg_30_0.emptyPage = nil
+		arg_33_0.emptyPage = nil
 	end
 
-	arg_30_0.pages = nil
+	arg_33_0.pages = nil
 
-	arg_30_0.contextData.ptAwardWindow:Destroy()
+	arg_33_0.contextData.ptAwardWindow:Destroy()
 
-	arg_30_0.contextData.ptAwardWindow = nil
-	arg_30_0.contextData.taskVOsById = nil
-	arg_30_0.contextData.weekTaskProgressInfo = nil
-	arg_30_0.contextData.viewComponent = nil
+	arg_33_0.contextData.ptAwardWindow = nil
+	arg_33_0.contextData.taskVOsById = nil
+	arg_33_0.contextData.weekTaskProgressInfo = nil
+	arg_33_0.contextData.viewComponent = nil
 end
 
-function var_0_0.updateOneStepBtn(arg_31_0, arg_31_1)
-	arg_31_1 = arg_31_1 or arg_31_0.pages[arg_31_0._currentToggleType]
+function var_0_0.updateOneStepBtn(arg_34_0, arg_34_1)
+	arg_34_1 = arg_34_1 or arg_34_0.pages[arg_34_0._currentToggleType]
 
-	local var_31_0 = #arg_31_1:GetWaitToCheckList() >= 2
+	local var_34_0 = #arg_34_1:GetWaitToCheckList() >= 2
 
-	if var_31_0 then
-		onButton(arg_31_0, arg_31_0.oneStepBtn, function()
-			arg_31_1:ExecuteOneStepSubmit()
+	if var_34_0 then
+		onButton(arg_34_0, arg_34_0.oneStepBtn, function()
+			arg_34_1:ExecuteOneStepSubmit()
 		end, SFX_PANEL)
 	else
-		removeOnButton(arg_31_0.oneStepBtn)
+		removeOnButton(arg_34_0.oneStepBtn)
 	end
 
-	setActive(arg_31_0.oneStepBtn, var_31_0)
+	setActive(arg_34_0.oneStepBtn, var_34_0)
 end
 
 return var_0_0

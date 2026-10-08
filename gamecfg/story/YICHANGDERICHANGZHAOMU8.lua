@@ -4,14 +4,15 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 201191,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我来了，指挥官。有什么能帮上你的吗？",
 			bgm = "story-ghostnight-fascinsting",
+			actor = 201191,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "我来了，指挥官。有什么能帮上你的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,11 +26,12 @@ return {
 		},
 		{
 			actor = 201191,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "擅长。",
 			typewriter = {
 				speed = 0.05,
@@ -38,11 +40,12 @@ return {
 		},
 		{
 			actor = 201191,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "就算它们逃到天涯海角，我也会追上它们。",
 			typewriter = {
 				speed = 0.05,
@@ -57,11 +60,12 @@ return {
 		},
 		{
 			actor = 201191,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "我不太会……“咬住”？尤其是对那些没有实体的目标。",
 			typewriter = {
 				speed = 0.05,
@@ -70,11 +74,12 @@ return {
 		},
 		{
 			actor = 201191,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "但如果你需要，我可以学，应该不难。",
 			typewriter = {
 				speed = 0.05,
@@ -89,11 +94,12 @@ return {
 		},
 		{
 			actor = 201191,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "你。",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +108,12 @@ return {
 		},
 		{
 			actor = 201191,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "但别人我也能救。我有这个实力。",
 			typewriter = {
 				speed = 0.05,
@@ -114,12 +121,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "你的各方面情况，我已经了解了。",
 			typewriter = {
 				speed = 0.05,
@@ -127,12 +135,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "敌对，欢迎加入。",
 			typewriter = {
 				speed = 0.05,
@@ -141,11 +150,12 @@ return {
 		},
 		{
 			actor = 201191,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "嗯。从现在开始，请把后背交给我吧，指挥官。",
 			typewriter = {
 				speed = 0.05,

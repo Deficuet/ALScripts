@@ -296,7 +296,7 @@ function var_0_0.RegisterRedDots(arg_31_0)
 	var_31_2(arg_31_0._tf:Find("frame/right/1/battle/root/tip"), {
 		"EVENT"
 	}, function(arg_46_0)
-		setActive(arg_46_0, getProxy(EventProxy):hasFinishState() or LimitChallengeConst.IsShowRedPoint())
+		setActive(arg_46_0, getProxy(EventProxy):hasFinishState() or LimitChallengeConst.IsShowRedPoint() or getProxy(ChapterAutoProxy):IsAllCommissionFinish(ChapterAutoProxy.TYPE.WORLD))
 	end)
 	var_31_2(arg_31_0._tf:Find("frame/bottom/frame/live/tip"), {
 		"COURTYARD",

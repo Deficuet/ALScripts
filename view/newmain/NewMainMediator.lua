@@ -290,30 +290,37 @@ function var_0_0.initNotificationHandleDic(arg_21_0)
 			if arg_50_0.viewComponent.theme and arg_50_0.viewComponent.theme:IsLoaded() then
 				arg_50_0.viewComponent.theme:Refresh(var_50_0)
 			end
+		end,
+		[GAME.CRUSING_CMD_DONE] = function(arg_51_0, arg_51_1)
+			local var_51_0 = arg_51_1:getBody()
+			local var_51_1 = var_51_0.awards
+			local var_51_2 = var_51_0.callback
+
+			arg_51_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_51_1, var_51_2)
 		end
 	}
 end
 
-function var_0_0.BuildDebugBattleLoop(arg_51_0, arg_51_1)
+function var_0_0.BuildDebugBattleLoop(arg_52_0, arg_52_1)
 	if not IsUnityEditor then
 		return
 	end
 
-	local var_51_0 = {}
+	local var_52_0 = {}
 
-	for iter_51_0, iter_51_1 in arg_51_1:gmatch("%s+(%S+)") do
-		table.insert(var_51_0, iter_51_0)
+	for iter_52_0, iter_52_1 in arg_52_1:gmatch("%s+(%S+)") do
+		table.insert(var_52_0, iter_52_0)
 	end
 
-	local var_51_1 = {
-		loopCount = tonumber(var_51_0[2]),
-		loopStages = underscore.rest(var_51_0, 3),
+	local var_52_1 = {
+		loopCount = tonumber(var_52_0[2]),
+		loopStages = underscore.rest(var_52_0, 3),
 		tempList = {}
 	}
 
-	_G.InDebugBattleLoop = var_51_1
+	_G.InDebugBattleLoop = var_52_1
 
-	arg_51_0.viewComponent:CheckDebugBattleLoop()
+	arg_52_0.viewComponent:CheckDebugBattleLoop()
 end
 
 return var_0_0

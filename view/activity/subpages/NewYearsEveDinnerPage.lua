@@ -112,7 +112,7 @@ function var_0_0.UpdateCookData(arg_10_0)
 
 	arg_10_0.receivedTasks = {}
 
-	local var_10_1 = underscore.rest(arg_10_0.cookTaskIds, 1)
+	local var_10_1 = underscore.to_array(arg_10_0.cookTaskIds)
 
 	for iter_10_0, iter_10_1 in ipairs(arg_10_0.cookTaskIds) do
 		local var_10_2 = arg_10_0.taskProxy:getTaskVO(iter_10_1)

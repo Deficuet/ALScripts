@@ -14,7 +14,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			return {
 				{
 					type = 1,
-					arg_list = underscore.rest(var_1_2.list, 1)
+					arg_list = underscore.to_array(var_1_2.list)
 				}
 			}
 		end,
@@ -52,7 +52,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		}, 30007, function(arg_6_0)
 			if arg_6_0.result == 0 then
 				local var_6_0 = getProxy(MailProxy)
-				local var_6_1 = underscore.rest(arg_6_0.mail_id_list, 1)
+				local var_6_1 = underscore.to_array(arg_6_0.mail_id_list)
 
 				table.sort(var_6_1, CompareFuncs({
 					function(arg_7_0)
@@ -230,7 +230,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 		arg_1_0:sendNotification(GAME.DEAL_MAIL_OPERATION_DONE, {
 			cmd = var_1_1,
-			ids = underscore.rest(arg_25_0.mail_id_list, 1),
+			ids = underscore.to_array(arg_25_0.mail_id_list),
 			items = var_25_0,
 			ignoreTips = var_1_3
 		})

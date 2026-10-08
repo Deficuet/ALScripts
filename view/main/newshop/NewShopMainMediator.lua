@@ -50,6 +50,7 @@ function var_0_0.register(arg_1_0)
 	arg_1_0.viewComponent:setPlayer(var_1_0)
 	arg_1_0.viewComponent:SetSupplyShopList(arg_1_0.contextData.supplyShopList)
 	arg_1_0.viewComponent:OnInitItems(getProxy(BagProxy):getRawData())
+	arg_1_0.viewComponent:setList()
 	arg_1_0:bind(var_0_0.VIEW_SKIN_PROBABILITY, function(arg_3_0, arg_3_1, arg_3_2)
 		arg_1_0.contextData.warp = arg_3_2
 
@@ -597,6 +598,13 @@ function var_0_0.initNotificationHandleDic(arg_42_0)
 			local var_78_0 = arg_78_1:getBody()
 
 			arg_78_0.viewComponent:emit(unpackEx(var_78_0))
+		end,
+		[GAME.CRUSING_CMD_DONE] = function(arg_79_0, arg_79_1)
+			local var_79_0 = arg_79_1:getBody()
+			local var_79_1 = var_79_0.awards
+			local var_79_2 = var_79_0.callback
+
+			arg_79_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_79_1, var_79_2)
 		end
 	}
 end

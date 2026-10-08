@@ -4,14 +4,15 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 299035,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "亲爱的~我来找你啦！",
 			bgm = "story-ghostnight-fascinsting",
+			actor = 299035,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "亲爱的~我来找你啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,11 +20,12 @@ return {
 		},
 		{
 			actor = 299035,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "让我们快速过完问题然后开始享受甜蜜二人世界吧♪",
 			typewriter = {
 				speed = 0.05,
@@ -38,11 +40,12 @@ return {
 		},
 		{
 			actor = 299035,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "忽然消失，忽然出现~借助这些镜子的帮助，柴郡可以把敌人追得晕头转向哦！",
 			typewriter = {
 				speed = 0.05,
@@ -57,11 +60,12 @@ return {
 		},
 		{
 			actor = 299035,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "当然是要一直~一直~注视着柴郡哦！",
 			typewriter = {
 				speed = 0.05,
@@ -70,11 +74,12 @@ return {
 		},
 		{
 			actor = 299035,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "一不留神，柴郡就会跑回你身边呢~",
 			typewriter = {
 				speed = 0.05,
@@ -89,11 +94,12 @@ return {
 		},
 		{
 			actor = 299035,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "神秘药水、丝带、痒痒挠~有趣的东西我都会收藏~",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +108,12 @@ return {
 		},
 		{
 			actor = 299035,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "要是亲爱的想看，柴郡可以一件一件演示给你看哦~",
 			typewriter = {
 				speed = 0.05,
@@ -114,12 +121,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "你的各方面情况，我已经了解了。",
 			typewriter = {
 				speed = 0.05,
@@ -127,12 +135,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "柴郡，欢迎加入。",
 			typewriter = {
 				speed = 0.05,
@@ -141,11 +150,12 @@ return {
 		},
 		{
 			actor = 299035,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "好欸~那以后，柴郡就可以更名正言顺地黏着亲爱的了对吧~",
 			typewriter = {
 				speed = 0.05,

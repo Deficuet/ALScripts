@@ -108,29 +108,40 @@ function var_0_0.GetList(arg_10_0)
 end
 
 function var_0_0.OnSkip(arg_11_0)
-	local var_11_0 = getProxy(ChapterProxy)
+	local var_11_0 = getProxy(ChapterAutoProxy):GetCommissionDoingType()
 
-	if arg_11_0.isLeisure then
+	switch(var_11_0, {
+		[ChapterAutoProxy.TYPE.SLG] = function()
+			local var_12_0 = getProxy(ChapterProxy)
+
+			if arg_11_0.isLeisure then
+				arg_11_0:emit(CommissionInfoMediator.GO_BATTLE)
+			else
+				local var_12_1 = var_12_0:getChapterById(var_12_0:GetAutoChapterId())
+
+				arg_11_0.detailPanel:ExecuteAction("Enter", var_12_1)
+			end
+		end,
+		[ChapterAutoProxy.TYPE.WORLD] = function()
+			arg_11_0:emit(CommissionInfoMediator.GO_WORLD)
+		end
+	}, function()
 		arg_11_0:emit(CommissionInfoMediator.GO_BATTLE)
-	else
-		local var_11_1 = var_11_0:getChapterById(var_11_0:GetAutoChapterId())
-
-		arg_11_0.detailPanel:ExecuteAction("Enter", var_11_1)
-	end
+	end)
 end
 
-function var_0_0.OnFinishAll(arg_12_0)
-	arg_12_0:emit(CommissionInfoMediator.ON_END_CHAPTER_AUTO)
+function var_0_0.OnFinishAll(arg_15_0)
+	arg_15_0:emit(CommissionInfoMediator.ON_END_CHAPTER_AUTO)
 end
 
-function var_0_0.Dispose(arg_13_0)
-	var_0_0.super.Dispose(arg_13_0)
-	arg_13_0:RemoveTimer()
+function var_0_0.Dispose(arg_16_0)
+	var_0_0.super.Dispose(arg_16_0)
+	arg_16_0:RemoveTimer()
 
-	if arg_13_0.detailPanel then
-		arg_13_0.detailPanel:Destroy()
+	if arg_16_0.detailPanel then
+		arg_16_0.detailPanel:Destroy()
 
-		arg_13_0.detailPanel = nil
+		arg_16_0.detailPanel = nil
 	end
 end
 

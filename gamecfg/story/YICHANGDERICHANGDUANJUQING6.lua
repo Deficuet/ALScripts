@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 403143,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			NextIcon = 1,
 			say = "指挥官，我现在就想到您身边。",
 			typewriter = {
 				speed = 0.05,
@@ -28,11 +29,12 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			actor = 403143,
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403143,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "好哦~",
 			typewriter = {
 				speed = 0.05,
@@ -41,11 +43,12 @@ return {
 		},
 		{
 			actor = 403143,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			NextIcon = 1,
 			say = "就请您好好地看着我……",
 			typewriter = {
 				speed = 0.05,
@@ -54,11 +57,12 @@ return {
 		},
 		{
 			actor = 403143,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			NextIcon = 1,
 			say = "如何一步一步地，来到您的身边吧~",
 			typewriter = {
 				speed = 0.05,
@@ -68,11 +72,12 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			actor = 403143,
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403143,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呵呵，时间就像海绵里的水，挤一挤总会有的。",
 			typewriter = {
 				speed = 0.05,
@@ -81,11 +86,12 @@ return {
 		},
 		{
 			actor = 403143,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			NextIcon = 1,
 			say = "接下来，就让我帮您挤一挤吧~",
 			typewriter = {
 				speed = 0.05,

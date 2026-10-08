@@ -62,85 +62,99 @@ function var_0_0.OnInit(arg_3_0)
 	end, SFX_PANEL)
 end
 
-function var_0_0.ShowBuyWindow(arg_9_0)
-	setActive(arg_9_0.buyWindow, true)
-	setActive(arg_9_0.unlcokWindow, false)
-	arg_9_0:Show()
+function var_0_0.GetPassId(arg_9_0)
+	return var_0_0.GetPassID()
+end
 
-	local var_9_0 = var_0_0.GetPassID()
+function var_0_0.ShowBuyWindow(arg_10_0)
+	setActive(arg_10_0.buyWindow, true)
+	setActive(arg_10_0.unlcokWindow, false)
+	arg_10_0:Show()
 
-	if arg_9_0.passId and arg_9_0.passId == var_9_0 then
+	local var_10_0 = arg_10_0:GetPassId()
+
+	if arg_10_0.passId and arg_10_0.passId == var_10_0 then
 		return
 	end
 
-	arg_9_0.passId = var_0_0.GetPassID()
+	arg_10_0.passId = arg_10_0:GetPassId()
 
-	local var_9_1 = Goods.Create({
-		shop_id = arg_9_0.passId
+	local var_10_1 = Goods.Create({
+		shop_id = arg_10_0.passId
 	}, Goods.TYPE_CHARGE)
-	local var_9_2 = Drop.Create(var_9_1:getConfig("display")[1])
+	local var_10_2 = Drop.Create(var_10_1:getConfig("display")[1])
 
-	LoadImageSpriteAtlasAsync(var_9_2:getIcon(), "", arg_9_0.buyWindow:Find("left/got/award/icon"))
-	setText(arg_9_0.buyWindow:Find("left/got/award/count"), "x" .. var_9_2.count)
-	setText(arg_9_0.buyWindow:Find("right/tip"), var_9_1:getConfig("descrip_extra"))
+	LoadImageSpriteAtlasAsync(var_10_2:getIcon(), "", arg_10_0.buyWindow:Find("left/got/award/icon"))
+	setText(arg_10_0.buyWindow:Find("left/got/award/count"), "x" .. var_10_2.count)
+	setText(arg_10_0.buyWindow:Find("right/tip"), var_10_1:getConfig("descrip_extra"))
 
-	local var_9_3 = var_9_1:getConfig("money")
+	local var_10_3 = var_10_1:getConfig("money")
 
-	if PLATFORM_CODE == PLATFORM_CHT and var_9_1:IsLocalPrice() then
+	if PLATFORM_CODE == PLATFORM_CHT and var_10_1:IsLocalPrice() then
 		-- block empty
 	else
-		var_9_3 = GetMoneySymbol() .. var_9_3
+		var_10_3 = GetMoneySymbol() .. var_10_3
 	end
 
-	setText(arg_9_0.priceTF, var_9_3)
+	setText(arg_10_0.priceTF, var_10_3)
 
-	arg_9_0.itemList = var_9_1:GetExtraServiceItem()
+	arg_10_0.itemList = var_10_1:GetExtraServiceItem()
 
-	arg_9_0.uiItemList:align(#arg_9_0.itemList)
+	arg_10_0.uiItemList:align(#arg_10_0.itemList)
 end
 
 function var_0_0.GetPassID()
-	local var_10_0 = getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)
+	local var_11_0 = getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)
 
-	if var_10_0 and not var_10_0:isEnd() then
-		for iter_10_0, iter_10_1 in ipairs(pg.pay_data_display.all) do
-			local var_10_1 = pg.pay_data_display[iter_10_1]
+	if var_11_0 and not var_11_0:isEnd() then
+		for iter_11_0, iter_11_1 in ipairs(pg.pay_data_display.all) do
+			local var_11_1 = pg.pay_data_display[iter_11_1]
 
-			if var_10_1.sub_display and type(var_10_1.sub_display) == "table" and var_10_1.sub_display[1] == var_10_0.id then
-				return iter_10_1
+			if var_11_1.sub_display and type(var_11_1.sub_display) == "table" and var_11_1.sub_display[1] == var_11_0.id then
+				return iter_11_1
 			end
 		end
 	end
 end
 
-function var_0_0.ShowUnlockWindow(arg_11_0, arg_11_1)
-	setActive(arg_11_0.buyWindow, false)
-	setActive(arg_11_0.unlcokWindow, true)
-	arg_11_0:Show()
+function var_0_0.ShowUnlockWindow(arg_12_0, arg_12_1, arg_12_2)
+	setActive(arg_12_0.buyWindow, false)
+	setActive(arg_12_0.unlcokWindow, true)
+	arg_12_0:Show()
 
-	local var_11_0 = arg_11_1:getConfig("display")
-	local var_11_1 = Drop.Create(var_11_0[1])
+	local var_12_0 = arg_12_1:getConfig("display")
+	local var_12_1 = Drop.Create(var_12_0[1])
 
-	updateDrop(arg_11_0.unlockItem, var_11_1)
-	onButton(arg_11_0, arg_11_0.unlockItem, function()
-		arg_11_0:emit(BaseUI.ON_NEW_STYLE_DROP, {
-			drop = var_11_1
+	updateDrop(arg_12_0.unlockItem, var_12_1)
+	onButton(arg_12_0, arg_12_0.unlockItem, function()
+		arg_12_0:emit(BaseUI.ON_NEW_STYLE_DROP, {
+			drop = var_12_1
 		})
 	end, SFX_CONFIRM)
+
+	arg_12_0.onHide = arg_12_2
 end
 
-function var_0_0.Show(arg_13_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_13_0._tf)
-	var_0_0.super.Show(arg_13_0)
+function var_0_0.Show(arg_14_0)
+	pg.UIMgr.GetInstance():BlurPanel(arg_14_0._tf)
+	var_0_0.super.Show(arg_14_0)
 end
 
-function var_0_0.Hide(arg_14_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_14_0._tf)
-	var_0_0.super.Hide(arg_14_0)
+function var_0_0.Hide(arg_15_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_15_0._tf)
+	var_0_0.super.Hide(arg_15_0)
+
+	if arg_15_0.onHide then
+		arg_15_0.onHide()
+
+		arg_15_0.onHide = nil
+	end
 end
 
-function var_0_0.OnDestroy(arg_15_0)
-	return
+function var_0_0.OnDestroy(arg_16_0)
+	if arg_16_0:isShowing() then
+		arg_16_0:Hide()
+	end
 end
 
 return var_0_0

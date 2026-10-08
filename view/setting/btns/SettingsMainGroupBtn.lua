@@ -20,8 +20,9 @@ end
 
 function var_0_0.initData(arg_3_0)
 	arg_3_0.mgr = pg.SettingsGroupMgr.GetInstance()
-	arg_3_0.infoName = "MainGroup"
+	arg_3_0.infoName = PaintingGroupConst.PaintingGroupName
 	arg_3_0.groupNameList = {
+		GroupMainHelper.DefaultGroupName,
 		PaintingGroupConst.PaintingGroupName
 	}
 end
@@ -44,13 +45,15 @@ end
 
 function var_0_0.addListener(arg_5_0)
 	onButton(arg_5_0, arg_5_0._tf, function()
-		if arg_5_0.mgr:GetState(arg_5_0.infoName) ~= pg.SettingsGroupMgr.State.Updating then
-			local var_6_0 = arg_5_0.mgr:GetTotalSize(arg_5_0.groupNameList)
-			local var_6_1 = HashUtil.BytesToString(var_6_0)
+		local var_6_0 = arg_5_0.mgr:GetState(arg_5_0.infoName)
+
+		if var_6_0 ~= pg.SettingsGroupMgr.State.Updating and var_6_0 ~= pg.SettingsGroupMgr.State.Success then
+			local var_6_1 = arg_5_0.mgr:GetTotalSize(arg_5_0.groupNameList)
+			local var_6_2 = HashUtil.BytesToString(var_6_1)
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_NORMAL,
-				content = string.format(i18n("main_group_msgbox_content", var_6_1)),
+				content = string.format(i18n("main_group_msgbox_content", var_6_2)),
 				onYes = function()
 					GroupMainHelper.SavePrefs(DMFileChecker.Prefs.Max)
 					arg_5_0.mgr:StartDownload(arg_5_0.infoName, arg_5_0.groupNameList)

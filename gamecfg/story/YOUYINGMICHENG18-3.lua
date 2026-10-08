@@ -4,10 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "当收容装置的辉光最终锁住狮时，她先是一怔，随后竟低低笑了起来。",
 			bgm = "story-visioncity-1",
 			typewriter = {
@@ -21,6 +22,7 @@ return {
 			bgName = "star_level_bg_148",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 205162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

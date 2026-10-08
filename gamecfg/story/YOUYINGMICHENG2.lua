@@ -4,14 +4,15 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 301191,
+			hideRecordIco = true,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hideRecordIco = true,
-			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "异常事件调查中心·新人引导室",
+			withoutActorName = true,
 			bgm = "theme-akagi-inside",
+			actor = 301191,
+			NextIcon = 1,
+			say = "异常事件调查中心·新人引导室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,12 +29,13 @@ return {
 		},
 		{
 			actor = 301191,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			bgName = "star_level_bg_603",
 			side = 2,
 			withoutActorName = true,
-			hideRecordIco = true,
+			nameColor = "#A9F548FF",
 			say = "就在标枪即将被狐火吞噬的一瞬——她手中的法杖，忽然泛起了柔和又耀眼的光芒。",
+			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,6 +47,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -58,11 +61,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_603",
-			actor = 301191,
-			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "原本几乎贴到标枪面前的“狐仙”少女，像是被这道光晃得眯起了眼，下意识后退了半步。",
+			withoutActorName = true,
 			hideRecordIco = true,
+			actor = 301191,
+			NextIcon = 1,
+			say = "原本几乎贴到标枪面前的“狐仙”少女，像是被这道光晃得眯起了眼，下意识后退了半步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,6 +78,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -85,12 +90,13 @@ return {
 		},
 		{
 			actor = 301191,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			bgName = "star_level_bg_603",
 			side = 2,
 			withoutActorName = true,
-			hideRecordIco = true,
+			nameColor = "#A9F548FF",
 			say = "光芒没有停下，反而越来越亮。",
+			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,12 +104,13 @@ return {
 		},
 		{
 			actor = 301191,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			bgName = "star_level_bg_603",
 			side = 2,
 			withoutActorName = true,
-			hideRecordIco = true,
+			nameColor = "#A9F548FF",
 			say = "标枪只觉得胸口像是突然被什么暖洋洋的东西填满了。",
+			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,6 +122,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -130,6 +138,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -145,6 +154,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -160,6 +170,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -175,6 +186,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			fontsize = 60,
 			actor = 231211,
 			nameColor = "#A9F548FF",
@@ -191,10 +203,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "伴随着这声发自肺腑的喊叫，法杖顶端轰然放出一圈粉白色的波纹，将屋内阴冷粘稠的氛围完全冲散——",
 			typewriter = {
 				speed = 0.05,
@@ -202,10 +215,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "咚、咚——我敲响了新人引导室的房门。",
 			bgm = "story-richang-visioncity",
 			typewriter = {
@@ -231,13 +245,14 @@ return {
 			}
 		},
 		{
-			actor = 900557,
+			actorName = "？？？",
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900557,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "请进吧~",
 			actorPosition = {
 				x = -200,
@@ -249,10 +264,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "我开门进去，对眼前的结果并不意外。",
 			typewriter = {
 				speed = 0.05,
@@ -260,12 +276,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "嗯，没有家具损坏，人也没有被吓晕过去，这次的培训结果很完美。",
 			typewriter = {
 				speed = 0.05,
@@ -273,13 +290,14 @@ return {
 			}
 		},
 		{
-			actor = 900557,
+			actorName = "？？？",
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900557,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "指挥官，这个新人还不错嘛~",
 			actorPosition = {
 				x = -200,
@@ -296,6 +314,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -306,12 +325,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "正式介绍一下吧。她叫{namecode:23:天津风}，现场执行组的特殊成员，你的新同事，也是我招募的幽影。",
 			typewriter = {
 				speed = 0.05,
@@ -319,12 +339,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "平时负责协助出勤，以及一部分……嗯，心理测试。",
 			typewriter = {
 				speed = 0.05,
@@ -332,11 +353,12 @@ return {
 			}
 		},
 		{
-			actor = 900557,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
 			factiontag = "幽影行动员",
 			dir = 1,
+			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "这么多年来，你还是头一个通过我心理测试的人呢，说明你很适合这份工作哦~",
@@ -350,11 +372,12 @@ return {
 			}
 		},
 		{
-			actor = 231211,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "多谢前辈夸奖！但、但是，我有点迷糊了……",
@@ -367,10 +390,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 231211,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "幽影，不是敌人吗……？",
 			typewriter = {
 				speed = 0.05,
@@ -381,10 +405,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202380,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "就和人有好坏一样，幽影之中也有能与人类合作的存在。",
 			typewriter = {
 				speed = 0.05,
@@ -393,11 +418,12 @@ return {
 		},
 		{
 			actor = 202380,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "比如我，比如{namecode:23:天津风}。",
 			typewriter = {
 				speed = 0.05,
@@ -410,6 +436,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "幽影行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -429,6 +456,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -440,11 +468,12 @@ return {
 		},
 		{
 			actor = 231211,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "不过刚才，到底是什么情况？",
 			typewriter = {
 				speed = 0.05,
@@ -452,10 +481,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "标枪小声嘀咕着，忍不住低头看向自己手中的法杖。",
 			typewriter = {
 				speed = 0.05,
@@ -463,10 +493,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "法杖上的宝石已经恢复平静，只残留着一圈若有若无的粉色光晕。",
 			typewriter = {
 				speed = 0.05,
@@ -474,12 +505,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "你可以理解为，配发的武器成功地释放出了你的情绪能量。",
 			typewriter = {
 				speed = 0.05,
@@ -487,12 +519,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "说得更准确一点，是“幸福能量”。",
 			typewriter = {
 				speed = 0.05,
@@ -500,11 +533,12 @@ return {
 			}
 		},
 		{
-			actor = 231211,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "幸福……能量？",
@@ -514,12 +548,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "嗯，这也是异常事件调查中心能够对抗幽影的核心手段之一。",
 			typewriter = {
 				speed = 0.05,
@@ -532,6 +567,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -542,12 +578,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "当然不是，可爱只是附带效果。",
 			typewriter = {
 				speed = 0.05,
@@ -560,6 +597,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "幽影行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -574,11 +612,12 @@ return {
 			}
 		},
 		{
-			actor = 231211,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "那、那要是什么风格的台词呢？",
@@ -588,11 +627,12 @@ return {
 			}
 		},
 		{
-			actor = 900557,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
 			factiontag = "幽影行动员",
 			dir = 1,
+			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "倒也不用那么纠结啦~重点在释放幸福能量……但幸福能量是什么还需要你自己感受。",
@@ -606,11 +646,12 @@ return {
 			}
 		},
 		{
-			actor = 900557,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
 			factiontag = "幽影行动员",
 			dir = 1,
+			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "我们目前只知道这是宏大的“幸福都市计划”的一部分成果，虽然无法用科学解释，但好在这本来就是异常事件，不归科学管。",
@@ -624,12 +665,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "至于另一种对抗方式，是用幽影去对抗幽影。",
 			typewriter = {
 				speed = 0.05,
@@ -637,10 +679,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "标枪愣了一下，下意识看向长着毛茸茸狐狸耳朵的{namecode:23:天津风}，和始终保持漂浮状态虎。",
 			typewriter = {
 				speed = 0.05,
@@ -653,6 +696,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -678,6 +722,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "幽影行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -692,11 +737,12 @@ return {
 			}
 		},
 		{
-			actor = 231211,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "突然反应过来！刚刚我还听不懂{namecode:23:天津风}前辈在说些什么，指挥官来了之后突然就都懂了……？",
@@ -706,12 +752,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "不是因为我来了，是因为虎来了。",
 			typewriter = {
 				speed = 0.05,
@@ -719,12 +766,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "虎的能力之一就是统合音律，而语言也是音律的一种。她可以把语言也转换成我们都能够理解的形式。",
 			typewriter = {
 				speed = 0.05,
@@ -733,11 +781,12 @@ return {
 		},
 		{
 			actor = 202380,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "毕竟就算是说着同一种语言的人与人之间，时常也需要翻译呢。",
 			typewriter = {
 				speed = 0.05,
@@ -748,10 +797,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 231211,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "欸？！还有这种事吗？",
 			typewriter = {
 				speed = 0.05,
@@ -762,10 +812,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202380,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "你能完全理解你上司说的话吗？",
 			typewriter = {
 				speed = 0.05,
@@ -776,10 +827,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 231211,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不太能……不不不，我可以，我完全可以！",
 			typewriter = {
 				speed = 0.05,
@@ -797,12 +849,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "咳……总之，因为虎的出现，我才能对幽影有更深的理解。",
 			typewriter = {
 				speed = 0.05,
@@ -810,12 +863,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "好了，基础介绍结束，接下来才是重点。",
 			typewriter = {
 				speed = 0.05,
@@ -823,10 +877,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "我取出一枚通体银白的金属球放在桌上。球体只有巴掌大小，在接触桌面后自动展开，露出内部一圈环状的光。",
 			typewriter = {
 				speed = 0.05,
@@ -846,8 +901,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "这个是收容装置。",
 			typewriter = {
 				speed = 0.05,
@@ -867,8 +923,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "当幽影被压制到足够虚弱的状态后，就可以使用它对幽影进行短期稳定的收容。",
 			typewriter = {
 				speed = 0.05,
@@ -890,6 +947,7 @@ return {
 			factiontag = "幽影行动员",
 			dir = 1,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorName = "{namecode:23:天津风}",
 			hidePaintObj = true,
 			say = "简单来说，先打趴下，再丢球就好。",
@@ -907,12 +965,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "嗯，所以它的正式名称是「宝口口球」……「宝口口球」？",
 			typewriter = {
 				speed = 0.05,
@@ -920,12 +979,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "……算了，暂时就简称它为「帕〇球」吧……「帕〇球」！",
 			typewriter = {
 				speed = 0.05,
@@ -933,12 +993,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "…………那，「伙伴球」？好……就先叫这个了。",
 			typewriter = {
 				speed = 0.05,
@@ -946,12 +1007,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "说明结束。接下来就该进入实战环境模拟了。",
 			typewriter = {
 				speed = 0.05,
@@ -964,6 +1026,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -974,12 +1037,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "放心，只是模拟。我们有新手保护期，还不至于让第一天入职的新人立刻直面危险的职场环境。",
 			typewriter = {
 				speed = 0.05,
@@ -987,12 +1051,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "除非出现紧急情况。",
 			typewriter = {
 				speed = 0.05,
@@ -1005,6 +1070,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1015,23 +1081,25 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			bgm = "airRaidAlarm",
-			say = "嘀——嘀——嘀——",
+			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/didi",
+			say = "嘀——嘀——嘀——",
+			bgm = "airRaidAlarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "几乎就在标枪说话的同一时间，调查中心内忽然响起了急促而尖锐的警报声。",
 			typewriter = {
 				speed = 0.05,
@@ -1040,11 +1108,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "广播",
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			sayColor = "#ff5c5c",
+			actorName = "广播",
 			say = "东城区主干道出现异常空间反应！请立刻前去支援！",
 			typewriter = {
 				speed = 0.05,
@@ -1057,6 +1126,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "幽影行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1076,6 +1146,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "幽影行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1090,12 +1161,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "异常事件调查中心，现场执行组成员——标枪。",
 			typewriter = {
 				speed = 0.05,
@@ -1108,6 +1180,7 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1128,12 +1201,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "现在开始，你跟我和{namecode:23:天津风}一起行动。",
 			typewriter = {
 				speed = 0.05,
@@ -1141,12 +1215,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "记住两件事——第一，不要离开我的视线。",
 			typewriter = {
 				speed = 0.05,
@@ -1154,12 +1229,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "第二，如果幽影靠近你，就握紧法杖，最重要的是……别怀疑自己对幸福的向往。",
 			typewriter = {
 				speed = 0.05,
@@ -1167,12 +1243,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "走吧，异常事件调查中心现场执行组，开始行动！",
 			typewriter = {
 				speed = 0.05,

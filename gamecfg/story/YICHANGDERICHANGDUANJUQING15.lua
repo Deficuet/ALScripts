@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "嗯……抱歉，我是不是靠得太近了？",
 			typewriter = {
 				speed = 0.05,
@@ -17,10 +18,11 @@ return {
 		},
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "您身上有一种很柔和的甜味……让人不自觉就想再确认一下。",
 			typewriter = {
 				speed = 0.05,
@@ -29,10 +31,11 @@ return {
 		},
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			NextIcon = 1,
 			say = "您会困扰吗？",
 			typewriter = {
 				speed = 0.05,
@@ -51,11 +54,12 @@ return {
 		},
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			NextIcon = 1,
 			say = "呵呵，您这样说，那我就不客气了哦~",
 			typewriter = {
 				speed = 0.05,
@@ -64,11 +68,12 @@ return {
 		},
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			NextIcon = 1,
 			say = "请放心，我知道分寸……大概……",
 			typewriter = {
 				speed = 0.05,
@@ -77,11 +82,12 @@ return {
 		},
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			NextIcon = 1,
 			say = "那就好，紧张和讨厌是两回事，对吧？",
 			typewriter = {
 				speed = 0.05,
@@ -90,11 +96,12 @@ return {
 		},
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			NextIcon = 1,
 			say = "以后靠近时，我会慢一点的~",
 			typewriter = {
 				speed = 0.05,

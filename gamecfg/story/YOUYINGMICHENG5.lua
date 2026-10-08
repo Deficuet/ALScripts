@@ -4,10 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "{namecode:531:腓特烈·卡尔}被收容后，异常事件调查中心与市政厅快速展开了联合行动。",
 			bgm = "battle-eagleunion",
 			typewriter = {
@@ -29,10 +30,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "根据新增线索与城市监控回溯，失踪案的“真凶”很快被确认为是{namecode:531:腓特烈·卡尔}——至少，明面上是这样。",
 			typewriter = {
 				speed = 0.05,
@@ -40,10 +42,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "我坐在市政厅的会客室内，面前的桌上摆着一杯尚有余温的红茶，旁边是之前收到的一封邀请函。",
 			typewriter = {
 				speed = 0.05,
@@ -68,10 +71,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "这是一个私人邀约，邀约的署名只有一个简单的称谓——Lady。",
 			typewriter = {
 				speed = 0.05,
@@ -79,12 +83,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "从来没听说过市政厅里还有这么一号人物……",
 			typewriter = {
 				speed = 0.05,
@@ -97,6 +102,7 @@ return {
 			bgName = "star_level_bg_300",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 202380,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -107,11 +113,12 @@ return {
 			}
 		},
 		{
-			actor = 202380,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_300",
 			factiontag = "幽影",
 			dir = 1,
+			actor = 202380,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "呵呵，有趣。",
@@ -121,10 +128,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "这本该是一场善后会谈，但私人会面的形式又仿佛在暗示着什么。",
 			typewriter = {
 				speed = 0.05,
@@ -132,10 +140,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "就在这时，会客室的大门无声开启，一名身着华服的女子走了进来。",
 			typewriter = {
 				speed = 0.05,
@@ -143,13 +152,14 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_300",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "star_level_bg_300",
+			NextIcon = 1,
+			dir = 1,
+			actor = 9600030,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "让您久等了呢。",
 			typewriter = {
 				speed = 0.05,
@@ -157,12 +167,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "没有很久。",
 			typewriter = {
 				speed = 0.05,
@@ -170,11 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_300",
 			factiontag = "lady",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "初次见面，我是金鹿号，就是邀请您的“Lady”。姑且将我当作……代理市长吧。",
@@ -184,12 +196,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "（代理市长……？看来市政厅最近也很动荡啊……）",
 			typewriter = {
 				speed = 0.05,
@@ -197,12 +210,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "那你今天专程会见我，是为了失踪案么？",
 			typewriter = {
 				speed = 0.05,
@@ -215,6 +229,7 @@ return {
 			bgName = "star_level_bg_300",
 			factiontag = "lady",
 			dir = 1,
+			NextIcon = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -225,12 +240,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "“解决”么……你们动作很快，结论也下得很快。",
 			typewriter = {
 				speed = 0.05,
@@ -238,11 +254,12 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_300",
 			factiontag = "lady",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "城市需要秩序，市民需要答案。很多时候，尽早给出明面上的结论，才有利于大家继续幸福地生活下去。",
@@ -252,12 +269,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "听起来，你并不觉得这件事已经结束了。",
 			typewriter = {
 				speed = 0.05,
@@ -265,11 +283,12 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_300",
 			factiontag = "lady",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "当然。你也不是那种能被轻易哄住的人，对吧？",
@@ -284,6 +303,7 @@ return {
 			bgName = "star_level_bg_300",
 			factiontag = "lady",
 			dir = 1,
+			NextIcon = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -299,6 +319,7 @@ return {
 			bgName = "star_level_bg_300",
 			factiontag = "lady",
 			dir = 1,
+			NextIcon = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -309,11 +330,12 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_300",
 			factiontag = "lady",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "只要能找到“真凶”。",
@@ -323,12 +345,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "合作愉快。",
 			typewriter = {
 				speed = 0.05,
@@ -336,11 +359,12 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_300",
 			factiontag = "lady",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "那就期待着与你的下一次会面了，指挥官。",
@@ -350,10 +374,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "我起身离开，即将带上大门时，身后飘来一句极轻的话语。",
 			typewriter = {
 				speed = 0.05,
@@ -366,6 +391,7 @@ return {
 			bgName = "star_level_bg_300",
 			factiontag = "lady",
 			dir = 1,
+			NextIcon = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

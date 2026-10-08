@@ -181302,6 +181302,34 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65121] = {
+		display = "参与「世界巡游」获得的点数，累计一定程度可以领取奖励，活动结束后将会消失 ",
+		name = "巡游点数",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 21,
+		id = 65121,
+		link_id = 7031,
+		icon = "props/battlepass_pt",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[65500] = {
 		display = "铁血抵抗军颁发的纪念勋章，纪念那场对抗星之兽的伟大胜利。我们今日不会毁灭，这个世界亦然，致明日。",
 		name = "抵抗之星纪念勋章",
@@ -196084,6 +196112,37 @@ end)()
 		index = {},
 		shiptrans_id = {},
 		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[68712] = {
+		display = "不会被看见",
+		name = "作战全权委托书（大世界）",
+		album_config = "",
+		type = 0,
+		drop_oil_max = 0,
+		virtual_type = 32,
+		shop_id = -1,
+		replace_item = 0,
+		id = 68712,
+		link_id = 0,
+		icon = "Props/weituozuozhan",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		drop_arg = {
+			"month",
+			0
+		}
 	}
 end)()
 

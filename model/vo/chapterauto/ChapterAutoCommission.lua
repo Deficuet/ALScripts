@@ -15,41 +15,52 @@ function var_0_0.bindConfigTable(arg_2_0)
 	return pg.chapter_auto_statistics
 end
 
-function var_0_0.GetFinishTime(arg_3_0)
-	return arg_3_0.finishTime
+function var_0_0.GetType(arg_3_0)
+	return arg_3_0.type
 end
 
-function var_0_0.IsFinished(arg_4_0)
-	return pg.TimeMgr.GetInstance():GetServerTime() >= arg_4_0:GetFinishTime()
+function var_0_0.GetFinishTime(arg_4_0)
+	return arg_4_0.finishTime
 end
 
-function var_0_0.GetTicketTime(arg_5_0)
-	return arg_5_0.ticketTime
+function var_0_0.GetStartTime(arg_5_0)
+	return arg_5_0.finishTime - arg_5_0.costTime
 end
 
-function var_0_0.UsedTicket(arg_6_0)
-	return arg_6_0:GetTicketTime() > 0
+function var_0_0.IsFinished(arg_6_0)
+	return pg.TimeMgr.GetInstance():GetServerTime() >= arg_6_0:GetFinishTime()
 end
 
-function var_0_0.GetCostTime(arg_7_0)
-	return arg_7_0.costTime
+function var_0_0.GetTicketTime(arg_7_0)
+	return arg_7_0.ticketTime
 end
 
-function var_0_0.GetClassExpAward(arg_8_0)
-	return arg_8_0:getConfig("base_class_exp") or 0
+function var_0_0.UsedTicket(arg_8_0)
+	return arg_8_0:GetTicketTime() > 0
 end
 
-function var_0_0.GetExpBookAward(arg_9_0)
-	return arg_9_0:getConfig("drop_expbook") or 0
+function var_0_0.GetCostTime(arg_9_0)
+	return arg_9_0.costTime
 end
 
-function var_0_0.GetOnceOil(arg_10_0, arg_10_1)
-	return switch(arg_10_0, {
+function var_0_0.GetClassExpAward(arg_10_0)
+	return arg_10_0:getConfig("base_class_exp") or 0
+end
+
+function var_0_0.GetExpBookAward(arg_11_0)
+	return arg_11_0:getConfig("drop_expbook") or 0
+end
+
+function var_0_0.GetOnceOil(arg_12_0, arg_12_1)
+	return switch(arg_12_0, {
 		[ChapterAutoProxy.TYPE.SLG] = function()
-			return pg.chapter_auto_statistics[arg_10_1].oil_limit
+			return pg.chapter_auto_statistics[arg_12_1].oil_limit
+		end,
+		[ChapterAutoProxy.TYPE.WORLD] = function()
+			return pg.world_auto_statistics[arg_12_1].oil_limit
 		end
 	}, function()
-		assert(false, "invalid chapter auto type: " .. tostring(arg_10_0))
+		assert(false, "invalid chapter auto type: " .. tostring(arg_12_0))
 	end)
 end
 

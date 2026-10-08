@@ -74,108 +74,124 @@ function var_0_0.preload(arg_11_0, arg_11_1)
 	})
 end
 
-function var_0_0.UpdateReports(arg_13_0, arg_13_1)
-	for iter_13_0, iter_13_1 in ipairs(arg_13_1) do
-		for iter_13_2, iter_13_3 in pairs(arg_13_0.cards) do
-			if iter_13_3.report.id == iter_13_1 then
-				local var_13_0 = arg_13_0.reports[iter_13_1]
+function var_0_0.getResource(arg_13_0)
+	local var_13_0 = var_0_0.super.getResource(arg_13_0)
+	local var_13_1 = {
+		"ui/GuildEventReportUI_atlas",
+		"ui/GuildBossRankPage"
+	}
 
-				iter_13_3:Update(var_13_0)
+	for iter_13_0, iter_13_1 in ipairs(var_13_1) do
+		if noEmptyStr(iter_13_1) and not table.contains(var_13_0, iter_13_1) then
+			table.insert(var_13_0, iter_13_1)
+		end
+	end
+
+	return var_13_0
+end
+
+function var_0_0.UpdateReports(arg_14_0, arg_14_1)
+	for iter_14_0, iter_14_1 in ipairs(arg_14_1) do
+		for iter_14_2, iter_14_3 in pairs(arg_14_0.cards) do
+			if iter_14_3.report.id == iter_14_1 then
+				local var_14_0 = arg_14_0.reports[iter_14_1]
+
+				iter_14_3:Update(var_14_0)
 			end
 		end
 	end
 
-	arg_13_0:UpdateGetAllBtn()
+	arg_14_0:UpdateGetAllBtn()
 end
 
-function var_0_0.UpdateGetAllBtn(arg_14_0)
-	local var_14_0 = #arg_14_0.displays == 0 or _.all(arg_14_0.displays, function(arg_15_0)
-		return not arg_15_0:CanSubmit()
+function var_0_0.UpdateGetAllBtn(arg_15_0)
+	local var_15_0 = #arg_15_0.displays == 0 or _.all(arg_15_0.displays, function(arg_16_0)
+		return not arg_16_0:CanSubmit()
 	end)
 
-	setActive(arg_14_0.gotAll, var_14_0)
+	setActive(arg_15_0.gotAll, var_15_0)
 end
 
-function var_0_0.SetTotalCount(arg_16_0)
-	arg_16_0.displays = {}
+function var_0_0.SetTotalCount(arg_17_0)
+	arg_17_0.displays = {}
 
-	for iter_16_0, iter_16_1 in pairs(arg_16_0.reports) do
-		table.insert(arg_16_0.displays, iter_16_1)
+	for iter_17_0, iter_17_1 in pairs(arg_17_0.reports) do
+		table.insert(arg_17_0.displays, iter_17_1)
 	end
 
-	local function var_16_0(arg_17_0)
-		if arg_17_0.state == 0 then
+	local function var_17_0(arg_18_0)
+		if arg_18_0.state == 0 then
 			return 1
-		elseif arg_17_0.state == 1 then
+		elseif arg_18_0.state == 1 then
 			return 2
-		elseif arg_17_0.state == 2 then
+		elseif arg_18_0.state == 2 then
 			return 0
 		end
 	end
 
-	table.sort(arg_16_0.displays, function(arg_18_0, arg_18_1)
-		return var_16_0(arg_18_0) > var_16_0(arg_18_1)
+	table.sort(arg_17_0.displays, function(arg_19_0, arg_19_1)
+		return var_17_0(arg_19_0) > var_17_0(arg_19_1)
 	end)
-	arg_16_0.scrollrect:SetTotalCount(#arg_16_0.displays)
+	arg_17_0.scrollrect:SetTotalCount(#arg_17_0.displays)
 
-	arg_16_0.cntTxt.text = #arg_16_0.displays .. "/" .. GuildConst.MAX_REPORT_CNT()
+	arg_17_0.cntTxt.text = #arg_17_0.displays .. "/" .. GuildConst.MAX_REPORT_CNT()
 end
 
-function var_0_0.OnInitItem(arg_19_0, arg_19_1)
-	local var_19_0 = GuildReportCard.New(arg_19_1, arg_19_0)
+function var_0_0.OnInitItem(arg_20_0, arg_20_1)
+	local var_20_0 = GuildReportCard.New(arg_20_1, arg_20_0)
 
-	if not arg_19_0.cards then
-		arg_19_0.cards = {}
+	if not arg_20_0.cards then
+		arg_20_0.cards = {}
 	end
 
-	onButton(arg_19_0, var_19_0.getBtn, function()
-		if var_19_0.report:IsLock() then
+	onButton(arg_20_0, var_20_0.getBtn, function()
+		if var_20_0.report:IsLock() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_can_not_get_tip"))
 
 			return
 		end
 
-		arg_19_0:emit(GuildEventReportMediator.ON_SUBMIT_REPORTS, {
-			var_19_0.report.id
+		arg_20_0:emit(GuildEventReportMediator.ON_SUBMIT_REPORTS, {
+			var_20_0.report.id
 		})
 	end, SFX_PANEL)
 
-	arg_19_0.cards[arg_19_1] = var_19_0
+	arg_20_0.cards[arg_20_1] = var_20_0
 end
 
-function var_0_0.OnUpdateItem(arg_21_0, arg_21_1, arg_21_2)
-	local var_21_0 = arg_21_0.cards[arg_21_2]
+function var_0_0.OnUpdateItem(arg_22_0, arg_22_1, arg_22_2)
+	local var_22_0 = arg_22_0.cards[arg_22_2]
 
-	if not var_21_0 then
-		arg_21_0:OnInitItem(arg_21_2)
+	if not var_22_0 then
+		arg_22_0:OnInitItem(arg_22_2)
 
-		var_21_0 = arg_21_0.cards[arg_21_2]
+		var_22_0 = arg_22_0.cards[arg_22_2]
 	end
 
-	local var_21_1 = arg_21_0.displays[arg_21_1 + 1]
+	local var_22_1 = arg_22_0.displays[arg_22_1 + 1]
 
-	var_21_0:Update(var_21_1)
+	var_22_0:Update(var_22_1)
 end
 
-function var_0_0.ShowReportRank(arg_22_0, arg_22_1)
-	arg_22_0:emit(GuildEventReportMediator.GET_REPORT_RANK, arg_22_1)
+function var_0_0.ShowReportRank(arg_23_0, arg_23_1)
+	arg_23_0:emit(GuildEventReportMediator.GET_REPORT_RANK, arg_23_1)
 end
 
-function var_0_0.willExit(arg_23_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_23_0._tf, arg_23_0._parentTf)
+function var_0_0.willExit(arg_24_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_24_0._tf, arg_24_0._parentTf)
 
-	if arg_23_0.cards then
-		for iter_23_0, iter_23_1 in pairs(arg_23_0.cards) do
-			iter_23_1:Dispose()
+	if arg_24_0.cards then
+		for iter_24_0, iter_24_1 in pairs(arg_24_0.cards) do
+			iter_24_1:Dispose()
 		end
 
-		arg_23_0.cards = nil
+		arg_24_0.cards = nil
 	end
 
-	if arg_23_0.rankPage then
-		arg_23_0.rankPage:Destroy()
+	if arg_24_0.rankPage then
+		arg_24_0.rankPage:Destroy()
 
-		arg_23_0.rankPage = nil
+		arg_24_0.rankPage = nil
 	end
 end
 

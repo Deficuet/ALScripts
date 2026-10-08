@@ -41,9 +41,11 @@ var_0_0.BONE_TO_TOUCH = {
 
 function var_0_0.GetDefaultSystemClasses()
 	return {
+		FurnitureSystem,
 		SlideExtraSystem,
 		Dorm3dStockingMgr,
 		TeleportSystem,
+		CollectionSystem,
 		RoomIKSystem,
 		RoomTouchSystem,
 		AimIKSystem

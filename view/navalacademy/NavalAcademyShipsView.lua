@@ -260,4 +260,64 @@ function var_0_0.getStudents(arg_20_0)
 	return var_20_0, var_20_1
 end
 
+function var_0_0.GetCharResList()
+	local var_23_0 = {}
+	local var_23_1 = {}
+	local var_23_2 = getProxy(TaskProxy)
+	local var_23_3 = getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST)
+
+	local function var_23_4(arg_24_0)
+		local var_24_0 = arg_24_0:getConfig("config_client")
+		local var_24_1 = arg_24_0:getConfig("config_data")
+		local var_24_2 = _.flatten(var_24_1)
+		local var_24_3
+		local var_24_4
+
+		if type(var_24_0) == "table" then
+			for iter_24_0, iter_24_1 in ipairs(var_24_0) do
+				var_23_1[iter_24_1.id] = Ship.New(iter_24_1)
+
+				if iter_24_0 == 1 then
+					local var_24_5, var_24_6 = getActivityTask(arg_24_0, true)
+
+					var_24_3 = var_24_5
+					var_24_4 = var_24_6
+				end
+
+				local var_24_7 = iter_24_1.tasks
+
+				if var_24_7 then
+					var_23_1[iter_24_1.id].hide = true
+
+					local var_24_8 = var_24_4 and table.indexof(var_24_2, var_24_4.id) or table.indexof(var_24_2, var_24_3)
+
+					for iter_24_2, iter_24_3 in ipairs(var_24_7) do
+						if iter_24_3 == var_24_8 then
+							var_23_1[iter_24_1.id].hide = false
+
+							break
+						end
+					end
+				end
+			end
+		end
+	end
+
+	_.each(var_23_3, function(arg_25_0)
+		if not arg_25_0:isEnd() then
+			var_23_4(arg_25_0)
+		end
+	end)
+
+	var_23_1 = getProxy(NavalAcademyProxy):fillStudens(var_23_1)
+
+	for iter_23_0, iter_23_1 in pairs(var_23_1) do
+		if iter_23_1 and not iter_23_1.hide then
+			table.insertto(var_23_0, ResPathSupport.GetSpineCharListByPrefabName(iter_23_1:getPrefab()))
+		end
+	end
+
+	return var_23_0
+end
+
 return var_0_0

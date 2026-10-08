@@ -4,10 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "入夜后，凉爽的微风拂过城市，灯光在楼群与街道间次第亮起。",
 			bgm = "bsm-6",
 			typewriter = {
@@ -25,10 +26,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "为庆祝新人标枪首战告捷，执行组准备举办一场小型庆功宴。",
 			typewriter = {
 				speed = 0.05,
@@ -36,10 +38,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "约定的时间就快到了，踩着点换上了可爱裙子的标枪，正急急忙忙地赶往餐厅。",
 			typewriter = {
 				speed = 0.05,
@@ -47,11 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 231210,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "新手行动员",
 			dir = 1,
+			actor = 231210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嗯哼哼~虽然被吓得够呛……但最后好在还是打倒了幽影。",
@@ -61,11 +65,12 @@ return {
 			}
 		},
 		{
-			actor = 231210,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "新手行动员",
 			dir = 1,
+			actor = 231210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "如果妹妹们知道，一定会夸我很帅气吧？",
@@ -80,6 +85,7 @@ return {
 			bgName = "star_level_bg_154",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -90,10 +96,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "巷子里比主街安静得多，几盏坏掉的路灯让本就薄弱的光线忽明忽暗。",
 			typewriter = {
 				speed = 0.05,
@@ -106,6 +113,7 @@ return {
 			bgName = "star_level_bg_154",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -121,6 +129,7 @@ return {
 			bgName = "star_level_bg_154",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -131,10 +140,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "她停下脚步，主街的喧闹声不知何时消失了，整条巷子，仿佛被从城市里单独剥了出去。",
 			bgm = "story-darkplan",
 			typewriter = {
@@ -165,6 +175,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -180,6 +191,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -190,10 +202,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "她转身想退回巷口，回头却发现身后只剩下一片浓得化不开的黑。",
 			typewriter = {
 				speed = 0.05,
@@ -201,10 +214,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "咔嚓——咔嚓——冰冷而干涩的金属咬合声，从前方的巷子深处传来。",
 			typewriter = {
 				speed = 0.05,
@@ -212,10 +226,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "标枪的呼吸开始变快，手忙脚乱地翻着自己的小包。",
 			typewriter = {
 				speed = 0.05,
@@ -228,6 +243,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -243,6 +259,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -253,10 +270,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "那声音越来越近了。黑暗中，一道黑影突然袭来，将标枪完全吞没。",
 			typewriter = {
 				speed = 0.05,
@@ -264,13 +282,14 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900559,
-			nameColor = "#FF9B93",
+			actorName = "？？",
 			hidePaintObj = true,
 			say = "滋&……%￥#……",
 			typewriter = {
@@ -284,6 +303,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -304,10 +324,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "黑暗合拢。远处，城市的喧闹声这才像迟到一般，重新传了回来。",
 			typewriter = {
 				speed = 0.05,
@@ -315,10 +336,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "餐厅里灯光明亮，{namecode:23:天津风}盯着已经上桌的热菜咽了口口水。",
 			bgm = "bsm-7",
 			typewriter = {
@@ -349,6 +371,7 @@ return {
 			bgName = "star_level_bg_599",
 			factiontag = "幽影行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -363,11 +386,12 @@ return {
 			}
 		},
 		{
-			actor = 900557,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "幽影行动员",
 			dir = 1,
+			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "说起来，指挥官你是从哪里找到的她这样有潜力的新人？",
@@ -386,6 +410,7 @@ return {
 			bgName = "star_level_bg_599",
 			factiontag = "幽影行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -405,6 +430,7 @@ return {
 			bgName = "star_level_bg_599",
 			factiontag = "幽影行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -419,12 +445,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "刚才打过了，没人接……",
 			typewriter = {
 				speed = 0.05,
@@ -432,10 +459,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "话音未落，刺耳的警报声忽然从四面八方同时炸响。",
 			bgm = "airraidalarm",
 			typewriter = {
@@ -445,11 +473,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "广播",
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			sayColor = "#ff5c5c",
+			actorName = "广播",
 			say = "全城警报！侦测到大规模幽影侵袭，请所有市民立即前往最近的安全避难点！",
 			typewriter = {
 				speed = 0.05,
@@ -462,6 +491,7 @@ return {
 			bgName = "star_level_bg_599",
 			factiontag = "幽影行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -476,10 +506,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "夜幕之下，无数诡异的黑影正在城市各处浮现。",
 			typewriter = {
 				speed = 0.05,

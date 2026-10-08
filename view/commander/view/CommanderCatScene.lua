@@ -354,31 +354,108 @@ function var_0_0.onBackPressed(arg_31_0)
 	var_0_0.super.onBackPressed(arg_31_0)
 end
 
-function var_0_0.willExit(arg_32_0)
-	arg_32_0:ReturnCommanderPainting()
+function var_0_0.getResource(arg_32_0, arg_32_1)
+	local var_32_0 = var_0_0.super.getResource(arg_32_0, arg_32_1)
 
-	for iter_32_0, iter_32_1 in pairs(arg_32_0.pages) do
-		iter_32_1:Destroy()
+	for iter_32_0 = 1, 4 do
+		table.insert(var_32_0, "char/NekoBox" .. iter_32_0)
+		table.insert(var_32_0, "char/SRNekoBox" .. iter_32_0)
+		table.insert(var_32_0, "char/SSRNekoBox" .. iter_32_0)
 	end
 
-	arg_32_0.pages = {}
+	for iter_32_1, iter_32_2 in pairs(pg.commander_home_style.all) do
+		local var_32_1 = pg.commander_home_style[iter_32_2]
 
-	if arg_32_0.detailPage then
-		arg_32_0.detailPage:Destroy()
-
-		arg_32_0.detailPage = nil
+		if var_32_1.name and var_32_1.name ~= "" and not table.contains(var_32_0, "catterystyle/" .. var_32_1.name) then
+			table.insert(var_32_0, "catterystyle/" .. var_32_1.name)
+			table.insert(var_32_0, "catterystyle/" .. var_32_1.name .. "_d")
+		end
 	end
 
-	if arg_32_0.contextData.msgBox then
-		arg_32_0.contextData.msgBox:Destroy()
+	for iter_32_3, iter_32_4 in pairs(pg.commander_skill_template.all) do
+		local var_32_2 = pg.commander_skill_template[iter_32_4]
 
-		arg_32_0.contextData.msgBox = nil
+		if var_32_2.icon and var_32_2.icon ~= "" and not table.contains(var_32_0, "commanderskillicon/" .. var_32_2.icon) then
+			table.insert(var_32_0, "commanderskillicon/" .. var_32_2.icon)
+		end
 	end
 
-	if arg_32_0.contextData.treePanel then
-		arg_32_0.contextData.treePanel:Destroy()
+	for iter_32_5, iter_32_6 in pairs(pg.commander_ability_template.all) do
+		local var_32_3 = pg.commander_ability_template[iter_32_6]
 
-		arg_32_0.contextData.treePanel = nil
+		if var_32_3.icon and var_32_3.icon ~= "" and not table.contains(var_32_0, "commandertalenticon/" .. var_32_3.icon) then
+			table.insert(var_32_0, "commandertalenticon/" .. var_32_3.icon)
+		end
+	end
+
+	for iter_32_7, iter_32_8 in pairs(pg.commander_data_template.all) do
+		local var_32_4 = pg.commander_data_template[iter_32_8]
+
+		if var_32_4.painting and var_32_4.painting ~= "" and not table.contains(var_32_0, "commandericon/" .. var_32_4.painting) then
+			table.insert(var_32_0, "commandericon/" .. var_32_4.painting)
+		end
+
+		if var_32_4.painting and var_32_4.painting ~= "" and not table.contains(var_32_0, "commanderpainting/" .. var_32_4.painting) then
+			table.insert(var_32_0, "commanderpainting/" .. var_32_4.painting)
+		end
+	end
+
+	table.insert(var_32_0, "props/20010")
+	table.insert(var_32_0, "props/20011")
+	table.insert(var_32_0, "props/20012")
+	table.insert(var_32_0, "props/20013")
+	table.insert(var_32_0, "bg/commander_bg_1")
+	table.insert(var_32_0, "bg/commander_bg_2")
+	table.insert(var_32_0, "commanderrarity/n")
+	table.insert(var_32_0, "commanderrarity/r")
+	table.insert(var_32_0, "commanderrarity/sr")
+	table.insert(var_32_0, "commanderrarity/ssr")
+	table.insert(var_32_0, "char/ai_manjuuu")
+	table.insert(var_32_0, "painting/mingshi")
+	table.insert(var_32_0, "ui/CommanderCatPlayui")
+	table.insert(var_32_0, "ui/CommanderCatTalentui")
+	table.insert(var_32_0, "ui/CommanderCatDockui")
+	table.insert(var_32_0, "ui/CommanderDetailUI")
+	table.insert(var_32_0, "ui/CommanderMsgBoxUI")
+	table.insert(var_32_0, "ui/CommanderTreeUI")
+	table.insert(var_32_0, "ui/CommanderReserveUI")
+	table.insert(var_32_0, "ui/CommanderBoxesUI")
+	table.insert(var_32_0, "ui/CommanderIndexUI")
+	table.insert(var_32_0, "ui/CommandeRenameUI")
+	table.insert(var_32_0, "ui/CommanderQuicklyFinishBoxUI")
+	table.insert(var_32_0, "ui/CommanderBuildPoolUI")
+	table.insert(var_32_0, "ui/GetCommanderResultUI")
+	table.insert(var_32_0, "attricon")
+	table.insert(var_32_0, "ui/CommanderBuildResultUI_atlas")
+
+	return var_32_0
+end
+
+function var_0_0.willExit(arg_33_0)
+	arg_33_0:ReturnCommanderPainting()
+
+	for iter_33_0, iter_33_1 in pairs(arg_33_0.pages) do
+		iter_33_1:Destroy()
+	end
+
+	arg_33_0.pages = {}
+
+	if arg_33_0.detailPage then
+		arg_33_0.detailPage:Destroy()
+
+		arg_33_0.detailPage = nil
+	end
+
+	if arg_33_0.contextData.msgBox then
+		arg_33_0.contextData.msgBox:Destroy()
+
+		arg_33_0.contextData.msgBox = nil
+	end
+
+	if arg_33_0.contextData.treePanel then
+		arg_33_0.contextData.treePanel:Destroy()
+
+		arg_33_0.contextData.treePanel = nil
 	end
 end
 

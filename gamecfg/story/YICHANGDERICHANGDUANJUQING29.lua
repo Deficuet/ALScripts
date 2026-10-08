@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "指挥官，你要出门去巡逻了吗？",
 			typewriter = {
 				speed = 0.05,
@@ -17,10 +18,11 @@ return {
 		},
 		{
 			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			NextIcon = 1,
 			say = "外面说不定会有危险，把我也带上吧。",
 			typewriter = {
 				speed = 0.05,
@@ -40,11 +42,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 201191,
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
 			optionFlag = 1,
+			actor = 201191,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "正确的选择，我会替你留意所有可能的危险的。",
 			typewriter = {
 				speed = 0.05,
@@ -54,11 +57,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 201191,
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
 			optionFlag = 2,
+			actor = 201191,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呜……好吧……",
 			typewriter = {
 				speed = 0.05,
@@ -68,11 +72,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 201191,
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
 			optionFlag = 2,
+			actor = 201191,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "如果真的遇到了危险，一定要立刻联系我。",
 			typewriter = {
 				speed = 0.05,

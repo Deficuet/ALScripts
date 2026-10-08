@@ -183,6 +183,8 @@ function var_0_0.GetSpriteQuiet(arg_14_0, arg_14_1, arg_14_2, arg_14_3, arg_14_4
 end
 
 function var_0_0.GetSpriteDirect(arg_16_0, arg_16_1, arg_16_2, arg_16_3, arg_16_4)
+	arg_16_1, arg_16_2 = HXSet.autoHxShiftPath(arg_16_1, arg_16_2)
+
 	arg_16_0:ClearRequest(arg_16_4)
 
 	arg_16_4 = arg_16_4 or arg_16_0:GenerateUID4LoadingRequest()

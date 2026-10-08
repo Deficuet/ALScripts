@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "指挥官，千万不要一个人泡澡。",
 			typewriter = {
 				speed = 0.05,
@@ -17,10 +18,11 @@ return {
 		},
 		{
 			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			NextIcon = 1,
 			say = "很危险……要是泡得太久，或者一时头晕，很容易发生意外。",
 			typewriter = {
 				speed = 0.05,
@@ -40,11 +42,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 201191,
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
 			optionFlag = 1,
+			actor = 201191,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "的确，如果有我在指挥官身边贴身保护的话，就算泡澡也是安全的。",
 			typewriter = {
 				speed = 0.05,
@@ -54,11 +57,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 201191,
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
 			optionFlag = 1,
+			actor = 201191,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我来陪你一起泡。",
 			typewriter = {
 				speed = 0.05,
@@ -67,11 +71,12 @@ return {
 		},
 		{
 			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			NextIcon = 1,
 			say = "淋浴……也不能放松警惕。",
 			typewriter = {
 				speed = 0.05,
@@ -80,11 +85,12 @@ return {
 		},
 		{
 			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			NextIcon = 1,
 			say = "万一没有站稳，滑倒的话，同样很危险。",
 			typewriter = {
 				speed = 0.05,
@@ -93,11 +99,12 @@ return {
 		},
 		{
 			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			NextIcon = 1,
 			say = "保险起见，让我在浴室门外待命吧。",
 			typewriter = {
 				speed = 0.05,

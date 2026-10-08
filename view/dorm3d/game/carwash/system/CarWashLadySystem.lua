@@ -203,7 +203,10 @@ function var_0_0.OnCharacterHit(arg_25_0, arg_25_1, arg_25_2, arg_25_3)
 		if var_25_1 ~= "" then
 			arg_25_0:PlayReactionAnim(var_25_1, function()
 				arg_25_0:Emit(CarWashGameFlowSystem.MODIFY_HEART_BEAT_VALUE, arg_25_3.mood_value_plus)
-				arg_25_0:Emit(CarWashMainPage.SHOW_EXPRESSION_HUD, CarWashMainPage.EXPRESSION_TYPE.LIKE)
+
+				local var_26_0 = arg_25_3.mood_value_plus > 0 and CarWashMainPage.EXPRESSION_TYPE.LIKE or CarWashMainPage.EXPRESSION_TYPE.HATE
+
+				arg_25_0:Emit(CarWashMainPage.SHOW_EXPRESSION_HUD, var_26_0)
 			end)
 
 			return
@@ -297,7 +300,9 @@ function var_0_0.TryHandleHiddenReaction(arg_32_0, arg_32_1, arg_32_2)
 		arg_32_0.hiddenReactionHitTime = 0
 		arg_32_0.hiddenReactionTriggered = false
 
-		arg_32_0:Emit(CarWashMainPage.SHOW_EXPRESSION_HUD, CarWashMainPage.EXPRESSION_TYPE.HATE)
+		local var_32_1 = arg_32_1.mood_value_plus > 0 and CarWashMainPage.EXPRESSION_TYPE.LIKE or CarWashMainPage.EXPRESSION_TYPE.HATE
+
+		arg_32_0:Emit(CarWashMainPage.SHOW_EXPRESSION_HUD, var_32_1)
 	end
 
 	if arg_32_0.hiddenReactionTriggered then

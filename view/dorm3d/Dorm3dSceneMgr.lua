@@ -135,184 +135,157 @@ function var_0_0.ChangeArtScene(arg_17_0, arg_17_1, arg_17_2)
 	end
 
 	local var_17_0 = {}
-	local var_17_1 = false
-	local var_17_2
+	local var_17_1
+	local var_17_2 = arg_17_0.artSceneInfo
 
-	if var_0_0.IsSameSceneInfo(arg_17_1, arg_17_0.sceneInfo) then
-		table.insert(var_17_0, function(arg_18_0)
-			local var_18_0, var_18_1 = var_0_0.ParseInfo(arg_17_0.sceneInfo)
+	table.insert(var_17_0, function(arg_18_0)
+		pg.SceneAnimMgr.GetInstance():Dorm3DSceneChange(function(arg_19_0)
+			var_17_1 = arg_19_0
 
-			SceneManager.SetActiveScene(SceneManager.GetSceneByName(var_18_0))
-			arg_17_0:EnableSceneDisplay(var_18_0, true)
 			arg_18_0()
 		end)
-	else
-		var_17_1 = true
-
-		table.insert(var_17_0, function(arg_19_0)
-			pg.SceneAnimMgr.GetInstance():Dorm3DSceneChange(function(arg_20_0)
-				var_17_2 = arg_20_0
-
-				arg_19_0()
-			end)
-		end)
-
-		local var_17_3, var_17_4 = var_0_0.ParseInfo(arg_17_1)
-
-		table.insert(var_17_0, function(arg_21_0)
-			SceneOpMgr.Inst:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. var_17_4 .. "/" .. var_17_3 .. "_scene"), var_17_3, LoadSceneMode.Additive, function(arg_22_0, arg_22_1)
-				SceneManager.SetActiveScene(arg_22_0)
-
-				local var_22_0 = getSceneRootTFDic(arg_22_0).MainCamera
-
-				if var_22_0 then
-					setActive(var_22_0, false)
-				end
-
-				arg_21_0()
-			end)
-		end)
-	end
-
-	if var_0_0.IsSameSceneInfo(arg_17_0.artSceneInfo, arg_17_0.sceneInfo) then
-		table.insert(var_17_0, function(arg_23_0)
-			local var_23_0, var_23_1 = var_0_0.ParseInfo(arg_17_0.sceneInfo)
-
-			arg_17_0:EnableSceneDisplay(var_23_0, false)
-			arg_23_0()
-		end)
-	else
-		local var_17_5, var_17_6 = var_0_0.ParseInfo(arg_17_0.artSceneInfo)
-
-		table.insert(var_17_0, function(arg_24_0)
-			SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. var_17_6 .. "/" .. var_17_5 .. "_scene"), var_17_5, function()
-				existCall(arg_24_0)
-			end)
-		end)
-	end
-
-	table.insert(var_17_0, function(arg_26_0)
-		arg_26_0()
-
-		if var_17_1 then
-			var_17_2()
-		end
 	end)
 
-	arg_17_0.artSceneInfo = arg_17_1
+	local var_17_3, var_17_4 = var_0_0.ParseInfo(arg_17_1)
 
-	seriesAsync(var_17_0, arg_17_2)
-end
+	table.insert(var_17_0, function(arg_20_0)
+		SceneOpMgr.Inst:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. var_17_4 .. "/" .. var_17_3 .. "_scene"), var_17_3, LoadSceneMode.Additive, function(arg_21_0, arg_21_1)
+			SceneManager.SetActiveScene(arg_21_0)
 
-function var_0_0.ChangeSubScene(arg_27_0, arg_27_1, arg_27_2)
-	if var_0_0.IsSameSceneInfo(arg_27_1, arg_27_0.subSceneInfo) then
-		return existCall(arg_27_2)
-	end
+			local var_21_0 = getSceneRootTFDic(arg_21_0).MainCamera
 
-	local var_27_0 = {}
-	local var_27_1 = false
-	local var_27_2
+			if var_21_0 then
+				setActive(var_21_0, false)
+			end
 
-	if not var_0_0.IsSameSceneInfo(arg_27_1, arg_27_0.sceneInfo) then
-		var_27_1 = true
-
-		table.insert(var_27_0, function(arg_28_0)
-			pg.SceneAnimMgr.GetInstance():Dorm3DSceneChange(function(arg_29_0)
-				var_27_2 = arg_29_0
-
-				arg_28_0()
-			end)
+			arg_20_0()
 		end)
-
-		local var_27_3, var_27_4 = var_0_0.ParseInfo(arg_27_1)
-		local var_27_5 = var_27_3 .. "_base"
-
-		table.insert(var_27_0, function(arg_30_0)
-			SceneOpMgr.Inst:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. var_27_4 .. "/" .. var_27_5 .. "_scene"), var_27_5, LoadSceneMode.Additive, arg_30_0)
-		end)
-	end
-
-	if not var_0_0.IsSameSceneInfo(arg_27_0.subSceneInfo, arg_27_0.sceneInfo) then
-		local var_27_6, var_27_7 = var_0_0.ParseInfo(arg_27_0.subSceneInfo)
-		local var_27_8 = var_27_6 .. "_base"
-
-		table.insert(var_27_0, function(arg_31_0)
-			SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. var_27_7 .. "/" .. var_27_8 .. "_scene"), var_27_8, arg_31_0)
-		end)
-	end
-
-	table.insert(var_27_0, function(arg_32_0)
-		arg_32_0()
-
-		if var_27_1 then
-			var_27_2()
-		end
 	end)
 
-	arg_27_0.subSceneInfo = arg_27_1
+	local var_17_5, var_17_6 = var_0_0.ParseInfo(var_17_2)
 
-	seriesAsync(var_27_0, arg_27_2)
+	table.insert(var_17_0, function(arg_22_0)
+		SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. var_17_6 .. "/" .. var_17_5 .. "_scene"), var_17_5, arg_22_0)
+	end)
+	table.insert(var_17_0, function(arg_23_0)
+		arg_17_0.artSceneInfo = arg_17_1
+
+		arg_23_0()
+	end)
+	seriesAsync(var_17_0, function()
+		existCall(arg_17_2)
+		existCall(var_17_1)
+	end)
 end
 
-function var_0_0.Dispose(arg_33_0)
-	local var_33_0 = {}
+function var_0_0.ChangeSubScene(arg_25_0, arg_25_1, arg_25_2)
+	if var_0_0.IsSameSceneInfo(arg_25_1, arg_25_0.subSceneInfo) then
+		return existCall(arg_25_2)
+	end
 
-	for iter_33_0, iter_33_1 in pairs(arg_33_0.cacheSceneDic) do
-		if iter_33_1 then
-			local var_33_1 = iter_33_1.assetRootName
+	local var_25_0 = {}
+	local var_25_1 = false
+	local var_25_2
 
-			table.insert(var_33_0, function(arg_34_0)
-				SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/character/scenes/" .. var_33_1 .. "/timeline/" .. iter_33_0 .. "/" .. iter_33_0 .. "_scene"), iter_33_0, arg_34_0)
+	if not var_0_0.IsSameSceneInfo(arg_25_1, arg_25_0.sceneInfo) then
+		var_25_1 = true
+
+		table.insert(var_25_0, function(arg_26_0)
+			pg.SceneAnimMgr.GetInstance():Dorm3DSceneChange(function(arg_27_0)
+				var_25_2 = arg_27_0
+
+				arg_26_0()
+			end)
+		end)
+
+		local var_25_3, var_25_4 = var_0_0.ParseInfo(arg_25_1)
+		local var_25_5 = var_25_3 .. "_base"
+
+		table.insert(var_25_0, function(arg_28_0)
+			SceneOpMgr.Inst:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. var_25_4 .. "/" .. var_25_5 .. "_scene"), var_25_5, LoadSceneMode.Additive, arg_28_0)
+		end)
+	end
+
+	if not var_0_0.IsSameSceneInfo(arg_25_0.subSceneInfo, arg_25_0.sceneInfo) then
+		local var_25_6, var_25_7 = var_0_0.ParseInfo(arg_25_0.subSceneInfo)
+		local var_25_8 = var_25_6 .. "_base"
+
+		table.insert(var_25_0, function(arg_29_0)
+			SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. var_25_7 .. "/" .. var_25_8 .. "_scene"), var_25_8, arg_29_0)
+		end)
+	end
+
+	table.insert(var_25_0, function(arg_30_0)
+		arg_25_0.subSceneInfo = arg_25_1
+
+		arg_30_0()
+
+		if var_25_1 then
+			var_25_2()
+		end
+	end)
+	seriesAsync(var_25_0, arg_25_2)
+end
+
+function var_0_0.Dispose(arg_31_0)
+	local var_31_0 = {}
+
+	for iter_31_0, iter_31_1 in pairs(arg_31_0.cacheSceneDic) do
+		if iter_31_1 then
+			local var_31_1 = iter_31_1.assetRootName
+
+			table.insert(var_31_0, function(arg_32_0)
+				SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/character/scenes/" .. var_31_1 .. "/timeline/" .. iter_31_0 .. "/" .. iter_31_0 .. "_scene"), iter_31_0, arg_32_0)
 			end)
 		end
 	end
 
-	local var_33_2 = {
-		arg_33_0.sceneInfo
+	local var_31_2 = {
+		arg_31_0.sceneInfo
 	}
 
-	if not var_0_0.IsSameSceneInfo(arg_33_0.subSceneInfo, arg_33_0.sceneInfo) then
-		table.insert(var_33_2, arg_33_0.subSceneInfo)
+	if not var_0_0.IsSameSceneInfo(arg_31_0.subSceneInfo, arg_31_0.sceneInfo) then
+		table.insert(var_31_2, arg_31_0.subSceneInfo)
 	end
 
-	for iter_33_2, iter_33_3 in ipairs(var_33_2) do
-		local var_33_3, var_33_4 = var_0_0.ParseInfo(iter_33_3)
-		local var_33_5 = var_33_3 .. "_base"
+	for iter_31_2, iter_31_3 in ipairs(var_31_2) do
+		local var_31_3, var_31_4 = var_0_0.ParseInfo(iter_31_3)
+		local var_31_5 = var_31_3 .. "_base"
 
-		table.insert(var_33_0, function(arg_35_0)
-			SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. var_33_4 .. "/" .. var_33_5 .. "_scene"), var_33_5, arg_35_0)
+		table.insert(var_31_0, function(arg_33_0)
+			SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. var_31_4 .. "/" .. var_31_5 .. "_scene"), var_31_5, arg_33_0)
 		end)
 	end
 
-	local var_33_6 = {
-		arg_33_0.sceneInfo
+	local var_31_6 = {
+		arg_31_0.sceneInfo
 	}
 
-	if not var_0_0.IsSameSceneInfo(arg_33_0.artSceneInfo, arg_33_0.sceneInfo) then
-		table.insert(var_33_6, arg_33_0.artSceneInfo)
+	if not var_0_0.IsSameSceneInfo(arg_31_0.artSceneInfo, arg_31_0.sceneInfo) then
+		table.insert(var_31_6, arg_31_0.artSceneInfo)
 	end
 
-	for iter_33_4, iter_33_5 in ipairs(var_33_6) do
-		local var_33_7, var_33_8 = var_0_0.ParseInfo(iter_33_5)
+	for iter_31_4, iter_31_5 in ipairs(var_31_6) do
+		local var_31_7, var_31_8 = var_0_0.ParseInfo(iter_31_5)
 
-		table.insert(var_33_0, function(arg_36_0)
-			SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. var_33_8 .. "/" .. var_33_7 .. "_scene"), var_33_7, arg_36_0)
+		table.insert(var_31_0, function(arg_34_0)
+			SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. var_31_8 .. "/" .. var_31_7 .. "_scene"), var_31_7, arg_34_0)
 		end)
 	end
 
-	seriesAsync(var_33_0, function()
-		arg_33_0.sceneInfo = nil
-		arg_33_0.artSceneInfo = nil
-		arg_33_0.subSceneInfo = nil
-		arg_33_0.lastSceneRootDict = nil
-		arg_33_0.cacheSceneDic = nil
+	seriesAsync(var_31_0, function()
+		arg_31_0.sceneInfo = nil
+		arg_31_0.artSceneInfo = nil
+		arg_31_0.subSceneInfo = nil
+		arg_31_0.lastSceneRootDict = nil
+		arg_31_0.cacheSceneDic = nil
 
 		print("unload scene finish !")
 	end)
 end
 
-function var_0_0.IsSameSceneInfo(arg_38_0, arg_38_1)
-	return string.lower(arg_38_0) == string.lower(arg_38_1)
+function var_0_0.IsSameSceneInfo(arg_36_0, arg_36_1)
+	return string.lower(arg_36_0) == string.lower(arg_36_1)
 end
 
 return var_0_0

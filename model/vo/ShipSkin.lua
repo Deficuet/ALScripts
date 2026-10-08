@@ -597,4 +597,19 @@ function var_0_0.GetStoreChangeSkinPrefsName(...)
 	}, "_"))
 end
 
+function var_0_0.GetBgPrint(arg_65_0, arg_65_1)
+	local var_65_0 = pg.ship_skin_template[arg_65_0]
+	local var_65_1 = ShipGroup.getDefaultShipConfig(var_65_0.ship_group)
+	local var_65_2
+	local var_65_3 = noEmptyStr(var_65_0.bg_sp) or noEmptyStr(var_65_0.bg) or noEmptyStr(var_65_0.rarity_bg)
+
+	if var_65_3 then
+		var_65_3 = "bg/star_level_bg_" .. var_65_3
+	elseif not arg_65_1 then
+		var_65_3 = "newshipbg/bg_" .. shipRarity2bgPrint(var_65_1.rarity, ShipGroup.IsBluePrintGroup(groupId), ShipGroup.IsMetaGroup(groupId))
+	end
+
+	return var_65_3
+end
+
 return var_0_0

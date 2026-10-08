@@ -2108,7 +2108,7 @@ var_0_0.ship_drag_datas = {
 				{
 					fold_chat = true,
 					click = true,
-					action = "touch_special2",
+					action = "touch_special",
 					idle = "normal",
 					is_default = true,
 					event = "TouchSpecial",
@@ -2129,7 +2129,7 @@ var_0_0.ship_drag_datas = {
 					change_idle = "touch_special_normal",
 					click = true,
 					idle = "normal",
-					action = "touch_special",
+					action = "touch_special2",
 					is_default = true,
 					fold = true,
 					hit = "touch_special_normal"

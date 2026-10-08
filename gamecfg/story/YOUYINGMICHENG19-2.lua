@@ -4,9 +4,10 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			say = "在众人的掩护下，我们一路突破，终于甩开敌对的纠缠，深入敌阵。",
 			bgm = "story-visioncity-1",
 			typewriter = {
@@ -25,11 +26,12 @@ return {
 		},
 		{
 			actor = 304090,
-			side = 2,
+			nameColor = "#FF9B93",
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			side = 2,
+			NextIcon = 1,
 			say = "欢迎回来，指挥官。",
 			typewriter = {
 				speed = 0.05,
@@ -42,6 +44,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 304090,
 			nameColor = "#FF9B93",
 			say = "这次的阵仗，可比之前有意思多了呢~",
@@ -56,6 +59,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 304090,
 			nameColor = "#FF9B93",
 			say = "你竟然能为自己争取到这么多支援，都让我有些意外了。",
@@ -65,9 +69,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			say = "她手中折扇轻轻一展，忽然原地消失。",
 			typewriter = {
 				speed = 0.05,
@@ -80,6 +85,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 304090,
 			nameColor = "#FF9B93",
 			say = "只可惜——这改变不了什么。",

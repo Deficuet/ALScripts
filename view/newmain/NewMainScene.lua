@@ -31,7 +31,6 @@ function var_0_0.getResource(arg_2_0)
 		"commonbg/bg_main_night",
 		"commonbg/bg_main_twilight",
 		"commonbg/bg_main_day",
-		"ui/mainbgview",
 		"ui/lihui_qiehuan01",
 		"ui/lihui_qiehuan02",
 		"spinematerials",
@@ -52,7 +51,9 @@ function var_0_0.getResource(arg_2_0)
 		"ui/newmainmellowtheme",
 		"clutter/mainui_calibration_mellow",
 		"ui/respanel",
-		"ui/goldexchangewindow"
+		"ui/goldexchangewindow",
+		"ui/l2dboundsui",
+		"ui/worldstaminarecoverui"
 	}
 	local var_2_1 = (function()
 		local var_3_0 = {}
@@ -98,7 +99,7 @@ function var_0_0.getResource(arg_2_0)
 		local var_8_1 = getProxy(ActivityProxy):getBannerDisplays()
 
 		_.each(var_8_1, function(arg_9_0)
-			local var_9_0 = var_0_0.ConstPath.UI.ActivityBanner
+			local var_9_0 = ResPathSupport.ConstPath.UI.ActivityBanner
 			local var_9_1 = arg_9_0.pic
 
 			table.insert(var_8_0, ResPathSupport.CombinePath(var_9_0, var_9_1))
@@ -194,7 +195,7 @@ function var_0_0.getResource(arg_2_0)
 		return _.flatten(var_15_0)
 	end)()
 
-	return ResPathSupport.MergeLuaArr(var_2_0, var_2_1, var_2_2, var_2_3, var_2_4, var_2_5, var_2_6, var_2_7)
+	return ResPathSupport.MergeLuaArr(var_2_0, var_2_1, var_2_2, var_2_3, var_2_4, var_2_5, var_2_6, var_2_7, var_0_0.super.getResource(arg_2_0))
 end
 
 function var_0_0.needCache(arg_16_0)

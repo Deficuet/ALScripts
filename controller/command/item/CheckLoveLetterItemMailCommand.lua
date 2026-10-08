@@ -9,7 +9,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		item_id = var_1_1,
 		groupid = var_1_2
 	}, 30017, function(arg_2_0)
-		local var_2_0 = underscore.rest(arg_2_0.years, 1)
+		local var_2_0 = underscore.to_array(arg_2_0.years)
 
 		getProxy(BagProxy):SetLoveLetterRepairInfo(var_1_1 .. "_" .. var_1_2, var_2_0)
 

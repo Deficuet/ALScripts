@@ -159,7 +159,7 @@ local var_0_2 = {
 		local var_18_0 = nowWorld()
 
 		if var_18_0.type == World.TypeBase then
-			return underscore.rest(var_18_0.baseShipIds, 1)
+			return underscore.to_array(var_18_0.baseShipIds)
 		else
 			return _.map(var_18_0:GetShips(), function(arg_19_0)
 				return arg_19_0.id

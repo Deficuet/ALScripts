@@ -274,7 +274,7 @@ function var_0_0.init(arg_6_0)
 				cmd = "move",
 				filter = {
 					type = "ids",
-					list = underscore.rest(arg_6_0.proxy.importantIds, 1)
+					list = underscore.to_array(arg_6_0.proxy.importantIds)
 				}
 			})
 		end)
@@ -286,9 +286,9 @@ function var_0_0.init(arg_6_0)
 		local var_32_0 = {}
 
 		if arg_6_0.mailToggle == "important" then
-			var_32_0 = underscore.rest(arg_6_0.proxy.importantIds, 1)
+			var_32_0 = underscore.to_array(arg_6_0.proxy.importantIds)
 		elseif arg_6_0.mailToggle == "rare" then
-			var_32_0 = underscore.rest(arg_6_0.proxy.rareIds, 1)
+			var_32_0 = underscore.to_array(arg_6_0.proxy.rareIds)
 		else
 			assert(false)
 		end

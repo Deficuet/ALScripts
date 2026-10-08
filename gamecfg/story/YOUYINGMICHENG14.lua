@@ -4,10 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_youyingmicheng_4",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "坐落在新纪元都市群西北角的NO.5是一处企业聚集地，一片由摩天大楼构成的苍白“森林”。",
 			bgm = "story-nonightcity",
 			typewriter = {
@@ -29,10 +30,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_youyingmicheng_4",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "纵使检查口外围高墙覆着绿植作为伪装，但那紧闭的入城口依旧带给人冰冷而生硬的压迫感。",
 			typewriter = {
 				speed = 0.05,
@@ -40,10 +42,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_youyingmicheng_4",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "我上前几步，检查口上方的识别装置立刻亮了起来。",
 			typewriter = {
 				speed = 0.05,
@@ -51,11 +54,12 @@ return {
 			}
 		},
 		{
-			side = 2,
+			nameColor = "#A9F548FF",
 			actorName = "识别装置",
 			bgName = "bg_youyingmicheng_4",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			side = 2,
+			NextIcon = 1,
 			say = "身份识别中……识别通过。\n来访单位：新纪元都市NO.7，「异常事件调查中心」指挥官。",
 			typewriter = {
 				speed = 0.05,
@@ -63,11 +67,12 @@ return {
 			}
 		},
 		{
-			side = 2,
+			nameColor = "#A9F548FF",
 			actorName = "识别装置",
 			bgName = "bg_youyingmicheng_4",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			side = 2,
+			NextIcon = 1,
 			say = "通话已转交上级部门，请您原地等待。",
 			typewriter = {
 				speed = 0.05,
@@ -75,11 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 231211,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
+			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "NO.5……听说那里的管理者是个很厉害的企业家{namecode:98:明石}……",
@@ -111,6 +117,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -131,6 +138,7 @@ return {
 			factiontag = "幽影",
 			dir = 1,
 			actorName = "？？",
+			NextIcon = 1,
 			actor = 307162,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
@@ -146,6 +154,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -170,13 +179,14 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 307162,
-			nameColor = "#FF9B93",
+			actorName = "？？",
 			hidePaintObj = true,
 			say = "呵呵，反应这么快，看来NO.7确实没把时间浪费在苟且偷生上呢。",
 			typewriter = {
@@ -185,10 +195,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "伴随着轻微的空间扭曲，摇摆着狐尾的少女不知何时已然欺近，纤细的手腕悄然攀上我的肩膀。",
 			typewriter = {
 				speed = 0.05,
@@ -196,10 +207,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "电光火石间，虎已经发动攻势，狐狸少女则灵巧地完成了闪避。",
 			typewriter = {
 				speed = 0.05,
@@ -213,6 +225,7 @@ return {
 			factiontag = "幽影",
 			dir = 1,
 			actorName = "？？",
+			NextIcon = 1,
 			actor = 307162,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
@@ -228,6 +241,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 202380,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -238,12 +252,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "既然都现身了，就直接说明来意吧。",
 			typewriter = {
 				speed = 0.05,
@@ -257,6 +272,7 @@ return {
 			factiontag = "幽影",
 			dir = 1,
 			actorName = "？？",
+			NextIcon = 1,
 			actor = 307162,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
@@ -267,13 +283,14 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 307162,
-			nameColor = "#FF9B93",
+			actorName = "？？",
 			hidePaintObj = true,
 			say = "这样的话，不做个自我介绍就有些失礼了。",
 			typewriter = {
@@ -282,11 +299,12 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			actor = 307162,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "我是{namecode:302:白凤}，领命攻击此地的幽影。",
@@ -301,6 +319,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 307162,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
@@ -311,11 +330,12 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			actor = 307162,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "准确来说，我这次是专程替那位魔王来看一眼，这位与众不同的指挥官大人~",
@@ -330,6 +350,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 307162,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
@@ -345,6 +366,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 307162,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
@@ -355,11 +377,12 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			actor = 307162,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "就算我不拦你，前面也不会有人欢迎你。",
@@ -374,6 +397,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 307162,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
@@ -384,10 +408,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "下一秒，她的身影便化作一阵飘散的白色残影，无声地消失了。",
 			typewriter = {
 				speed = 0.05,
@@ -400,6 +425,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -410,12 +436,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "……先尝试联系上NO.5内部吧。",
 			typewriter = {
 				speed = 0.05,
@@ -423,10 +450,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_youyingmicheng_4",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "短暂的沉默后，伴随着一声“滋”的轻响，一道投影出现在我们面前。",
 			typewriter = {
 				speed = 0.05,
@@ -451,11 +479,12 @@ return {
 			}
 		},
 		{
-			actor = 899050,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "17号秘书",
 			dir = 1,
+			actor = 899050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "感谢你们的来访，我是{namecode:98:明石}董事长的17号秘书。现在就由我来对各位进行情况说明。",
@@ -470,6 +499,7 @@ return {
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -495,6 +525,7 @@ return {
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "17号秘书",
 			dir = 1,
+			NextIcon = 1,
 			actor = 899050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -510,6 +541,7 @@ return {
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "17号秘书",
 			dir = 1,
+			NextIcon = 1,
 			actor = 899050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -525,6 +557,7 @@ return {
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "17号秘书",
 			dir = 1,
+			NextIcon = 1,
 			actor = 899050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -535,11 +568,12 @@ return {
 			}
 		},
 		{
-			actor = 899050,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "17号秘书",
 			dir = 1,
+			actor = 899050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "资金在流动，产业在转移，打工人的迁徙也是一种时代规律。",
@@ -549,11 +583,12 @@ return {
 			}
 		},
 		{
-			actor = 900557,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "幽影行动员",
 			dir = 1,
+			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "呃，你们认识？",
@@ -572,6 +607,7 @@ return {
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "17号秘书",
 			dir = 1,
+			NextIcon = 1,
 			actor = 899050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -582,11 +618,12 @@ return {
 			}
 		},
 		{
-			actor = 899050,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "17号秘书",
 			dir = 1,
+			actor = 899050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "非常抱歉，{namecode:98:明石}董事长目前拒绝与各位会面。",
@@ -601,6 +638,7 @@ return {
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "幽影行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900557,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -615,11 +653,12 @@ return {
 			}
 		},
 		{
-			actor = 899050,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "17号秘书",
 			dir = 1,
+			actor = 899050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "官方说法是，NO.5目前仍有自行处理局势的能力，不接受外部干预。",
@@ -629,12 +668,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "bg_youyingmicheng_4",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "你刚刚说的是官方说法，那非官方说法是？",
 			typewriter = {
 				speed = 0.05,
@@ -642,11 +682,12 @@ return {
 			}
 		},
 		{
-			actor = 899050,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "17号秘书",
 			dir = 1,
+			actor = 899050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……外来者的援助可能别有用心。我只能说到这里。",
@@ -661,6 +702,7 @@ return {
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -671,11 +713,12 @@ return {
 			}
 		},
 		{
-			actor = 899050,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "17号秘书",
 			dir = 1,
+			actor = 899050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "没错，所以我们决定先拉十场会议来明确现阶段的应对方案。",
@@ -685,11 +728,12 @@ return {
 			}
 		},
 		{
-			actor = 899050,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "17号秘书",
 			dir = 1,
+			actor = 899050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……抱歉，生产不能停，我该回工位了。",
@@ -699,11 +743,12 @@ return {
 			}
 		},
 		{
-			actor = 899050,
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "17号秘书",
 			dir = 1,
+			actor = 899050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不过……",
@@ -713,10 +758,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "bg_youyingmicheng_4",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "在投影熄灭前，暴风雨露出了一个淡淡的微笑。",
 			typewriter = {
 				speed = 0.05,
@@ -729,6 +775,7 @@ return {
 			bgName = "bg_youyingmicheng_4",
 			factiontag = "17号秘书",
 			dir = 1,
+			NextIcon = 1,
 			actor = 899050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

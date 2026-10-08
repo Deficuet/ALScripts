@@ -33,10 +33,11 @@ local function var_0_1(arg_4_0)
 	end
 end
 
-function var_0_0.Show(arg_5_0, arg_5_1)
+function var_0_0.Show(arg_5_0, arg_5_1, arg_5_2)
 	assert(arg_5_1:isChargeType())
 	var_0_0.super.Show(arg_5_0)
 
+	arg_5_0.onClose = arg_5_2
 	arg_5_0.chargeCommodity = arg_5_1
 
 	local var_5_0 = var_0_1(arg_5_1)
@@ -184,6 +185,12 @@ function var_0_0.Hide(arg_22_0)
 	end
 
 	pg.UIMgr.GetInstance():UnOverlayPanel(arg_22_0._tf, arg_22_0._parentTf)
+
+	if arg_22_0.onClose then
+		arg_22_0.onClose()
+
+		arg_22_0.onClose = nil
+	end
 end
 
 function var_0_0.OnDestroy(arg_23_0)

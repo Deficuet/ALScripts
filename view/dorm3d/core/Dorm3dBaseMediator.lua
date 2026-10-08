@@ -17,17 +17,16 @@ end
 
 function var_0_0.listNotificationInterests(arg_3_0)
 	local var_3_0 = underscore.keys(arg_3_0.handleDic or {})
+	local var_3_1 = arg_3_0.GetDefaultSystemClasses()
+
+	for iter_3_0, iter_3_1 in ipairs(var_3_1) do
+		if iter_3_1.GetInterests then
+			var_3_0 = table.mergeArray(var_3_0, iter_3_1.GetInterests(), true)
+		end
+	end
 
 	if arg_3_0.viewComponent and arg_3_0.viewComponent.systemManager then
 		var_3_0 = table.mergeArray(var_3_0, arg_3_0.viewComponent.systemManager:GetAllInterests(), true)
-	else
-		local var_3_1 = arg_3_0.GetDefaultSystemClasses()
-
-		for iter_3_0, iter_3_1 in ipairs(var_3_1) do
-			if iter_3_1.GetInterests then
-				var_3_0 = table.mergeArray(var_3_0, iter_3_1.GetInterests())
-			end
-		end
 	end
 
 	return var_3_0

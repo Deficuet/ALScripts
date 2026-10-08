@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "啊，指挥官大人，请稍等——",
 			typewriter = {
 				speed = 0.05,
@@ -17,10 +18,11 @@ return {
 		},
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			NextIcon = 1,
 			say = "这里的门，每次进出都要弯腰，要是有更方便的办法就好了。",
 			typewriter = {
 				speed = 0.05,
@@ -39,11 +41,12 @@ return {
 		},
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			NextIcon = 1,
 			say = "这个主意不错呢~",
 			typewriter = {
 				speed = 0.05,
@@ -52,11 +55,12 @@ return {
 		},
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			NextIcon = 1,
 			say = "那就请您亲手帮帮我吧，呵呵~",
 			typewriter = {
 				speed = 0.05,
@@ -65,11 +69,12 @@ return {
 		},
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			NextIcon = 1,
 			say = "嗯……很遗憾~",
 			typewriter = {
 				speed = 0.05,
@@ -78,11 +83,12 @@ return {
 		},
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			NextIcon = 1,
 			say = "市政厅的预算也是有限的哦。",
 			typewriter = {
 				speed = 0.05,

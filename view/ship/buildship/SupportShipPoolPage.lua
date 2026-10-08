@@ -1,96 +1,113 @@
 local var_0_0 = class("SupportShipPoolPage", import("...base.BaseSubView"))
 
-function var_0_0.getUIName(arg_1_0)
+function var_0_0.getResource(arg_1_0)
+	local var_1_0 = {}
+	local var_1_1 = pg.gametip.honor_medal_support_tips_display.tip
+
+	if var_1_1 and noEmptyStr(var_1_1.bg) then
+		table.insert(var_1_0, var_1_1.bg)
+	end
+
+	local var_1_2 = arg_1_0.contextData and arg_1_0.contextData.falgShip or getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getData().character)
+
+	if var_1_2 then
+		table.insertto(var_1_0, ResPathSupport.GetPaintingListByPaintingName(var_1_2:getPainting()))
+	end
+
+	return table.insertto(var_1_0, var_0_0.super.getResource(arg_1_0))
+end
+
+function var_0_0.getUIName(arg_2_0)
 	return "SupportShipPoolPageUI"
 end
 
-function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.medalCount = arg_2_0._tf:Find("gallery/res_items/medal")
-	arg_2_0.patingTF = arg_2_0._tf:Find("painting")
-	arg_2_0.bg = arg_2_0._tf:Find("gallery/bg")
-	arg_2_0.tipSTxt = arg_2_0.bg:Find("type_intro/mask/title"):GetComponent("ScrollText")
-	arg_2_0.shopBtn = arg_2_0._tf:Find("gallery/shop_btn")
-	arg_2_0.helpBtn = arg_2_0._tf:Find("gallery/help_btn")
-	arg_2_0.startBtn = arg_2_0._tf:Find("gallery/start_btn")
+function var_0_0.OnLoaded(arg_3_0)
+	arg_3_0.medalCount = arg_3_0._tf:Find("gallery/res_items/medal")
+	arg_3_0.patingTF = arg_3_0._tf:Find("painting")
+	arg_3_0.bg = arg_3_0._tf:Find("gallery/bg")
+	arg_3_0.tipSTxt = arg_3_0.bg:Find("type_intro/mask/title"):GetComponent("ScrollText")
+	arg_3_0.shopBtn = arg_3_0._tf:Find("gallery/shop_btn")
+	arg_3_0.helpBtn = arg_3_0._tf:Find("gallery/help_btn")
+	arg_3_0.startBtn = arg_3_0._tf:Find("gallery/start_btn")
 end
 
-function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0.shopBtn, function()
-		arg_3_0:emit(BuildShipMediator.ON_SUPPORT_SHOP)
+function var_0_0.OnInit(arg_4_0)
+	onButton(arg_4_0, arg_4_0.shopBtn, function()
+		arg_4_0:emit(BuildShipMediator.ON_SUPPORT_SHOP)
 	end, SFX_PANEL)
 end
 
-function var_0_0.Flush(arg_5_0)
-	arg_5_0:UpdateMedal()
+function var_0_0.Flush(arg_6_0)
+	arg_6_0:UpdateMedal()
 
-	local var_5_0 = getProxy(BuildShipProxy):getSupportShipCost()
-	local var_5_1 = pg.gametip.honor_medal_support_tips_display.tip
+	local var_6_0 = getProxy(BuildShipProxy):getSupportShipCost()
+	local var_6_1 = pg.gametip.honor_medal_support_tips_display.tip
 
-	setText(arg_5_0._tf:Find("gallery/prints/intro/text"), var_5_1.support_tip_consume)
-	setImageSprite(arg_5_0.bg, GetSpriteFromAtlas(var_5_1.bg, ""))
+	setText(arg_6_0._tf:Find("gallery/prints/intro/text"), var_6_1.support_tip_consume)
+	setImageSprite(arg_6_0.bg, GetSpriteFromAtlas(var_6_1.bg, ""))
 
-	local var_5_2 = var_5_1.support_tip_ship
+	local var_6_2 = var_6_1.support_tip_ship
 
-	arg_5_0.tipSTxt:SetText(var_5_2)
+	arg_6_0.tipSTxt:SetText(var_6_2)
 
-	local var_5_3 = arg_5_0._tf:Find("gallery/item_bg/medal")
+	local var_6_3 = arg_6_0._tf:Find("gallery/item_bg/medal")
 
-	setText(var_5_3:Find("name"), Drop.New({
+	setText(var_6_3:Find("name"), Drop.New({
 		type = DROP_TYPE_ITEM,
 		id = ITEM_ID_SILVER_HOOK
 	}):getName())
-	setText(var_5_3:Find("count/Text"), var_5_0)
-	arg_5_0:UpdateBuildPoolPaiting()
-	onButton(arg_5_0, arg_5_0.helpBtn, function()
-		arg_5_0.contextData.helpWindow:ExecuteAction("Show", var_5_1, "support")
+	setText(var_6_3:Find("count/Text"), var_6_0)
+	arg_6_0:UpdateBuildPoolPaiting()
+	onButton(arg_6_0, arg_6_0.helpBtn, function()
+		arg_6_0.contextData.helpWindow:ExecuteAction("Show", var_6_1, "support")
 	end, SFX_CANCEL)
 
-	local var_5_4 = getProxy(BagProxy)
+	local var_6_4 = getProxy(BagProxy)
 
-	onButton(arg_5_0, arg_5_0.startBtn, function()
-		local var_7_0 = {
+	onButton(arg_6_0, arg_6_0.startBtn, function()
+		local var_8_0 = {
 			buildType = "medal",
 			itemVO = Item.New({
 				id = ITEM_ID_SILVER_HOOK,
-				count = var_5_4:getItemCountById(ITEM_ID_SILVER_HOOK)
+				count = var_6_4:getItemCountById(ITEM_ID_SILVER_HOOK)
 			}),
-			cost = var_5_0,
+			cost = var_6_0,
 			max = MAX_BUILD_WORK_COUNT,
-			onConfirm = function(arg_8_0)
-				arg_5_0:emit(BuildShipMediator.ON_SUPPORT_EXCHANGE, arg_8_0)
+			onConfirm = function(arg_9_0)
+				arg_6_0:emit(BuildShipMediator.ON_SUPPORT_EXCHANGE, arg_9_0)
 			end
 		}
 
-		arg_5_0.contextData.msgbox:ExecuteAction("Show", var_7_0)
+		arg_6_0.contextData.msgbox:ExecuteAction("Show", var_8_0)
 	end, SFX_UI_BUILDING_STARTBUILDING)
 end
 
-function var_0_0.UpdateMedal(arg_9_0)
-	setText(arg_9_0.medalCount:Find("Text"), getProxy(BagProxy):getItemCountById(ITEM_ID_SILVER_HOOK))
+function var_0_0.UpdateMedal(arg_10_0)
+	setText(arg_10_0.medalCount:Find("Text"), getProxy(BagProxy):getItemCountById(ITEM_ID_SILVER_HOOK))
 end
 
-function var_0_0.UpdateBuildPoolPaiting(arg_10_0)
-	local var_10_0 = arg_10_0.contextData.falgShip:getPainting()
+function var_0_0.UpdateBuildPoolPaiting(arg_11_0)
+	local var_11_0 = arg_11_0.contextData.falgShip:getPainting()
 
-	if arg_10_0.painting ~= var_10_0 then
+	if arg_11_0.painting ~= var_11_0 then
 		pg.UIMgr.GetInstance():LoadingOn()
-		setPaintingPrefabAsync(arg_10_0.patingTF, var_10_0, "build", function()
-			arg_10_0.painting = var_10_0
+		setPaintingPrefabAsync(arg_11_0.patingTF, var_11_0, "build", function()
+			arg_11_0.painting = var_11_0
 
 			pg.UIMgr.GetInstance():LoadingOff()
 		end)
 	end
 end
 
-function var_0_0.ShowOrHide(arg_12_0, arg_12_1)
-	if arg_12_1 then
-		arg_12_0:Show()
+function var_0_0.ShowOrHide(arg_13_0, arg_13_1)
+	if arg_13_1 then
+		arg_13_0:Show()
 	else
-		arg_12_0:Hide()
+		arg_13_0:Hide()
 	end
 end
 
-function var_0_0.OnDestroy(arg_13_0)
+function var_0_0.OnDestroy(arg_14_0)
 	return
 end
 

@@ -645,112 +645,101 @@ function var_0_0.GetResList(arg_77_0)
 	end
 
 	local var_77_3 = _.map(var_77_0, function(arg_78_0)
-		return "bg/" .. arg_78_0
+		return ResPathSupport.CombinePath(ResPathSupport.ConstPath.BG.Base, arg_78_0)
 	end)
 	local var_77_4 = {}
-	local var_77_5, var_77_6, var_77_7 = arg_77_0:GetBgmData()
+	local var_77_5 = {}
+	local var_77_6, var_77_7, var_77_8 = arg_77_0:GetBgmData()
 
-	if var_77_5 then
-		table.insert(var_77_4, var_77_5)
+	if var_77_6 then
+		table.insert(var_77_4, var_77_6)
 	end
-
-	local var_77_8 = {}
-
-	_.each(var_77_4, function(arg_79_0)
-		table.insert(var_77_8, "cue/" .. arg_79_0 .. ".b")
-		table.insert(var_77_8, "cue/bgm-" .. arg_79_0 .. ".b")
-	end)
-
-	local var_77_9 = {}
 
 	if arg_77_0:ShouldPlaySoundEffect() then
-		local var_77_10, var_77_11 = arg_77_0:GetSoundeffect()
+		local var_77_9, var_77_10 = arg_77_0:GetSoundeffect()
 
-		if var_77_10 then
-			table.insert(var_77_9, var_77_10)
+		if var_77_9 then
+			local var_77_11 = pg.CriMgr.GetInstance():CheckFModeEvent(var_77_9, function()
+				return
+			end, function()
+				return
+			end)
+
+			if var_77_11 then
+				table.insert(var_77_4, var_77_11)
+			end
 		end
 	end
-
-	local var_77_12 = {}
-
-	_.each(var_77_9, function(arg_80_0)
-		local var_80_0 = pg.CriMgr.GetInstance():CheckFModeEvent(arg_80_0, function()
-			return
-		end, function()
-			return
-		end)
-
-		if var_80_0 then
-			table.insert(var_77_12, "cue/" .. var_80_0 .. ".b")
-		end
-	end)
-
-	local var_77_13 = {}
 
 	if arg_77_0:ShouldPlayVoice() then
-		local var_77_14, var_77_15 = arg_77_0:GetVoice()
+		local var_77_12, var_77_13 = arg_77_0:GetVoice()
 
-		if var_77_14 then
-			table.insert(var_77_13, var_77_14)
+		if var_77_12 then
+			local var_77_14 = pg.CriMgr.GetInstance():CheckFModeEvent(var_77_12, function()
+				return
+			end, function()
+				return
+			end)
+
+			if var_77_14 then
+				table.insert(var_77_4, var_77_14)
+			end
 		end
 	end
 
-	local var_77_16 = {}
+	_.each(var_77_4, function(arg_83_0)
+		local var_83_0 = ResPathSupport.GetSoundResList(arg_83_0)
 
-	_.each(var_77_13, function(arg_83_0)
-		local var_83_0 = pg.CriMgr.GetInstance():CheckFModeEvent(arg_83_0, function()
-			return
-		end, function()
-			return
-		end)
+		table.insertto(var_77_5, var_83_0)
+	end)
 
-		if var_83_0 then
-			table.insert(var_77_16, "cue/" .. var_83_0 .. ".b")
-		end
+	local var_77_15 = {}
+	local var_77_16 = arg_77_0:GetEffects()
+
+	_.each(var_77_16, function(arg_84_0)
+		local var_84_0 = arg_84_0.name
+
+		table.insert(var_77_15, var_84_0)
 	end)
 
 	local var_77_17 = {}
-	local var_77_18 = arg_77_0:GetEffects()
 
-	_.each(var_77_18, function(arg_86_0)
-		local var_86_0 = arg_86_0.name
+	_.each(var_77_15, function(arg_85_0)
+		local var_85_0 = ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.Base, arg_85_0)
 
-		table.insert(var_77_17, var_86_0)
+		table.insert(var_77_17, var_85_0)
+
+		local var_85_1 = ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.Effect, arg_85_0)
+
+		table.insert(var_77_17, var_85_1)
 	end)
 
-	local var_77_19 = {}
-
-	_.each(var_77_17, function(arg_87_0)
-		table.insert(var_77_19, "ui/" .. arg_87_0)
-		table.insert(var_77_19, "effect/" .. arg_87_0)
-	end)
-
-	local var_77_20 = {}
+	local var_77_18 = {}
 
 	if arg_77_0:ExistIcon() then
-		local var_77_21 = arg_77_0:GetIconData()
+		local var_77_19 = arg_77_0:GetIconData()
 
-		if var_77_21 and var_77_21.image then
-			table.insert(var_77_20, var_77_21.image)
+		if var_77_19 and var_77_19.image then
+			table.insert(var_77_18, var_77_19.image)
 		end
 	end
 
-	local var_77_22 = {}
-	local var_77_23 = StoryRecorder.New()
+	local var_77_20 = {}
+	local var_77_21 = StoryRecorder.New()
 
-	var_77_23:Add(arg_77_0)
+	var_77_21:Add(arg_77_0)
 
-	local var_77_24 = var_77_23:GetContentList()
+	local var_77_22 = var_77_21:GetContentList()
 
-	_.each(var_77_24, function(arg_88_0)
-		if arg_88_0.icon then
-			local var_88_0 = "squareicon/" .. arg_88_0.icon
+	_.each(var_77_22, function(arg_86_0)
+		if arg_86_0.icon then
+			local var_86_0 = ResPathSupport.GetPaintingSquareIconListByPaintingName(arg_86_0.icon)
 
-			table.insert(var_77_22, var_88_0)
+			table.insertto(var_77_20, var_86_0)
 		end
 	end)
 
-	return (SplitPackMediatorResMap.MergeLuaArr(var_77_3, var_77_8, var_77_12, var_77_16, var_77_19, var_77_20, var_77_22))
+	return (ResPathSupport.MergeLuaArr(var_77_3, var_77_5, var_77_17, var_77_18, var_77_20))
 end
 
 return var_0_0

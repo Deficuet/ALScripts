@@ -62,6 +62,10 @@ function var_0_0.InitSceneRefs(arg_12_0)
 end
 
 function var_0_0.EnableDecalRoot(arg_13_0, arg_13_1)
+	if arg_13_0.randomDecalGenerator then
+		arg_13_0.randomDecalGenerator:SetGeneratedActive(arg_13_1)
+	end
+
 	if arg_13_0.decalParent then
 		setActive(arg_13_0.decalParent, arg_13_1)
 	end
@@ -137,6 +141,12 @@ function var_0_0.OnShootLogic(arg_16_0, arg_16_1)
 	if var_16_1 and var_16_5 and var_16_7 < var_16_8 then
 		assert(var_16_2, "CarWash decal hitInfo is nil")
 
+		local var_16_12 = arg_16_0:FindDecalFaceFilter(var_16_2.collider)
+
+		if var_16_12 and not var_16_12:IsAllowed(var_16_2.normal) then
+			return
+		end
+
 		if not _.any(var_16_6, function(arg_18_0)
 			return arg_18_0.decalType == arg_16_0.selectedCarDecalType
 		end) then
@@ -144,18 +154,18 @@ function var_0_0.OnShootLogic(arg_16_0, arg_16_1)
 		end
 
 		for iter_16_2, iter_16_3 in ipairs(var_16_6) do
-			local var_16_12 = CarWashConst.GetStainsConfig(iter_16_3.decalType)
+			local var_16_13 = CarWashConst.GetStainsConfig(iter_16_3.decalType)
 
-			if var_16_12 then
-				local var_16_13 = 0
-				local var_16_14 = arg_16_0.currentGunType == var_16_12.targetGunType
-				local var_16_15 = var_16_12.coverDecal and _.any(var_16_6, function(arg_19_0)
-					return arg_19_0.decalType == var_16_12.coverDecal
+			if var_16_13 then
+				local var_16_14 = 0
+				local var_16_15 = arg_16_0.currentGunType == var_16_13.targetGunType
+				local var_16_16 = var_16_13.coverDecal and _.any(var_16_6, function(arg_19_0)
+					return arg_19_0.decalType == var_16_13.coverDecal
 				end)
-				local var_16_16 = var_16_13 + (var_16_14 and var_16_12.fadePerSec or 0) + (var_16_14 and var_16_15 and var_16_12.coverBuff or 0)
+				local var_16_17 = var_16_14 + (var_16_15 and var_16_13.fadePerSec or 0) + (var_16_15 and var_16_16 and var_16_13.coverBuff or 0)
 
-				if var_16_16 > 0 then
-					iter_16_3:SetAlpha(iter_16_3.Alpha - var_16_16 * var_0_0.ON_SHOOT_INTERVAL)
+				if var_16_17 > 0 then
+					iter_16_3:SetAlpha(iter_16_3.Alpha - var_16_17 * var_0_0.ON_SHOOT_INTERVAL)
 				end
 
 				if iter_16_3.Alpha <= 0 then
@@ -167,101 +177,109 @@ function var_0_0.OnShootLogic(arg_16_0, arg_16_1)
 	end
 end
 
-function var_0_0.GetColliderBone(arg_20_0, arg_20_1)
-	return arg_20_1.parent
-end
-
-function var_0_0.GetCapsuleColliderRadius(arg_21_0, arg_21_1)
-	local var_21_0 = arg_21_1:GetComponent(typeof("UnityEngine.CapsuleCollider"))
-	local var_21_1 = 16191
-
-	if var_21_0 then
-		var_21_1 = var_21_0.radius * 2 - 0.01
-	end
-
-	return math.min(var_21_1, CarWashConst.DEFAULT_LADY_DECAL_SIZE)
-end
-
-function var_0_0.GenerateDecalAtScreenCenter(arg_22_0, arg_22_1, arg_22_2, arg_22_3, arg_22_4)
-	assert(arg_22_1, "CarWash decal type is nil")
-
-	local var_22_0 = CarWashConst.GetDecalConfig(arg_22_1)
-
-	assert(var_22_0, "CarWash decal config not found: " .. tostring(arg_22_1))
-
-	local var_22_1 = arg_22_4 or math.random() * (CarWashConst.ORTHOGRAPHIC_SIZE_RANGE[2] - CarWashConst.ORTHOGRAPHIC_SIZE_RANGE[1]) + CarWashConst.ORTHOGRAPHIC_SIZE_RANGE[1]
-	local var_22_2 = math.floor(var_22_1 * 100) / 100
-	local var_22_3 = math.random() * (CarWashConst.ROTATE_RANGE[2] - CarWashConst.ROTATE_RANGE[1]) + CarWashConst.ROTATE_RANGE[1]
-	local var_22_4, var_22_5 = DecalRaycastUtil.TryComputeDecalPlacement(arg_22_2.point, arg_22_2.normal, var_22_2, var_22_0.aspectRatio, CarWashConst.LAYER_MASK, var_22_3, nil)
-
-	if not var_22_4 then
+function var_0_0.FindDecalFaceFilter(arg_20_0, arg_20_1)
+	if not arg_20_1 then
 		return nil
 	end
 
-	local var_22_6 = arg_22_0:GetSourceMaterial(var_22_0.sourceMaterial)
+	return arg_20_1:GetComponentInChildren(typeof(DecalFaceFilter), true)
+end
 
-	if not var_22_6 then
+function var_0_0.GetColliderBone(arg_21_0, arg_21_1)
+	return arg_21_1.parent
+end
+
+function var_0_0.GetCapsuleColliderRadius(arg_22_0, arg_22_1)
+	local var_22_0 = arg_22_1:GetComponent(typeof("UnityEngine.CapsuleCollider"))
+	local var_22_1 = 16191
+
+	if var_22_0 then
+		var_22_1 = var_22_0.radius * 2 - 0.01
+	end
+
+	return math.min(var_22_1, CarWashConst.DEFAULT_LADY_DECAL_SIZE)
+end
+
+function var_0_0.GenerateDecalAtScreenCenter(arg_23_0, arg_23_1, arg_23_2, arg_23_3, arg_23_4)
+	assert(arg_23_1, "CarWash decal type is nil")
+
+	local var_23_0 = CarWashConst.GetDecalConfig(arg_23_1)
+
+	assert(var_23_0, "CarWash decal config not found: " .. tostring(arg_23_1))
+
+	local var_23_1 = arg_23_4 or math.random() * (CarWashConst.ORTHOGRAPHIC_SIZE_RANGE[2] - CarWashConst.ORTHOGRAPHIC_SIZE_RANGE[1]) + CarWashConst.ORTHOGRAPHIC_SIZE_RANGE[1]
+	local var_23_2 = math.floor(var_23_1 * 100) / 100
+	local var_23_3 = math.random() * (CarWashConst.ROTATE_RANGE[2] - CarWashConst.ROTATE_RANGE[1]) + CarWashConst.ROTATE_RANGE[1]
+	local var_23_4, var_23_5 = DecalRaycastUtil.TryComputeDecalPlacement(arg_23_2.point, arg_23_2.normal, var_23_2, var_23_0.aspectRatio, CarWashConst.LAYER_MASK, var_23_3, arg_23_0:FindDecalFaceFilter(arg_23_2.collider), nil)
+
+	if not var_23_4 then
 		return nil
 	end
 
-	return DecalControllerPoolMgr.Inst:Acquire(var_22_5.position, var_22_5.rotation, arg_22_3 or arg_22_0.decalParent, var_22_6, var_22_2, var_22_0.aspectRatio, var_22_5.nearClip, var_22_5.farClip, var_22_0.renderQueue, var_22_0.decalType or arg_22_1, var_22_0.useAutoFade, var_22_0.autoFadeStartTime, var_22_0.autoFadeTime)
-end
+	local var_23_6 = arg_23_0:GetSourceMaterial(var_23_0.sourceMaterial)
 
-function var_0_0.GetSourceMaterial(arg_23_0, arg_23_1)
-	assert(type(arg_23_1) == "table", "CarWash decal sourceMaterial config should be table")
-	assert(#arg_23_1 > 0, "CarWash decal sourceMaterial config is empty")
-
-	local var_23_0 = arg_23_1[math.random(1, #arg_23_1)]
-	local var_23_1 = DecalMaterialPoolMgr.Inst
-
-	assert(var_23_1, "DecalMaterialPoolMgr.Inst not found")
-
-	local var_23_2 = var_23_1.sourceMaterials
-
-	assert(var_23_2, "DecalMaterialPoolMgr.sourceMaterials not found")
-	assert(var_23_0 >= 0 and var_23_0 < var_23_2.Count, "Invalid decal sourceMaterial index: " .. tostring(var_23_0))
-
-	return var_23_2:get_Item(var_23_0)
-end
-
-function var_0_0.GenerateAll(arg_24_0)
-	if not arg_24_0.randomDecalGenerator then
-		return 0
+	if not var_23_6 then
+		return nil
 	end
 
-	return arg_24_0.randomDecalGenerator:GenerateAll()
+	return DecalControllerPoolMgr.Inst:Acquire(var_23_5.position, var_23_5.rotation, arg_23_3 or arg_23_0.decalParent, var_23_6, var_23_5.orthographicSize, var_23_0.aspectRatio, var_23_5.nearClip, var_23_5.farClip, var_23_0.renderQueue, var_23_0.decalType or arg_23_1, var_23_0.useAutoFade, var_23_0.autoFadeStartTime, var_23_0.autoFadeTime)
 end
 
-function var_0_0.GenerateRegion(arg_25_0, arg_25_1)
+function var_0_0.GetSourceMaterial(arg_24_0, arg_24_1)
+	assert(type(arg_24_1) == "table", "CarWash decal sourceMaterial config should be table")
+	assert(#arg_24_1 > 0, "CarWash decal sourceMaterial config is empty")
+
+	local var_24_0 = arg_24_1[math.random(1, #arg_24_1)]
+	local var_24_1 = DecalMaterialPoolMgr.Inst
+
+	assert(var_24_1, "DecalMaterialPoolMgr.Inst not found")
+
+	local var_24_2 = var_24_1.sourceMaterials
+
+	assert(var_24_2, "DecalMaterialPoolMgr.sourceMaterials not found")
+	assert(var_24_0 >= 0 and var_24_0 < var_24_2.Count, "Invalid decal sourceMaterial index: " .. tostring(var_24_0))
+
+	return var_24_2:get_Item(var_24_0)
+end
+
+function var_0_0.GenerateAll(arg_25_0)
 	if not arg_25_0.randomDecalGenerator then
 		return 0
 	end
 
-	return arg_25_0.randomDecalGenerator:GenerateRegion(arg_25_1)
+	return arg_25_0.randomDecalGenerator:GenerateAll()
 end
 
-function var_0_0.RegenerateAll(arg_26_0, arg_26_1)
+function var_0_0.GenerateRegion(arg_26_0, arg_26_1)
 	if not arg_26_0.randomDecalGenerator then
 		return 0
 	end
 
-	return arg_26_0.randomDecalGenerator:RegenerateAll(arg_26_1)
+	return arg_26_0.randomDecalGenerator:GenerateRegion(arg_26_1)
 end
 
-function var_0_0.RegenerateRegion(arg_27_0, arg_27_1)
+function var_0_0.RegenerateAll(arg_27_0, arg_27_1)
 	if not arg_27_0.randomDecalGenerator then
 		return 0
 	end
 
-	return arg_27_0.randomDecalGenerator:RegenerateRegion(arg_27_1)
+	return arg_27_0.randomDecalGenerator:RegenerateAll(arg_27_1)
 end
 
-function var_0_0.ClearGenerated(arg_28_0)
+function var_0_0.RegenerateRegion(arg_28_0, arg_28_1)
 	if not arg_28_0.randomDecalGenerator then
+		return 0
+	end
+
+	return arg_28_0.randomDecalGenerator:RegenerateRegion(arg_28_1)
+end
+
+function var_0_0.ClearGenerated(arg_29_0)
+	if not arg_29_0.randomDecalGenerator then
 		return
 	end
 
-	arg_28_0.randomDecalGenerator:ClearGenerated()
+	arg_29_0.randomDecalGenerator:ClearGenerated()
 end
 
 return var_0_0

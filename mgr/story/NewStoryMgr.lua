@@ -1124,38 +1124,36 @@ function var_0_0.Fix(arg_106_0)
 end
 
 function var_0_0._GetResList(arg_108_0, arg_108_1)
-	local var_108_0 = "ui/newstoryui"
-	local var_108_1 = arg_108_1:GetDialogueStyleName()
-	local var_108_2 = "ui/newstorydialogue" .. var_108_1
-	local var_108_3 = "ui/newstoryrecordui"
-	local var_108_4 = arg_108_0:_GetStoryPaintingsByName(arg_108_1)
-	local var_108_5 = {}
+	local var_108_0 = {
+		"ui/newstoryui",
+		"ui/newstorydialogue" .. arg_108_1:GetDialogueStyleName(),
+		"ui/newstoryrecordui",
+		"ui/story_atlas"
+	}
+	local var_108_1 = arg_108_0:_GetStoryPaintingsByName(arg_108_1)
+	local var_108_2 = {}
 
-	_.each(var_108_4, function(arg_109_0)
-		PaintingGroupConst.AddPaintingNameWithFilteMap(var_108_5, arg_109_0)
+	_.each(var_108_1, function(arg_109_0)
+		local var_109_0 = ResPathSupport.GetPaintingListByPaintingName(arg_109_0)
+
+		table.insertto(var_108_2, var_109_0)
 	end)
 
-	local var_108_6 = {}
+	local var_108_3 = {}
 
-	_.each(var_108_4, function(arg_110_0)
-		table.insert(var_108_6, "paintingface/" .. arg_110_0)
+	_.each(var_108_1, function(arg_110_0)
+		local var_110_0 = ResPathSupport.GetPaintingFaceListByPaintingName(arg_110_0)
+
+		table.insertto(var_108_3, var_110_0)
 	end)
 
-	local var_108_7 = {}
+	local var_108_4 = {}
 
 	_.each(arg_108_1.steps, function(arg_111_0)
 		local var_111_0 = arg_111_0:GetResList()
 
-		_.each(var_111_0, function(arg_112_0)
-			table.insert(var_108_7, arg_112_0)
-		end)
+		table.insertto(var_108_4, var_111_0)
 	end)
 
-	local var_108_8 = SplitPackMediatorResMap.MergeLuaArr(var_108_5, var_108_6, var_108_7)
-
-	table.insert(var_108_8, var_108_0)
-	table.insert(var_108_8, var_108_2)
-	table.insert(var_108_8, var_108_3)
-
-	return var_108_8
+	return (ResPathSupport.MergeLuaArr(var_108_0, var_108_2, var_108_3, var_108_4))
 end

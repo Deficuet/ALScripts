@@ -7,6 +7,10 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_3 = var_1_2:getActivityById(var_1_0.activity_id)
 
 	if not var_1_3 or var_1_3:isEnd() then
+		if var_1_1 then
+			var_1_1()
+		end
+
 		return
 	end
 
@@ -22,42 +26,20 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 			if var_1_0.cmd == 1 then
 				var_2_0 = PlayerConst.addTranDrop(arg_2_0.award_list)
-				var_1_3.data1_list = {}
 
-				for iter_2_0, iter_2_1 in ipairs(pg.black_friday_battlepass_event_pt[var_1_3.id].target) do
-					if iter_2_1 <= var_1_3.data1 then
-						table.insert(var_1_3.data1_list, iter_2_1)
-					else
-						break
-					end
-				end
-
-				if var_1_3.data2 == 1 then
-					var_1_3.data2_list = underscore.rest(var_1_3.data1_list, 1)
-				end
+				var_1_3:SyncAwardRecords(pg.black_friday_battlepass_event_pt[var_1_3.id])
 			elseif var_1_0.cmd == 2 then
 				var_2_0 = PlayerConst.addTranDrop(arg_2_0.award_list)
 
-				table.insert(var_1_3.data1_list, var_1_0.arg1)
+				var_1_3:AddAwardRecord(var_1_0.arg1)
 			elseif var_1_0.cmd == 3 then
 				var_2_0 = PlayerConst.addTranDrop(arg_2_0.award_list)
 
-				table.insert(var_1_3.data2_list, var_1_0.arg1)
+				var_1_3:AddPayAwardRecord(var_1_0.arg1)
 			elseif var_1_0.cmd == 4 then
 				var_2_0 = PlayerConst.addTranDrop(arg_2_0.award_list)
-				var_1_3.data1_list = {}
 
-				for iter_2_2, iter_2_3 in ipairs(pg.battlepass_event_pt[var_1_3.id].target) do
-					if iter_2_3 <= var_1_3.data1 then
-						table.insert(var_1_3.data1_list, iter_2_3)
-					else
-						break
-					end
-				end
-
-				if var_1_3.data2 == 1 then
-					var_1_3.data2_list = underscore.rest(var_1_3.data1_list, 1)
-				end
+				var_1_3:SyncAwardRecords()
 			end
 
 			var_1_2:updateActivity(var_1_3)
@@ -66,6 +48,10 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				callback = var_1_1
 			})
 		else
+			if var_1_1 then
+				var_1_1()
+			end
+
 			originalPrint(errorTip("", arg_2_0.result))
 		end
 	end)

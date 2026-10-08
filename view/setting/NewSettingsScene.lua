@@ -100,12 +100,7 @@ function var_0_0.didEnter(arg_13_0)
 		})
 	end, SFX_PANEL)
 
-	if PLATFORM_CODE == PLATFORM_US then
-		setActive(arg_13_0.helpBtn, true)
-		onButton(arg_13_0, arg_13_0.helpBtn, function()
-			pg.SdkMgr.GetInstance():OpenYostarHelp()
-		end, SFX_PANEL)
-	elseif PLATFORM_CODE == PLATFORM_KR then
+	if PLATFORM_CODE == PLATFORM_KR then
 		setActive(arg_13_0.helpBtn, true)
 		onButton(arg_13_0, arg_13_0.helpBtn, function()
 			pg.SdkMgr.GetInstance():BugReport()
@@ -114,8 +109,8 @@ function var_0_0.didEnter(arg_13_0)
 	end
 
 	for iter_13_0, iter_13_1 in ipairs(arg_13_0.toggles) do
-		onToggle(arg_13_0, iter_13_1, function(arg_19_0)
-			if arg_19_0 then
+		onToggle(arg_13_0, iter_13_1, function(arg_18_0)
+			if arg_18_0 then
 				arg_13_0:SwitchPage(iter_13_0)
 			end
 		end, SFX_PANEL)
@@ -125,95 +120,95 @@ function var_0_0.didEnter(arg_13_0)
 	arg_13_0:EnterDefaultPage()
 end
 
-function var_0_0.EnterDefaultPage(arg_20_0)
-	local var_20_0
-	local var_20_1 = arg_20_0.contextData.toggle
+function var_0_0.EnterDefaultPage(arg_19_0)
+	local var_19_0
+	local var_19_1 = arg_19_0.contextData.toggle
 
-	if var_20_1 and type(var_20_1) == "string" then
-		if var_20_1 == "sound" or var_20_1 == "res" then
-			var_20_0 = var_0_0.PAGE_RES
+	if var_19_1 and type(var_19_1) == "string" then
+		if var_19_1 == "sound" or var_19_1 == "res" then
+			var_19_0 = var_0_0.PAGE_RES
 		else
-			var_20_0 = table.indexof({
+			var_19_0 = table.indexof({
 				"other",
 				"options",
 				"interface",
 				"res"
-			}, var_20_1)
+			}, var_19_1)
 		end
 	end
 
-	local var_20_2 = arg_20_0.contextData.page or var_20_0 or var_0_0.PAGE_RES
+	local var_19_2 = arg_19_0.contextData.page or var_19_0 or var_0_0.PAGE_RES
 
-	triggerToggle(arg_20_0.toggles[var_20_2], true)
+	triggerToggle(arg_19_0.toggles[var_19_2], true)
 end
 
-function var_0_0.SwitchPage(arg_21_0, arg_21_1)
-	local var_21_0 = arg_21_0.pages[arg_21_1]
+function var_0_0.SwitchPage(arg_20_0, arg_20_1)
+	local var_20_0 = arg_20_0.pages[arg_20_1]
 
-	if arg_21_0.page and arg_21_0.page ~= var_21_0 and arg_21_0.page:GetLoaded() then
-		arg_21_0.page:Hide()
+	if arg_20_0.page and arg_20_0.page ~= var_20_0 and arg_20_0.page:GetLoaded() then
+		arg_20_0.page:Hide()
 	end
 
-	var_21_0:ExecuteAction("Show")
+	var_20_0:ExecuteAction("Show")
 
-	arg_21_0.page = var_21_0
+	arg_20_0.page = var_20_0
 
-	if isa(var_21_0, Settings3DPage) then
-		arg_21_0.hasShow3d = true
+	if isa(var_20_0, Settings3DPage) then
+		arg_20_0.hasShow3d = true
 	end
 
-	if isa(var_21_0, SettingsOtherPage) and isActive(arg_21_0.otherTip) then
-		setActive(arg_21_0.otherTip, false)
+	if isa(var_20_0, SettingsOtherPage) and isActive(arg_20_0.otherTip) then
+		setActive(arg_20_0.otherTip, false)
 	end
 end
 
-function var_0_0.OpenYostarAlertView(arg_22_0)
-	arg_22_0.yostarAlertView = YostarAlertView.New(arg_22_0._tf, arg_22_0.event, {
+function var_0_0.OpenYostarAlertView(arg_21_0)
+	arg_21_0.yostarAlertView = YostarAlertView.New(arg_21_0._tf, arg_21_0.event, {
 		isDestroyOnClose = true,
 		isLinkMode = true
 	})
 
-	arg_22_0.yostarAlertView:Load()
-	arg_22_0.yostarAlertView:ActionInvoke("Show")
+	arg_21_0.yostarAlertView:Load()
+	arg_21_0.yostarAlertView:ActionInvoke("Show")
 end
 
-function var_0_0.CloseYostarAlertView(arg_23_0)
-	if arg_23_0.yostarAlertView and arg_23_0.yostarAlertView:CheckState(BaseSubView.STATES.INITED) then
-		arg_23_0.yostarAlertView:Destroy()
+function var_0_0.CloseYostarAlertView(arg_22_0)
+	if arg_22_0.yostarAlertView and arg_22_0.yostarAlertView:CheckState(BaseSubView.STATES.INITED) then
+		arg_22_0.yostarAlertView:Destroy()
 	end
 end
 
-function var_0_0.onBackPressed(arg_24_0)
+function var_0_0.onBackPressed(arg_23_0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
-	local var_24_0 = GameObject.Find("OverlayCamera/Overlay/UIMain/DialogPanel")
+	local var_23_0 = GameObject.Find("OverlayCamera/Overlay/UIMain/DialogPanel")
 
-	if isActive(var_24_0) then
-		triggerButton(var_24_0.transform:Find("dialog/title/back"))
+	if isActive(var_23_0) then
+		triggerButton(var_23_0.transform:Find("dialog/title/back"))
 
 		return
 	end
 
-	arg_24_0:emit(var_0_0.ON_BACK)
+	arg_23_0:emit(var_0_0.ON_BACK)
 end
 
-function var_0_0.willExit(arg_25_0)
-	if arg_25_0.hasShow3d then
+function var_0_0.willExit(arg_24_0)
+	if arg_24_0.hasShow3d then
 		GraphicSettingConst.SettingQuality()
 	end
 
-	for iter_25_0, iter_25_1 in pairs(arg_25_0.pages) do
-		iter_25_1:Destroy()
+	for iter_24_0, iter_24_1 in pairs(arg_24_0.pages) do
+		iter_24_1:Destroy()
 	end
 
-	if arg_25_0.descWindow then
-		arg_25_0.descWindow:Destroy()
+	if arg_24_0.descWindow then
+		arg_24_0.descWindow:Destroy()
 
-		arg_25_0.descWindow = nil
+		arg_24_0.descWindow = nil
 	end
 
-	arg_25_0.page = nil
-	arg_25_0.pages = nil
+	arg_24_0.page = nil
+	arg_24_0.pages = nil
 end
 
 return var_0_0

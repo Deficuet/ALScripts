@@ -7,12 +7,13 @@ var_0_0.Fields = {
 	achEntranceList = "table",
 	costMapDic = "table",
 	mapDic = "table",
+	nShopGoodsDic = "table",
 	transportDic = "table",
-	activeEntranceId = "number",
 	pressingMapList = "table",
-	areaEntranceList = "table",
+	activeEntranceId = "number",
 	portEntranceList = "table",
 	activeMapId = "number",
+	delegatedMapDic = "table",
 	taskMarkDic = "table",
 	pressingUnlcokCount = "number",
 	world = "table",
@@ -20,7 +21,7 @@ var_0_0.Fields = {
 	treasureMarkDic = "table",
 	id = "number",
 	entranceDic = "table",
-	nShopGoodsDic = "table",
+	areaEntranceList = "table",
 	mapEntrance = "table"
 }
 var_0_0.EventUpdateProgress = "WorldAtlas.EventUpdateProgress"
@@ -59,6 +60,7 @@ function var_0_0.Build(arg_2_0)
 	arg_2_0.treasureMarkDic = {}
 	arg_2_0.sairenEntranceList = {}
 	arg_2_0.costMapDic = {}
+	arg_2_0.delegatedMapDic = {}
 	arg_2_0.pressingMapList = {}
 	arg_2_0.transportDic = {}
 	arg_2_0.markPortDic = {}
@@ -328,279 +330,308 @@ function var_0_0.UpdateTreasure(arg_25_0, arg_25_1)
 	end
 end
 
-function var_0_0.SetPressingMarkList(arg_26_0, arg_26_1)
-	_.each(arg_26_0.pressingMapList, function(arg_27_0)
-		arg_26_0:GetMap(arg_27_0):UpdatePressingMark(false)
+function var_0_0.SetDelegatedMarkList(arg_26_0, arg_26_1)
+	for iter_26_0, iter_26_1 in pairs(arg_26_0.delegatedMapDic) do
+		arg_26_0:GetMap(iter_26_0):UpdateDeteagtedMark(false)
+	end
+
+	arg_26_0.delegatedMapDic = {}
+
+	for iter_26_2, iter_26_3 in ipairs(arg_26_1) do
+		arg_26_0.delegatedMapDic[iter_26_3] = true
+
+		arg_26_0:GetMap(iter_26_3):UpdateDeteagtedMark(true)
+	end
+end
+
+function var_0_0.SetPressingMarkList(arg_27_0, arg_27_1)
+	_.each(arg_27_0.pressingMapList, function(arg_28_0)
+		arg_27_0:GetMap(arg_28_0):UpdatePressingMark(false)
 	end)
 
-	local var_26_0 = 0
+	local var_27_0 = 0
 
-	arg_26_0.pressingMapList = arg_26_1
+	arg_27_0.pressingMapList = arg_27_1
 
-	_.each(arg_26_0.pressingMapList, function(arg_28_0)
-		arg_26_0:GetMap(arg_28_0):UpdatePressingMark(true)
+	_.each(arg_27_0.pressingMapList, function(arg_29_0)
+		arg_27_0:GetMap(arg_29_0):UpdatePressingMark(true)
 
-		local var_28_0 = arg_26_0.mapEntrance[arg_28_0]
+		local var_29_0 = arg_27_0.mapEntrance[arg_29_0]
 
-		if var_28_0 and not var_28_0:HasPort() then
-			var_26_0 = var_26_0 + 1
+		if var_29_0 and not var_29_0:HasPort() then
+			var_27_0 = var_27_0 + 1
 		end
 	end)
 
-	arg_26_0.pressingUnlcokCount = var_26_0
+	arg_27_0.pressingUnlcokCount = var_27_0
 
-	arg_26_0:BuildTransportDic()
+	arg_27_0:BuildTransportDic()
 end
 
-function var_0_0.BuildTransportDic(arg_29_0)
-	arg_29_0.transportDic = {}
+function var_0_0.BuildTransportDic(arg_30_0)
+	arg_30_0.transportDic = {}
 
-	for iter_29_0, iter_29_1 in pairs(arg_29_0.entranceDic) do
-		if iter_29_1:IsPressing() then
-			arg_29_0.transportDic[iter_29_0] = true
+	for iter_30_0, iter_30_1 in pairs(arg_30_0.entranceDic) do
+		if iter_30_1:IsPressing() then
+			arg_30_0.transportDic[iter_30_0] = true
 
-			for iter_29_2 in pairs(iter_29_1.transportDic) do
-				arg_29_0.transportDic[iter_29_2] = true
+			for iter_30_2 in pairs(iter_30_1.transportDic) do
+				arg_30_0.transportDic[iter_30_2] = true
 			end
 		end
 	end
 
 	if nowWorld():IsReseted() then
-		arg_29_0:AddPortTransportDic()
+		arg_30_0:AddPortTransportDic()
 	end
 end
 
-function var_0_0.AddPortTransportDic(arg_30_0)
-	for iter_30_0, iter_30_1 in pairs(arg_30_0.portEntranceList) do
-		for iter_30_2, iter_30_3 in ipairs(iter_30_1) do
-			arg_30_0.transportDic[iter_30_3] = true
+function var_0_0.AddPortTransportDic(arg_31_0)
+	for iter_31_0, iter_31_1 in pairs(arg_31_0.portEntranceList) do
+		for iter_31_2, iter_31_3 in ipairs(iter_31_1) do
+			arg_31_0.transportDic[iter_31_3] = true
 		end
 	end
 end
 
-function var_0_0.MarkMapTransport(arg_31_0, arg_31_1)
-	local var_31_0 = arg_31_0.mapEntrance[arg_31_1]
+function var_0_0.MarkMapTransport(arg_32_0, arg_32_1)
+	local var_32_0 = arg_32_0.mapEntrance[arg_32_1]
 
-	if var_31_0 then
-		arg_31_0.transportDic[var_31_0.id] = true
+	if var_32_0 then
+		arg_32_0.transportDic[var_32_0.id] = true
 	end
 end
 
-function var_0_0.AddPressingMap(arg_32_0, arg_32_1)
-	if _.any(arg_32_0.pressingMapList, function(arg_33_0)
-		return arg_33_0 == arg_32_1
+function var_0_0.AddDelegatedMap(arg_33_0, arg_33_1)
+	assert(not arg_33_0.delegatedMapDic[arg_33_1], "already delegated map: " .. arg_33_1)
+
+	arg_33_0.delegatedMapDic[arg_33_1] = true
+	arg_33_0.costMapDic[arg_33_1] = true
+
+	local var_33_0 = arg_33_0:GetMap(arg_33_1)
+
+	var_33_0:UpdateDeteagtedMark(true)
+
+	var_33_0.isCost = true
+
+	arg_33_0:AddPressingMap(arg_33_1)
+end
+
+function var_0_0.AddPressingMap(arg_34_0, arg_34_1)
+	if _.any(arg_34_0.pressingMapList, function(arg_35_0)
+		return arg_35_0 == arg_34_1
 	end) then
 		return
 	else
-		arg_32_0:GetMap(arg_32_1):UpdatePressingMark(true)
-		table.insert(arg_32_0.pressingMapList, arg_32_1)
+		arg_34_0:GetMap(arg_34_1):UpdatePressingMark(true)
+		table.insert(arg_34_0.pressingMapList, arg_34_1)
 
-		local var_32_0 = arg_32_0.mapEntrance[arg_32_1]
+		local var_34_0 = arg_34_0.mapEntrance[arg_34_1]
 
-		if var_32_0 then
-			local var_32_1 = {}
+		if var_34_0 then
+			local var_34_1 = {}
 
-			arg_32_0.transportDic[var_32_0.id] = true
-			var_32_1[var_32_0.id] = true
+			arg_34_0.transportDic[var_34_0.id] = true
+			var_34_1[var_34_0.id] = true
 
-			for iter_32_0 in pairs(var_32_0.transportDic) do
-				if not arg_32_0.transportDic[iter_32_0] then
-					arg_32_0.transportDic[iter_32_0] = true
-					var_32_1[iter_32_0] = true
+			for iter_34_0 in pairs(var_34_0.transportDic) do
+				if not arg_34_0.transportDic[iter_34_0] then
+					arg_34_0.transportDic[iter_34_0] = true
+					var_34_1[iter_34_0] = true
 				end
 			end
 
-			arg_32_0:DispatchEvent(var_0_0.EventAddPressingEntrance, var_32_1)
+			arg_34_0:DispatchEvent(var_0_0.EventAddPressingEntrance, var_34_1)
 
-			if not var_32_0:HasPort() then
-				arg_32_0.pressingUnlcokCount = arg_32_0.pressingUnlcokCount + 1
+			if not var_34_0:HasPort() then
+				arg_34_0.pressingUnlcokCount = arg_34_0.pressingUnlcokCount + 1
 
-				arg_32_0:UpdateUnlockCountPortMark()
+				arg_34_0:UpdateUnlockCountPortMark()
 			end
 		end
 
-		arg_32_0:DispatchEvent(var_0_0.EventAddPressingMap, arg_32_1)
+		arg_34_0:DispatchEvent(var_0_0.EventAddPressingMap, arg_34_1)
 	end
 end
 
-function var_0_0.GetPressingUnlockCount(arg_34_0)
-	return arg_34_0.pressingUnlcokCount
+function var_0_0.GetPressingUnlockCount(arg_36_0)
+	return arg_36_0.pressingUnlcokCount
 end
 
-function var_0_0.GetPressingUnlockRecordCount(arg_35_0, arg_35_1)
-	local var_35_0 = getProxy(PlayerProxy):getRawData().id
-	local var_35_1 = nowWorld().activateCount
+function var_0_0.GetPressingUnlockRecordCount(arg_37_0, arg_37_1)
+	local var_37_0 = getProxy(PlayerProxy):getRawData().id
+	local var_37_1 = nowWorld().activateCount
 
-	return PlayerPrefs.GetInt(string.format("world_new_shop_unlock_count_in_port_%d_%d_%d", var_35_0, var_35_1, arg_35_1), -1)
+	return PlayerPrefs.GetInt(string.format("world_new_shop_unlock_count_in_port_%d_%d_%d", var_37_0, var_37_1, arg_37_1), -1)
 end
 
-function var_0_0.SetPressingUnlockRecordCount(arg_36_0, arg_36_1, arg_36_2)
-	local var_36_0 = getProxy(PlayerProxy):getRawData().id
-	local var_36_1 = nowWorld().activateCount
+function var_0_0.SetPressingUnlockRecordCount(arg_38_0, arg_38_1, arg_38_2)
+	local var_38_0 = getProxy(PlayerProxy):getRawData().id
+	local var_38_1 = nowWorld().activateCount
 
-	return PlayerPrefs.SetInt(string.format("world_new_shop_unlock_count_in_port_%d_%d_%d", var_36_0, var_36_1, arg_36_1), arg_36_2)
+	return PlayerPrefs.SetInt(string.format("world_new_shop_unlock_count_in_port_%d_%d_%d", var_38_0, var_38_1, arg_38_1), arg_38_2)
 end
 
-function var_0_0.SetSairenEntranceList(arg_37_0, arg_37_1)
-	_.each(arg_37_0.sairenEntranceList, function(arg_38_0)
-		local var_38_0 = arg_37_0:GetEntrance(arg_38_0)
+function var_0_0.SetSairenEntranceList(arg_39_0, arg_39_1)
+	_.each(arg_39_0.sairenEntranceList, function(arg_40_0)
+		local var_40_0 = arg_39_0:GetEntrance(arg_40_0)
 
-		var_38_0:UpdateSairenMark(false)
-		var_38_0:UpdateDisplayMarks("sairen", false)
+		var_40_0:UpdateSairenMark(false)
+		var_40_0:UpdateDisplayMarks("sairen", false)
 	end)
 
-	arg_37_0.sairenEntranceList = arg_37_1
+	arg_39_0.sairenEntranceList = arg_39_1
 
-	_.each(arg_37_0.sairenEntranceList, function(arg_39_0)
-		local var_39_0 = arg_37_0:GetEntrance(arg_39_0)
+	_.each(arg_39_0.sairenEntranceList, function(arg_41_0)
+		local var_41_0 = arg_39_0:GetEntrance(arg_41_0)
 
-		var_39_0:UpdateSairenMark(true)
-		var_39_0:UpdateDisplayMarks("sairen", true)
+		var_41_0:UpdateSairenMark(true)
+		var_41_0:UpdateDisplayMarks("sairen", true)
 	end)
 end
 
-function var_0_0.RemoveSairenEntrance(arg_40_0, arg_40_1)
-	local var_40_0 = table.indexof(arg_40_0.sairenEntranceList, arg_40_1.id)
+function var_0_0.RemoveSairenEntrance(arg_42_0, arg_42_1)
+	local var_42_0 = table.indexof(arg_42_0.sairenEntranceList, arg_42_1.id)
 
-	if var_40_0 then
-		table.remove(arg_40_0.sairenEntranceList, var_40_0)
-		arg_40_1:UpdateSairenMark(false)
-		arg_40_1:UpdateDisplayMarks("sairen", false)
+	if var_42_0 then
+		table.remove(arg_42_0.sairenEntranceList, var_42_0)
+		arg_42_1:UpdateSairenMark(false)
+		arg_42_1:UpdateDisplayMarks("sairen", false)
 	end
 end
 
-function var_0_0.SetCostMapList(arg_41_0, arg_41_1)
-	for iter_41_0 in pairs(arg_41_0.costMapDic) do
-		arg_41_0:GetMap(iter_41_0).isCost = false
+function var_0_0.SetCostMapList(arg_43_0, arg_43_1)
+	for iter_43_0, iter_43_1 in pairs(arg_43_0.costMapDic) do
+		arg_43_0:GetMap(iter_43_0).isCost = false
 	end
 
-	arg_41_0.costMapDic = {}
+	arg_43_0.costMapDic = {}
 
-	_.each(arg_41_1, function(arg_42_0)
-		arg_41_0.costMapDic[arg_42_0.random_id] = true
-		arg_41_0:GetMap(arg_42_0.random_id).isCost = true
+	_.each(arg_43_1, function(arg_44_0)
+		arg_43_0.costMapDic[arg_44_0.random_id] = true
+		arg_43_0:GetMap(arg_44_0.random_id).isCost = true
 	end)
 end
 
-function var_0_0.UpdateCostMap(arg_43_0, arg_43_1, arg_43_2)
-	if not arg_43_0.costMapDic[arg_43_1] and arg_43_2 then
+function var_0_0.UpdateCostMap(arg_45_0, arg_45_1, arg_45_2)
+	if not arg_45_0.costMapDic[arg_45_1] and arg_45_2 then
 		nowWorld():ClearAllFleetDefeatEnemies()
 	end
 
-	arg_43_0.costMapDic[arg_43_1] = arg_43_2
+	arg_45_0.costMapDic[arg_45_1] = arg_45_2
 end
 
-function var_0_0.SetPortMarkList(arg_44_0, arg_44_1, arg_44_2)
-	arg_44_0.markPortDic.goods = {}
+function var_0_0.SetPortMarkList(arg_46_0, arg_46_1, arg_46_2)
+	arg_46_0.markPortDic.goods = {}
 
-	for iter_44_0, iter_44_1 in ipairs(arg_44_1) do
-		arg_44_0.markPortDic.goods[iter_44_1] = true
+	for iter_46_0, iter_46_1 in ipairs(arg_46_1) do
+		arg_46_0.markPortDic.goods[iter_46_1] = true
 	end
 
-	arg_44_0.markPortDic.new = {}
+	arg_46_0.markPortDic.new = {}
 
-	for iter_44_2, iter_44_3 in ipairs(arg_44_2) do
-		arg_44_0.markPortDic.new[iter_44_3] = true
+	for iter_46_2, iter_46_3 in ipairs(arg_46_2) do
+		arg_46_0.markPortDic.new[iter_46_3] = true
 	end
 end
 
-function var_0_0.UpdatePortMark(arg_45_0, arg_45_1, arg_45_2, arg_45_3)
-	if not arg_45_0.portEntranceList[arg_45_1] then
+function var_0_0.UpdatePortMark(arg_47_0, arg_47_1, arg_47_2, arg_47_3)
+	if not arg_47_0.portEntranceList[arg_47_1] then
 		return
 	end
 
-	local var_45_0
+	local var_47_0
 
-	if arg_45_2 ~= nil and tobool(arg_45_0.markPortDic.goods[arg_45_1]) ~= arg_45_2 then
-		arg_45_0.markPortDic.goods[arg_45_1] = arg_45_2
-		var_45_0 = var_45_0 or {}
+	if arg_47_2 ~= nil and tobool(arg_47_0.markPortDic.goods[arg_47_1]) ~= arg_47_2 then
+		arg_47_0.markPortDic.goods[arg_47_1] = arg_47_2
+		var_47_0 = var_47_0 or {}
 
-		for iter_45_0, iter_45_1 in ipairs(arg_45_0.portEntranceList[arg_45_1]) do
-			var_45_0[iter_45_1] = true
+		for iter_47_0, iter_47_1 in ipairs(arg_47_0.portEntranceList[arg_47_1]) do
+			var_47_0[iter_47_1] = true
 		end
 	end
 
-	if arg_45_3 ~= nil and tobool(arg_45_0.markPortDic.new[arg_45_1]) ~= arg_45_3 then
-		arg_45_0.markPortDic.new[arg_45_1] = arg_45_3
-		var_45_0 = var_45_0 or {}
+	if arg_47_3 ~= nil and tobool(arg_47_0.markPortDic.new[arg_47_1]) ~= arg_47_3 then
+		arg_47_0.markPortDic.new[arg_47_1] = arg_47_3
+		var_47_0 = var_47_0 or {}
 
-		for iter_45_2, iter_45_3 in ipairs(arg_45_0.portEntranceList[arg_45_1]) do
-			var_45_0[iter_45_3] = true
+		for iter_47_2, iter_47_3 in ipairs(arg_47_0.portEntranceList[arg_47_1]) do
+			var_47_0[iter_47_3] = true
 		end
 	end
 
-	if var_45_0 and not nowWorld():UsePortNShop() then
-		arg_45_0:DispatchEvent(var_0_0.EventUpdatePortMark, var_45_0)
+	if var_47_0 and not nowWorld():UsePortNShop() then
+		arg_47_0:DispatchEvent(var_0_0.EventUpdatePortMark, var_47_0)
 	end
 end
 
-function var_0_0.InitPortMarkNShopList(arg_46_0)
-	local var_46_0 = arg_46_0:GetPressingUnlockCount()
+function var_0_0.InitPortMarkNShopList(arg_48_0)
+	local var_48_0 = arg_48_0:GetPressingUnlockCount()
 
-	arg_46_0.markPortDic.newGoods = {}
+	arg_48_0.markPortDic.newGoods = {}
 
-	for iter_46_0, iter_46_1 in pairs(arg_46_0.nShopGoodsDic) do
-		local var_46_1 = Goods.Create({
-			id = iter_46_0,
-			count = iter_46_1
+	for iter_48_0, iter_48_1 in pairs(arg_48_0.nShopGoodsDic) do
+		local var_48_1 = Goods.Create({
+			id = iter_48_0,
+			count = iter_48_1
 		}, Goods.TYPE_WORLD_NSHOP)
-		local var_46_2 = var_46_1:getConfig("port_id")
-		local var_46_3 = var_46_1:getConfig("unlock_num")
-		local var_46_4 = arg_46_0:GetPressingUnlockRecordCount(var_46_2)
+		local var_48_2 = var_48_1:getConfig("port_id")
+		local var_48_3 = var_48_1:getConfig("unlock_num")
+		local var_48_4 = arg_48_0:GetPressingUnlockRecordCount(var_48_2)
 
-		if var_46_1:canPurchase() and var_46_4 < var_46_3 and var_46_3 <= var_46_0 then
-			arg_46_0.markPortDic.newGoods[var_46_2] = true
+		if var_48_1:canPurchase() and var_48_4 < var_48_3 and var_48_3 <= var_48_0 then
+			arg_48_0.markPortDic.newGoods[var_48_2] = true
 		end
 	end
 end
 
-function var_0_0.UpdateUnlockCountPortMark(arg_47_0)
+function var_0_0.UpdateUnlockCountPortMark(arg_49_0)
 	if not nowWorld():UsePortNShop() then
 		return
 	end
 
-	local var_47_0 = arg_47_0.markPortDic.newGoods
+	local var_49_0 = arg_49_0.markPortDic.newGoods
 
-	arg_47_0:InitPortMarkNShopList()
+	arg_49_0:InitPortMarkNShopList()
 
-	for iter_47_0, iter_47_1 in ipairs(underscore.keys(arg_47_0.portEntranceList)) do
-		if tobool(var_47_0[iter_47_1]) ~= tobool(arg_47_0.markPortDic.newGoods[iter_47_1]) then
-			local var_47_1 = {}
+	for iter_49_0, iter_49_1 in ipairs(underscore.keys(arg_49_0.portEntranceList)) do
+		if tobool(var_49_0[iter_49_1]) ~= tobool(arg_49_0.markPortDic.newGoods[iter_49_1]) then
+			local var_49_1 = {}
 
-			for iter_47_2, iter_47_3 in ipairs(arg_47_0.portEntranceList[iter_47_1]) do
-				var_47_1[iter_47_3] = true
+			for iter_49_2, iter_49_3 in ipairs(arg_49_0.portEntranceList[iter_49_1]) do
+				var_49_1[iter_49_3] = true
 			end
 		end
 	end
 
 	if changeDic then
-		arg_47_0:DispatchEvent(var_0_0.EventUpdatePortMark, changeDic)
+		arg_49_0:DispatchEvent(var_0_0.EventUpdatePortMark, changeDic)
 	end
 end
 
-function var_0_0.UpdatePortMarkNShop(arg_48_0, arg_48_1, arg_48_2)
-	if not arg_48_0.portEntranceList[arg_48_1] then
+function var_0_0.UpdatePortMarkNShop(arg_50_0, arg_50_1, arg_50_2)
+	if not arg_50_0.portEntranceList[arg_50_1] then
 		return
 	end
 
-	if tobool(arg_48_0.markPortDic.newGoods[arg_48_1]) ~= arg_48_2 then
-		arg_48_0.markPortDic.newGoods[arg_48_1] = arg_48_2
+	if tobool(arg_50_0.markPortDic.newGoods[arg_50_1]) ~= arg_50_2 then
+		arg_50_0.markPortDic.newGoods[arg_50_1] = arg_50_2
 
 		if nowWorld():UsePortNShop() then
-			local var_48_0 = {}
+			local var_50_0 = {}
 
-			for iter_48_0, iter_48_1 in ipairs(arg_48_0.portEntranceList[arg_48_1]) do
-				var_48_0[iter_48_1] = true
+			for iter_50_0, iter_50_1 in ipairs(arg_50_0.portEntranceList[arg_50_1]) do
+				var_50_0[iter_50_1] = true
 			end
 
-			arg_48_0:DispatchEvent(var_0_0.EventUpdatePortMark, var_48_0)
+			arg_50_0:DispatchEvent(var_0_0.EventUpdatePortMark, var_50_0)
 		end
 	end
 end
 
-function var_0_0.GetAnyPortMarkNShop(arg_49_0)
-	for iter_49_0, iter_49_1 in pairs(arg_49_0.markPortDic.newGoods) do
-		if iter_49_1 then
+function var_0_0.GetAnyPortMarkNShop(arg_51_0)
+	for iter_51_0, iter_51_1 in pairs(arg_51_0.markPortDic.newGoods) do
+		if iter_51_1 then
 			return true
 		end
 	end
@@ -608,38 +639,38 @@ function var_0_0.GetAnyPortMarkNShop(arg_49_0)
 	return false
 end
 
-function var_0_0.InitWorldNShopGoods(arg_50_0, arg_50_1)
-	arg_50_0.nShopGoodsDic = {}
+function var_0_0.InitWorldNShopGoods(arg_52_0, arg_52_1)
+	arg_52_0.nShopGoodsDic = {}
 
-	for iter_50_0, iter_50_1 in ipairs(pg.world_newshop_data.all) do
-		arg_50_0.nShopGoodsDic[iter_50_1] = 0
+	for iter_52_0, iter_52_1 in ipairs(pg.world_newshop_data.all) do
+		arg_52_0.nShopGoodsDic[iter_52_1] = 0
 	end
 
-	for iter_50_2, iter_50_3 in ipairs(arg_50_1) do
-		assert(arg_50_0.nShopGoodsDic[iter_50_3.goods_id], "without this good in id " .. iter_50_3.goods_id)
+	for iter_52_2, iter_52_3 in ipairs(arg_52_1) do
+		assert(arg_52_0.nShopGoodsDic[iter_52_3.goods_id], "without this good in id " .. iter_52_3.goods_id)
 
-		arg_50_0.nShopGoodsDic[iter_50_3.goods_id] = arg_50_0.nShopGoodsDic[iter_50_3.goods_id] + iter_50_3.count
-	end
-end
-
-function var_0_0.UpdateNShopGoodsCount(arg_51_0, arg_51_1, arg_51_2)
-	assert(arg_51_0.nShopGoodsDic[arg_51_1], "without this goods:" .. arg_51_1)
-
-	if arg_51_2 ~= 0 then
-		arg_51_0.nShopGoodsDic[arg_51_1] = arg_51_0.nShopGoodsDic[arg_51_1] + arg_51_2
-
-		arg_51_0:DispatchEvent(var_0_0.EventUpdateNGoodsCount, arg_51_1, arg_51_0.nShopGoodsDic[arg_51_1])
+		arg_52_0.nShopGoodsDic[iter_52_3.goods_id] = arg_52_0.nShopGoodsDic[iter_52_3.goods_id] + iter_52_3.count
 	end
 end
 
-function var_0_0.GetEntrancePortInfo(arg_52_0, arg_52_1)
-	local var_52_0 = arg_52_0:GetEntrance(arg_52_1)
-	local var_52_1 = var_52_0:GetPortId()
+function var_0_0.UpdateNShopGoodsCount(arg_53_0, arg_53_1, arg_53_2)
+	assert(arg_53_0.nShopGoodsDic[arg_53_1], "without this goods:" .. arg_53_1)
+
+	if arg_53_2 ~= 0 then
+		arg_53_0.nShopGoodsDic[arg_53_1] = arg_53_0.nShopGoodsDic[arg_53_1] + arg_53_2
+
+		arg_53_0:DispatchEvent(var_0_0.EventUpdateNGoodsCount, arg_53_1, arg_53_0.nShopGoodsDic[arg_53_1])
+	end
+end
+
+function var_0_0.GetEntrancePortInfo(arg_54_0, arg_54_1)
+	local var_54_0 = arg_54_0:GetEntrance(arg_54_1)
+	local var_54_1 = var_54_0:GetPortId()
 
 	if nowWorld():UsePortNShop() then
-		return arg_52_0.transportDic[var_52_0.id], arg_52_0.markPortDic.newGoods[var_52_1], arg_52_0.markPortDic.newGoods[var_52_1]
+		return arg_54_0.transportDic[var_54_0.id], arg_54_0.markPortDic.newGoods[var_54_1], arg_54_0.markPortDic.newGoods[var_54_1]
 	else
-		return arg_52_0.transportDic[var_52_0.id], arg_52_0.markPortDic.goods[var_52_1], arg_52_0.markPortDic.new[var_52_1]
+		return arg_54_0.transportDic[var_54_0.id], arg_54_0.markPortDic.goods[var_54_1], arg_54_0.markPortDic.new[var_54_1]
 	end
 end
 

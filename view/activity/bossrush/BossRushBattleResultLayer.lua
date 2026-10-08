@@ -18,24 +18,32 @@ function var_0_0.GetAtalsName(arg_4_0)
 	return "ui/battleresult_atlas"
 end
 
-function var_0_0.preload(arg_5_0, arg_5_1)
-	arg_5_0.loader:LoadBundle(arg_5_0:GetAtalsName())
-	existCall(arg_5_1)
+function var_0_0.getResource(arg_5_0)
+	local var_5_0 = var_0_0.super.getResource(arg_5_0)
+
+	table.insert(var_5_0, arg_5_0:GetAtalsName())
+
+	return var_5_0
 end
 
-function var_0_0.init(arg_6_0)
-	local var_6_0 = arg_6_0._tf:Find("main/Series")
+function var_0_0.preload(arg_6_0, arg_6_1)
+	arg_6_0.loader:LoadBundle(arg_6_0:GetAtalsName())
+	existCall(arg_6_1)
+end
 
-	arg_6_0.resultScroll = var_6_0:Find("Scroll")
-	arg_6_0.resultList = var_6_0:Find("Scroll/List")
-	arg_6_0.playerExp = var_6_0:Find("playerExp")
-	arg_6_0.rightBottomPanel = var_6_0:Find("rightBottomPanel")
+function var_0_0.init(arg_7_0)
+	local var_7_0 = arg_7_0._tf:Find("main/Series")
 
-	setText(arg_6_0.rightBottomPanel:Find("confirmBtn/Text"), i18n("text_confirm"))
-	setText(arg_6_0.resultList:Find("Result/BG/Ships/resulttpl/result/Statistics/kill_count_label"), i18n("battle_result_kill_count"))
-	setText(arg_6_0.resultList:Find("Result/BG/Ships/resulttpl/result/Statistics/dmg_count_label"), i18n("battle_result_dmg"))
-	setText(arg_6_0.resultList:Find("Result/BG/commanderExp/commander_container"):GetChild(0):Find("empty/add/Text"), i18n("series_enemy_empty_commander_main"))
-	setText(arg_6_0.resultList:Find("Result/BG/commanderExp/commander_container"):GetChild(1):Find("empty/add/Text"), i18n("series_enemy_empty_commander_assistant"))
+	arg_7_0.resultScroll = var_7_0:Find("Scroll")
+	arg_7_0.resultList = var_7_0:Find("Scroll/List")
+	arg_7_0.playerExp = var_7_0:Find("playerExp")
+	arg_7_0.rightBottomPanel = var_7_0:Find("rightBottomPanel")
+
+	setText(arg_7_0.rightBottomPanel:Find("confirmBtn/Text"), i18n("text_confirm"))
+	setText(arg_7_0.resultList:Find("Result/BG/Ships/resulttpl/result/Statistics/kill_count_label"), i18n("battle_result_kill_count"))
+	setText(arg_7_0.resultList:Find("Result/BG/Ships/resulttpl/result/Statistics/dmg_count_label"), i18n("battle_result_dmg"))
+	setText(arg_7_0.resultList:Find("Result/BG/commanderExp/commander_container"):GetChild(0):Find("empty/add/Text"), i18n("series_enemy_empty_commander_main"))
+	setText(arg_7_0.resultList:Find("Result/BG/commanderExp/commander_container"):GetChild(1):Find("empty/add/Text"), i18n("series_enemy_empty_commander_assistant"))
 end
 
 local var_0_1 = {
@@ -49,485 +57,485 @@ local var_0_2 = {
 	"3c3c3c7f"
 }
 
-function var_0_0.didEnter(arg_7_0)
-	arg_7_0:BlurPanel(arg_7_0._tf, {
+function var_0_0.didEnter(arg_8_0)
+	arg_8_0:BlurPanel(arg_8_0._tf, {
 		staticBlur = true,
 		lockGlobalBlur = true
 	})
 
-	local var_7_0 = arg_7_0.contextData.seriesData
-	local var_7_1 = var_7_0:GetBattleStatistics()
-	local var_7_2 = var_7_0:GetFinalResults()
-	local var_7_3 = var_7_0:GetExpeditionIds()
-	local var_7_4, var_7_5 = var_7_0:GetModeFleetIDs(var_7_0:GetMode())
-	local var_7_6 = var_7_0:GetFleets(var_7_4)
-	local var_7_7 = var_7_0:GetFleets(var_7_5)[1]
-	local var_7_8 = var_7_7:getTeamByName(TeamType.Submarine)
-	local var_7_9 = var_7_7:GetRawCommanderIds()
-	local var_7_10 = {}
-	local var_7_11 = {}
+	local var_8_0 = arg_8_0.contextData.seriesData
+	local var_8_1 = var_8_0:GetBattleStatistics()
+	local var_8_2 = var_8_0:GetFinalResults()
+	local var_8_3 = var_8_0:GetExpeditionIds()
+	local var_8_4, var_8_5 = var_8_0:GetModeFleetIDs(var_8_0:GetMode())
+	local var_8_6 = var_8_0:GetFleets(var_8_4)
+	local var_8_7 = var_8_0:GetFleets(var_8_5)[1]
+	local var_8_8 = var_8_7:getTeamByName(TeamType.Submarine)
+	local var_8_9 = var_8_7:GetRawCommanderIds()
+	local var_8_10 = {}
+	local var_8_11 = {}
 
-	for iter_7_0 = 1, #var_7_3 do
-		local var_7_12 = var_7_6[iter_7_0] or var_7_6[1]
-		local var_7_13 = var_7_2[iter_7_0]
-		local var_7_14 = {
-			index = iter_7_0,
+	for iter_8_0 = 1, #var_8_3 do
+		local var_8_12 = var_8_6[iter_8_0] or var_8_6[1]
+		local var_8_13 = var_8_2[iter_8_0]
+		local var_8_14 = {
+			index = iter_8_0,
 			oldShips = {},
 			ships = {},
 			oldCmds = {},
 			cmds = {},
-			mvp = var_7_13 and var_7_13.mvp or 0
+			mvp = var_8_13 and var_8_13.mvp or 0
 		}
-		local var_7_15 = Clone(var_7_14)
+		local var_8_15 = Clone(var_8_14)
 
-		table.Foreach(var_7_12:getShipIds(), function(arg_8_0, arg_8_1)
-			if iter_7_0 <= #var_7_2 then
-				local var_8_0 = var_7_13.newShips[arg_8_1]
-
-				if var_8_0 then
-					table.insert(var_7_14.ships, var_8_0)
-
-					var_7_14.oldShips[arg_8_1] = var_7_13.oldShips[arg_8_1]
-				end
-			else
-				local var_8_1 = getProxy(BayProxy):getShipById(arg_8_1)
-
-				table.insert(var_7_14.ships, var_8_1)
-
-				var_7_14.oldShips[arg_8_1] = var_8_1
-			end
-		end)
-		table.Foreach(var_7_8, function(arg_9_0, arg_9_1)
-			if iter_7_0 <= #var_7_2 then
-				local var_9_0 = var_7_13.newShips[arg_9_1]
+		table.Foreach(var_8_12:getShipIds(), function(arg_9_0, arg_9_1)
+			if iter_8_0 <= #var_8_2 then
+				local var_9_0 = var_8_13.newShips[arg_9_1]
 
 				if var_9_0 then
-					table.insert(var_7_15.ships, var_9_0)
+					table.insert(var_8_14.ships, var_9_0)
 
-					var_7_15.oldShips[arg_9_1] = var_7_13.oldShips[arg_9_1]
-				end
-			end
-		end)
-
-		local var_7_16 = var_7_12:GetRawCommanderIds()
-
-		_.each({
-			1,
-			2
-		}, function(arg_10_0)
-			local var_10_0 = var_7_16[arg_10_0] or false
-
-			if var_10_0 then
-				if iter_7_0 <= #var_7_2 then
-					local var_10_1 = var_7_13.newCmds[var_10_0]
-
-					if var_10_1 then
-						table.insert(var_7_14.cmds, var_10_1)
-
-						var_7_14.oldCmds[var_10_0] = var_7_13.oldCmds[var_10_0]
-					end
-				else
-					local var_10_2 = getProxy(CommanderProxy):getCommanderById(var_10_0)
-
-					table.insert(var_7_14.cmds, var_10_2)
-
-					var_7_14.oldCmds[var_10_0] = var_10_2
+					var_8_14.oldShips[arg_9_1] = var_8_13.oldShips[arg_9_1]
 				end
 			else
-				table.insert(var_7_14.cmds, false)
+				local var_9_1 = getProxy(BayProxy):getShipById(arg_9_1)
+
+				table.insert(var_8_14.ships, var_9_1)
+
+				var_8_14.oldShips[arg_9_1] = var_9_1
 			end
 		end)
+		table.Foreach(var_8_8, function(arg_10_0, arg_10_1)
+			if iter_8_0 <= #var_8_2 then
+				local var_10_0 = var_8_13.newShips[arg_10_1]
+
+				if var_10_0 then
+					table.insert(var_8_15.ships, var_10_0)
+
+					var_8_15.oldShips[arg_10_1] = var_8_13.oldShips[arg_10_1]
+				end
+			end
+		end)
+
+		local var_8_16 = var_8_12:GetRawCommanderIds()
+
 		_.each({
 			1,
 			2
 		}, function(arg_11_0)
-			local var_11_0 = var_7_9[arg_11_0] or false
+			local var_11_0 = var_8_16[arg_11_0] or false
 
-			if iter_7_0 <= #var_7_2 then
-				if var_11_0 then
-					local var_11_1 = var_7_13.newCmds[var_11_0]
+			if var_11_0 then
+				if iter_8_0 <= #var_8_2 then
+					local var_11_1 = var_8_13.newCmds[var_11_0]
 
 					if var_11_1 then
-						table.insert(var_7_15.cmds, var_11_1)
+						table.insert(var_8_14.cmds, var_11_1)
 
-						var_7_15.oldCmds[var_11_1.id] = var_7_13.oldCmds[var_11_0]
-					else
-						table.insert(var_7_15.cmds, false)
+						var_8_14.oldCmds[var_11_0] = var_8_13.oldCmds[var_11_0]
 					end
 				else
-					table.insert(var_7_15.cmds, false)
+					local var_11_2 = getProxy(CommanderProxy):getCommanderById(var_11_0)
+
+					table.insert(var_8_14.cmds, var_11_2)
+
+					var_8_14.oldCmds[var_11_0] = var_11_2
 				end
-			end
-		end)
-
-		var_7_10[iter_7_0] = var_7_14
-
-		if next(var_7_15.ships) then
-			table.insert(var_7_11, var_7_15)
-		end
-	end
-
-	local var_7_17 = 0
-	local var_7_18 = 0
-
-	local function var_7_19(arg_12_0, arg_12_1, arg_12_2)
-		UIItemList.StaticAlign(arg_12_0, arg_12_0:GetChild(0), 2, function(arg_13_0, arg_13_1, arg_13_2)
-			if arg_13_0 ~= UIItemList.EventUpdate then
-				return
-			end
-
-			local var_13_0 = arg_12_2[arg_13_1 + 1]
-			local var_13_1 = not var_13_0
-
-			setActive(arg_13_2:Find("empty"), var_13_1)
-			setActive(arg_13_2:Find("exp"), not var_13_1)
-
-			if var_13_1 then
-				return
-			end
-
-			local var_13_2 = arg_12_1[var_13_0.id]
-			local var_13_3 = var_13_0.exp
-
-			GetImageSpriteFromAtlasAsync("commandericon/" .. var_13_0:getPainting(), "", arg_13_2:Find("exp/icon"))
-			setText(arg_13_2:Find("exp/name_text"), var_13_0:getName())
-			setText(arg_13_2:Find("exp/lv_text"), "Lv." .. var_13_0.level)
-
-			local var_13_4 = math.max(0, var_13_2.expAdd or 0)
-
-			setText(arg_13_2:Find("exp/exp_text"), "+" .. var_13_4)
-
-			local var_13_5
-			local var_13_6 = var_13_0:isMaxLevel() and 1 or var_13_3 / var_13_0:getNextLevelExp()
-
-			arg_13_2:Find("exp/exp_progress"):GetComponent(typeof(Image)).fillAmount = var_13_6
-		end)
-	end
-
-	local function var_7_20(arg_14_0, arg_14_1, arg_14_2)
-		setActive(arg_14_0:Find("result/mvpBG"), arg_14_1 == arg_14_2)
-	end
-
-	local function var_7_21(arg_15_0, arg_15_1, arg_15_2, arg_15_3)
-		UIItemList.StaticAlign(arg_15_0, arg_15_0:GetChild(0), #arg_15_1, function(arg_16_0, arg_16_1, arg_16_2)
-			if arg_16_0 ~= UIItemList.EventUpdate then
-				return
-			end
-
-			local var_16_0 = arg_15_1[arg_16_1 + 1]
-			local var_16_1 = arg_15_2[var_16_0.id]
-
-			setActive(arg_16_2:Find("result/Exp"), true)
-			setActive(arg_16_2:Find("result/Statistics"), false)
-			var_7_20(arg_16_2, var_16_0.id, arg_15_3)
-
-			local var_16_2 = arg_16_2:Find("result/mask/icon")
-			local var_16_3 = arg_16_2:Find("result/type")
-			local var_16_4 = GetSpriteFromAtlas("shiptype", shipType2print(var_16_1:getShipType()))
-
-			setImageSprite(var_16_3, var_16_4, true)
-			setImageSprite(var_16_2, LoadSprite("herohrzicon/" .. var_16_1:getPainting()))
-
-			local var_16_5 = findTF(arg_16_2, "result/stars")
-			local var_16_6 = findTF(arg_16_2, "result/stars/star_tpl")
-			local var_16_7 = var_16_1:getStar()
-			local var_16_8 = var_16_1:getMaxStar()
-
-			UIItemList.StaticAlign(var_16_5, var_16_6, var_16_8, function(arg_17_0, arg_17_1, arg_17_2)
-				if arg_17_0 ~= UIItemList.EventUpdate then
-					return
-				end
-
-				local var_17_0 = var_16_8 - arg_17_1
-
-				SetActive(arg_17_2:Find("empty"), var_17_0 > var_16_7)
-				SetActive(arg_17_2:Find("star"), var_17_0 <= var_16_7)
-			end)
-			setText(arg_16_2:Find("result/Exp/Level"), "Lv." .. var_16_0.level)
-			setText(arg_16_2:Find("result/Exp/name"), var_16_0:getName())
-
-			local var_16_9 = arg_16_2:Find("result/Exp/exp_text")
-			local var_16_10 = var_16_1:getConfig("rarity")
-
-			if var_16_1.level < var_16_0.level then
-				local var_16_11 = 0
-
-				for iter_16_0 = var_16_1.level, var_16_0.level - 1 do
-					var_16_11 = var_16_11 + getExpByRarityFromLv1(var_16_10, iter_16_0)
-				end
-
-				setText(var_16_9, "+" .. var_16_11 + var_16_0:getExp() - var_16_1:getExp())
-			elseif var_16_1.level == var_16_1:getMaxLevel() then
-				setText(var_16_9, "+" .. 0)
 			else
-				setText(var_16_9, "+" .. (var_16_1.expAdd or 0))
+				table.insert(var_8_14.cmds, false)
 			end
-
-			local var_16_12 = arg_16_2:Find("result/Progress/progress_bar")
-			local var_16_13 = var_16_0:getExp() / getExpByRarityFromLv1(var_16_10, var_16_0.level)
-
-			var_16_12:GetComponent(typeof(Image)).fillAmount = var_16_13
 		end)
+		_.each({
+			1,
+			2
+		}, function(arg_12_0)
+			local var_12_0 = var_8_9[arg_12_0] or false
+
+			if iter_8_0 <= #var_8_2 then
+				if var_12_0 then
+					local var_12_1 = var_8_13.newCmds[var_12_0]
+
+					if var_12_1 then
+						table.insert(var_8_15.cmds, var_12_1)
+
+						var_8_15.oldCmds[var_12_1.id] = var_8_13.oldCmds[var_12_0]
+					else
+						table.insert(var_8_15.cmds, false)
+					end
+				else
+					table.insert(var_8_15.cmds, false)
+				end
+			end
+		end)
+
+		var_8_10[iter_8_0] = var_8_14
+
+		if next(var_8_15.ships) then
+			table.insert(var_8_11, var_8_15)
+		end
 	end
 
-	local function var_7_22(arg_18_0, arg_18_1, arg_18_2, arg_18_3, arg_18_4)
-		arg_18_4 = arg_18_4 and arg_18_4.statistics
+	local var_8_17 = 0
+	local var_8_18 = 0
 
-		local var_18_0 = 0
-
-		if not arg_18_4 then
-			var_18_0 = 10000
-		elseif arg_18_3 == 0 then
-			var_18_0 = 0
-
-			for iter_18_0, iter_18_1 in pairs(arg_18_2) do
-				var_18_0 = math.max(arg_18_4[iter_18_1.id].output, var_18_0)
-			end
-		elseif arg_18_3 > 0 then
-			var_18_0 = arg_18_4[arg_18_3].output
-		end
-
-		UIItemList.StaticAlign(arg_18_0, arg_18_0:GetChild(0), #arg_18_1, function(arg_19_0, arg_19_1, arg_19_2)
-			if arg_19_0 ~= UIItemList.EventUpdate then
+	local function var_8_19(arg_13_0, arg_13_1, arg_13_2)
+		UIItemList.StaticAlign(arg_13_0, arg_13_0:GetChild(0), 2, function(arg_14_0, arg_14_1, arg_14_2)
+			if arg_14_0 ~= UIItemList.EventUpdate then
 				return
 			end
 
-			local var_19_0 = arg_18_1[arg_19_1 + 1]
-			local var_19_1 = arg_18_2[var_19_0.id]
+			local var_14_0 = arg_13_2[arg_14_1 + 1]
+			local var_14_1 = not var_14_0
 
-			setActive(arg_19_2:Find("result/Statistics"), true)
-			setActive(arg_19_2:Find("result/Exp"), false)
-			var_7_20(arg_19_2, var_19_0.id, arg_18_3)
+			setActive(arg_14_2:Find("empty"), var_14_1)
+			setActive(arg_14_2:Find("exp"), not var_14_1)
 
-			local var_19_2 = arg_19_2:Find("result/mask/icon")
-			local var_19_3 = arg_19_2:Find("result/type")
-			local var_19_4 = GetSpriteFromAtlas("shiptype", shipType2print(var_19_1:getShipType()))
+			if var_14_1 then
+				return
+			end
 
-			setImageSprite(var_19_3, var_19_4, true)
-			setImageSprite(var_19_2, LoadSprite("herohrzicon/" .. var_19_1:getPainting()))
+			local var_14_2 = arg_13_1[var_14_0.id]
+			local var_14_3 = var_14_0.exp
 
-			local var_19_5 = findTF(arg_19_2, "result/stars")
-			local var_19_6 = findTF(arg_19_2, "result/stars/star_tpl")
-			local var_19_7 = var_19_1:getStar()
-			local var_19_8 = var_19_1:getMaxStar()
+			GetImageSpriteFromAtlasAsync("commandericon/" .. var_14_0:getPainting(), "", arg_14_2:Find("exp/icon"))
+			setText(arg_14_2:Find("exp/name_text"), var_14_0:getName())
+			setText(arg_14_2:Find("exp/lv_text"), "Lv." .. var_14_0.level)
 
-			UIItemList.StaticAlign(var_19_5, var_19_6, var_19_8, function(arg_20_0, arg_20_1, arg_20_2)
-				if arg_20_0 ~= UIItemList.EventUpdate then
-					return
-				end
+			local var_14_4 = math.max(0, var_14_2.expAdd or 0)
 
-				local var_20_0 = var_19_8 - arg_20_1
+			setText(arg_14_2:Find("exp/exp_text"), "+" .. var_14_4)
 
-				SetActive(arg_20_2:Find("empty"), var_20_0 > var_19_7)
-				SetActive(arg_20_2:Find("star"), var_20_0 <= var_19_7)
-			end)
+			local var_14_5
+			local var_14_6 = var_14_0:isMaxLevel() and 1 or var_14_3 / var_14_0:getNextLevelExp()
 
-			local var_19_9 = arg_18_4 and arg_18_4[var_19_1.id].output or 0
-			local var_19_10 = arg_18_4 and arg_18_4[var_19_1.id].kill_count or 0
-			local var_19_11 = arg_19_2:Find("result/Statistics/atk")
-
-			setText(var_19_11, 0)
-			setText(var_19_11, var_19_9)
-
-			local var_19_12 = arg_19_2:Find("result/Statistics/killCount")
-
-			setText(var_19_12, 0)
-			setText(var_19_12, var_19_10)
-
-			local var_19_13 = arg_19_2:Find("result/Progress/progress_bar")
-
-			var_19_13:GetComponent(typeof(Image)).fillAmount = 0
-
-			local var_19_14 = var_19_9 / var_18_0
-
-			var_19_13:GetComponent(typeof(Image)).fillAmount = var_19_14
+			arg_14_2:Find("exp/exp_progress"):GetComponent(typeof(Image)).fillAmount = var_14_6
 		end)
 	end
 
-	local function var_7_23(arg_21_0, arg_21_1, arg_21_2, arg_21_3)
-		arg_21_2 = arg_21_2 and arg_21_2.statistics
+	local function var_8_20(arg_15_0, arg_15_1, arg_15_2)
+		setActive(arg_15_0:Find("result/mvpBG"), arg_15_1 == arg_15_2)
+	end
 
-		local var_21_0 = arg_21_0:Find("Title/Label")
-		local var_21_1 = arg_21_0:Find("Title/Letter")
-		local var_21_2 = {
+	local function var_8_21(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
+		UIItemList.StaticAlign(arg_16_0, arg_16_0:GetChild(0), #arg_16_1, function(arg_17_0, arg_17_1, arg_17_2)
+			if arg_17_0 ~= UIItemList.EventUpdate then
+				return
+			end
+
+			local var_17_0 = arg_16_1[arg_17_1 + 1]
+			local var_17_1 = arg_16_2[var_17_0.id]
+
+			setActive(arg_17_2:Find("result/Exp"), true)
+			setActive(arg_17_2:Find("result/Statistics"), false)
+			var_8_20(arg_17_2, var_17_0.id, arg_16_3)
+
+			local var_17_2 = arg_17_2:Find("result/mask/icon")
+			local var_17_3 = arg_17_2:Find("result/type")
+			local var_17_4 = GetSpriteFromAtlas("shiptype", shipType2print(var_17_1:getShipType()))
+
+			setImageSprite(var_17_3, var_17_4, true)
+			setImageSprite(var_17_2, LoadSprite("herohrzicon/" .. var_17_1:getPainting()))
+
+			local var_17_5 = findTF(arg_17_2, "result/stars")
+			local var_17_6 = findTF(arg_17_2, "result/stars/star_tpl")
+			local var_17_7 = var_17_1:getStar()
+			local var_17_8 = var_17_1:getMaxStar()
+
+			UIItemList.StaticAlign(var_17_5, var_17_6, var_17_8, function(arg_18_0, arg_18_1, arg_18_2)
+				if arg_18_0 ~= UIItemList.EventUpdate then
+					return
+				end
+
+				local var_18_0 = var_17_8 - arg_18_1
+
+				SetActive(arg_18_2:Find("empty"), var_18_0 > var_17_7)
+				SetActive(arg_18_2:Find("star"), var_18_0 <= var_17_7)
+			end)
+			setText(arg_17_2:Find("result/Exp/Level"), "Lv." .. var_17_0.level)
+			setText(arg_17_2:Find("result/Exp/name"), var_17_0:getName())
+
+			local var_17_9 = arg_17_2:Find("result/Exp/exp_text")
+			local var_17_10 = var_17_1:getConfig("rarity")
+
+			if var_17_1.level < var_17_0.level then
+				local var_17_11 = 0
+
+				for iter_17_0 = var_17_1.level, var_17_0.level - 1 do
+					var_17_11 = var_17_11 + getExpByRarityFromLv1(var_17_10, iter_17_0)
+				end
+
+				setText(var_17_9, "+" .. var_17_11 + var_17_0:getExp() - var_17_1:getExp())
+			elseif var_17_1.level == var_17_1:getMaxLevel() then
+				setText(var_17_9, "+" .. 0)
+			else
+				setText(var_17_9, "+" .. (var_17_1.expAdd or 0))
+			end
+
+			local var_17_12 = arg_17_2:Find("result/Progress/progress_bar")
+			local var_17_13 = var_17_0:getExp() / getExpByRarityFromLv1(var_17_10, var_17_0.level)
+
+			var_17_12:GetComponent(typeof(Image)).fillAmount = var_17_13
+		end)
+	end
+
+	local function var_8_22(arg_19_0, arg_19_1, arg_19_2, arg_19_3, arg_19_4)
+		arg_19_4 = arg_19_4 and arg_19_4.statistics
+
+		local var_19_0 = 0
+
+		if not arg_19_4 then
+			var_19_0 = 10000
+		elseif arg_19_3 == 0 then
+			var_19_0 = 0
+
+			for iter_19_0, iter_19_1 in pairs(arg_19_2) do
+				var_19_0 = math.max(arg_19_4[iter_19_1.id].output, var_19_0)
+			end
+		elseif arg_19_3 > 0 then
+			var_19_0 = arg_19_4[arg_19_3].output
+		end
+
+		UIItemList.StaticAlign(arg_19_0, arg_19_0:GetChild(0), #arg_19_1, function(arg_20_0, arg_20_1, arg_20_2)
+			if arg_20_0 ~= UIItemList.EventUpdate then
+				return
+			end
+
+			local var_20_0 = arg_19_1[arg_20_1 + 1]
+			local var_20_1 = arg_19_2[var_20_0.id]
+
+			setActive(arg_20_2:Find("result/Statistics"), true)
+			setActive(arg_20_2:Find("result/Exp"), false)
+			var_8_20(arg_20_2, var_20_0.id, arg_19_3)
+
+			local var_20_2 = arg_20_2:Find("result/mask/icon")
+			local var_20_3 = arg_20_2:Find("result/type")
+			local var_20_4 = GetSpriteFromAtlas("shiptype", shipType2print(var_20_1:getShipType()))
+
+			setImageSprite(var_20_3, var_20_4, true)
+			setImageSprite(var_20_2, LoadSprite("herohrzicon/" .. var_20_1:getPainting()))
+
+			local var_20_5 = findTF(arg_20_2, "result/stars")
+			local var_20_6 = findTF(arg_20_2, "result/stars/star_tpl")
+			local var_20_7 = var_20_1:getStar()
+			local var_20_8 = var_20_1:getMaxStar()
+
+			UIItemList.StaticAlign(var_20_5, var_20_6, var_20_8, function(arg_21_0, arg_21_1, arg_21_2)
+				if arg_21_0 ~= UIItemList.EventUpdate then
+					return
+				end
+
+				local var_21_0 = var_20_8 - arg_21_1
+
+				SetActive(arg_21_2:Find("empty"), var_21_0 > var_20_7)
+				SetActive(arg_21_2:Find("star"), var_21_0 <= var_20_7)
+			end)
+
+			local var_20_9 = arg_19_4 and arg_19_4[var_20_1.id].output or 0
+			local var_20_10 = arg_19_4 and arg_19_4[var_20_1.id].kill_count or 0
+			local var_20_11 = arg_20_2:Find("result/Statistics/atk")
+
+			setText(var_20_11, 0)
+			setText(var_20_11, var_20_9)
+
+			local var_20_12 = arg_20_2:Find("result/Statistics/killCount")
+
+			setText(var_20_12, 0)
+			setText(var_20_12, var_20_10)
+
+			local var_20_13 = arg_20_2:Find("result/Progress/progress_bar")
+
+			var_20_13:GetComponent(typeof(Image)).fillAmount = 0
+
+			local var_20_14 = var_20_9 / var_19_0
+
+			var_20_13:GetComponent(typeof(Image)).fillAmount = var_20_14
+		end)
+	end
+
+	local function var_8_23(arg_22_0, arg_22_1, arg_22_2, arg_22_3)
+		arg_22_2 = arg_22_2 and arg_22_2.statistics
+
+		local var_22_0 = arg_22_0:Find("Title/Label")
+		local var_22_1 = arg_22_0:Find("Title/Letter")
+		local var_22_2 = {
 			"d",
 			"c",
 			"b",
 			"a",
 			"s"
 		}
-		local var_21_3
-		local var_21_4
-		local var_21_5
-		local var_21_6
-		local var_21_7
+		local var_22_3
+		local var_22_4
+		local var_22_5
+		local var_22_6
+		local var_22_7
 
-		if arg_21_2 then
-			local var_21_8 = var_21_2[arg_21_2._battleScore + 1]
+		if arg_22_2 then
+			local var_22_8 = var_22_2[arg_22_2._battleScore + 1]
 
-			var_21_6 = "letter_" .. var_21_8
-			var_21_4 = "battlescore/battle_score_" .. var_21_8 .. "/letter_" .. var_21_8
-			var_21_7 = "label_" .. var_21_8
-			var_21_5 = "battlescore/battle_score_" .. var_21_8 .. "/label_" .. var_21_8
+			var_22_6 = "letter_" .. var_22_8
+			var_22_4 = "battlescore/battle_score_" .. var_22_8 .. "/letter_" .. var_22_8
+			var_22_7 = "label_" .. var_22_8
+			var_22_5 = "battlescore/battle_score_" .. var_22_8 .. "/label_" .. var_22_8
 
-			if arg_21_2._scoreMark == ys.Battle.BattleConst.DEAD_FLAG then
-				var_21_7 = "label_flag_destroy"
-				var_21_5 = "battlescore/battle_score_c/label_flag_destroy"
+			if arg_22_2._scoreMark == ys.Battle.BattleConst.DEAD_FLAG then
+				var_22_7 = "label_flag_destroy"
+				var_22_5 = "battlescore/battle_score_c/label_flag_destroy"
 			end
 		else
-			var_21_6 = ""
-			var_21_7 = "label_none"
-			var_21_5 = "battlescore/grade_label_none"
+			var_22_6 = ""
+			var_22_7 = "label_none"
+			var_22_5 = "battlescore/grade_label_none"
 		end
 
-		eachChild(var_21_0, function(arg_22_0)
-			setActive(arg_22_0, arg_22_0.name == var_21_7)
+		eachChild(var_22_0, function(arg_23_0)
+			setActive(arg_23_0, arg_23_0.name == var_22_7)
 
-			if arg_22_0.name == var_21_7 then
-				arg_7_0.loader:GetSprite(var_21_5, "", arg_22_0)
+			if arg_23_0.name == var_22_7 then
+				arg_8_0.loader:GetSprite(var_22_5, "", arg_23_0)
 			end
 		end)
-		eachChild(var_21_1, function(arg_23_0)
-			setActive(arg_23_0, arg_23_0.name == var_21_6)
+		eachChild(var_22_1, function(arg_24_0)
+			setActive(arg_24_0, arg_24_0.name == var_22_6)
 
-			if arg_23_0.name == var_21_6 then
-				arg_7_0.loader:GetSprite(var_21_4, "", arg_23_0)
+			if arg_24_0.name == var_22_6 then
+				arg_8_0.loader:GetSprite(var_22_4, "", arg_24_0)
 			end
 		end)
 
-		local var_21_9 = 0
-		local var_21_10 = not arg_21_2 and 3 or arg_21_2._battleScore > ys.Battle.BattleConst.BattleScore.C and 1 or 2
-		local var_21_11 = var_0_1[var_21_10]
+		local var_22_9 = 0
+		local var_22_10 = not arg_22_2 and 3 or arg_22_2._battleScore > ys.Battle.BattleConst.BattleScore.C and 1 or 2
+		local var_22_11 = var_0_1[var_22_10]
 
-		arg_7_0.loader:GetSprite(arg_7_0:GetAtalsName(), var_21_11, arg_21_0:Find("Title"))
+		arg_8_0.loader:GetSprite(arg_8_0:GetAtalsName(), var_22_11, arg_22_0:Find("Title"))
 
-		local var_21_12 = var_0_2[var_21_10]
+		local var_22_12 = var_0_2[var_22_10]
 
-		setImageColor(arg_21_0:Find("BG"), SummerFeastScene.TransformColor(var_21_12))
+		setImageColor(arg_22_0:Find("BG"), SummerFeastScene.TransformColor(var_22_12))
 
-		local var_21_13 = pg.expedition_data_template[var_7_3[arg_21_3]]
+		local var_22_13 = pg.expedition_data_template[var_8_3[arg_22_3]]
 
-		setText(arg_21_0:Find("Title/Name"), var_21_13.name)
-		setText(arg_21_0:Find("BG/FleetName/Text"), i18n("series_enemy_fleet_prefix", GetRomanDigit(arg_21_1.index)))
-		var_7_19(arg_21_0:Find("BG/commanderExp/commander_container"), arg_21_1.oldCmds, arg_21_1.cmds)
+		setText(arg_22_0:Find("Title/Name"), var_22_13.name)
+		setText(arg_22_0:Find("BG/FleetName/Text"), i18n("series_enemy_fleet_prefix", GetRomanDigit(arg_22_1.index)))
+		var_8_19(arg_22_0:Find("BG/commanderExp/commander_container"), arg_22_1.oldCmds, arg_22_1.cmds)
 	end
 
-	local function var_7_24()
-		local var_24_0 = var_7_18 == 1 and var_7_11 or var_7_10
+	local function var_8_24()
+		local var_25_0 = var_8_18 == 1 and var_8_11 or var_8_10
 
-		UIItemList.StaticAlign(arg_7_0.resultList, arg_7_0.resultList:GetChild(0), #var_24_0, function(arg_25_0, arg_25_1, arg_25_2)
-			if arg_25_0 ~= UIItemList.EventUpdate then
+		UIItemList.StaticAlign(arg_8_0.resultList, arg_8_0.resultList:GetChild(0), #var_25_0, function(arg_26_0, arg_26_1, arg_26_2)
+			if arg_26_0 ~= UIItemList.EventUpdate then
 				return
 			end
 
-			local var_25_0 = var_24_0[arg_25_1 + 1]
-			local var_25_1 = var_7_1[var_25_0.index]
+			local var_26_0 = var_25_0[arg_26_1 + 1]
+			local var_26_1 = var_8_1[var_26_0.index]
 
-			var_7_23(arg_25_2, var_25_0, var_25_1, var_25_0.index)
+			var_8_23(arg_26_2, var_26_0, var_26_1, var_26_0.index)
 			warning("yzh----RefreshExps--")
-			var_7_21(arg_25_2:Find("BG/Ships"), var_25_0.ships, var_25_0.oldShips, var_25_0.mvp)
+			var_8_21(arg_26_2:Find("BG/Ships"), var_26_0.ships, var_26_0.oldShips, var_26_0.mvp)
 		end)
 	end
 
-	local function var_7_25()
-		local var_26_0 = var_7_18 == 1 and var_7_11 or var_7_10
+	local function var_8_25()
+		local var_27_0 = var_8_18 == 1 and var_8_11 or var_8_10
 
-		UIItemList.StaticAlign(arg_7_0.resultList, arg_7_0.resultList:GetChild(0), #var_26_0, function(arg_27_0, arg_27_1, arg_27_2)
-			if arg_27_0 ~= UIItemList.EventUpdate then
+		UIItemList.StaticAlign(arg_8_0.resultList, arg_8_0.resultList:GetChild(0), #var_27_0, function(arg_28_0, arg_28_1, arg_28_2)
+			if arg_28_0 ~= UIItemList.EventUpdate then
 				return
 			end
 
-			local var_27_0 = var_26_0[arg_27_1 + 1]
-			local var_27_1 = var_7_1[var_27_0.index]
+			local var_28_0 = var_27_0[arg_28_1 + 1]
+			local var_28_1 = var_8_1[var_28_0.index]
 
-			var_7_23(arg_27_2, var_27_0, var_27_1, var_27_0.index)
-			var_7_22(arg_27_2:Find("BG/Ships"), var_27_0.ships, var_27_0.oldShips, var_27_0.mvp, var_27_1)
+			var_8_23(arg_28_2, var_28_0, var_28_1, var_28_0.index)
+			var_8_22(arg_28_2:Find("BG/Ships"), var_28_0.ships, var_28_0.oldShips, var_28_0.mvp, var_28_1)
 		end)
 	end
 
-	local var_7_26 = arg_7_0.rightBottomPanel:Find("submarine")
-	local var_7_27 = arg_7_0.rightBottomPanel:Find("main")
+	local var_8_26 = arg_8_0.rightBottomPanel:Find("submarine")
+	local var_8_27 = arg_8_0.rightBottomPanel:Find("main")
 
-	setActive(var_7_26, #var_7_11 > 0)
+	setActive(var_8_26, #var_8_11 > 0)
 
-	local function var_7_28()
-		setActive(var_7_27, var_7_18 == 1)
-		setActive(var_7_26, var_7_18 == 0 and #var_7_11 > 0)
+	local function var_8_28()
+		setActive(var_8_27, var_8_18 == 1)
+		setActive(var_8_26, var_8_18 == 0 and #var_8_11 > 0)
 
-		if var_7_17 == 0 then
-			var_7_24()
-		elseif var_7_17 == 1 then
-			var_7_25()
+		if var_8_17 == 0 then
+			var_8_24()
+		elseif var_8_17 == 1 then
+			var_8_25()
 		end
 	end
 
-	var_7_28()
+	var_8_28()
 	;(function()
-		local var_29_0 = getProxy(PlayerProxy):getRawData()
-		local var_29_1 = _.reduce(var_7_2, 0, function(arg_30_0, arg_30_1)
-			return arg_30_0 + arg_30_1.playerExp.addExp
+		local var_30_0 = getProxy(PlayerProxy):getRawData()
+		local var_30_1 = _.reduce(var_8_2, 0, function(arg_31_0, arg_31_1)
+			return arg_31_0 + arg_31_1.playerExp.addExp
 		end)
 
-		setText(arg_7_0._tf:Find("main/Series/playerExp/name_text"), var_29_0.name)
-		setText(arg_7_0._tf:Find("main/Series/playerExp/lv_text"), "Lv." .. var_29_0.level)
-		setText(arg_7_0._tf:Find("main/Series/playerExp/exp_text"), "+" .. var_29_1)
+		setText(arg_8_0._tf:Find("main/Series/playerExp/name_text"), var_30_0.name)
+		setText(arg_8_0._tf:Find("main/Series/playerExp/lv_text"), "Lv." .. var_30_0.level)
+		setText(arg_8_0._tf:Find("main/Series/playerExp/exp_text"), "+" .. var_30_1)
 
-		local var_29_2 = arg_7_0._tf:Find("main/Series/playerExp/exp_progress")
-		local var_29_3 = getConfigFromLevel1(pg.user_level, var_29_0.level)
+		local var_30_2 = arg_8_0._tf:Find("main/Series/playerExp/exp_progress")
+		local var_30_3 = getConfigFromLevel1(pg.user_level, var_30_0.level)
 
-		var_29_2:GetComponent(typeof(Image)).fillAmount = var_29_0.exp / var_29_3.exp_interval
+		var_30_2:GetComponent(typeof(Image)).fillAmount = var_30_0.exp / var_30_3.exp_interval
 	end)()
-	onButton(arg_7_0, arg_7_0.rightBottomPanel:Find("statisticsBtn"), function()
-		var_7_17 = 1 - var_7_17
+	onButton(arg_8_0, arg_8_0.rightBottomPanel:Find("statisticsBtn"), function()
+		var_8_17 = 1 - var_8_17
 
-		var_7_28()
+		var_8_28()
 	end, SFX_PANEL)
-	onButton(arg_7_0, var_7_26, function()
-		var_7_18 = 1
+	onButton(arg_8_0, var_8_26, function()
+		var_8_18 = 1
 
-		var_7_28()
+		var_8_28()
 	end, SFX_PANEL)
-	onButton(arg_7_0, var_7_27, function()
-		var_7_18 = 0
+	onButton(arg_8_0, var_8_27, function()
+		var_8_18 = 0
 
-		var_7_28()
+		var_8_28()
 	end, SFX_PANEL)
-	onButton(arg_7_0, arg_7_0.rightBottomPanel:Find("confirmBtn"), function()
-		arg_7_0:emit(BossRushBattleResultMediator.ON_SETTLE)
+	onButton(arg_8_0, arg_8_0.rightBottomPanel:Find("confirmBtn"), function()
+		arg_8_0:emit(BossRushBattleResultMediator.ON_SETTLE)
 	end, SFX_PANEL)
 
-	local var_7_29 = arg_7_0._tf:Find("main/Series/ArrowLeft")
-	local var_7_30 = arg_7_0._tf:Find("main/Series/ArrowRight")
+	local var_8_29 = arg_8_0._tf:Find("main/Series/ArrowLeft")
+	local var_8_30 = arg_8_0._tf:Find("main/Series/ArrowRight")
 
 	Canvas.ForceUpdateCanvases()
 
-	if arg_7_0.resultScroll.rect.width >= arg_7_0.resultList.rect.width then
-		setActive(var_7_29, false)
-		setActive(var_7_30, false)
+	if arg_8_0.resultScroll.rect.width >= arg_8_0.resultList.rect.width then
+		setActive(var_8_29, false)
+		setActive(var_8_30, false)
 	else
-		setActive(var_7_29, false)
-		setActive(var_7_30, true)
-		onScroll(arg_7_0, arg_7_0.resultScroll, function(arg_35_0)
-			setActive(var_7_29, arg_35_0.x > 0.01)
-			setActive(var_7_30, arg_35_0.x < 0.99)
+		setActive(var_8_29, false)
+		setActive(var_8_30, true)
+		onScroll(arg_8_0, arg_8_0.resultScroll, function(arg_36_0)
+			setActive(var_8_29, arg_36_0.x > 0.01)
+			setActive(var_8_30, arg_36_0.x < 0.99)
 		end)
 	end
 end
 
-function var_0_0.HideConfirmPanel(arg_36_0)
-	setActive(arg_36_0.rightBottomPanel:Find("confirmBtn"), false)
+function var_0_0.HideConfirmPanel(arg_37_0)
+	setActive(arg_37_0.rightBottomPanel:Find("confirmBtn"), false)
 end
 
-function var_0_0.onBackPressed(arg_37_0)
-	triggerButton(arg_37_0.rightBottomPanel:Find("confirmBtn"))
+function var_0_0.onBackPressed(arg_38_0)
+	triggerButton(arg_38_0.rightBottomPanel:Find("confirmBtn"))
 end
 
-function var_0_0.willExit(arg_38_0)
-	arg_38_0:UnOverlayPanel(arg_38_0._tf)
-	arg_38_0.loader:Clear()
+function var_0_0.willExit(arg_39_0)
+	arg_39_0:UnOverlayPanel(arg_39_0._tf)
+	arg_39_0.loader:Clear()
 
-	if arg_38_0.contextData.OnClose then
-		arg_38_0.contextData.OnClose()
+	if arg_39_0.contextData.OnClose then
+		arg_39_0.contextData.OnClose()
 	end
 end
 

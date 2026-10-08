@@ -6,455 +6,539 @@ function var_0_0.getUIName(arg_1_0)
 	return "MilitaryExerciseUI"
 end
 
-function var_0_0.ResUISettings(arg_2_0)
+function var_0_0.getResource(arg_2_0, arg_2_1)
+	local var_2_0 = {
+		"weaponframes",
+		"shiptype",
+		"bg/star_level_card_1",
+		"bg/star_level_card_2",
+		"bg/star_level_card_3",
+		"bg/star_level_card_3_1",
+		"bg/star_level_card_4",
+		"bg/star_level_card_4_0",
+		"bg/star_level_card_4_1",
+		"bg/star_level_card_5",
+		"bg/star_level_card_5_0",
+		"bg/star_level_card_5_1"
+	}
+
+	local function var_2_1(arg_3_0)
+		if noEmptyStr(arg_3_0) and not table.contains(var_2_0, arg_3_0) then
+			table.insert(var_2_0, arg_3_0)
+		end
+	end
+
+	local function var_2_2(arg_4_0, arg_4_1)
+		local var_4_0 = SeasonInfo.getEmblem(arg_4_0, arg_4_1)
+
+		if noEmptyStr(var_4_0) then
+			var_2_1("emblem/" .. var_4_0)
+			var_2_1("emblem/n_" .. var_4_0)
+		end
+	end
+
+	local var_2_3 = getProxy(MilitaryExerciseProxy):RawGetSeasonInfo()
+
+	if var_2_3 then
+		var_2_2(var_2_3.score, var_2_3.rank)
+
+		local var_2_4 = getProxy(BayProxy)
+
+		local function var_2_5(arg_5_0)
+			for iter_5_0, iter_5_1 in ipairs(arg_5_0 or {}) do
+				local var_5_0 = var_2_4:RawGetShipById(iter_5_1)
+
+				if var_5_0 then
+					var_2_1("SquareIcon/" .. var_5_0:getPainting())
+				end
+			end
+		end
+
+		var_2_5(checkExist(var_2_3, {
+			"fleet",
+			"mainShips"
+		}))
+		var_2_5(checkExist(var_2_3, {
+			"fleet",
+			"vanguardShips"
+		}))
+
+		for iter_2_0, iter_2_1 in ipairs(var_2_3.rivals or {}) do
+			var_2_2(iter_2_1.score, iter_2_1.rank)
+
+			local var_2_6 = checkExist(pg.ship_skin_template, {
+				iter_2_1.skinId,
+				"painting"
+			})
+
+			if var_2_6 then
+				var_2_1("SquareIcon/" .. var_2_6.painting)
+			end
+		end
+	end
+
+	for iter_2_2, iter_2_3 in ipairs(pg.arena_data_rank.all or {}) do
+		for iter_2_4, iter_2_5 in ipairs(pg.arena_data_rank[iter_2_3].award_list or {}) do
+			if iter_2_5[1] ~= nil then
+				local var_2_7 = Drop.Create(iter_2_5)
+
+				var_2_1(var_2_7:getIcon())
+			end
+		end
+	end
+
+	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0, arg_2_1))
+end
+
+function var_0_0.ResUISettings(arg_6_0)
 	return true
 end
 
-function var_0_0.setShips(arg_3_0, arg_3_1)
-	arg_3_0.ships = arg_3_1
+function var_0_0.setShips(arg_7_0, arg_7_1)
+	arg_7_0.ships = arg_7_1
 end
 
-function var_0_0.setFleet(arg_4_0, arg_4_1)
-	arg_4_0.fleet = arg_4_1
+function var_0_0.setFleet(arg_8_0, arg_8_1)
+	arg_8_0.fleet = arg_8_1
 end
 
-function var_0_0.setRivals(arg_5_0, arg_5_1)
-	table.sort(arg_5_1, function(arg_6_0, arg_6_1)
-		return arg_6_0.rank < arg_6_1.rank
+function var_0_0.setRivals(arg_9_0, arg_9_1)
+	table.sort(arg_9_1, function(arg_10_0, arg_10_1)
+		return arg_10_0.rank < arg_10_1.rank
 	end)
 
-	arg_5_0.rivalVOs = arg_5_1
+	arg_9_0.rivalVOs = arg_9_1
 end
 
-function var_0_0.setExerciseCount(arg_7_0, arg_7_1)
-	arg_7_0.exerciseCount = arg_7_1
+function var_0_0.setExerciseCount(arg_11_0, arg_11_1)
+	arg_11_0.exerciseCount = arg_11_1
 end
 
-function var_0_0.setSeasonTime(arg_8_0, arg_8_1)
-	arg_8_0.seasonTime = arg_8_1
+function var_0_0.setSeasonTime(arg_12_0, arg_12_1)
+	arg_12_0.seasonTime = arg_12_1
 end
 
-function var_0_0.setRecoverTime(arg_9_0, arg_9_1)
-	arg_9_0.recoverTime = arg_9_1
+function var_0_0.setRecoverTime(arg_13_0, arg_13_1)
+	arg_13_0.recoverTime = arg_13_1
 end
 
-function var_0_0.setActivity(arg_10_0, arg_10_1)
-	arg_10_0.activity = arg_10_1
+function var_0_0.setActivity(arg_14_0, arg_14_1)
+	arg_14_0.activity = arg_14_1
 
-	arg_10_0:setSeasonTime(arg_10_1.stopTime)
+	arg_14_0:setSeasonTime(arg_14_1.stopTime)
 end
 
-function var_0_0.updateSeaInfoVO(arg_11_0, arg_11_1)
-	arg_11_0.seasonInfo = arg_11_1
+function var_0_0.updateSeaInfoVO(arg_15_0, arg_15_1)
+	arg_15_0.seasonInfo = arg_15_1
 
-	arg_11_0:setFleet(arg_11_1.fleet)
-	arg_11_0:setRivals(arg_11_1.rivals)
-	arg_11_0:setExerciseCount(arg_11_1.fightCount)
-	arg_11_0:setRecoverTime(arg_11_1.resetTime)
+	arg_15_0:setFleet(arg_15_1.fleet)
+	arg_15_0:setRivals(arg_15_1.rivals)
+	arg_15_0:setExerciseCount(arg_15_1.fightCount)
+	arg_15_0:setRecoverTime(arg_15_1.resetTime)
 end
 
-function var_0_0.setSeasonInfo(arg_12_0, arg_12_1)
-	arg_12_0:updateSeaInfoVO(arg_12_1)
-	arg_12_0:setFleet(arg_12_1.fleet)
-	arg_12_0:setRivals(arg_12_1.rivals)
-	arg_12_0:setExerciseCount(arg_12_1.fightCount)
-	arg_12_0:setRecoverTime(arg_12_1.resetTime)
-	arg_12_0:updateSeasonTime()
-	arg_12_0:initPlayerFleet()
-	arg_12_0:initPlayerInfo()
-	arg_12_0:updateRivals()
+function var_0_0.setSeasonInfo(arg_16_0, arg_16_1)
+	arg_16_0:updateSeaInfoVO(arg_16_1)
+	arg_16_0:setFleet(arg_16_1.fleet)
+	arg_16_0:setRivals(arg_16_1.rivals)
+	arg_16_0:setExerciseCount(arg_16_1.fightCount)
+	arg_16_0:setRecoverTime(arg_16_1.resetTime)
+	arg_16_0:updateSeasonTime()
+	arg_16_0:initPlayerFleet()
+	arg_16_0:initPlayerInfo()
+	arg_16_0:updateRivals()
 end
 
-function var_0_0.init(arg_13_0)
-	arg_13_0.backBtn = arg_13_0._tf:Find("blur_panel/adapt/top/backBtn")
-	arg_13_0._normalUIMain = pg.UIMgr.GetInstance().UIMain
-	arg_13_0._overlayUIMain = pg.UIMgr.GetInstance().OverlayMain
-	arg_13_0.top = findTF(arg_13_0._tf, "blur_panel/adapt/top")
-	arg_13_0.awardPanel = arg_13_0._tf:Find("award_info_panel")
+function var_0_0.init(arg_17_0)
+	arg_17_0.backBtn = arg_17_0._tf:Find("blur_panel/adapt/top/backBtn")
+	arg_17_0._normalUIMain = pg.UIMgr.GetInstance().UIMain
+	arg_17_0._overlayUIMain = pg.UIMgr.GetInstance().OverlayMain
+	arg_17_0.top = findTF(arg_17_0._tf, "blur_panel/adapt/top")
+	arg_17_0.awardPanel = arg_17_0._tf:Find("award_info_panel")
 
-	setActive(arg_13_0.awardPanel, false)
+	setActive(arg_17_0.awardPanel, false)
 
-	arg_13_0.rivalList = arg_13_0._tf:Find("center/rival_list")
-	arg_13_0.bottomPanel = arg_13_0._tf:Find("bottom")
-	arg_13_0.shipTpl = arg_13_0:getTpl("fleet_info/shiptpl", arg_13_0.bottomPanel)
-	arg_13_0.emptyTpl = arg_13_0:getTpl("fleet_info/emptytpl", arg_13_0.bottomPanel)
-	arg_13_0.mainContainer = arg_13_0.bottomPanel:Find("fleet_info/main")
-	arg_13_0.vanguardContainer = arg_13_0.bottomPanel:Find("fleet_info/vanguard")
-	arg_13_0.rankCfg = pg.arena_data_rank
+	arg_17_0.rivalList = arg_17_0._tf:Find("center/rival_list")
+	arg_17_0.bottomPanel = arg_17_0._tf:Find("bottom")
+	arg_17_0.shipTpl = arg_17_0:getTpl("fleet_info/shiptpl", arg_17_0.bottomPanel)
+	arg_17_0.emptyTpl = arg_17_0:getTpl("fleet_info/emptytpl", arg_17_0.bottomPanel)
+	arg_17_0.mainContainer = arg_17_0.bottomPanel:Find("fleet_info/main")
+	arg_17_0.vanguardContainer = arg_17_0.bottomPanel:Find("fleet_info/vanguard")
+	arg_17_0.rankCfg = pg.arena_data_rank
 
-	arg_13_0:uiStartAnimating()
+	arg_17_0:uiStartAnimating()
 end
 
-function var_0_0.updatePlayer(arg_14_0, arg_14_1)
-	arg_14_0.player = arg_14_1
+function var_0_0.updatePlayer(arg_18_0, arg_18_1)
+	arg_18_0.player = arg_18_1
 
-	setText(findTF(arg_14_0._tf:Find("bottom/player_info"), "statistics_panel/exploit_bg/score"), arg_14_1.exploit)
+	setText(findTF(arg_18_0._tf:Find("bottom/player_info"), "statistics_panel/exploit_bg/score"), arg_18_1.exploit)
 end
 
-function var_0_0.uiStartAnimating(arg_15_0)
-	local var_15_0 = 0
-	local var_15_1 = arg_15_0.bottomPanel.localPosition.y
+function var_0_0.uiStartAnimating(arg_19_0)
+	local var_19_0 = 0
+	local var_19_1 = arg_19_0.bottomPanel.localPosition.y
 
-	setAnchoredPosition(arg_15_0.bottomPanel, {
-		y = var_15_1 - 308
+	setAnchoredPosition(arg_19_0.bottomPanel, {
+		y = var_19_1 - 308
 	})
-	shiftPanel(arg_15_0.bottomPanel, nil, var_15_1, 0.3, var_15_0, true, true)
+	shiftPanel(arg_19_0.bottomPanel, nil, var_19_1, 0.3, var_19_0, true, true)
 end
 
-function var_0_0.uiExitAnimating(arg_16_0)
-	local var_16_0 = 0
-	local var_16_1 = arg_16_0.bottomPanel.localPosition.y
+function var_0_0.uiExitAnimating(arg_20_0)
+	local var_20_0 = 0
+	local var_20_1 = arg_20_0.bottomPanel.localPosition.y
 
-	shiftPanel(arg_16_0.bottomPanel, nil, var_16_1 - 308, 0.3, var_16_0, true, true)
+	shiftPanel(arg_20_0.bottomPanel, nil, var_20_1 - 308, 0.3, var_20_0, true, true)
 end
 
-function var_0_0.didEnter(arg_17_0)
-	onButton(arg_17_0, arg_17_0.backBtn, function()
-		if arg_17_0.isOpenRivalInfoPanel then
-			arg_17_0:closeRivalInfoPanel()
+function var_0_0.didEnter(arg_21_0)
+	onButton(arg_21_0, arg_21_0.backBtn, function()
+		if arg_21_0.isOpenRivalInfoPanel then
+			arg_21_0:closeRivalInfoPanel()
 		else
-			arg_17_0:emit(var_0_0.ON_BACK)
+			arg_21_0:emit(var_0_0.ON_BACK)
 		end
 	end, SFX_CANCEL)
-	setActive(arg_17_0._tf:Find("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
+	setActive(arg_21_0._tf:Find("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
 
 	if LOCK_CLICK_MINGSHI then
-		setActive(arg_17_0._tf:Find("stamp"), false)
+		setActive(arg_21_0._tf:Find("stamp"), false)
 	end
 
-	onButton(arg_17_0, arg_17_0._tf:Find("stamp"), function()
+	onButton(arg_21_0, arg_21_0._tf:Find("stamp"), function()
 		getProxy(TaskProxy):dealMingshiTouchFlag(10)
 	end, SFX_CONFIRM)
-	onButton(arg_17_0, arg_17_0._tf:Find("bottom/buttons/rank_btn"), function()
-		arg_17_0:emit(MilitaryExerciseMediator.OPEN_RANK)
+	onButton(arg_21_0, arg_21_0._tf:Find("bottom/buttons/rank_btn"), function()
+		arg_21_0:emit(MilitaryExerciseMediator.OPEN_RANK)
 	end, SFX_PANEL)
-	onButton(arg_17_0, arg_17_0._tf:Find("bottom/buttons/shop_btn"), function()
-		arg_17_0:emit(MilitaryExerciseMediator.OPEN_SHOP)
+	onButton(arg_21_0, arg_21_0._tf:Find("bottom/buttons/shop_btn"), function()
+		arg_21_0:emit(MilitaryExerciseMediator.OPEN_SHOP)
 	end, SFX_PANEL)
-	onButton(arg_17_0, arg_17_0._tf:Find("bottom/buttons/award_btn"), function()
-		arg_17_0.isOpenAwards = true
+	onButton(arg_21_0, arg_21_0._tf:Find("bottom/buttons/award_btn"), function()
+		arg_21_0.isOpenAwards = true
 
-		pg.UIMgr.GetInstance():BlurPanel(arg_17_0.awardPanel)
+		pg.UIMgr.GetInstance():BlurPanel(arg_21_0.awardPanel)
 
-		if not arg_17_0.isInitAward then
-			arg_17_0:initAwards()
+		if not arg_21_0.isInitAward then
+			arg_21_0:initAwards()
 
-			arg_17_0.isInitAward = true
+			arg_21_0.isInitAward = true
 		else
-			setActive(arg_17_0.awardPanel, true)
+			setActive(arg_21_0.awardPanel, true)
 		end
 	end, SFX_PANEL)
-	onButton(arg_17_0, findTF(arg_17_0._tf, "center/replace_rival_btn"), function()
-		arg_17_0:emit(MilitaryExerciseMediator.REPLACE_RIVALS)
+	onButton(arg_21_0, findTF(arg_21_0._tf, "center/replace_rival_btn"), function()
+		arg_21_0:emit(MilitaryExerciseMediator.REPLACE_RIVALS)
 	end, SFX_PANEL)
 
-	if arg_17_0.contextData.mode == var_0_0.TYPE_SHOP then
-		triggerToggle(arg_17_0.shopBtn, true)
+	if arg_21_0.contextData.mode == var_0_0.TYPE_SHOP then
+		triggerToggle(arg_21_0.shopBtn, true)
 	end
 end
 
-function var_0_0.updateSeasonTime(arg_24_0)
-	arg_24_0.seasonInfoPanel = arg_24_0._tf:Find("center/season_info")
+function var_0_0.updateSeasonTime(arg_28_0)
+	arg_28_0.seasonInfoPanel = arg_28_0._tf:Find("center/season_info")
 
-	arg_24_0:updateSeasonLeftTime(arg_24_0.seasonTime)
-	arg_24_0:updateRecoverTime(arg_24_0.recoverTime)
-	arg_24_0:updateExerciseCount()
+	arg_28_0:updateSeasonLeftTime(arg_28_0.seasonTime)
+	arg_28_0:updateRecoverTime(arg_28_0.recoverTime)
+	arg_28_0:updateExerciseCount()
 end
 
-function var_0_0.updateExerciseCount(arg_25_0)
-	setText(findTF(arg_25_0.seasonInfoPanel, "count"), math.max(arg_25_0.exerciseCount or 0, 0) .. "/" .. SeasonInfo.MAX_FIGHTCOUNT)
+function var_0_0.updateExerciseCount(arg_29_0)
+	setText(findTF(arg_29_0.seasonInfoPanel, "count"), math.max(arg_29_0.exerciseCount or 0, 0) .. "/" .. SeasonInfo.MAX_FIGHTCOUNT)
 end
 
-function var_0_0.updateSeasonLeftTime(arg_26_0, arg_26_1)
-	if arg_26_0.leftTimeTimer then
-		arg_26_0.leftTimeTimer:Stop()
+function var_0_0.updateSeasonLeftTime(arg_30_0, arg_30_1)
+	if arg_30_0.leftTimeTimer then
+		arg_30_0.leftTimeTimer:Stop()
 
-		arg_26_0.leftTimeTimer = nil
+		arg_30_0.leftTimeTimer = nil
 	end
 
-	local var_26_0 = findTF(arg_26_0.seasonInfoPanel, "left_time_container/day")
-	local var_26_1 = findTF(arg_26_0.seasonInfoPanel, "left_time_container/time")
+	local var_30_0 = findTF(arg_30_0.seasonInfoPanel, "left_time_container/day")
+	local var_30_1 = findTF(arg_30_0.seasonInfoPanel, "left_time_container/time")
 
-	arg_26_0.leftTimeTimer = Timer.New(function()
-		local var_27_0 = arg_26_1 - pg.TimeMgr.GetInstance():GetServerTime()
+	arg_30_0.leftTimeTimer = Timer.New(function()
+		local var_31_0 = arg_30_1 - pg.TimeMgr.GetInstance():GetServerTime()
 
-		if var_27_0 > 0 then
-			local var_27_1, var_27_2, var_27_3, var_27_4 = pg.TimeMgr.GetInstance():parseTimeFrom(var_27_0)
+		if var_31_0 > 0 then
+			local var_31_1, var_31_2, var_31_3, var_31_4 = pg.TimeMgr.GetInstance():parseTimeFrom(var_31_0)
 
-			setText(var_26_0, var_27_1)
-			setText(var_26_1, string.format("%02d:%02d:%02d", var_27_2, var_27_3, var_27_4))
+			setText(var_30_0, var_31_1)
+			setText(var_30_1, string.format("%02d:%02d:%02d", var_31_2, var_31_3, var_31_4))
 		else
-			setText(var_26_0, 0)
-			setText(var_26_1, string.format("%02d:%02d:%02d", 0, 0, 0))
-			arg_26_0.leftTimeTimer:Stop()
+			setText(var_30_0, 0)
+			setText(var_30_1, string.format("%02d:%02d:%02d", 0, 0, 0))
+			arg_30_0.leftTimeTimer:Stop()
 
-			arg_26_0.leftTimeTimer = nil
+			arg_30_0.leftTimeTimer = nil
 		end
 	end, 1, -1)
 
-	arg_26_0.leftTimeTimer:Start()
-	arg_26_0.leftTimeTimer.func()
+	arg_30_0.leftTimeTimer:Start()
+	arg_30_0.leftTimeTimer.func()
 end
 
-function var_0_0.updateRecoverTime(arg_28_0, arg_28_1)
-	if arg_28_0.recoverTimer then
-		arg_28_0.recoverTimer:Stop()
+function var_0_0.updateRecoverTime(arg_32_0, arg_32_1)
+	if arg_32_0.recoverTimer then
+		arg_32_0.recoverTimer:Stop()
 
-		arg_28_0.recoverTimer = nil
+		arg_32_0.recoverTimer = nil
 	end
 
-	local var_28_0 = findTF(arg_28_0.seasonInfoPanel, "recover_container/time")
+	local var_32_0 = findTF(arg_32_0.seasonInfoPanel, "recover_container/time")
 
-	if arg_28_1 == 0 then
-		setText(var_28_0, "")
+	if arg_32_1 == 0 then
+		setText(var_32_0, "")
 
 		return
 	end
 
-	arg_28_0.recoverTimer = Timer.New(function()
-		local var_29_0 = arg_28_1 - pg.TimeMgr.GetInstance():GetServerTime()
+	arg_32_0.recoverTimer = Timer.New(function()
+		local var_33_0 = arg_32_1 - pg.TimeMgr.GetInstance():GetServerTime()
 
-		if var_29_0 > 0 then
-			setText(var_28_0, i18n("exercise_count_recover_tip", pg.TimeMgr.GetInstance():DescCDTime(var_29_0)))
+		if var_33_0 > 0 then
+			setText(var_32_0, i18n("exercise_count_recover_tip", pg.TimeMgr.GetInstance():DescCDTime(var_33_0)))
 		else
-			arg_28_0.recoverTimer:Stop()
+			arg_32_0.recoverTimer:Stop()
 
-			arg_28_0.recoverTimer = nil
+			arg_32_0.recoverTimer = nil
 		end
 	end, 1, -1)
 
-	arg_28_0.recoverTimer:Start()
-	arg_28_0.recoverTimer.func()
+	arg_32_0.recoverTimer:Start()
+	arg_32_0.recoverTimer.func()
 end
 
-function var_0_0.initPlayerFleet(arg_30_0)
-	local function var_30_0(arg_31_0, arg_31_1, arg_31_2)
-		local var_31_0 = cloneTplTo(arg_30_0.shipTpl, arg_31_1)
-		local var_31_1 = arg_31_0.configId
-		local var_31_2 = arg_31_0.skinId
+function var_0_0.initPlayerFleet(arg_34_0)
+	local function var_34_0(arg_35_0, arg_35_1, arg_35_2)
+		local var_35_0 = cloneTplTo(arg_34_0.shipTpl, arg_35_1)
+		local var_35_1 = arg_35_0.configId
+		local var_35_2 = arg_35_0.skinId
 
-		updateShip(var_31_0, arg_31_0, {
+		updateShip(var_35_0, arg_35_0, {
 			initStar = true
 		})
-		setText(findTF(var_31_0, "icon_bg/lv/Text"), arg_31_0.level)
-		onButton(arg_30_0, var_31_0, function()
-			arg_30_0:emit(MilitaryExerciseMediator.OPEN_DOCKYARD, arg_31_2, arg_31_0.id)
+		setText(findTF(var_35_0, "icon_bg/lv/Text"), arg_35_0.level)
+		onButton(arg_34_0, var_35_0, function()
+			arg_34_0:emit(MilitaryExerciseMediator.OPEN_DOCKYARD, arg_35_2, arg_35_0.id)
 		end, SFX_PANEL)
 	end
 
-	removeAllChildren(arg_30_0.mainContainer)
-	removeAllChildren(arg_30_0.vanguardContainer)
+	removeAllChildren(arg_34_0.mainContainer)
+	removeAllChildren(arg_34_0.vanguardContainer)
 
-	for iter_30_0 = 1, 3 do
-		local var_30_1 = arg_30_0.fleet.mainShips[iter_30_0]
+	for iter_34_0 = 1, 3 do
+		local var_34_1 = arg_34_0.fleet.mainShips[iter_34_0]
 
-		if var_30_1 then
-			local var_30_2 = arg_30_0.ships[var_30_1]
+		if var_34_1 then
+			local var_34_2 = arg_34_0.ships[var_34_1]
 
-			if var_30_2 then
-				var_30_0(var_30_2, arg_30_0.mainContainer, TeamType.Main)
+			if var_34_2 then
+				var_34_0(var_34_2, arg_34_0.mainContainer, TeamType.Main)
 			end
 		else
-			local var_30_3 = cloneTplTo(arg_30_0.emptyTpl, arg_30_0.mainContainer)
+			local var_34_3 = cloneTplTo(arg_34_0.emptyTpl, arg_34_0.mainContainer)
 
-			onButton(arg_30_0, findTF(var_30_3, "icon_bg"), function()
-				arg_30_0:emit(MilitaryExerciseMediator.OPEN_DOCKYARD, TeamType.Main, 0)
+			onButton(arg_34_0, findTF(var_34_3, "icon_bg"), function()
+				arg_34_0:emit(MilitaryExerciseMediator.OPEN_DOCKYARD, TeamType.Main, 0)
 			end, SFX_PANEL)
 		end
 	end
 
-	for iter_30_1 = 1, 3 do
-		local var_30_4 = arg_30_0.fleet.vanguardShips[iter_30_1]
+	for iter_34_1 = 1, 3 do
+		local var_34_4 = arg_34_0.fleet.vanguardShips[iter_34_1]
 
-		if var_30_4 then
-			local var_30_5 = arg_30_0.ships[var_30_4]
+		if var_34_4 then
+			local var_34_5 = arg_34_0.ships[var_34_4]
 
-			if var_30_5 then
-				var_30_0(var_30_5, arg_30_0.vanguardContainer, TeamType.Vanguard)
+			if var_34_5 then
+				var_34_0(var_34_5, arg_34_0.vanguardContainer, TeamType.Vanguard)
 			end
 		else
-			local var_30_6 = cloneTplTo(arg_30_0.emptyTpl, arg_30_0.vanguardContainer)
+			local var_34_6 = cloneTplTo(arg_34_0.emptyTpl, arg_34_0.vanguardContainer)
 
-			onButton(arg_30_0, findTF(var_30_6, "icon_bg"), function()
-				arg_30_0:emit(MilitaryExerciseMediator.OPEN_DOCKYARD, TeamType.Vanguard, 0)
+			onButton(arg_34_0, findTF(var_34_6, "icon_bg"), function()
+				arg_34_0:emit(MilitaryExerciseMediator.OPEN_DOCKYARD, TeamType.Vanguard, 0)
 			end, SFX_PANEL)
 		end
 	end
 end
 
-function var_0_0.initPlayerInfo(arg_35_0)
-	local var_35_0 = arg_35_0.seasonInfo.score
-	local var_35_1 = arg_35_0._tf:Find("bottom/player_info")
+function var_0_0.initPlayerInfo(arg_39_0)
+	local var_39_0 = arg_39_0.seasonInfo.score
+	local var_39_1 = arg_39_0._tf:Find("bottom/player_info")
 
-	setText(findTF(var_35_1, "statistics_panel/score_bg/score"), var_35_0)
-	setText(findTF(var_35_1, "statistics_panel/rank_bg/score"), arg_35_0.seasonInfo.rank)
+	setText(findTF(var_39_1, "statistics_panel/score_bg/score"), var_39_0)
+	setText(findTF(var_39_1, "statistics_panel/rank_bg/score"), arg_39_0.seasonInfo.rank)
 
-	local var_35_2 = findTF(var_35_1, "upgrade_tip/level")
-	local var_35_3 = findTF(var_35_1, "upgrade_rank_tip/level")
-	local var_35_4 = findTF(var_35_1, "upgrade_score_tip/level")
-	local var_35_5 = SeasonInfo.getMilitaryRank(var_35_0, arg_35_0.seasonInfo.rank)
+	local var_39_2 = findTF(var_39_1, "upgrade_tip/level")
+	local var_39_3 = findTF(var_39_1, "upgrade_rank_tip/level")
+	local var_39_4 = findTF(var_39_1, "upgrade_score_tip/level")
+	local var_39_5 = SeasonInfo.getMilitaryRank(var_39_0, arg_39_0.seasonInfo.rank)
 
-	assert(var_35_5, ">>>" .. var_35_0 .. "--" .. arg_35_0.seasonInfo.rank)
+	assert(var_39_5, ">>>" .. var_39_0 .. "--" .. arg_39_0.seasonInfo.rank)
 
-	local var_35_6 = SeasonInfo.getEmblem(var_35_0, arg_35_0.seasonInfo.rank)
+	local var_39_6 = SeasonInfo.getEmblem(var_39_0, arg_39_0.seasonInfo.rank)
 
-	LoadImageSpriteAsync("emblem/" .. var_35_6, findTF(var_35_1, "medal_bg/medal"), true)
-	LoadImageSpriteAsync("emblem/n_" .. var_35_6, findTF(var_35_1, "medal_bg/Text"), true)
+	LoadImageSpriteAsync("emblem/" .. var_39_6, findTF(var_39_1, "medal_bg/medal"), true)
+	LoadImageSpriteAsync("emblem/n_" .. var_39_6, findTF(var_39_1, "medal_bg/Text"), true)
 
-	local var_35_7 = findTF(var_35_1, "exp_slider"):GetComponent("Slider")
-	local var_35_8, var_35_9, var_35_10 = SeasonInfo.getNextMilitaryRank(var_35_0, arg_35_0.seasonInfo.rank)
-	local var_35_11 = math.min(var_35_9, var_35_0)
+	local var_39_7 = findTF(var_39_1, "exp_slider"):GetComponent("Slider")
+	local var_39_8, var_39_9, var_39_10 = SeasonInfo.getNextMilitaryRank(var_39_0, arg_39_0.seasonInfo.rank)
+	local var_39_11 = math.min(var_39_9, var_39_0)
 
-	setText(var_35_2, var_35_8)
-	setText(var_35_4, var_35_9)
-	setText(var_35_3, var_35_10 > 0 and var_35_10 or "-")
+	setText(var_39_2, var_39_8)
+	setText(var_39_4, var_39_9)
+	setText(var_39_3, var_39_10 > 0 and var_39_10 or "-")
 
-	var_35_7.value = var_35_11 / var_35_9
+	var_39_7.value = var_39_11 / var_39_9
 end
 
-function var_0_0.updateRivals(arg_36_0)
-	arg_36_0.rivalTFs = {}
+function var_0_0.updateRivals(arg_40_0)
+	arg_40_0.rivalTFs = {}
 
-	for iter_36_0 = 1, 4 do
-		table.insert(arg_36_0.rivalTFs, arg_36_0.rivalList:GetChild(iter_36_0 - 1))
+	for iter_40_0 = 1, 4 do
+		table.insert(arg_40_0.rivalTFs, arg_40_0.rivalList:GetChild(iter_40_0 - 1))
 	end
 
-	for iter_36_1 = 1, 4 do
-		local var_36_0 = arg_36_0.rivalTFs[iter_36_1]
+	for iter_40_1 = 1, 4 do
+		local var_40_0 = arg_40_0.rivalTFs[iter_40_1]
 
-		setActive(var_36_0, iter_36_1 <= #arg_36_0.rivalVOs)
+		setActive(var_40_0, iter_40_1 <= #arg_40_0.rivalVOs)
 
-		if iter_36_1 <= #arg_36_0.rivalVOs then
-			arg_36_0:updateRival(iter_36_1)
+		if iter_40_1 <= #arg_40_0.rivalVOs then
+			arg_40_0:updateRival(iter_40_1)
 		end
 	end
 end
 
-function var_0_0.updateRival(arg_37_0, arg_37_1)
-	local var_37_0 = arg_37_0.rivalTFs[arg_37_1]
-	local var_37_1 = arg_37_0.rivalVOs[arg_37_1]
-	local var_37_2 = SeasonInfo.getMilitaryRank(var_37_1.score, var_37_1.rank)
+function var_0_0.updateRival(arg_41_0, arg_41_1)
+	local var_41_0 = arg_41_0.rivalTFs[arg_41_1]
+	local var_41_1 = arg_41_0.rivalVOs[arg_41_1]
+	local var_41_2 = SeasonInfo.getMilitaryRank(var_41_1.score, var_41_1.rank)
 
-	assert(var_37_2, ">>>" .. var_37_1.score .. "--" .. var_37_1.rank)
+	assert(var_41_2, ">>>" .. var_41_1.score .. "--" .. var_41_1.rank)
 
-	local var_37_3 = findTF(var_37_0, "shiptpl")
-	local var_37_4 = SeasonInfo.getEmblem(var_37_1.score, var_37_1.rank)
+	local var_41_3 = findTF(var_41_0, "shiptpl")
+	local var_41_4 = SeasonInfo.getEmblem(var_41_1.score, var_41_1.rank)
 
-	LoadImageSpriteAsync("emblem/" .. var_37_4, findTF(var_37_0, "medal"), true)
-	LoadImageSpriteAsync("emblem/n_" .. var_37_4, findTF(var_37_0, "Text"), true)
-	updateDrop(var_37_3, {
+	LoadImageSpriteAsync("emblem/" .. var_41_4, findTF(var_41_0, "medal"), true)
+	LoadImageSpriteAsync("emblem/n_" .. var_41_4, findTF(var_41_0, "Text"), true)
+	updateDrop(var_41_3, {
 		type = DROP_TYPE_SHIP,
-		id = var_37_1.icon,
-		skinId = var_37_1.skinId,
-		propose = var_37_1.proposeTime,
-		remoulded = var_37_1.remoulded
+		id = var_41_1.icon,
+		skinId = var_41_1.skinId,
+		propose = var_41_1.proposeTime,
+		remoulded = var_41_1.remoulded
 	}, {
 		initStar = true
 	})
-	setActive(findTF(var_37_3, "icon_bg/lv"), false)
-	setText(findTF(var_37_0, "rank_bg/rank_container/name"), var_37_1.rank)
-	setText(findTF(var_37_0, "name_container/name"), var_37_1.name)
-	setText(findTF(var_37_0, "name_container/lv"), "Lv." .. var_37_1.level)
-	setText(findTF(var_37_0, "comprehensive_panel/comprehensive/main_fleet/value"), var_37_1:GetGearScoreSum(TeamType.Main))
-	setText(findTF(var_37_0, "comprehensive_panel/comprehensive/vanguard_fleet/value"), var_37_1:GetGearScoreSum(TeamType.Vanguard))
-	onButton(arg_37_0, var_37_0, function()
-		arg_37_0:emit(MilitaryExerciseMediator.OPEN_RIVAL_INFO, var_37_1)
+	setActive(findTF(var_41_3, "icon_bg/lv"), false)
+	setText(findTF(var_41_0, "rank_bg/rank_container/name"), var_41_1.rank)
+	setText(findTF(var_41_0, "name_container/name"), var_41_1.name)
+	setText(findTF(var_41_0, "name_container/lv"), "Lv." .. var_41_1.level)
+	setText(findTF(var_41_0, "comprehensive_panel/comprehensive/main_fleet/value"), var_41_1:GetGearScoreSum(TeamType.Main))
+	setText(findTF(var_41_0, "comprehensive_panel/comprehensive/vanguard_fleet/value"), var_41_1:GetGearScoreSum(TeamType.Vanguard))
+	onButton(arg_41_0, var_41_0, function()
+		arg_41_0:emit(MilitaryExerciseMediator.OPEN_RIVAL_INFO, var_41_1)
 	end, SFX_PANEL)
 end
 
-function var_0_0.initAwards(arg_39_0)
-	assert(not arg_39_0.isInitAward, "已经初始化奖励列表")
-	setActive(arg_39_0.awardPanel, true)
-	onButton(arg_39_0, arg_39_0.awardPanel:Find("top/btnBack"), function()
-		arg_39_0:closeAwards()
+function var_0_0.initAwards(arg_43_0)
+	assert(not arg_43_0.isInitAward, "已经初始化奖励列表")
+	setActive(arg_43_0.awardPanel, true)
+	onButton(arg_43_0, arg_43_0.awardPanel:Find("top/btnBack"), function()
+		arg_43_0:closeAwards()
 	end, SFX_CANCEL)
 
-	local var_39_0 = arg_39_0.awardPanel:Find("bg/frame/content/time_panel/Text")
+	local var_43_0 = arg_43_0.awardPanel:Find("bg/frame/content/time_panel/Text")
 
-	setText(var_39_0, i18n("exercise_time_tip", "   " .. os.date("%Y.%m.%d", arg_39_0.activity.data1) .. " — " .. os.date("%Y.%m.%d", arg_39_0.activity.stopTime)))
+	setText(var_43_0, i18n("exercise_time_tip", "   " .. os.date("%Y.%m.%d", arg_43_0.activity.data1) .. " — " .. os.date("%Y.%m.%d", arg_43_0.activity.stopTime)))
 
-	local var_39_1 = arg_39_0.awardPanel:Find("bg/frame/content/desc_panel/Text")
+	local var_43_1 = arg_43_0.awardPanel:Find("bg/frame/content/desc_panel/Text")
 
-	setText(var_39_1, i18n("exercise_rule_tip"))
+	setText(var_43_1, i18n("exercise_rule_tip"))
 
-	local var_39_2 = arg_39_0.awardPanel:Find("bg/frame/content/award_panel/award_list")
-	local var_39_3 = arg_39_0:getTpl("awardtpl", var_39_2)
-	local var_39_4 = arg_39_0:getTpl("awards/equipmenttpl", var_39_3)
-	local var_39_5 = var_39_2:Find("linetpl")
-	local var_39_6 = arg_39_0.awardPanel:Find("bg/frame/content/award_panel/Text")
+	local var_43_2 = arg_43_0.awardPanel:Find("bg/frame/content/award_panel/award_list")
+	local var_43_3 = arg_43_0:getTpl("awardtpl", var_43_2)
+	local var_43_4 = arg_43_0:getTpl("awards/equipmenttpl", var_43_3)
+	local var_43_5 = var_43_2:Find("linetpl")
+	local var_43_6 = arg_43_0.awardPanel:Find("bg/frame/content/award_panel/Text")
 
-	setText(var_39_6, i18n("exercise_award_tip"))
+	setText(var_43_6, i18n("exercise_award_tip"))
 
-	local function var_39_7(arg_41_0, arg_41_1)
-		local var_41_0 = arg_41_0:Find("awards")
-		local var_41_1 = arg_39_0.rankCfg[arg_41_1]
+	local function var_43_7(arg_45_0, arg_45_1)
+		local var_45_0 = arg_45_0:Find("awards")
+		local var_45_1 = arg_43_0.rankCfg[arg_45_1]
 
-		setText(findTF(arg_41_0, "Text"), var_41_1.name .. ":")
+		setText(findTF(arg_45_0, "Text"), var_45_1.name .. ":")
 
-		for iter_41_0, iter_41_1 in ipairs(var_41_1.award_list) do
-			local var_41_2 = cloneTplTo(var_39_4, var_41_0)
+		for iter_45_0, iter_45_1 in ipairs(var_45_1.award_list) do
+			local var_45_2 = cloneTplTo(var_43_4, var_45_0)
 
-			updateDrop(var_41_2, {
-				type = iter_41_1[1],
-				id = iter_41_1[2],
-				count = iter_41_1[3]
+			updateDrop(var_45_2, {
+				type = iter_45_1[1],
+				id = iter_45_1[2],
+				count = iter_45_1[3]
 			})
-			onButton(arg_39_0, var_41_2:Find("icon_bg"), function()
-				arg_39_0:emit(BaseUI.ON_ITEM, iter_41_1[1] == 1 and id2ItemId(iter_41_1[2]) or iter_41_1[2])
+			onButton(arg_43_0, var_45_2:Find("icon_bg"), function()
+				arg_43_0:emit(BaseUI.ON_ITEM, iter_45_1[1] == 1 and id2ItemId(iter_45_1[2]) or iter_45_1[2])
 			end, SFX_PANEL)
 		end
 
-		setText(findTF(arg_41_0, "upgrade_score_tip/level"), var_41_1.point)
-		setText(findTF(arg_41_0, "upgrade_rank_tip/level"), var_41_1.order > 0 and var_41_1.order or "-")
+		setText(findTF(arg_45_0, "upgrade_score_tip/level"), var_45_1.point)
+		setText(findTF(arg_45_0, "upgrade_rank_tip/level"), var_45_1.order > 0 and var_45_1.order or "-")
 	end
 
-	for iter_39_0 = #arg_39_0.rankCfg.all, 1, -1 do
-		local var_39_8 = arg_39_0.rankCfg.all[iter_39_0]
+	for iter_43_0 = #arg_43_0.rankCfg.all, 1, -1 do
+		local var_43_8 = arg_43_0.rankCfg.all[iter_43_0]
 
-		if #arg_39_0.rankCfg[var_39_8].award_list > 0 then
-			var_39_7(cloneTplTo(var_39_3, var_39_2), var_39_8)
-			cloneTplTo(var_39_5, var_39_2)
+		if #arg_43_0.rankCfg[var_43_8].award_list > 0 then
+			var_43_7(cloneTplTo(var_43_3, var_43_2), var_43_8)
+			cloneTplTo(var_43_5, var_43_2)
 		end
 	end
 end
 
-function var_0_0.closeAwards(arg_43_0)
-	if arg_43_0.isOpenAwards then
-		setActive(arg_43_0.awardPanel, false)
+function var_0_0.closeAwards(arg_47_0)
+	if arg_47_0.isOpenAwards then
+		setActive(arg_47_0.awardPanel, false)
 
-		arg_43_0.isOpenAwards = false
+		arg_47_0.isOpenAwards = false
 
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_43_0.awardPanel, arg_43_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_47_0.awardPanel, arg_47_0._tf)
 	end
 end
 
-function var_0_0.onBackPressed(arg_44_0)
-	if arg_44_0.isOpenAwards then
-		arg_44_0:closeAwards()
+function var_0_0.onBackPressed(arg_48_0)
+	if arg_48_0.isOpenAwards then
+		arg_48_0:closeAwards()
 	else
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-		arg_44_0:emit(var_0_0.ON_BACK)
+		arg_48_0:emit(var_0_0.ON_BACK)
 	end
 end
 
-function var_0_0.willExit(arg_45_0)
-	if arg_45_0.tweens then
-		cancelTweens(arg_45_0.tweens)
+function var_0_0.willExit(arg_49_0)
+	if arg_49_0.tweens then
+		cancelTweens(arg_49_0.tweens)
 	end
 
-	if arg_45_0.leftTimeTimer then
-		arg_45_0.leftTimeTimer:Stop()
+	if arg_49_0.leftTimeTimer then
+		arg_49_0.leftTimeTimer:Stop()
 
-		arg_45_0.leftTimeTimer = nil
+		arg_49_0.leftTimeTimer = nil
 	end
 
-	if arg_45_0.recoverTimer then
-		arg_45_0.recoverTimer:Stop()
+	if arg_49_0.recoverTimer then
+		arg_49_0.recoverTimer:Stop()
 
-		arg_45_0.recoverTimer = nil
+		arg_49_0.recoverTimer = nil
 	end
 
-	arg_45_0:closeAwards()
+	arg_49_0:closeAwards()
 end
 
 return var_0_0

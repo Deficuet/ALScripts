@@ -323,4 +323,36 @@ function var_0_0.IsShowRedDot(arg_17_0)
 	end)
 end
 
+function var_0_0.getAllData(arg_19_0)
+	local var_19_0 = {
+		iconFrames = {},
+		chatFrames = {},
+		combatUIStyles = {},
+		trophys = getProxy(CollectionProxy):getTrophys(),
+		loveTrophys = getProxy(LoveLetterProxy):GetTrophyList()
+	}
+
+	for iter_19_0, iter_19_1 in ipairs(var_0_1.all) do
+		var_19_0.iconFrames[iter_19_1] = IconFrame.New({
+			id = iter_19_1,
+			end_time = iter_19_1 == 0 and 0 or nil
+		})
+	end
+
+	for iter_19_2, iter_19_3 in ipairs(var_0_2.all) do
+		var_19_0.chatFrames[iter_19_3] = ChatFrame.New({
+			id = iter_19_3,
+			end_time = iter_19_3 == 0 and 0 or nil
+		})
+	end
+
+	for iter_19_4, iter_19_5 in ipairs(var_0_3.all) do
+		var_19_0.combatUIStyles[iter_19_5] = CombatUIStyle.New({
+			id = iter_19_5
+		})
+	end
+
+	return var_19_0
+end
+
 return var_0_0

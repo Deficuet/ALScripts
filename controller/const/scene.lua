@@ -1316,128 +1316,138 @@ local var_0_1 = {
 				WorldConst.ReqWorldCheck(arg_223_0)
 			end)
 			table.insert(var_221_1, function(arg_224_0)
-				local var_224_0 = nowWorld()
-
-				if var_224_0:CheckReset(true) then
-					pg.ConnectionMgr.GetInstance():Send(33112, {
-						type = 1
-					}, 33113, function(arg_225_0)
-						if arg_225_0.result == 0 then
-							if arg_225_0.time == 0 then
-								var_224_0:TransDefaultFleets()
-								var_221_0:BuildWorld(World.TypeFull, true)
-								nowWorld():CheckResetAward(PlayerConst.addTranDrop(arg_225_0.drop_list))
-								pg.TipsMgr.GetInstance():ShowTips(i18n("world_reset_success"))
-							else
-								var_224_0.expiredTime = arg_225_0.time
-							end
-
-							arg_224_0()
-						else
-							pg.TipsMgr.GetInstance():ShowTips(errorTip("world_reset_error_", arg_225_0.result))
-						end
-					end)
-				elseif var_224_0:CheckResetProgress() then
-					pg.ConnectionMgr.GetInstance():Send(33112, {
-						type = 2
-					}, 33113, function(arg_226_0)
-						if arg_226_0.result == 0 then
-							var_221_0:NetUpdateWorldSairenChapter(arg_226_0.sairen_chapter)
-							arg_224_0()
-						else
-							pg.TipsMgr.GetInstance():ShowTips(errorTip("world_reset_error_", arg_226_0.result))
-						end
-					end)
+				if nowWorld():CheckReset() and getProxy(ChapterAutoProxy):HasTypeCommission(ChapterAutoProxy.TYPE.WORLD) then
+					pg.m02:sendNotification(GAME.END_CHAPTER_AUTO, {
+						isReset = true,
+						callback = arg_224_0
+					})
 				else
 					arg_224_0()
 				end
 			end)
-			table.insert(var_221_1, function(arg_227_0)
-				local var_227_0 = pg.gameset.world_starting_story.description[1]
+			table.insert(var_221_1, function(arg_225_0)
+				local var_225_0 = nowWorld()
 
-				pg.NewStoryMgr.GetInstance():Play(var_227_0, arg_227_0)
+				if var_225_0:CheckReset(true) then
+					pg.ConnectionMgr.GetInstance():Send(33112, {
+						type = 1
+					}, 33113, function(arg_226_0)
+						if arg_226_0.result == 0 then
+							if arg_226_0.time == 0 then
+								var_225_0:TransDefaultFleets()
+								var_221_0:BuildWorld(World.TypeFull, true)
+								nowWorld():CheckResetAward(PlayerConst.addTranDrop(arg_226_0.drop_list))
+								pg.TipsMgr.GetInstance():ShowTips(i18n("world_reset_success"))
+							else
+								var_225_0.expiredTime = arg_226_0.time
+							end
+
+							arg_225_0()
+						else
+							pg.TipsMgr.GetInstance():ShowTips(errorTip("world_reset_error_", arg_226_0.result))
+						end
+					end)
+				elseif var_225_0:CheckResetProgress() then
+					pg.ConnectionMgr.GetInstance():Send(33112, {
+						type = 2
+					}, 33113, function(arg_227_0)
+						if arg_227_0.result == 0 then
+							var_221_0:NetUpdateWorldSairenChapter(arg_227_0.sairen_chapter)
+							arg_225_0()
+						else
+							pg.TipsMgr.GetInstance():ShowTips(errorTip("world_reset_error_", arg_227_0.result))
+						end
+					end)
+				else
+					arg_225_0()
+				end
 			end)
 			table.insert(var_221_1, function(arg_228_0)
-				local var_228_0 = nowWorld()
+				local var_228_0 = pg.gameset.world_starting_story.description[1]
 
-				if not var_228_0:IsActivate() then
-					local var_228_1, var_228_2 = var_228_0:BuildFormationIds()
-					local var_228_3
-					local var_228_4
+				pg.NewStoryMgr.GetInstance():Play(var_228_0, arg_228_0)
+			end)
+			table.insert(var_221_1, function(arg_229_0)
+				local var_229_0 = nowWorld()
 
-					if var_228_0:IsRookie() then
-						var_228_3, var_228_4 = WorldConst.GetRealmRookieId(var_228_0:GetRealm())
+				if not var_229_0:IsActivate() then
+					local var_229_1, var_229_2 = var_229_0:BuildFormationIds()
+					local var_229_3
+					local var_229_4
+
+					if var_229_0:IsRookie() then
+						var_229_3, var_229_4 = WorldConst.GetRealmRookieId(var_229_0:GetRealm())
 					else
-						var_228_3, var_228_4 = 2, 2
+						var_229_3, var_229_4 = 2, 2
 					end
 
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.WORLD_FLEET_SELECT, {
-						type = var_228_1,
-						fleets = var_228_2,
-						mapId = var_228_3,
-						entranceId = var_228_4
+						type = var_229_1,
+						fleets = var_229_2,
+						mapId = var_229_3,
+						entranceId = var_229_4
 					})
-				elseif var_228_0:IsSystemOpen(WorldConst.SystemDailyTask) then
-					var_228_0:GetTaskProxy():checkDailyTask(arg_228_0)
+				elseif var_229_0:IsSystemOpen(WorldConst.SystemDailyTask) then
+					var_229_0:GetTaskProxy():checkDailyTask(arg_229_0)
 				else
-					arg_228_0()
+					arg_229_0()
 				end
 			end)
 		end
 
 		seriesAsync(var_221_1, arg_221_1)
 	end,
-	WorldMediaCollectionMediator = function(arg_229_0, arg_229_1)
-		WorldConst.ReqWorldCheck(arg_229_1)
+	WorldMediaCollectionMediator = function(arg_230_0, arg_230_1)
+		WorldConst.ReqWorldCheck(arg_230_1)
 	end,
-	MailMediator = function(arg_230_0, arg_230_1)
-		local var_230_0 = {}
+	MailMediator = function(arg_231_0, arg_231_1)
+		local var_231_0 = {}
 
-		table.insert(var_230_0, function(arg_231_0)
-			WorldConst.ReqWorldCheck(arg_231_0)
+		table.insert(var_231_0, function(arg_232_0)
+			WorldConst.ReqWorldCheck(arg_232_0)
 		end)
 
 		if getProxy(MailProxy):IsDirty() then
-			table.insert(var_230_0, function(arg_232_0)
+			table.insert(var_231_0, function(arg_233_0)
 				pg.m02:sendNotification(GAME.GET_MAIL_LIST, {
 					cmd = "new",
-					callback = arg_232_0
+					callback = arg_233_0
 				})
 			end)
 		end
 
-		seriesAsync(var_230_0, arg_230_1)
+		seriesAsync(var_231_0, arg_231_1)
 	end,
-	CompensateMediator = function(arg_233_0, arg_233_1)
-		local var_233_0 = {}
+	CompensateMediator = function(arg_234_0, arg_234_1)
+		local var_234_0 = {}
 
-		table.insert(var_233_0, function(arg_234_0)
-			WorldConst.ReqWorldCheck(arg_234_0)
+		table.insert(var_234_0, function(arg_235_0)
+			WorldConst.ReqWorldCheck(arg_235_0)
 		end)
 
-		local var_233_1 = getProxy(CompensateProxy)
+		local var_234_1 = getProxy(CompensateProxy)
 
-		if var_233_1:IsDirty() then
-			table.insert(var_233_0, function(arg_235_0)
+		if var_234_1:IsDirty() then
+			table.insert(var_234_0, function(arg_236_0)
 				pg.m02:sendNotification(GAME.GET_COMPENSATE_LIST, {
-					callback = arg_235_0
+					callback = arg_236_0
 				})
-				var_233_1:SetDirty(false)
+				var_234_1:SetDirty(false)
 			end)
 		end
 
-		seriesAsync(var_233_0, arg_233_1)
+		seriesAsync(var_234_0, arg_234_1)
 	end,
-	HolidayVillaMapMediator = function(arg_236_0, arg_236_1)
-		local var_236_0 = getProxy(ActivityProxy):getActivityById(ActivityConst.HOLIDAY_ACT_PRE_ID)
+	HolidayVillaMapMediator = function(arg_237_0, arg_237_1)
+		local var_237_0 = getProxy(ActivityProxy):getActivityById(ActivityConst.HOLIDAY_ACT_PRE_ID)
 
-		if var_236_0.data3 >= 5 then
-			local var_236_1 = underscore.flatten(var_236_0:getConfig("config_data"))
-			local var_236_2 = getProxy(TaskProxy)
-			local var_236_3 = var_236_1[var_236_0.data3]
+		if var_237_0.data3 >= 5 then
+			local var_237_1 = underscore.flatten(var_237_0:getConfig("config_data"))
+			local var_237_2 = getProxy(TaskProxy)
+			local var_237_3 = var_237_1[var_237_0.data3]
 
-			if var_236_2:getTaskVO(var_236_3):getTaskStatus() == 2 then
-				arg_236_1()
+			if var_237_2:getTaskVO(var_237_3):getTaskStatus() == 2 then
+				arg_237_1()
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("holiday_villa_locked"))
 			end
@@ -1445,449 +1455,495 @@ local var_0_1 = {
 			pg.TipsMgr.GetInstance():ShowTips(i18n("holiday_villa_locked"))
 		end
 	end,
-	SixthAnniversaryIslandMediator = function(arg_237_0, arg_237_1)
-		local var_237_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND)
+	SixthAnniversaryIslandMediator = function(arg_238_0, arg_238_1)
+		local var_238_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND)
 
-		if not var_237_0 or var_237_0:isEnd() then
+		if not var_238_0 or var_238_0:isEnd() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
 
-		AnniversaryIsland2023Mediator.CheckPreloadData(arg_237_0)
-		getProxy(SixthAnniversaryIslandProxy):CheckAndRequest(arg_237_1)
+		AnniversaryIsland2023Mediator.CheckPreloadData(arg_238_0)
+		getProxy(SixthAnniversaryIslandProxy):CheckAndRequest(arg_238_1)
 	end,
-	NewShopsMediator = function(arg_238_0, arg_238_1)
+	NewShopsMediator = function(arg_239_0, arg_239_1)
 		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
-			callback = function(arg_239_0)
-				arg_238_0.context:extendData({
-					shops = arg_239_0
+			callback = function(arg_240_0)
+				arg_239_0.context:extendData({
+					shops = arg_240_0
 				})
-				arg_238_1()
+				arg_239_1()
 			end
 		})
 	end,
-	NewShopMainMediator = function(arg_240_0, arg_240_1)
-		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
-			callback = function(arg_241_0)
-				arg_240_0.context:extendData({
-					supplyShopList = arg_241_0
+	NewShopMainMediator = function(arg_241_0, arg_241_1)
+		local var_241_0 = {}
+
+		table.insert(var_241_0, function(arg_242_0)
+			pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
+				callback = function(arg_243_0)
+					arg_241_0.context:extendData({
+						supplyShopList = arg_243_0
+					})
+					arg_242_0()
+				end
+			})
+		end)
+		table.insert(var_241_0, function(arg_244_0)
+			if getProxy(ShopsProxy):ShouldRefreshChargeList() then
+				pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
+					callback = arg_244_0
 				})
-				arg_240_1()
+			else
+				arg_244_0()
 			end
-		})
+		end)
+		seriesAsync(var_241_0, arg_241_1)
 	end,
-	SixthAnniversaryIslandShopMediator = function(arg_242_0, arg_242_1)
-		local var_242_0 = underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_243_0)
-			return arg_243_0:getConfig("config_id") == 3
+	SixthAnniversaryIslandShopMediator = function(arg_245_0, arg_245_1)
+		local var_245_0 = underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_246_0)
+			return arg_246_0:getConfig("config_id") == 3
 		end)
 
-		if var_242_0 then
-			local var_242_1 = IslandShop.New(var_242_0)
+		if var_245_0 then
+			local var_245_1 = IslandShop.New(var_245_0)
 
-			arg_242_0.context:extendData({
-				shop = var_242_1
+			arg_245_0.context:extendData({
+				shop = var_245_1
 			})
-			arg_242_1()
+			arg_245_1()
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 		end
 	end,
-	HolidayVillaShopMediator = function(arg_244_0, arg_244_1)
-		local var_244_0 = underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_245_0)
-			return arg_245_0:getConfig("config_id") == 3
+	HolidayVillaShopMediator = function(arg_247_0, arg_247_1)
+		local var_247_0 = underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_248_0)
+			return arg_248_0:getConfig("config_id") == 3
 		end)
 
-		if var_244_0 then
-			local var_244_1 = IslandShop.New(var_244_0)
+		if var_247_0 then
+			local var_247_1 = IslandShop.New(var_247_0)
 
-			arg_244_0.context:extendData({
-				shop = var_244_1
+			arg_247_0.context:extendData({
+				shop = var_247_1
 			})
-			arg_244_1()
+			arg_247_1()
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 		end
 	end,
-	AnniversaryIslandComposite2023Mediator = function(arg_246_0, arg_246_1)
-		AnniversaryIsland2023Mediator.CheckPreloadData(arg_246_0)
-		arg_246_1()
+	AnniversaryIslandComposite2023Mediator = function(arg_249_0, arg_249_1)
+		AnniversaryIsland2023Mediator.CheckPreloadData(arg_249_0)
+		arg_249_1()
 	end,
-	SculptureMediator = function(arg_247_0, arg_247_1)
-		AnniversaryIsland2023Mediator.CheckPreloadData(arg_247_0)
-		arg_247_1()
+	SculptureMediator = function(arg_250_0, arg_250_1)
+		AnniversaryIsland2023Mediator.CheckPreloadData(arg_250_0)
+		arg_250_1()
 	end,
-	AnniversaryIsland2023Mediator = function(arg_248_0, arg_248_1)
+	AnniversaryIsland2023Mediator = function(arg_251_0, arg_251_1)
 		if getProxy(ContextProxy):getContextByMediator(AnniversaryIsland2023Mediator) then
-			local var_248_0 = getProxy(ContextProxy):getCurrentContext()
+			local var_251_0 = getProxy(ContextProxy):getCurrentContext()
 
-			arg_248_0.prevContext = arg_248_0.prevContext or var_248_0
+			arg_251_0.prevContext = arg_251_0.prevContext or var_251_0
 
 			getProxy(ContextProxy):CleanUntilMediator(AnniversaryIsland2023Mediator)
 			getProxy(ContextProxy):popContext()
 		end
 
-		local var_248_1 = "HAIDAORICHANG2"
+		local var_251_1 = "HAIDAORICHANG2"
 
-		if pg.NewStoryMgr.GetInstance():IsPlayed(var_248_1) then
-			return arg_248_1()
+		if pg.NewStoryMgr.GetInstance():IsPlayed(var_251_1) then
+			return arg_251_1()
 		end
 
-		if arg_248_0.context.data.fromMediatorName then
-			return arg_248_1()
+		if arg_251_0.context.data.fromMediatorName then
+			return arg_251_1()
 		end
 
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ANNIVERSARY_ISLAND_SEA)
 	end,
-	ShipBluePrintMediator = function(arg_249_0, arg_249_1)
-		local var_249_0 = {}
-		local var_249_1 = getProxy(TechnologyProxy):getAllBluePrintShipIds()
+	ShipBluePrintMediator = function(arg_252_0, arg_252_1)
+		local var_252_0 = {}
+		local var_252_1 = getProxy(TechnologyProxy):getAllBluePrintShipIds()
 
-		if #var_249_1 > 0 then
-			table.insert(var_249_0, function(arg_250_0)
+		if #var_252_1 > 0 then
+			table.insert(var_252_0, function(arg_253_0)
 				pg.m02:sendNotification(GAME.GET_PHANTOM_QUEST_PROGRESS, {
-					shipIds = var_249_1,
-					callback = arg_250_0
+					shipIds = var_252_1,
+					callback = arg_253_0
 				})
 			end)
 		end
 
-		table.insert(var_249_0, function(arg_251_0)
-			local var_251_0 = PaintingGroupConst.GetPaintingNameListForTec()
-			local var_251_1 = {
+		table.insert(var_252_0, function(arg_254_0)
+			local var_254_0 = PaintingGroupConst.GetPaintingNameListForTec()
+			local var_254_1 = {
 				isShowBox = true,
-				paintingNameList = var_251_0,
-				finishFunc = arg_251_0
+				paintingNameList = var_254_0,
+				finishFunc = arg_254_0
 			}
 
-			PaintingGroupConst.PaintingDownload(var_251_1)
+			PaintingGroupConst.PaintingDownload(var_254_1)
 		end)
-		seriesAsync(var_249_0, arg_249_1)
+		seriesAsync(var_252_0, arg_252_1)
 	end,
-	SwitchSkinMediator = function(arg_252_0, arg_252_1)
-		local var_252_0 = PaintingGroupConst.GetPaintingNameListByShipVO(arg_252_0.context.data.shipVO)
-		local var_252_1 = {
+	SwitchSkinMediator = function(arg_255_0, arg_255_1)
+		local var_255_0 = PaintingGroupConst.GetPaintingNameListByShipVO(arg_255_0.context.data.shipVO)
+		local var_255_1 = {
 			isShowBox = true,
-			paintingNameList = var_252_0,
-			finishFunc = arg_252_1
+			paintingNameList = var_255_0,
+			finishFunc = arg_255_1
 		}
 
-		PaintingGroupConst.PaintingDownload(var_252_1)
+		PaintingGroupConst.PaintingDownload(var_255_1)
 	end,
-	NewShipMediator = function(arg_253_0, arg_253_1)
-		local var_253_0 = arg_253_0.context.data.ship
-		local var_253_1 = {}
+	NewShipMediator = function(arg_256_0, arg_256_1)
+		local var_256_0 = arg_256_0.context.data.ship
+		local var_256_1 = {}
 
-		PaintingGroupConst.AddPaintingNameByShipConfigID(var_253_1, var_253_0.configId)
+		PaintingGroupConst.AddPaintingNameByShipConfigID(var_256_1, var_256_0.configId)
 
-		local var_253_2 = {
+		local var_256_2 = {
 			isShowBox = false,
-			paintingNameList = var_253_1,
-			finishFunc = arg_253_1
+			paintingNameList = var_256_1,
+			finishFunc = arg_256_1
 		}
 
-		PaintingGroupConst.PaintingDownload(var_253_2)
+		PaintingGroupConst.PaintingDownload(var_256_2)
 	end,
-	EquipCodeShareMediator = function(arg_254_0, arg_254_1)
-		local var_254_0 = {}
+	EquipCodeShareMediator = function(arg_257_0, arg_257_1)
+		local var_257_0 = {}
 
-		table.insert(var_254_0, function(arg_255_0)
+		table.insert(var_257_0, function(arg_258_0)
 			pg.m02:sendNotification(GAME.EQUIP_CODE_REQUEST, {
-				shipGroupId = arg_254_0.context.data.shipGroupId,
-				callback = arg_255_0
+				shipGroupId = arg_257_0.context.data.shipGroupId,
+				callback = arg_258_0
 			})
 		end)
-		seriesAsync(var_254_0, arg_254_1)
+		seriesAsync(var_257_0, arg_257_1)
 	end,
-	BuildShipRegularExchangeMediator = function(arg_256_0, arg_256_1)
-		local var_256_0 = {}
+	BuildShipRegularExchangeMediator = function(arg_259_0, arg_259_1)
+		local var_259_0 = {}
 
-		for iter_256_0, iter_256_1 in ipairs(pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID].exchange_ship_id) do
-			PaintingGroupConst.AddPaintingNameByShipConfigID(var_256_0, iter_256_1)
+		for iter_259_0, iter_259_1 in ipairs(pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID].exchange_ship_id) do
+			PaintingGroupConst.AddPaintingNameByShipConfigID(var_259_0, iter_259_1)
 		end
 
 		PaintingGroupConst.PaintingDownload({
 			isShowBox = false,
-			paintingNameList = var_256_0,
-			finishFunc = arg_256_1
+			paintingNameList = var_259_0,
+			finishFunc = arg_259_1
 		})
 	end,
-	EducateMediator = function(arg_257_0, arg_257_1)
-		EducateHelper.ReqEducateDataCheck(arg_257_1)
+	EducateMediator = function(arg_260_0, arg_260_1)
+		EducateHelper.ReqEducateDataCheck(arg_260_1)
 	end,
-	NewEducateSelectMediator = function(arg_258_0, arg_258_1)
+	NewEducateSelectMediator = function(arg_261_0, arg_261_1)
 		seriesAsync({
-			function(arg_259_0)
-				EducateHelper.ReqEducateDataCheck(arg_259_0)
+			function(arg_262_0)
+				EducateHelper.ReqEducateDataCheck(arg_262_0)
 			end,
-			function(arg_260_0)
-				getProxy(NewEducateProxy):ReqDataCheck(arg_260_0)
+			function(arg_263_0)
+				getProxy(NewEducateProxy):ReqDataCheck(arg_263_0)
 			end
 		}, function()
 			NewEducateHelper.TrackExitTime()
 			getProxy(NewEducateProxy):SetCurChar(0)
-			arg_258_1()
+			arg_261_1()
 		end)
 	end,
-	NewEducateMainMediator = function(arg_262_0, arg_262_1)
-		local var_262_0 = arg_262_0.context.data.id
+	NewEducateMainMediator = function(arg_265_0, arg_265_1)
+		local var_265_0 = arg_265_0.context.data.id
 
-		getProxy(NewEducateProxy):SetCurChar(var_262_0)
+		getProxy(NewEducateProxy):SetCurChar(var_265_0)
 		NewEducateHelper.TrackEnterTime()
-		arg_262_1()
+		arg_265_1()
 	end,
-	CourtYardMediator = function(arg_263_0, arg_263_1)
+	CourtYardMediator = function(arg_266_0, arg_266_1)
 		if not pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "BackYardMediator") then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_systemClose"))
 
 			return
 		end
 
-		arg_263_1()
+		arg_266_1()
 	end,
-	Dorm3dRoomMediator = function(arg_264_0, arg_264_1)
-		local var_264_0 = arg_264_0.context.data
+	Dorm3dRoomMediator = function(arg_267_0, arg_267_1)
+		local var_267_0 = arg_267_0.context.data
 
-		if not var_264_0.timeIndex then
-			if pg.dorm3d_rooms[var_264_0.roomId].type == 2 then
-				local var_264_1 = PlayerPrefs.GetInt(ApartmentProxy.GetTimePPName(var_264_0.roomId), 1)
+		if not var_267_0.timeIndex then
+			if pg.dorm3d_rooms[var_267_0.roomId].type == 2 then
+				local var_267_1 = PlayerPrefs.GetInt(ApartmentProxy.GetTimePPName(var_267_0.roomId), 1)
 
-				if var_264_1 == 0 then
-					var_264_1 = ApartmentProxy.GetTimeIndex(tonumber(pg.TimeMgr.GetInstance():CurrentSTimeDesc("%H")))
+				if var_267_1 == 0 then
+					var_267_1 = ApartmentProxy.GetTimeIndex(tonumber(pg.TimeMgr.GetInstance():CurrentSTimeDesc("%H")))
 				end
 
-				var_264_0.timeIndex = var_264_1
+				var_267_0.timeIndex = var_267_1
 			else
-				var_264_0.timeIndex = 1
+				var_267_0.timeIndex = 1
 			end
 
-			var_264_0.pendingDic = ApartmentProxy.PendingRandom(var_264_0.roomId, var_264_0.groupIds)
+			var_267_0.pendingDic = ApartmentProxy.PendingRandom(var_267_0.roomId, var_267_0.groupIds)
 		end
 
-		local var_264_2 = arg_264_0.context.data.roomId
+		local var_267_2 = arg_267_0.context.data.roomId
 
-		pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(var_264_2, 1))
+		pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(var_267_2, 1))
 
-		if pg.dorm3d_rooms[var_264_2].type == 2 then
-			pg.m02:sendNotification(GAME.DORM_RECORD_VISIT, pg.dorm3d_rooms[var_264_2].character[1])
+		if pg.dorm3d_rooms[var_267_2].type == 2 then
+			pg.m02:sendNotification(GAME.DORM_RECORD_VISIT, pg.dorm3d_rooms[var_267_2].character[1])
 		end
 
 		getProxy(ApartmentProxy):RecordEnterTime()
 		getProxy(ApartmentProxy):InitGiftDaily()
 		GraphicSettingConst.SettingQuality()
 
-		local var_264_3 = arg_264_0.context.onRemoved
+		local var_267_3 = arg_267_0.context.onRemoved
 
-		function arg_264_0.context.onRemoved()
-			local var_265_0 = 0
-			local var_265_1 = getProxy(ApartmentProxy):GetEnterTime()
+		function arg_267_0.context.onRemoved()
+			local var_268_0 = 0
+			local var_268_1 = getProxy(ApartmentProxy):GetEnterTime()
 
-			if var_265_1 then
-				var_265_0 = pg.TimeMgr.GetInstance():GetServerTime() - var_265_1
+			if var_268_1 then
+				var_268_0 = pg.TimeMgr.GetInstance():GetServerTime() - var_268_1
 			end
 
-			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(var_264_2, 2, var_265_0))
-			existCall(var_264_3)
+			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(var_267_2, 2, var_268_0))
+			existCall(var_267_3)
 		end
 
-		arg_264_1()
+		arg_267_1()
 	end,
-	SelectDorm3DMediator = function(arg_266_0, arg_266_1)
+	SelectDorm3DMediator = function(arg_269_0, arg_269_1)
 		if LOCK_DORM3D_SYSTEM then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_system_switch"))
 		else
-			arg_266_1()
+			arg_269_1()
 		end
 	end,
-	NewSkinShopMediator = function(arg_267_0, arg_267_1)
+	NewSkinShopMediator = function(arg_270_0, arg_270_1)
 		if LOCK_SKIN_SHOP_ENTER and getProxy(PlayerProxy):getData().level < LOCK_SKIN_SHOP_ENTER_LEVEL then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipUpgradeLayer2_levelError"))
 		else
-			arg_267_1()
+			arg_270_1()
 		end
 	end,
-	Dorm3dShopMediator = function(arg_268_0, arg_268_1)
+	Dorm3dShopMediator = function(arg_271_0, arg_271_1)
 		getProxy(ApartmentProxy):InitGiftDaily()
-		arg_268_1()
+		arg_271_1()
 	end,
-	CommanderManualMediator = function(arg_269_0, arg_269_1)
+	CommanderManualMediator = function(arg_272_0, arg_272_1)
 		getProxy(CommanderManualProxy):GetPagesTasks()
-		arg_269_1()
+		arg_272_1()
 	end,
-	ActivityMediator = function(arg_270_0, arg_270_1)
-		local var_270_0 = arg_270_0.context.data.id
-		local var_270_1 = var_270_0 and getProxy(ActivityProxy):getActivityById(var_270_0)
+	ActivityMediator = function(arg_273_0, arg_273_1)
+		local var_273_0 = arg_273_0.context.data.id
+		local var_273_1 = var_273_0 and getProxy(ActivityProxy):getActivityById(var_273_0)
 
-		if var_270_0 and var_270_0 ~= 0 and (not var_270_1 or var_270_1:isEnd()) then
+		if var_273_0 and var_273_0 ~= 0 and (not var_273_1 or var_273_1:isEnd()) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
 
-		if var_270_1 and noEmptyStr(var_270_1:getConfig("page_core")) then
+		if var_273_1 and noEmptyStr(var_273_1:getConfig("page_core")) then
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CORE_ACTIVITY, {
-				coreName = var_270_1:getConfig("page_core"),
-				id = var_270_1.id
+				coreName = var_273_1:getConfig("page_core"),
+				id = var_273_1.id
 			})
 		else
 			pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
-				callback = arg_270_1
+				callback = arg_273_1
 			})
 		end
 	end,
-	CoreActivityMainMediator = function(arg_271_0, arg_271_1)
+	CoreActivityMainMediator = function(arg_274_0, arg_274_1)
 		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
-			callback = arg_271_1
+			callback = arg_274_1
 		})
 	end,
-	IslandMediator = function(arg_272_0, arg_272_1)
+	IslandMediator = function(arg_275_0, arg_275_1)
 		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandEnter(0, 0))
 		getProxy(IslandProxy):RecordEnterTime()
 
-		local var_272_0 = arg_272_0.context.onRemoved
+		local var_275_0 = arg_275_0.context.onRemoved
 
-		function arg_272_0.context.onRemoved()
-			local var_273_0 = 0
-			local var_273_1 = getProxy(IslandProxy):GetEnterTime()
+		function arg_275_0.context.onRemoved()
+			local var_276_0 = 0
+			local var_276_1 = getProxy(IslandProxy):GetEnterTime()
 
-			if var_273_1 then
-				var_273_0 = pg.TimeMgr.GetInstance():GetServerTime() - var_273_1
+			if var_276_1 then
+				var_276_0 = pg.TimeMgr.GetInstance():GetServerTime() - var_276_1
 			end
 
-			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandEnter(1, var_273_0))
-			existCall(var_272_0)
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandEnter(1, var_276_0))
+			existCall(var_275_0)
 		end
 
 		GraphicSettingConst.InitDefautQuality(true)
 		GraphicSettingConst.SettingQuality(true)
-		arg_272_1()
+		arg_275_1()
 	end,
-	LoveLetterGiftCollectMediator = function(arg_274_0, arg_274_1)
-		local var_274_0 = getProxy(LoveLetterProxy):CanRealizeGift()
+	LoveLetterGiftCollectMediator = function(arg_277_0, arg_277_1)
+		local var_277_0 = getProxy(LoveLetterProxy):CanRealizeGift()
 
-		if not var_274_0 then
+		if not var_277_0 then
 			pg.TipsMgr.GetInstance():ShowTips("your gifts record without change pattern !")
 		else
-			arg_274_0.context.data.items = var_274_0
+			arg_277_0.context.data.items = var_277_0
 
-			arg_274_1()
+			arg_277_1()
 		end
 	end,
-	LoveLetterGiftLevelDisplayMediator = function(arg_275_0, arg_275_1)
-		local var_275_0 = arg_275_0.context.data
-		local var_275_1 = {}
-		local var_275_2 = getProxy(LoveLetterProxy):GetGroupData(var_275_0.groupId)
-
-		if var_275_2:CanLevelUp() then
-			local var_275_3 = var_275_2:GetDisplayLevel()
-
-			table.insert(var_275_1, function(arg_276_0)
-				pg.m02:sendNotification(GAME.LOVE_LETTER_LEVEL_UP, {
-					groupId = var_275_2.groupId,
-					callback = arg_276_0
-				})
-			end)
-			table.insert(var_275_1, function(arg_277_0)
-				var_275_2 = getProxy(LoveLetterProxy):GetGroupData(var_275_0.groupId)
-				var_275_0.isLevelUp = var_275_3 < var_275_2:GetDisplayLevel()
-
-				arg_277_0()
-			end)
-		end
-
-		seriesAsync(var_275_1, arg_275_1)
-	end,
-	LoveLetterDisplayMediator = function(arg_278_0, arg_278_1)
+	LoveLetterGiftLevelDisplayMediator = function(arg_278_0, arg_278_1)
 		local var_278_0 = arg_278_0.context.data
 		local var_278_1 = {}
+		local var_278_2 = getProxy(LoveLetterProxy):GetGroupData(var_278_0.groupId)
 
-		for iter_278_0, iter_278_1 in ipairs(getProxy(LoveLetterProxy):GetGroupData(arg_278_0.context.data.groupId):GetDisplayLetterList()) do
-			if not getProxy(LoveLetterProxy):GetLoveLetterContent(iter_278_1) then
-				table.insert(var_278_1, function(arg_279_0)
+		if var_278_2:CanLevelUp() then
+			local var_278_3 = var_278_2:GetDisplayLevel()
+
+			table.insert(var_278_1, function(arg_279_0)
+				pg.m02:sendNotification(GAME.LOVE_LETTER_LEVEL_UP, {
+					groupId = var_278_2.groupId,
+					callback = arg_279_0
+				})
+			end)
+			table.insert(var_278_1, function(arg_280_0)
+				var_278_2 = getProxy(LoveLetterProxy):GetGroupData(var_278_0.groupId)
+				var_278_0.isLevelUp = var_278_3 < var_278_2:GetDisplayLevel()
+
+				arg_280_0()
+			end)
+		end
+
+		seriesAsync(var_278_1, arg_278_1)
+	end,
+	LoveLetterDisplayMediator = function(arg_281_0, arg_281_1)
+		local var_281_0 = arg_281_0.context.data
+		local var_281_1 = {}
+
+		for iter_281_0, iter_281_1 in ipairs(getProxy(LoveLetterProxy):GetGroupData(arg_281_0.context.data.groupId):GetDisplayLetterList()) do
+			if not getProxy(LoveLetterProxy):GetLoveLetterContent(iter_281_1) then
+				table.insert(var_281_1, function(arg_282_0)
 					pg.m02:sendNotification(GAME.REQUEST_LOVE_LETTER_TEXT, {
-						id = iter_278_1,
-						callback = arg_279_0
+						id = iter_281_1,
+						callback = arg_282_0
 					})
 				end)
 			end
 		end
 
-		seriesAsync(var_278_1, arg_278_1)
+		seriesAsync(var_281_1, arg_281_1)
 	end,
-	CombatLoadMediator = function(arg_280_0, arg_280_1)
-		local var_280_0, var_280_1 = CombatLoadUI.GetTotalResourceList(arg_280_0.context.data)
-		local var_280_2 = PaintingGroupConst.FiltePaintingRes(var_280_0)
-		local var_280_3 = {
+	CombatLoadMediator = function(arg_283_0, arg_283_1)
+		local var_283_0, var_283_1 = CombatLoadUI.GetTotalResourceList(arg_283_0.context.data)
+		local var_283_2 = PaintingGroupConst.FiltePaintingRes(var_283_0)
+		local var_283_3 = {
 			isShowBox = true,
-			paintingNameList = var_280_2,
-			finishFunc = arg_280_1
+			paintingNameList = var_283_2,
+			finishFunc = arg_283_1
 		}
 
-		PaintingGroupConst.PaintingDownload(var_280_3)
+		PaintingGroupConst.PaintingDownload(var_283_3)
 	end,
-	MallMapMediator = function(arg_281_0, arg_281_1)
-		local var_281_0 = PaintingGroupConst.GetPaintingNameListForMallAct()
-		local var_281_1 = {
+	MallMapMediator = function(arg_284_0, arg_284_1)
+		local var_284_0 = PaintingGroupConst.GetPaintingNameListForMallAct()
+		local var_284_1 = {
 			isShowBox = true,
-			paintingNameList = var_281_0,
-			finishFunc = arg_281_1
+			paintingNameList = var_284_0,
+			finishFunc = arg_284_1
 		}
 
-		PaintingGroupConst.PaintingDownload(var_281_1)
+		PaintingGroupConst.PaintingDownload(var_284_1)
 	end,
-	AuctionGameEntranceMediator = function(arg_282_0, arg_282_1)
-		local var_282_0 = {}
-
-		table.insert(var_282_0, function(arg_283_0)
-			pg.m02:sendNotification(GAME.PLAY_ROOM_EXIT_ROOM, {
-				arg = 0,
-				callback = arg_283_0
-			})
-		end)
-		table.insert(var_282_0, function(arg_284_0)
-			getProxy(AuctionGameBaseProxy):SetNeedInitFlag(true)
-			pg.m02:sendNotification(GAME.AUCTION_GAME_INIT, {
-				callback = arg_284_0
-			})
-		end)
-		seriesAsync(var_282_0, arg_282_1)
-	end,
-	AuctionGameNameCardMediator = function(arg_285_0, arg_285_1)
+	AuctionGameEntranceMediator = function(arg_285_0, arg_285_1)
 		local var_285_0 = {}
 
 		table.insert(var_285_0, function(arg_286_0)
-			pg.m02:sendNotification(GAME.AUCTION_GAME_INIT, {
+			pg.m02:sendNotification(GAME.PLAY_ROOM_EXIT_ROOM, {
+				arg = 0,
 				callback = arg_286_0
 			})
 		end)
+		table.insert(var_285_0, function(arg_287_0)
+			getProxy(AuctionGameBaseProxy):SetNeedInitFlag(true)
+			pg.m02:sendNotification(GAME.AUCTION_GAME_INIT, {
+				callback = arg_287_0
+			})
+		end)
 		seriesAsync(var_285_0, arg_285_1)
+	end,
+	AuctionGameNameCardMediator = function(arg_288_0, arg_288_1)
+		local var_288_0 = {}
+
+		table.insert(var_288_0, function(arg_289_0)
+			pg.m02:sendNotification(GAME.AUCTION_GAME_INIT, {
+				callback = arg_289_0
+			})
+		end)
+		seriesAsync(var_288_0, arg_288_1)
+	end,
+	RefluxMediator = function(arg_290_0, arg_290_1)
+		local var_290_0 = {}
+
+		if getProxy(ShopsProxy):ShouldRefreshChargeList() then
+			table.insert(var_290_0, function(arg_291_0)
+				pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
+					callback = arg_291_0
+				})
+			end)
+		end
+
+		seriesAsync(var_290_0, arg_290_1)
 	end
 }
 
-function SCENE.CheckPreloadData(arg_287_0, arg_287_1)
-	local var_287_0 = {}
+function SCENE.CheckPreloadData(arg_292_0, arg_292_1)
+	local var_292_0 = {}
 
-	table.insert(var_287_0, function(arg_288_0)
-		switch(arg_287_0.context.mediator.__cname, var_0_1, function(arg_289_0, arg_289_1)
-			arg_289_1()
-		end, arg_287_0, arg_288_0)
+	table.insert(var_292_0, function(arg_293_0)
+		switch(arg_292_0.context.mediator.__cname, var_0_1, function(arg_294_0, arg_294_1)
+			arg_294_1()
+		end, arg_292_0, arg_293_0)
 	end)
 
-	local var_287_1 = arg_287_0.context.viewComponent:loadingQueue()
+	local var_292_1 = arg_292_0.context.viewComponent:loadingQueue()
 
-	if var_287_1 then
-		table.insert(var_287_0, function(arg_290_0)
-			local var_290_0 = arg_287_0.context.data
+	if var_292_1 then
+		table.insert(var_292_0, function(arg_295_0)
+			local var_295_0 = arg_292_0.context.data
 
-			arg_287_0.context.irregularSequence = true
+			arg_292_0.context.irregularSequence = true
 
-			var_287_1(function(arg_291_0)
-				var_290_0.resumeCallback = arg_291_0
+			var_292_1(function(arg_296_0)
+				var_295_0.resumeCallback = arg_296_0
 
-				arg_290_0()
+				arg_295_0()
 			end)
 		end)
 	end
 
-	seriesAsync(var_287_0, arg_287_1)
+	table.insert(var_292_0, function(arg_297_0)
+		local var_297_0 = arg_292_0.context.data
+		local var_297_1 = arg_292_0.context.viewComponent
+		local var_297_2 = setmetatable({
+			contextData = var_297_0
+		}, {
+			__index = var_297_1
+		}):getResource(var_297_0)
+		local var_297_3, var_297_4 = pcall(function()
+			SplitPackConst.DownloadByLuaArr(var_297_2, arg_297_0, {
+				showMask = true
+			})
+		end)
+
+		if not var_297_3 then
+			warning(string.format("Split pack resource download failed: \n%s \nin %s\n", tostring(var_297_4), var_297_1.__cname))
+			arg_297_0()
+		end
+	end)
+	seriesAsync(var_292_0, arg_292_1)
 end

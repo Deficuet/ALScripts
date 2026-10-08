@@ -163,23 +163,10 @@ function var_0_0.TryOpenChapterInfo(arg_28_0, arg_28_1, arg_28_2, arg_28_3)
 	end
 
 	local var_28_0 = getProxy(ChapterProxy):getChapterById(arg_28_1, true)
-	local var_28_1 = getProxy(ChapterProxy):GetAutoChapterId()
+	local var_28_1 = getProxy(ChapterAutoProxy)
 
-	if var_28_1 then
-		if var_28_1 == var_28_0.id then
-			arg_28_0.sceneParent:ShowChapterAutoDetailPanel(var_28_0)
-		else
-			local var_28_2 = getProxy(ChapterProxy):getChapterById(var_28_1)
-
-			arg_28_0.sceneParent:HandleShowMsgBox({
-				content = i18n("auto_drop_is_activation", var_28_2:getConfig("name")),
-				onYes = function()
-					arg_28_0.sceneParent:ShowChapterAutoDetailPanel(var_28_2)
-				end,
-				yesText = i18n("auto_drop_is_activation_go"),
-				noText = i18n("auto_drop_is_activation_cancle")
-			})
-		end
+	if var_28_1:IsCommissionDoing() and not var_28_1:HasTypeCommission(ChapterAutoProxy.TYPE.WORLD) then
+		arg_28_0:ChapterAutoOccupied(var_28_0)
 
 		return
 	end
@@ -191,12 +178,12 @@ function var_0_0.TryOpenChapterInfo(arg_28_0, arg_28_1, arg_28_2, arg_28_3)
 	end
 
 	if not var_28_0:isUnlock() then
-		local var_28_3 = var_28_0:GetPrevChapterNames()
+		local var_28_2 = var_28_0:GetPrevChapterNames()
 
-		if #var_28_3 == 1 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre", var_28_3[1]))
+		if #var_28_2 == 1 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre", var_28_2[1]))
 		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre_2", var_28_3[1], var_28_3[2]))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre_2", var_28_2[1], var_28_2[2]))
 		end
 
 		return
@@ -208,17 +195,17 @@ function var_0_0.TryOpenChapterInfo(arg_28_0, arg_28_1, arg_28_2, arg_28_3)
 		return
 	end
 
-	local var_28_4 = var_28_0:getConfig("unlocklevel")
+	local var_28_3 = var_28_0:getConfig("unlocklevel")
 
-	if var_28_4 > getProxy(PlayerProxy):getRawData().level then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_level_limit", var_28_4))
+	if var_28_3 > getProxy(PlayerProxy):getRawData().level then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_level_limit", var_28_3))
 
 		return
 	end
 
-	local var_28_5 = getProxy(ChapterProxy):getActiveChapter(true)
+	local var_28_4 = getProxy(ChapterProxy):getActiveChapter(true)
 
-	if var_28_5 and var_28_5.id ~= arg_28_1 then
+	if var_28_4 and var_28_4.id ~= arg_28_1 then
 		arg_28_0:emit(LevelMediator2.ON_STRATEGYING_CHAPTER)
 
 		return
@@ -236,11 +223,38 @@ function var_0_0.TryOpenChapterInfo(arg_28_0, arg_28_1, arg_28_2, arg_28_3)
 	end
 end
 
-function var_0_0.OnSubmitTaskDone(arg_30_0)
+function var_0_0.ChapterAutoOccupied(arg_29_0, arg_29_1)
+	local var_29_0 = getProxy(ChapterAutoProxy):GetCommissionDoingType()
+
+	switch(var_29_0, {
+		[ChapterAutoProxy.TYPE.SLG] = function()
+			local var_30_0 = getProxy(ChapterProxy):GetAutoChapterId()
+
+			if var_30_0 then
+				if var_30_0 == arg_29_1.id then
+					arg_29_0.sceneParent:ShowChapterAutoDetailPanel(arg_29_1)
+				else
+					local var_30_1 = getProxy(ChapterProxy):getChapterById(var_30_0)
+
+					arg_29_0.sceneParent:HandleShowMsgBox({
+						content = i18n("auto_drop_is_activation", var_30_1:getConfig("name")),
+						onYes = function()
+							arg_29_0.sceneParent:ShowChapterAutoDetailPanel(var_30_1)
+						end,
+						yesText = i18n("auto_drop_is_activation_go"),
+						noText = i18n("auto_drop_is_activation_cancle")
+					})
+				end
+			end
+		end
+	})
+end
+
+function var_0_0.OnSubmitTaskDone(arg_32_0)
 	return
 end
 
-function var_0_0.PlayEnterAnim(arg_31_0)
+function var_0_0.PlayEnterAnim(arg_33_0)
 	return
 end
 

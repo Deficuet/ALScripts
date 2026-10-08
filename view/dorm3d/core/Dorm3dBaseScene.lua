@@ -6,7 +6,7 @@ end
 
 function var_0_0.InitExtraSystem(arg_2_0, arg_2_1)
 	if not arg_2_0.systemManager then
-		arg_2_0.systemManager = ExtraSystemManager.New(arg_2_0.event, arg_2_0)
+		arg_2_0.systemManager = SystemManager.New(arg_2_0.event, arg_2_0)
 	end
 
 	arg_2_1 = arg_2_1 or arg_2_0.GetDefaultSystemClasses()

@@ -4,52 +4,44 @@ function var_0_0.getUIName(arg_1_0)
 	return "WorldOverviewUI"
 end
 
-function var_0_0.preload(arg_2_0, arg_2_1)
-	arg_2_0:LoadAtlasOverall(arg_2_1)
+function var_0_0.getResource(arg_2_0)
+	local var_2_0 = {
+		"scenes/worldoverview"
+	}
+
+	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0))
 end
 
-function var_0_0.init(arg_3_0)
-	local var_3_0 = arg_3_0._tf
+function var_0_0.preload(arg_3_0, arg_3_1)
+	arg_3_0:LoadAtlasOverall(arg_3_1)
+end
 
-	arg_3_0.rtBg = var_3_0:Find("bg")
+function var_0_0.init(arg_4_0)
+	local var_4_0 = arg_4_0._tf
 
-	onButton(arg_3_0, arg_3_0.rtBg, function()
-		arg_3_0:closeView()
+	arg_4_0.rtBg = var_4_0:Find("bg")
+
+	onButton(arg_4_0, arg_4_0.rtBg, function()
+		arg_4_0:closeView()
 	end, SFX_CANCEL)
-	setText(var_3_0:Find("tip/Text"), i18n("click_back_tip"))
+	setText(var_4_0:Find("tip/Text"), i18n("click_back_tip"))
 
-	arg_3_0.rtTaskPanel = var_3_0:Find("panel/middle/info_panel/task_panel")
+	arg_4_0.rtTaskPanel = var_4_0:Find("panel/middle/info_panel/task_panel")
 
-	setActive(arg_3_0.rtTaskPanel, false)
-	setActive(arg_3_0.rtTaskPanel:Find("btn_next"), false)
+	setActive(arg_4_0.rtTaskPanel, false)
+	setActive(arg_4_0.rtTaskPanel:Find("btn_next"), false)
 
-	arg_3_0.entranceItemList = UIItemList.New(arg_3_0.rtTaskPanel:Find("entrance_list/target_list"), arg_3_0.rtTaskPanel:Find("entrance_list/target_tpl"))
+	arg_4_0.entranceItemList = UIItemList.New(arg_4_0.rtTaskPanel:Find("entrance_list/target_list"), arg_4_0.rtTaskPanel:Find("entrance_list/target_tpl"))
 
-	arg_3_0.entranceItemList:make(function(arg_5_0, arg_5_1, arg_5_2)
-		arg_5_1 = arg_5_1 + 1
-
-		if arg_5_0 == UIItemList.EventUpdate then
-			if arg_3_0.entranceIds[arg_5_1] then
-				local var_5_0 = nowWorld():GetEntrance(arg_3_0.entranceIds[arg_5_1])
-
-				setActive(arg_5_2:Find("Image"), true)
-				setText(arg_5_2:Find("Text"), i18n("world_task_view1") .. var_5_0:GetBaseMap():GetName())
-			else
-				setActive(arg_5_2:Find("Image"), true)
-				setText(arg_5_2:Find("Text"), i18n("world_task_view1") .. i18n("world_task_view2"))
-			end
-		end
-	end)
-
-	arg_3_0.areaItemList = UIItemList.New(arg_3_0.rtTaskPanel:Find("entrance_list/target_list"), arg_3_0.rtTaskPanel:Find("entrance_list/target_tpl"))
-
-	arg_3_0.areaItemList:make(function(arg_6_0, arg_6_1, arg_6_2)
+	arg_4_0.entranceItemList:make(function(arg_6_0, arg_6_1, arg_6_2)
 		arg_6_1 = arg_6_1 + 1
 
 		if arg_6_0 == UIItemList.EventUpdate then
-			if arg_3_0.areaIds[arg_6_1] then
+			if arg_4_0.entranceIds[arg_6_1] then
+				local var_6_0 = nowWorld():GetEntrance(arg_4_0.entranceIds[arg_6_1])
+
 				setActive(arg_6_2:Find("Image"), true)
-				setText(arg_6_2:Find("Text"), i18n("world_task_view1") .. pg.world_regions_data[arg_3_0.areaIds[arg_6_1]].name)
+				setText(arg_6_2:Find("Text"), i18n("world_task_view1") .. var_6_0:GetBaseMap():GetName())
 			else
 				setActive(arg_6_2:Find("Image"), true)
 				setText(arg_6_2:Find("Text"), i18n("world_task_view1") .. i18n("world_task_view2"))
@@ -57,89 +49,105 @@ function var_0_0.init(arg_3_0)
 		end
 	end)
 
-	arg_3_0.rtAchievementPanel = var_3_0:Find("panel/middle/info_panel/achievement_panel")
+	arg_4_0.areaItemList = UIItemList.New(arg_4_0.rtTaskPanel:Find("entrance_list/target_list"), arg_4_0.rtTaskPanel:Find("entrance_list/target_tpl"))
 
-	setActive(arg_3_0.rtAchievementPanel, false)
+	arg_4_0.areaItemList:make(function(arg_7_0, arg_7_1, arg_7_2)
+		arg_7_1 = arg_7_1 + 1
 
-	arg_3_0.btnAchieve = arg_3_0.rtAchievementPanel:Find("btn_all")
+		if arg_7_0 == UIItemList.EventUpdate then
+			if arg_4_0.areaIds[arg_7_1] then
+				setActive(arg_7_2:Find("Image"), true)
+				setText(arg_7_2:Find("Text"), i18n("world_task_view1") .. pg.world_regions_data[arg_4_0.areaIds[arg_7_1]].name)
+			else
+				setActive(arg_7_2:Find("Image"), true)
+				setText(arg_7_2:Find("Text"), i18n("world_task_view1") .. i18n("world_task_view2"))
+			end
+		end
+	end)
 
-	onButton(arg_3_0, arg_3_0.btnAchieve, function()
-		local var_7_0, var_7_1 = nowWorld():GetFinishAchievements()
+	arg_4_0.rtAchievementPanel = var_4_0:Find("panel/middle/info_panel/achievement_panel")
 
-		if #var_7_0 == 0 then
+	setActive(arg_4_0.rtAchievementPanel, false)
+
+	arg_4_0.btnAchieve = arg_4_0.rtAchievementPanel:Find("btn_all")
+
+	onButton(arg_4_0, arg_4_0.btnAchieve, function()
+		local var_8_0, var_8_1 = nowWorld():GetFinishAchievements()
+
+		if #var_8_0 == 0 then
 			pg.TipsMgr.GetInstance():ShowTips("without any award")
 		else
-			arg_3_0:emit(WorldOverviewMediator.OnAchieveStar, var_7_0)
-			arg_3_0:closeView()
+			arg_4_0:emit(WorldOverviewMediator.OnAchieveStar, var_8_0)
+			arg_4_0:closeView()
 		end
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf)
 end
 
-function var_0_0.didEnter(arg_8_0)
-	local var_8_0 = arg_8_0.contextData.info
+function var_0_0.didEnter(arg_9_0)
+	local var_9_0 = arg_9_0.contextData.info
 
-	arg_8_0.mode = var_8_0.mode
+	arg_9_0.mode = var_9_0.mode
 
-	if arg_8_0.mode == "Task" then
-		arg_8_0.taskId = var_8_0.taskId
+	if arg_9_0.mode == "Task" then
+		arg_9_0.taskId = var_9_0.taskId
 
-		arg_8_0:UpdateTaskPanel()
-	elseif arg_8_0.mode == "Achievement" then
-		arg_8_0:UpdateAchievementPanel()
+		arg_9_0:UpdateTaskPanel()
+	elseif arg_9_0.mode == "Achievement" then
+		arg_9_0:UpdateAchievementPanel()
 	else
-		arg_8_0.entranceIds = var_8_0.ids
+		arg_9_0.entranceIds = var_9_0.ids
 	end
 
-	arg_8_0._tf:GetComponent("DftAniEvent"):SetEndEvent(function(arg_9_0)
-		local var_9_0 = {}
+	arg_9_0._tf:GetComponent("DftAniEvent"):SetEndEvent(function(arg_10_0)
+		local var_10_0 = {}
 
-		_.each(arg_8_0.entranceIds, function(arg_10_0)
-			var_9_0[arg_10_0] = true
+		_.each(arg_9_0.entranceIds, function(arg_11_0)
+			var_10_0[arg_11_0] = true
 		end)
 
-		if #arg_8_0.entranceIds > 0 then
-			arg_8_0.wsAtlasOverall:UpdateTargetEntrance(arg_8_0.entranceIds[1])
+		if #arg_9_0.entranceIds > 0 then
+			arg_9_0.wsAtlasOverall:UpdateTargetEntrance(arg_9_0.entranceIds[1])
 		end
 
-		arg_8_0.wsAtlasOverall:UpdateStaticMark(var_9_0, arg_8_0:GetOverviewMark())
-		arg_8_0:DisplayAtlasOverall()
+		arg_9_0.wsAtlasOverall:UpdateStaticMark(var_10_0, arg_9_0:GetOverviewMark())
+		arg_9_0:DisplayAtlasOverall()
 
-		if arg_8_0.mode then
-			setActive(arg_8_0["rt" .. arg_8_0.mode .. "Panel"], true)
+		if arg_9_0.mode then
+			setActive(arg_9_0["rt" .. arg_9_0.mode .. "Panel"], true)
 
-			if arg_8_0.mode == "Task" then
-				eachChild(arg_8_0.entranceItemList.container, function(arg_11_0)
-					local var_11_0 = GetComponent(arg_11_0:Find("Text"), typeof(Typewriter))
+			if arg_9_0.mode == "Task" then
+				eachChild(arg_9_0.entranceItemList.container, function(arg_12_0)
+					local var_12_0 = GetComponent(arg_12_0:Find("Text"), typeof(Typewriter))
 
-					var_11_0:setSpeed(0.03)
-					var_11_0:Play()
+					var_12_0:setSpeed(0.03)
+					var_12_0:Play()
 				end)
 
-				local var_9_1 = arg_8_0.rtTaskPanel:Find("entrance_list/target_tpl")
-				local var_9_2 = GetComponent(var_9_1:Find("Text"), typeof(Typewriter))
+				local var_10_1 = arg_9_0.rtTaskPanel:Find("entrance_list/target_tpl")
+				local var_10_2 = GetComponent(var_10_1:Find("Text"), typeof(Typewriter))
 
-				var_9_2:setSpeed(0.03)
-				var_9_2:Play()
+				var_10_2:setSpeed(0.03)
+				var_10_2:Play()
 			end
 		end
 	end)
 end
 
-function var_0_0.willExit(arg_12_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_12_0._tf, arg_12_0._parentTf)
+function var_0_0.willExit(arg_13_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf, arg_13_0._parentTf)
 
-	if arg_12_0.mode then
-		setActive(arg_12_0["rt" .. arg_12_0.mode .. "Panel"], false)
+	if arg_13_0.mode then
+		setActive(arg_13_0["rt" .. arg_13_0.mode .. "Panel"], false)
 	end
 
-	arg_12_0:HideAtlasOverall()
-	arg_12_0:DisposeAtlasOverall()
+	arg_13_0:HideAtlasOverall()
+	arg_13_0:DisposeAtlasOverall()
 end
 
-function var_0_0.GetOverviewMark(arg_13_0)
-	if arg_13_0.mode == "Task" then
-		if arg_13_0.isTaskArea then
+function var_0_0.GetOverviewMark(arg_14_0)
+	if arg_14_0.mode == "Task" then
+		if arg_14_0.isTaskArea then
 			return {
 				"overview_port"
 			}
@@ -149,7 +157,7 @@ function var_0_0.GetOverviewMark(arg_13_0)
 				"overview_task"
 			}
 		end
-	elseif arg_13_0.mode == "Achievement" then
+	elseif arg_14_0.mode == "Achievement" then
 		return {
 			"overview_achievement",
 			"overview_achievement"
@@ -162,107 +170,107 @@ function var_0_0.GetOverviewMark(arg_13_0)
 	end
 end
 
-function var_0_0.UpdateTaskPanel(arg_14_0)
-	local var_14_0 = nowWorld()
-	local var_14_1 = var_14_0:GetTaskProxy():getTaskById(arg_14_0.taskId)
-
-	assert(var_14_1, "without this doing task: " .. arg_14_0.taskId)
-
-	local var_14_2 = arg_14_0.rtTaskPanel:Find("task_info")
-
-	GetImageSpriteFromAtlasAsync("ui/worldtaskfloatui_atlas", pg.WorldToastMgr.Type2PictrueName[var_14_1.config.type], var_14_2:Find("type"), true)
-	setText(var_14_2:Find("name/Text"), var_14_1.config.name)
-
-	local var_14_3 = var_14_1:GetFollowingAreaId()
-
-	if var_14_3 then
-		arg_14_0.isTaskArea = true
-		arg_14_0.entranceIds = underscore.rest(var_14_0:GetAreaEntranceIds(var_14_3), 1)
-		arg_14_0.areaIds = {
-			var_14_3
-		}
-
-		arg_14_0.areaItemList:align(math.max(#arg_14_0.areaIds, 1))
-	else
-		arg_14_0.isTaskArea = false
-		arg_14_0.entranceIds = {
-			var_14_1:GetFollowingEntrance()
-		}
-
-		arg_14_0.entranceItemList:align(math.max(#arg_14_0.entranceIds, 1))
-	end
-
-	local var_14_4 = arg_14_0.rtTaskPanel:Find("entrance_list/target_tpl")
-	local var_14_5 = var_14_0:GetActiveEntrance()
-
-	setActive(var_14_4:Find("Image"), false)
-	setText(var_14_4:Find("Text"), i18n("world_task_view2") .. var_14_5:GetBaseMap():GetName())
-end
-
-function var_0_0.UpdateAchievementPanel(arg_15_0)
+function var_0_0.UpdateTaskPanel(arg_15_0)
 	local var_15_0 = nowWorld()
-	local var_15_1, var_15_2, var_15_3 = var_15_0:CountAchievements()
+	local var_15_1 = var_15_0:GetTaskProxy():getTaskById(arg_15_0.taskId)
 
-	setText(arg_15_0.rtAchievementPanel:Find("achievement_info/name/info/number"), var_15_1 + var_15_2 .. "/" .. var_15_3)
+	assert(var_15_1, "without this doing task: " .. arg_15_0.taskId)
 
-	local var_15_4, var_15_5 = var_15_0:GetFinishAchievements()
-	local var_15_6 = 0
+	local var_15_2 = arg_15_0.rtTaskPanel:Find("task_info")
 
-	for iter_15_0, iter_15_1 in ipairs(var_15_4) do
-		var_15_6 = var_15_6 + #iter_15_1.star_list
+	GetImageSpriteFromAtlasAsync("ui/worldtaskfloatui_atlas", pg.WorldToastMgr.Type2PictrueName[var_15_1.config.type], var_15_2:Find("type"), true)
+	setText(var_15_2:Find("name/Text"), var_15_1.config.name)
+
+	local var_15_3 = var_15_1:GetFollowingAreaId()
+
+	if var_15_3 then
+		arg_15_0.isTaskArea = true
+		arg_15_0.entranceIds = underscore.to_array(var_15_0:GetAreaEntranceIds(var_15_3))
+		arg_15_0.areaIds = {
+			var_15_3
+		}
+
+		arg_15_0.areaItemList:align(math.max(#arg_15_0.areaIds, 1))
+	else
+		arg_15_0.isTaskArea = false
+		arg_15_0.entranceIds = {
+			var_15_1:GetFollowingEntrance()
+		}
+
+		arg_15_0.entranceItemList:align(math.max(#arg_15_0.entranceIds, 1))
 	end
 
-	local var_15_7 = arg_15_0.rtAchievementPanel:Find("word_list/target_tpl")
+	local var_15_4 = arg_15_0.rtTaskPanel:Find("entrance_list/target_tpl")
+	local var_15_5 = var_15_0:GetActiveEntrance()
 
-	setActive(var_15_7:Find("Image"), true)
-	setText(var_15_7:Find("Text"), i18n("world_target_count", "  " .. setColorStr(tostring(var_15_6), COLOR_YELLOW) .. "  "))
-
-	arg_15_0.entranceIds = var_15_5
-
-	local var_15_8 = pg.gameset.world_target_obtain.key_value
-
-	setActive(arg_15_0.btnAchieve, var_15_8 <= #var_15_4)
+	setActive(var_15_4:Find("Image"), false)
+	setText(var_15_4:Find("Text"), i18n("world_task_view2") .. var_15_5:GetBaseMap():GetName())
 end
 
-function var_0_0.DisplayAtlasOverall(arg_16_0)
-	if arg_16_0.wsAtlasOverall then
-		setActive(arg_16_0.wsAtlasOverall.tfEntity:Find("Plane"), false)
-		arg_16_0.wsAtlasOverall:ShowOrHide(true)
+function var_0_0.UpdateAchievementPanel(arg_16_0)
+	local var_16_0 = nowWorld()
+	local var_16_1, var_16_2, var_16_3 = var_16_0:CountAchievements()
+
+	setText(arg_16_0.rtAchievementPanel:Find("achievement_info/name/info/number"), var_16_1 + var_16_2 .. "/" .. var_16_3)
+
+	local var_16_4, var_16_5 = var_16_0:GetFinishAchievements()
+	local var_16_6 = 0
+
+	for iter_16_0, iter_16_1 in ipairs(var_16_4) do
+		var_16_6 = var_16_6 + #iter_16_1.star_list
 	end
+
+	local var_16_7 = arg_16_0.rtAchievementPanel:Find("word_list/target_tpl")
+
+	setActive(var_16_7:Find("Image"), true)
+	setText(var_16_7:Find("Text"), i18n("world_target_count", "  " .. setColorStr(tostring(var_16_6), COLOR_YELLOW) .. "  "))
+
+	arg_16_0.entranceIds = var_16_5
+
+	local var_16_8 = pg.gameset.world_target_obtain.key_value
+
+	setActive(arg_16_0.btnAchieve, var_16_8 <= #var_16_4)
 end
 
-function var_0_0.HideAtlasOverall(arg_17_0)
+function var_0_0.DisplayAtlasOverall(arg_17_0)
 	if arg_17_0.wsAtlasOverall then
-		arg_17_0.wsAtlasOverall:ShowOrHide(false)
+		setActive(arg_17_0.wsAtlasOverall.tfEntity:Find("Plane"), false)
+		arg_17_0.wsAtlasOverall:ShowOrHide(true)
 	end
 end
 
-function var_0_0.LoadAtlasOverall(arg_18_0, arg_18_1)
-	local var_18_0 = {}
+function var_0_0.HideAtlasOverall(arg_18_0)
+	if arg_18_0.wsAtlasOverall then
+		arg_18_0.wsAtlasOverall:ShowOrHide(false)
+	end
+end
 
-	if not arg_18_0.wsAtlasOverall then
-		table.insert(var_18_0, function(arg_19_0)
-			arg_18_0.wsAtlasOverall = WSAtlasOverall.New()
+function var_0_0.LoadAtlasOverall(arg_19_0, arg_19_1)
+	local var_19_0 = {}
 
-			arg_18_0.wsAtlasOverall:Setup()
-			arg_18_0.wsAtlasOverall:LoadScene(function()
-				arg_18_0.wsAtlasOverall:UpdateAtlas(nowWorld():GetAtlas())
+	if not arg_19_0.wsAtlasOverall then
+		table.insert(var_19_0, function(arg_20_0)
+			arg_19_0.wsAtlasOverall = WSAtlasOverall.New()
 
-				return arg_19_0()
+			arg_19_0.wsAtlasOverall:Setup()
+			arg_19_0.wsAtlasOverall:LoadScene(function()
+				arg_19_0.wsAtlasOverall:UpdateAtlas(nowWorld():GetAtlas())
+
+				return arg_20_0()
 			end)
 		end)
 	end
 
-	seriesAsync(var_18_0, function()
-		return existCall(arg_18_1)
+	seriesAsync(var_19_0, function()
+		return existCall(arg_19_1)
 	end)
 end
 
-function var_0_0.DisposeAtlasOverall(arg_22_0)
-	if arg_22_0.wsAtlasOverall then
-		arg_22_0.wsAtlasOverall:Dispose()
+function var_0_0.DisposeAtlasOverall(arg_23_0)
+	if arg_23_0.wsAtlasOverall then
+		arg_23_0.wsAtlasOverall:Dispose()
 
-		arg_22_0.wsAtlasOverall = nil
+		arg_23_0.wsAtlasOverall = nil
 	end
 end
 

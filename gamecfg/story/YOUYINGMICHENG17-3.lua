@@ -4,10 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "这一次，虎没有使出全力。随着收容装置闭合，光辉垂下眼睫，像是终于放下了什么。",
 			bgm = "story-visioncity-1",
 			typewriter = {
@@ -21,6 +22,7 @@ return {
 			bgName = "star_level_bg_523",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900561,
 			nameColor = "#A9F548FF",
 			say = "能输给您，光辉心甘情愿呢，呵呵……",
@@ -35,6 +37,7 @@ return {
 			bgName = "star_level_bg_523",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900561,
 			nameColor = "#A9F548FF",
 			say = "或许是因为，您真的能够理解我的想法吧。",

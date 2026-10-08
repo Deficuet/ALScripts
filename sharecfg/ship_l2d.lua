@@ -95732,7 +95732,7 @@ end)()
 		start_value = 0,
 		gyro_z = 0,
 		offset_circle = "",
-		smooth = 2500,
+		smooth = 5200,
 		react_condition = "",
 		range_abs = 1,
 		ship_skin_id = 705022,
@@ -123805,7 +123805,7 @@ end)()
 		start_value = 0,
 		gyro_z = 0,
 		offset_circle = "",
-		smooth = 3000,
+		smooth = 6750,
 		react_condition = "",
 		range_abs = 1,
 		ship_skin_id = 403037,
@@ -123923,7 +123923,7 @@ end)()
 		start_value = 0,
 		gyro_z = 0,
 		offset_circle = "",
-		smooth = 1800,
+		smooth = 4300,
 		react_condition = "",
 		range_abs = 1,
 		ship_skin_id = 403037,
@@ -211421,6 +211421,9 @@ end)()
 		},
 		action_trigger = {
 			type = 6,
+			reset_index_action = {
+				"touch_idle44"
+			},
 			action_list = {
 				{
 					action = ""
@@ -211596,8 +211599,8 @@ end)()
 		}
 	}
 	pg.base.ship_l2d[29903525] = {
-		ship_skin_id = 299035,
 		id = 29903525,
+		offset_y = 0,
 		gyro_y = 0,
 		action_trigger_active = "",
 		drag_direct = 0,
@@ -211606,31 +211609,49 @@ end)()
 		draw_able_name = "TouchDrag33",
 		limit_time = 0.1,
 		mode = 1,
-		offset_y = 0,
+		relation_parameter = "",
 		gyro = 0,
 		gyro_x = 0,
 		react_pos_y = 0,
-		relation_parameter = "",
-		revert = -1,
 		ignore_react = 1,
+		revert = -1,
 		parameter = "touch_drag33",
+		save_parameter = 0,
 		ignore_action = 1,
 		react_pos_x = 0,
 		offset_x = 0,
 		shop_action = 0,
-		revert_idle_index = "1",
-		save_parameter = 0,
-		gyro_z = 0,
+		revert_idle_index = "",
 		start_value = 0,
-		smooth = 100,
+		gyro_z = 0,
 		offset_circle = "",
+		smooth = 100,
 		react_condition = "",
 		range_abs = 1,
-		listener_data = "",
+		ship_skin_id = 299035,
 		revert_smooth = 100,
 		range = {
 			0,
 			1
+		},
+		listener_data = {
+			type = 2,
+			change = {
+				{
+					2,
+					{
+						"TouchIdle21",
+						"TouchIdle22",
+						"TouchIdle33",
+						"TouchIdle34",
+						"TouchIdle43",
+						"TouchIdle44",
+						"TouchIdle29",
+						"TouchIdle28"
+					},
+					0
+				}
+			}
 		},
 		action_trigger = {
 			circle = true,
@@ -214553,31 +214574,30 @@ end)()
 		ship_skin_id = 299035,
 		id = 29903577,
 		gyro_y = 0,
-		action_trigger_active = "",
+		limit_time = 0.1,
 		drag_direct = 0,
 		parts_data = "",
 		revert_action_index = 0,
 		draw_able_name = "TouchIdle8",
-		limit_time = 0.1,
-		mode = 1,
 		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
 		gyro = 0,
 		gyro_x = 0,
 		react_pos_y = 0,
-		relation_parameter = "",
-		revert = -1,
 		ignore_react = 1,
+		revert = -1,
 		parameter = "empty",
+		save_parameter = 0,
 		ignore_action = 1,
 		react_pos_x = 0,
 		offset_x = 0,
 		shop_action = 0,
 		revert_idle_index = "",
-		save_parameter = 0,
-		gyro_z = 0,
 		start_value = 0,
-		smooth = 100,
+		gyro_z = 0,
 		offset_circle = "",
+		smooth = 100,
 		react_condition = "",
 		range_abs = 1,
 		listener_data = "",
@@ -214589,37 +214609,54 @@ end)()
 		action_trigger = {
 			action = "touch_idle8",
 			type = 2
+		},
+		action_trigger_active = {
+			idle = 25,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
 		}
 	}
 	pg.base.ship_l2d[29903578] = {
 		ship_skin_id = 299035,
 		id = 29903578,
 		gyro_y = 0,
-		action_trigger_active = "",
+		limit_time = 0.1,
 		drag_direct = 0,
 		parts_data = "",
 		revert_action_index = 0,
 		draw_able_name = "TouchIdle9",
-		limit_time = 0.1,
-		mode = 1,
 		offset_y = 0,
+		mode = 1,
+		relation_parameter = "",
 		gyro = 0,
 		gyro_x = 0,
 		react_pos_y = 0,
-		relation_parameter = "",
-		revert = -1,
 		ignore_react = 1,
+		revert = -1,
 		parameter = "empty",
+		save_parameter = 0,
 		ignore_action = 1,
 		react_pos_x = 0,
 		offset_x = 0,
 		shop_action = 0,
 		revert_idle_index = "",
-		save_parameter = 0,
-		gyro_z = 0,
 		start_value = 0,
-		smooth = 100,
+		gyro_z = 0,
 		offset_circle = "",
+		smooth = 100,
 		react_condition = "",
 		range_abs = 1,
 		listener_data = "",
@@ -214631,6 +214668,24 @@ end)()
 		action_trigger = {
 			action = "touch_idle9",
 			type = 2
+		},
+		action_trigger_active = {
+			idle = 25,
+			enable = {},
+			ignore = {
+				"main_1",
+				"main_2",
+				"main_3",
+				"main_4",
+				"mission",
+				"mission_complete",
+				"complete",
+				"login",
+				"home",
+				"mail",
+				"touch_body",
+				"touch_head"
+			}
 		}
 	}
 	pg.base.ship_l2d[29903579] = {
@@ -215002,7 +215057,7 @@ end)()
 		offset_circle = "",
 		smooth = 100,
 		react_condition = "",
-		range_abs = 1,
+		range_abs = 0,
 		ship_skin_id = 299035,
 		revert_smooth = 100,
 		range = {
@@ -215099,7 +215154,6 @@ end)()
 						"TouchDrag11",
 						"TouchDrag13",
 						"TouchDrag15",
-						"TouchIdle8",
 						"TouchIdle9"
 					},
 					1
@@ -215110,7 +215164,8 @@ end)()
 						"TouchIdle24",
 						"TouchDrag12",
 						"TouchDrag14",
-						"TouchDrag16"
+						"TouchDrag16",
+						"TouchIdle8"
 					},
 					-1
 				},

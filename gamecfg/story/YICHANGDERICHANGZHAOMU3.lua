@@ -4,14 +4,15 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 307053,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "呵呵，您果然在等我呢。",
 			bgm = "story-ghostnight-fascinsting",
+			actor = 307053,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "呵呵，您果然在等我呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,11 +20,12 @@ return {
 		},
 		{
 			actor = 307053,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "我便是“报恩之鹤”……既然您愿意收容我，之后就是我的恩人了~",
 			typewriter = {
 				speed = 0.05,
@@ -38,11 +40,12 @@ return {
 		},
 		{
 			actor = 307053,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "当然。在我的风雪中，它们无所遁形。",
 			typewriter = {
 				speed = 0.05,
@@ -57,11 +60,12 @@ return {
 		},
 		{
 			actor = 307053,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "我会继续守在风雪里，等您下次再想起我。",
 			typewriter = {
 				speed = 0.05,
@@ -70,11 +74,12 @@ return {
 		},
 		{
 			actor = 307053,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "对我而言，等待早已成为习惯的一部分了。",
 			typewriter = {
 				speed = 0.05,
@@ -89,11 +94,12 @@ return {
 		},
 		{
 			actor = 307053,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "这可要看您愿意收下多久了，恩人。",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +108,12 @@ return {
 		},
 		{
 			actor = 307053,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "若是一日不够，那便十日；十日不够，那便更久一些……",
 			typewriter = {
 				speed = 0.05,
@@ -115,11 +122,12 @@ return {
 		},
 		{
 			actor = 307053,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "久到您习惯我的陪伴，久到再也舍不得让我离开。",
 			typewriter = {
 				speed = 0.05,
@@ -127,12 +135,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "你的各方面情况，我已经了解了。",
 			typewriter = {
 				speed = 0.05,
@@ -140,12 +149,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
+			side = 2,
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "{namecode:95:翔鹤}，欢迎加入。",
 			typewriter = {
 				speed = 0.05,
@@ -154,11 +164,12 @@ return {
 		},
 		{
 			actor = 307053,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			side = 2,
 			say = "从今往后，请尽管依赖我吧，恩人~",
 			typewriter = {
 				speed = 0.05,

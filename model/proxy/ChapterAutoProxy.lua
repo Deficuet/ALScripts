@@ -2,6 +2,7 @@ local var_0_0 = class("ChapterAutoProxy", import("model.proxy.NetProxy"))
 
 var_0_0.FINISH_UPDATE = "ChapterAutoProxy.FINISH_UPDATE"
 var_0_0.TYPE = {
+	WORLD = 2,
 	SLG = 1
 }
 
@@ -258,94 +259,116 @@ function var_0_0.GetFinishAllCommissionTime(arg_28_0)
 	return arg_28_0.commissionList[#arg_28_0.commissionList]:GetFinishTime()
 end
 
-function var_0_0.IsShowTip(arg_29_0)
-	if arg_29_0.finishedCnt > 0 then
+function var_0_0.IsCommissionDoing(arg_29_0)
+	return #arg_29_0.commissionList > 0
+end
+
+function var_0_0.GetCommissionDoingType(arg_30_0)
+	return #arg_30_0.commissionList > 0 and arg_30_0.commissionList[1]:GetType() or nil
+end
+
+function var_0_0.HasTypeCommission(arg_31_0, arg_31_1)
+	return underscore.any(arg_31_0.commissionList, function(arg_32_0)
+		return arg_32_0.type == arg_31_1
+	end)
+end
+
+function var_0_0.IsAllCommissionFinish(arg_33_0, arg_33_1)
+	if arg_33_1 and not arg_33_0:HasTypeCommission(arg_33_1) then
+		return false
+	end
+
+	return #arg_33_0.commissionList > 0 and pg.TimeMgr.GetInstance():GetServerTime() >= arg_33_0.commissionList[#arg_33_0.commissionList]:GetFinishTime()
+end
+
+function var_0_0.IsShowTip(arg_34_0)
+	if arg_34_0.finishedCnt > 0 then
 		return true
 	end
 
-	if arg_29_0:GetWillExpireTicketCnt() > 0 then
+	if arg_34_0:GetWillExpireTicketCnt() > 0 then
 		return true
 	end
 
 	return false
 end
 
-function var_0_0.timeCall(arg_30_0)
+function var_0_0.timeCall(arg_35_0)
 	return {
-		[ProxyRegister.SecondCall] = function(arg_31_0)
-			arg_30_0:UpdatePerSecond()
+		[ProxyRegister.SecondCall] = function(arg_36_0)
+			arg_35_0:UpdatePerSecond()
 		end,
-		[ProxyRegister.DayCall] = function(arg_32_0)
-			arg_30_0:UpdatePerDay()
+		[ProxyRegister.DayCall] = function(arg_37_0)
+			arg_35_0:UpdatePerDay()
 		end
 	}
 end
 
-function var_0_0.UpdatePerSecond(arg_33_0)
-	local var_33_0 = arg_33_0:GetFinishedCnt()
+function var_0_0.UpdatePerSecond(arg_38_0)
+	local var_38_0 = arg_38_0:GetFinishedCnt()
 
-	if var_33_0 ~= arg_33_0.finishedCnt then
-		arg_33_0.finishedCnt = var_33_0
+	if var_38_0 ~= arg_38_0.finishedCnt then
+		arg_38_0.finishedCnt = var_38_0
 
-		arg_33_0:sendNotification(var_0_0.FINISH_UPDATE)
+		arg_38_0:sendNotification(var_0_0.FINISH_UPDATE)
 	end
 end
 
-function var_0_0.UpdatePerDay(arg_34_0)
-	for iter_34_0, iter_34_1 in pairs(arg_34_0.ticketData) do
-		for iter_34_2, iter_34_3 in ipairs(iter_34_1) do
-			if iter_34_3:IsExpired() then
-				arg_34_0.ticketData[iter_34_3.id] = nil
+function var_0_0.UpdatePerDay(arg_39_0)
+	for iter_39_0, iter_39_1 in pairs(arg_39_0.ticketData) do
+		for iter_39_2, iter_39_3 in ipairs(iter_39_1) do
+			if iter_39_3:IsExpired() then
+				arg_39_0.ticketData[iter_39_3.id] = nil
 			end
 		end
 	end
 
-	arg_34_0:ResetDailyData()
+	arg_39_0:ResetDailyData()
 end
 
-function var_0_0.GetSkipBatchBuildFlag(arg_35_0)
-	return arg_35_0.skipBatchFlag or false
+function var_0_0.GetSkipBatchBuildFlag(arg_40_0)
+	return arg_40_0.skipBatchFlag or false
 end
 
-function var_0_0.SetSkipBatchBuildFlag(arg_36_0, arg_36_1)
-	arg_36_0.skipBatchFlag = arg_36_1
+function var_0_0.SetSkipBatchBuildFlag(arg_41_0, arg_41_1)
+	arg_41_0.skipBatchFlag = arg_41_1
 end
 
-function var_0_0.SetRecordEventFlag(arg_37_0, arg_37_1)
-	arg_37_0.recordEventFlag = arg_37_1
+function var_0_0.SetRecordEventFlag(arg_42_0, arg_42_1)
+	arg_42_0.recordEventFlag = arg_42_1
 end
 
-function var_0_0.RecordNewEventIds(arg_38_0, arg_38_1)
-	if arg_38_0.recordEventFlag then
-		arg_38_0.newEventIds = table.mergeArray(arg_38_0.newEventIds, arg_38_1)
+function var_0_0.RecordNewEventIds(arg_43_0, arg_43_1)
+	if arg_43_0.recordEventFlag then
+		arg_43_0.newEventIds = table.mergeArray(arg_43_0.newEventIds, arg_43_1)
 	end
 end
 
-function var_0_0.GetNewEventIds(arg_39_0)
-	return arg_39_0.newEventIds
+function var_0_0.GetNewEventIds(arg_44_0)
+	return arg_44_0.newEventIds
 end
 
-function var_0_0.ClearEventIds(arg_40_0, arg_40_1)
-	arg_40_0.newEventIds = {}
+function var_0_0.ClearEventIds(arg_45_0, arg_45_1)
+	arg_45_0.newEventIds = {}
 end
 
-function var_0_0.remove(arg_41_0)
+function var_0_0.remove(arg_46_0)
 	return
 end
 
-function var_0_0.GetFixTime(arg_42_0, arg_42_1, arg_42_2)
-	return switch(arg_42_0, {
+function var_0_0.GetFixTime(arg_47_0, arg_47_1, arg_47_2)
+	return switch(arg_47_0, {
 		[var_0_0.TYPE.SLG] = function()
-			local var_43_0 = pg.chapter_auto_statistics[arg_42_1]
+			local var_48_0 = pg.chapter_auto_statistics[arg_47_1]
 
-			if not var_43_0 then
-				return arg_42_2
+			if not var_48_0 then
+				return arg_47_2
 			end
 
-			return math.floor(arg_42_2 * var_43_0.time_rate) + var_43_0.time_correction
+			return math.floor(arg_47_2 * var_48_0.time_rate) + var_48_0.time_correction
 		end
 	}, function()
-		return arg_42_2
+		return arg_47_2
 	end)
 end
 

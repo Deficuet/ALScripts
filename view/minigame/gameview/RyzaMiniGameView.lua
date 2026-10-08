@@ -389,7 +389,7 @@ end
 function var_0_0.initConfig(arg_47_0)
 	local var_47_0 = arg_47_0.stageIndex == 0 and math.random(7) or arg_47_0.stageIndex
 	local var_47_1 = 0
-	local var_47_2 = underscore.rest(RyzaMiniGameConfig.ENEMY_TYPE_LIST, 1)
+	local var_47_2 = underscore.to_array(RyzaMiniGameConfig.ENEMY_TYPE_LIST)
 	local var_47_3 = {}
 	local var_47_4 = pg.MiniGameTileMgr.GetInstance():getDataLayers("BoomGame", "BoomLevel_" .. var_47_0)
 

@@ -364,9 +364,9 @@ function var_0_0.refreshCodes(arg_36_0)
 		}, false))
 	else
 		if #arg_36_0.firstPool < 3 then
-			arg_36_0.filterCodes = underscore.rest(arg_36_0.firstPool, 1)
+			arg_36_0.filterCodes = underscore.to_array(arg_36_0.firstPool)
 		elseif #arg_36_0.firstPool < arg_36_0.refreshCount * 3 then
-			local var_36_2 = underscore.rest(arg_36_0.firstPool, 1)
+			local var_36_2 = underscore.to_array(arg_36_0.firstPool)
 
 			for iter_36_1 = 1, 3 do
 				local var_36_3 = math.random(#var_36_2)
@@ -379,8 +379,8 @@ function var_0_0.refreshCodes(arg_36_0)
 		end
 
 		local var_36_4 = {
-			underscore.rest(arg_36_0.newPool, 1),
-			underscore.rest(arg_36_0.oldPool, 1),
+			underscore.to_array(arg_36_0.newPool),
+			underscore.to_array(arg_36_0.oldPool),
 			underscore.filter(arg_36_0.firstPool, function(arg_38_0)
 				return underscore.all(arg_36_0.filterCodes, function(arg_39_0)
 					return arg_39_0.id ~= arg_38_0.id

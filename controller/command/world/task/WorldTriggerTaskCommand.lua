@@ -20,7 +20,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		if arg_2_0.result == 0 then
 			if var_1_2 then
 				local var_2_0 = var_1_3:GetActiveMap():GetPort()
-				local var_2_1 = underscore.rest(var_2_0.taskIds, 1)
+				local var_2_1 = underscore.to_array(var_2_0.taskIds)
 
 				table.removebyvalue(var_2_1, var_1_1)
 				var_2_0:UpdateTaskIds(var_2_1)

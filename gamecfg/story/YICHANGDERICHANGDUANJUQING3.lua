@@ -5,11 +5,12 @@ return {
 	scripts = {
 		{
 			expression = 2,
+			side = 2,
 			nameColor = "#A9F548FF",
-			actor = 202381,
 			hidePaintObj = true,
 			dir = 1,
-			side = 2,
+			NextIcon = 1,
+			actor = 202381,
 			say = "指挥官，你有没有发现，最近我的翅膀，好像没有从前那样明亮了……",
 			typewriter = {
 				speed = 0.05,
@@ -19,10 +20,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 202381,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			actor = 202381,
 			say = "你知道这是为什么吗？",
 			typewriter = {
 				speed = 0.05,
@@ -41,11 +43,12 @@ return {
 		},
 		{
 			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			NextIcon = 1,
 			say = "最近的确有些睡眠不足……",
 			typewriter = {
 				speed = 0.05,
@@ -54,11 +57,12 @@ return {
 		},
 		{
 			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			NextIcon = 1,
 			say = "辰星的光辉，也会因为疲劳而变得黯淡呢。",
 			typewriter = {
 				speed = 0.05,
@@ -68,11 +72,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 202381,
-			hidePaintObj = true,
+			NextIcon = 1,
 			dir = 1,
 			optionFlag = 1,
+			actor = 202381,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "为了让羽翼重新焕发光彩，来陪我一起补觉吧？",
 			typewriter = {
 				speed = 0.05,
@@ -81,11 +86,12 @@ return {
 		},
 		{
 			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			NextIcon = 1,
 			say = "原来如此……",
 			typewriter = {
 				speed = 0.05,
@@ -94,11 +100,12 @@ return {
 		},
 		{
 			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			NextIcon = 1,
 			say = "也许真的是我多心了呢。",
 			typewriter = {
 				speed = 0.05,

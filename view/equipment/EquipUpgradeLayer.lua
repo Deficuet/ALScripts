@@ -6,128 +6,140 @@ function var_0_0.getUIName(arg_1_0)
 	return "EquipUpgradeUI"
 end
 
-function var_0_0.init(arg_2_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, {
+function var_0_0.getResource(arg_2_0, arg_2_1)
+	local var_2_0 = {
+		"weaponframes",
+		"shiptype",
+		"ui/iconcolorful"
+	}
+
+	table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0, arg_2_1))
+
+	return var_2_0
+end
+
+function var_0_0.init(arg_3_0)
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, {
 		staticBlur = true
 	})
 
-	arg_2_0.mainPanel = arg_2_0._tf:Find("main")
-	arg_2_0.finishPanel = arg_2_0._tf:Find("finish_panel")
+	arg_3_0.mainPanel = arg_3_0._tf:Find("main")
+	arg_3_0.finishPanel = arg_3_0._tf:Find("finish_panel")
 
-	setActive(arg_2_0.mainPanel, true)
-	setActive(arg_2_0.finishPanel, false)
+	setActive(arg_3_0.mainPanel, true)
+	setActive(arg_3_0.finishPanel, false)
 
-	arg_2_0.equipmentList = arg_2_0.mainPanel:Find("panel/equipment_list")
-	arg_2_0.equipmentContain = arg_2_0.equipmentList:Find("equipments")
-	arg_2_0.equipmentTpl = arg_2_0:getTpl("equiptpl", arg_2_0.equipmentContain)
+	arg_3_0.equipmentList = arg_3_0.mainPanel:Find("panel/equipment_list")
+	arg_3_0.equipmentContain = arg_3_0.equipmentList:Find("equipments")
+	arg_3_0.equipmentTpl = arg_3_0:getTpl("equiptpl", arg_3_0.equipmentContain)
 
-	setActive(arg_2_0.equipmentList, false)
+	setActive(arg_3_0.equipmentList, false)
 
-	arg_2_0.equipmentPanel = arg_2_0.mainPanel:Find("panel/equipment_panel")
-	arg_2_0.materialPanel = arg_2_0.mainPanel:Find("panel/material_panel")
-	arg_2_0.startBtn = arg_2_0.materialPanel:Find("start_btn")
-	arg_2_0.overLimit = arg_2_0.materialPanel:Find("materials/limit")
+	arg_3_0.equipmentPanel = arg_3_0.mainPanel:Find("panel/equipment_panel")
+	arg_3_0.materialPanel = arg_3_0.mainPanel:Find("panel/material_panel")
+	arg_3_0.startBtn = arg_3_0.materialPanel:Find("start_btn")
+	arg_3_0.overLimit = arg_3_0.materialPanel:Find("materials/limit")
 
-	setText(arg_2_0.overLimit:Find("text"), i18n("equipment_upgrade_overlimit"))
+	setText(arg_3_0.overLimit:Find("text"), i18n("equipment_upgrade_overlimit"))
 
-	arg_2_0.materialsContain = arg_2_0.materialPanel:Find("materials/materials")
+	arg_3_0.materialsContain = arg_3_0.materialPanel:Find("materials/materials")
 
-	setText(arg_2_0.rtTogglesEmpty:Find("Text"), i18n("equip_enhancement_finish"))
-	setText(arg_2_0.rtPanelTitle, i18n("equip_enhancement_required"))
-	setText(arg_2_0.rtTitle, i18n("equip_enhancement_title"))
+	setText(arg_3_0.rtTogglesEmpty:Find("Text"), i18n("equip_enhancement_finish"))
+	setText(arg_3_0.rtPanelTitle, i18n("equip_enhancement_required"))
+	setText(arg_3_0.rtTitle, i18n("equip_enhancement_title"))
 end
 
-function var_0_0.didEnter(arg_3_0)
-	onButton(arg_3_0, arg_3_0._tf:Find("bg"), function()
-		arg_3_0:closeView()
+function var_0_0.didEnter(arg_4_0)
+	onButton(arg_4_0, arg_4_0._tf:Find("bg"), function()
+		arg_4_0:closeView()
 	end, SFX_CANCEL)
-	onButton(arg_3_0, arg_3_0.btnCancel, function()
-		arg_3_0:closeView()
+	onButton(arg_4_0, arg_4_0.btnCancel, function()
+		arg_4_0:closeView()
 	end, SFX_CANCEL)
-	arg_3_0:updateAll()
+	arg_4_0:updateAll()
 end
 
-function var_0_0.updateAll(arg_6_0)
-	setActive(arg_6_0.equipmentList, arg_6_0.contextData.shipVO)
+function var_0_0.updateAll(arg_7_0)
+	setActive(arg_7_0.equipmentList, arg_7_0.contextData.shipVO)
 
-	if arg_6_0.contextData.shipVO then
-		arg_6_0:displayEquipments()
+	if arg_7_0.contextData.shipVO then
+		arg_7_0:displayEquipments()
 
-		if arg_6_0.contextData.pos then
-			triggerButton(arg_6_0.equipmentTFs[arg_6_0.contextData.pos])
+		if arg_7_0.contextData.pos then
+			triggerButton(arg_7_0.equipmentTFs[arg_7_0.contextData.pos])
 		else
-			triggerButton(arg_6_0.equipmentContain:GetChild(0))
+			triggerButton(arg_7_0.equipmentContain:GetChild(0))
 		end
 	else
-		arg_6_0:updateEquipment()
-		arg_6_0:updateMaterials()
+		arg_7_0:updateEquipment()
+		arg_7_0:updateMaterials()
 	end
 end
 
-function var_0_0.displayEquipments(arg_7_0)
-	arg_7_0.equipmentTFs = {}
+function var_0_0.displayEquipments(arg_8_0)
+	arg_8_0.equipmentTFs = {}
 
-	removeAllChildren(arg_7_0.equipmentContain)
+	removeAllChildren(arg_8_0.equipmentContain)
 
-	local var_7_0 = arg_7_0.contextData.shipVO
+	local var_8_0 = arg_8_0.contextData.shipVO
 
-	for iter_7_0, iter_7_1 in ipairs(var_7_0.equipments) do
-		if iter_7_1 then
-			local var_7_1 = cloneTplTo(arg_7_0.equipmentTpl, arg_7_0.equipmentContain)
+	for iter_8_0, iter_8_1 in ipairs(var_8_0.equipments) do
+		if iter_8_1 then
+			local var_8_1 = cloneTplTo(arg_8_0.equipmentTpl, arg_8_0.equipmentContain)
 
-			updateEquipment(var_7_1, iter_7_1)
+			updateEquipment(var_8_1, iter_8_1)
 
-			local var_7_2 = var_7_1:Find("tip")
+			local var_8_2 = var_8_1:Find("tip")
 
-			setActive(var_7_2, false)
+			setActive(var_8_2, false)
 
-			if arg_7_0:isMaterialEnough(iter_7_1) and iter_7_1:getConfig("next") ~= 0 then
-				setActive(var_7_2, true)
-				blinkAni(var_7_2, 0.5)
+			if arg_8_0:isMaterialEnough(iter_8_1) and iter_8_1:getConfig("next") ~= 0 then
+				setActive(var_8_2, true)
+				blinkAni(var_8_2, 0.5)
 			end
 
-			onButton(arg_7_0, var_7_1, function()
-				local var_8_0 = arg_7_0.contextData.pos
+			onButton(arg_8_0, var_8_1, function()
+				local var_9_0 = arg_8_0.contextData.pos
 
-				if var_8_0 then
-					setActive(arg_7_0.equipmentTFs[var_8_0]:Find("selected"), false)
-					setActive(arg_7_0.equipmentTFs[var_8_0]:Find("tip"), arg_7_0:isMaterialEnough(var_7_0:getEquip(var_8_0)) and var_7_0:getEquip(var_8_0):getConfig("next") ~= 0)
+				if var_9_0 then
+					setActive(arg_8_0.equipmentTFs[var_9_0]:Find("selected"), false)
+					setActive(arg_8_0.equipmentTFs[var_9_0]:Find("tip"), arg_8_0:isMaterialEnough(var_8_0:getEquip(var_9_0)) and var_8_0:getEquip(var_9_0):getConfig("next") ~= 0)
 				end
 
-				arg_7_0.contextData.pos = iter_7_0
-				arg_7_0.contextData.equipmentId = iter_7_1.id
-				arg_7_0.contextData.equipmentVO = iter_7_1
+				arg_8_0.contextData.pos = iter_8_0
+				arg_8_0.contextData.equipmentId = iter_8_1.id
+				arg_8_0.contextData.equipmentVO = iter_8_1
 
-				local var_8_1 = arg_7_0.contextData.pos
+				local var_9_1 = arg_8_0.contextData.pos
 
-				setActive(arg_7_0.equipmentTFs[var_8_1]:Find("selected"), true)
-				setActive(arg_7_0.equipmentTFs[var_8_1]:Find("tip"), false)
-				arg_7_0:updateEquipment()
-				arg_7_0:updateMaterials()
+				setActive(arg_8_0.equipmentTFs[var_9_1]:Find("selected"), true)
+				setActive(arg_8_0.equipmentTFs[var_9_1]:Find("tip"), false)
+				arg_8_0:updateEquipment()
+				arg_8_0:updateMaterials()
 			end, SFX_PANEL)
 
-			arg_7_0.equipmentTFs[iter_7_0] = var_7_1
+			arg_8_0.equipmentTFs[iter_8_0] = var_8_1
 		end
 	end
 end
 
-function var_0_0.isMaterialEnough(arg_9_0, arg_9_1)
-	local var_9_0 = arg_9_1:getConfig("trans_use_item")
+function var_0_0.isMaterialEnough(arg_10_0, arg_10_1)
+	local var_10_0 = arg_10_1:getConfig("trans_use_item")
 
-	if not var_9_0 then
+	if not var_10_0 then
 		return false
 	end
 
-	for iter_9_0, iter_9_1 in ipairs(underscore.map(var_9_0, function(arg_10_0)
-		local var_10_0, var_10_1 = unpack(arg_10_0)
+	for iter_10_0, iter_10_1 in ipairs(underscore.map(var_10_0, function(arg_11_0)
+		local var_11_0, var_11_1 = unpack(arg_11_0)
 
 		return Drop.New({
 			type = DROP_TYPE_ITEM,
-			id = var_10_0,
-			count = var_10_1
+			id = var_11_0,
+			count = var_11_1
 		})
 	end)) do
-		if iter_9_1.count > iter_9_1:getOwnedCount() then
+		if iter_10_1.count > iter_10_1:getOwnedCount() then
 			return false
 		end
 	end
@@ -135,34 +147,34 @@ function var_0_0.isMaterialEnough(arg_9_0, arg_9_1)
 	return true
 end
 
-function var_0_0.updateEquipment(arg_11_0)
-	local var_11_0 = arg_11_0.contextData.equipmentVO
+function var_0_0.updateEquipment(arg_12_0)
+	local var_12_0 = arg_12_0.contextData.equipmentVO
 
-	arg_11_0.contextData.equipmentId = var_11_0.id
+	arg_12_0.contextData.equipmentId = var_12_0.id
 
-	changeToScrollText(arg_11_0.equipmentPanel:Find("name_container"), var_11_0:getConfig("name"))
-	setActive(findTF(arg_11_0.equipmentPanel, "unique"), var_11_0:isUnique())
-	updateEquipment(arg_11_0.equipmentPanel:Find("equiptpl"), var_11_0)
+	changeToScrollText(arg_12_0.equipmentPanel:Find("name_container"), var_12_0:getConfig("name"))
+	setActive(findTF(arg_12_0.equipmentPanel, "unique"), var_12_0:isUnique())
+	updateEquipment(arg_12_0.equipmentPanel:Find("equiptpl"), var_12_0)
 
-	arg_11_0.nextEquips = {}
+	arg_12_0.nextEquips = {}
 
-	while var_11_0:getConfig("next") > 0 do
-		var_11_0 = var_11_0:MigrateTo(var_11_0:getConfig("next"))
+	while var_12_0:getConfig("next") > 0 do
+		var_12_0 = var_12_0:MigrateTo(var_12_0:getConfig("next"))
 
-		table.insert(arg_11_0.nextEquips, var_11_0)
+		table.insert(arg_12_0.nextEquips, var_12_0)
 	end
 
-	if #arg_11_0.nextEquips == 0 then
-		arg_11_0.toggleEquips = nil
+	if #arg_12_0.nextEquips == 0 then
+		arg_12_0.toggleEquips = nil
 	else
-		arg_11_0.toggleEquips = {
-			arg_11_0.nextEquips[1]
+		arg_12_0.toggleEquips = {
+			arg_12_0.nextEquips[1]
 		}
 
-		if #arg_11_0.nextEquips > 0 then
-			local var_11_1 = arg_11_0.nextEquips[#arg_11_0.nextEquips]
-			local var_11_2 = var_11_1:getConfig("level")
-			local var_11_3 = switch(var_11_1:getConfig("level") - 1, {
+		if #arg_12_0.nextEquips > 0 then
+			local var_12_1 = arg_12_0.nextEquips[#arg_12_0.nextEquips]
+			local var_12_2 = var_12_1:getConfig("level")
+			local var_12_3 = switch(var_12_1:getConfig("level") - 1, {
 				[13] = function()
 					return {
 						10,
@@ -200,317 +212,317 @@ function var_0_0.updateEquipment(arg_11_0)
 				return {}
 			end)
 
-			for iter_11_0, iter_11_1 in ipairs(var_11_3) do
-				if #arg_11_0.nextEquips > var_11_2 - 1 - iter_11_1 then
-					table.insert(arg_11_0.toggleEquips, arg_11_0.nextEquips[#arg_11_0.nextEquips - (var_11_2 - 1 - iter_11_1)])
+			for iter_12_0, iter_12_1 in ipairs(var_12_3) do
+				if #arg_12_0.nextEquips > var_12_2 - 1 - iter_12_1 then
+					table.insert(arg_12_0.toggleEquips, arg_12_0.nextEquips[#arg_12_0.nextEquips - (var_12_2 - 1 - iter_12_1)])
 				end
 			end
 		end
 	end
 
-	arg_11_0:updateToggles()
+	arg_12_0:updateToggles()
 end
 
-function var_0_0.updateToggles(arg_19_0)
-	setActive(arg_19_0.rtToggles, tobool(arg_19_0.toggleEquips))
-	setActive(arg_19_0.rtTogglesEmpty, not tobool(arg_19_0.toggleEquips))
+function var_0_0.updateToggles(arg_20_0)
+	setActive(arg_20_0.rtToggles, tobool(arg_20_0.toggleEquips))
+	setActive(arg_20_0.rtTogglesEmpty, not tobool(arg_20_0.toggleEquips))
 
-	if arg_19_0.toggleEquips then
-		UIItemList.StaticAlign(arg_19_0.rtToggles, arg_19_0.rtToggleTpl, #arg_19_0.toggleEquips, function(arg_20_0, arg_20_1, arg_20_2)
-			arg_20_1 = arg_20_1 + 1
+	if arg_20_0.toggleEquips then
+		UIItemList.StaticAlign(arg_20_0.rtToggles, arg_20_0.rtToggleTpl, #arg_20_0.toggleEquips, function(arg_21_0, arg_21_1, arg_21_2)
+			arg_21_1 = arg_21_1 + 1
 
-			if arg_20_0 == UIItemList.EventUpdate then
-				local var_20_0 = arg_19_0.toggleEquips[arg_20_1]
+			if arg_21_0 == UIItemList.EventUpdate then
+				local var_21_0 = arg_20_0.toggleEquips[arg_21_1]
 
-				if arg_20_1 == 1 then
-					setText(arg_20_2:Find("Text"), i18n("equip_enhancement_lv1"))
+				if arg_21_1 == 1 then
+					setText(arg_21_2:Find("Text"), i18n("equip_enhancement_lv1"))
 				else
-					setText(arg_20_2:Find("Text"), i18n("equip_enhancement_lvx", var_20_0:getConfig("level") - 1))
+					setText(arg_21_2:Find("Text"), i18n("equip_enhancement_lvx", var_21_0:getConfig("level") - 1))
 				end
 
-				onToggle(arg_19_0, arg_20_2, function(arg_21_0)
-					if arg_21_0 then
-						arg_19_0.targetEquip = var_20_0
+				onToggle(arg_20_0, arg_21_2, function(arg_22_0)
+					if arg_22_0 then
+						arg_20_0.targetEquip = var_21_0
 
-						arg_19_0:updateMaterials()
+						arg_20_0:updateMaterials()
 					end
 				end, SFX_PANEL)
 			end
 		end)
-		triggerToggle(arg_19_0.rtToggles:GetChild(0), true)
+		triggerToggle(arg_20_0.rtToggles:GetChild(0), true)
 	else
-		arg_19_0.targetEquip = nil
+		arg_20_0.targetEquip = nil
 
-		arg_19_0:updateMaterials()
+		arg_20_0:updateMaterials()
 	end
 end
 
-local function var_0_1(arg_22_0)
-	local var_22_0 = _.detect(arg_22_0.sub, function(arg_23_0)
-		return arg_23_0.type == AttributeType.Damage
+local function var_0_1(arg_23_0)
+	local var_23_0 = _.detect(arg_23_0.sub, function(arg_24_0)
+		return arg_24_0.type == AttributeType.Damage
 	end)
 
-	arg_22_0.sub = {
-		var_22_0
+	arg_23_0.sub = {
+		var_23_0
 	}
 end
 
-local function var_0_2(arg_24_0)
-	local var_24_0 = _.detect(arg_24_0.sub, function(arg_25_0)
-		return arg_25_0.type == AttributeType.Corrected
+local function var_0_2(arg_25_0)
+	local var_25_0 = _.detect(arg_25_0.sub, function(arg_26_0)
+		return arg_26_0.type == AttributeType.Corrected
 	end)
 
-	arg_24_0.sub = {
-		var_24_0
+	arg_25_0.sub = {
+		var_25_0
 	}
 end
 
-function var_0_0.updateAttrs(arg_26_0, arg_26_1, arg_26_2, arg_26_3)
-	local var_26_0 = arg_26_2:GetPropertiesInfo()
+function var_0_0.updateAttrs(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
+	local var_27_0 = arg_27_2:GetPropertiesInfo()
 
-	for iter_26_0 = 1, #var_26_0.weapon.sub do
-		var_0_1(var_26_0.weapon.sub[iter_26_0])
+	for iter_27_0 = 1, #var_27_0.weapon.sub do
+		var_0_1(var_27_0.weapon.sub[iter_27_0])
 	end
 
-	var_0_2(var_26_0.equipInfo)
+	var_0_2(var_27_0.equipInfo)
 
-	var_26_0.equipInfo.lock_open = true
+	var_27_0.equipInfo.lock_open = true
 
-	if arg_26_3 then
-		local var_26_1 = arg_26_3:GetPropertiesInfo()
+	if arg_27_3 then
+		local var_27_1 = arg_27_3:GetPropertiesInfo()
 
-		Equipment.InsertAttrsUpgrade(var_26_0.attrs, var_26_1.attrs)
+		Equipment.InsertAttrsUpgrade(var_27_0.attrs, var_27_1.attrs)
 
-		local var_26_2 = arg_26_2:GetSkill()
-		local var_26_3 = arg_26_3:GetSkill()
+		local var_27_2 = arg_27_2:GetSkill()
+		local var_27_3 = arg_27_3:GetSkill()
 
-		if checkExist(var_26_2, {
+		if checkExist(var_27_2, {
 			"name"
-		}) ~= checkExist(var_26_3, {
+		}) ~= checkExist(var_27_3, {
 			"name"
 		}) then
-			local var_26_4 = {
+			local var_27_4 = {
 				lock_open = true,
 				name = i18n("skill"),
-				value = setColorStr(checkExist(var_26_2, {
+				value = setColorStr(checkExist(var_27_2, {
 					"name"
 				}) or i18n("equip_info_25"), "#FFDE00FF"),
 				sub = {
 					{
 						name = i18n("equip_info_26"),
-						value = setColorStr(checkExist(var_26_3, {
+						value = setColorStr(checkExist(var_27_3, {
 							"name"
 						}) or i18n("equip_info_25"), "#FFDE00FF")
 					}
 				}
 			}
 
-			table.insert(var_26_0.attrs, var_26_4)
+			table.insert(var_27_0.attrs, var_27_4)
 		end
 
-		if #var_26_1.weapon.sub > #var_26_0.weapon.sub then
-			for iter_26_1 = #var_26_0.weapon.sub, #var_26_1.weapon.sub do
-				table.insert(var_26_0.weapon.sub, {
+		if #var_27_1.weapon.sub > #var_27_0.weapon.sub then
+			for iter_27_1 = #var_27_0.weapon.sub, #var_27_1.weapon.sub do
+				table.insert(var_27_0.weapon.sub, {
 					name = i18n("equip_info_25"),
 					sub = {}
 				})
 			end
 		end
 
-		for iter_26_2 = #var_26_0.weapon.sub, 1, -1 do
-			local var_26_5 = var_26_0.weapon.sub[iter_26_2]
-			local var_26_6 = var_26_1.weapon.sub[iter_26_2]
+		for iter_27_2 = #var_27_0.weapon.sub, 1, -1 do
+			local var_27_5 = var_27_0.weapon.sub[iter_27_2]
+			local var_27_6 = var_27_1.weapon.sub[iter_27_2]
 
-			if var_26_6 then
-				var_0_1(var_26_1.weapon.sub[iter_26_2])
+			if var_27_6 then
+				var_0_1(var_27_1.weapon.sub[iter_27_2])
 			else
-				var_26_6 = {
+				var_27_6 = {
 					name = i18n("equip_info_25"),
 					sub = {}
 				}
 			end
 
-			if var_26_5.name ~= var_26_6.name then
-				var_26_5.sub = {
+			if var_27_5.name ~= var_27_6.name then
+				var_27_5.sub = {
 					{
 						name = i18n("equip_info_27"),
-						value = var_26_6.name
+						value = var_27_6.name
 					}
 				}
 			else
-				Equipment.InsertAttrsUpgrade(var_26_5.sub, var_26_6.sub)
+				Equipment.InsertAttrsUpgrade(var_27_5.sub, var_27_6.sub)
 			end
 
-			if #var_26_5.sub == 0 then
-				table.remove(var_26_0.weapon.sub, iter_26_2)
+			if #var_27_5.sub == 0 then
+				table.remove(var_27_0.weapon.sub, iter_27_2)
 
-				if var_26_1.weapon.sub[iter_26_2] then
-					table.remove(var_26_1.weapon.sub, iter_26_2)
+				if var_27_1.weapon.sub[iter_27_2] then
+					table.remove(var_27_1.weapon.sub, iter_27_2)
 				end
 			end
 		end
 
-		var_0_2(var_26_1.equipInfo)
-		Equipment.InsertAttrsUpgrade(var_26_0.equipInfo.sub, var_26_1.equipInfo.sub)
+		var_0_2(var_27_1.equipInfo)
+		Equipment.InsertAttrsUpgrade(var_27_0.equipInfo.sub, var_27_1.equipInfo.sub)
 	end
 
-	updateEquipUpgradeInfo(arg_26_1, var_26_0, arg_26_0.contextData.shipVO)
+	updateEquipUpgradeInfo(arg_27_1, var_27_0, arg_27_0.contextData.shipVO)
 end
 
-function var_0_0.updateMaterials(arg_27_0)
-	local var_27_0 = tobool(arg_27_0.targetEquip)
+function var_0_0.updateMaterials(arg_28_0)
+	local var_28_0 = tobool(arg_28_0.targetEquip)
 
-	setActive(arg_27_0.materialsContain, var_27_0)
-	setActive(arg_27_0.overLimit, not var_27_0)
-	setButtonEnabled(arg_27_0.startBtn, var_27_0)
-	setTextAlpha(arg_27_0.startBtn:Find("consume"), var_27_0 and 1 or 0.5)
+	setActive(arg_28_0.materialsContain, var_28_0)
+	setActive(arg_28_0.overLimit, not var_28_0)
+	setButtonEnabled(arg_28_0.startBtn, var_28_0)
+	setTextAlpha(arg_28_0.startBtn:Find("consume"), var_28_0 and 1 or 0.5)
 
-	local var_27_1 = arg_27_0.contextData.equipmentVO
+	local var_28_1 = arg_28_0.contextData.equipmentVO
 
-	arg_27_0:updateAttrs(arg_27_0.equipmentPanel:Find("view/content"), var_27_1, arg_27_0.targetEquip)
-	setText(arg_27_0.rtLevel:Find("before"), i18n("equip_enhancement_lv"))
-	setText(arg_27_0.rtLevel:Find("before/number"), var_27_1:getConfig("level") - 1)
-	setText(arg_27_0.rtLevel:Find("after"), i18n("equip_enhancement_lv"))
-	setText(arg_27_0.rtLevel:Find("after/number"), (arg_27_0.targetEquip or var_27_1):getConfig("level") - 1)
-	setActive(arg_27_0.rtLevel:Find("before"), var_27_0)
-	setActive(arg_27_0.rtLevel:Find("Image"), var_27_0)
+	arg_28_0:updateAttrs(arg_28_0.equipmentPanel:Find("view/content"), var_28_1, arg_28_0.targetEquip)
+	setText(arg_28_0.rtLevel:Find("before"), i18n("equip_enhancement_lv"))
+	setText(arg_28_0.rtLevel:Find("before/number"), var_28_1:getConfig("level") - 1)
+	setText(arg_28_0.rtLevel:Find("after"), i18n("equip_enhancement_lv"))
+	setText(arg_28_0.rtLevel:Find("after/number"), (arg_28_0.targetEquip or var_28_1):getConfig("level") - 1)
+	setActive(arg_28_0.rtLevel:Find("before"), var_28_0)
+	setActive(arg_28_0.rtLevel:Find("Image"), var_28_0)
 
-	if not var_27_0 then
-		setText(arg_27_0.startBtn:Find("consume"), 0)
+	if not var_28_0 then
+		setText(arg_28_0.startBtn:Find("consume"), 0)
 
 		return
 	end
 
-	local var_27_2 = underscore.to_array(var_27_1:getConfig("trans_use_item") or {})
-	local var_27_3 = defaultValue(var_27_1:getConfig("trans_use_gold"), 0)
+	local var_28_2 = underscore.to_array(var_28_1:getConfig("trans_use_item") or {})
+	local var_28_3 = defaultValue(var_28_1:getConfig("trans_use_gold"), 0)
 
-	for iter_27_0, iter_27_1 in ipairs(arg_27_0.nextEquips) do
-		if iter_27_1 == arg_27_0.targetEquip then
+	for iter_28_0, iter_28_1 in ipairs(arg_28_0.nextEquips) do
+		if iter_28_1 == arg_28_0.targetEquip then
 			break
 		else
-			table.insertto(var_27_2, iter_27_1:getConfig("trans_use_item") or {})
+			table.insertto(var_28_2, iter_28_1:getConfig("trans_use_item") or {})
 
-			var_27_3 = var_27_3 + defaultValue(iter_27_1:getConfig("trans_use_gold"), 0)
+			var_28_3 = var_28_3 + defaultValue(iter_28_1:getConfig("trans_use_gold"), 0)
 		end
 	end
 
-	local var_27_4 = PlayerConst.MergeSameDrops(underscore.map(var_27_2, function(arg_28_0)
-		local var_28_0, var_28_1 = unpack(arg_28_0)
+	local var_28_4 = PlayerConst.MergeSameDrops(underscore.map(var_28_2, function(arg_29_0)
+		local var_29_0, var_29_1 = unpack(arg_29_0)
 
 		return Drop.New({
 			type = DROP_TYPE_ITEM,
-			id = var_28_0,
-			count = var_28_1
+			id = var_29_0,
+			count = var_29_1
 		})
 	end))
-	local var_27_5 = true
-	local var_27_6
-	local var_27_7 = 0
+	local var_28_5 = true
+	local var_28_6
+	local var_28_7 = 0
 
-	for iter_27_2 = 1, 5 do
-		local var_27_8 = arg_27_0.materialsContain:GetChild(iter_27_2 - 1)
-		local var_27_9 = var_27_4[iter_27_2]
+	for iter_28_2 = 1, 5 do
+		local var_28_8 = arg_28_0.materialsContain:GetChild(iter_28_2 - 1)
+		local var_28_9 = var_28_4[iter_28_2]
 
-		setActive(findTF(var_27_8, "off"), not var_27_9)
-		setActive(findTF(var_27_8, "equiptpl"), var_27_9)
+		setActive(findTF(var_28_8, "off"), not var_28_9)
+		setActive(findTF(var_28_8, "equiptpl"), var_28_9)
 
-		if var_27_9 then
-			local var_27_10 = findTF(var_27_8, "equiptpl")
+		if var_28_9 then
+			local var_28_10 = findTF(var_28_8, "equiptpl")
 
-			updateItem(var_27_10, var_27_9:getSubClass())
-			onButton(arg_27_0, var_27_10, function()
-				arg_27_0:emit(BaseUI.ON_DROP, var_27_9)
+			updateItem(var_28_10, var_28_9:getSubClass())
+			onButton(arg_28_0, var_28_10, function()
+				arg_28_0:emit(BaseUI.ON_DROP, var_28_9)
 			end, SFX_PANEL)
 
-			local var_27_11 = var_27_9:getOwnedCount()
-			local var_27_12 = var_27_10:Find("icon_bg/count")
+			local var_28_11 = var_28_9:getOwnedCount()
+			local var_28_12 = var_28_10:Find("icon_bg/count")
 
-			if var_27_11 < var_27_9.count then
-				setText(var_27_12, setColorStr(var_27_11, COLOR_RED) .. "/" .. var_27_9.count)
+			if var_28_11 < var_28_9.count then
+				setText(var_28_12, setColorStr(var_28_11, COLOR_RED) .. "/" .. var_28_9.count)
 
-				var_27_5 = false
-				var_27_6 = var_27_9.id
+				var_28_5 = false
+				var_28_6 = var_28_9.id
 			else
-				setText(var_27_12, var_27_11 .. "/" .. var_27_9.count)
+				setText(var_28_12, var_28_11 .. "/" .. var_28_9.count)
 			end
 
-			setActive(var_27_12, true)
-			onButton(arg_27_0, var_27_10:Find("click"), function()
-				setActive(var_27_10:Find("click"), false)
+			setActive(var_28_12, true)
+			onButton(arg_28_0, var_28_10:Find("click"), function()
+				setActive(var_28_10:Find("click"), false)
 
-				var_27_7 = var_27_7 - 1
+				var_28_7 = var_28_7 - 1
 			end, SFX_PANEL)
 
-			local var_27_13 = var_27_9:getDropRarity() > 3
+			local var_28_13 = var_28_9:getDropRarity() > 3
 
-			setActive(var_27_10:Find("click"), var_27_13)
+			setActive(var_28_10:Find("click"), var_28_13)
 
-			var_27_7 = var_27_7 + (var_27_13 and 1 or 0)
+			var_28_7 = var_28_7 + (var_28_13 and 1 or 0)
 		end
 	end
 
-	local var_27_14 = Drop.New({
+	local var_28_14 = Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = PlayerConst.ResGold,
-		count = var_27_3
+		count = var_28_3
 	})
-	local var_27_15 = var_27_14:getOwnedCount()
+	local var_28_15 = var_28_14:getOwnedCount()
 
-	if var_27_15 < var_27_14.count then
-		setText(arg_27_0.startBtn:Find("consume"), setColorStr(var_27_3, COLOR_RED))
+	if var_28_15 < var_28_14.count then
+		setText(arg_28_0.startBtn:Find("consume"), setColorStr(var_28_3, COLOR_RED))
 	else
-		setText(arg_27_0.startBtn:Find("consume"), var_27_3)
+		setText(arg_28_0.startBtn:Find("consume"), var_28_3)
 	end
 
-	onButton(arg_27_0, arg_27_0.startBtn, function()
-		if not var_27_5 then
-			if not ItemTipPanel.ShowItemTipbyID(var_27_6) then
+	onButton(arg_28_0, arg_28_0.startBtn, function()
+		if not var_28_5 then
+			if not ItemTipPanel.ShowItemTipbyID(var_28_6) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipUpgradeLayer2_noMaterail"))
 			end
 
 			return
 		end
 
-		if var_27_7 > 0 then
+		if var_28_7 > 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_upgrade_costcheck_error"))
 
 			return
 		end
 
-		if var_27_15 < var_27_3 then
+		if var_28_15 < var_28_3 then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
 				{
 					59001,
-					var_27_3 - var_27_15,
-					var_27_3
+					var_28_3 - var_28_15,
+					var_28_3
 				}
 			})
 
 			return
 		end
 
-		arg_27_0:emit(EquipUpgradeMediator.EQUIPMENT_UPGRDE, arg_27_0.targetEquip, var_27_4, var_27_3)
+		arg_28_0:emit(EquipUpgradeMediator.EQUIPMENT_UPGRDE, arg_28_0.targetEquip, var_28_4, var_28_3)
 	end, SFX_UI_DOCKYARD_REINFORCE)
 end
 
-function var_0_0.upgradeFinish(arg_32_0, arg_32_1, arg_32_2)
-	setActive(arg_32_0.mainPanel, false)
-	setActive(arg_32_0.finishPanel, true)
-	onButton(arg_32_0, arg_32_0.finishPanel:Find("bg"), function()
-		setActive(arg_32_0.mainPanel, true)
-		setActive(arg_32_0.finishPanel, false)
+function var_0_0.upgradeFinish(arg_33_0, arg_33_1, arg_33_2)
+	setActive(arg_33_0.mainPanel, false)
+	setActive(arg_33_0.finishPanel, true)
+	onButton(arg_33_0, arg_33_0.finishPanel:Find("bg"), function()
+		setActive(arg_33_0.mainPanel, true)
+		setActive(arg_33_0.finishPanel, false)
 	end, SFX_CANCEL)
-	changeToScrollText(arg_32_0.finishPanel:Find("frame/equipment_panel/name_container"), arg_32_2:getConfig("name"))
-	setActive(findTF(arg_32_0.finishPanel, "frame/equipment_panel/unique"), arg_32_2:isUnique())
+	changeToScrollText(arg_33_0.finishPanel:Find("frame/equipment_panel/name_container"), arg_33_2:getConfig("name"))
+	setActive(findTF(arg_33_0.finishPanel, "frame/equipment_panel/unique"), arg_33_2:isUnique())
 
-	local var_32_0 = arg_32_0.finishPanel:Find("frame/equipment_panel/equiptpl")
+	local var_33_0 = arg_33_0.finishPanel:Find("frame/equipment_panel/equiptpl")
 
-	updateEquipment(var_32_0, arg_32_2)
-	arg_32_0:updateAttrs(arg_32_0.finishPanel:Find("frame/equipment_panel/view/content"), arg_32_1, arg_32_2)
+	updateEquipment(var_33_0, arg_33_2)
+	arg_33_0:updateAttrs(arg_33_0.finishPanel:Find("frame/equipment_panel/view/content"), arg_33_1, arg_33_2)
 end
 
-function var_0_0.willExit(arg_34_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_34_0._tf)
+function var_0_0.willExit(arg_35_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_35_0._tf)
 end
 
 return var_0_0

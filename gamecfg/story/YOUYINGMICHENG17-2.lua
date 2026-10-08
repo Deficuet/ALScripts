@@ -4,10 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "狐尾扬起，华丽而危险的锋芒交错袭来，虎在第一时间迎上前去，为我撕开那片白色残影。",
 			bgm = "story-visioncity-1",
 			typewriter = {
@@ -16,10 +17,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "当收容装置的辉光最终笼住{namecode:302:白凤}时，她没有挣扎，只是若有所思地望向我。",
 			typewriter = {
 				speed = 0.05,
@@ -32,6 +34,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 307162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -47,6 +50,7 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 307162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -58,11 +62,12 @@ return {
 		},
 		{
 			actor = 317030,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			actorName = "一个普通的后勤人员",
 			side = 2,
+			actorName = "一个普通的后勤人员",
+			nameColor = "#A9F548FF",
 			say = "“今天，我来到了新纪元都市NO.4……”",
 			typewriter = {
 				speed = 0.05,
@@ -94,10 +99,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_523",
-			hidePaintObj = true,
-			actor = 317030,
 			actorName = "一个普通的后勤人员",
+			NextIcon = 1,
+			actor = 317030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "“人们可以在这里当个‘成熟’的大人，用金钱购买想要的一切，直到填满内心的空洞。”",
 			typewriter = {
 				speed = 0.05,
@@ -105,10 +111,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "巨大的广告屏仍在循环播放甜美的广告促销词，但原本精致优雅的氛围却被掀翻的展柜破坏。",
 			typewriter = {
 				speed = 0.05,
@@ -116,10 +123,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "一道半透明的身影披着轻柔白纱，静静立于其中，仿佛是从旧梦中走来的幽灵。",
 			typewriter = {
 				speed = 0.05,
@@ -132,6 +140,7 @@ return {
 			bgName = "star_level_bg_523",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900561,
 			nameColor = "#FF9B93",
 			say = "睡吧，睡吧……可爱的孩子们。",
@@ -142,11 +151,12 @@ return {
 		},
 		{
 			actor = 900561,
-			side = 2,
+			nameColor = "#FF9B93",
 			bgName = "star_level_bg_523",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			side = 2,
+			NextIcon = 1,
 			say = "在光辉的歌声中，一起进入梦乡吧~",
 			typewriter = {
 				speed = 0.05,
@@ -154,11 +164,12 @@ return {
 			}
 		},
 		{
-			actor = 408140,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_523",
 			factiontag = "无辜的路人",
 			dir = 1,
+			actor = 408140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "躺……",
@@ -168,11 +179,12 @@ return {
 			}
 		},
 		{
-			actor = 101310,
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_523",
 			factiontag = "无辜的路人",
 			dir = 1,
+			actor = 101310,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Zzz……",
@@ -187,6 +199,7 @@ return {
 			bgName = "star_level_bg_523",
 			factiontag = "新手行动员",
 			dir = 1,
+			NextIcon = 1,
 			actor = 231211,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -212,6 +225,7 @@ return {
 			bgName = "star_level_bg_523",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900561,
 			nameColor = "#FF9B93",
 			say = "这次，你们不需要做任何决定……",
@@ -226,6 +240,7 @@ return {
 			bgName = "star_level_bg_523",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900561,
 			nameColor = "#FF9B93",
 			say = "不需要挑选更合适的商品，更体面的生活……",
@@ -240,6 +255,7 @@ return {
 			bgName = "star_level_bg_523",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900561,
 			nameColor = "#FF9B93",
 			say = "不必担心选错，也不必担心失去。",
@@ -254,6 +270,7 @@ return {
 			bgName = "star_level_bg_523",
 			factiontag = "幽影",
 			dir = 1,
+			NextIcon = 1,
 			actor = 900561,
 			nameColor = "#FF9B93",
 			say = "像这样温柔的歌声，能抚平你们的痛苦吗？",
@@ -263,12 +280,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_523",
-			hidePaintObj = true,
 			portrait = "zhihuiguan",
 			side = 2,
+			bgName = "star_level_bg_523",
+			hidePaintObj = true,
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "我明白你的心情，你只是担心她们撑不住。",
 			typewriter = {
 				speed = 0.05,
@@ -276,12 +294,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_523",
-			hidePaintObj = true,
 			portrait = "zhihuiguan",
 			side = 2,
+			bgName = "star_level_bg_523",
+			hidePaintObj = true,
+			actor = 0,
+			NextIcon = 1,
+			nameColor = "#A9F548FF",
 			say = "但一个人的情绪，不应该被她人夺取。",
 			typewriter = {
 				speed = 0.05,
@@ -289,10 +308,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			NextIcon = 1,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "她望着我，目光是柔和的。随后，温暖的白光如潮水般漫开，试图拥抱所有躁动的心灵……",
 			typewriter = {
 				speed = 0.05,

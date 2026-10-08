@@ -229,7 +229,7 @@ function var_0_0.UpdateEntranceFilter(arg_27_0, arg_27_1)
 			return var_28_2 > var_28_0 + var_28_1
 		end)
 	else
-		arg_27_0.achEntranceList = underscore.rest(arg_27_0.baseEntranceList, 1)
+		arg_27_0.achEntranceList = underscore.to_array(arg_27_0.baseEntranceList)
 	end
 
 	arg_27_0:UpdateGetAllAwardBtn()

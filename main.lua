@@ -331,6 +331,11 @@ local function var_0_3(arg_15_0)
 		end,
 		function(arg_35_0)
 			pg.SettingsGroupMgr.GetInstance():Init()
+
+			if SplitPackHelper.Inst:IsSplitPackMode() then
+				pg.SplitPackDownloadMgr.GetInstance():Init()
+			end
+
 			pg.FileDownloadMgr.GetInstance():Init(arg_35_0)
 		end,
 		function(arg_36_0)
@@ -418,4 +423,8 @@ seriesAsync({
 		originalPrint("主频:" .. SystemInfo.processorFrequency)
 		originalPrint("+++++++++++")
 	end)
+
+	if not IsUnityEditor then
+		pg.SplitPackDownloadMgr.GetInstance():StartMainDownload()
+	end
 end)

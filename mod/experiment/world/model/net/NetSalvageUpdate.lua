@@ -10,7 +10,7 @@ var_0_0.Fields = {
 function var_0_0.Setup(arg_1_0, arg_1_1)
 	arg_1_0.id = arg_1_1.group_id
 	arg_1_0.step = arg_1_1.cmd_collection.progress
-	arg_1_0.list = underscore.rest(arg_1_1.cmd_collection.progress_list, 1)
+	arg_1_0.list = underscore.to_array(arg_1_1.cmd_collection.progress_list)
 	arg_1_0.mapId = arg_1_1.cmd_collection.random_id
 end
 

@@ -153,6 +153,7 @@ pg.pay_data_display.all = {
 	1027,
 	1028,
 	1029,
+	1030,
 	1302,
 	2001,
 	2002,
@@ -508,6 +509,7 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		1027,
 		1028,
 		1029,
+		1030,
 		1302
 	},
 	[6] = {
@@ -17738,6 +17740,92 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+	pg.base.pay_data_display[1030] = {
+		limit_group = 0,
+		name = "特许巡游凭证(2026.10)",
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		type = 0,
+		second_text = "",
+		id = 1030,
+		subject = "特许巡游凭证",
+		first_text = "",
+		package_sort_id = 0,
+		first_icon = "",
+		money = 68,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		cash_show = 0,
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·格拉哈姆限定换装和其他奖励",
+		limit_type = 2,
+		name_display = "特许巡游凭证",
+		type_order = 6,
+		package_tag = "",
+		picture = "battlepass_1",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		id_str = "com.bilibili.blhx.battlepass32",
+		first_pay_double = 0,
+		extra_gem = 0,
+		show_group = "",
+		limit_arg = 1,
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.seasonpass31",
+		extra_service_item = {
+			{
+				1,
+				4031,
+				1500
+			},
+			{
+				8,
+				65121,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7031,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
 	pg.base.pay_data_display[1302] = {
 		limit_group = 0,
 		name = "冬日特许巡游凭证(2025.12)",
@@ -22202,6 +22290,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.pay_data_display[2050] = {
 		limit_group = 105,
 		name = "海滨假日主题礼包",
@@ -22280,8 +22370,6 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
-end)()
-;(function()
 	pg.base.pay_data_display[2051] = {
 		limit_group = 105,
 		name = "海滨假日主题礼包(基础版)",

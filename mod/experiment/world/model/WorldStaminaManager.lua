@@ -81,7 +81,7 @@ function var_0_0.ChangeStamina(arg_10_0, arg_10_1, arg_10_2)
 	arg_10_0:DispatchEvent(var_0_0.EventUpdateStamina)
 end
 
-function var_0_0.UpdateStamina(arg_11_0)
+function var_0_0.UpdateStamina(arg_11_0, arg_11_1)
 	local var_11_0 = pg.gameset.world_movepower_recovery_interval.key_value
 	local var_11_1 = pg.TimeMgr.GetInstance():GetServerTime()
 	local var_11_2 = math.floor((var_11_1 - arg_11_0.staminaLastRecoverTime) / var_11_0)
@@ -260,63 +260,71 @@ function var_0_0.ConsumeStamina(arg_29_0, arg_29_1)
 	arg_29_0:DispatchEvent(var_0_0.EventUpdateStamina)
 end
 
-function var_0_0.GetExchangeData(arg_30_0)
-	local var_30_0 = pg.gameset.world_supply_value.description
-	local var_30_1 = pg.gameset.world_supply_price.description
-	local var_30_2 = var_30_0[math.min(#var_30_0, arg_30_0.staminaExchangeTimes + 1)]
-	local var_30_3 = var_30_1[math.min(#var_30_1, arg_30_0.staminaExchangeTimes + 1)]
+function var_0_0.PlusStamina(arg_30_0, arg_30_1)
+	arg_30_0.stamina = arg_30_0.stamina + arg_30_0.staminaExtra + arg_30_1
+	arg_30_0.staminaExtra = math.max(arg_30_0.stamina - arg_30_0:GetMaxStamina(), 0)
+	arg_30_0.stamina = math.min(arg_30_0.stamina, arg_30_0:GetMaxStamina())
 
-	return var_30_2[1], var_30_3[3], #var_30_1 - arg_30_0.staminaExchangeTimes, #var_30_1
+	arg_30_0:DispatchEvent(var_0_0.EventUpdateStamina)
 end
 
-function var_0_0.GetExchangeItems(arg_31_0)
-	local var_31_0 = nowWorld():GetInventoryProxy()
-	local var_31_1, var_31_2, var_31_3, var_31_4 = arg_31_0:GetExchangeData()
-	local var_31_5 = {
+function var_0_0.GetExchangeData(arg_31_0)
+	local var_31_0 = pg.gameset.world_supply_value.description
+	local var_31_1 = pg.gameset.world_supply_price.description
+	local var_31_2 = var_31_0[math.min(#var_31_0, arg_31_0.staminaExchangeTimes + 1)]
+	local var_31_3 = var_31_1[math.min(#var_31_1, arg_31_0.staminaExchangeTimes + 1)]
+
+	return var_31_2[1], var_31_3[3], #var_31_1 - arg_31_0.staminaExchangeTimes, #var_31_1
+end
+
+function var_0_0.GetExchangeItems(arg_32_0)
+	local var_32_0 = nowWorld():GetInventoryProxy()
+	local var_32_1, var_32_2, var_32_3, var_32_4 = arg_32_0:GetExchangeData()
+	local var_32_5 = {
 		{
 			drop = Drop.New({
 				id = PlayerConst.ResOil,
 				type = DROP_TYPE_RESOURCE,
 				count = getProxy(PlayerProxy):getRawData().oil
 			}),
-			cost = var_31_2,
-			stamina = var_31_1,
-			times = var_31_3,
-			limit = var_31_4
+			cost = var_32_2,
+			stamina = var_32_1,
+			times = var_32_3,
+			limit = var_32_4
 		}
 	}
 
-	for iter_31_0, iter_31_1 in ipairs(pg.gameset.world_supply_itemlist.description) do
-		local var_31_6 = Drop.New({
+	for iter_32_0, iter_32_1 in ipairs(pg.gameset.world_supply_itemlist.description) do
+		local var_32_6 = Drop.New({
 			type = DROP_TYPE_WORLD_ITEM,
-			id = iter_31_1,
-			count = var_31_0:GetItemCount(iter_31_1)
+			id = iter_32_1,
+			count = var_32_0:GetItemCount(iter_32_1)
 		})
 
-		table.insert(var_31_5, {
+		table.insert(var_32_5, {
 			cost = 1,
-			drop = var_31_6,
-			name = var_31_6:getConfig("name"),
-			stamina = var_31_6:getSubClass():getItemStaminaRecover()
+			drop = var_32_6,
+			name = var_32_6:getConfig("name"),
+			stamina = var_32_6:getSubClass():getItemStaminaRecover()
 		})
 	end
 
-	return var_31_5
+	return var_32_5
 end
 
-function var_0_0.ExchangeStamina(arg_32_0, arg_32_1, arg_32_2)
-	arg_32_0.stamina = arg_32_0.stamina + arg_32_1
+function var_0_0.ExchangeStamina(arg_33_0, arg_33_1, arg_33_2)
+	arg_33_0.stamina = arg_33_0.stamina + arg_33_1
 
-	if arg_32_2 then
-		arg_32_0.staminaExchangeTimes = arg_32_0.staminaExchangeTimes + 1
+	if arg_33_2 then
+		arg_33_0.staminaExchangeTimes = arg_33_0.staminaExchangeTimes + 1
 	end
 
-	arg_32_0:DispatchEvent(var_0_0.EventUpdateStamina)
-	arg_32_0:CheckUpdateShow()
+	arg_33_0:DispatchEvent(var_0_0.EventUpdateStamina)
+	arg_33_0:CheckUpdateShow()
 end
 
-function var_0_0.GetDisplayStanima(arg_33_0)
-	return arg_33_0:GetTotalStamina()
+function var_0_0.GetDisplayStanima(arg_34_0)
+	return arg_34_0:GetTotalStamina()
 end
 
 return var_0_0

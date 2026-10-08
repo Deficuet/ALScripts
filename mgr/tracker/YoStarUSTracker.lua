@@ -1,4 +1,4 @@
-local var_0_0 = class("AiriUSTracker")
+local var_0_0 = class("YoStarUSTracker")
 
 var_0_0.DEV_TOKEN = "2KtJzaeLzGnPUhtOY4-LYw"
 var_0_0.ANDROID_LINK_ID = "DE31AE06D3CE21EE3A9E1A1BCEB506E1"

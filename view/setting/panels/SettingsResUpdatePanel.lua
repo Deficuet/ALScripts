@@ -16,6 +16,7 @@ function var_0_0.OnInit(arg_4_0)
 	arg_4_0.tpl = arg_4_0._tf:Find("Tpl")
 	arg_4_0.iconTF = arg_4_0._tf:Find("Icon")
 	arg_4_0.fullTF = arg_4_0._tf:Find("options_full")
+	arg_4_0.splitPackTF = arg_4_0._tf:Find("options_splitpack")
 	arg_4_0.mainTF = arg_4_0._tf:Find("options_main")
 	arg_4_0.fullTitleText = arg_4_0._tf:Find("options_full/Title/Text")
 	arg_4_0.mainTitleText = arg_4_0._tf:Find("options_main/Title/Text")
@@ -28,19 +29,24 @@ function var_0_0.OnInit(arg_4_0)
 	arg_4_0.fullGroupTF = arg_4_0._tf:Find("options_full/MainGroup")
 	arg_4_0.mainContainerTF = arg_4_0._tf:Find("options_main/list")
 	arg_4_0.specialContainerTF = arg_4_0._tf:Find("options_special/list")
+	arg_4_0.isFullPanelVisible = not GroupMainHelper.IsVerSameWithServer()
 
-	local var_4_0 = not GroupMainHelper.IsVerSameWithServer()
+	setActive(arg_4_0.fullTF, arg_4_0.isFullPanelVisible)
 
-	setActive(arg_4_0.fullTF, var_4_0)
-
-	if var_4_0 then
+	if arg_4_0.isFullPanelVisible then
 		arg_4_0.mainGroupBtn = SettingsMainGroupBtn.New(arg_4_0.fullGroupTF)
-		GetComponent(arg_4_0.mainTF, typeof(VerticalLayoutGroup)).padding.top = 0
-	else
-		local var_4_1 = GetComponent(arg_4_0.fullTF, typeof(VerticalLayoutGroup)).padding.top
-
-		GetComponent(arg_4_0.mainTF, typeof(VerticalLayoutGroup)).padding.top = var_4_1
 	end
+
+	arg_4_0.downloadSectionTopPadding = GetComponent(arg_4_0.fullTF, typeof(VerticalLayoutGroup)).padding.top
+	arg_4_0.isSplitPackPanelVisible = SplitPackHelper.Inst:IsSplitPackMode() and pg.SplitPackDownloadMgr.GetInstance():GetState() ~= pg.SplitPackDownloadMgr.State.Success
+
+	setActive(arg_4_0.splitPackTF, arg_4_0.isSplitPackPanelVisible)
+
+	if arg_4_0.isSplitPackPanelVisible then
+		arg_4_0.splitPackBtn = SettingsSplitPackBtn.New(arg_4_0.splitPackTF)
+	end
+
+	arg_4_0:UpdateMainPanelPadding()
 
 	arg_4_0.galleryBtn = SettingsGalleryBtn.New({
 		isDel = true,
@@ -93,46 +99,62 @@ function var_0_0.OnInit(arg_4_0)
 	end
 end
 
-function var_0_0.Dispose(arg_5_0)
-	var_0_0.super.Dispose(arg_5_0)
+function var_0_0.UpdateMainPanelPadding(arg_5_0)
+	local var_5_0 = arg_5_0.isFullPanelVisible or arg_5_0.isSplitPackPanelVisible
 
-	if arg_5_0:IsLoaded() then
-		arg_5_0.repairBtn:Dispose()
+	if arg_5_0.splitPackTF then
+		GetComponent(arg_5_0.splitPackTF, typeof(VerticalLayoutGroup)).padding.top = arg_5_0.isFullPanelVisible and 0 or arg_5_0.downloadSectionTopPadding
+	end
 
-		arg_5_0.repairBtn = nil
+	GetComponent(arg_5_0.mainTF, typeof(VerticalLayoutGroup)).padding.top = var_5_0 and 0 or arg_5_0.downloadSectionTopPadding
+end
 
-		arg_5_0.live2dBtn:Dispose()
+function var_0_0.Dispose(arg_6_0)
+	var_0_0.super.Dispose(arg_6_0)
 
-		arg_5_0.live2dBtn = nil
+	if arg_6_0:IsLoaded() then
+		arg_6_0.repairBtn:Dispose()
 
-		arg_5_0.galleryBtn:Dispose()
+		arg_6_0.repairBtn = nil
 
-		arg_5_0.galleryBtn = nil
+		arg_6_0.live2dBtn:Dispose()
 
-		arg_5_0.soundBtn:Dispose()
+		arg_6_0.live2dBtn = nil
 
-		arg_5_0.soundBtn = nil
+		arg_6_0.galleryBtn:Dispose()
 
-		arg_5_0.musicBtn:Dispose()
+		arg_6_0.galleryBtn = nil
 
-		arg_5_0.musicBtn = nil
+		arg_6_0.soundBtn:Dispose()
 
-		arg_5_0.mangaBtn:Dispose()
+		arg_6_0.soundBtn = nil
 
-		arg_5_0.mangaBtn = nil
+		arg_6_0.musicBtn:Dispose()
 
-		arg_5_0.dormBtn:Dispose()
+		arg_6_0.musicBtn = nil
 
-		arg_5_0.dormBtn = nil
+		arg_6_0.mangaBtn:Dispose()
 
-		arg_5_0.mapBtn:Dispose()
+		arg_6_0.mangaBtn = nil
 
-		arg_5_0.mapBtn = nil
+		arg_6_0.dormBtn:Dispose()
 
-		if arg_5_0.mainGroupBtn then
-			arg_5_0.mainGroupBtn:Dispose()
+		arg_6_0.dormBtn = nil
 
-			arg_5_0.mainGroupBtn = nil
+		arg_6_0.mapBtn:Dispose()
+
+		arg_6_0.mapBtn = nil
+
+		if arg_6_0.mainGroupBtn then
+			arg_6_0.mainGroupBtn:Dispose()
+
+			arg_6_0.mainGroupBtn = nil
+		end
+
+		if arg_6_0.splitPackBtn then
+			arg_6_0.splitPackBtn:Dispose()
+
+			arg_6_0.splitPackBtn = nil
 		end
 	end
 end

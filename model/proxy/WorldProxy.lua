@@ -10,8 +10,8 @@ function var_0_0.register(arg_1_0)
 
 		arg_1_0:BuildWorld(World.TypeBase)
 
-		arg_1_0.world.baseShipIds = underscore.rest(arg_2_0.ship_id_list, 1)
-		arg_1_0.world.baseCmdIds = underscore.rest(arg_2_0.cmd_id_list, 1)
+		arg_1_0.world.baseShipIds = underscore.to_array(arg_2_0.ship_id_list)
+		arg_1_0.world.baseCmdIds = underscore.to_array(arg_2_0.cmd_id_list)
 
 		arg_1_0.world:UpdateProgress(arg_2_0.progress)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
@@ -195,8 +195,9 @@ function var_0_0.NetUpdateWorld(arg_19_0, arg_19_1, arg_19_2, arg_19_3)
 
 	local var_19_1 = var_19_0:GetAtlas()
 
-	var_19_1:SetCostMapList(_.rest(arg_19_1.chapter_list, 1))
-	var_19_1:SetSairenEntranceList(_.rest(arg_19_1.sairen_chapter, 1))
+	var_19_1:SetCostMapList(underscore.to_array(arg_19_1.chapter_list))
+	var_19_1:SetSairenEntranceList(underscore.to_array(arg_19_1.sairen_chapter))
+	var_19_1:SetDelegatedMarkList(underscore.to_array(arg_19_1.random_map_id_list_by_auto))
 	var_19_1:InitWorldNShopGoods(arg_19_1.goods_list)
 	var_19_0:SetFleets(arg_19_0:NetBuildMapFleetList(arg_19_1.group_list))
 
@@ -389,7 +390,7 @@ function var_0_0.NetUpdateMapPort(arg_36_0, arg_36_1, arg_36_2)
 	local var_36_1 = var_36_0:GetPort(arg_36_2.port_id)
 
 	assert(var_36_1, "port not exist: " .. arg_36_2.port_id)
-	var_36_1:UpdateTaskIds(_.rest(arg_36_2.task_list, 1))
+	var_36_1:UpdateTaskIds(underscore.to_array(arg_36_2.task_list))
 	var_36_1:UpdateGoods(_.map(arg_36_2.goods_list, function(arg_37_0)
 		local var_37_0 = WPool:Get(WorldGoods)
 
@@ -635,13 +636,13 @@ function var_0_0.ApplyShipUpdate(arg_71_0, arg_71_1)
 end
 
 function var_0_0.NetUpdateWorldSairenChapter(arg_73_0, arg_73_1)
-	local var_73_0 = _.rest(arg_73_1, 1)
+	local var_73_0 = underscore.to_array(arg_73_1)
 
 	arg_73_0.world:GetAtlas():SetSairenEntranceList(var_73_0)
 end
 
 function var_0_0.NetUpdateWorldMapPressing(arg_74_0, arg_74_1)
-	local var_74_0 = _.rest(arg_74_1, 1)
+	local var_74_0 = underscore.to_array(arg_74_1)
 
 	arg_74_0.world:GetAtlas():SetPressingMarkList(var_74_0)
 	arg_74_0.world:GetAtlas():InitPortMarkNShopList()
@@ -691,6 +692,20 @@ function var_0_0.ApplySalvageUpdate(arg_81_0, arg_81_1)
 		assert(var_82_0, "fleet not exit: " .. arg_82_0.id)
 		var_82_0:UpdateCatSalvage(arg_82_0.step, arg_82_0.list, arg_82_0.mapId)
 	end)
+end
+
+function var_0_0.RecordDelegateAward(arg_83_0, arg_83_1)
+	assert(not arg_83_0.delegateInfo)
+
+	arg_83_0.delegateInfo = arg_83_1
+end
+
+function var_0_0.RemoveDelegateAward(arg_84_0)
+	arg_84_0.delegateInfo = nil
+end
+
+function var_0_0.GetDelegateAward(arg_85_0)
+	return arg_85_0.delegateInfo
 end
 
 return var_0_0

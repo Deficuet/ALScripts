@@ -1145,7 +1145,7 @@ function var_0_0.UpdateCameraPanel(arg_96_0)
 end
 
 function var_0_0.RefreshCamera(arg_117_0)
-	arg_117_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SettingCamera", arg_117_0.cameraSettings)
+	arg_117_0.scene:emit(Dorm3dLightingSystem.SET_CAMERA_SETTINGS, arg_117_0.cameraSettings)
 end
 
 function var_0_0.SetAllAnimSpeed(arg_118_0, arg_118_1)
@@ -1252,14 +1252,14 @@ function var_0_0.UpdateLightingPanel(arg_125_0)
 
 	local function var_125_1()
 		if not arg_125_0.settingFilterIndex then
-			arg_125_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertVolumeProfile")
+			arg_125_0.scene:emit(Dorm3dLightingSystem.REVERT_VOLUME_PROFILE)
 
 			return
 		end
 
 		local var_127_0 = pg.dorm3d_camera_volume_template[var_125_0[arg_125_0.settingFilterIndex]]
 
-		arg_125_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetVolumeProfile", var_127_0.volume, arg_125_0.settingFilterStrength)
+		arg_125_0.scene:emit(Dorm3dLightingSystem.SET_VOLUME_PROFILE, var_127_0.volume, arg_125_0.settingFilterStrength)
 	end
 
 	UIItemList.StaticAlign(arg_125_0.panelLightning:Find("Layout/Filter/List"), arg_125_0.panelLightning:Find("Layout/Filter/List"):GetChild(0), #var_125_0, function(arg_128_0, arg_128_1, arg_128_2)
@@ -1415,9 +1415,9 @@ function var_0_0.willExit(arg_135_0)
 	arg_135_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetSceneItemAnimators")
 	arg_135_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharacterExtraItem")
 	arg_135_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetTempHideSceneItems")
-	arg_135_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterLight")
-	arg_135_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertVolumeProfile")
-	arg_135_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCameraSettings")
+	arg_135_0.scene:emit(Dorm3dLightingSystem.REVERT_CHARACTER_LIGHT)
+	arg_135_0.scene:emit(Dorm3dLightingSystem.REVERT_VOLUME_PROFILE)
+	arg_135_0.scene:emit(Dorm3dLightingSystem.REVERT_CAMERA_SETTINGS)
 	arg_135_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ExitPhotoMode")
 end
 

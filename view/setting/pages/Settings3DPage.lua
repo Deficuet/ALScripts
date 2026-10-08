@@ -103,45 +103,40 @@ end
 function var_0_0.OnInitPanle(arg_16_0)
 	if arg_16_0.contextData.scroll then
 		local var_16_0
+		local var_16_1 = arg_16_0:GetPanel(arg_16_0.contextData.scroll)
 
-		if arg_16_0.contextData.scroll == "world_settings" then
-			local var_16_1 = arg_16_0:GetPanel(SettingsWorldPanle)
-		else
-			local var_16_2 = arg_16_0:GetPanel(arg_16_0.contextData.scroll)
-		end
-
-		local var_16_3 = arg_16_0:GetPanel(arg_16_0.contextData.scroll)
-
-		if var_16_3 then
-			arg_16_0:ScrollToPanel(var_16_3)
+		if var_16_1 then
+			arg_16_0:RebuildLayout(function()
+				arg_16_0:ScrollToPanel(var_16_1)
+			end)
 		end
 	end
 end
 
-function var_0_0.ScrollToPanel(arg_17_0, arg_17_1)
-	local var_17_0 = arg_17_0.panelContainer:InverseTransformPoint(arg_17_1._tf.position)
+function var_0_0.ScrollToPanel(arg_18_0, arg_18_1)
+	local var_18_0 = arg_18_0.panelContainer:InverseTransformPoint(arg_18_1._tf.position)
 
-	setAnchoredPosition(arg_17_0.panelContainer, {
-		y = -var_17_0.y
+	setAnchoredPosition(arg_18_0.panelContainer, {
+		y = -var_18_0.y
 	})
 end
 
-function var_0_0.OnDestroy(arg_18_0)
-	for iter_18_0, iter_18_1 in ipairs(arg_18_0.panels) do
-		iter_18_1:Dispose()
+function var_0_0.OnDestroy(arg_19_0)
+	for iter_19_0, iter_19_1 in ipairs(arg_19_0.panels) do
+		iter_19_1:Dispose()
 	end
 
-	arg_18_0.panels = nil
+	arg_19_0.panels = nil
 end
 
-function var_0_0.Show(arg_19_0)
-	arg_19_0.cg.blocksRaycasts = true
-	arg_19_0.cg.alpha = 1
+function var_0_0.Show(arg_20_0)
+	arg_20_0.cg.blocksRaycasts = true
+	arg_20_0.cg.alpha = 1
 end
 
-function var_0_0.Hide(arg_20_0)
-	arg_20_0.cg.blocksRaycasts = false
-	arg_20_0.cg.alpha = 0
+function var_0_0.Hide(arg_21_0)
+	arg_21_0.cg.blocksRaycasts = false
+	arg_21_0.cg.alpha = 0
 end
 
 return var_0_0

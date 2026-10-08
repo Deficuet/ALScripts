@@ -16,7 +16,7 @@ local var_0_1 = {
 }
 
 function var_0_0.InitUI(arg_1_0, arg_1_1)
-	arg_1_0.shieldCount = underscore.rest(arg_1_0.ConfigShildList, 1)
+	arg_1_0.shieldCount = underscore.to_array(arg_1_0.ConfigShildList)
 	arg_1_0.rtShieldDic = {
 		S = arg_1_0.rtScale:Find("front/Shield_S"),
 		E = arg_1_0.rtScale:Find("front/Shield_E"),

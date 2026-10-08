@@ -13,7 +13,7 @@ var_0_0.LAYER_MASK = bit.bor(var_0_0.CAR_LAYER_MASK, var_0_0.LADY_LAYER_MASK)
 var_0_0.DECAL_LAYER = LayerMask.NameToLayer("CameraRT")
 var_0_0.DECAL_LAYER_MASK = bit.lshift(1, var_0_0.DECAL_LAYER)
 var_0_0.EFFECT_LAYER_MASK = bit.bnot(bit.bor(var_0_0.DECAL_LAYER_MASK, var_0_0.PLAYER_LAYER_MASK))
-var_0_0.HIDDEN_REACTION_TRIGGER_TIME = 2
+var_0_0.HIDDEN_REACTION_TRIGGER_TIME = 3.75
 var_0_0.GAME_DURATION = 300
 var_0_0.ORTHOGRAPHIC_SIZE_RANGE = {
 	0.3,
@@ -94,7 +94,7 @@ function var_0_0.GetGameplaySystemClasses()
 		CarWashRaycastSystem,
 		CarWashMuzzleEffect,
 		CarWashDecalSystem,
-		CarWashGlassMaterialFix,
+		CarWashCarSystem,
 		CarWashLadySystem
 	}
 end

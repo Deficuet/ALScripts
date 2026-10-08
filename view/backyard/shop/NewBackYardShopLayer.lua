@@ -222,25 +222,130 @@ function var_0_0.InitPageFooter(arg_19_0)
 	setActive(arg_19_0.btnTpl, false)
 end
 
-function var_0_0.UpdateSpecialPageFooter(arg_23_0)
-	local var_23_0 = arg_23_0.btns[5]
+function var_0_0.getResource(arg_23_0, arg_23_1)
+	local var_23_0 = var_0_0.super.getResource(arg_23_0, arg_23_1)
+	local var_23_1 = {}
 
-	setActive(var_23_0:Find("new"), getProxy(SettingsProxy):IsTipNewGemFurniture())
+	for iter_23_0, iter_23_1 in ipairs(var_23_0) do
+		var_23_1[iter_23_1] = true
+	end
+
+	local var_23_2 = pg.furniture_shop_template.all
+
+	for iter_23_2, iter_23_3 in ipairs(var_23_2) do
+		local var_23_3 = pg.furniture_shop_template[iter_23_3]
+
+		if pg.TimeMgr.GetInstance():inTime(var_23_3.time) then
+			local var_23_4 = pg.furniture_data_template[iter_23_3].icon
+			local var_23_5 = pg.furniture_data_template[iter_23_3].picture
+			local var_23_6 = "furnitrues/" .. var_23_5
+			local var_23_7 = "furnitureicon/" .. var_23_4
+
+			if var_23_7 ~= "furnitureicon/" and not var_23_1[var_23_7] then
+				var_23_1[var_23_7] = true
+
+				table.insert(var_23_0, var_23_7)
+			end
+
+			local var_23_8 = pg.furniture_data_template[iter_23_3].type
+			local var_23_9 = pg.furniture_data_template[iter_23_3].tag
+			local var_23_10 = pg.furniture_data_template[iter_23_3].spine
+
+			if var_23_6 == "furnitrues/" then
+				-- block empty
+			elseif var_23_8 == 1 and var_23_9 == 3 then
+				for iter_23_4 = 1, 4 do
+					if not var_23_1[var_23_6 .. iter_23_4] then
+						var_23_1[var_23_6 .. iter_23_4] = true
+
+						table.insert(var_23_0, var_23_6 .. iter_23_4)
+					end
+				end
+			elseif var_23_10 and var_23_10 ~= "" then
+				local var_23_11
+				local var_23_12
+
+				if var_23_10[1] and #var_23_10[1] > 0 and type(var_23_10[1][1]) == "string" then
+					var_23_11 = "sfurniture/" .. var_23_10[1][1]
+				end
+
+				if var_23_10[2] and #var_23_10[2] > 0 and type(var_23_10[2][1]) == "string" then
+					var_23_12 = "sfurniture/" .. var_23_10[2][1]
+				end
+
+				if var_23_11 and not var_23_1[var_23_11] then
+					var_23_1[var_23_11] = true
+
+					table.insert(var_23_0, var_23_11)
+				end
+
+				if var_23_12 and not var_23_1[var_23_12] then
+					var_23_1[var_23_12] = true
+
+					table.insert(var_23_0, var_23_12)
+				end
+			elseif not var_23_1[var_23_6] then
+				var_23_1[var_23_6] = true
+
+				table.insert(var_23_0, var_23_6)
+			end
+		end
+	end
+
+	local var_23_13 = getProxy(DormProxy):GetSystemThemes()
+
+	for iter_23_5, iter_23_6 in ipairs(var_23_13) do
+		if iter_23_6:getConfig("is_view") == 1 and not iter_23_6:IsOverTime() then
+			local var_23_14 = iter_23_6.id
+			local var_23_15 = pg.backyard_theme_template[var_23_14].icon
+			local var_23_16 = "furnitureicon/" .. var_23_15
+
+			if not var_23_1[var_23_16] then
+				var_23_1[var_23_16] = true
+
+				table.insert(var_23_0, var_23_16)
+			end
+
+			local var_23_17 = "backyardtheme/theme_" .. var_23_14
+
+			if not var_23_1[var_23_17] then
+				var_23_1[var_23_17] = true
+
+				table.insert(var_23_0, var_23_17)
+			end
+
+			local var_23_18 = "backyardtheme/" .. var_23_14
+
+			if not var_23_1[var_23_18] then
+				var_23_1[var_23_18] = true
+
+				table.insert(var_23_0, var_23_18)
+			end
+		end
+	end
+
+	return var_23_0
 end
 
-function var_0_0.willExit(arg_24_0)
-	arg_24_0.isOverlay = false
+function var_0_0.UpdateSpecialPageFooter(arg_24_0)
+	local var_24_0 = arg_24_0.btns[5]
 
-	arg_24_0.contextData.filterPanel:Destroy()
-	arg_24_0.themePage:Destroy()
-	arg_24_0.furniturePage:Destroy()
-	arg_24_0.contextData.furnitureMsgBox:Destroy()
+	setActive(var_24_0:Find("new"), getProxy(SettingsProxy):IsTipNewGemFurniture())
+end
 
-	arg_24_0.contextData.furnitureMsgBox = nil
+function var_0_0.willExit(arg_25_0)
+	arg_25_0.isOverlay = false
 
-	arg_24_0.contextData.themeMsgBox:Destroy()
+	arg_25_0.contextData.filterPanel:Destroy()
+	arg_25_0.themePage:Destroy()
+	arg_25_0.furniturePage:Destroy()
+	arg_25_0.contextData.furnitureMsgBox:Destroy()
 
-	arg_24_0.contextData.themeMsgBox = nil
+	arg_25_0.contextData.furnitureMsgBox = nil
+
+	arg_25_0.contextData.themeMsgBox:Destroy()
+
+	arg_25_0.contextData.themeMsgBox = nil
 end
 
 return var_0_0

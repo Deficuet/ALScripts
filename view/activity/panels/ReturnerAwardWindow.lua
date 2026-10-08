@@ -42,19 +42,16 @@ function var_0_0.Show(arg_4_0, arg_4_1)
 	local var_4_1 = arg_4_1.targets
 	local var_4_2 = arg_4_1.fetchList
 	local var_4_3 = arg_4_1.count
-	local var_4_4 = arg_4_1.resId
+	local var_4_4 = arg_4_1.ptDrop
 
 	arg_4_0.blur = arg_4_1.blur
 
-	local var_4_5 = Drop.New({
-		type = DROP_TYPE_RESOURCE,
-		id = var_4_4
-	}):getName()
+	local var_4_5 = var_4_4:getName()
 
 	arg_4_0.resTitle, arg_4_0.cntTitle = i18n("pt_count", var_4_5), i18n("pt_total_count", var_4_5)
 	arg_4_0.cntTitle = string.gsub(arg_4_0.cntTitle, "：", "")
 
-	arg_4_0:updateResIcon(arg_4_1.resId, arg_4_1.resIcon, arg_4_1.type)
+	arg_4_0:updateResIcon(arg_4_1.ptDrop, arg_4_1.type)
 	var_0_1(arg_4_0, var_4_0, var_4_1, var_4_2)
 
 	arg_4_0.totalTxt.text = var_4_3

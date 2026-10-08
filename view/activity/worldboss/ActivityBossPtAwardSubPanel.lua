@@ -38,24 +38,20 @@ function var_0_0.UpdateView(arg_6_0, arg_6_1)
 	local var_6_1 = arg_6_1.targets
 	local var_6_2 = arg_6_1.level
 	local var_6_3 = arg_6_1.count
-	local var_6_4 = arg_6_1.resId
-	local var_6_5 = Drop.New({
-		type = DROP_TYPE_RESOURCE,
-		id = var_6_4
-	}):getName()
+	local var_6_4 = Drop.New(arg_6_1:GetRes()):getName()
 
 	if arg_6_1.type == 2 then
-		arg_6_0.resTitle, arg_6_0.cntTitle = i18n("pt_count", i18n("pt_cosume", var_6_5)), i18n("pt_total_count", i18n("pt_cosume", var_6_5))
+		arg_6_0.resTitle, arg_6_0.cntTitle = i18n("pt_count", i18n("pt_cosume", var_6_4)), i18n("pt_total_count", i18n("pt_cosume", var_6_4))
 	else
-		arg_6_0.resTitle, arg_6_0.cntTitle = i18n("pt_count", var_6_5), i18n("pt_total_count", var_6_5)
+		arg_6_0.resTitle, arg_6_0.cntTitle = i18n("pt_count", var_6_4), i18n("pt_total_count", var_6_4)
 	end
 
-	local var_6_6 = arg_6_0.ptData:CanGetAward()
-	local var_6_7 = arg_6_0.ptData:GetBossProgress()
+	local var_6_5 = arg_6_0.ptData:CanGetAward()
+	local var_6_6 = arg_6_0.ptData:GetBossProgress()
 
-	setActive(arg_6_0.btn_get, var_6_6)
-	setActive(arg_6_0.btn_banned, not var_6_6)
-	arg_6_0:UpdateList(var_6_0, var_6_1, var_6_2, var_6_7)
+	setActive(arg_6_0.btn_get, var_6_5)
+	setActive(arg_6_0.btn_banned, not var_6_5)
+	arg_6_0:UpdateList(var_6_0, var_6_1, var_6_2, var_6_6)
 	Canvas.ForceUpdateCanvases()
 end
 

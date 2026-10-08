@@ -28,8 +28,16 @@ function var_0_0.update(arg_1_0, arg_1_1, arg_1_2)
 end
 
 function var_0_0.GetResList(arg_2_0)
+	local var_2_0 = Drop.New({
+		id = 59900,
+		count = 0,
+		type = DROP_TYPE_ITEM
+	})
+
+	var_2_0.count = var_2_0:getOwnedCount()
+
 	return {
-		59900
+		var_2_0
 	}
 end
 

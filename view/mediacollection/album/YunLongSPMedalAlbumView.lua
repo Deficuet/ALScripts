@@ -2,8 +2,6 @@ local var_0_0 = class("YunLongSPMedalAlbumView", import(".MedalAlbumTemplateView
 
 var_0_0.GROUP_ID = 50482
 var_0_0.MEDAL_COUNT = 8
-var_0_0.HELP_TIPS = "help_tianqiongAlbum"
-var_0_0.HELP_TIPS = "help_starLightAlbum"
 var_0_0.ICON_SCALE = 1
 
 function var_0_0.getUIName(arg_1_0)

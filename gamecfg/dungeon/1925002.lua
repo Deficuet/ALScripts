@@ -4,10 +4,8 @@ return {
 	stages = {
 		{
 			stageIndex = 1,
-			failCondition = 1,
-			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			timeCount = 300,
 			totalArea = {
 				-80,
 				20,
@@ -29,6 +27,14 @@ return {
 			stageBuff = {
 				{
 					id = 201250,
+					level = 1
+				},
+				{
+					id = 295023,
+					level = 1
+				},
+				{
+					id = 295028,
 					level = 1
 				}
 			},
@@ -76,8 +82,7 @@ return {
 								icon = ""
 							},
 							buffList = {
-								200974,
-								201357
+								200974
 							},
 							phase = {
 								{
@@ -88,11 +93,10 @@ return {
 									setAI = 20006
 								},
 								{
+									index = 1,
 									switchType = 1,
 									switchTo = 2,
-									index = 1,
 									switchParam = 5,
-									setAI = 70252,
 									addWeapon = {
 										3275201
 									}
@@ -111,11 +115,10 @@ return {
 									}
 								},
 								{
-									switchParam = 3,
-									switchTo = 4,
 									index = 3,
 									switchType = 1,
-									setAI = 75016
+									switchTo = 4,
+									switchParam = 3
 								},
 								{
 									index = 4,

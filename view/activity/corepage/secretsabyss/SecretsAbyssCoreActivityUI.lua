@@ -27,8 +27,7 @@ function var_0_0.init(arg_2_0, ...)
 			elseif not arg_2_0.pageDic[var_3_0.id] then
 				warning(string.format("without page in act:", var_3_0.id))
 			else
-				setText(arg_3_2:Find("off/name"), i18n("masaina_main_sheet" .. var_3_0:getConfig("is_show")))
-				setText(arg_3_2:Find("on/name"), i18n("masaina_main_sheet" .. var_3_0:getConfig("is_show")))
+				arg_2_0:UpdateBtnText(var_3_0, arg_3_2)
 
 				if arg_2_0.pageDic[var_3_0.id] ~= nil then
 					setActive(arg_3_2:Find("tip"), var_3_0:readyToAchieve())
@@ -58,23 +57,37 @@ function var_0_0.init(arg_2_0, ...)
 	end, SOUND_BACK)
 end
 
-function var_0_0.UpdateAdapt(arg_8_0)
-	local var_8_0 = 1.3333333333333333
-	local var_8_1 = 2.1666666666666665
-	local var_8_2 = pg.CameraFixMgr.GetInstance()
-	local var_8_3 = var_8_2.currentWidth / var_8_2.currentHeight
-	local var_8_4 = math.clamp(var_8_3, var_8_0, var_8_1)
+function var_0_0.UpdateBtnText(arg_8_0, arg_8_1, arg_8_2)
+	local var_8_0 = arg_8_1:getConfig("title_res_tag")
 
-	arg_8_0._tf:GetComponent(typeof(AspectRatioFitter)).aspectRatio = var_8_4
+	if pg.gametip[var_8_0] then
+		local var_8_1 = i18n(var_8_0)
+
+		setText(arg_8_2:Find("off/name"), var_8_1)
+		setText(arg_8_2:Find("on/name"), var_8_1)
+	else
+		setText(arg_8_2:Find("off/name"), i18n("masaina_main_sheet" .. arg_8_1:getConfig("is_show")))
+		setText(arg_8_2:Find("on/name"), i18n("masaina_main_sheet" .. arg_8_1:getConfig("is_show")))
+	end
 end
 
-function var_0_0.willExit(arg_9_0)
-	var_0_0.super.willExit(arg_9_0)
+function var_0_0.UpdateAdapt(arg_9_0)
+	local var_9_0 = 1.3333333333333333
+	local var_9_1 = 2.1666666666666665
+	local var_9_2 = pg.CameraFixMgr.GetInstance()
+	local var_9_3 = var_9_2.currentWidth / var_9_2.currentHeight
+	local var_9_4 = math.clamp(var_9_3, var_9_0, var_9_1)
 
-	if arg_9_0.camEventId then
-		pg.CameraFixMgr.GetInstance():disconnect(arg_9_0.camEventId)
+	arg_9_0._tf:GetComponent(typeof(AspectRatioFitter)).aspectRatio = var_9_4
+end
 
-		arg_9_0.camEventId = nil
+function var_0_0.willExit(arg_10_0)
+	var_0_0.super.willExit(arg_10_0)
+
+	if arg_10_0.camEventId then
+		pg.CameraFixMgr.GetInstance():disconnect(arg_10_0.camEventId)
+
+		arg_10_0.camEventId = nil
 	end
 end
 

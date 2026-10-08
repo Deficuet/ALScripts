@@ -159658,6 +159658,34 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[59099] = {
+		display = "占坑道具 不应该显示说明",
+		name = "仅显示用的资源  对应道具占坑",
+		drop_arg = "",
+		type = 99,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 0,
+		id = 59099,
+		link_id = 0,
+		icon = "Props/gold",
+		order = 0,
+		rarity = 1,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[59100] = {
 		display = "扩展仓库20格",
 		name = "扩展仓库",
@@ -195144,6 +195172,34 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[67002] = {
+		display = "用于「限时体验商店」兑换角色限时换装",
+		name = "换装体验券",
+		drop_arg = "",
+		type = 98,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = 1,
+		replace_item = 0,
+		virtual_type = 0,
+		id = 67002,
+		link_id = 0,
+		icon = "Props/skinTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[66094] = {
 		display = "高楼间光影流转，空中列车往来穿梭，看似繁华的表象下，看不见的黑暗正在缓慢滋生。欢迎来到新纪元都市NO.7",
 		name = "幽影迷城纪念勋章",
@@ -196083,6 +196139,37 @@ end)()
 				59,
 				59
 			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[68703] = {
+		display = "用于作战委托的全权委托书，在部分常规关卡的作战委托下可以使用，「自选轻量复刻」活动结束后将会消失",
+		name = "作战全权委托书(活动)",
+		album_config = "",
+		type = 0,
+		drop_oil_max = 0,
+		virtual_type = 34,
+		shop_id = -1,
+		replace_item = 0,
+		id = 68703,
+		link_id = 0,
+		icon = "Props/weituozuozhan",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		drop_arg = {
+			"act",
+			1000140
 		}
 	}
 end)()
@@ -278313,6 +278400,650 @@ end)()
 		icon = "Props/970003",
 		order = 0,
 		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[220001] = {
+		display = "于「铁翼擎风」活动限时复刻中获取，可以免费进行一次「铁翼擎风」限定建造（活动结束后消失）",
+		name = "单次建造券",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 22,
+		id = 220001,
+		link_id = 1000012,
+		icon = "Props/buildTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[220002] = {
+		display = "于「唤醒苍红之炎」活动限时复刻中获取，可以免费进行一次「唤醒苍红之炎」限定建造（活动结束后消失）",
+		name = "单次建造券",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 22,
+		id = 220002,
+		link_id = 1000032,
+		icon = "Props/buildTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[220003] = {
+		display = "于「星光下的余晖」活动限时复刻中获取，可以免费进行一次「星光下的余晖」限定建造（活动结束后消失）",
+		name = "单次建造券",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 22,
+		id = 220003,
+		link_id = 1000052,
+		icon = "Props/buildTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[220004] = {
+		display = "于「樊笼内的神光」活动限时复刻中获取，可以免费进行一次「樊笼内的神光」限定建造（活动结束后消失）",
+		name = "单次建造券",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 22,
+		id = 220004,
+		link_id = 1000072,
+		icon = "Props/buildTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[220005] = {
+		display = "于「高塔上的蔷薇」活动限时复刻中获取，可以免费进行一次「高塔上的蔷薇」限定建造（活动结束后消失）",
+		name = "单次建造券",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 22,
+		id = 220005,
+		link_id = 1000092,
+		icon = "Props/buildTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[220006] = {
+		display = "于「奇渊下的秘密」活动限时复刻中获取，可以免费进行一次「奇渊下的秘密」限定建造（活动结束后消失）",
+		name = "单次建造券",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 22,
+		id = 220006,
+		link_id = 1000110,
+		icon = "Props/buildTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[220007] = {
+		display = "于「起舞于天原之上」活动限时复刻中获取，可以免费进行一次「起舞于天原之上」限定建造（活动结束后消失）",
+		name = "单次建造券",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 22,
+		id = 220007,
+		link_id = 1000132,
+		icon = "Props/buildTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221001] = {
+		display = "用于「铁翼擎风」轻量化复刻活动兑换，活动结束后将会消失",
+		name = "异常事件记录 ",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 103,
+		id = 221001,
+		link_id = 1000001,
+		icon = "Props/65012",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221002] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		drop_arg = "",
+		type = 98,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 0,
+		id = 221002,
+		link_id = 0,
+		icon = "Props/xunliandianshu_mv5",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221003] = {
+		display = "用于「唤醒苍红之炎」轻量化复刻活动兑换，活动结束后将会消失",
+		name = "奈落结晶",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 103,
+		id = 221003,
+		link_id = 1000021,
+		icon = "Props/65019",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221004] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		drop_arg = "",
+		type = 98,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = 1,
+		replace_item = 0,
+		virtual_type = 0,
+		id = 221004,
+		link_id = 0,
+		icon = "Props/xunliandianshu_20240905",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221005] = {
+		display = "用于「星光下的余晖」轻量化复刻活动的常规兑换，活动结束后将会消失",
+		name = "天外之兽生物质",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 103,
+		id = 221005,
+		link_id = 1000041,
+		icon = "Props/65063",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221006] = {
+		display = "用于「星光下的余晖」轻量化复刻活动的特殊兑换，活动结束后将会消失",
+		name = "战斗嘉奖函",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 103,
+		id = 221006,
+		link_id = 1000057,
+		icon = "Props/65064",
+		order = 0,
+		rarity = 3,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221007] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		drop_arg = "",
+		type = 98,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = 1,
+		replace_item = 0,
+		virtual_type = 0,
+		id = 221007,
+		link_id = 0,
+		icon = "Props/xunliandianshu_20241212",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221008] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		drop_arg = "",
+		type = 98,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 0,
+		id = 221008,
+		link_id = 0,
+		icon = "Props/xunliandianshu_yv4",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221009] = {
+		display = "用于「樊笼内的神光」轻量化复刻活动兑换，活动结束后将会消失",
+		name = "绘画草稿",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 103,
+		id = 221009,
+		link_id = 1000061,
+		icon = "Props/65081",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221010] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		drop_arg = "",
+		type = 98,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 0,
+		id = 221010,
+		link_id = 0,
+		icon = "Props/xunliandianshu_20250514",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221011] = {
+		display = "用于「高塔上的蔷薇」轻量化复刻活动的常规兑换，活动结束后将会消失",
+		name = "蔷薇刻章",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 103,
+		id = 221011,
+		link_id = 1000081,
+		icon = "Props/65096",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221012] = {
+		display = "用于「高塔上的蔷薇」轻量化复刻活动的特殊兑换，活动结束后将会消失",
+		name = "翼狮盾徽",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 103,
+		id = 221012,
+		link_id = 1000098,
+		icon = "Props/65097",
+		order = 0,
+		rarity = 3,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221013] = {
+		display = "用于「奇渊下的秘密」轻量化复刻活动兑换，活动结束后将会消失",
+		name = "恩泽城金币",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 103,
+		id = 221013,
+		link_id = 1000101,
+		icon = "Props/masaina_pt",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221014] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		drop_arg = "",
+		type = 98,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 0,
+		id = 221014,
+		link_id = 0,
+		icon = "Props/xunliandianshu_20250904",
+		order = 0,
+		rarity = 2,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221015] = {
+		display = "用于「起舞于天原之上」轻量化复刻活动的特殊兑换，活动结束后将会消失",
+		name = "幻梦石",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 103,
+		id = 221015,
+		link_id = 1000137,
+		icon = "Props/65682",
+		order = 0,
+		rarity = 3,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[221016] = {
+		display = "用于「起舞于天原之上」轻量化复刻活动的常规兑换，活动结束后将会消失",
+		name = "天原凤羽",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 103,
+		id = 221016,
+		link_id = 1000121,
+		icon = "Props/65683",
+		order = 0,
+		rarity = 2,
 		max_num = 0,
 		time_limit = 0,
 		drop_gold_max = 0,

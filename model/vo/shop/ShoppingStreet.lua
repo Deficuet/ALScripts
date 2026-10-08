@@ -129,16 +129,26 @@ function var_0_0.GetResList(arg_19_0)
 	local var_19_0 = {}
 
 	for iter_19_0, iter_19_1 in pairs(arg_19_0.goods) do
-		var_19_0[iter_19_1:getConfig("resource_type")] = true
+		local var_19_1 = Drop.New({
+			count = 0,
+			type = DROP_TYPE_RESOURCE,
+			id = iter_19_1:getConfig("resource_type")
+		})
+
+		var_19_1.count = var_19_1:getOwnedCount()
+
+		if not var_19_0[var_19_1.type .. "_" .. var_19_1.id] then
+			var_19_0[var_19_1.type .. "_" .. var_19_1.id] = var_19_1
+		end
 	end
 
-	local var_19_1 = {}
+	local var_19_2 = {}
 
 	for iter_19_2, iter_19_3 in pairs(var_19_0) do
-		table.insert(var_19_1, iter_19_2)
+		table.insert(var_19_2, iter_19_3)
 	end
 
-	return var_19_1
+	return var_19_2
 end
 
 return var_0_0

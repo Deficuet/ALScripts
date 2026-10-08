@@ -30,22 +30,7 @@ function var_0_0.OnUpdateItems(arg_5_0)
 end
 
 function var_0_0.GetResDataList(arg_6_0)
-	local var_6_0 = {}
-	local var_6_1 = arg_6_0.shop:GetResList()
-
-	for iter_6_0, iter_6_1 in ipairs(var_6_1) do
-		local var_6_2
-		local var_6_3 = arg_6_0.items[ITEM_ID_SILVER_HOOK]
-		local var_6_4 = not var_6_3 and 0 or var_6_3.count
-
-		table.insert(var_6_0, {
-			type = DROP_TYPE_ITEM,
-			resID = iter_6_1,
-			cnt = var_6_4
-		})
-	end
-
-	return var_6_0
+	return arg_6_0.shop:GetResList()
 end
 
 function var_0_0.RefreshUI(arg_7_0)

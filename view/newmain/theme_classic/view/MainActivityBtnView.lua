@@ -34,7 +34,10 @@ function var_0_0.GetActivityBtnList()
 		MainActBlackFridaySalesBtn,
 		MainActToLoveBtn,
 		MainActHolidayVillaBtn,
-		MainCoreActivityBtn2
+		MainCoreActivityBtn2,
+		MainActRemasterBtn,
+		MainActRemasterActivaingBtn,
+		MainActRemasterMapBtn
 	}
 end
 

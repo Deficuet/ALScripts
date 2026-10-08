@@ -40,6 +40,7 @@ function var_0_0.Ctor(arg_1_0)
 		MainRequestNewInstagramDataSequence.New(),
 		MainRequestReversePacmanActDataSequence.New(),
 		MainFetchPrevPeriodCrusingSequence.New(),
+		MainTipActivityRemasterSequence.New(),
 		MainPrevPeriodCrusingChargeTipSequence.New(),
 		MainCalcHxSequence.New(),
 		MainGuideSequence.New(),

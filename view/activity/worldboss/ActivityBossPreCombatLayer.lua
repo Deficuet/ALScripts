@@ -185,27 +185,35 @@ function var_0_0.SetStageID(arg_20_0, arg_20_1)
 		local var_20_3 = getProxy(ActivityProxy)
 
 		for iter_20_0 = #var_20_2, 1, -1 do
-			local var_20_4 = var_20_3:getActivityById(var_20_2[iter_20_0][1])
+			local var_20_4, var_20_5, var_20_6, var_20_7 = unpack(var_20_2)
+			local var_20_8 = var_20_3:getActivityById(var_20_4)
 
-			if var_20_4 and not var_20_4:isEnd() then
-				table.insert(var_20_1, 1, {
-					2,
-					id2ItemId(var_20_2[iter_20_0][2])
-				})
+			if var_20_8 and not var_20_8:isEnd() then
+				if var_20_5 == DROP_TYPE_RESOURCE then
+					table.insert(var_20_1, 1, {
+						DROP_TYPE_ITEM,
+						id2ItemId(var_20_6)
+					})
+				else
+					table.insert(var_20_1, 1, {
+						var_20_5,
+						var_20_6
+					})
+				end
 			end
 		end
 	end
 
 	if arg_20_0.contextData.system ~= SYSTEM_BOSS_EXPERIMENT then
 		for iter_20_1, iter_20_2 in ipairs(var_20_1) do
-			local var_20_5 = cloneTplTo(arg_20_0._item, arg_20_0._spoilsContainer)
-			local var_20_6 = {
+			local var_20_9 = cloneTplTo(arg_20_0._item, arg_20_0._spoilsContainer)
+			local var_20_10 = {
 				id = iter_20_2[2],
 				type = iter_20_2[1]
 			}
 
-			updateDrop(var_20_5, var_20_6)
-			onButton(arg_20_0, var_20_5, function()
+			updateDrop(var_20_9, var_20_10)
+			onButton(arg_20_0, var_20_9, function()
 				local var_21_0 = Item.getConfigData(iter_20_2[2])
 
 				if var_21_0 and var_0_2[var_21_0.type] then
@@ -229,13 +237,13 @@ function var_0_0.SetStageID(arg_20_0, arg_20_1)
 						content = var_21_0.display
 					})
 				else
-					arg_20_0:emit(var_0_0.ON_DROP, var_20_6)
+					arg_20_0:emit(var_0_0.ON_DROP, var_20_10)
 				end
 			end, SFX_PANEL)
 		end
 	end
 
-	local function var_20_7(arg_22_0, arg_22_1)
+	local function var_20_11(arg_22_0, arg_22_1)
 		if type(arg_22_0) == "table" then
 			setActive(arg_22_1, true)
 
@@ -247,35 +255,35 @@ function var_0_0.SetStageID(arg_20_0, arg_20_1)
 		end
 	end
 
-	local var_20_8 = {
+	local var_20_12 = {
 		findTF(arg_20_0._goals, "goal_tpl"),
 		findTF(arg_20_0._goals, "goal_sink"),
 		findTF(arg_20_0._goals, "goal_time")
 	}
-	local var_20_9 = {
+	local var_20_13 = {
 		var_20_0.objective_1,
 		var_20_0.objective_2,
 		var_20_0.objective_3
 	}
-	local var_20_10 = 1
+	local var_20_14 = 1
 
-	for iter_20_3, iter_20_4 in ipairs(var_20_9) do
+	for iter_20_3, iter_20_4 in ipairs(var_20_13) do
 		if type(iter_20_4) ~= "string" then
-			var_20_7(iter_20_4, var_20_8[var_20_10])
+			var_20_11(iter_20_4, var_20_12[var_20_14])
 
-			var_20_10 = var_20_10 + 1
+			var_20_14 = var_20_14 + 1
 		end
 	end
 
-	for iter_20_5 = var_20_10, #var_20_8 do
-		var_20_7("", var_20_8[iter_20_5])
+	for iter_20_5 = var_20_14, #var_20_12 do
+		var_20_11("", var_20_12[iter_20_5])
 	end
 
-	local var_20_11 = var_20_0.guide_desc and #var_20_0.guide_desc > 0
+	local var_20_15 = var_20_0.guide_desc and #var_20_0.guide_desc > 0
 
-	setActive(arg_20_0.guideDesc, var_20_11)
+	setActive(arg_20_0.guideDesc, var_20_15)
 
-	if var_20_11 then
+	if var_20_15 then
 		setText(arg_20_0.guideDesc, var_20_0.guide_desc)
 	end
 end

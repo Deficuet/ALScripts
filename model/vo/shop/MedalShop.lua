@@ -64,8 +64,16 @@ function var_0_0.UpdateGoodsCnt(arg_12_0, arg_12_1, arg_12_2)
 end
 
 function var_0_0.GetResList(arg_13_0)
+	local var_13_0 = Drop.New({
+		count = 0,
+		type = DROP_TYPE_ITEM,
+		id = ITEM_ID_SILVER_HOOK
+	})
+
+	var_13_0.count = var_13_0:getOwnedCount()
+
 	return {
-		ITEM_ID_SILVER_HOOK
+		var_13_0
 	}
 end
 

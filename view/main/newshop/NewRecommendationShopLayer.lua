@@ -1,4 +1,7 @@
 local var_0_0 = class("NewRecommendationShopLayer", import("...base.BaseUI"))
+
+var_0_0.ACT_REMASTER_BANNER_ID = -1
+
 local var_0_1 = pg.shop_banner_template
 
 function var_0_0.getUIName(arg_1_0)
@@ -227,10 +230,18 @@ function var_0_0.InitData(arg_9_0)
 		return ShopsProxy.SpecialBannerBlockCheck(var_0_1[arg_10_0], var_9_13)
 	end)
 
+	if getProxy(ActivityRemasterProxy):ExistShopBanner() then
+		if not arg_9_0.bnIds.banner_small3 then
+			arg_9_0.bnIds.banner_small3 = {}
+		end
+
+		table.insert(arg_9_0.bnIds.banner_small3, var_0_0.ACT_REMASTER_BANNER_ID)
+	end
+
 	for iter_9_2, iter_9_3 in pairs(arg_9_0.bnIds) do
 		table.sort(iter_9_3, CompareFuncs({
 			function(arg_11_0)
-				return -var_0_1[arg_11_0].order
+				return -arg_9_0:GetBannerConfig(arg_11_0).order
 			end,
 			function(arg_12_0)
 				return arg_12_0
@@ -238,7 +249,7 @@ function var_0_0.InitData(arg_9_0)
 		}))
 
 		for iter_9_4 = #iter_9_3, 1, -1 do
-			local var_9_14 = var_0_1[iter_9_3[iter_9_4]]
+			local var_9_14 = arg_9_0:GetBannerConfig(iter_9_3[iter_9_4])
 
 			if not pg.TimeMgr.GetInstance():inTime(var_9_14.time) then
 				table.remove(iter_9_3, iter_9_4)
@@ -290,210 +301,222 @@ function var_0_0.ShowResUI(arg_13_0)
 	end, SFX_PANEL)
 end
 
-function var_0_0.SetPanel(arg_17_0)
-	for iter_17_0, iter_17_1 in pairs(arg_17_0.banners) do
-		for iter_17_2, iter_17_3 in ipairs(arg_17_0.bnIds[iter_17_0]) do
-			local var_17_0 = var_0_1[iter_17_3]
-			local var_17_1 = iter_17_1:AddChild()
+function var_0_0.GetBannerConfig(arg_17_0, arg_17_1)
+	if arg_17_1 == var_0_0.ACT_REMASTER_BANNER_ID then
+		return getProxy(ActivityRemasterProxy):GetShopBanner()
+	end
 
-			GetImageSpriteFromAtlasAsync(var_17_0.pic, "", var_17_1:Find("picture"))
-			setActive(var_17_1:Find("detail"), var_17_0.relation_param ~= "")
-			setActive(var_17_1:Find("time"), var_17_0.time_lable == 1)
+	assert(var_0_1[arg_17_1], "no config >>>>>>>>>>>>>>>>>" .. arg_17_1)
 
-			if iter_17_0 == "banner_small2" then
-				setActive(var_17_1:Find("monthCard"), false)
-				setActive(var_17_1:Find("monthCardhave"), false)
+	if var_0_1[arg_17_1] then
+		return var_0_1[arg_17_1]
+	end
+end
+
+function var_0_0.SetPanel(arg_18_0)
+	for iter_18_0, iter_18_1 in pairs(arg_18_0.banners) do
+		for iter_18_2, iter_18_3 in ipairs(arg_18_0.bnIds[iter_18_0]) do
+			local var_18_0 = arg_18_0:GetBannerConfig(iter_18_3)
+			local var_18_1 = iter_18_1:AddChild()
+
+			GetImageSpriteFromAtlasAsync(var_18_0.pic, "", var_18_1:Find("picture"))
+			setActive(var_18_1:Find("detail"), var_18_0.relation_param ~= "")
+			setActive(var_18_1:Find("time"), var_18_0.time_lable == 1)
+
+			if iter_18_0 == "banner_small2" then
+				setActive(var_18_1:Find("monthCard"), false)
+				setActive(var_18_1:Find("monthCardhave"), false)
 			end
 
-			if var_17_0.relation_param ~= "" then
-				local var_17_2 = var_17_0.relation_param[1]
-				local var_17_3 = var_17_0.relation_param[2]
-				local var_17_4 = arg_17_0.commodities[var_17_2][var_17_3]
+			if var_18_0.relation_param ~= "" then
+				local var_18_2 = var_18_0.relation_param[1]
+				local var_18_3 = var_18_0.relation_param[2]
+				local var_18_4 = arg_18_0.commodities[var_18_2][var_18_3]
 
-				if iter_17_0 == "banner_small2" and var_17_2 == 1 and var_17_4:isMonthCard() then
-					setActive(var_17_1:Find("detail"), false)
-					setActive(var_17_1:Find("monthCard"), true)
-					setText(var_17_1:Find("monthCard/name"), var_17_4:getConfig("name_display"))
-					GetImageSpriteFromAtlasAsync("chargeicon/" .. var_17_4:getConfig("picture"), "", var_17_1:Find("monthCard/icon"))
-					setText(var_17_1:Find("monthCard/get"), i18n("shop_new_get_now", var_17_4:GetGemCnt()))
+				if iter_18_0 == "banner_small2" and var_18_2 == 1 and var_18_4:isMonthCard() then
+					setActive(var_18_1:Find("detail"), false)
+					setActive(var_18_1:Find("monthCard"), true)
+					setText(var_18_1:Find("monthCard/name"), var_18_4:getConfig("name_display"))
+					GetImageSpriteFromAtlasAsync("chargeicon/" .. var_18_4:getConfig("picture"), "", var_18_1:Find("monthCard/icon"))
+					setText(var_18_1:Find("monthCard/get"), i18n("shop_new_get_now", var_18_4:GetGemCnt()))
 
-					local var_17_5 = var_17_4:GetDropList()
+					local var_18_5 = var_18_4:GetDropList()
 
-					while #var_17_5 > 3 do
-						table.remove(var_17_5, #var_17_5)
+					while #var_18_5 > 3 do
+						table.remove(var_18_5, #var_18_5)
 					end
 
-					local var_17_6 = UIItemList.New(var_17_1:Find("monthCard/items"), var_17_1:Find("monthCard/items/item"))
+					local var_18_6 = UIItemList.New(var_18_1:Find("monthCard/items"), var_18_1:Find("monthCard/items/item"))
 
-					var_17_6:make(function(arg_18_0, arg_18_1, arg_18_2)
-						if arg_18_0 == UIItemList.EventUpdate then
-							local var_18_0 = var_17_5[arg_18_1 + 1]
-
-							updateDrop(arg_18_2:Find("mask/item"), var_18_0)
-						end
-					end)
-					var_17_6:align(#var_17_5)
-
-					local var_17_7 = var_17_2 == 1 and var_17_4:getShowType() ~= ""
-					local var_17_8 = var_17_4:isFree()
-
-					setText(var_17_1:Find("monthCard/consume/icon_rmb"), GetMoneySymbol())
-					setActive(var_17_1:Find("monthCard/consume/icon_rmb"), var_17_2 == 1 and not var_17_7)
-
-					if PLATFORM_CODE == PLATFORM_CHT and var_17_4:IsLocalPrice() then
-						setActive(var_17_1:Find("monthCard/consume/icon_rmb"), false)
-					end
-
-					setActive(var_17_1:Find("monthCard/consume/icon_gem"), var_17_2 ~= 1 and not var_17_8)
-					setActive(var_17_1:Find("monthCard/consume/Text"), not var_17_8 and not var_17_7)
-
-					if var_17_2 == 1 then
-						setText(var_17_1:Find("monthCard/consume/Text"), var_17_4:getConfig("money"))
-					elseif var_17_2 == 2 then
-						setText(var_17_1:Find("monthCard/consume/Text"), var_17_4:GetPrice())
-					end
-
-					setActive(var_17_1:Find("monthCard/consume/FreeText"), var_17_8)
-					setText(var_17_1:Find("monthCard/consume/FreeText"), i18n("shop_free_tag"))
-
-					local var_17_9 = getProxy(PlayerProxy):getRawData():getCardById(VipCard.MONTH)
-					local var_17_10 = var_17_9 and var_17_9:GetLeftDay() > (var_17_4:getConfig("limit_arg") or 0)
-
-					setActive(var_17_1:Find("monthCardhave"), var_17_10)
-
-					if var_17_10 then
-						setText(var_17_1:Find("monthCardhave/Text"), i18n("shop_new_remaining_time", var_17_9:GetLeftDay()))
-					end
-				else
-					if var_17_2 == 1 then
-						setText(var_17_1:Find("detail/name"), var_17_4:getConfig("name_display"))
-						GetImageSpriteFromAtlasAsync("chargeicon/" .. var_17_4:getConfig("picture"), "", var_17_1:Find("detail/icon"))
-					elseif var_17_2 == 2 then
-						setText(var_17_1:Find("detail/name"), var_17_4:GetName())
-						GetImageSpriteFromAtlasAsync(var_17_4:getDropInfo():getIcon(), "", var_17_1:Find("detail/icon"))
-					end
-
-					local var_17_11 = var_17_4:GetDropList()
-
-					while #var_17_11 > 3 do
-						table.remove(var_17_11, #var_17_11)
-					end
-
-					local var_17_12 = UIItemList.New(var_17_1:Find("detail/items"), var_17_1:Find("detail/items/item"))
-
-					var_17_12:make(function(arg_19_0, arg_19_1, arg_19_2)
+					var_18_6:make(function(arg_19_0, arg_19_1, arg_19_2)
 						if arg_19_0 == UIItemList.EventUpdate then
-							local var_19_0 = var_17_11[arg_19_1 + 1]
+							local var_19_0 = var_18_5[arg_19_1 + 1]
 
 							updateDrop(arg_19_2:Find("mask/item"), var_19_0)
 						end
 					end)
-					var_17_12:align(#var_17_11)
+					var_18_6:align(#var_18_5)
 
-					local var_17_13 = var_17_2 == 1 and var_17_4:getShowType() ~= ""
-					local var_17_14 = var_17_4:isFree()
+					local var_18_7 = var_18_2 == 1 and var_18_4:getShowType() ~= ""
+					local var_18_8 = var_18_4:isFree()
 
-					setText(var_17_1:Find("detail/consume/icon_rmb"), GetMoneySymbol())
-					setActive(var_17_1:Find("detail/consume/icon_rmb"), var_17_2 == 1 and not var_17_13)
+					setText(var_18_1:Find("monthCard/consume/icon_rmb"), GetMoneySymbol())
+					setActive(var_18_1:Find("monthCard/consume/icon_rmb"), var_18_2 == 1 and not var_18_7)
 
-					if PLATFORM_CODE == PLATFORM_CHT and var_17_4:IsLocalPrice() then
-						setActive(var_17_1:Find("detail/consume/icon_rmb"), false)
+					if PLATFORM_CODE == PLATFORM_CHT and var_18_4:IsLocalPrice() then
+						setActive(var_18_1:Find("monthCard/consume/icon_rmb"), false)
 					end
 
-					setActive(var_17_1:Find("detail/consume/icon_gem"), var_17_2 ~= 1 and not var_17_14)
-					setActive(var_17_1:Find("detail/consume/Text"), not var_17_14 and not var_17_13)
+					setActive(var_18_1:Find("monthCard/consume/icon_gem"), var_18_2 ~= 1 and not var_18_8)
+					setActive(var_18_1:Find("monthCard/consume/Text"), not var_18_8 and not var_18_7)
 
-					if var_17_2 == 1 then
-						setText(var_17_1:Find("detail/consume/Text"), var_17_4:getConfig("money"))
-					elseif var_17_2 == 2 then
-						setText(var_17_1:Find("detail/consume/Text"), var_17_4:GetPrice())
+					if var_18_2 == 1 then
+						setText(var_18_1:Find("monthCard/consume/Text"), var_18_4:getConfig("money"))
+					elseif var_18_2 == 2 then
+						setText(var_18_1:Find("monthCard/consume/Text"), var_18_4:GetPrice())
 					end
 
-					setActive(var_17_1:Find("detail/consume/FreeText"), var_17_14)
-					setText(var_17_1:Find("detail/consume/FreeText"), i18n("shop_free_tag"))
+					setActive(var_18_1:Find("monthCard/consume/FreeText"), var_18_8)
+					setText(var_18_1:Find("monthCard/consume/FreeText"), i18n("shop_free_tag"))
+
+					local var_18_9 = getProxy(PlayerProxy):getRawData():getCardById(VipCard.MONTH)
+					local var_18_10 = var_18_9 and var_18_9:GetLeftDay() > (var_18_4:getConfig("limit_arg") or 0)
+
+					setActive(var_18_1:Find("monthCardhave"), var_18_10)
+
+					if var_18_10 then
+						setText(var_18_1:Find("monthCardhave/Text"), i18n("shop_new_remaining_time", var_18_9:GetLeftDay()))
+					end
+				else
+					if var_18_2 == 1 then
+						setText(var_18_1:Find("detail/name"), var_18_4:getConfig("name_display"))
+						GetImageSpriteFromAtlasAsync("chargeicon/" .. var_18_4:getConfig("picture"), "", var_18_1:Find("detail/icon"))
+					elseif var_18_2 == 2 then
+						setText(var_18_1:Find("detail/name"), var_18_4:GetName())
+						GetImageSpriteFromAtlasAsync(var_18_4:getDropInfo():getIcon(), "", var_18_1:Find("detail/icon"))
+					end
+
+					local var_18_11 = var_18_4:GetDropList()
+
+					while #var_18_11 > 3 do
+						table.remove(var_18_11, #var_18_11)
+					end
+
+					local var_18_12 = UIItemList.New(var_18_1:Find("detail/items"), var_18_1:Find("detail/items/item"))
+
+					var_18_12:make(function(arg_20_0, arg_20_1, arg_20_2)
+						if arg_20_0 == UIItemList.EventUpdate then
+							local var_20_0 = var_18_11[arg_20_1 + 1]
+
+							updateDrop(arg_20_2:Find("mask/item"), var_20_0)
+						end
+					end)
+					var_18_12:align(#var_18_11)
+
+					local var_18_13 = var_18_2 == 1 and var_18_4:getShowType() ~= ""
+					local var_18_14 = var_18_4:isFree()
+
+					setText(var_18_1:Find("detail/consume/icon_rmb"), GetMoneySymbol())
+					setActive(var_18_1:Find("detail/consume/icon_rmb"), var_18_2 == 1 and not var_18_13)
+
+					if PLATFORM_CODE == PLATFORM_CHT and var_18_4:IsLocalPrice() then
+						setActive(var_18_1:Find("detail/consume/icon_rmb"), false)
+					end
+
+					setActive(var_18_1:Find("detail/consume/icon_gem"), var_18_2 ~= 1 and not var_18_14)
+					setActive(var_18_1:Find("detail/consume/Text"), not var_18_14 and not var_18_13)
+
+					if var_18_2 == 1 then
+						setText(var_18_1:Find("detail/consume/Text"), var_18_4:getConfig("money"))
+					elseif var_18_2 == 2 then
+						setText(var_18_1:Find("detail/consume/Text"), var_18_4:GetPrice())
+					end
+
+					setActive(var_18_1:Find("detail/consume/FreeText"), var_18_14)
+					setText(var_18_1:Find("detail/consume/FreeText"), i18n("shop_free_tag"))
 				end
 			end
 
-			if var_17_0.time_lable == 1 then
-				local var_17_15 = var_17_0.time[2]
-				local var_17_16 = pg.TimeMgr.GetInstance():Table2ServerTime({
-					year = var_17_15[1][1],
-					month = var_17_15[1][2],
-					day = var_17_15[1][3],
-					hour = var_17_15[2][1],
-					min = var_17_15[2][2],
-					sec = var_17_15[2][3]
+			if var_18_0.time_lable == 1 then
+				local var_18_15 = var_18_0.time[2]
+				local var_18_16 = pg.TimeMgr.GetInstance():Table2ServerTime({
+					year = var_18_15[1][1],
+					month = var_18_15[1][2],
+					day = var_18_15[1][3],
+					hour = var_18_15[2][1],
+					min = var_18_15[2][2],
+					sec = var_18_15[2][3]
 				})
 
-				arg_17_0:StartTimer(function()
-					local var_20_0 = pg.TimeMgr.GetInstance():GetServerTime()
-					local var_20_1 = var_17_16 - var_20_0
-					local var_20_2 = math.floor(var_20_1 / 86400)
-					local var_20_3 = math.floor(var_20_1 % 86400 / 3600)
-					local var_20_4 = math.floor(var_20_1 % 86400 % 3600 / 60)
+				arg_18_0:StartTimer(function()
+					local var_21_0 = pg.TimeMgr.GetInstance():GetServerTime()
+					local var_21_1 = var_18_16 - var_21_0
+					local var_21_2 = math.floor(var_21_1 / 86400)
+					local var_21_3 = math.floor(var_21_1 % 86400 / 3600)
+					local var_21_4 = math.floor(var_21_1 % 86400 % 3600 / 60)
 
-					if iter_17_0 == "banner_big" then
-						setText(var_17_1:Find("time/text"), i18n("shop_countdown", var_20_2, var_20_3, var_20_4))
-					elseif var_20_2 > 0 then
-						setText(var_17_1:Find("time/text"), i18n("shop_new_during_day", var_20_2))
-					elseif var_20_3 > 0 then
-						setText(var_17_1:Find("time/text"), i18n("shop_new_during_hour", var_20_3))
+					if iter_18_0 == "banner_big" then
+						setText(var_18_1:Find("time/text"), i18n("shop_countdown", var_21_2, var_21_3, var_21_4))
+					elseif var_21_2 > 0 then
+						setText(var_18_1:Find("time/text"), i18n("shop_new_during_day", var_21_2))
+					elseif var_21_3 > 0 then
+						setText(var_18_1:Find("time/text"), i18n("shop_new_during_hour", var_21_3))
 					else
-						setText(var_17_1:Find("time/text"), i18n("shop_new_during_minite", var_20_4))
+						setText(var_18_1:Find("time/text"), i18n("shop_new_during_minite", var_21_4))
 					end
 				end)
 			end
 
-			onButton(arg_17_0, var_17_1, function()
-				arg_17_0:emit(NewRecommendationShopMediator.GO_SHOP, var_17_0.param[1], var_17_0.param[2])
+			onButton(arg_18_0, var_18_1, function()
+				arg_18_0:emit(NewRecommendationShopMediator.GO_SHOP, var_18_0.param[1], var_18_0.param[2])
 			end, SFX_PANEL)
 		end
 
-		iter_17_1:SetUp()
-		setActive(arg_17_0._tf:Find("panel/" .. iter_17_0 .. "/banner/dots"), #arg_17_0.bnIds[iter_17_0] > 1)
+		iter_18_1:SetUp()
+		setActive(arg_18_0._tf:Find("panel/" .. iter_18_0 .. "/banner/dots"), #arg_18_0.bnIds[iter_18_0] > 1)
 	end
 end
 
-function var_0_0.StartTimer(arg_22_0, arg_22_1)
-	if not arg_22_0.timers then
-		arg_22_0.timers = {}
+function var_0_0.StartTimer(arg_23_0, arg_23_1)
+	if not arg_23_0.timers then
+		arg_23_0.timers = {}
 	end
 
-	arg_22_1()
+	arg_23_1()
 
-	local var_22_0 = Timer.New(function()
-		arg_22_1()
+	local var_23_0 = Timer.New(function()
+		arg_23_1()
 	end, 1, -1)
 
-	var_22_0:Start()
-	table.insert(arg_22_0.timers, var_22_0)
+	var_23_0:Start()
+	table.insert(arg_23_0.timers, var_23_0)
 end
 
-function var_0_0.RemoveAllTimer(arg_24_0)
-	if arg_24_0.timers then
-		for iter_24_0, iter_24_1 in ipairs(arg_24_0.timers) do
-			iter_24_1:Stop()
+function var_0_0.RemoveAllTimer(arg_25_0)
+	if arg_25_0.timers then
+		for iter_25_0, iter_25_1 in ipairs(arg_25_0.timers) do
+			iter_25_1:Stop()
 
-			iter_24_1 = nil
+			iter_25_1 = nil
 		end
 
-		arg_24_0.timers = nil
+		arg_25_0.timers = nil
 	end
 end
 
-function var_0_0.willExit(arg_25_0)
-	arg_25_0:RemoveAllTimer()
+function var_0_0.willExit(arg_26_0)
+	arg_26_0:RemoveAllTimer()
 
-	for iter_25_0, iter_25_1 in pairs(arg_25_0.banners) do
-		iter_25_1:Dispose()
+	for iter_26_0, iter_26_1 in pairs(arg_26_0.banners) do
+		iter_26_1:Dispose()
 	end
 
-	arg_25_0.banners = nil
+	arg_26_0.banners = nil
 
-	arg_25_0:UnOverlayPanel(arg_25_0._tf)
+	arg_26_0:UnOverlayPanel(arg_26_0._tf)
 end
 
-function var_0_0.onBackPressed(arg_26_0)
+function var_0_0.onBackPressed(arg_27_0)
 	pg.m02:sendNotification(NewShopMainScene.CLOSE_VIEW)
 end
 

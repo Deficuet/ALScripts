@@ -33,8 +33,7 @@ function var_0_0.register(arg_1_0)
 			mediator = PtAwardMediator,
 			viewComponent = PtAwardLayer,
 			data = {
-				ptData = arg_5_1,
-				ptId = arg_5_1.resId
+				ptData = arg_5_1
 			}
 		}))
 	end)
@@ -50,17 +49,9 @@ function var_0_0.register(arg_1_0)
 
 	arg_1_0.viewComponent:SetActivity(var_1_1)
 
-	local var_1_2 = var_1_1:GetConfigClientSetting("PTID")
-	local var_1_3 = getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)
+	local var_1_2 = var_1_1:GetConfigClientPTActivity()
 
-	for iter_1_0, iter_1_1 in ipairs(var_1_3) do
-		if iter_1_1:getDataConfig("pt") == var_1_2 then
-			arg_1_0.viewComponent:SetPtActivity(iter_1_1)
-
-			break
-		end
-	end
-
+	arg_1_0.viewComponent:SetPtActivity(var_1_2)
 	arg_1_0.viewComponent:addbubbleMsgBox(function(arg_7_0)
 		if getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossRushTotalRewardPanelMediator) then
 			return

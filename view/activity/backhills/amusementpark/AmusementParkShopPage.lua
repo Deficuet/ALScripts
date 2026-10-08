@@ -58,13 +58,9 @@ function var_0_0.didEnter(arg_5_0)
 		arg_5_0:SetActiveBubble(not arg_5_0.chatActive)
 	end)
 
-	local var_5_0 = arg_5_0.shop:getResId()
-	local var_5_1 = Drop.New({
-		type = DROP_TYPE_RESOURCE,
-		id = var_5_0
-	}):getIcon()
+	local var_5_0 = arg_5_0.shop:GetResList()[1]:getIcon()
 
-	arg_5_0.contentText:AddSprite(var_5_1, LoadSprite(var_5_1, ""))
+	arg_5_0.contentText:AddSprite(var_5_0, LoadSprite(var_5_0, ""))
 	arg_5_0:UpdateView()
 	arg_5_0:ShowEnterMsg()
 	pg.UIMgr.GetInstance():OverlayPanel(arg_5_0._tf)
@@ -83,10 +79,9 @@ function var_0_0.ShowEnterMsg(arg_11_0)
 end
 
 function var_0_0.UpdateView(arg_13_0)
-	local var_13_0 = arg_13_0.shop:getResId()
-	local var_13_1 = getProxy(PlayerProxy):getRawData()[id2res(var_13_0)] or 0
+	local var_13_0 = arg_13_0.shop:GetResList()[1]
 
-	setText(arg_13_0._tf:Find("Box/TicketText"), "X" .. var_13_1)
+	setText(arg_13_0._tf:Find("Box/TicketText"), "X" .. var_13_0:getOwnedCount())
 	arg_13_0:UpdateGoods()
 end
 

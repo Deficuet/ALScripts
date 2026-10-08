@@ -20,7 +20,10 @@ function var_0_0.handleNotification(arg_4_0, arg_4_1)
 	if var_4_0 == nil then
 		-- block empty
 	elseif var_4_0 == ActivityProxy.ACTIVITY_ADDED or var_4_0 == ActivityProxy.ACTIVITY_UPDATED then
-		if var_4_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF and var_4_1:getDataConfig("pt") == arg_4_0.contextData.ptId then
+		if ({
+			[ActivityConst.ACTIVITY_TYPE_PT_BUFF] = true,
+			[ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2] = true
+		})[var_4_1:getConfig("type")] and var_4_1:getDataConfig("pt") == arg_4_0.contextData.ptId then
 			if arg_4_0.contextData.ptData then
 				arg_4_0.contextData.ptData:Update(var_4_1)
 			else

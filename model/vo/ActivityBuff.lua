@@ -38,7 +38,10 @@ function var_0_0.isActivate(arg_4_0)
 
 	local var_4_1 = var_4_0:getActivityById(arg_4_0.activityId)
 
-	if var_4_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF and not ActivityPtData.New(var_4_1):isInBuffTime() then
+	if ({
+		[ActivityConst.ACTIVITY_TYPE_PT_BUFF] = true,
+		[ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2] = true
+	})[var_4_1:getConfig("type")] and not ActivityPtData.New(var_4_1):isInBuffTime() then
 		return false
 	end
 

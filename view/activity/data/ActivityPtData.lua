@@ -93,10 +93,20 @@ function var_0_0.GetId(arg_9_0)
 end
 
 function var_0_0.GetRes(arg_10_0)
-	return {
-		type = 1,
-		id = arg_10_0.resId
-	}
+	if ({
+		[ActivityConst.ACTIVITY_TYPE_PT_BUFF] = true,
+		[ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2] = true
+	})[arg_10_0.activity:getConfig("type")] and (arg_10_0.type == 8 or arg_10_0.type == 9) then
+		return {
+			type = DROP_TYPE_VITEM,
+			id = arg_10_0.resId
+		}
+	else
+		return {
+			type = DROP_TYPE_RESOURCE,
+			id = arg_10_0.resId
+		}
+	end
 end
 
 function var_0_0.GetAward(arg_11_0)

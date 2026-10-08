@@ -13,20 +13,7 @@ function var_0_0.OnUpdatePlayer(arg_3_0)
 end
 
 function var_0_0.GetResDataList(arg_4_0)
-	local var_4_0 = {}
-	local var_4_1 = arg_4_0.shop:GetResList()
-
-	for iter_4_0, iter_4_1 in ipairs(var_4_1) do
-		local var_4_2 = arg_4_0.player.exploit
-
-		table.insert(var_4_0, {
-			type = DROP_TYPE_RESOURCE,
-			resID = iter_4_1,
-			cnt = var_4_2
-		})
-	end
-
-	return var_4_0
+	return arg_4_0.shop:GetResList()
 end
 
 function var_0_0.OnSetUp(arg_5_0)

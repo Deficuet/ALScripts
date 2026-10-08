@@ -105,10 +105,9 @@ function var_0_0.ShowEnterMsg(arg_13_0)
 end
 
 function var_0_0.UpdateView(arg_15_0)
-	local var_15_0 = arg_15_0.shop:getResId()
-	local var_15_1 = getProxy(PlayerProxy):getRawData()[id2res(var_15_0)] or 0
+	local var_15_0 = arg_15_0.shop:GetResList()[1]
 
-	setText(arg_15_0._tf:Find("Top/Ticket/TicketText"), var_15_1)
+	setText(arg_15_0._tf:Find("Top/Ticket/TicketText"), var_15_0:getOwnedCount())
 	arg_15_0:UpdateGoods()
 end
 

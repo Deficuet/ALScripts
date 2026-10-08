@@ -250,7 +250,7 @@ function var_0_0.RefreshResItemList(arg_16_0, arg_16_1)
 	for iter_16_0, iter_16_1 in ipairs(arg_16_1) do
 		arg_16_0.shopResItemList[iter_16_0] = arg_16_0.shopResItemList[iter_16_0] or ShopResItem.New(go(arg_16_0.shopResItem), arg_16_0.shopResParent)
 
-		arg_16_0.shopResItemList[iter_16_0]:SetData(iter_16_1.type, iter_16_1.resID, iter_16_1.cnt)
+		arg_16_0.shopResItemList[iter_16_0]:SetData(iter_16_1)
 	end
 
 	for iter_16_2 = #arg_16_1 + 1, #arg_16_0.shopResItemList do

@@ -200,7 +200,19 @@ function var_0_0.updateTaskLayers(arg_19_0)
 end
 
 function var_0_0.getActClass(arg_20_0, arg_20_1)
-	return import("view.activity.subPages." .. arg_20_1)
+	local var_20_0, var_20_1 = pcall(import, "view.activity.subPages." .. arg_20_1)
+
+	if not var_20_0 then
+		local var_20_2, var_20_3 = pcall(import, "view.activity.Remaster.re." .. arg_20_1)
+
+		var_20_1 = var_20_3
+
+		if not var_20_2 then
+			error("模块未找到: " .. arg_20_1)
+		end
+	end
+
+	return var_20_1
 end
 
 function var_0_0.instanceActivityPage(arg_21_0, arg_21_1)

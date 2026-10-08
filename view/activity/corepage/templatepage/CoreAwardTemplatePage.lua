@@ -196,7 +196,7 @@ function var_0_0.OnUpdateItem(arg_16_0, arg_16_1, arg_16_2)
 end
 
 function var_0_0.RefreshCountText(arg_18_0, arg_18_1, arg_18_2)
-	setText(arg_18_2:Find("owner/number"), arg_18_1.count .. "/" .. arg_18_1.config.count)
+	setText(arg_18_2:Find("owner/number"), arg_18_1.count .. (arg_18_1.config.count > 0 and "/" .. arg_18_1.config.count or ""))
 end
 
 function var_0_0.OnClickItem(arg_19_0, arg_19_1)
@@ -295,7 +295,7 @@ end
 function var_0_0.DoSkip(arg_28_0, arg_28_1, arg_28_2)
 	if arg_28_1 == Msgbox4LinkCollectGuide.SKIP_TYPE_SCENE then
 		pg.m02:sendNotification(GAME.GO_SCENE, arg_28_2[1], arg_28_2[2] or {})
-	elseif arg_28_1 == Msgbox4LinkCollectGuide.SKIP_TYPE_SCENE then
+	elseif arg_28_1 == Msgbox4LinkCollectGuide.SKIP_TYPE_ACTIVITY then
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = arg_28_2
 		})

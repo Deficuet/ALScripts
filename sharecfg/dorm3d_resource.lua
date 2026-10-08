@@ -330,7 +330,9 @@ pg.base.dorm3d_resource = {}
 			{
 				1,
 				"oversleeve",
-				"all/hoodie_geo"
+				{
+					"all/hoodie_geo"
+				}
 			}
 		},
 		hx_material = {}
@@ -391,7 +393,9 @@ pg.base.dorm3d_resource = {}
 			{
 				1,
 				"oversleeve",
-				"all/cloth_2_geo"
+				{
+					"all/cloth_2_geo"
+				}
 			}
 		},
 		stocking_pos = {
@@ -639,7 +643,15 @@ pg.base.dorm3d_resource = {}
 		id = 207071,
 		hidden_part_apply_in_timeline = 0,
 		tags = {},
-		hidden_part = {},
+		hidden_part = {
+			{
+				1,
+				"tsuno",
+				{
+					"all/hair_acc_geo"
+				}
+			}
+		},
 		hx_material = {
 			{
 				"dorm3d/character/yuanchou_db/res/yuanchou_noshoes",
@@ -676,7 +688,16 @@ pg.base.dorm3d_resource = {}
 			26,
 			20707
 		},
-		hidden_part = {},
+		hidden_part = {
+			{
+				1,
+				"tsuno",
+				{
+					"all/hair_acc",
+					"all/hair_acc_transparent"
+				}
+			}
+		},
 		hx_material = {
 			{
 				"dorm3d/character/yuanchou_db/res/yuanchou_racing",
@@ -710,7 +731,16 @@ pg.base.dorm3d_resource = {}
 			26,
 			20707
 		},
-		hidden_part = {},
+		hidden_part = {
+			{
+				1,
+				"tsuno",
+				{
+					"all/hair_acc",
+					"all/hair_acc_transparent"
+				}
+			}
+		},
 		hx_material = {
 			{
 				"dorm3d/character/yuanchou_db/res/yuanchou_racing",
@@ -721,13 +751,14 @@ pg.base.dorm3d_resource = {}
 	pg.base.dorm3d_resource[207074] = {
 		ship_group = 20707,
 		name = "怨仇赛车服",
-		type = 2,
+		hidden_part = "",
 		remarks = "",
 		stocking_pos = "",
 		stocking_geo_path = "",
 		shop_id = 0,
-		origin_model = "pre_char_yuanchou_racing_mod",
+		type = 2,
 		unlock_text = "在维修区工作站中购买角色皮肤",
+		origin_model = "pre_char_yuanchou_racing_mod",
 		animator = "",
 		switch_anim = "",
 		head_Icon = "dorm3Dchar/yuanchou",
@@ -744,7 +775,6 @@ pg.base.dorm3d_resource = {}
 			26,
 			20707
 		},
-		hidden_part = {},
 		hx_material = {
 			{
 				"dorm3d/character/yuanchou_db/res/yuanchou_racing",

@@ -7,15 +7,9 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.cntText = findTF(arg_1_0._tf, "Text")
 end
 
-function var_0_0.SetData(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
-	setText(arg_2_0.cntText, arg_2_3)
-
-	local var_2_0 = Drop.New({
-		type = arg_2_1,
-		id = arg_2_2
-	})
-
-	GetImageSpriteFromAtlasAsync(var_2_0:getIcon(), "", arg_2_0.icon)
+function var_0_0.SetData(arg_2_0, arg_2_1)
+	setText(arg_2_0.cntText, arg_2_1.count)
+	GetImageSpriteFromAtlasAsync(arg_2_1:getIcon(), "", arg_2_0.icon)
 	arg_2_0:Show(true)
 end
 

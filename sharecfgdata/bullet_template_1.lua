@@ -751377,9 +751377,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -751434,9 +751434,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -751491,9 +751491,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -751548,9 +751548,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -751605,9 +751605,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -751798,9 +751798,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -751855,9 +751855,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -752603,9 +752603,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -752660,9 +752660,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -752786,9 +752786,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -752843,9 +752843,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -753048,9 +753048,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -753173,9 +753173,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -753497,9 +753497,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -753552,9 +753552,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -753676,9 +753676,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -753731,9 +753731,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -753934,9 +753934,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -754057,9 +754057,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -770929,14 +770929,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 6,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -770954,9 +770954,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -770966,6 +770966,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -770986,14 +770987,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 6,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771011,9 +771012,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771023,6 +771024,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -771165,14 +771167,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 6,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771190,9 +771192,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771202,6 +771204,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -771222,14 +771225,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 7,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771247,9 +771250,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771259,6 +771262,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -771279,14 +771283,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 8,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771304,9 +771308,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771316,6 +771320,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -771336,14 +771341,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 9,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771361,9 +771366,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771373,6 +771378,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -771393,14 +771399,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771418,9 +771424,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771430,6 +771436,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -771450,14 +771457,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 11,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771475,9 +771482,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771487,6 +771494,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -771507,14 +771515,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 12,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771532,9 +771540,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771544,6 +771552,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -771564,14 +771573,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 13,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771589,9 +771598,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771601,6 +771610,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -771621,14 +771631,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 14,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771646,9 +771656,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771658,6 +771668,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -771678,14 +771689,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 15,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771703,9 +771714,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771715,6 +771726,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -771833,14 +771845,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 6,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771858,9 +771870,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771870,6 +771882,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -771890,14 +771903,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 7.5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771915,9 +771928,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771927,6 +771940,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -771947,14 +771961,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 9,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -771972,9 +771986,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -771984,6 +771998,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -772004,14 +772019,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 10.5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -772029,9 +772044,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -772041,6 +772056,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -772061,14 +772077,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 6,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -772086,9 +772102,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -772098,6 +772114,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -772198,14 +772215,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -772223,9 +772240,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -772235,6 +772252,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -772255,14 +772273,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 5.2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -772280,9 +772298,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -772292,6 +772310,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -772312,14 +772331,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 5.4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -772337,9 +772356,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -772349,6 +772368,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -772443,8 +772463,8 @@ end)()
 		velocity = 3,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -772462,9 +772482,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1,
-			1,
-			1
+			3,
+			3,
+			3
 		},
 		cld_offset = {
 			0,
@@ -772474,6 +772494,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -772547,6 +772568,7 @@ end)()
 		},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			diveFilter = {
 				2
 			}
@@ -772842,14 +772864,14 @@ end)()
 		miss_sfx = "",
 		range = 25,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -772867,9 +772889,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -772879,8 +772901,9 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
-			lastTime = 1,
+			ignoreB = true,
 			ignoreShield = true,
+			lastTime = 1,
 			shrapnel = {
 				{
 					inheritAngle = 1,
@@ -772915,14 +772938,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 1,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -772953,9 +772976,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -772965,6 +772988,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -773053,14 +773077,14 @@ end)()
 		miss_sfx = "",
 		range = 25,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -773078,9 +773102,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -773090,8 +773114,9 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
-			lastTime = 1,
+			ignoreB = true,
 			ignoreShield = true,
+			lastTime = 1,
 			shrapnel = {
 				{
 					barrage_ID = 1,
@@ -773120,14 +773145,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 1,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -773158,9 +773183,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -773170,6 +773195,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -773258,7 +773284,7 @@ end)()
 		miss_sfx = "",
 		range = 0.01,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 0.1,
@@ -773283,9 +773309,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			100,
@@ -773326,14 +773352,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 1,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -773364,9 +773390,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -773376,6 +773402,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -773464,14 +773491,14 @@ end)()
 		miss_sfx = "",
 		range = 25,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -773489,9 +773516,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -773501,8 +773528,9 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
-			lastTime = 1,
+			ignoreB = true,
 			ignoreShield = true,
+			lastTime = 1,
 			shrapnel = {
 				{
 					inheritAngle = 1,
@@ -773537,14 +773565,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 1,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -773575,9 +773603,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -773587,6 +773615,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -773607,14 +773636,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 1,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -773645,9 +773674,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -773657,6 +773686,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -773745,14 +773775,14 @@ end)()
 		miss_sfx = "",
 		range = 25,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -773770,9 +773800,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -773782,8 +773812,9 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
-			lastTime = 1,
+			ignoreB = true,
 			ignoreShield = true,
+			lastTime = 1,
 			shrapnel = {
 				{
 					barrage_ID = 1,
@@ -773812,14 +773843,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 1,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -773850,9 +773881,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -773862,6 +773893,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -774018,14 +774050,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -774043,9 +774075,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -774055,6 +774087,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -774075,14 +774108,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -774100,9 +774133,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -774112,6 +774145,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -774132,14 +774166,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 3,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -774157,9 +774191,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -774169,6 +774203,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -774189,14 +774224,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -774214,9 +774249,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -774226,6 +774261,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -774246,14 +774282,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -774271,9 +774307,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -774283,6 +774319,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -774303,14 +774340,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 3,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -774328,9 +774365,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -774340,6 +774377,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -774463,8 +774501,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -774507,6 +774545,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -774533,8 +774572,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -774577,6 +774616,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -774603,8 +774643,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -774647,6 +774687,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -774673,8 +774714,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -774717,6 +774758,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -774743,8 +774785,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -774787,6 +774829,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -774910,8 +774953,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -774954,6 +774997,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -774980,8 +775024,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -775024,6 +775068,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -775050,8 +775095,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -775094,6 +775139,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -775120,8 +775166,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -775164,6 +775210,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -775190,8 +775237,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -775234,6 +775281,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -775328,8 +775376,8 @@ end)()
 		velocity = 3,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -775359,6 +775407,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -775385,8 +775434,8 @@ end)()
 		velocity = 3,
 		damage_type = {
 			3,
-			4.5,
-			6
+			3.9,
+			4.5
 		},
 		DMG_font = {
 			{
@@ -775429,6 +775478,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -775449,14 +775499,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 6,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -775474,9 +775524,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -775486,6 +775536,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -775506,14 +775557,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 8,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -775531,9 +775582,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -775543,6 +775594,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -775637,14 +775689,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -775662,9 +775714,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -775674,6 +775726,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -775734,6 +775787,7 @@ end)()
 		},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			gravity = -0.05,
 			offsetY = 70,
 			launchVrtSpeed = -4,
@@ -775801,6 +775855,7 @@ end)()
 		},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			diveFilter = {
 				2
 			}
@@ -824268,8 +824323,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -824300,9 +824355,9 @@ end)()
 			}
 		},
 		cld_box = {
-			2,
-			2,
-			2
+			4,
+			4,
+			4
 		},
 		cld_offset = {
 			0,
@@ -824315,6 +824370,7 @@ end)()
 		},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			diveFilter = {
 				2
 			}
@@ -824337,14 +824393,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 8,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -824362,9 +824418,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -824374,6 +824430,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -824462,14 +824519,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -824487,9 +824544,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -824499,6 +824556,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -824723,14 +824781,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -824748,9 +824806,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -824760,6 +824818,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -824780,14 +824839,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -824805,9 +824864,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -824817,6 +824876,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -824929,14 +824989,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 6.4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -824954,9 +825014,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			2,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -824966,6 +825026,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -824986,14 +825047,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 6.8,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -825011,9 +825072,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			2,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -825023,6 +825084,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -825043,14 +825105,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 7.2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -825068,9 +825130,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			2,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -825080,6 +825142,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -825100,14 +825163,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 7.6,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -825125,9 +825188,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			2,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -825137,6 +825200,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -825157,14 +825221,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 8,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -825182,9 +825246,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			2,
+			2,
+			2
 		},
 		cld_offset = {
 			0,
@@ -825194,6 +825258,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -825307,9 +825372,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1,
 			2,
-			1
+			3,
+			2
 		},
 		cld_offset = {
 			0,
@@ -825319,6 +825384,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -825407,14 +825473,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -825432,9 +825498,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -825600,14 +825666,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -825638,9 +825704,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -825670,14 +825736,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -825708,9 +825774,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -825876,14 +825942,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -825914,9 +825980,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -825946,14 +826012,14 @@ end)()
 		miss_sfx = "",
 		range = 100,
 		miss_fx = "None",
-		pierce_count = 50,
+		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -825984,9 +826050,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -826634,8 +826700,8 @@ end)()
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -826666,9 +826732,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -826704,8 +826770,8 @@ end)()
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -826736,9 +826802,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -826774,8 +826840,8 @@ end)()
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -826806,9 +826872,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -826844,8 +826910,8 @@ end)()
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -826876,9 +826942,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -826914,8 +826980,8 @@ end)()
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -826933,9 +826999,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -826971,8 +827037,8 @@ end)()
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -827003,9 +827069,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -827041,8 +827107,8 @@ end)()
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -827073,9 +827139,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -827111,8 +827177,8 @@ end)()
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -827143,9 +827209,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -827181,8 +827247,8 @@ end)()
 		velocity = 10,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -827213,9 +827279,9 @@ end)()
 			}
 		},
 		cld_box = {
-			0.1,
-			0.1,
-			0.1
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -846068,8 +846134,8 @@ end)()
 		velocity = 4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -846087,9 +846153,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1.5,
-			1.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -846099,6 +846165,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -846125,8 +846192,8 @@ end)()
 		velocity = 1.2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -846144,9 +846211,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1.5,
-			1.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -846156,6 +846223,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -846268,8 +846336,8 @@ end)()
 		velocity = 6.5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -846287,9 +846355,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -846299,6 +846367,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -846325,8 +846394,8 @@ end)()
 		velocity = 7,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -846344,9 +846413,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -846356,6 +846425,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -846382,8 +846452,8 @@ end)()
 		velocity = 7.5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -846401,9 +846471,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -846413,6 +846483,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -846439,8 +846510,8 @@ end)()
 		velocity = 8,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -846458,9 +846529,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -846470,6 +846541,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -846536,9 +846608,10 @@ end)()
 			}
 		},
 		extra_param = {
-			targetOffsetX = 0,
+			ignoreB = true,
 			targetOffsetZ = 0,
 			gravity = -0.03,
+			targetOffsetX = 0,
 			diveFilter = {
 				2
 			}
@@ -846567,8 +846640,8 @@ end)()
 		velocity = 8,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -846598,6 +846671,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -846624,8 +846698,8 @@ end)()
 		velocity = 4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -846643,9 +846717,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1.5,
-			1.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -846655,6 +846729,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -846681,65 +846756,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
-		},
-		DMG_font = {
-			{
-				1,
-				1
-			},
-			{
-				1,
-				1
-			},
-			{
-				1,
-				1
-			}
-		},
-		acceleration = {},
-		cld_box = {
-			2,
-			2,
-			2
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		hit_type = {},
-		attach_buff = {},
-		extra_param = {
-			ignoreShield = true
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.bullet_template_1[3245212] = {
-		hit_sfx = "",
-		range_offset = 0,
-		modle_ID = "cave_bullet08",
-		type = 1,
-		out_bound = 0,
-		antisub_enhancement = 0,
-		hit_fx = "None",
-		effect_type = 1,
-		id = 3245212,
-		random_damage_rate = 0,
-		miss_sfx = "",
-		range = 100,
-		miss_fx = "None",
-		pierce_count = 0,
-		ammo_type = 1,
-		alert_fx = "",
-		velocity = 1.5,
-		damage_type = {
-			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -846769,6 +846787,65 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
+			ignoreShield = true
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_1[3245212] = {
+		hit_sfx = "",
+		range_offset = 0,
+		modle_ID = "cave_bullet08",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 3245212,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 100,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 1.5,
+		damage_type = {
+			1,
+			1.3,
+			1.5
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -846863,8 +846940,8 @@ end)()
 		velocity = 4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -846882,9 +846959,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1.5,
-			1.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -846894,6 +846971,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -846988,8 +847066,8 @@ end)()
 		velocity = 4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847007,9 +847085,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1.5,
-			1.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -847019,6 +847097,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847113,8 +847192,8 @@ end)()
 		velocity = 3,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847132,9 +847211,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1.5,
-			1.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -847144,6 +847223,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847230,8 +847310,8 @@ end)()
 		velocity = 6,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847249,9 +847329,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -847261,6 +847341,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847287,8 +847368,8 @@ end)()
 		velocity = 5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847306,9 +847387,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -847318,6 +847399,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847344,8 +847426,8 @@ end)()
 		velocity = 5.7,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847363,9 +847445,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -847375,6 +847457,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847401,8 +847484,8 @@ end)()
 		velocity = 6.4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847420,9 +847503,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -847432,6 +847515,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847458,8 +847542,8 @@ end)()
 		velocity = 7.1,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847477,9 +847561,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -847489,6 +847573,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847515,8 +847600,8 @@ end)()
 		velocity = 7.8,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847534,9 +847619,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -847546,6 +847631,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847572,8 +847658,8 @@ end)()
 		velocity = 8.5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847591,9 +847677,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -847603,6 +847689,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847629,8 +847716,8 @@ end)()
 		velocity = 9.2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847648,9 +847735,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -847660,6 +847747,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847686,8 +847774,8 @@ end)()
 		velocity = 9.9,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847705,9 +847793,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -847717,6 +847805,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847743,8 +847832,8 @@ end)()
 		velocity = 10.6,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847762,9 +847851,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -847774,6 +847863,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847800,8 +847890,8 @@ end)()
 		velocity = 11.3,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847819,9 +847909,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -847831,6 +847921,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847857,8 +847948,8 @@ end)()
 		velocity = 12,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847876,9 +847967,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -847888,6 +847979,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -847914,8 +848006,8 @@ end)()
 		velocity = 12.7,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -847933,9 +848025,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -847945,6 +848037,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -848107,8 +848200,8 @@ end)()
 		velocity = 2.5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -848126,9 +848219,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -848138,6 +848231,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -848164,8 +848258,8 @@ end)()
 		velocity = 3.5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -848183,9 +848277,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -848195,6 +848289,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -848357,8 +848452,8 @@ end)()
 		velocity = 4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -848376,9 +848471,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1.5,
+			1.5,
+			1.5
 		},
 		cld_offset = {
 			0,
@@ -848388,6 +848483,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -848414,8 +848510,8 @@ end)()
 		velocity = 5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -848433,9 +848529,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			2,
-			2,
-			2
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -848445,6 +848541,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -873265,8 +873362,8 @@ end)()
 		velocity = 6,
 		damage_type = {
 			3,
-			4.5,
-			6
+			3.9,
+			4.5
 		},
 		DMG_font = {
 			{
@@ -873284,9 +873381,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			5,
-			5,
-			5
+			4,
+			4,
+			4
 		},
 		cld_offset = {
 			0,
@@ -873390,8 +873487,8 @@ end)()
 		velocity = 4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -873447,8 +873544,8 @@ end)()
 		velocity = 5,
 		damage_type = {
 			3,
-			4.5,
-			6
+			3.9,
+			4.5
 		},
 		DMG_font = {
 			{
@@ -873466,9 +873563,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			5,
-			5,
-			5
+			4,
+			4,
+			4
 		},
 		cld_offset = {
 			0,
@@ -873521,8 +873618,8 @@ end)()
 		velocity = 1.5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -873553,9 +873650,9 @@ end)()
 			}
 		},
 		cld_box = {
-			1.5,
-			1.5,
-			1.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -873592,8 +873689,8 @@ end)()
 		velocity = 1.5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -873624,9 +873721,9 @@ end)()
 			}
 		},
 		cld_box = {
-			1.5,
-			1.5,
-			1.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -873785,8 +873882,8 @@ end)()
 		velocity = 3,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -873843,8 +873940,8 @@ end)()
 		velocity = 3.3,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -873901,8 +873998,8 @@ end)()
 		velocity = 3.6,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -873959,8 +874056,8 @@ end)()
 		velocity = 3.9,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874017,8 +874114,8 @@ end)()
 		velocity = 4.2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874075,8 +874172,8 @@ end)()
 		velocity = 4.5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874133,8 +874230,8 @@ end)()
 		velocity = 4.8,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874191,8 +874288,8 @@ end)()
 		velocity = 5.1,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874249,8 +874346,8 @@ end)()
 		velocity = 5.4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874307,8 +874404,8 @@ end)()
 		velocity = 5.7,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874487,8 +874584,8 @@ end)()
 		velocity = 3,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874545,8 +874642,8 @@ end)()
 		velocity = 3.3,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874603,8 +874700,8 @@ end)()
 		velocity = 3.6,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874661,8 +874758,8 @@ end)()
 		velocity = 3.9,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874719,8 +874816,8 @@ end)()
 		velocity = 4.2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874777,8 +874874,8 @@ end)()
 		velocity = 4.5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874835,8 +874932,8 @@ end)()
 		velocity = 4.8,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874893,8 +874990,8 @@ end)()
 		velocity = 5.1,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -874951,8 +875048,8 @@ end)()
 		velocity = 5.4,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -875009,8 +875106,8 @@ end)()
 		velocity = 5.7,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -876534,8 +876631,8 @@ end)()
 		velocity = 1,
 		damage_type = {
 			3,
-			4.5,
-			6
+			3.9,
+			4.5
 		},
 		DMG_font = {
 			{
@@ -876578,8 +876675,9 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
-			lastTime = 0.01,
+			ignoreB = true,
 			ignoreShield = true,
+			lastTime = 0.01,
 			shrapnel = {
 				{
 					bullet_ID = 3275253,
@@ -876622,8 +876720,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -876641,9 +876739,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1.5,
-			1.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -876653,6 +876751,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -876679,8 +876778,8 @@ end)()
 		velocity = 1.5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -876698,9 +876797,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1.5,
-			1.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -876710,6 +876809,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -876736,8 +876836,8 @@ end)()
 		velocity = 10,
 		damage_type = {
 			3,
-			4.5,
-			6
+			3.9,
+			4.5
 		},
 		DMG_font = {
 			{
@@ -876812,8 +876912,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -876831,9 +876931,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1.5,
-			1.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -876843,6 +876943,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -876869,8 +876970,8 @@ end)()
 		velocity = 1.5,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -876888,9 +876989,9 @@ end)()
 		},
 		acceleration = {},
 		cld_box = {
-			1.5,
-			1.5,
-			1.5
+			1,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -876900,6 +877001,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -877026,6 +877128,7 @@ end)()
 			}
 		},
 		extra_param = {
+			ignoreB = true,
 			gravity = -0.05,
 			randomOffsetX = 5,
 			randomOffsetZ = 5,
@@ -877195,8 +877298,8 @@ end)()
 		velocity = 3,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -877226,6 +877329,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -877252,8 +877356,8 @@ end)()
 		velocity = 3,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -877283,6 +877387,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -877309,8 +877414,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			1,
-			1.5,
-			2
+			1.3,
+			1.5
 		},
 		DMG_font = {
 			{
@@ -877340,6 +877445,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -920136,6 +920242,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -920193,6 +920300,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -920387,6 +920495,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -920512,6 +920621,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -920641,9 +920751,10 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
-			lastTime = 0.01,
+			ignoreB = true,
 			ignoreShield = true,
 			fragile = 1,
+			lastTime = 0.01,
 			shrapnel = {
 				{
 					barrage_ID = 3305225,
@@ -920724,6 +920835,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -921451,6 +921563,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -921508,6 +921621,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -921565,6 +921679,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -921622,6 +921737,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -921679,6 +921795,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -921736,6 +921853,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -921793,6 +921911,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -921931,6 +922050,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -922128,6 +922248,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -922185,6 +922306,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -922389,6 +922511,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -922446,6 +922569,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -922503,6 +922627,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -922721,6 +922846,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -922803,6 +922929,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -922934,6 +923061,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -922991,6 +923119,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -923255,6 +923384,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -923325,6 +923455,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -932028,6 +932159,287 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.bullet_template_1[3315001] = {
+		hit_sfx = "",
+		range_offset = 0,
+		modle_ID = "bullet_dayu01_alert",
+		type = 5,
+		out_bound = 1,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 3315001,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 150,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 3,
+		damage_type = {
+			0,
+			0,
+			0
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {
+			tracker = {
+				angular = 2.4,
+				range = 120
+			}
+		},
+		cld_box = {
+			13,
+			13,
+			26
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true,
+			hitSplitOnly = true,
+			lastTime = 0.01,
+			shrapnel = {
+				{
+					inheritAngle = 1,
+					bullet_ID = 3315002,
+					barrage_ID = 1,
+					emitterType = "BattleBulletEmitter"
+				},
+				FXID = ""
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_1[3315002] = {
+		hit_sfx = "",
+		range_offset = 0,
+		modle_ID = "bullet_dayu01",
+		type = 5,
+		out_bound = 3,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 3315002,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 0.01,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 0.1,
+		damage_type = {
+			0,
+			0,
+			0
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			13,
+			13,
+			26
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true,
+			lastTime = 0.01,
+			shrapnel = {
+				{
+					barrage_ID = 1,
+					bullet_ID = 3315003,
+					emitterType = "BattleBulletEmitter"
+				},
+				{
+					barrage_ID = 3315103,
+					bullet_ID = 730154,
+					emitterType = "BattleBulletEmitter"
+				},
+				FXID = ""
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_1[3315003] = {
+		hit_sfx = "",
+		range_offset = 0,
+		modle_ID = "None",
+		type = 9,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 3315003,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 0.01,
+		miss_fx = "None",
+		pierce_count = 0,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 0.1,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = 8,
+			range = 13.5
+		},
+		attach_buff = {
+			{
+				buff_id = 201520,
+				effect_id = "smoke_baifeng"
+			}
+		},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true,
+			ellipse_range = 27
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template_1[3315004] = {
+		hit_sfx = "",
+		range_offset = 0,
+		modle_ID = "AlertArea_circle_looping",
+		type = 5,
+		out_bound = 3,
+		antisub_enhancement = 0,
+		hit_fx = "None",
+		effect_type = 1,
+		id = 3315004,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 0.01,
+		miss_fx = "None",
+		pierce_count = 50,
+		ammo_type = 1,
+		alert_fx = "",
+		velocity = 0.1,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			2,
+			2,
+			2
+		},
+		cld_offset = {
+			100,
+			0,
+			100
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {
+			ignoreB = true,
+			ignoreShield = true,
+			lastTime = 1.5,
+			directHit = true,
+			shrapnel = {
+				{
+					barrage_ID = 1,
+					bullet_ID = 3315002,
+					emitterType = "BattleBulletEmitter"
+				},
+				FXID = ""
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.bullet_template_1[3315005] = {
 		hit_sfx = "",
 		range_offset = 0,
@@ -934866,8 +935278,8 @@ end)()
 		velocity = 8,
 		damage_type = {
 			3,
-			4.5,
-			6
+			3.9,
+			4.5
 		},
 		DMG_font = {
 			{
@@ -934897,6 +935309,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -934954,6 +935367,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -935042,6 +935456,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -935130,6 +935545,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -935236,8 +935652,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			3,
-			4.5,
-			6
+			3.9,
+			4.5
 		},
 		DMG_font = {
 			{
@@ -935531,8 +935947,8 @@ end)()
 		velocity = 2,
 		damage_type = {
 			3,
-			4.5,
-			6
+			3.9,
+			4.5
 		},
 		DMG_font = {
 			{
@@ -935928,6 +936344,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -935985,6 +936402,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -936042,6 +936460,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -936099,6 +936518,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -936156,6 +936576,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -936213,6 +936634,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -936270,6 +936692,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -936391,6 +936814,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -936996,6 +937420,7 @@ end)()
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {
+			ignoreB = true,
 			ignoreShield = true
 		}
 	}
@@ -937092,8 +937517,8 @@ end)()
 		velocity = 1.5,
 		damage_type = {
 			3,
-			4.5,
-			6
+			3.9,
+			4.5
 		},
 		DMG_font = {
 			{

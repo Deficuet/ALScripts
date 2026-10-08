@@ -73,8 +73,16 @@ function var_0_0.getLimitGoodCount(arg_11_0, arg_11_1)
 end
 
 function var_0_0.GetResList(arg_12_0)
+	local var_12_0 = Drop.New({
+		id = 59900,
+		count = 0,
+		type = DROP_TYPE_ITEM
+	})
+
+	var_12_0.count = var_12_0:getOwnedCount()
+
 	return {
-		59900
+		var_12_0
 	}
 end
 

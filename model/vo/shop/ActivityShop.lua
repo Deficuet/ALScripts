@@ -120,11 +120,22 @@ end
 
 function var_0_0.getOpenTime(arg_16_0)
 	local var_16_0 = pg.activity_template[arg_16_0.activityId].time
-	local var_16_1 = var_16_0[2][1]
-	local var_16_2 = var_16_0[3][1]
-	local var_16_3 = var_16_0[3][2]
 
-	return string.format("%d.%d.%d~%d.%d.%d %d:%d:%d", var_16_1[1], var_16_1[2], var_16_1[3], var_16_2[1], var_16_2[2], var_16_2[3], var_16_3[1], var_16_3[2], var_16_3[3])
+	if var_16_0 == "stop" then
+		local var_16_1 = getProxy(ActivityRemasterProxy):GetActivaingReamsterData()
+
+		if not var_16_1 then
+			return ""
+		end
+
+		return var_16_1:GetActivityTimeDesc(arg_16_0.activityId, true)
+	else
+		local var_16_2 = var_16_0[2][1]
+		local var_16_3 = var_16_0[3][1]
+		local var_16_4 = var_16_0[3][2]
+
+		return string.format("%d.%d.%d~%d.%d.%d %d:%d:%d", var_16_2[1], var_16_2[2], var_16_2[3], var_16_3[1], var_16_3[2], var_16_3[3], var_16_4[1], var_16_4[2], var_16_4[3])
+	end
 end
 
 function var_0_0.getStartTime(arg_17_0)
@@ -157,80 +168,74 @@ function var_0_0.getToggleImage(arg_19_0)
 	return pg.activity_template[arg_19_0.activityId].config_client.toggle or "huodongdduihuan_butten"
 end
 
-function var_0_0.getResId(arg_20_0)
-	local var_20_0
+function var_0_0.GetResList(arg_20_0)
+	local var_20_0 = {}
 
 	for iter_20_0, iter_20_1 in pairs(arg_20_0.goods) do
-		var_20_0 = iter_20_1
+		local var_20_1 = iter_20_1:GetConsume()
 
-		break
+		var_20_1.count = var_20_1:getOwnedCount()
+
+		if not var_20_0[var_20_1.type .. "_" .. var_20_1.id] then
+			var_20_0[var_20_1.type .. "_" .. var_20_1.id] = var_20_1
+		end
 	end
 
-	return (var_20_0:getConfig("resource_type"))
+	local var_20_2 = {}
+
+	for iter_20_2, iter_20_3 in pairs(var_20_0) do
+		table.insert(var_20_2, iter_20_3)
+	end
+
+	return var_20_2
 end
 
-function var_0_0.GetResList(arg_21_0)
-	local var_21_0 = {}
+function var_0_0.GetEnterVoice(arg_21_0)
+	local var_21_0 = arg_21_0.config.config_client.enter
 
-	for iter_21_0, iter_21_1 in pairs(arg_21_0.goods) do
-		var_21_0[iter_21_1:getConfig("resource_type")] = true
+	if var_21_0 then
+		return var_21_0[1], var_21_0[2], var_21_0[3]
 	end
-
-	local var_21_1 = {}
-
-	for iter_21_2, iter_21_3 in pairs(var_21_0) do
-		table.insert(var_21_1, iter_21_2)
-	end
-
-	return var_21_1
 end
 
-function var_0_0.GetEnterVoice(arg_22_0)
-	local var_22_0 = arg_22_0.config.config_client.enter
+function var_0_0.GetPurchaseVoice(arg_22_0)
+	local var_22_0 = arg_22_0.config.config_client.purchase
 
 	if var_22_0 then
 		return var_22_0[1], var_22_0[2], var_22_0[3]
 	end
 end
 
-function var_0_0.GetPurchaseVoice(arg_23_0)
-	local var_23_0 = arg_23_0.config.config_client.purchase
+function var_0_0.GetPurchaseAllVoice(arg_23_0)
+	local var_23_0 = arg_23_0.config.config_client.purchase_all
 
 	if var_23_0 then
 		return var_23_0[1], var_23_0[2], var_23_0[3]
 	end
 end
 
-function var_0_0.GetPurchaseAllVoice(arg_24_0)
-	local var_24_0 = arg_24_0.config.config_client.purchase_all
+function var_0_0.GetTouchVoice(arg_24_0)
+	local var_24_0 = arg_24_0.config.config_client.touch
 
 	if var_24_0 then
 		return var_24_0[1], var_24_0[2], var_24_0[3]
 	end
 end
 
-function var_0_0.GetTouchVoice(arg_25_0)
-	local var_25_0 = arg_25_0.config.config_client.touch
-
-	if var_25_0 then
-		return var_25_0[1], var_25_0[2], var_25_0[3]
-	end
+function var_0_0.IsEventShop(arg_25_0)
+	return pg.activity_template[arg_25_0.activityId].config_client.event_shop
 end
 
-function var_0_0.IsEventShop(arg_26_0)
-	return pg.activity_template[arg_26_0.activityId].config_client.event_shop
+function var_0_0.GetBGM(arg_26_0)
+	return pg.activity_template[arg_26_0.activityId].config_client.bgm or ""
 end
 
-function var_0_0.GetBGM(arg_27_0)
-	return pg.activity_template[arg_27_0.activityId].config_client.bgm or ""
-end
-
-function var_0_0.IsHide(arg_28_0)
-	if arg_28_0.config.config_client == "" then
+function var_0_0.IsHide(arg_27_0)
+	if arg_27_0.config.config_client == "" then
 		return false
 	end
 
-	return arg_28_0.config.config_client.isHide
+	return arg_27_0.config.config_client.isHide
 end
 
 return var_0_0

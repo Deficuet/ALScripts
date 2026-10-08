@@ -5150,53 +5150,87 @@ function StringStartsWith(arg_374_0, arg_374_1)
 	return string.sub(arg_374_0, 1, string.len(arg_374_1)) == arg_374_1
 end
 
-function addSubLayer(arg_375_0, arg_375_1, arg_375_2, arg_375_3, arg_375_4)
-	if arg_375_2 then
-		while arg_375_1.parent do
-			arg_375_1 = arg_375_1.parent
+function GetActTimeDesc(arg_375_0, arg_375_1, arg_375_2, arg_375_3, arg_375_4, arg_375_5, arg_375_6, arg_375_7, arg_375_8)
+	if arg_375_0 then
+		arg_375_1 = false
+	end
+
+	if arg_375_1 then
+		return i18n("act_remaster_time_desc", arg_375_2, arg_375_3, arg_375_4, arg_375_5)
+	else
+		local var_375_0 = arg_375_6
+		local var_375_1 = arg_375_7
+		local var_375_2 = arg_375_8
+		local var_375_3 = var_375_0
+		local var_375_4 = var_375_1
+		local var_375_5 = var_375_2
+
+		if var_375_0 == "23" and var_375_1 == "59" and var_375_2 == "59" then
+			var_375_3 = "24"
+
+			local var_375_6 = "0"
+			local var_375_7 = "0"
+		end
+
+		if arg_375_0 then
+			if var_375_0 == "00" and var_375_1 == "00" and var_375_2 == "00" then
+				return i18n("act_remaster_time_desc_with_hours_without_ch", arg_375_2, arg_375_3, arg_375_4, arg_375_5 - 1, "23", "59", "59")
+			else
+				return i18n("act_remaster_time_desc_with_hours_without_ch", arg_375_2, arg_375_3, arg_375_4, arg_375_5, var_375_0, var_375_1, var_375_2)
+			end
+		else
+			return i18n("act_remaster_time_desc_with_hours", arg_375_2, arg_375_3, arg_375_4, arg_375_5, var_375_3)
+		end
+	end
+end
+
+function addSubLayer(arg_376_0, arg_376_1, arg_376_2, arg_376_3, arg_376_4)
+	if arg_376_2 then
+		while arg_376_1.parent do
+			arg_376_1 = arg_376_1.parent
 		end
 	end
 
-	local var_375_0 = {
-		parentContext = arg_375_1,
-		context = arg_375_0,
-		callback = arg_375_3
+	local var_376_0 = {
+		parentContext = arg_376_1,
+		context = arg_376_0,
+		callback = arg_376_3
 	}
 
-	var_375_0 = arg_375_4 and table.merge(var_375_0, arg_375_4) or var_375_0
+	var_376_0 = arg_376_4 and table.merge(var_376_0, arg_376_4) or var_376_0
 
-	pg.m02:sendNotification(GAME.LOAD_LAYERS, var_375_0)
+	pg.m02:sendNotification(GAME.LOAD_LAYERS, var_376_0)
 end
 
-function PackIntToString(arg_376_0, arg_376_1)
-	return tostring(arg_376_0) .. "," .. tostring(arg_376_1)
+function PackIntToString(arg_377_0, arg_377_1)
+	return tostring(arg_377_0) .. "," .. tostring(arg_377_1)
 end
 
-function UnpackIntFromString(arg_377_0)
-	local var_377_0, var_377_1 = string.match(arg_377_0, "(%-?%d+),(%-?%d+)")
+function UnpackIntFromString(arg_378_0)
+	local var_378_0, var_378_1 = string.match(arg_378_0, "(%-?%d+),(%-?%d+)")
 
-	return tonumber(var_377_0), tonumber(var_377_1)
+	return tonumber(var_378_0), tonumber(var_378_1)
 end
 
-function getRandomIdxByWeights(arg_378_0)
-	local var_378_0 = 0
+function getRandomIdxByWeights(arg_379_0)
+	local var_379_0 = 0
 
-	for iter_378_0, iter_378_1 in ipairs(arg_378_0) do
-		var_378_0 = var_378_0 + iter_378_1
+	for iter_379_0, iter_379_1 in ipairs(arg_379_0) do
+		var_379_0 = var_379_0 + iter_379_1
 	end
 
-	assert(var_378_0 ~= 0, "总权重为0")
+	assert(var_379_0 ~= 0, "总权重为0")
 
-	local var_378_1 = math.random(1, var_378_0)
-	local var_378_2 = 0
+	local var_379_1 = math.random(1, var_379_0)
+	local var_379_2 = 0
 
-	for iter_378_2, iter_378_3 in ipairs(arg_378_0) do
-		var_378_2 = var_378_2 + iter_378_3
+	for iter_379_2, iter_379_3 in ipairs(arg_379_0) do
+		var_379_2 = var_379_2 + iter_379_3
 
-		if var_378_1 <= var_378_2 then
-			return iter_378_2
+		if var_379_1 <= var_379_2 then
+			return iter_379_2
 		end
 	end
 
-	return #arg_378_0
+	return #arg_379_0
 end

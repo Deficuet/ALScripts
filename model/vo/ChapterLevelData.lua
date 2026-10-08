@@ -454,7 +454,7 @@ function var_0_0.clearChapterCell(arg_32_0, arg_32_1, arg_32_2)
 end
 
 function var_0_0.GetChapterCellAttachemnts(arg_33_0)
-	return arg_33_0.cellAttachments
+	return arg_33_0.cellAttachments or {}
 end
 
 function var_0_0.GetRawChapterAttachemnt(arg_34_0, arg_34_1, arg_34_2)

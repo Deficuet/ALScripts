@@ -43,25 +43,26 @@ function var_0_0.OnUpdateItems(arg_8_0)
 end
 
 function var_0_0.GetResDataList(arg_9_0)
-	local var_9_0 = {
-		{
-			type = DROP_TYPE_RESOURCE,
-			resID = PlayerConst.ResBlueprintFragment,
-			cnt = arg_9_0.player:getResource(PlayerConst.ResBlueprintFragment)
-		}
-	}
+	local var_9_0 = {}
 
-	if not LOCK_UR_SHIP and arg_9_0.items then
+	table.insert(var_9_0, Drop.New({
+		count = 0,
+		type = DROP_TYPE_RESOURCE,
+		id = PlayerConst.ResBlueprintFragment
+	}))
+
+	if not LOCK_UR_SHIP then
 		local var_9_1 = pg.gameset.urpt_chapter_max.description[1]
-		local var_9_2 = arg_9_0.items[var_9_1] or {
-			count = 0
-		}
 
-		table.insert(var_9_0, {
+		table.insert(var_9_0, Drop.New({
+			count = 0,
 			type = DROP_TYPE_ITEM,
-			resID = var_9_1,
-			cnt = var_9_2.count
-		})
+			id = var_9_1
+		}))
+	end
+
+	for iter_9_0, iter_9_1 in ipairs(var_9_0) do
+		iter_9_1.count = iter_9_1:getOwnedCount()
 	end
 
 	return var_9_0

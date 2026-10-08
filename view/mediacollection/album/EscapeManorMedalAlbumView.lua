@@ -1,7 +1,6 @@
 local var_0_0 = class("EscapeManorMedalAlbumView", import(".MedalAlbumTemplateView"))
 
 var_0_0.GROUP_ID = 51078
-var_0_0.HELP_TIPS = "help_starLightAlbum"
 var_0_0.setColorstateText = "#817678"
 
 function var_0_0.getUIName(arg_1_0)

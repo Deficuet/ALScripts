@@ -314,7 +314,6 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	arg_1_0.facade:registerCommand(GAME.EVENT_GIVEUP, EventGiveUpCommand)
 	arg_1_0.facade:registerCommand(GAME.ACTIVITY_OPERATION, ActivityOperationCommand)
 	arg_1_0.facade:registerCommand(GAME.ACTIVITY_BOSS_PAGE_UPDATE, ActivityBossPageUpdateCommond)
-	arg_1_0.facade:registerCommand(GAME.GET_ACTIVITY_SHOP, GetActivityShopCommand)
 	arg_1_0.facade:registerCommand(GAME.MONOPOLY_OP, MonopolyOPCommand)
 	arg_1_0.facade:registerCommand(GAME.EDIT_ACTIVITY_FLEET, EditActivityFleetCommand)
 	arg_1_0.facade:registerCommand(GAME.BLACK_WHITE_GRID_OP, BlackWhiteGridOPCommand)
@@ -735,6 +734,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	arg_1_0.facade:registerCommand(GAME.REVERSE_PACMAN_GIFT_ROLE, ReversePacmanGiftRoleCommand)
 	arg_1_0.facade:registerCommand(GAME.REVERSE_PACMAN_ADD_FAVORABILITY, ReversePacmanAddFavorabilityCommand)
 	arg_1_0.facade:registerCommand(GAME.REVERSE_PACMAN_PASS_LEVEL, ReversePacmanPassLevelCommand)
+	arg_1_0.facade:registerCommand(GAME.ACT_REMASTER_ACTIVE, ActiveActReamsterCommand)
 end
 
 return var_0_0

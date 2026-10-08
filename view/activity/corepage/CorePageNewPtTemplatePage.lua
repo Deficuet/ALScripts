@@ -81,11 +81,10 @@ function var_0_0.OnFirstFlush(arg_4_0)
 		end)
 	end, SFX_PANEL)
 
-	local var_4_0 = arg_4_0.activity:getConfig("config_client").shopLinkActID
-	local var_4_1 = getProxy(ActivityProxy):getActivityById(var_4_0)
+	local var_4_0 = getProxy(ActivityProxy):GetShopActivityByRes(arg_4_0.activity:GetPTDrop())
 
 	onButton(arg_4_0, arg_4_0.shopBtn, function()
-		if not var_4_1 or var_4_1:isEnd() then
+		if not var_4_0 or var_4_0:isEnd() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
@@ -93,7 +92,7 @@ function var_0_0.OnFirstFlush(arg_4_0)
 
 		arg_4_0:emit(ActivityMediator.GO_SHOPS_LAYER, {
 			warp = NewShopsScene.TYPE_ACTIVITY,
-			actId = var_4_1 and var_4_1.id
+			actId = var_4_0 and var_4_0.id
 		})
 	end)
 	arg_4_0.scrollCom:SetTotalCount(#arg_4_0.awardList)

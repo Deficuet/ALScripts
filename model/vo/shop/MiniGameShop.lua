@@ -124,8 +124,16 @@ function var_0_0.updateGoods(arg_16_0, arg_16_1)
 end
 
 function var_0_0.GetResList(arg_17_0)
+	local var_17_0 = Drop.New({
+		id = 12,
+		count = 0,
+		type = DROP_TYPE_RESOURCE
+	})
+
+	var_17_0.count = var_17_0:getOwnedCount()
+
 	return {
-		12
+		var_17_0
 	}
 end
 

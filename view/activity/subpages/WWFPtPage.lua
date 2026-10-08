@@ -140,7 +140,7 @@ function var_0_0.OnFirstFlush(arg_8_0)
 			targets = arg_8_0.subPtDate[arg_8_0.curSubActID].targets,
 			level = arg_8_0.subPtDate[arg_8_0.curSubActID].level,
 			count = arg_8_0.subPtDate[arg_8_0.curSubActID].count,
-			resId = arg_8_0.subPtDate[arg_8_0.curSubActID].resId
+			resDrop = Drop.New(arg_8_0.subPtDate[arg_8_0.curSubActID]:GetRes())
 		})
 	end, SFX_PANEL)
 	onButton(arg_8_0, arg_8_0.getBtn, function()

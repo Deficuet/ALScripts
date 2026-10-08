@@ -4,7 +4,11 @@ local var_0_0 = pg
 
 var_0_0.FontMgr = singletonClass("FontMgr")
 
-function var_0_0.FontMgr.Init(arg_1_0, arg_1_1)
+local var_0_1 = var_0_0.FontMgr
+
+var_0_1.FONT_NAME_IMPACT = "impact"
+
+function var_0_1.Init(arg_1_0, arg_1_1)
 	print("initializing font manager...")
 
 	local var_1_0 = {}

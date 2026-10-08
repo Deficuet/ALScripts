@@ -501,29 +501,33 @@ function var_0_0.SwitchPool(arg_42_0, arg_42_1)
 		var_42_8 = var_42_0:getNoneActBuildActivityCfgByID(var_42_7.id)
 	end
 
-	local var_42_10 = HXSet.HxPath(var_42_8 and var_42_8.bg or "loadingbg/bg_" .. var_42_7.icon)
-	local var_42_11 = LoadSprite(var_42_10)
-	local var_42_12 = var_42_8 and var_42_8.buildship_tip
+	local var_42_10 = arg_42_1:IsActivity() and not arg_42_1:IsNewServerBuild() and arg_42_1:GetActivityTimeStr() or ""
 
-	arg_42_0.tipSTxt:SetText(var_42_12 and HXSet.hxLan(var_42_12) or i18n("buildship_" .. var_42_5 .. "_tip"))
+	setText(arg_42_0._tf:Find("gallery/bg/act_time"), var_42_10)
 
-	arg_42_0._tf:Find("gallery/bg"):GetComponent(typeof(Image)).sprite = var_42_11
+	local var_42_11 = HXSet.HxPath(var_42_8 and var_42_8.bg or "loadingbg/bg_" .. var_42_7.icon)
+	local var_42_12 = LoadSprite(var_42_11)
+	local var_42_13 = var_42_8 and var_42_8.buildship_tip
 
-	local var_42_13 = arg_42_0._tf:Find("gallery/item_bg/item/Text")
-	local var_42_14 = arg_42_0._tf:Find("gallery/item_bg/gold/Text")
+	arg_42_0.tipSTxt:SetText(var_42_13 and HXSet.hxLan(var_42_13) or i18n("buildship_" .. var_42_5 .. "_tip"))
 
-	setText(var_42_13, var_42_7.number_1)
-	setText(var_42_14, var_42_7.use_gold)
+	arg_42_0._tf:Find("gallery/bg"):GetComponent(typeof(Image)).sprite = var_42_12
+
+	local var_42_14 = arg_42_0._tf:Find("gallery/item_bg/item/Text")
+	local var_42_15 = arg_42_0._tf:Find("gallery/item_bg/gold/Text")
+
+	setText(var_42_14, var_42_7.number_1)
+	setText(var_42_15, var_42_7.use_gold)
 	arg_42_0:UpdateBuildPoolExchange(arg_42_1)
 	arg_42_0:UpdateRegularBuildPoolExchange(arg_42_1)
 	arg_42_0:UpdateTicket()
 	arg_42_0:UpdateTestBtn(arg_42_1)
 	arg_42_0:UpdateBuildPoolPaiting(arg_42_1)
 
-	local var_42_15 = {}
+	local var_42_16 = {}
 
 	if arg_42_1:getConfig("exchange_count") > 0 then
-		table.insert(var_42_15, function(arg_43_0)
+		table.insert(var_42_16, function(arg_43_0)
 			if getProxy(BuildShipProxy):getRegularExchangeCount() < pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID].exchange_request or PlayerPrefs.GetString("REGULAR_BUILD_MAX_TIP", "") == pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d") then
 				arg_43_0()
 			else
@@ -550,7 +554,7 @@ function var_0_0.SwitchPool(arg_42_0, arg_42_1)
 	end
 
 	onButton(arg_42_0, arg_42_0._tf:Find("gallery/start_btn"), function()
-		seriesAsync(var_42_15, function()
+		seriesAsync(var_42_16, function()
 			local var_48_0 = arg_42_0.useTicket and var_42_0:getBuildFreeActivityByBuildId(arg_42_0.pool.id) or nil
 
 			if arg_42_0.useTicket and (not var_48_0 or var_48_0:isEnd()) then

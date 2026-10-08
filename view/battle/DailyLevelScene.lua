@@ -62,7 +62,7 @@ end
 function var_0_0.init(arg_5_0)
 	arg_5_0.blurPanel = arg_5_0._tf:Find("blur_panel")
 	arg_5_0.topPanel = arg_5_0._tf:Find("blur_panel/adapt/top")
-	arg_5_0.backBtn = arg_5_0.topPanel:Find("back_button")
+	arg_5_0.backBtn = arg_5_0.topPanel:Find("back_btn")
 	arg_5_0.listPanel = arg_5_0._tf:Find("list_panel")
 	arg_5_0.content = arg_5_0.listPanel:Find("list")
 

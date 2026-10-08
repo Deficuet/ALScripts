@@ -16,9 +16,8 @@ function var_0_0.OnInit(arg_1_0)
 end
 
 function var_0_0.OnDataSetting(arg_2_0)
-	arg_2_0.time = arg_2_0.activity:getConfig("time")
 	arg_2_0.timeMgr = pg.TimeMgr.GetInstance()
-	arg_2_0.js_time = arg_2_0.timeMgr:parseTimeFromConfig(arg_2_0.time[3])
+	arg_2_0.js_time = arg_2_0.activity.stopTime
 	arg_2_0.fw_time = arg_2_0.timeMgr:GetServerTime()
 	arg_2_0.xc_time = arg_2_0.timeMgr:DiffDay(arg_2_0.fw_time, arg_2_0.js_time)
 end

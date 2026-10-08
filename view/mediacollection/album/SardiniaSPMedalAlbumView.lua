@@ -2,7 +2,6 @@ local var_0_0 = class("SardiniaSPMedalAlbumView", import(".MedalAlbumTemplateVie
 
 var_0_0.GROUP_ID = 50359
 var_0_0.MEDAL_COUNT = 8
-var_0_0.HELP_TIPS = "help_starLightAlbum"
 var_0_0.setColorstateText = "#b1b1b1"
 var_0_0.setColorstate = "#b1b1b1"
 

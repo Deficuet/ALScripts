@@ -78,12 +78,12 @@ end
 
 function var_0_0.Show(arg_5_0, arg_5_1)
 	arg_5_0.tasklist = arg_5_1.tasklist
-	arg_5_0.ptId = arg_5_1.ptId
+	arg_5_0.ptDrop = arg_5_1.ptDrop
 	arg_5_0.totalPt = arg_5_1.totalPt
 	arg_5_0.index = arg_5_1.index or 1
 	arg_5_0.blur = arg_5_1.blur
 
-	arg_5_0:updateResIcon(arg_5_1.resId, arg_5_1.resIcon, arg_5_1.type)
+	arg_5_0:updateResIcon(arg_5_1.ptDrop, arg_5_1.type)
 	var_0_1(arg_5_0)
 
 	arg_5_0.totalTxt.text = arg_5_0.totalPt

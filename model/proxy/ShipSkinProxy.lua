@@ -653,7 +653,10 @@ end
 
 function var_0_0.GetEncoreSkins(arg_48_0)
 	local var_48_0 = {}
-	local var_48_1 = getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)
+	local var_48_1 = getProxy(ActivityProxy):getActivitiesByTypes({
+		ActivityConst.ACTIVITY_TYPE_PT_BUFF,
+		ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2
+	})
 
 	local function var_48_2(arg_49_0)
 		local var_49_0 = arg_49_0:getConfig("config_client")

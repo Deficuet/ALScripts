@@ -63,11 +63,7 @@ function var_0_0.OnFirstFlush(arg_1_0)
 		})
 	end, SFX_PANEL)
 
-	local var_1_0 = {
-		count = 0,
-		type = DROP_TYPE_RESOURCE,
-		id = arg_1_0.ptData.resId
-	}
+	local var_1_0 = resDrop
 
 	onButton(arg_1_0, arg_1_0.ptBtn, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

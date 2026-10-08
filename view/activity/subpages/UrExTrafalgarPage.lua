@@ -29,16 +29,4 @@ function var_0_0.OnInit(arg_1_0)
 	})
 end
 
-function var_0_0.OnFirstFlush(arg_4_0)
-	var_0_0.super.OnFirstFlush(arg_4_0)
-	setActive(arg_4_0._tasksTF, false)
-	setActive(arg_4_0.icon, false)
-	setActive(arg_4_0._btnHelp, false)
-end
-
-function var_0_0.OnUpdateFlush(arg_5_0)
-	var_0_0.super.OnUpdateFlush(arg_5_0)
-	setGray(arg_5_0._btnExchange, true, true)
-end
-
 return var_0_0

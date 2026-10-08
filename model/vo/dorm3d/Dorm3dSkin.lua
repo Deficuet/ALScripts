@@ -76,9 +76,9 @@ function var_0_0.GetActiveAndHiddenPartNames(arg_16_0, arg_16_1)
 
 	for iter_16_0, iter_16_1 in ipairs(var_16_0) do
 		if table.contains(arg_16_1, iter_16_1[1]) then
-			table.insert(var_16_2, iter_16_1[3])
+			table.insertto(var_16_2, iter_16_1[3])
 		else
-			table.insert(var_16_1, iter_16_1[3])
+			table.insertto(var_16_1, iter_16_1[3])
 		end
 	end
 

@@ -84,16 +84,16 @@ function var_0_0.OnFinish(arg_3_0, arg_3_1, arg_3_2)
 		local var_3_9 = var_3_8:getConfig("config_client").shopActID
 
 		if var_3_9 then
-			local var_3_10 = pg.activity_template[var_3_9].config_client.pt_id
+			local var_3_10 = getProxy(ShopsProxy):getActivityShopById(var_3_9):GetResList()[1]
 
 			_.each(var_3_7, function(arg_4_0)
-				if arg_4_0.id == var_3_10 then
+				if arg_4_0.type == var_3_10.type and arg_4_0.id == var_3_10.id then
 					arg_4_0.catchupActTag = true
 				end
 			end)
 			table.sort(var_3_7, CompareFuncs({
 				function(arg_5_0)
-					return arg_5_0.id == var_3_10 and 1 or 0
+					return arg_5_0.catchupActTag and 1 or 0
 				end
 			}))
 		end

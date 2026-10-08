@@ -82,7 +82,7 @@ function var_0_0.Show(arg_7_0, arg_7_1)
 	local var_7_1 = arg_7_1.targets
 	local var_7_2 = arg_7_1.level
 	local var_7_3 = arg_7_1.count
-	local var_7_4 = arg_7_1.resId
+	local var_7_4 = arg_7_1.resDrop
 	local var_7_5 = arg_7_1.type
 
 	arg_7_0.blur = arg_7_1.blur
@@ -92,7 +92,7 @@ function var_0_0.Show(arg_7_0, arg_7_1)
 	arg_7_0.resIcon = nil
 
 	arg_7_0:UpdateTitle(var_7_5)
-	arg_7_0:updateResIcon(arg_7_1.resId, arg_7_1.resIcon, arg_7_1.type)
+	arg_7_0:updateResIcon(arg_7_1.resDrop, arg_7_1.type)
 	arg_7_0:UpdateList(var_7_0, var_7_1, var_7_2, var_7_6)
 
 	arg_7_0.totalTxt.text = var_7_3
@@ -109,57 +109,68 @@ end
 function var_0_0.UpdateTitle(arg_8_0, arg_8_1)
 	local var_8_0 = ""
 
-	if arg_8_1 == 2 then
-		arg_8_0.resTitle, arg_8_0.cntTitle = i18n("pt_cosume", var_8_0), i18n("pt_total_count", i18n("pt_cosume", var_8_0))
-		arg_8_0.cntTitle = string.gsub(arg_8_0.cntTitle, "：", "")
-	elseif arg_8_1 == 3 then
-		arg_8_0.resTitle, arg_8_0.cntTitle = i18n("pt_ship_goal"), i18n("pt_ship_now")
-	elseif arg_8_1 == 4 then
-		arg_8_0.resTitle, arg_8_0.cntTitle = i18n("cumulative_victory_target_tip"), i18n("cumulative_victory_now_tip")
-	elseif arg_8_1 == 5 then
-		arg_8_0.resTitle, arg_8_0.cntTitle = i18n("npcfriendly_count"), i18n("npcfriendly_total_count")
-	elseif arg_8_1 == 6 then
-		arg_8_0.resTitle, arg_8_0.cntTitle = i18n("activity_yanhua_tip2"), i18n("activity_yanhua_tip3")
-	else
+	switch(arg_8_1, {
+		function()
+			arg_8_0.resTitle, arg_8_0.cntTitle = i18n("target_get_tip"), i18n("pt_total_count", var_8_0)
+			arg_8_0.cntTitle = string.gsub(arg_8_0.cntTitle, "：", "")
+		end,
+		function()
+			arg_8_0.resTitle, arg_8_0.cntTitle = i18n("pt_cosume", var_8_0), i18n("pt_total_count", i18n("pt_cosume", var_8_0))
+			arg_8_0.cntTitle = string.gsub(arg_8_0.cntTitle, "：", "")
+		end,
+		function()
+			arg_8_0.resTitle, arg_8_0.cntTitle = i18n("pt_ship_goal"), i18n("pt_ship_now")
+		end,
+		function()
+			arg_8_0.resTitle, arg_8_0.cntTitle = i18n("cumulative_victory_target_tip"), i18n("cumulative_victory_now_tip")
+		end,
+		function()
+			arg_8_0.resTitle, arg_8_0.cntTitle = i18n("npcfriendly_count"), i18n("npcfriendly_total_count")
+		end,
+		function()
+			arg_8_0.resTitle, arg_8_0.cntTitle = i18n("activity_yanhua_tip2"), i18n("activity_yanhua_tip3")
+		end,
+		[9] = 2,
+		[8] = 1
+	}, function()
 		arg_8_0.resTitle, arg_8_0.cntTitle = i18n("target_get_tip"), i18n("pt_total_count", var_8_0)
 		arg_8_0.cntTitle = string.gsub(arg_8_0.cntTitle, "：", "")
+	end)
+end
+
+local var_0_1 = {
+	nil,
+	true,
+	false,
+	false,
+	false,
+	false
+}
+
+function var_0_0.updateResIcon(arg_16_0, arg_16_1, arg_16_2)
+	if defaultValue(var_0_1[arg_16_2], true) then
+		arg_16_0.resIcon = arg_16_1:getIcon()
+	end
+
+	setActive(arg_16_0.ptIcon, arg_16_0.resIcon)
+
+	if arg_16_0.resIcon then
+		LoadImageSpriteAsync(arg_16_0.resIcon, arg_16_0.totalTitleIcon, false)
 	end
 end
 
-function var_0_0.updateResIcon(arg_9_0, arg_9_1, arg_9_2, arg_9_3)
-	if arg_9_3 == 2 or arg_9_3 ~= 3 and arg_9_3 ~= 4 and arg_9_3 ~= 5 and arg_9_3 ~= 6 then
-		if arg_9_1 then
-			arg_9_0.resIcon = Drop.New({
-				type = DROP_TYPE_RESOURCE,
-				id = arg_9_1
-			}):getIcon()
-		elseif arg_9_2 then
-			arg_9_0.resIcon = arg_9_2
-		end
-
-		if arg_9_0.ptIcon and arg_9_0.resIcon and arg_9_0.resIcon ~= "" then
-			setActive(arg_9_0.ptIcon, true)
-			LoadImageSpriteAsync(arg_9_0.resIcon, arg_9_0.totalTitleIcon, false)
-		else
-			setActive(arg_9_0.ptIcon, false)
-		end
-	else
-		setActive(arg_9_0.ptIcon, false)
-	end
-end
-
-function var_0_0.Hide(arg_10_0)
-	if arg_10_0.blur then
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf)
+function var_0_0.Hide(arg_17_0)
+	if arg_17_0.blur then
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_17_0._tf)
 	end
 
-	setActive(arg_10_0._tf, false)
+	setActive(arg_17_0._tf, false)
 end
 
-function var_0_0.Dispose(arg_11_0)
-	arg_11_0:Hide()
-	removeOnButton(arg_11_0._tf)
-	removeOnButton(arg_11_0.closeBtn)
+function var_0_0.Dispose(arg_18_0)
+	arg_18_0:Hide()
+	removeOnButton(arg_18_0._tf)
+	removeOnButton(arg_18_0.closeBtn)
 end
 
 return var_0_0

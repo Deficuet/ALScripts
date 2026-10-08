@@ -82,6 +82,14 @@ function var_0_0.updateInfoList(arg_10_0, arg_10_1)
 		end
 	end
 
+	for iter_10_2 = #arg_10_0.countDownList, 1, -1 do
+		local var_10_1 = arg_10_0.countDownList[iter_10_2]
+
+		if arg_10_0.eventDic[var_10_1] == nil then
+			table.remove(arg_10_0.countDownList, iter_10_2)
+		end
+	end
+
 	if var_10_0 then
 		table.sort(arg_10_0.countDownList, CompareFuncs({
 			function(arg_11_0)

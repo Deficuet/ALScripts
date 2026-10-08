@@ -27,10 +27,6 @@ function var_0_0.OnFirstFlush(arg_3_0)
 			local var_4_2 = arg_4_2:Find("got")
 
 			setActive(var_4_2, arg_4_1 < arg_3_0.nday)
-
-			local var_4_3 = arg_4_2:Find("day/Text")
-
-			setText(var_4_3, arg_4_1 < arg_3_0.nday and i18n("word_status_inEventFinished") or i18n("which_day_2", arg_4_1 + 1))
 		end
 	end)
 end

@@ -36,4 +36,10 @@ function var_0_0.IsNewServerBuild(arg_7_0)
 	return arg_7_0:GetActivity():getConfig("type") == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD
 end
 
+function var_0_0.GetActivityTimeStr(arg_8_0)
+	local var_8_0 = arg_8_0:GetActivity()
+
+	return var_8_0 and var_8_0:GetActivityTimeStr() or ""
+end
+
 return var_0_0

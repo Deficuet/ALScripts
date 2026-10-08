@@ -362,20 +362,28 @@ function var_0_0.updateStageView(arg_33_0, arg_33_1)
 		local var_33_6 = getProxy(ActivityProxy)
 
 		for iter_33_0 = #var_33_5, 1, -1 do
-			local var_33_7 = var_33_6:getActivityById(var_33_5[iter_33_0][1])
+			local var_33_7, var_33_8, var_33_9, var_33_10 = unpack(var_33_5)
+			local var_33_11 = var_33_6:getActivityById(var_33_7)
 
-			if var_33_7 and not var_33_7:isEnd() then
-				table.insert(var_33_4, 1, {
-					2,
-					id2ItemId(var_33_5[iter_33_0][2])
-				})
+			if var_33_11 and not var_33_11:isEnd() then
+				if var_33_8 == DROP_TYPE_RESOURCE then
+					table.insert(var_33_4, 1, {
+						DROP_TYPE_ITEM,
+						id2ItemId(var_33_9)
+					})
+				else
+					table.insert(var_33_4, 1, {
+						var_33_8,
+						var_33_9
+					})
+				end
 			end
 		end
 	end
 
-	local var_33_8 = UIItemList.New(arg_33_0._spoilsContainer, arg_33_0._item)
+	local var_33_12 = UIItemList.New(arg_33_0._spoilsContainer, arg_33_0._item)
 
-	var_33_8:make(function(arg_34_0, arg_34_1, arg_34_2)
+	var_33_12:make(function(arg_34_0, arg_34_1, arg_34_2)
 		local var_34_0 = arg_34_2
 		local var_34_1 = var_33_4[arg_34_1 + 1]
 		local var_34_2 = {
@@ -417,9 +425,9 @@ function var_0_0.updateStageView(arg_33_0, arg_33_1)
 			end
 		end, SFX_PANEL)
 	end)
-	var_33_8:align(math.min(#var_33_4, 6))
+	var_33_12:align(math.min(#var_33_4, 6))
 
-	local function var_33_9(arg_37_0, arg_37_1)
+	local function var_33_13(arg_37_0, arg_37_1)
 		if type(arg_37_0) == "table" then
 			setActive(arg_37_1, true)
 
@@ -431,28 +439,28 @@ function var_0_0.updateStageView(arg_33_0, arg_33_1)
 		end
 	end
 
-	local var_33_10 = {
+	local var_33_14 = {
 		arg_33_0._goals:Find("goal_tpl"),
 		arg_33_0._goals:Find("goal_sink"),
 		arg_33_0._goals:Find("goal_time")
 	}
-	local var_33_11 = {
+	local var_33_15 = {
 		var_33_0.objective_1,
 		var_33_0.objective_2,
 		var_33_0.objective_3
 	}
-	local var_33_12 = 1
+	local var_33_16 = 1
 
-	for iter_33_1, iter_33_2 in ipairs(var_33_11) do
+	for iter_33_1, iter_33_2 in ipairs(var_33_15) do
 		if type(iter_33_2) ~= "string" then
-			var_33_9(iter_33_2, var_33_10[var_33_12])
+			var_33_13(iter_33_2, var_33_14[var_33_16])
 
-			var_33_12 = var_33_12 + 1
+			var_33_16 = var_33_16 + 1
 		end
 	end
 
-	for iter_33_3 = var_33_12, #var_33_10 do
-		var_33_9("", var_33_10[iter_33_3])
+	for iter_33_3 = var_33_16, #var_33_14 do
+		var_33_13("", var_33_14[iter_33_3])
 	end
 end
 

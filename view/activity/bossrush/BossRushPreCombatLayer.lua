@@ -242,13 +242,21 @@ function var_0_0.SetStageIds(arg_23_0, arg_23_1)
 			local var_24_3 = getProxy(ActivityProxy)
 
 			for iter_24_0 = #var_24_2, 1, -1 do
-				local var_24_4 = var_24_3:getActivityById(var_24_2[iter_24_0][1])
+				local var_24_4, var_24_5, var_24_6, var_24_7 = unpack(var_24_2)
+				local var_24_8 = var_24_3:getActivityById(var_24_4)
 
-				if var_24_4 and not var_24_4:isEnd() then
-					table.insert(var_24_1, 1, {
-						2,
-						id2ItemId(var_24_2[iter_24_0][2])
-					})
+				if var_24_8 and not var_24_8:isEnd() then
+					if var_24_5 == DROP_TYPE_RESOURCE then
+						table.insert(var_24_1, 1, {
+							DROP_TYPE_ITEM,
+							id2ItemId(var_24_6)
+						})
+					else
+						table.insert(var_24_1, 1, {
+							var_24_5,
+							var_24_6
+						})
+					end
 				end
 			end
 		end
@@ -259,7 +267,7 @@ function var_0_0.SetStageIds(arg_23_0, arg_23_1)
 			return
 		end
 
-		local function var_24_5(arg_25_0, arg_25_1)
+		local function var_24_9(arg_25_0, arg_25_1)
 			if type(arg_25_0) == "table" then
 				setActive(arg_25_1, true)
 
@@ -271,28 +279,28 @@ function var_0_0.SetStageIds(arg_23_0, arg_23_1)
 			end
 		end
 
-		local var_24_6 = {
+		local var_24_10 = {
 			findTF(arg_23_0._goals, "goal_tpl"),
 			findTF(arg_23_0._goals, "goal_sink"),
 			findTF(arg_23_0._goals, "goal_time")
 		}
-		local var_24_7 = {
+		local var_24_11 = {
 			var_24_0.objective_1,
 			var_24_0.objective_2,
 			var_24_0.objective_3
 		}
-		local var_24_8 = 1
+		local var_24_12 = 1
 
-		for iter_24_1, iter_24_2 in ipairs(var_24_7) do
+		for iter_24_1, iter_24_2 in ipairs(var_24_11) do
 			if type(iter_24_2) ~= "string" then
-				var_24_5(iter_24_2, var_24_6[var_24_8])
+				var_24_9(iter_24_2, var_24_10[var_24_12])
 
-				var_24_8 = var_24_8 + 1
+				var_24_12 = var_24_12 + 1
 			end
 		end
 
-		for iter_24_3 = var_24_8, #var_24_6 do
-			var_24_5("", var_24_6[iter_24_3])
+		for iter_24_3 = var_24_12, #var_24_10 do
+			var_24_9("", var_24_10[iter_24_3])
 		end
 	end)
 

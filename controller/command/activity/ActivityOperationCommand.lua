@@ -28,8 +28,13 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			local var_3_0 = getProxy(PlayerProxy):getData()
 			local var_3_1 = getProxy(ShopsProxy):getActivityShopById(var_1_1.id):bindConfigTable()[var_1_0.arg1]
 			local var_3_2 = var_1_0.arg2 or 1
+			local var_3_3 = Drop.New({
+				type = var_3_1.resource_category,
+				id = var_3_1.resource_type,
+				count = var_3_1.resource_num * var_3_2
+			})
 
-			if var_3_0[id2res(var_3_1.resource_type)] < var_3_1.resource_num * var_3_2 then
+			if var_3_3:getOwnedCount() < var_3_3.count then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 				return true
@@ -232,8 +237,14 @@ function var_0_0.updateActivityData(arg_8_0, arg_8_1, arg_8_2, arg_8_3, arg_8_4)
 		[ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD] = ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1,
 		[ActivityConst.ACTIVITY_TYPE_SHOP] = function()
 			local var_17_0 = getProxy(ShopsProxy)
-			local var_17_1 = var_17_0:getActivityShopById(arg_8_3.id)
+			local var_17_1 = var_17_0:getActivityShopById(arg_8_3.id):bindConfigTable()[arg_8_1.arg1]
+			local var_17_2 = Drop.New({
+				type = var_17_1.resource_category,
+				id = var_17_1.resource_type,
+				count = var_17_1.resource_num * arg_8_1.arg2
+			})
 
+			reducePlayerOwn(var_17_2)
 			var_17_0:UpdateActivityGoods(arg_8_3.id, arg_8_1.arg1, arg_8_1.arg2)
 
 			if table.contains(arg_8_3.data1_list, arg_8_1.arg1) then
@@ -248,15 +259,6 @@ function var_0_0.updateActivityData(arg_8_0, arg_8_1, arg_8_2, arg_8_3, arg_8_4)
 				table.insert(arg_8_3.data1_list, arg_8_1.arg1)
 				table.insert(arg_8_3.data2_list, arg_8_1.arg2)
 			end
-
-			local var_17_2 = var_17_1:bindConfigTable()[arg_8_1.arg1]
-			local var_17_3 = var_17_2.resource_num * arg_8_1.arg2
-			local var_17_4 = var_8_1:getData()
-
-			var_17_4:consume({
-				[id2res(var_17_2.resource_type)] = var_17_3
-			})
-			var_8_1:updatePlayer(var_17_4)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_TASK_LIST] = function()
 			if arg_8_1.cmd == 1 then

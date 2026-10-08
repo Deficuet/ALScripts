@@ -581,38 +581,23 @@ function var_0_0.getChapterAwards(arg_48_0)
 	local var_48_4 = {}
 	local var_48_5 = {}
 
-	local function var_48_6(arg_49_0)
-		for iter_49_0, iter_49_1 in ipairs(var_48_4) do
-			if iter_49_1 == arg_49_0 then
-				return false
-			end
-		end
-
-		return true
-	end
-
-	local var_48_7 = {}
-
 	for iter_48_1, iter_48_2 in ipairs(var_48_3) do
-		local var_48_8 = checkExist(pg.expedition_activity_template[iter_48_2], {
+		local var_48_6 = checkExist(pg.expedition_activity_template[iter_48_2], {
 			"pt_drop_display"
 		})
 
-		if var_48_8 and type(var_48_8) == "table" then
-			for iter_48_3, iter_48_4 in ipairs(var_48_8) do
-				local var_48_9 = iter_48_4[1]
-				local var_48_10 = iter_48_4[2]
-				local var_48_11 = iter_48_4[3]
+		if var_48_6 and type(var_48_6) == "table" then
+			for iter_48_3, iter_48_4 in ipairs(var_48_6) do
+				local var_48_7, var_48_8, var_48_9, var_48_10 = unpack(iter_48_4)
+				local var_48_11 = var_48_8 .. "_" .. var_48_9
 
-				if var_48_6(var_48_10) then
-					table.insert(var_48_4, var_48_10)
+				if not var_48_5[var_48_11] then
+					var_48_5[var_48_11] = {}
 
-					var_48_5[var_48_10] = {}
+					table.insert(var_48_4, var_48_11)
 				end
 
-				var_48_5[var_48_10][var_48_9] = true
-				var_48_7[var_48_10] = var_48_7[var_48_10] or {}
-				var_48_7[var_48_10][var_48_9] = var_48_11
+				var_48_5[var_48_11][var_48_7] = var_48_10
 			end
 		end
 	end
@@ -620,14 +605,28 @@ function var_0_0.getChapterAwards(arg_48_0)
 	local var_48_12 = getProxy(ActivityProxy)
 
 	for iter_48_5 = #var_48_4, 1, -1 do
-		for iter_48_6, iter_48_7 in pairs(var_48_5[var_48_4[iter_48_5]]) do
-			local var_48_13 = var_48_12:getActivityById(iter_48_6)
+		local var_48_13, var_48_14 = unpack(underscore.map(string.split(var_48_4[iter_48_5], "_"), function(arg_49_0)
+			return tonumber(arg_49_0)
+		end))
 
-			if var_48_13 and not var_48_13:isEnd() then
+		for iter_48_6, iter_48_7 in pairs(var_48_5[var_48_4[iter_48_5]]) do
+			local var_48_15 = var_48_12:getActivityById(iter_48_6)
+
+			if var_48_15 and not var_48_15:isEnd() then
+				if var_48_13 == DROP_TYPE_RESOURCE then
+					table.insert(var_48_0, 1, {
+						DROP_TYPE_ITEM,
+						id2ItemId(var_48_14),
+						iter_48_7
+					})
+
+					break
+				end
+
 				table.insert(var_48_0, 1, {
-					DROP_TYPE_ITEM,
-					id2ItemId(var_48_4[iter_48_5]),
-					var_48_7[var_48_4[iter_48_5]][iter_48_6]
+					var_48_13,
+					var_48_14,
+					iter_48_7
 				})
 
 				break

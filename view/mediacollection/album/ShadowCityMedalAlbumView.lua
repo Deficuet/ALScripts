@@ -1,7 +1,6 @@
 local var_0_0 = class("ShadowCityMedalAlbumView", import(".MedalAlbumTemplateView"))
 
 var_0_0.GROUP_ID = 51143
-var_0_0.HELP_TIPS = "help_starLightAlbum"
 
 function var_0_0.getUIName(arg_1_0)
 	return "MedalAlbumShadowCityPage"

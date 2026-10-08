@@ -6899,6 +6899,128 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.weapon_property_2[161871] = {
+		aim_type = 0,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 1,
+		range = 120,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		fire_fx_loop_type = 3,
+		shakescreen = 0,
+		attack_attribute = 1,
+		reload_max = 9999,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 22,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 161871,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			19255,
+			19255,
+			19255
+		},
+		barrage_ID = {
+			81004,
+			81005,
+			81006
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[161872] = {
+		id = 161872,
+		damage = 25,
+		base = 161871
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[161873] = {
+		id = 161873,
+		damage = 28,
+		base = 161871
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[161874] = {
+		id = 161874,
+		damage = 30,
+		base = 161871
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[161875] = {
+		id = 161875,
+		damage = 32,
+		base = 161871
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[161876] = {
+		id = 161876,
+		damage = 35,
+		base = 161871
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[161877] = {
+		id = 161877,
+		damage = 38,
+		base = 161871
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[161878] = {
+		id = 161878,
+		damage = 40,
+		base = 161871
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[161879] = {
+		id = 161879,
+		damage = 42,
+		base = 161871
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property_2[161880] = {
+		id = 161880,
+		damage = 45,
+		base = 161871
+	}
+end)()
+
+(function()
 	_G.pg.base.weapon_property_2[171001] = {
 		aim_type = 0,
 		action_index = "attack",

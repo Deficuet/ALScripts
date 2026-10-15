@@ -4,12 +4,12 @@ function var_0_0.getUIName(arg_1_0)
 	return "LevelInfoSPUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"ui/levelmainscene_atlas"
 	}
 
-	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0, arg_2_1))
+	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0))
 end
 
 function var_0_0.InitUI(arg_3_0)
@@ -80,6 +80,7 @@ function var_0_0.Show(arg_9_0)
 	})
 	setActive(arg_9_0._tf, true)
 	quickPlayAnimation(arg_9_0._tf, "Anim_LevelInfoSPUI_in")
+	arg_9_0:CheckGuide()
 end
 
 function var_0_0.setAfterResDownload(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
@@ -130,29 +131,30 @@ function var_0_0.setAfterResDownload(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
 				GetImageSpriteFromAtlasAsync("ui/levelmainscene_atlas", "bonusX" .. var_10_7:GetDailyBonusRate(), var_10_6:Find("Image"), true)
 
 				local var_10_9 = getProxy(ChapterProxy):getMapById(var_10_7:getConfig("map"))
-				local var_10_10 = getProxy(ActivityProxy):getActivityById(var_10_9:getConfig("on_activity")):GetConfigClientPTActivity()
-				local var_10_11 = var_10_10 and var_10_10:GetPTDrop()
+				local var_10_10 = getProxy(ActivityProxy):getActivityById(var_10_9:getConfig("on_activity"))
+				local var_10_11 = var_10_10 and var_10_10:GetConfigClientPTActivity() or nil
+				local var_10_12 = var_10_11 and var_10_11:GetPTDrop()
 
-				GetImageSpriteFromAtlasAsync(var_10_11:getIcon(), "", var_10_6:Find("Image/icon"), true)
+				GetImageSpriteFromAtlasAsync(var_10_12:getIcon(), "", var_10_6:Find("Image/icon"), true)
 			end
 		end
 	end
 
-	local var_10_12 = var_10_2 == 1 and Color.NewHex("FFDE38") or Color.white
+	local var_10_13 = var_10_2 == 1 and Color.NewHex("FFDE38") or Color.white
 
-	setTextColor(arg_10_0.txTitle:Find("title_index"), var_10_12)
-	setTextColor(arg_10_0.txTitle:Find("title"), var_10_12)
-	setTextColor(arg_10_0.txTitle:Find("title_en"), var_10_12)
+	setTextColor(arg_10_0.txTitle:Find("title_index"), var_10_13)
+	setTextColor(arg_10_0.txTitle:Find("title"), var_10_13)
+	setTextColor(arg_10_0.txTitle:Find("title_en"), var_10_13)
 
-	local var_10_13 = arg_10_3:getConfig("boss_expedition_id")
+	local var_10_14 = arg_10_3:getConfig("boss_expedition_id")
 
 	if arg_10_3:getPlayType() == ChapterConst.TypeMultiStageBoss then
-		var_10_13 = pg.chapter_model_multistageboss[arg_10_3.id].boss_expedition_id
+		var_10_14 = pg.chapter_model_multistageboss[arg_10_3.id].boss_expedition_id
 	end
 
-	local var_10_14 = pg.expedition_data_template[var_10_13[#var_10_13]].level
+	local var_10_15 = pg.expedition_data_template[var_10_14[#var_10_14]].level
 
-	setText(arg_10_0.levelBanner:Find("Text"), "LV " .. var_10_14)
+	setText(arg_10_0.levelBanner:Find("Text"), "LV " .. var_10_15)
 	onButton(arg_10_0, arg_10_0.btnSwitchNormal:Find("Switch"), function()
 		setActive(arg_10_0.btnAnimNormal, false)
 		setActive(arg_10_0.btnAnimLoopNormal, false)

@@ -14,8 +14,8 @@ function var_0_0.ResUISettings(arg_2_0)
 	return true
 end
 
-function var_0_0.getResource(arg_3_0, arg_3_1)
-	local var_3_0 = getProxy(BayProxy):getShipById(arg_3_1.shipId)
+function var_0_0.getResource(arg_3_0)
+	local var_3_0 = getProxy(BayProxy):getShipById(arg_3_0.contextData.shipId)
 	local var_3_1 = {
 		"ui/ShipDetailView",
 		"bg/star_level_bg_" .. var_3_0:rarity2bgPrintForGet(),
@@ -29,7 +29,7 @@ function var_0_0.getResource(arg_3_0, arg_3_1)
 		table.insert(var_3_1, "ui/al_bg02_" .. var_3_2 - 1)
 	end
 
-	return table.insertto(var_3_1, var_0_0.super.getResource(arg_3_0, arg_3_1))
+	return table.insertto(var_3_1, var_0_0.super.getResource(arg_3_0))
 end
 
 function var_0_0.preload(arg_4_0, arg_4_1)

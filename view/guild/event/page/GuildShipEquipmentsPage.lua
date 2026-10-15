@@ -4,14 +4,14 @@ function var_0_0.getUIName(arg_1_0)
 	return "GuildShipEquipmentsPage"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"shiptype",
 		"weaponframes",
 		"ui/iconcolorful"
 	}
 
-	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0, arg_2_1))
+	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0))
 end
 
 function var_0_0.getEquipmentResList(arg_3_0, arg_3_1)

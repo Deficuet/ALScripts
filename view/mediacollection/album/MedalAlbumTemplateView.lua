@@ -43,7 +43,7 @@ function var_0_0.GetHelpTips(arg_4_0)
 	return var_4_3
 end
 
-function var_0_0.getResource(arg_6_0, arg_6_1)
+function var_0_0.getResource(arg_6_0)
 	local var_6_0 = {}
 	local var_6_1 = arg_6_0.GROUP_ID
 	local var_6_2 = var_6_1 and pg.activity_medal_group[var_6_1]
@@ -79,7 +79,7 @@ function var_0_0.getResource(arg_6_0, arg_6_1)
 		end
 	end
 
-	table.insertto(var_6_0, var_0_0.super.getResource(arg_6_0, arg_6_1))
+	table.insertto(var_6_0, var_0_0.super.getResource(arg_6_0))
 
 	return var_6_0
 end

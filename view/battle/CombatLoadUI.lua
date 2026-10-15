@@ -7,50 +7,51 @@ function var_0_0.getUIName(arg_1_0)
 	return "CombatLoadUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
-	local var_2_0 = {}
-	local var_2_1
+function var_0_0.getResource(arg_2_0)
+	local var_2_0 = arg_2_0.contextData
+	local var_2_1 = {}
 	local var_2_2
+	local var_2_3
 
-	if arg_2_1.system == SYSTEM_BOSS_RUSH_COLLABRATE then
-		var_2_1 = AppreciatePicConst.TYPE_GALLERY
-		var_2_2 = "bg/star_level_bg_211"
+	if var_2_0.system == SYSTEM_BOSS_RUSH_COLLABRATE then
+		var_2_2 = AppreciatePicConst.TYPE_GALLERY
+		var_2_3 = "bg/star_level_bg_211"
 	else
-		local var_2_3 = AppreciatePicConst.getRandomLoadingPic()
+		local var_2_4 = AppreciatePicConst.getRandomLoadingPic()
 
-		if var_2_3 then
-			var_2_1 = var_2_3.type
-			var_2_2 = var_2_3.path
+		if var_2_4 then
+			var_2_2 = var_2_4.type
+			var_2_3 = var_2_4.path
 		else
-			var_2_1 = AppreciatePicConst.TYPE_GALLERY
-			var_2_2 = "loadingbg/login"
+			var_2_2 = AppreciatePicConst.TYPE_GALLERY
+			var_2_3 = "loadingbg/login"
 		end
 	end
 
-	if var_2_2 then
-		table.insert(var_2_0, var_2_2)
+	if var_2_3 then
+		table.insert(var_2_1, var_2_3)
 	end
 
-	local var_2_4 = HXSet.HxPath(var_2_2)
+	local var_2_5 = HXSet.HxPath(var_2_3)
 
-	arg_2_1._combatLoadPicData = {
-		type = var_2_1,
-		path = var_2_4
+	var_2_0._combatLoadPicData = {
+		type = var_2_2,
+		path = var_2_5
 	}
-	arg_2_0._preloadPicType = var_2_1
-	arg_2_0._preloadPicPath = var_2_4
+	arg_2_0._preloadPicType = var_2_2
+	arg_2_0._preloadPicPath = var_2_5
 
-	local var_2_5, var_2_6, var_2_7 = CombatLoadUI.GetTotalResourceList(arg_2_1)
+	local var_2_6, var_2_7, var_2_8 = CombatLoadUI.GetTotalResourceList(var_2_0)
 
-	if var_2_5 and #var_2_5 > 0 then
-		for iter_2_0, iter_2_1 in ipairs(var_2_5) do
+	if var_2_6 and #var_2_6 > 0 then
+		for iter_2_0, iter_2_1 in ipairs(var_2_6) do
 			iter_2_1 = string.lower(iter_2_1)
 
-			table.insert(var_2_0, iter_2_1)
+			table.insert(var_2_1, iter_2_1)
 		end
 	end
 
-	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0))
+	return table.insertto(var_2_1, var_0_0.super.getResource(arg_2_0))
 end
 
 function var_0_0.preload(arg_3_0, arg_3_1)

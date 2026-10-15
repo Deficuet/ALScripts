@@ -5,11 +5,10 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.photoImgTrans = arg_2_0._tf:Find("PhotoImg")
-	arg_2_0.shareBtnTrans = arg_2_0._tf:Find("ShareBtn")
-	arg_2_0.confirmBtnTrans = arg_2_0._tf:Find("ConfirmBtn")
-	arg_2_0.cancelBtnTrans = arg_2_0._tf:Find("CancelBtn")
-	arg_2_0.frameBtn = arg_2_0._tf:Find("frameBtn")
+	arg_2_0.shareBtnTrans = arg_2_0._tf:Find("adapt/ShareBtn")
+	arg_2_0.confirmBtnTrans = arg_2_0._tf:Find("adapt/ConfirmBtn")
+	arg_2_0.cancelBtnTrans = arg_2_0._tf:Find("adapt/CancelBtn")
+	arg_2_0.frameBtn = arg_2_0._tf:Find("adapt/frameBtn")
 	arg_2_0.photoAdapter = arg_2_0._tf:Find("photoAdapter")
 end
 

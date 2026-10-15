@@ -4,7 +4,7 @@ function var_0_0.getUIName(arg_1_0)
 	return "NewEducateSelectUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"ui/PerformUI",
 		"cue/qe-ova-10.b",
@@ -153,7 +153,7 @@ function var_0_0.getResource(arg_2_0, arg_2_1)
 		end
 	end
 
-	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0, arg_2_1))
+	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0))
 end
 
 function var_0_0.preload(arg_4_0, arg_4_1)
@@ -183,7 +183,7 @@ function var_0_0.init(arg_6_0)
 	arg_6_0.nameTF = var_6_0:Find("name")
 	arg_6_0.progressTF = var_6_0:Find("progress")
 	arg_6_0.gameTF = var_6_0:Find("game")
-	arg_6_0.topTF = arg_6_0.rootTF:Find("top")
+	arg_6_0.topTF = arg_6_0.rootTF:Find("adapt/top")
 	arg_6_0.contentTF = arg_6_0.rootTF:Find("window/view/content")
 end
 

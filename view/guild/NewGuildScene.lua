@@ -4,14 +4,14 @@ function var_0_0.getUIName(arg_1_0)
 	return "NewGuildUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"commonbg/camp_bg",
 		"clutter/blhx_icon",
 		"clutter/cszz_icon"
 	}
 
-	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0, arg_2_1))
+	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0))
 end
 
 function var_0_0.ResUISettings(arg_3_0)

@@ -5,8 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.backBtn = arg_2_0._tf:Find("top/back")
-	arg_2_0.title = arg_2_0._tf:Find("top/title")
+	arg_2_0.backBtn = arg_2_0._tf:Find("adapt/top/back")
+	arg_2_0.title = arg_2_0._tf:Find("adapt/top/title")
 	arg_2_0.rightInfo = arg_2_0._tf:Find("rightInfo")
 	arg_2_0.rightInfoEmpty = arg_2_0._tf:Find("rightInfo_empty")
 	arg_2_0.currentformulaIcon = arg_2_0._tf:Find("rightInfo/formula/currentformula")
@@ -29,7 +29,7 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.uiList = UIItemList.New(arg_2_0._tf:Find("formulaView/content"), arg_2_0._tf:Find("formulaView/content/tpl"))
 	arg_2_0.costuiList = UIItemList.New(arg_2_0._tf:Find("rightInfo/formula/needItem/content"), arg_2_0._tf:Find("rightInfo/formula/needItem/content/IslandItemTpl"))
 
-	setText(arg_2_0._tf:Find("top/title/Text"), i18n("island_select_product"))
+	setText(arg_2_0._tf:Find("adapt/top/title/Text"), i18n("island_select_product"))
 	setText(arg_2_0.formulaItem:Find("tips"), i18n("island_production_count"))
 
 	arg_2_0.baseEffectSpeed = pg.island_set.base_efficiency.key_value_int
@@ -60,7 +60,7 @@ function var_0_0.RemoveListeners(arg_4_0)
 end
 
 function var_0_0.OnInit(arg_5_0)
-	onButton(arg_5_0, arg_5_0._tf:Find("top/title/help"), function()
+	onButton(arg_5_0, arg_5_0._tf:Find("adapt/top/title/help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.island_help_commission.tip

@@ -16,7 +16,7 @@ function var_0_0.getUIName(arg_2_0)
 	return "Dorm3dShopUI"
 end
 
-function var_0_0.getResource(arg_3_0, arg_3_1)
+function var_0_0.getResource(arg_3_0)
 	local var_3_0 = {
 		"weaponframes",
 		"ui/shoptip_atlas"
@@ -85,7 +85,7 @@ function var_0_0.getResource(arg_3_0, arg_3_1)
 		end
 	end
 
-	return table.insertto(var_3_0, var_0_0.super.getResource(arg_3_0, arg_3_1))
+	return table.insertto(var_3_0, var_0_0.super.getResource(arg_3_0))
 end
 
 function var_0_0.init(arg_6_0)

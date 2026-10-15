@@ -1921,9 +1921,9 @@ pg.base.activity_limit_item_guide_re = {}
 	pg.base.activity_limit_item_guide_re[10102] = {
 		activity = 4,
 		count = 1,
-		type = 1,
+		type = 8,
 		id = 10102,
-		drop_id = 452,
+		drop_id = 65500,
 		link_params = {
 			{
 				2,
@@ -2380,9 +2380,9 @@ end)()
 	pg.base.activity_limit_item_guide_re[10137] = {
 		activity = 5,
 		count = 1,
-		type = 1,
+		type = 8,
 		id = 10137,
-		drop_id = 477,
+		drop_id = 65540,
 		link_params = {
 			{
 				2,
@@ -2856,9 +2856,9 @@ end)()
 	pg.base.activity_limit_item_guide_re[10168] = {
 		activity = 6,
 		count = 1,
-		type = 1,
+		type = 8,
 		id = 10168,
-		drop_id = 502,
+		drop_id = 65602,
 		link_params = {
 			{
 				2,
@@ -3356,9 +3356,9 @@ end)()
 	pg.base.activity_limit_item_guide_re[10199] = {
 		activity = 7,
 		count = 1,
-		type = 1,
+		type = 8,
 		id = 10199,
-		drop_id = 533,
+		drop_id = 65665,
 		link_params = {
 			{
 				2,
@@ -3832,9 +3832,9 @@ end)()
 	pg.base.activity_limit_item_guide_re[10228] = {
 		activity = 8,
 		count = 1,
-		type = 1,
+		type = 8,
 		id = 10228,
-		drop_id = 547,
+		drop_id = 65685,
 		link_params = {
 			{
 				2,

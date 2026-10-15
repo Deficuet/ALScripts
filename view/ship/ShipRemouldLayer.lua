@@ -14,12 +14,12 @@ function var_0_0.getGroupName(arg_2_0)
 	return "ShipMainScene"
 end
 
-function var_0_0.getResource(arg_3_0, arg_3_1)
+function var_0_0.getResource(arg_3_0)
 	local var_3_0 = {
 		"modicon"
 	}
 
-	table.insertto(var_3_0, var_0_0.super.getResource(arg_3_0, arg_3_1))
+	table.insertto(var_3_0, var_0_0.super.getResource(arg_3_0))
 
 	return var_3_0
 end

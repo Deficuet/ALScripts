@@ -10,7 +10,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	setText(arg_2_0._tf:Find("top/title/Text"), i18n("island_post_manage"))
+	setText(arg_2_0._tf:Find("Adapt/top/title/Text"), i18n("island_post_manage"))
 
 	local var_2_0 = arg_2_0._tf:Find("Adapt/pages")
 
@@ -65,16 +65,16 @@ function var_0_0.OnInit(arg_5_0)
 	onButton(arg_5_0, arg_5_0.bookBtn, function()
 		arg_5_0:OpenPage(IslandSetMealHandbookPage)
 	end, SFX_PANEL)
-	onButton(arg_5_0, arg_5_0._tf:Find("top/title/help"), function()
+	onButton(arg_5_0, arg_5_0._tf:Find("Adapt/top/title/help"), function()
 		arg_5_0:ShowMsgBox({
 			type = IslandMsgBox.TYPE_WHITOUT_BTN,
 			content = i18n("island_helpbtn_commission")
 		})
 	end, SFX_PANEL)
-	onButton(arg_5_0, arg_5_0._tf:Find("top/back"), function()
+	onButton(arg_5_0, arg_5_0._tf:Find("Adapt/top/back"), function()
 		arg_5_0:Hide()
 	end, SFX_PANEL)
-	onButton(arg_5_0, arg_5_0._tf:Find("top/home"), function()
+	onButton(arg_5_0, arg_5_0._tf:Find("Adapt/top/home"), function()
 		arg_5_0:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
 	onButton(arg_5_0, arg_5_0._tf:Find("Adapt/signInBtn"), function()

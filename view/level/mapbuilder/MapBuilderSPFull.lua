@@ -163,9 +163,10 @@ function var_0_0.UpdateSwitchMapButtons(arg_8_0)
 	end))
 	setActive(arg_8_0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not inRemasterMap and arg_8_0.sceneParent:IsActShopActive())
 
-	local var_8_6 = (arg_8_0.contextData.map and getProxy(ActivityProxy):getActivityById(arg_8_0.contextData.map:getConfig("on_activity")) or nil):GetConfigClientPTActivity()
+	local var_8_6 = arg_8_0.contextData.map and getProxy(ActivityProxy):getActivityById(arg_8_0.contextData.map:getConfig("on_activity")) or nil
+	local var_8_7 = var_8_6 and var_8_6:GetConfigClientPTActivity() or nil
 
-	arg_8_0.sceneParent:updatePtActivity(var_8_6)
+	arg_8_0.sceneParent:updatePtActivity(var_8_7)
 	setActive(arg_8_0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not inRemasterMap and var_8_2 and arg_8_0.sceneParent.ptActivity and not arg_8_0.sceneParent.ptActivity:isEnd() and var_8_0)
 	arg_8_0.sceneParent:updateCountDown()
 end

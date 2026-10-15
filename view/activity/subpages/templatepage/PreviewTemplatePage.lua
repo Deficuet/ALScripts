@@ -41,7 +41,7 @@ function var_0_0.initBtn(arg_4_0)
 		end,
 		shop = function(arg_8_0)
 			onButton(arg_4_0, arg_8_0, function()
-				local var_9_0 = var_4_1.shopLinkActID and getProxy(ActivityProxy):getActivitiesById(var_4_1.shopLinkActID) or underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_10_0)
+				local var_9_0 = var_4_1.shopLinkActID and getProxy(ActivityProxy):getActivityById(var_4_1.shopLinkActID) or underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_10_0)
 					return not arg_10_0:isEnd()
 				end)
 
@@ -111,6 +111,11 @@ function var_0_0.initBtn(arg_4_0)
 		skinshop = function(arg_20_0)
 			onButton(arg_4_0, arg_20_0, function()
 				arg_4_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
+			end)
+		end,
+		dorm = function(arg_22_0)
+			onButton(arg_4_0, arg_22_0, function()
+				arg_4_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.COURTYARD)
 			end)
 		end
 	}

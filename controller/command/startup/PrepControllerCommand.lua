@@ -735,6 +735,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	arg_1_0.facade:registerCommand(GAME.REVERSE_PACMAN_ADD_FAVORABILITY, ReversePacmanAddFavorabilityCommand)
 	arg_1_0.facade:registerCommand(GAME.REVERSE_PACMAN_PASS_LEVEL, ReversePacmanPassLevelCommand)
 	arg_1_0.facade:registerCommand(GAME.ACT_REMASTER_ACTIVE, ActiveActReamsterCommand)
+	arg_1_0.facade:registerCommand(GAME.JUMP_TO_SCENE, JumpToSceneCommand)
 end
 
 return var_0_0

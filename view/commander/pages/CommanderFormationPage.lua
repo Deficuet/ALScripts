@@ -4,13 +4,13 @@ function var_0_0.getUIName(arg_1_0)
 	return "CommanderFormationUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"attricon",
 		"weaponframes"
 	}
 
-	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0, arg_2_1))
+	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0))
 end
 
 function var_0_0.getCommanderResList(arg_3_0, arg_3_1, arg_3_2)

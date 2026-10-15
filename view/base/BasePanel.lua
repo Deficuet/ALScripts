@@ -33,7 +33,7 @@ function var_0_0.attach(arg_4_0, arg_4_1)
 
 	function arg_4_0.bind(arg_6_0, ...)
 		if arg_6_0.parent then
-			arg_6_0.parent:bind(...)
+			return arg_6_0.parent:bind(...)
 		end
 	end
 

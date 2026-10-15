@@ -33,7 +33,7 @@ function var_0_0.handleNotification(arg_4_0, arg_4_1)
 			arg_4_0.viewComponent:UpdateView()
 		end
 	elseif var_4_0 == GAME.ACT_NEW_PT_DONE then
-		arg_4_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_4_1.awards)
+		arg_4_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_4_1.awards, var_4_1.callback)
 	end
 end
 

@@ -48,7 +48,7 @@ function var_0_0.GetAllCryptolaliaAuditionRes()
 	return var_3_0
 end
 
-function var_0_0.getResource(arg_4_0, arg_4_1)
+function var_0_0.getResource(arg_4_0)
 	local var_4_0 = {
 		"ui/CryptolaliaUI_atlas",
 		"ui/CryptolaliaListui",
@@ -56,7 +56,7 @@ function var_0_0.getResource(arg_4_0, arg_4_1)
 		"ui/CryptolaliaResDeleteWindowui"
 	}
 
-	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_4_0, arg_4_1), var_4_0, var_0_0.GetAllCryptolaliaShipRes(), var_0_0.GetAllCryptolaliaAuditionRes()))
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_4_0), var_4_0, var_0_0.GetAllCryptolaliaShipRes(), var_0_0.GetAllCryptolaliaAuditionRes()))
 end
 
 function var_0_0.SetCryptolaliaList(arg_5_0, arg_5_1)

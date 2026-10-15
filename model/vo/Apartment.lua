@@ -19,9 +19,9 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 		table.insert(arg_1_0.skinList, iter_1_1)
 	end
 
-	for iter_1_2, iter_1_3 in ipairs(arg_1_1.hidden_parts or {}) do
+	for iter_1_2, iter_1_3 in ipairs(arg_1_1.hidden_info or {}) do
 		table.insert(arg_1_0.hiddenInfo, {
-			skin_id = iter_1_3.id,
+			skin_id = iter_1_3.skin_id,
 			hidden_parts = {}
 		})
 

@@ -25,7 +25,7 @@ function var_0_0.getUIName(arg_1_0)
 	return "LevelFleetSelectView"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"weaponframes",
 		"energy",
@@ -33,11 +33,11 @@ function var_0_0.getResource(arg_2_0, arg_2_1)
 		"ui/iconcolorful"
 	}
 
-	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0, arg_2_1))
+	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0))
 end
 
 function var_0_0.downloadLevelFleetViewResList(arg_3_0, arg_3_1)
-	SplitPackConst.DownloadByLuaArr(ResList.LevelFleetView.GetResource(arg_3_0), function()
+	SplitPackConst.DownloadByLuaArr(ResList.LevelFleetViewResConst.GetResource(arg_3_0), function()
 		if arg_3_0._state == var_0_0.STATES.DESTROY then
 			return
 		end

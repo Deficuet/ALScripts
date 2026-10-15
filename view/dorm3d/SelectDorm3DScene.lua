@@ -4,7 +4,7 @@ function var_0_0.getUIName(arg_1_0)
 	return "SelectDorm3DUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {}
 
 	local function var_2_1(arg_3_0)
@@ -42,7 +42,7 @@ function var_0_0.getResource(arg_2_0, arg_2_1)
 		end
 	end
 
-	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0, arg_2_1))
+	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0))
 end
 
 function var_0_0.init(arg_4_0)

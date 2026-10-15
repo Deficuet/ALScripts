@@ -48,7 +48,7 @@ return {
 				uiset = {}
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/Island3dTaskUI(Clone)/top/back",
+				path = "/OverlayCamera/Overlay/UIMain/Island3dTaskUI(Clone)/adapt/top/back",
 				pathIndex = -1
 			}
 		},

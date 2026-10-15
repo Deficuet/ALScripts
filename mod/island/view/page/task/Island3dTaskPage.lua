@@ -45,14 +45,14 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.tracedBtn = arg_2_0.detailBtns:Find("traced")
 
 	setText(arg_2_0.tracedBtn:Find("Text"), i18n("island_task_tracked"))
-	setText(arg_2_0._tf:Find("top/title/Text"), i18n("island_task_title"))
-	setText(arg_2_0._tf:Find("top/title/Text/en"), i18n("island_task_title_en"))
+	setText(arg_2_0._tf:Find("adapt/top/title/Text"), i18n("island_task_title"))
+	setText(arg_2_0._tf:Find("adapt/top/title/Text/en"), i18n("island_task_title_en"))
 
 	arg_2_0.richtext = arg_2_0.descTF:GetComponent("RichText")
 end
 
 function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0._tf:Find("top/back"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("adapt/top/back"), function()
 		arg_3_0:Hide()
 	end, SFX_PANEL)
 	arg_3_0.toggleUIList:make(function(arg_5_0, arg_5_1, arg_5_2)

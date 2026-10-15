@@ -7,7 +7,7 @@ local var_0_5 = 1
 local var_0_6 = 2
 local var_0_7 = 3
 
-function var_0_0.getResource(arg_1_0, arg_1_1)
+function var_0_0.getResource(arg_1_0)
 	local var_1_0 = {
 		"ui/share/index_atlas",
 		"ui/storehouseui",

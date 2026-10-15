@@ -9,7 +9,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.backBtn = arg_2_0._tf:Find("back")
+	arg_2_0.backBtn = arg_2_0._tf:Find("adapt/back")
 	arg_2_0.uiSlots = UIItemList.New(arg_2_0._tf:Find("frame/list"), arg_2_0._tf:Find("frame/list/tpl"))
 	arg_2_0.onekeySlots = UIItemList.New(arg_2_0._tf:Find("list_1"), arg_2_0._tf:Find("list_1/onekey"))
 	arg_2_0.switchBtn = arg_2_0._tf:Find("frame/switch")

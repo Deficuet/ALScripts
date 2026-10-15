@@ -1053,39 +1053,45 @@ function var_0_0.updateMedalList(arg_104_0, arg_104_1)
 	end
 end
 
-function var_0_0.getActivityMedalGroup(arg_105_0)
-	return arg_105_0.activityMedalGroupList
+function var_0_0.getActivityMedalExist(arg_105_0, arg_105_1)
+	local var_105_0 = pg.activity_medal_template[arg_105_1].group
+
+	return arg_105_0.activityMedalGroupList[var_105_0] and arg_105_0.activityMedalGroupList[var_105_0]:OwnMedel(arg_105_1)
 end
 
-function var_0_0.GetGuideIndex(arg_106_0, arg_106_1)
-	if arg_106_1 then
-		return arg_106_0.newGuideIndex
-	else
-		return arg_106_0.guideIndex
-	end
+function var_0_0.getActivityMedalGroup(arg_106_0)
+	return arg_106_0.activityMedalGroupList
 end
 
-function var_0_0.UpdateGuideIndex(arg_107_0, arg_107_1, arg_107_2)
+function var_0_0.GetGuideIndex(arg_107_0, arg_107_1)
 	if arg_107_1 then
-		arg_107_0.newGuideIndex = arg_107_2
+		return arg_107_0.newGuideIndex
 	else
-		arg_107_0.guideIndex = arg_107_2
+		return arg_107_0.guideIndex
 	end
 end
 
-function var_0_0.GetDisplayShipList(arg_108_0)
-	local var_108_0 = getProxy(SettingsProxy)
-	local var_108_1
-
-	if var_108_0:IsOpenRandomFlagShip() then
-		var_108_1 = var_108_0:GetRandomFlagShipList()
+function var_0_0.UpdateGuideIndex(arg_108_0, arg_108_1, arg_108_2)
+	if arg_108_1 then
+		arg_108_0.newGuideIndex = arg_108_2
 	else
-		var_108_1 = arg_108_0:GetShipPhantomMarks()
+		arg_108_0.guideIndex = arg_108_2
+	end
+end
+
+function var_0_0.GetDisplayShipList(arg_109_0)
+	local var_109_0 = getProxy(SettingsProxy)
+	local var_109_1
+
+	if var_109_0:IsOpenRandomFlagShip() then
+		var_109_1 = var_109_0:GetRandomFlagShipList()
+	else
+		var_109_1 = arg_109_0:GetShipPhantomMarks()
 	end
 
-	local var_108_2, var_108_3 = var_0_5(var_108_1)
+	local var_109_2, var_109_3 = var_0_5(var_109_1)
 
-	return var_108_2
+	return var_109_2
 end
 
 return var_0_0

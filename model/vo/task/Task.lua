@@ -543,15 +543,7 @@ function var_0_0.OwnSpAward(arg_62_0)
 	end
 
 	local function var_62_2(arg_65_0)
-		local var_65_0 = getProxy(PlayerProxy):getRawData():getActivityMedalGroup()
-
-		for iter_65_0, iter_65_1 in pairs(var_65_0) do
-			if iter_65_1:OwnMedel(arg_65_0) then
-				return true
-			end
-		end
-
-		return false
+		return getProxy(PlayerProxy):getRawData():getActivityMedalExist(arg_65_0)
 	end
 
 	local var_62_3 = {

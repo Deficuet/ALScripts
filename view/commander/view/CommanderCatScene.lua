@@ -354,8 +354,8 @@ function var_0_0.onBackPressed(arg_31_0)
 	var_0_0.super.onBackPressed(arg_31_0)
 end
 
-function var_0_0.getResource(arg_32_0, arg_32_1)
-	local var_32_0 = var_0_0.super.getResource(arg_32_0, arg_32_1)
+function var_0_0.getResource(arg_32_0)
+	local var_32_0 = var_0_0.super.getResource(arg_32_0)
 
 	for iter_32_0 = 1, 4 do
 		table.insert(var_32_0, "char/NekoBox" .. iter_32_0)

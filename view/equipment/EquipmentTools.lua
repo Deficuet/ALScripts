@@ -36,4 +36,39 @@ function var_0_0.GetMatchSpEquipmentListKeyByShip(arg_4_0)
 	end
 end
 
+function var_0_0.HasEquipByGroup(arg_5_0)
+	local var_5_0 = getProxy(EquipmentProxy)
+
+	for iter_5_0, iter_5_1 in ipairs(var_5_0:GetEquipmentsRaw()) do
+		if iter_5_1:getConfig("group") == arg_5_0 then
+			return true
+		end
+	end
+
+	return false
+end
+
+function var_0_0.HasBaseSpWeapon(arg_6_0)
+	local var_6_0 = getProxy(EquipmentProxy)
+	local var_6_1 = var_0_0.GetBaseSpWeaponID(arg_6_0)
+
+	for iter_6_0, iter_6_1 in pairs(var_6_0:GetSpWeapons()) do
+		if var_0_0.GetBaseSpWeaponID(iter_6_1.id) == var_6_1 then
+			return true
+		end
+	end
+
+	return false
+end
+
+function var_0_0.GetBaseSpWeaponID(arg_7_0)
+	local var_7_0 = pg.spweapon_data_statistics[arg_7_0]
+
+	if var_7_0.prev == 0 then
+		return arg_7_0
+	end
+
+	return var_0_0.GetBaseSpWeaponID(var_7_0.prev)
+end
+
 return var_0_0

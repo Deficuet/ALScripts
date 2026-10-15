@@ -34,24 +34,29 @@ function var_0_0.UpdateList(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 	arg_1_0.UIlist:align(#arg_1_1)
 end
 
-function var_0_0.UpdateDrop(arg_3_0, arg_3_1, arg_3_2)
-	if arg_3_2 then
-		setActive(arg_3_1, true)
+function var_0_0.Show(arg_3_0, arg_3_1)
+	var_0_0.super.Show(arg_3_0, arg_3_1)
+	setActive(arg_3_0.getBtn, false)
+end
 
-		local var_3_0 = {
-			type = arg_3_2[1],
-			id = arg_3_2[2],
-			count = arg_3_2[3]
+function var_0_0.UpdateDrop(arg_4_0, arg_4_1, arg_4_2)
+	if arg_4_2 then
+		setActive(arg_4_1, true)
+
+		local var_4_0 = {
+			type = arg_4_2[1],
+			id = arg_4_2[2],
+			count = arg_4_2[3]
 		}
 
-		updateDrop(arg_3_1, var_3_0, {
+		updateDrop(arg_4_1, var_4_0, {
 			hideName = true
 		})
-		onButton(arg_3_0.binder, arg_3_1, function()
-			arg_3_0.binder:emit(BaseUI.ON_DROP, var_3_0)
+		onButton(arg_4_0.binder, arg_4_1, function()
+			arg_4_0.binder:emit(BaseUI.ON_DROP, var_4_0)
 		end, SFX_PANEL)
 	else
-		setActive(arg_3_1, false)
+		setActive(arg_4_1, false)
 	end
 end
 

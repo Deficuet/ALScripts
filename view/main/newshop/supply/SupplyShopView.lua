@@ -116,6 +116,10 @@ function var_0_0.SetAllShopData(arg_7_0, arg_7_1)
 end
 
 function var_0_0.GetDefaultShopIndex(arg_8_0)
+	if table.getCount(arg_8_0.packageSortList[arg_8_0.supplyShopType]) <= 0 then
+		arg_8_0.supplyShopType = ShopConst.CATEGORY_SUPPLY
+	end
+
 	if arg_8_0.supplyShopType == ShopConst.CATEGORY_ACTIVITY then
 		local var_8_0 = arg_8_0.contextData.actId
 

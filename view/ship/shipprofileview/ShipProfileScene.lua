@@ -14,29 +14,30 @@ function var_0_0.getUIName(arg_1_0)
 	return "ShipProfileUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
-	local var_2_0 = getProxy(CollectionProxy):getShipGroup(arg_2_1.groupId)
-	local var_2_1 = {
-		"bg/star_level_bg_" .. var_2_0:rarity2bgPrintForGet(arg_2_1.showTrans),
+function var_0_0.getResource(arg_2_0)
+	local var_2_0 = arg_2_0.contextData
+	local var_2_1 = getProxy(CollectionProxy):getShipGroup(var_2_0.groupId)
+	local var_2_2 = {
+		"bg/star_level_bg_" .. var_2_1:rarity2bgPrintForGet(var_2_0.showTrans),
 		"ui/share/btn_l2d_atlas"
 	}
 
-	for iter_2_0, iter_2_1 in ipairs(ShipGroup.GetDisplayableSkinList(var_2_0.id)) do
-		table.insertto(var_2_1, ResPathSupport.GetPaintingListByPaintingName(iter_2_1.painting))
+	for iter_2_0, iter_2_1 in ipairs(ShipGroup.GetDisplayableSkinList(var_2_1.id)) do
+		table.insertto(var_2_2, ResPathSupport.GetPaintingListByPaintingName(iter_2_1.painting))
 	end
 
-	local var_2_2 = var_2_0:getShipConfigId()
+	local var_2_3 = var_2_1:getShipConfigId()
 
-	table.insertto(var_2_1, ResPathSupport.GetSkillIconList(var_2_2))
+	table.insertto(var_2_2, ResPathSupport.GetSkillIconList(var_2_3))
 
-	local var_2_3 = Ship.New({
-		configId = var_2_2
+	local var_2_4 = Ship.New({
+		configId = var_2_3
 	}):getPrefab()
-	local var_2_4 = ResPathSupport.GetSpineCharListByPrefabName(var_2_3)
+	local var_2_5 = ResPathSupport.GetSpineCharListByPrefabName(var_2_4)
 
-	table.insertto(var_2_1, var_2_4)
+	table.insertto(var_2_2, var_2_5)
 
-	return table.insertto(var_2_1, var_0_0.super.getResource(arg_2_0, arg_2_1))
+	return table.insertto(var_2_2, var_0_0.super.getResource(arg_2_0))
 end
 
 function var_0_0.preload(arg_3_0, arg_3_1)

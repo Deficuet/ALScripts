@@ -85,7 +85,11 @@ function var_0_0.GetAllPhaseDrops(arg_14_0)
 		targets = arg_14_0.targets,
 		level = arg_14_0.index,
 		count = arg_14_0.progress,
-		resName = i18n("week_task_pt_name")
+		resName = i18n("week_task_pt_name"),
+		resDrop = Drop.New({
+			id = 59012,
+			type = DROP_TYPE_ITEM
+		})
 	}
 end
 

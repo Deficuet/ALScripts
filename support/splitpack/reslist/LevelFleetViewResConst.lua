@@ -1,7 +1,7 @@
 ResList = ResList or {}
-ResList.LevelFleetView = {}
+ResList.LevelFleetViewResConst = {}
 
-local var_0_0 = ResList.LevelFleetView
+local var_0_0 = ResList.LevelFleetViewResConst
 
 function var_0_0.GetResource(arg_1_0)
 	local var_1_0 = {}

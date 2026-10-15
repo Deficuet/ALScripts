@@ -32,6 +32,8 @@ function var_0_0.init(arg_3_0)
 	}
 	arg_3_0.ids = table.mergeArray(arg_3_0.ids, pg.child2_data.all)
 	arg_3_0.toggleList = UIItemList.New(arg_3_0.togglesTF, arg_3_0.togglesTF:Find("tpl"))
+
+	setText(arg_3_0._tf:Find("anim_root/closeText"), i18n("world_collection_back"))
 end
 
 function var_0_0.didEnter(arg_5_0)

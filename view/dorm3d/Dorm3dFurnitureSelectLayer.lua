@@ -465,15 +465,13 @@ function var_0_0.UpdateView(arg_50_0)
 		local var_50_9 = Dorm3dFurnitureSlot.New({
 			configId = arg_50_0.selectSlotId
 		})
+		local var_50_10 = arg_50_0.room:GetFurnitures()
+		local var_50_11 = _.detect(var_50_10, function(arg_64_0)
+			return arg_64_0:GetSlotID() == var_50_9:GetConfigID()
+		end)
 
-		if var_50_9:GetType() == Dorm3dFurniture.TYPE.DECORATION or var_50_9:GetType() == Dorm3dFurniture.TYPE.SPECIAL then
-			local var_50_10 = arg_50_0.room:GetFurnitures()
-
-			if _.detect(var_50_10, function(arg_64_0)
-				return arg_64_0:GetSlotID() == var_50_9:GetConfigID()
-			end) then
-				arg_50_0:CleanSlot()
-			end
+		if var_50_11 and (var_50_9:GetType() == Dorm3dFurniture.TYPE.DECORATION or var_50_9:GetType() == Dorm3dFurniture.TYPE.SPECIAL or var_50_11:CanRemove()) then
+			arg_50_0:CleanSlot()
 		end
 	end
 

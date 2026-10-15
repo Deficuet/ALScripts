@@ -1935,6 +1935,30 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ActivityRemaster_NoticeJump_AlreadySelected = {
+		tip = "当前已有开启中的轻量化复刻活动，请通过主界面活动入口进入"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ActivityRemasterCoreActivityAdaptUI_TITLE_EN = {
+		tip = "ACTIVITY"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_leave = {
+		tip = "离开"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_suggestion_next_chapter = {
+		tip = "下一章"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.cruise_task_help_2606 = {
 		tip = {
 			{
@@ -1947,6 +1971,12 @@ end)()
 (function()
 	_G.pg.base.gametip.island_production_cost_notenough = {
 		tip = "无法委派，请查看所需资材和角色体力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_suggestion_prev_chapter = {
+		tip = "上一章"
 	}
 end)()
 
@@ -1985,8 +2015,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.formation_suggestion_info_level_recommend = {
+		tip = "推荐等级：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_suggestion_info_obtain = {
+		tip = "获取途径：$1"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.holiday_tip_trans_desc1 = {
 		tip = "海岛别墅的主码头，可供大型邮轮和运输船停靠。入口处竖着一块印着猫猫爪印的巨大欢迎牌，附带方向指引。——终点果然是某绿头猫咪的贵价果汁摊。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mingshi_task_tip_3 = {
+		tip = "被发现了喵？\n暗号是……<<color=#92fc63>U</color>>\n下一个目标是……<<color=#92fc63>军火之店</color>>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_suggestion_info_equip_tip = {
+		tip = "部分装备获取难度较高，可更换对应下位装备作为临时配装使用"
 	}
 end)()
 
@@ -1999,6 +2053,30 @@ end)()
 (function()
 	_G.pg.base.gametip.guild_duty_shoule_be_deputy_commander = {
 		tip = "舰队司令仅能从副司令成员中任命"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_suggestion_info_equip_copy = {
+		tip = "复制装备码"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_suggestion_info_equip_transitional = {
+		tip = "下位替代"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_suggestion_info_equip_recommend = {
+		tip = "推荐装备"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_suggestion_info_go_dock = {
+		tip = "前往船坞"
 	}
 end)()
 
@@ -2027,6 +2105,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.formation_suggestion_info_got = {
+		tip = "已获取"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_suggestion_info_not_get = {
+		tip = "未获取"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.Supplement_pay2 = {
 		tip = "完成右侧全部异常交易补款后，才能继续进行游戏"
 	}
@@ -2039,14 +2129,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.formation_suggestion_info_level = {
+		tip = "等级：Lv.$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_draw_C = {
+		tip = "C奖"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.data_erro = {
 		tip = "数据出错啦"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.number_3 = {
+		tip = "三"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.mini_game_crossroad_cnt = {
 		tip = "已通过角色："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_suggestion_tip_title = {
+		tip = "推荐编队"
 	}
 end)()
 
@@ -2105,14 +2219,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ActivityRemasterCoreActivityAdaptUI_TITLE_EN = {
-		tip = "ACTIVITY"
+	_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_addShipNoFood = {
+		tip = "当前<color=#92fc63>存粮不足</color>，是否补充食物？"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_leave = {
-		tip = "离开"
+	_G.pg.base.gametip.formation_suggestion = {
+		tip = "编队指引"
 	}
 end)()
 
@@ -21341,8 +21455,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_C = {
-		tip = "C奖"
+	_G.pg.base.gametip.formation_suggestion_info_title = {
+		tip = "养成建议"
 	}
 end)()
 
@@ -33327,7 +33441,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.buildship_heavy_tip = {
-		tip = "亚尔薇特 建造追加！"
+		tip = "安妮女王复仇号、冈依沙瓦号 等角色 建造追加！"
 	}
 end)()
 
@@ -45315,8 +45429,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mingshi_task_tip_3 = {
-		tip = "被发现了喵？\n暗号是……<<color=#92fc63>U</color>>\n下一个目标是……<<color=#92fc63>军火之店</color>>"
+	_G.pg.base.gametip.formation_suggestion_info_back = {
+		tip = "返回编队指引"
 	}
 end)()
 
@@ -48386,8 +48500,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_addShipNoFood = {
-		tip = "当前<color=#92fc63>存粮不足</color>，是否补充食物？"
+	_G.pg.base.gametip.formation_suggestion_tip = {
+		tip = "点击角色可查看推荐配装。编队仅供参考，指挥官可根据已获取舰船类型及参数，自行调整阵容与装备"
 	}
 end)()
 
@@ -50446,8 +50560,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.number_3 = {
-		tip = "三"
+	_G.pg.base.gametip.formation_suggestion_any_type_ship = {
+		tip = "任意$1"
 	}
 end)()
 
@@ -50942,7 +51056,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.buildship_light_tip = {
-		tip = "{namecode:494} 建造追加！"
+		tip = "莱姆号、幻想号 等角色 建造追加！"
 	}
 end)()
 
@@ -52515,7 +52629,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.buildship_special_tip = {
-		tip = "{namecode:536} 建造追加！"
+		tip = "和睦号 建造追加！"
 	}
 end)()
 

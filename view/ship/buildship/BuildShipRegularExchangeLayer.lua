@@ -4,7 +4,7 @@ function var_0_0.getUIName(arg_1_0)
 	return "BuildShipRegularExchangeUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"regularexchangeicon",
 		"shiptype"
@@ -30,7 +30,7 @@ function var_0_0.preload(arg_3_0, arg_3_1)
 
 	AssetBundleHelper.LoadManyAssets("RegularExchangeIcon", underscore.map(arg_3_0.ids, function(arg_4_0)
 		return tostring(arg_4_0)
-	end), nil, true, function(arg_5_0)
+	end), typeof(Sprite), true, function(arg_5_0)
 		for iter_5_0, iter_5_1 in pairs(arg_5_0) do
 			arg_3_0.iconSprites[tonumber(iter_5_0)] = iter_5_1
 		end

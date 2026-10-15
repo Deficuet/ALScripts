@@ -5,7 +5,7 @@ var_0_0.UPDATE_ACTIVITY = "ActivityMainScene:UPDATE_ACTIVITY"
 var_0_0.GET_PAGE_BGM = "ActivityMainScene.GET_PAGE_BGM"
 var_0_0.FLUSH_TABS = "ActivityMainScene.FLUSH_TABS"
 
-function var_0_0.getResource(arg_1_0, arg_1_1)
+function var_0_0.getResource(arg_1_0)
 	local var_1_0 = {
 		"activitybanner",
 		"activityuitable",

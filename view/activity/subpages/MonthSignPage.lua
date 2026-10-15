@@ -19,7 +19,7 @@ function var_0_0.getResource(arg_1_0, arg_1_1)
 		"ui/iconcolorful"
 	}
 
-	table.insertto(var_1_0, var_0_0.super.getResource(arg_1_0, arg_1_1))
+	table.insertto(var_1_0, var_0_0.super.getResource(arg_1_0))
 
 	return var_1_0
 end

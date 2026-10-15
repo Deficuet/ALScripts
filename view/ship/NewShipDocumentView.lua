@@ -4,9 +4,9 @@ function var_0_0.getUIName(arg_1_0)
 	return "NewShipDocumentView"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {}
-	local var_2_1 = arg_2_1.ship
+	local var_2_1 = arg_2_0.contextData.ship
 
 	if var_2_1 then
 		local var_2_2 = var_2_1:getMaxConfigId()

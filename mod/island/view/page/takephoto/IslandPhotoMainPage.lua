@@ -27,7 +27,8 @@ function var_0_0.OnLoaded(arg_2_0)
 	setActive(arg_2_0.hideuiMask, false)
 
 	arg_2_0.ysScreenShoter = arg_2_0._tf:Find("Shoter"):GetComponent(typeof(YSTool.YSScreenShoter))
-	arg_2_0.stopRecBtn = arg_2_0._tf:Find("stopRec")
+	arg_2_0.stopRecTf = arg_2_0._tf:Find("stopRec")
+	arg_2_0.stopRecBtn = arg_2_0._tf:Find("stopRec/stopRec")
 	arg_2_0.videoTipPanel = arg_2_0._tf:Find("videoTipPanel")
 
 	setActive(arg_2_0.videoTipPanel, false)
@@ -189,7 +190,7 @@ function var_0_0.OnInit(arg_5_0)
 			end
 
 			local function var_21_2()
-				setActive(arg_5_0.stopRecBtn, true)
+				setActive(arg_5_0.stopRecTf, true)
 				LeanTween.moveX(arg_5_0.stopRecBtn, 0, 0.15):setOnComplete(System.Action(function()
 					var_0_0.SetMute(true)
 
@@ -262,7 +263,7 @@ function var_0_0.OnInit(arg_5_0)
 
 		if not LeanTween.isTweening(go(arg_5_0.stopRecBtn)) then
 			LeanTween.moveX(arg_5_0.stopRecBtn, arg_5_0.stopRecBtn.rect.width, 0.15):setOnComplete(System.Action(function()
-				setActive(arg_5_0.stopRecBtn, false)
+				setActive(arg_5_0.stopRecTf, false)
 				seriesAsync({
 					function(arg_36_0)
 						YSNormalTool.RecordTool.StopRecording(var_29_0)
@@ -273,7 +274,7 @@ function var_0_0.OnInit(arg_5_0)
 			end))
 		end
 	end)
-	setActive(arg_5_0.stopRecBtn, false)
+	setActive(arg_5_0.stopRecTf, false)
 end
 
 function var_0_0.ChangeSliderValue(arg_37_0, arg_37_1)

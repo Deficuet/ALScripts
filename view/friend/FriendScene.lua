@@ -9,7 +9,7 @@ function var_0_0.getUIName(arg_1_0)
 	return "FriendUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"ui/friendsui_atlas"
 	}
@@ -46,7 +46,7 @@ function var_0_0.getResource(arg_2_0, arg_2_1)
 		var_2_2(iter_2_5)
 	end
 
-	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_2_0, arg_2_1), var_2_0, var_2_1))
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_2_0), var_2_0, var_2_1))
 end
 
 function var_0_0.setFriendVOs(arg_4_0, arg_4_1)

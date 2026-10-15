@@ -13,9 +13,9 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	setText(arg_2_0._tf:Find("top/title/Text"), i18n("island_manage_title"))
+	setText(arg_2_0._tf:Find("adapt/top/title/Text"), i18n("island_manage_title"))
 
-	arg_2_0.rankTF = arg_2_0._tf:Find("rank")
+	arg_2_0.rankTF = arg_2_0._tf:Find("adapt/rank")
 	arg_2_0.rankIcon = arg_2_0.rankTF:Find("icon")
 	arg_2_0.rankSlider = arg_2_0.rankTF:Find("exp")
 	arg_2_0.rankText = arg_2_0.rankTF:Find("exp/progress")
@@ -96,13 +96,13 @@ function var_0_0.OnLoaded(arg_2_0)
 end
 
 function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0._tf:Find("top/title/help"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("adapt/top/title/help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.island_help_manage.tip
 		})
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0._tf:Find("top/back"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("adapt/top/back"), function()
 		arg_3_0:Hide()
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.rankTF, function()

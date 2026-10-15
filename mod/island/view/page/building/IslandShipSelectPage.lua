@@ -5,8 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.backBtn = arg_2_0._tf:Find("top/back")
-	arg_2_0.title = arg_2_0._tf:Find("top/title/Text")
+	arg_2_0.backBtn = arg_2_0._tf:Find("adapt/top/back")
+	arg_2_0.title = arg_2_0._tf:Find("adapt/top/title/Text")
 
 	setText(arg_2_0.title, i18n("island_select_ship"))
 
@@ -183,7 +183,7 @@ function var_0_0.OnInit(arg_8_0)
 			content = i18n("island_manage_help_tip")
 		})
 	end, SFX_PANEL)
-	onButton(arg_8_0, arg_8_0._tf:Find("top/title/help"), function()
+	onButton(arg_8_0, arg_8_0._tf:Find("adapt/top/title/help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.island_help_commission.tip

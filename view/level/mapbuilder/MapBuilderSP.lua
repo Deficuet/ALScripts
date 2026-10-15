@@ -121,9 +121,10 @@ function var_0_0.UpdateButtons(arg_9_0)
 
 	setActive(arg_9_0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and var_9_3 and not var_9_2 and var_9_1 and arg_9_0.sceneParent:IsActShopActive())
 
-	local var_9_4 = (arg_9_0.contextData.map and getProxy(ActivityProxy):getActivityById(arg_9_0.contextData.map:getConfig("on_activity")) or nil):GetConfigClientPTActivity()
+	local var_9_4 = arg_9_0.contextData.map and getProxy(ActivityProxy):getActivityById(arg_9_0.contextData.map:getConfig("on_activity")) or nil
+	local var_9_5 = var_9_4 and var_9_4:GetConfigClientPTActivity() or nil
 
-	arg_9_0.sceneParent:updatePtActivity(var_9_4)
+	arg_9_0.sceneParent:updatePtActivity(var_9_5)
 	setActive(arg_9_0.sceneParent.rightChapter:Find("event_btns/tickets"), var_9_2)
 	arg_9_0.sceneParent:updateRemasterTicket()
 	setActive(arg_9_0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not var_9_2 and var_9_1 and arg_9_0.sceneParent.ptActivity and not arg_9_0.sceneParent.ptActivity:isEnd() and var_9_3)

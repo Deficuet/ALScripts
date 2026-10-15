@@ -1,7 +1,7 @@
 ResList = ResList or {}
-ResList.ChapterPreCombatLayer = {}
+ResList.ChapterPreCombatLayerResConst = {}
 
-local var_0_0 = ResList.ChapterPreCombatLayer
+local var_0_0 = ResList.ChapterPreCombatLayerResConst
 
 function var_0_0.GetConstResource()
 	return {

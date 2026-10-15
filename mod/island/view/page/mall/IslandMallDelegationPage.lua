@@ -6,13 +6,13 @@ end
 
 function var_0_0.OnInit(arg_2_0)
 	var_0_0.super.OnInit(arg_2_0)
-	onButton(arg_2_0, arg_2_0._tf:Find("handbookBtn"), function()
+	onButton(arg_2_0, arg_2_0._tf:Find("adapt/handbookBtn"), function()
 		arg_2_0:OpenPage(IslandSetMealHandbookPage)
 	end)
 
 	local var_2_0 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
 
-	setActive(arg_2_0._tf:Find("handbookBtn"), var_2_0:HasAbility(29001))
+	setActive(arg_2_0._tf:Find("adapt/handbookBtn"), var_2_0:HasAbility(29001))
 end
 
 return var_0_0

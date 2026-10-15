@@ -13,7 +13,7 @@ function var_0_0.getUIName(arg_1_0)
 	return "WorldCruiseUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"ui/WorldCruiseUI",
 		"ui/WorldCruiseAwardPage",
@@ -141,7 +141,7 @@ function var_0_0.getResource(arg_2_0, arg_2_1)
 		return var_8_0
 	end
 
-	return ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_2_0, arg_2_1), var_2_0, var_2_2(), var_2_5(), var_2_6(), var_2_7())
+	return ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_2_0), var_2_0, var_2_2(), var_2_5(), var_2_6(), var_2_7())
 end
 
 function var_0_0.preload(arg_9_0, arg_9_1)

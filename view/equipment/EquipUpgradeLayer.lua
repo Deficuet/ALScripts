@@ -6,14 +6,14 @@ function var_0_0.getUIName(arg_1_0)
 	return "EquipUpgradeUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"weaponframes",
 		"shiptype",
 		"ui/iconcolorful"
 	}
 
-	table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0, arg_2_1))
+	table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0))
 
 	return var_2_0
 end

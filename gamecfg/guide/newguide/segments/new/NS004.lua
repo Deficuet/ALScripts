@@ -109,7 +109,7 @@ return {
 				text = var_0_0[6]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
+				path = "OverlayCamera/Overlay/UIMain/blur_panel/select_panel_adapt/select_panel/confirm_button",
 				pathIndex = -1,
 				triggerType = {
 					1

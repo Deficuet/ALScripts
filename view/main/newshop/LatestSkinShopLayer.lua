@@ -55,15 +55,16 @@ function var_0_0.getGroupName(arg_4_0)
 	return "NewShopMainScene"
 end
 
-function var_0_0.getResource(arg_5_0, arg_5_1)
+function var_0_0.getResource(arg_5_0)
 	local var_5_0 = {
 		"ui/LatestSkinShopUI",
 		"ui/SkinShopUI_atlas",
 		"skinicon"
 	}
 	local var_5_1 = pg.ship_skin_template
+	local var_5_2 = arg_5_0.contextData
 
-	local function var_5_2(arg_6_0)
+	local function var_5_3(arg_6_0)
 		local var_6_0 = Goods.Create({
 			shop_id = arg_6_0
 		}, Goods.TYPE_CHARGE)
@@ -75,19 +76,19 @@ function var_0_0.getResource(arg_5_0, arg_5_1)
 		return var_6_0
 	end
 
-	local function var_5_3()
-		if arg_5_1.skinCommodities then
-			return arg_5_1.skinCommodities
+	local function var_5_4()
+		if var_5_2.skinCommodities then
+			return var_5_2.skinCommodities
 		end
 
-		if arg_5_1.commodityId or arg_5_1.giftPackCommodity then
-			local var_7_0 = (arg_5_1.giftPackCommodity or var_5_2(arg_5_1.commodityId)):GetSkinProbability()
+		if var_5_2.commodityId or var_5_2.giftPackCommodity then
+			local var_7_0 = (var_5_2.giftPackCommodity or var_5_3(var_5_2.commodityId)):GetSkinProbability()
 
 			return getProxy(ShipSkinProxy):GetProbabilitySkins(var_7_0)
 		end
 
-		local var_7_1 = arg_5_1.type or var_0_0.TYPE_PERMANANT_SKIN
-		local var_7_2 = arg_5_1.mode or var_0_0.MODE_OVERVIEW
+		local var_7_1 = var_5_2.type or var_0_0.TYPE_PERMANANT_SKIN
+		local var_7_2 = var_5_2.mode or var_0_0.MODE_OVERVIEW
 		local var_7_3 = {}
 
 		if var_7_1 == var_0_0.TYPE_NEW_SKIN then
@@ -121,7 +122,7 @@ function var_0_0.getResource(arg_5_0, arg_5_1)
 		return var_7_3
 	end
 
-	local var_5_4 = (function(arg_9_0)
+	local var_5_5 = (function(arg_9_0)
 		local var_9_0 = {}
 
 		for iter_9_0, iter_9_1 in ipairs(arg_9_0) do
@@ -146,9 +147,9 @@ function var_0_0.getResource(arg_5_0, arg_5_1)
 		end
 
 		return var_9_0
-	end)(var_5_3())
+	end)(var_5_4())
 
-	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_5_0, arg_5_1), var_5_0, var_5_4))
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_5_0), var_5_0, var_5_5))
 end
 
 function var_0_0.init(arg_10_0)

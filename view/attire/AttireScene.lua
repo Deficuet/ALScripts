@@ -59,7 +59,7 @@ function var_0_0.getResource(arg_2_0)
 		return var_4_1
 	end
 
-	local function var_2_3()
+	local var_2_3 = (function()
 		local var_5_0 = {}
 
 		local function var_5_1(arg_6_0)
@@ -105,111 +105,94 @@ function var_0_0.getResource(arg_2_0)
 		end
 
 		return var_5_0
-	end
+	end)()
+	local var_2_4 = var_2_2()
+	local var_2_5 = CombatPreviewLayer.PushAllResource()
 
-	local function var_2_4()
-		local var_7_0 = {}
-
-		for iter_7_0, iter_7_1 in ipairs(pg.gallery_config.all) do
-			var_2_1(var_7_0, GalleryConst.GetGalleryPicPathByID(iter_7_1))
-		end
-
-		for iter_7_2, iter_7_3 in ipairs(pg.cartoon.all) do
-			var_2_1(var_7_0, MangaConst.GetMangaPicPathByID(iter_7_3))
-		end
-
-		return var_7_0
-	end
-
-	local var_2_5 = var_2_3()
-	local var_2_6 = var_2_2()
-	local var_2_7 = var_2_4()
-	local var_2_8 = CombatPreviewLayer.PushAllResource()
-
-	return ResPathSupport.MergeLuaArr(var_2_0, var_2_6, var_2_5, var_2_7, var_2_8)
+	return ResPathSupport.MergeLuaArr(var_2_0, var_2_4, var_2_3, var_2_5)
 end
 
-function var_0_0.setAttires(arg_8_0, arg_8_1)
-	arg_8_0.rawAttireVOs = arg_8_1
+function var_0_0.setAttires(arg_7_0, arg_7_1)
+	arg_7_0.rawAttireVOs = arg_7_1
 
-	arg_8_0:updateTips(getProxy(AttireProxy):needTip(arg_8_1))
+	arg_7_0:updateTips(getProxy(AttireProxy):needTip(arg_7_1))
 end
 
-function var_0_0.setPlayer(arg_9_0, arg_9_1)
-	arg_9_0.playerVO = arg_9_1
+function var_0_0.setPlayer(arg_8_0, arg_8_1)
+	arg_8_0.playerVO = arg_8_1
 end
 
-function var_0_0.init(arg_10_0)
-	arg_10_0.backBtn = arg_10_0._tf:Find("blur_panel/adapt/top/back_btn")
-	arg_10_0.blurPanel = arg_10_0._tf:Find("blur_panel")
-	arg_10_0.toggles = {
-		arg_10_0.blurPanel:Find("adapt/left_length/frame/tagRoot/iconframe"),
-		arg_10_0.blurPanel:Find("adapt/left_length/frame/tagRoot/chatframe"),
-		arg_10_0.blurPanel:Find("adapt/left_length/frame/tagRoot/achievement"),
-		arg_10_0.blurPanel:Find("adapt/left_length/frame/tagRoot/combatUI"),
-		arg_10_0.blurPanel:Find("adapt/left_length/frame/tagRoot/loadingpic")
+function var_0_0.init(arg_9_0)
+	arg_9_0.backBtn = arg_9_0._tf:Find("blur_panel/adapt/top/back_btn")
+	arg_9_0.blurPanel = arg_9_0._tf:Find("blur_panel")
+	arg_9_0.toggles = {
+		arg_9_0.blurPanel:Find("adapt/left_length/frame/tagRoot/iconframe"),
+		arg_9_0.blurPanel:Find("adapt/left_length/frame/tagRoot/chatframe"),
+		arg_9_0.blurPanel:Find("adapt/left_length/frame/tagRoot/achievement"),
+		arg_9_0.blurPanel:Find("adapt/left_length/frame/tagRoot/combatUI"),
+		arg_9_0.blurPanel:Find("adapt/left_length/frame/tagRoot/loadingpic")
 	}
-	arg_10_0.panels = {
-		AttireIconFramePanel.New(arg_10_0._tf, arg_10_0.event, arg_10_0.contextData),
-		AttireChatFramePanel.New(arg_10_0._tf, arg_10_0.event, arg_10_0.contextData),
-		AttireAchievementPanel.New(arg_10_0._tf, arg_10_0.event, arg_10_0.contextData),
-		AttireCombatUIPanel.New(arg_10_0._tf, arg_10_0.event, arg_10_0.contextData),
-		AttireLoadingPicPanel.New(arg_10_0._tf, arg_10_0.event, arg_10_0.contextData)
+	arg_9_0.panels = {
+		AttireIconFramePanel.New(arg_9_0._tf, arg_9_0.event, arg_9_0.contextData),
+		AttireChatFramePanel.New(arg_9_0._tf, arg_9_0.event, arg_9_0.contextData),
+		AttireAchievementPanel.New(arg_9_0._tf, arg_9_0.event, arg_9_0.contextData),
+		AttireCombatUIPanel.New(arg_9_0._tf, arg_9_0.event, arg_9_0.contextData),
+		AttireLoadingPicPanel.New(arg_9_0._tf, arg_9_0.event, arg_9_0.contextData)
 	}
 end
 
-function var_0_0.didEnter(arg_11_0)
-	onButton(arg_11_0, arg_11_0.backBtn, function()
-		arg_11_0:emit(var_0_0.ON_BACK)
+function var_0_0.didEnter(arg_10_0)
+	onButton(arg_10_0, arg_10_0.backBtn, function()
+		arg_10_0:emit(var_0_0.ON_BACK)
 	end, SOUND_BACK)
 
-	for iter_11_0, iter_11_1 in ipairs(arg_11_0.toggles) do
-		onToggle(arg_11_0, iter_11_1, function(arg_13_0)
-			if arg_13_0 then
-				arg_11_0:switchPage(iter_11_0)
+	for iter_10_0, iter_10_1 in ipairs(arg_10_0.toggles) do
+		onToggle(arg_10_0, iter_10_1, function(arg_12_0)
+			if arg_12_0 then
+				arg_10_0:switchPage(iter_10_0)
 			end
 		end, SFX_PANEL)
 	end
 
-	local var_11_0 = arg_11_0.contextData.index or var_0_0.PAGE_ICONFRAME
+	local var_10_0 = arg_10_0.contextData.index or var_0_0.PAGE_ICONFRAME
 
-	triggerToggle(arg_11_0.toggles[var_11_0], true)
+	triggerToggle(arg_10_0.toggles[var_10_0], true)
 end
 
-function var_0_0.switchPage(arg_14_0, arg_14_1)
-	if arg_14_0.page then
-		arg_14_0.panels[arg_14_0.page]:ActionInvoke("Hide")
+function var_0_0.switchPage(arg_13_0, arg_13_1)
+	if arg_13_0.page then
+		arg_13_0.panels[arg_13_0.page]:ActionInvoke("Hide")
 	end
 
-	arg_14_0.page = arg_14_1
+	arg_13_0.page = arg_13_1
 
-	arg_14_0.panels[arg_14_0.page]:Load()
-	arg_14_0.panels[arg_14_0.page]:ActionInvoke("Show")
-	arg_14_0:updateCurrPage()
+	arg_13_0.panels[arg_13_0.page]:Load()
+	arg_13_0.panels[arg_13_0.page]:ActionInvoke("Show")
+	arg_13_0:updateCurrPage()
 end
 
-function var_0_0.updateCurrPage(arg_15_0)
-	assert(arg_15_0.page)
-	arg_15_0.panels[arg_15_0.page]:ActionInvoke("Update", arg_15_0.rawAttireVOs, arg_15_0.playerVO)
+function var_0_0.updateCurrPage(arg_14_0)
+	assert(arg_14_0.page)
+	arg_14_0.panels[arg_14_0.page]:ActionInvoke("Update", arg_14_0.rawAttireVOs, arg_14_0.playerVO)
 end
 
-function var_0_0.updateTips(arg_16_0, arg_16_1)
-	for iter_16_0, iter_16_1 in ipairs(arg_16_1) do
-		setActive(arg_16_0.toggles[iter_16_0]:Find("tip"), iter_16_1)
+function var_0_0.updateTips(arg_15_0, arg_15_1)
+	for iter_15_0, iter_15_1 in ipairs(arg_15_1) do
+		setActive(arg_15_0.toggles[iter_15_0]:Find("tip"), iter_15_1)
 	end
 end
 
-function var_0_0.onBackPressed(arg_17_0)
-	if arg_17_0.panels[arg_17_0.page].onBackPressed and arg_17_0.panels[arg_17_0.page]:onBackPressed() then
+function var_0_0.onBackPressed(arg_16_0)
+	if arg_16_0.panels[arg_16_0.page].onBackPressed and arg_16_0.panels[arg_16_0.page]:onBackPressed() then
 		-- block empty
 	else
-		var_0_0.super.onBackPressed(arg_17_0)
+		var_0_0.super.onBackPressed(arg_16_0)
 	end
 end
 
-function var_0_0.willExit(arg_18_0)
-	for iter_18_0, iter_18_1 in ipairs(arg_18_0.panels) do
-		iter_18_1:Destroy()
+function var_0_0.willExit(arg_17_0)
+	for iter_17_0, iter_17_1 in ipairs(arg_17_0.panels) do
+		iter_17_1:Destroy()
 	end
 end
 

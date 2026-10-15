@@ -7,25 +7,25 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.backBtn = arg_2_0._tf:Find("top/back")
-	arg_2_0.favorBtn = arg_2_0._tf:Find("top/favor_bg")
-	arg_2_0.levelTxt = arg_2_0._tf:Find("top/favor_bg/level"):GetComponent(typeof(Text))
-	arg_2_0.expTxt = arg_2_0._tf:Find("top/favor_bg/Text"):GetComponent(typeof(Text))
-	arg_2_0.charTr = arg_2_0._tf:Find("bottom/char")
+	arg_2_0.backBtn = arg_2_0._tf:Find("adapt/top/back")
+	arg_2_0.favorBtn = arg_2_0._tf:Find("adapt/top/favor_bg")
+	arg_2_0.levelTxt = arg_2_0._tf:Find("adapt/top/favor_bg/level"):GetComponent(typeof(Text))
+	arg_2_0.expTxt = arg_2_0._tf:Find("adapt/top/favor_bg/Text"):GetComponent(typeof(Text))
+	arg_2_0.charTr = arg_2_0._tf:Find("adapt/bottom/char")
 	arg_2_0.chatTxt = arg_2_0.charTr:Find("dialogue/Text"):GetComponent(typeof(Text))
-	arg_2_0.trendBtn = arg_2_0._tf:Find("trend_btn")
+	arg_2_0.trendBtn = arg_2_0._tf:Find("adapt/trend_btn")
 	arg_2_0.trendIco = arg_2_0.trendBtn:Find("difficulty"):GetComponent(typeof(Image))
 	arg_2_0.trendTxt = arg_2_0.trendBtn:Find("Text"):GetComponent(typeof(Text))
 	arg_2_0.orderContainer = arg_2_0._tf:Find("map")
 	arg_2_0.upgradePage = IslandOrderUpgradePage.New(arg_2_0._parentTf)
-	arg_2_0.countTxt = arg_2_0._tf:Find("count_bg/Text"):GetComponent(typeof(Text))
+	arg_2_0.countTxt = arg_2_0._tf:Find("adapt/count_bg/Text"):GetComponent(typeof(Text))
 	arg_2_0.orderTplPool = OrderTplPool.New(arg_2_0._tf:Find("root/orderTpl"), 3, 6)
 	arg_2_0.orderTpls = {}
 	arg_2_0.timers = {}
 	arg_2_0.disappearTimers = {}
 
 	setActive(arg_2_0.charTr, false)
-	setText(arg_2_0._tf:Find("top/title/Text"), i18n("island_order_title"))
+	setText(arg_2_0._tf:Find("adapt/top/title/Text"), i18n("island_order_title"))
 end
 
 function var_0_0.OnHide(arg_3_0)
@@ -36,7 +36,7 @@ function var_0_0.OnHide(arg_3_0)
 end
 
 function var_0_0.OnInit(arg_4_0)
-	onButton(arg_4_0, arg_4_0._tf:Find("top/title/help"), function()
+	onButton(arg_4_0, arg_4_0._tf:Find("adapt/top/title/help"), function()
 		arg_4_0:ShowMsgBox({
 			type = IslandMsgBox.TYPE_WHITOUT_BTN,
 			content = i18n("island_helpbtn_order")

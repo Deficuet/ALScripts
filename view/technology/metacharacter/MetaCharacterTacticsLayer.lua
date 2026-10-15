@@ -4,14 +4,14 @@ function var_0_0.getUIName(arg_1_0)
 	return "MetaCharacterTacticsUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"ui/metacharactertacticsui",
 		"ui/iconcolorful"
 	}
 	local var_2_1 = {}
 	local var_2_2 = {}
-	local var_2_3 = arg_2_1 and arg_2_1.shipID
+	local var_2_3 = arg_2_0.contextData.shipID
 	local var_2_4 = var_2_3 and getProxy(BayProxy):getShipById(var_2_3)
 
 	if var_2_4 then
@@ -34,7 +34,7 @@ function var_0_0.getResource(arg_2_0, arg_2_1)
 		end
 	end
 
-	return ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_2_0, arg_2_1), var_2_0, var_2_1, var_2_2)
+	return ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_2_0), var_2_0, var_2_1, var_2_2)
 end
 
 function var_0_0.init(arg_3_0)

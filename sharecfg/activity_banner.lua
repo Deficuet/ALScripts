@@ -6,8 +6,6 @@ pg.activity_banner.all = {
 	1,
 	2,
 	3,
-	4,
-	5,
 	6,
 	7,
 	8,
@@ -56,9 +54,6 @@ pg.activity_banner.get_id_list_by_type = {
 		1,
 		2,
 		3,
-		4,
-		5,
-		6,
 		7,
 		8,
 		9,
@@ -90,6 +85,9 @@ pg.activity_banner.get_id_list_by_type = {
 		1062,
 		1063,
 		1064
+	},
+	[3] = {
+		6
 	},
 	[9] = {
 		90,
@@ -129,7 +127,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					8
+					15
 				},
 				{
 					0,
@@ -141,7 +139,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					14
+					17
 				},
 				{
 					23,
@@ -154,43 +152,41 @@ pg.base.activity_banner = {}
 	pg.base.activity_banner[2] = {
 		id = 2,
 		pic = "temp2",
-		time = "stop",
 		type = 2,
 		param = {
-			"scene get boat",
+			"scene skinshop",
+			{}
+		},
+		time = {
 			{
-				projectName = "new",
-				page = 1
+				{
+					2026,
+					10,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	}
 	pg.base.activity_banner[3] = {
 		id = 3,
 		pic = "temp3",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		}
-	}
-	pg.base.activity_banner[4] = {
-		id = 4,
-		pic = "temp4",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene core activity",
-			{
-				coreName = "StarsCityCoreActivityUI"
-			}
-		}
-	}
-	pg.base.activity_banner[5] = {
-		id = 5,
-		pic = "temp5",
 		type = 2,
 		param = {
 			"scene charge",
@@ -203,7 +199,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					8
+					15
 				},
 				{
 					0,
@@ -215,7 +211,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					14
+					21
 				},
 				{
 					23,
@@ -226,12 +222,35 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[6] = {
+		param = "51201",
 		id = 6,
 		pic = "temp6",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene court yard"
+		type = 3,
+		time = {
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
 		}
 	}
 	pg.base.activity_banner[7] = {
@@ -239,18 +258,14 @@ pg.base.activity_banner = {}
 		pic = "temp7",
 		type = 2,
 		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2026,
 					10,
-					8
+					15
 				},
 				{
 					0,
@@ -262,7 +277,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					15
+					22
 				},
 				{
 					12,
@@ -296,7 +311,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					15
+					22
 				},
 				{
 					12,
@@ -309,10 +324,39 @@ pg.base.activity_banner = {}
 	pg.base.activity_banner[9] = {
 		id = 9,
 		pic = "temp9",
-		time = "stop",
 		type = 2,
 		param = {
-			"dorm 3d select"
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = true
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					22
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
 		}
 	}
 	pg.base.activity_banner[90] = {

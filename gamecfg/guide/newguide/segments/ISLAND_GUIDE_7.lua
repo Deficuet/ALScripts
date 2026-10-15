@@ -151,7 +151,7 @@ return {
 				uiset = {}
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/UIIsland/layer1/ui/IslandOrderUI(Clone)/top/back",
+				path = "UICamera/Canvas/UIMain/UIIsland/layer1/ui/IslandOrderUI(Clone)/adapt/top/back",
 				pathIndex = -1
 			}
 		},
@@ -200,7 +200,7 @@ return {
 				uiset = {}
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/UIIsland/layer1/ui/IslandOrderUI(Clone)/top/back",
+				path = "UICamera/Canvas/UIMain/UIIsland/layer1/ui/IslandOrderUI(Clone)/adapt/top/back",
 				pathIndex = -1
 			}
 		}

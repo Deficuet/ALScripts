@@ -4,9 +4,9 @@ function var_0_0.getUIName(arg_1_0)
 	return "SkillInfoUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {}
-	local var_2_1 = arg_2_1.skillId
+	local var_2_1 = arg_2_0.contextData.skillId
 	local var_2_2 = getSkillConfig(var_2_1)
 	local var_2_3 = ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.ShipSkillIcon, var_2_2.icon)
 

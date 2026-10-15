@@ -10,8 +10,9 @@ function var_0_0.getUIName(arg_1_0)
 	return "BillboardUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
-	local var_2_0 = {
+function var_0_0.getResource(arg_2_0)
+	local var_2_0 = arg_2_0.contextData
+	local var_2_1 = {
 		"commonbg/bg_fengshan",
 		"billboardframe",
 		"weaponframes",
@@ -19,66 +20,66 @@ function var_0_0.getResource(arg_2_0, arg_2_1)
 		"ui/iconcolorful"
 	}
 
-	local function var_2_1(arg_3_0)
-		if noEmptyStr(arg_3_0) and not table.contains(var_2_0, arg_3_0) then
-			table.insert(var_2_0, arg_3_0)
+	local function var_2_2(arg_3_0)
+		if noEmptyStr(arg_3_0) and not table.contains(var_2_1, arg_3_0) then
+			table.insert(var_2_1, arg_3_0)
 		end
 	end
 
 	for iter_2_0, iter_2_1 in pairs(PowerRank.typeInfo) do
-		local var_2_2 = iter_2_1.score_icon
+		local var_2_3 = iter_2_1.score_icon
 
-		if var_2_2 and var_2_2[1] then
-			var_2_1(var_2_2[1])
+		if var_2_3 and var_2_3[1] then
+			var_2_2(var_2_3[1])
 		end
 	end
 
-	local var_2_3 = getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK)
+	local var_2_4 = getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK)
 
-	for iter_2_2, iter_2_3 in ipairs(var_2_3) do
+	for iter_2_2, iter_2_3 in ipairs(var_2_4) do
 		if not iter_2_3:isEnd() and tonumber(iter_2_3:getConfig("config_data")) > 0 then
-			local var_2_4 = iter_2_3:getConfig("config_id")
-			local var_2_5 = Drop.New({
+			local var_2_5 = iter_2_3:getConfig("config_id")
+			local var_2_6 = Drop.New({
 				type = DROP_TYPE_RESOURCE,
-				id = var_2_4
+				id = var_2_5
 			}):getIcon()
 
-			var_2_1(var_2_5)
+			var_2_2(var_2_6)
 		end
 	end
 
-	local var_2_6 = checkExist(arg_2_1, {
+	local var_2_7 = checkExist(var_2_0, {
 		"page"
 	}) or PowerRank.TYPE_POWER
-	local var_2_7 = checkExist(arg_2_1, {
+	local var_2_8 = checkExist(var_2_0, {
 		"act_id"
-	}) or checkExist(PowerRank:getActivityByRankType(var_2_6), {
+	}) or checkExist(PowerRank:getActivityByRankType(var_2_7), {
 		"id"
 	})
-	local var_2_8 = getProxy(BillboardProxy):getRankList(var_2_6, var_2_7)
+	local var_2_9 = getProxy(BillboardProxy):getRankList(var_2_7, var_2_8)
 
-	for iter_2_4, iter_2_5 in ipairs(var_2_8 or {}) do
-		var_2_1("emblem/" .. iter_2_5.arenaRank)
-		var_2_1("emblem/n_" .. iter_2_5.arenaRank)
+	for iter_2_4, iter_2_5 in ipairs(var_2_9 or {}) do
+		var_2_2("emblem/" .. iter_2_5.arenaRank)
+		var_2_2("emblem/n_" .. iter_2_5.arenaRank)
 	end
 
-	if not var_2_8 then
+	if not var_2_9 then
 		for iter_2_6 = 1, #pg.arena_data_rank.all do
-			var_2_1("emblem/" .. iter_2_6)
-			var_2_1("emblem/n_" .. iter_2_6)
+			var_2_2("emblem/" .. iter_2_6)
+			var_2_2("emblem/n_" .. iter_2_6)
 		end
 	end
 
-	local var_2_9 = getProxy(MilitaryExerciseProxy):RawGetSeasonInfo()
+	local var_2_10 = getProxy(MilitaryExerciseProxy):RawGetSeasonInfo()
 
-	if var_2_9 then
-		local var_2_10 = SeasonInfo.getEmblem(var_2_9.score, var_2_9.rank)
+	if var_2_10 then
+		local var_2_11 = SeasonInfo.getEmblem(var_2_10.score, var_2_10.rank)
 
-		var_2_1("emblem/" .. var_2_10)
-		var_2_1("emblem/n_" .. var_2_10)
+		var_2_2("emblem/" .. var_2_11)
+		var_2_2("emblem/n_" .. var_2_11)
 	end
 
-	return table.insertto(var_2_0, var_0_0.super.getResource(arg_2_0, arg_2_1))
+	return table.insertto(var_2_1, var_0_0.super.getResource(arg_2_0))
 end
 
 function var_0_0.updateRankList(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4)

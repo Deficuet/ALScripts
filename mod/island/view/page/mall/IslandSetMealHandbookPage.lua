@@ -5,9 +5,9 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.closeBtn = arg_2_0._tf:Find("top/back")
-	arg_2_0.setMealList = UIItemList.New(arg_2_0._tf:Find("setMealList/Viewport/Content"), arg_2_0._tf:Find("setMealList/Viewport/Content/setMealTpl"))
-	arg_2_0.detail = arg_2_0._tf:Find("detail")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("adapt/top/back")
+	arg_2_0.setMealList = UIItemList.New(arg_2_0._tf:Find("adapt/setMealList/Viewport/Content"), arg_2_0._tf:Find("adapt/setMealList/Viewport/Content/setMealTpl"))
+	arg_2_0.detail = arg_2_0._tf:Find("adapt/detail")
 	arg_2_0.detailName = arg_2_0.detail:Find("name/text")
 	arg_2_0.formulaList1 = arg_2_0.detail:Find("formulaList1")
 	arg_2_0.formulaList2 = arg_2_0.detail:Find("formulaList2")
@@ -15,14 +15,14 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.conditionList = UIItemList.New(arg_2_0.detail:Find("conditionList"), arg_2_0.detail:Find("conditionList/condition"))
 
 	setActive(arg_2_0.detail, false)
-	setText(arg_2_0._tf:Find("top/title/Text"), i18n("island_setmeal_title"))
-	setText(arg_2_0._tf:Find("top/title/Text/en"), i18n1("HANDBOOK"))
-	setText(arg_2_0._tf:Find("detail/condition"), i18n("island_tech_detail_unlocktitle"))
-	setText(arg_2_0._tf:Find("detail/decoration2/text"), i18n("island_setmeal_benifit_title"))
+	setText(arg_2_0._tf:Find("adapt/top/title/Text"), i18n("island_setmeal_title"))
+	setText(arg_2_0._tf:Find("adapt/top/title/Text/en"), i18n1("HANDBOOK"))
+	setText(arg_2_0._tf:Find("adapt/detail/condition"), i18n("island_tech_detail_unlocktitle"))
+	setText(arg_2_0._tf:Find("adapt/detail/decoration2/text"), i18n("island_setmeal_benifit_title"))
 end
 
 function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0._tf:Find("top/title/help"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("adapt/top/title/help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.island_help_combo.tip

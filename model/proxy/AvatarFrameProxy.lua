@@ -48,6 +48,10 @@ function var_0_0.update(arg_4_0, arg_4_1, arg_4_2)
 end
 
 function var_0_0.addData(arg_5_0, arg_5_1, arg_5_2)
+	if not arg_5_0:getAvatarFrameById(arg_5_1) then
+		arg_5_0:initListData(arg_5_1, {}, {})
+	end
+
 	for iter_5_0, iter_5_1 in ipairs(arg_5_2) do
 		local var_5_0 = arg_5_0:createAvatarFrameTask(arg_5_1, iter_5_1)
 

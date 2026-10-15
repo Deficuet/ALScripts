@@ -13,7 +13,7 @@ local var_0_1 = 0.15
 local var_0_2 = 340
 local var_0_3 = 564
 
-function var_0_0.getResource(arg_1_0, arg_1_1)
+function var_0_0.getResource(arg_1_0)
 	local var_1_0 = {
 		"ui/item_duang5"
 	}

@@ -11,7 +11,7 @@ function var_0_0.getUIName(arg_1_0)
 	return "TrophyGalleryUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"ui/trophygalleryui",
 		"ui/iconcolorful",
@@ -79,7 +79,7 @@ function var_0_0.getResource(arg_2_0, arg_2_1)
 		return ResPathSupport.MergeLuaArr(var_4_1, var_4_0, var_4_2)
 	end
 
-	return ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_2_0, arg_2_1), var_2_0, var_2_1(), var_2_2())
+	return ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_2_0), var_2_0, var_2_1(), var_2_2())
 end
 
 function var_0_0.setTrophyGroups(arg_5_0, arg_5_1)

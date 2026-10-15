@@ -4,7 +4,7 @@ function var_0_0.getUIName(arg_1_0)
 	return "SpWeaponDesignUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"ui/SpWeaponDesignUI",
 		"bg/equipment_bg_1",
@@ -31,7 +31,7 @@ function var_0_0.getResource(arg_2_0, arg_2_1)
 		end
 	end)
 
-	return ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_2_0, arg_2_1), var_2_0, var_2_1)
+	return ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_2_0), var_2_0, var_2_1)
 end
 
 function var_0_0.SetCraftList(arg_4_0, arg_4_1)

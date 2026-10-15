@@ -15,7 +15,7 @@ function var_0_0.getUIName(arg_1_0)
 	return "TechnologyTreeUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"ui/Technologytreeui",
 		"ui/technologytreeui_atlas",
@@ -38,7 +38,7 @@ function var_0_0.getResource(arg_2_0, arg_2_1)
 		end
 	end
 
-	return ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_2_0, arg_2_1), var_2_0, var_2_1)
+	return ResPathSupport.MergeLuaArr(var_0_0.super.getResource(arg_2_0), var_2_0, var_2_1)
 end
 
 function var_0_0.init(arg_3_0)

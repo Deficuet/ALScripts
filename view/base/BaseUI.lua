@@ -26,6 +26,7 @@ var_0_0.ON_SPWEAPON = "BaseUI:ON_SPWEAPON"
 var_0_0.ON_SHIP_EXP = "BaseUI.ON_SHIP_EXP"
 var_0_0.ON_BACK_PRESSED = "BaseUI:ON_BACK_PRESS"
 var_0_0.ON_ADD_SUBLAYER = "BaseUI:ON_ADD_SUBLAYER"
+var_0_0.ON_GO_SCENE = "BaseUI:ON_GO_SCENE"
 
 function var_0_0.Ctor(arg_1_0)
 	var_0_0.super.Ctor(arg_1_0)
@@ -58,7 +59,7 @@ function var_0_0.preloadUIList(arg_6_0)
 	}
 end
 
-function var_0_0.getResource(arg_7_0, arg_7_1)
+function var_0_0.getResource(arg_7_0)
 	local var_7_0 = {}
 
 	_.each({

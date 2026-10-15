@@ -10,7 +10,7 @@ return {
 				dir = -1,
 				posX = -561.6,
 				ui = {
-					path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/btnShop"
+					path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/adapt/btnShop"
 				}
 			}
 		}

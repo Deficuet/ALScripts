@@ -12,7 +12,7 @@ function var_0_0.getUIName(arg_1_0)
 	return "ShipEquipView"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"ammo"
 	}

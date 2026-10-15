@@ -13,12 +13,12 @@ function var_0_0.getUIName(arg_1_0)
 	return "NewShipUI"
 end
 
-function var_0_0.getResource(arg_2_0, arg_2_1)
+function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"clutter/new",
 		"shiptype"
 	}
-	local var_2_1 = arg_2_1.ship
+	local var_2_1 = arg_2_0.contextData.ship
 
 	table.insert(var_2_0, string.format(ResPathSupport.ConstPath.Ship.Rarity.NewShipBG, var_2_1:rarity2bgPrintForGet()))
 

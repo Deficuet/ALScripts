@@ -85,6 +85,7 @@ function var_0_4.DoAttack(arg_4_0, arg_4_1)
 		end
 	end
 
+	arg_4_0._host:CloakExpose(arg_4_0._tmpData.expose)
 	var_0_0.Battle.PlayBattleSFX(arg_4_0._tmpData.fire_sfx)
 	arg_4_0:TriggerBuffOnFire()
 	arg_4_0:CheckAndShake()

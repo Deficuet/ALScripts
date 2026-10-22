@@ -227,6 +227,10 @@ pg.expedition_data_by_map.all = {
 	2060012,
 	2060025,
 	2060026,
+	2070001,
+	2070002,
+	2070003,
+	2070004,
 	2100000,
 	2100001,
 	2100010,
@@ -489,6 +493,8 @@ pg.expedition_data_by_map.get_id_list_by_type = {
 		2050002,
 		2060001,
 		2060002,
+		2070001,
+		2070002,
 		2100000,
 		2100001,
 		2100020,
@@ -753,7 +759,9 @@ pg.expedition_data_by_map.get_id_list_by_type = {
 		2050025,
 		2050026,
 		2060025,
-		2060026
+		2060026,
+		2070003,
+		2070004
 	},
 	{
 		70000
@@ -13700,7 +13708,7 @@ end)()
 		cloud_suffix = "",
 		bgm = "theme-tempest-light",
 		default_bgm = "Battle-nightmare-theme",
-		on_activity = 51601,
+		on_activity = 50181,
 		uifx = "",
 		ui_type = 10,
 		bg = "Map_1970001",
@@ -13791,7 +13799,7 @@ end)()
 		cloud_suffix = "",
 		bgm = "story-temepest-2",
 		default_bgm = "Battle-nightmare-theme",
-		on_activity = 51601,
+		on_activity = 50181,
 		uifx = "",
 		ui_type = 10,
 		bg = "Map_1970002",
@@ -13882,7 +13890,7 @@ end)()
 		cloud_suffix = "",
 		bgm = "theme-tempest-light",
 		default_bgm = "Battle-nightmare-theme",
-		on_activity = 51601,
+		on_activity = 50181,
 		uifx = "",
 		ui_type = 10,
 		bg = "Map_1970001",
@@ -13967,7 +13975,7 @@ end)()
 		cloud_suffix = "",
 		bgm = "story-tempest-freedom",
 		default_bgm = "Battle-nightmare-theme",
-		on_activity = 51601,
+		on_activity = 50181,
 		uifx = "",
 		ui_type = 10,
 		bg = "Map_1970002",
@@ -17350,6 +17358,363 @@ end)()
 			548,
 			549,
 			550
+		}
+	}
+	pg.base.expedition_data_by_map[2070001] = {
+		map = 2070001,
+		name = "飓风与雾霭回廊·上篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		ani_name = "Map_2070001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part1",
+		default_background = "star_level_bg_594",
+		cloud_suffix = "",
+		bgm = "theme-fogsea",
+		default_bgm = "theme-amahara-core",
+		on_activity = 51601,
+		uifx = "",
+		ui_type = 10,
+		bg = "Map_2070001",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2070001
+			},
+			{
+				2070002
+			},
+			{
+				2070003
+			}
+		},
+		story_id = {
+			551,
+			552,
+			553,
+			554,
+			555,
+			556,
+			557,
+			558,
+			559,
+			560,
+			561,
+			562,
+			563,
+			564,
+			565,
+			566,
+			567,
+			568,
+			569,
+			570,
+			571,
+			572,
+			573,
+			574,
+			575,
+			576
+		}
+	}
+	pg.base.expedition_data_by_map[2070002] = {
+		map = 2070002,
+		name = "飓风与雾霭回廊·下篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		ani_name = "Map_2070002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part2",
+		default_background = "star_level_bg_594",
+		cloud_suffix = "",
+		bgm = "story-temepest-2",
+		default_bgm = "theme-amahara-core",
+		on_activity = 51601,
+		uifx = "",
+		ui_type = 10,
+		bg = "Map_2070002",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2070004
+			},
+			{
+				2070005
+			},
+			{
+				2070006
+			}
+		},
+		story_id = {
+			551,
+			552,
+			553,
+			554,
+			555,
+			556,
+			557,
+			558,
+			559,
+			560,
+			561,
+			562,
+			563,
+			564,
+			565,
+			566,
+			567,
+			568,
+			569,
+			570,
+			571,
+			572,
+			573,
+			574,
+			575,
+			576
+		}
+	}
+	pg.base.expedition_data_by_map[2070003] = {
+		map = 2070003,
+		name = "飓风与雾霭回廊·SP|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 8,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		ani_name = "Map_2070002",
+		guide_id = "",
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		default_background = "star_level_bg_594",
+		bgm = "theme-amahara-core",
+		default_bgm = "theme-amahara-core",
+		uifx = "",
+		on_activity = 51601,
+		ui_type = 10,
+		bg = "Map_2070002",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 2070002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				3,
+				{
+					{},
+					"guanxingtai"
+				}
+			}
+		},
+		chapterGroups = {
+			{
+				2070041
+			}
+		},
+		story_id = {
+			551,
+			552,
+			553,
+			554,
+			555,
+			556,
+			557,
+			558,
+			559,
+			560,
+			561,
+			562,
+			563,
+			564,
+			565,
+			566,
+			567,
+			568,
+			569,
+			570,
+			571,
+			572,
+			573,
+			574,
+			575,
+			576
+		}
+	}
+	pg.base.expedition_data_by_map[2070004] = {
+		map = 2070004,
+		name = "飓风与雾霭回廊·EX|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 8,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		ani_name = "Map_2070002",
+		guide_id = "",
+		map_name = "levelscene_mapselect_ex",
+		cloud_suffix = "",
+		default_background = "star_level_bg_594",
+		bgm = "battle-nightmare-theme",
+		default_bgm = "theme-amahara-core",
+		uifx = "",
+		on_activity = 51601,
+		ui_type = 10,
+		bg = "Map_2070002",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 2070002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				3,
+				{
+					{},
+					"guanxingtai"
+				}
+			}
+		},
+		chapterGroups = {
+			{
+				2070051,
+				2070052
+			}
+		},
+		story_id = {
+			551,
+			552,
+			553,
+			554,
+			555,
+			556,
+			557,
+			558,
+			559,
+			560,
+			561,
+			562,
+			563,
+			564,
+			565,
+			566,
+			567,
+			568,
+			569,
+			570,
+			571,
+			572,
+			573,
+			574,
+			575,
+			576
 		}
 	}
 	pg.base.expedition_data_by_map[2100000] = {
@@ -20991,6 +21356,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.expedition_data_by_map[2100362] = {
 		map = 2100362,
 		name = "破晓冰华·下篇|| ||CHAPTER EX||E.X.",
@@ -21195,8 +21562,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.expedition_data_by_map[2100382] = {
 		map = 2100382,
 		name = "碧海光粼·下篇|| ||CHAPTER EX||E.X.",

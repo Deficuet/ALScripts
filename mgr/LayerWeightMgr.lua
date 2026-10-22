@@ -291,15 +291,17 @@ function var_0_1.SetSpecificParent(arg_18_0, arg_18_1, arg_18_2, arg_18_3)
 	if arg_18_3 then
 		arg_18_0.indexDic[arg_18_2] = arg_18_0.indexDic[arg_18_2] or {}
 
-		table.insert(arg_18_0.indexDic[arg_18_2], 1, arg_18_1)
+		table.insert(arg_18_0.indexDic[arg_18_2], arg_18_1)
 	else
+		arg_18_0:ChangeOriginSortingOrder(arg_18_1, arg_18_2)
 		SetParent(arg_18_1, arg_18_2, false)
 	end
 end
 
 function var_0_1.SequentizationUIIndex(arg_19_0)
 	for iter_19_0, iter_19_1 in pairs(arg_19_0.indexDic) do
-		for iter_19_2, iter_19_3 in ipairs(iter_19_1) do
+		for iter_19_2, iter_19_3 in ipairs(underscore.reverse(iter_19_1)) do
+			arg_19_0:ChangeOriginSortingOrder(iter_19_3, iter_19_0)
 			SetParent(iter_19_3, iter_19_0, false)
 
 			if iter_19_3:GetSiblingIndex() ~= iter_19_2 - 1 then
@@ -339,6 +341,7 @@ function var_0_1.CheckRecycleAdaptObj(arg_21_0, arg_21_1, arg_21_2)
 	local var_21_0 = arg_21_0:GetAdaptObjFromUI(arg_21_1)
 
 	if arg_21_2 ~= nil then
+		arg_21_0:ChangeOriginSortingOrder(arg_21_1, arg_21_2)
 		SetParent(arg_21_1, arg_21_2, false)
 	end
 
@@ -368,10 +371,39 @@ function var_0_1.GetAdatpObjName(arg_23_0, arg_23_1)
 	return arg_23_1.name .. var_0_1.ADAPT_TAG
 end
 
-function var_0_1.Log(arg_24_0, arg_24_1)
+function var_0_1.GetOriginSortingOrder(arg_24_0, arg_24_1)
+	return switch(arg_24_1, {
+		[arg_24_0.uiOrigin] = function()
+			return 200
+		end,
+		[arg_24_0.lvOrigin] = function()
+			return 5000
+		end
+	}, function()
+		return 0
+	end)
+end
+
+function var_0_1.ChangeOriginSortingOrder(arg_28_0, arg_28_1, arg_28_2)
+	if IsNil(arg_28_1) or arg_28_1.parent == arg_28_2 then
+		return
+	end
+
+	local var_28_0 = 0 - arg_28_0:GetOriginSortingOrder(arg_28_1.parent)
+
+	if arg_28_2 then
+		var_28_0 = var_28_0 + arg_28_0:GetOriginSortingOrder(arg_28_2)
+	end
+
+	if var_28_0 ~= 0 then
+		WorldConst.ArrayEffectOrder(arg_28_1, var_28_0)
+	end
+end
+
+function var_0_1.Log(arg_29_0, arg_29_1)
 	if not var_0_1.DEBUG then
 		return
 	end
 
-	originalPrint(arg_24_1)
+	originalPrint(arg_29_1)
 end

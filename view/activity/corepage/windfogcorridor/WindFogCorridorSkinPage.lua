@@ -15,7 +15,7 @@ function var_0_0.OnDataSetting(arg_2_0)
 	arg_2_0.nday = 0
 	arg_2_0.taskProxy = getProxy(TaskProxy)
 	arg_2_0.clientConfig = arg_2_0.activity:getConfig("config_client")
-	arg_2_0.taskGroup = arg_2_0.clientConfig.show_task
+	arg_2_0.taskGroup = arg_2_0.clientConfig.unlock_task
 
 	local var_2_0 = getProxy(ActivityProxy):getActivityById(arg_2_0.clientConfig.ptActId)
 
@@ -137,6 +137,8 @@ function var_0_0.isTaskFinished(arg_10_0, arg_10_1)
 	end
 
 	local var_10_0 = arg_10_0.taskProxy:getTaskById(arg_10_1) or arg_10_0.taskProxy:getFinishTaskById(arg_10_1)
+
+	originalPrint(" >>>>>>>>>> taskId = ", arg_10_1, ", isFinished = ", var_10_0 and var_10_0:getTaskStatus() == 2)
 
 	return var_10_0 and var_10_0:getTaskStatus() == 2
 end

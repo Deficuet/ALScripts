@@ -11870,6 +11870,27 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70307] = {
+		id = 70307,
+		name = "原地范围随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 15,
+					Z2 = -15,
+					X2 = 15,
+					moveCount = 150,
+					duration = -1,
+					X1 = -15,
+					stopCount = 0
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

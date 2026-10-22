@@ -695,6 +695,11 @@ pg.ship_data_group.all = {
 	711,
 	712,
 	713,
+	763,
+	762,
+	764,
+	760,
+	761,
 	10001,
 	10002,
 	10003,
@@ -3117,6 +3122,21 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[960016] = {
 		713
 	},
+	[960017] = {
+		763
+	},
+	[960018] = {
+		762
+	},
+	[960019] = {
+		764
+	},
+	[960020] = {
+		760
+	},
+	[960021] = {
+		761
+	},
 	[970101] = {
 		30015
 	},
@@ -4287,7 +4307,12 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		710,
 		711,
 		712,
-		713
+		713,
+		763,
+		762,
+		764,
+		760,
+		761
 	},
 	{
 		10001,
@@ -34582,6 +34607,166 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_data_group[763] = {
+		type = 23,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 96,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 694,
+		code = 763,
+		group_type = 960017,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"E",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与雾霭回廊",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[762] = {
+		type = 22,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 96,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 695,
+		code = 762,
+		group_type = 960018,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与雾霭回廊",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[764] = {
+		type = 24,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 96,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 696,
+		code = 764,
+		group_type = 960019,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与雾霭回廊",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[760] = {
+		type = 23,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 96,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 697,
+		code = 760,
+		group_type = 960020,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与雾霭回廊",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[761] = {
+		type = 24,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 96,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 698,
+		code = 761,
+		group_type = 960021,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"E",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与雾霭回廊",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
 	pg.base.ship_data_group[10001] = {
 		type = 2,
 		redirect_id = 101,
@@ -34710,6 +34895,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_data_group[10005] = {
 		type = 2,
 		redirect_id = 101,
@@ -34870,8 +35057,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_data_group[10022] = {
 		type = 1,
 		redirect_id = 101,
@@ -37947,6 +38132,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_data_group[20012] = {
 		type = 5,
 		redirect_id = 101,
@@ -38124,8 +38311,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_data_group[20017] = {
 		type = 5,
 		redirect_id = 101,
@@ -41432,6 +41617,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_data_group[30065] = {
 		type = 7,
 		redirect_id = 101,

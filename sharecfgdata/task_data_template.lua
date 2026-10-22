@@ -247444,6 +247444,522 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[25738] = {
+		name = "『风帆四期』纪念任务1（只送勋章）",
+		guild_coin_award = 0,
+		award = 911019,
+		type = 26,
+		desc = "收集全套「飓风与雾霭回廊」纪念贴纸",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "51611",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25738,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66113,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25739] = {
+		name = "『风帆四期』纪念贴纸获取1",
+		guild_coin_award = 0,
+		award = 911020,
+		type = 26,
+		desc = "收集7个「飓风与雾霭回廊」纪念贴纸",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "51611",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25739,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66114,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25740] = {
+		name = "『风帆四期』纪念贴纸获取2",
+		guild_coin_award = 0,
+		award = 911021,
+		type = 26,
+		desc = "解锁「飓风与雾霭回廊」所有剧情",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25740,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			8125
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66115,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25741] = {
+		name = "『风帆四期』纪念贴纸获取3",
+		guild_coin_award = 0,
+		award = 911022,
+		type = 26,
+		desc = "通关T3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2070003",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25741,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66116,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25742] = {
+		name = "『风帆四期』纪念贴纸获取4",
+		guild_coin_award = 0,
+		award = 911023,
+		type = 26,
+		desc = "在活动关卡中累计击沉敌人100次",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25742,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16900001,
+			16900002,
+			16900003,
+			16900004,
+			16900005,
+			16900006,
+			16900201,
+			16900301,
+			16901001,
+			16901002,
+			16901003,
+			16901004,
+			16901005,
+			16901006,
+			16901201,
+			16901301,
+			16902001,
+			16902002,
+			16902003,
+			16902004,
+			16902005,
+			16902006,
+			16902201,
+			16902202,
+			16902301,
+			16903001,
+			16903002,
+			16903003,
+			16903004,
+			16903005,
+			16903006,
+			16903101,
+			16903102,
+			16903103,
+			16903104,
+			16903201,
+			16903301,
+			16904001,
+			16904002,
+			16904003,
+			16904004,
+			16904005,
+			16904006,
+			16904101,
+			16904102,
+			16904103,
+			16904104,
+			16904201,
+			16904301,
+			16904302,
+			16905001,
+			16905002,
+			16905003,
+			16905004,
+			16905005,
+			16905006,
+			16905201,
+			16905301,
+			16905302,
+			16906001,
+			16906002,
+			16906003,
+			16906004,
+			16906005,
+			16906006,
+			16906201,
+			16906301,
+			16906302,
+			16907001,
+			16907002,
+			16907101,
+			16907102,
+			16907201
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66117,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25743] = {
+		name = "『风帆四期』纪念贴纸获取5",
+		guild_coin_award = 0,
+		award = 911024,
+		type = 26,
+		desc = "通关40次「飓风与雾霭回廊」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25743,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2070001,
+			2070002,
+			2070003,
+			2070004,
+			2070005,
+			2070006,
+			2070041,
+			2070051,
+			2070052
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66118,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25744] = {
+		name = "『风帆四期』纪念贴纸获取6",
+		guild_coin_award = 0,
+		award = 911025,
+		type = 26,
+		desc = "通关T6",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2070006",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25744,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66119,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25745] = {
+		name = "『风帆四期』纪念贴纸获取7",
+		guild_coin_award = 0,
+		award = 911026,
+		type = 26,
+		desc = "通关SP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2070041",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25745,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66120,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25746] = {
+		name = "『风帆四期』纪念贴纸获取8",
+		guild_coin_award = 0,
+		award = 911027,
+		type = 26,
+		desc = "累计获取10000个「瓶装雾霭」",
+		count_inherit = 0,
+		sub_type = 1032,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "51607",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25746,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66121,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[25747] = {
+		name = "『风帆四期』大佬章获取任务",
+		guild_coin_award = 0,
+		award = 911028,
+		type = 26,
+		desc = "通关T6",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "2070006",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 25747,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				351,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[27001] = {
 		name = "『别墅度假岛』前哨站签到任务1",
 		guild_coin_award = 0,
@@ -266138,7 +266654,7 @@ end)()
 		guild_coin_award = 0,
 		award = 911216,
 		type = 7,
-		desc = "首次通关主线14-4关卡（仅限完成一次）",
+		desc = "首次通关主线14-1关卡（仅限完成一次）",
 		count_inherit = 0,
 		sub_type = 1020,
 		target_id_2 = "",
@@ -266170,6 +266686,1745 @@ end)()
 				1,
 				777,
 				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29001] = {
+		name = "『风帆四期』港区假日鬼怪故事集III-任务-登录1",
+		guild_coin_award = 0,
+		award = 911001,
+		type = 6,
+		desc = "累计获取月签到奖励1次",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29001,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66112,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29002] = {
+		name = "『风帆四期』港区假日鬼怪故事集III-任务-登录2",
+		guild_coin_award = 0,
+		award = 911002,
+		type = 6,
+		desc = "累计获取月签到奖励2次",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29002,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66112,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29003] = {
+		name = "『风帆四期』港区假日鬼怪故事集III-任务-登录3",
+		guild_coin_award = 0,
+		award = 911003,
+		type = 6,
+		desc = "累计获取月签到奖励3次",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29003,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66112,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29004] = {
+		name = "『风帆四期』港区假日鬼怪故事集III-任务-登录4",
+		guild_coin_award = 0,
+		award = 911004,
+		type = 6,
+		desc = "累计获取月签到奖励4次",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29004,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66112,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29005] = {
+		name = "『风帆四期』港区假日鬼怪故事集III-任务-登录5",
+		guild_coin_award = 0,
+		award = 911005,
+		type = 6,
+		desc = "累计获取月签到奖励5次",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29005,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66112,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29006] = {
+		name = "『风帆四期』港区假日鬼怪故事集III-任务-登录6",
+		guild_coin_award = 0,
+		award = 911006,
+		type = 6,
+		desc = "累计获取月签到奖励6次",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29006,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66112,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29009] = {
+		name = "『风帆四期』港区假日鬼怪故事集III-任务-出击胜利1",
+		guild_coin_award = 0,
+		award = 911009,
+		type = 6,
+		desc = "累计出击胜利15次",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29009,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66112,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29010] = {
+		name = "『风帆四期』港区假日鬼怪故事集III-任务-出击胜利2",
+		guild_coin_award = 0,
+		award = 911010,
+		type = 6,
+		desc = "累计出击胜利30次",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29010,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66112,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29011] = {
+		name = "『风帆四期』港区假日鬼怪故事集III-任务-出击胜利3",
+		guild_coin_award = 0,
+		award = 911011,
+		type = 6,
+		desc = "累计出击胜利45次",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29011,
+		target_num = 45,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66112,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29012] = {
+		name = "『风帆四期』港区假日鬼怪故事集III-任务-出击胜利4",
+		guild_coin_award = 0,
+		award = 911012,
+		type = 6,
+		desc = "累计出击胜利60次",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29012,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66112,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29013] = {
+		name = "『风帆四期』港区假日鬼怪故事集III-任务-出击胜利5",
+		guild_coin_award = 0,
+		award = 911013,
+		type = 6,
+		desc = "累计出击胜利75次",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29013,
+		target_num = 75,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66112,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29014] = {
+		name = "『风帆四期』港区假日鬼怪故事集III-任务-出击胜利6",
+		guild_coin_award = 0,
+		award = 911014,
+		type = 6,
+		desc = "累计出击胜利90次",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29014,
+		target_num = 90,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66112,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29017] = {
+		name = "『风帆四期』港区假日鬼怪故事集III-任务-全故事阅读完成",
+		guild_coin_award = 0,
+		award = 911017,
+		type = 6,
+		desc = "完成「剧情模式」 ",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29017,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			8131,
+			8132,
+			8133,
+			8134,
+			8135,
+			8136
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30389,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29018] = {
+		name = "『风帆四期』-日常建造",
+		guild_coin_award = 0,
+		award = 911030,
+		type = 36,
+		desc = "建造舰船3次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29018,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66111,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29019] = {
+		name = "『风帆四期』-日常出击",
+		guild_coin_award = 0,
+		award = 911031,
+		type = 36,
+		desc = "舰队出征，获得15次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29019,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66111,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29020] = {
+		name = "『风帆四期』-日常困难本",
+		guild_coin_award = 0,
+		award = 911032,
+		type = 36,
+		desc = "通关1次任意困难关卡 ",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29020,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66111,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29021] = {
+		name = "『风帆四期』通关T1",
+		guild_coin_award = 0,
+		award = 911033,
+		type = 6,
+		desc = "通关T1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2070001",
+		next_task = "29022",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29021,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				8,
+				66111,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29022] = {
+		name = "『风帆四期』通关T2",
+		guild_coin_award = 0,
+		award = 911034,
+		type = 6,
+		desc = "通关T2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2070002",
+		next_task = "29023",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29022,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				8,
+				66111,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29023] = {
+		name = "『风帆四期』通关T3",
+		guild_coin_award = 0,
+		award = 911035,
+		type = 6,
+		desc = "通关T3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2070003",
+		next_task = "29024",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29023,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				8,
+				66111,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29024] = {
+		name = "『风帆四期』通关T4",
+		guild_coin_award = 0,
+		award = 911036,
+		type = 6,
+		desc = "通关T4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2070004",
+		next_task = "29025",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29024,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				8,
+				66111,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29025] = {
+		name = "『风帆四期』通关T5",
+		guild_coin_award = 0,
+		award = 911037,
+		type = 6,
+		desc = "通关T5",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2070005",
+		next_task = "29026",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29025,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				8,
+				66111,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29026] = {
+		name = "『风帆四期』通关T6",
+		guild_coin_award = 0,
+		award = 911038,
+		type = 6,
+		desc = "通关T6",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2070006",
+		next_task = "29027",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29026,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				8,
+				66111,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29027] = {
+		name = "『风帆四期』通关SP",
+		guild_coin_award = 0,
+		award = 911039,
+		type = 6,
+		desc = "通关SP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2070041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29027,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2070003,
+				chapterId = 2070041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29028] = {
+		name = "『风帆四期』通关EX",
+		guild_coin_award = 0,
+		award = 911040,
+		type = 6,
+		desc = "通关EX关卡",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29028,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2070051,
+			2070052
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2070004,
+				chapterId = 2070051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29029] = {
+		name = "『风帆四期』T1的3星",
+		guild_coin_award = 0,
+		award = 911041,
+		type = 6,
+		desc = "完成T1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2070001",
+		next_task = "29030",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29029,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29030] = {
+		name = "『风帆四期』T2的3星",
+		guild_coin_award = 0,
+		award = 911042,
+		type = 6,
+		desc = "完成T2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2070002",
+		next_task = "29031",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29030,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29031] = {
+		name = "『风帆四期』T3的3星",
+		guild_coin_award = 0,
+		award = 911043,
+		type = 6,
+		desc = "完成T3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2070003",
+		next_task = "29032",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29031,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29032] = {
+		name = "『风帆四期』T4的3星",
+		guild_coin_award = 0,
+		award = 911044,
+		type = 6,
+		desc = "完成T4的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2070004",
+		next_task = "29033",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29032,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29033] = {
+		name = "『风帆四期』T5的3星",
+		guild_coin_award = 0,
+		award = 911045,
+		type = 6,
+		desc = "完成T5的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2070005",
+		next_task = "29034",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29033,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29034] = {
+		name = "『风帆四期』T6的3星",
+		guild_coin_award = 0,
+		award = 911046,
+		type = 6,
+		desc = "完成T6的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "2070006",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29034,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				51601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29035] = {
+		name = "『风帆四期』通关任务10次",
+		guild_coin_award = 0,
+		award = 911047,
+		type = 6,
+		desc = "通关10次『飓风与雾霭回廊』特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29035,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2070001,
+			2070002,
+			2070003,
+			2070004,
+			2070005,
+			2070006,
+			2070041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66111,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29036] = {
+		name = "『风帆四期』通关任务30次",
+		guild_coin_award = 0,
+		award = 911048,
+		type = 6,
+		desc = "通关30次『飓风与雾霭回廊』特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29036,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2070001,
+			2070002,
+			2070003,
+			2070004,
+			2070005,
+			2070006,
+			2070041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66111,
+				1500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29037] = {
+		name = "『风帆四期』通关任务60次",
+		guild_coin_award = 0,
+		award = 911049,
+		type = 6,
+		desc = "通关60次『飓风与雾霭回廊』特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 29037,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			2070001,
+			2070002,
+			2070003,
+			2070004,
+			2070005,
+			2070006,
+			2070041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				66111,
+				3000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29038] = {
+		name = "『风帆四期』剧情模式通关",
+		guild_coin_award = 0,
+		award = 911050,
+		type = 6,
+		desc = "完成「剧情模式」 ",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29038,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			8125
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				5
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 2070001,
+				displayMode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29039] = {
+		name = "『风帆四期』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 911051,
+		type = 6,
+		desc = "通过「活动商店」兑换或「补给商店-军火」购买20个[外观装备箱(光暗夜想曲)]",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30389",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29039,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30573,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[29040] = {
+		name = "『风帆四期』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 911108,
+		type = 6,
+		desc = "通过「活动商店」兑换或「补给商店-军火」购买20个[外观装备箱(深海寻宝)]",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30376",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 29040,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30560,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
 			}
 		}
 	}

@@ -190,7 +190,15 @@ pg.activity_medal_template.all = {
 	5115404,
 	5115405,
 	5115406,
-	5115407
+	5115407,
+	5161101,
+	5161102,
+	5161103,
+	5161104,
+	5161105,
+	5161106,
+	5161107,
+	5161108
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -428,6 +436,16 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5115405,
 		5115406,
 		5115407
+	},
+	[51611] = {
+		5161101,
+		5161102,
+		5161103,
+		5161104,
+		5161105,
+		5161106,
+		5161107,
+		5161108
 	}
 }
 pg.base = pg.base or {}
@@ -2691,5 +2709,101 @@ end)()
 		activity_medal_name = "纪念贴：调查经费",
 		id = 5115407,
 		activity_medal_desc = "随便刷，额度管够！"
+	}
+	pg.base.activity_medal_template[5161101] = {
+		prefab_node = "1",
+		next_medal = 0,
+		item = 66114,
+		remake_task_id = 0,
+		group = 51611,
+		task_id = 25739,
+		medal_asset = "ActivityMedal/5161101",
+		activity_medal_name = "纪念贴：雾海观星台",
+		id = 5161101,
+		activity_medal_desc = "「不要从星空的倒影中，寻找往昔的答案」"
+	}
+	pg.base.activity_medal_template[5161102] = {
+		prefab_node = "2",
+		next_medal = 0,
+		item = 66115,
+		remake_task_id = 0,
+		group = 51611,
+		task_id = 25740,
+		medal_asset = "ActivityMedal/5161102",
+		activity_medal_name = "纪念贴：星轨航标",
+		id = 5161102,
+		activity_medal_desc = "点亮航标，向着观星台前进吧！"
+	}
+	pg.base.activity_medal_template[5161103] = {
+		prefab_node = "3",
+		next_medal = 0,
+		item = 66116,
+		remake_task_id = 0,
+		group = 51611,
+		task_id = 25741,
+		medal_asset = "ActivityMedal/5161103",
+		activity_medal_name = "纪念贴：接引之杖",
+		id = 5161103,
+		activity_medal_desc = "你看到了吗，那条隐藏在群星间的闪烁航路"
+	}
+	pg.base.activity_medal_template[5161104] = {
+		prefab_node = "4",
+		next_medal = 0,
+		item = 66117,
+		remake_task_id = 0,
+		group = 51611,
+		task_id = 25742,
+		medal_asset = "ActivityMedal/5161104",
+		activity_medal_name = "纪念贴：限定款水晶球",
+		id = 5161104,
+		activity_medal_desc = "占卜用的水晶球……也有年度限定款么？"
+	}
+	pg.base.activity_medal_template[5161105] = {
+		prefab_node = "5",
+		next_medal = 0,
+		item = 66118,
+		remake_task_id = 0,
+		group = 51611,
+		task_id = 25743,
+		medal_asset = "ActivityMedal/5161105",
+		activity_medal_name = "纪念贴：长蛇海怪",
+		id = 5161105,
+		activity_medal_desc = "嘶——嘶嘶嘶——嘶嘶——"
+	}
+	pg.base.activity_medal_template[5161106] = {
+		prefab_node = "6",
+		next_medal = 0,
+		item = 66119,
+		remake_task_id = 0,
+		group = 51611,
+		task_id = 25744,
+		medal_asset = "ActivityMedal/5161106",
+		activity_medal_name = "纪念贴：巨镰",
+		id = 5161106,
+		activity_medal_desc = "有什么话，和这柄镰刀去说吧！"
+	}
+	pg.base.activity_medal_template[5161107] = {
+		prefab_node = "7",
+		next_medal = 0,
+		item = 66120,
+		remake_task_id = 0,
+		group = 51611,
+		task_id = 25745,
+		medal_asset = "ActivityMedal/5161107",
+		activity_medal_name = "纪念贴：断枪",
+		id = 5161107,
+		activity_medal_desc = "断枪重铸之日——"
+	}
+	pg.base.activity_medal_template[5161108] = {
+		prefab_node = "8",
+		next_medal = 0,
+		item = 66121,
+		remake_task_id = 0,
+		group = 51611,
+		task_id = 25746,
+		medal_asset = "ActivityMedal/5161108",
+		activity_medal_name = "纪念贴：星空倒转",
+		id = 5161108,
+		activity_medal_desc = "「天球已然倒转，星轨悄然变换」"
 	}
 end)()

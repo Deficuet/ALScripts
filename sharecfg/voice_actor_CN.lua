@@ -2116,4 +2116,24 @@ end)()
 		code = 525,
 		actor_name = "黑崎诗织"
 	}
+	pg.base.voice_actor_CN[526] = {
+		code = 526,
+		actor_name = "浅木式"
+	}
+	pg.base.voice_actor_CN[527] = {
+		code = 527,
+		actor_name = "集贝花"
+	}
+	pg.base.voice_actor_CN[528] = {
+		code = 528,
+		actor_name = "凉花水濑"
+	}
+	pg.base.voice_actor_CN[529] = {
+		code = 529,
+		actor_name = "川石奈奈"
+	}
+	pg.base.voice_actor_CN[530] = {
+		code = 530,
+		actor_name = "三木谷奈奈"
+	}
 end)()

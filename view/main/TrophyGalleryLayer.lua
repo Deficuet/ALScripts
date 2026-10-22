@@ -270,7 +270,7 @@ function var_0_0.didEnter(arg_17_0)
 	}, function(arg_23_0)
 		local var_23_0 = getProxy(LoveLetterProxy)
 
-		setActive(arg_23_0, var_23_0:IsTipLevelUp() or var_23_0:IsTipAllLevelReward())
+		setActive(arg_23_0, var_23_0:IsTipRealizeGift() or var_23_0:IsTipLevelUp() or var_23_0:IsTipAllLevelReward())
 	end)
 	pg.EasyRedDotMgr.GetInstance():RegisterRedDot(arg_17_0.rtCountLevelPanel:Find("info/icon/tip"), {
 		"love_letter_level_up",

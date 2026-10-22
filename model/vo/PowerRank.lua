@@ -156,9 +156,10 @@ function var_0_0.getTitleWord(arg_6_0, arg_6_1, arg_6_2)
 	end
 
 	if arg_6_1 == var_0_0.TYPE_PT then
-		local var_6_1 = id2ItemId(getProxy(ActivityProxy):getActivityById(arg_6_2):getConfig("config_id"))
+		local var_6_1 = getProxy(ActivityProxy):getActivityById(arg_6_2):getConfig("config_id")
+		local var_6_2 = id2ItemId(var_6_1)
 
-		var_6_0[4] = Item.getConfigData(var_6_1).name
+		var_6_0[4] = Item.getConfigData(var_6_2).name
 	end
 
 	return var_6_0
@@ -174,7 +175,12 @@ function var_0_0.getActivityByRankType(arg_8_0, arg_8_1)
 	end
 
 	return _.detect(getProxy(ActivityProxy):getActivitiesByType(var_0_0.typeInfo[arg_8_1].act_type), function(arg_9_0)
-		return not arg_9_0:isEnd() and (arg_8_1 ~= var_0_0.TYPE_PT or tonumber(arg_9_0:getConfig("config_data")) > 0)
+		local var_9_0 = arg_9_0:getConfig("config_data")
+		local var_9_1
+
+		var_9_1 = type(var_9_0) == "number" and tonumber(var_9_0) > 0
+
+		return not arg_9_0:isEnd() and (arg_8_1 ~= var_0_0.TYPE_PT or type(var_9_0) == "number" and tonumber(var_9_0) > 0) or type(var_9_0) == "table" and #var_9_0 > 0
 	end)
 end
 

@@ -362,7 +362,7 @@ function var_0_0.updateStageView(arg_33_0, arg_33_1)
 		local var_33_6 = getProxy(ActivityProxy)
 
 		for iter_33_0 = #var_33_5, 1, -1 do
-			local var_33_7, var_33_8, var_33_9, var_33_10 = unpack(var_33_5)
+			local var_33_7, var_33_8, var_33_9, var_33_10 = unpack(var_33_5[iter_33_0])
 			local var_33_11 = var_33_6:getActivityById(var_33_7)
 
 			if var_33_11 and not var_33_11:isEnd() then

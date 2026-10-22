@@ -47,7 +47,7 @@ function var_0_0.init(arg_2_0)
 			setActive(arg_3_2:Find("active/active_on"), var_3_1)
 			setText(arg_3_2:Find("active/Text"), i18n("loveactivity_ui_6"))
 
-			local var_3_5 = not var_3_1 and arg_2_0.heap:GetLength() > 0 and var_3_0 == arg_2_0.heap:GetTop().element
+			local var_3_5 = not var_3_1 and arg_2_0.heap:GetLength() > 0 and table.contains(arg_2_0.heapDic[arg_2_0.heap:GetTop().element], var_3_0)
 
 			setActive(arg_3_2:Find("icon/tip"), var_3_5)
 			setButtonEnabled(arg_3_2:Find("icon"), var_3_5)
@@ -107,6 +107,7 @@ end
 function var_0_0.InitGift(arg_10_0)
 	arg_10_0.giftItemList = underscore.to_array(arg_10_0.contextData.items)
 	arg_10_0.giftGroupList = {}
+	arg_10_0.heapDic = {}
 
 	local var_10_0 = getProxy(LoveLetterProxy):GetLoveLetterItemDic()
 	local var_10_1 = {}
@@ -116,23 +117,26 @@ function var_0_0.InitGift(arg_10_0)
 
 		assert(tobool(var_10_3) == (pg.item_data_statistics[var_10_2].type == Item.LOVE_LETTER_TYPE))
 
-		for iter_10_2, iter_10_3 in pairs(var_10_0[var_10_2 .. "_" .. (var_10_3 or 0)]) do
+		local var_10_4 = var_10_2 .. "_" .. (var_10_3 or 0)
+
+		for iter_10_2, iter_10_3 in pairs(var_10_0[var_10_4]) do
 			assert(not arg_10_0.giftGroupList[iter_10_0] or arg_10_0.giftGroupList[iter_10_0] == iter_10_3)
 
 			arg_10_0.giftGroupList[iter_10_0] = iter_10_3
-			var_10_1[iter_10_2] = var_10_1[iter_10_2] or {}
+			arg_10_0.heapDic[iter_10_0] = arg_10_0.heapDic[iter_10_0] or {}
 
-			table.insert(var_10_1[iter_10_2], iter_10_0)
+			table.insert(arg_10_0.heapDic[iter_10_0], iter_10_2)
+
+			var_10_1[iter_10_2] = true
 		end
 	end
 
 	arg_10_0.itemDic = var_10_0
-	arg_10_0.yearDic = var_10_1
 	arg_10_0.confirmDic = {}
-	arg_10_0.heap = Heap.New(underscore.keys(var_10_1), function(arg_11_0)
-		return #var_10_1[arg_11_0]
+	arg_10_0.heap = Heap.New(underscore.keys(arg_10_0.heapDic), function(arg_11_0)
+		return #arg_10_0.heapDic[arg_11_0]
 	end)
-	arg_10_0.tempList = underscore(arg_10_0.yearDic):chain():keys():sort():value()
+	arg_10_0.tempList = underscore(var_10_1):chain():keys():sort():value()
 
 	assert(#arg_10_0.giftItemList <= #arg_10_0.tempList)
 end
@@ -140,9 +144,9 @@ end
 function var_0_0.ConfirmItem(arg_12_0, arg_12_1, arg_12_2)
 	arg_12_0.confirmDic[arg_12_1] = arg_12_2
 
-	for iter_12_0, iter_12_1 in pairs(arg_12_0.yearDic) do
-		if table.removebyvalue(arg_12_0.yearDic[iter_12_0], arg_12_2) > 0 then
-			arg_12_0.heap:UpdateValue(iter_12_0)
+	for iter_12_0, iter_12_1 in pairs(arg_12_0.heapDic) do
+		if table.removebyvalue(iter_12_1, arg_12_1) > 0 then
+			arg_12_0.heap:UpdateValue(arg_12_1)
 		end
 	end
 end
@@ -150,9 +154,11 @@ end
 function var_0_0.DropHump(arg_13_0)
 	while arg_13_0.heap:GetLength() > 0 and arg_13_0.heap:GetTop().value == 1 do
 		local var_13_0, var_13_1 = arg_13_0.heap:POP()
-		local var_13_2 = arg_13_0.yearDic[var_13_0][1]
+		local var_13_2 = arg_13_0.heapDic[var_13_0][1]
 
-		arg_13_0:ConfirmItem(var_13_0, var_13_2)
+		arg_13_0.heapDic[var_13_0] = nil
+
+		arg_13_0:ConfirmItem(var_13_2, var_13_0)
 	end
 end
 
@@ -165,13 +171,21 @@ function var_0_0.OpenSelectWindow(arg_15_0, arg_15_1)
 	setActive(arg_15_0.rtPanel, false)
 	setActive(arg_15_0.rtSelectWindow, true)
 
-	local var_15_0
+	local var_15_0 = {}
 
-	UIItemList.StaticAlign(arg_15_0.rtSelectScrollContent, arg_15_0.rtSelectScrollTpl, #arg_15_0.yearDic[arg_15_1], function(arg_16_0, arg_16_1, arg_16_2)
+	for iter_15_0, iter_15_1 in pairs(arg_15_0.heapDic) do
+		if table.contains(iter_15_1, arg_15_1) then
+			table.insert(var_15_0, iter_15_0)
+		end
+	end
+
+	local var_15_1
+
+	UIItemList.StaticAlign(arg_15_0.rtSelectScrollContent, arg_15_0.rtSelectScrollTpl, #var_15_0, function(arg_16_0, arg_16_1, arg_16_2)
 		arg_16_1 = arg_16_1 + 1
 
 		if arg_16_0 == UIItemList.EventUpdate then
-			local var_16_0 = arg_15_0.yearDic[arg_15_1][arg_16_1]
+			local var_16_0 = var_15_0[arg_16_1]
 			local var_16_1, var_16_2 = unpack(arg_15_0.giftItemList[var_16_0])
 
 			updateDrop(arg_16_2:Find("mask/IconTpl"), Drop.New({
@@ -182,7 +196,7 @@ function var_0_0.OpenSelectWindow(arg_15_0, arg_15_1)
 			}))
 			onToggle(arg_15_0, arg_16_2, function(arg_17_0)
 				if arg_17_0 then
-					var_15_0 = var_16_0
+					var_15_1 = var_16_0
 				end
 			end, SFX_PANEL)
 		end
@@ -190,7 +204,7 @@ function var_0_0.OpenSelectWindow(arg_15_0, arg_15_1)
 	triggerToggle(arg_15_0.rtSelectScrollContent:GetChild(0), true)
 	onButton(arg_15_0, arg_15_0.btnSelectConfirm, function()
 		arg_15_0.heap:POP(arg_15_1)
-		arg_15_0:ConfirmItem(arg_15_1, var_15_0)
+		arg_15_0:ConfirmItem(arg_15_1, var_15_1)
 		arg_15_0:DropHump()
 		arg_15_0:UpdateDisplay()
 		arg_15_0:CloseSelectWindow()

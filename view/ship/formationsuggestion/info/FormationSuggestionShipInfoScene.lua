@@ -99,10 +99,21 @@ function var_0_0.didEnter(arg_5_0)
 				end
 
 				for iter_6_2, iter_6_3 in ipairs(var_5_3) do
-					if iter_6_3.skills[var_6_1] then
-						local var_6_6 = iter_6_3.skills[var_6_1].level
+					if var_5_0.remoulded == 0 then
+						local var_6_6 = table.keyof(pg.ship_data_template[var_5_1.configId].buff_list_display, var_6_1)
+						local var_6_7 = pg.ship_data_template[iter_6_3.configId].buff_list_display[var_6_6]
 
-						var_6_4 = var_6_4 < var_6_6 and var_6_6 or var_6_4
+						if iter_6_3.skills[var_6_7] then
+							local var_6_8 = iter_6_3.skills[var_6_7].level
+
+							var_6_4 = var_6_4 < var_6_8 and var_6_8 or var_6_4
+						end
+					end
+
+					if iter_6_3.skills[var_6_1] then
+						local var_6_9 = iter_6_3.skills[var_6_1].level
+
+						var_6_4 = var_6_4 < var_6_9 and var_6_9 or var_6_4
 					end
 				end
 
@@ -115,10 +126,10 @@ function var_0_0.didEnter(arg_5_0)
 				setText(var_6_2, i18n("formation_suggestion_info_level_recommend", string.format("Lv.%s", var_6_0[2])))
 			end
 
-			local var_6_7 = getSkillConfig(var_6_1)
+			local var_6_10 = getSkillConfig(var_6_1)
 
-			LoadImageSpriteAsync("skillicon/" .. var_6_7.icon, findTF(arg_6_2, "icon"))
-			setScrollText(findTF(arg_6_2, "mask/name"), getSkillName(var_6_7.id))
+			LoadImageSpriteAsync("skillicon/" .. var_6_10.icon, findTF(arg_6_2, "icon"))
+			setScrollText(findTF(arg_6_2, "mask/name"), getSkillName(var_6_10.id))
 		end
 	end)
 	arg_5_0.skillList:align(#var_5_0.skill_lv)

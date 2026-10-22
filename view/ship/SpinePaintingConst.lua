@@ -1,9 +1,22 @@
 local var_0_0 = class("SpinePaintingConst")
 
+var_0_0.painting_lit_data = {
+	qisheng_3 = {
+		classes = "QiShengLitUI",
+		lit_ui = "qishenglitui",
+		part_num = {
+			0,
+			0.7,
+			1
+		}
+	}
+}
+var_0_0.painting_lit_value = 0.5
+var_0_0.painting_lit_opening = false
+var_0_0.spine_painting_action = false
+var_0_0.painting_lit_action_callback = nil
 var_0_0.drag_type_normal = 1
 var_0_0.drag_type_list = 3
-var_0_0.painting_lit_value = 0.5
-var_0_0.painting_lit_setting = false
 var_0_0.ship_drag_datas = {
 	gaoxiong_6 = {
 		multiple_face = {},
@@ -101,7 +114,6 @@ var_0_0.ship_drag_datas = {
 	},
 	yaerweite_2 = {
 		multiple_face = {},
-		drag_data = {},
 		hit_area = {
 			"drag"
 		},
@@ -2210,6 +2222,207 @@ var_0_0.ship_drag_datas = {
 					is_default = false,
 					fold = true,
 					hit = "touch_special_2"
+				}
+			}
+		}
+	},
+	yuekegongjue_5 = {
+		multiple_face = {},
+		hit_area = {
+			"drag",
+			"hide",
+			"drag2",
+			"hide2",
+			"drag_back",
+			"drag2_back"
+		},
+		action_enable = {
+			{
+				name = "normal",
+				ignore = {
+					"drag2",
+					"hide2"
+				}
+			},
+			{
+				name = "ex",
+				ignore = {
+					"drag2",
+					"hide2"
+				}
+			},
+			{
+				name = "2/normal_2",
+				ignore = {
+					"drag",
+					"hide"
+				}
+			},
+			{
+				name = "2/ex_2",
+				ignore = {
+					"drag",
+					"hide"
+				}
+			}
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = true,
+					idle = "normal",
+					action = "drag",
+					is_default = true,
+					hit = "drag"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "ex",
+					action = "drag_ex",
+					is_default = false,
+					hit = "drag_back"
+				},
+				{
+					change_idle = "2/normal_2",
+					click = true,
+					idle = "normal",
+					is_default = true,
+					hit = "hide"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "2/normal_2",
+					is_default = true,
+					hit = "hide2"
+				},
+				{
+					change_idle = "2/ex_2",
+					click = true,
+					idle = "2/normal_2",
+					action = "2/drag_2",
+					is_default = true,
+					hit = "drag2"
+				},
+				{
+					change_idle = "2/normal_2",
+					click = true,
+					idle = "2/ex_2",
+					action = "2/drag_ex_2",
+					is_default = true,
+					hit = "drag2_back"
+				}
+			}
+		}
+	},
+	qisheng_3 = {
+		multiple_face = {},
+		hit_area = {
+			"drag2",
+			"drag",
+			"drag2_ex",
+			"drag_ex",
+			"touch_head",
+			"touch_special",
+			"normal_touch_body",
+			"ex_touch_body"
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "normal2",
+					click = true,
+					action = "drag2",
+					event = "main_3",
+					is_default = true,
+					idle = "normal",
+					lit_start = 0,
+					hit = "drag2",
+					lit = {
+						0.7,
+						0.75
+					}
+				},
+				{
+					change_idle = "ex",
+					click = true,
+					action = "drag",
+					event = "main_1",
+					is_default = true,
+					idle = "normal2",
+					lit_start = 0.7,
+					hit = "drag",
+					lit = {
+						0.95,
+						1
+					}
+				},
+				{
+					change_idle = "ex2",
+					click = true,
+					idle = "ex",
+					action = "drag2_ex",
+					is_default = true,
+					lit_start = 1,
+					hit = "drag2_ex",
+					lit = {
+						0.7,
+						0.75
+					}
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					action = "drag_ex",
+					event = "TouchBody",
+					is_default = true,
+					idle = "ex2",
+					lit_start = 0.7,
+					hit = "drag_ex",
+					lit = {
+						0,
+						0.05
+					}
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					action = "touch_head",
+					is_default = true,
+					event = "TouchHead",
+					hit = "touch_head"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					action = "touch_special",
+					is_default = true,
+					event = "TouchSpecial",
+					hit = "touch_special"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					action = "normal_touch",
+					is_default = true,
+					event = "TouchBody",
+					hit = "normal_touch_body"
+				},
+				{
+					change_idle = "ex",
+					click = true,
+					idle = "ex",
+					action = "ex_touch",
+					is_default = true,
+					event = "TouchBody",
+					hit = "ex_touch_body"
 				}
 			}
 		}

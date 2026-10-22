@@ -1003,7 +1003,7 @@ function var_0_0.ChangeToElite(arg_68_0)
 		}
 	}
 
-	for iter_68_0, iter_68_1 in ipairs(arg_68_0.commanderIds) do
+	for iter_68_0, iter_68_1 in pairs(arg_68_0.commanderIds) do
 		var_68_1[TeamType.FormCommander][iter_68_0] = iter_68_1
 	end
 

@@ -289,9 +289,11 @@ function var_0_0.OnUpdateItem(arg_19_0, arg_19_1, arg_19_2)
 	}):getName())
 	setText(arg_19_2:Find("owner/number"), var_19_0.count .. "/" .. var_19_0.config.count)
 
-	GetOrAddComponent(arg_19_2:Find("owner"), typeof(CanvasGroup)).alpha = var_19_0.count == var_19_0.config.count and 0.5 or 1
+	local var_19_3 = var_19_0.count > 0 and var_19_0.count >= var_19_0.config.count
 
-	setActive(arg_19_2:Find("got"), var_19_0.count == var_19_0.config.count)
+	GetOrAddComponent(arg_19_2:Find("owner"), typeof(CanvasGroup)).alpha = var_19_3 and 0.5 or 1
+
+	setActive(arg_19_2:Find("got"), var_19_3)
 end
 
 function var_0_0.updateBoxPanel(arg_21_0, arg_21_1)

@@ -8,7 +8,8 @@ function var_0_0.GetBtns(arg_1_0)
 		MainWordBtn.New(findTF(arg_1_0._tf, "btns/word"), arg_1_0.event),
 		MainChangeSkinBtn.New(findTF(arg_1_0._tf, "btns/change"), arg_1_0.event),
 		MainResetL2dBtn.New(findTF(arg_1_0._tf, "btns/l2d"), arg_1_0.event),
-		MainL2dBoundBtn.New(findTF(arg_1_0._tf, "btns/l2d_bound"), arg_1_0.event)
+		MainL2dBoundBtn.New(findTF(arg_1_0._tf, "btns/l2d_bound"), arg_1_0.event),
+		MainPaintingLiteBtn.New(findTF(arg_1_0._tf, "btns/painting_lit"), arg_1_0.event)
 	}
 end
 

@@ -778608,13 +778608,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213001] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "bulletGER",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213001,
 		random_damage_rate = 0,
@@ -778663,13 +778663,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213002] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "bulletGER",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213002,
 		random_damage_rate = 0,
@@ -778718,13 +778718,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213003] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "bulletGER",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213003,
 		random_damage_rate = 0,
@@ -778773,13 +778773,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213004] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "bulletGER",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213004,
 		random_damage_rate = 0,
@@ -778828,13 +778828,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213005] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "bulletGER",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213005,
 		random_damage_rate = 0,
@@ -778883,13 +778883,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213006] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "bulletGER",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213006,
 		random_damage_rate = 0,
@@ -778938,13 +778938,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213007] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "bulletGER",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213007,
 		random_damage_rate = 0,
@@ -778993,13 +778993,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213008] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "bulletGER",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213008,
 		random_damage_rate = 0,
@@ -779048,13 +779048,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213009] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "bulletGER",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213009,
 		random_damage_rate = 0,
@@ -779103,13 +779103,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213010] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "bulletGER",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213010,
 		random_damage_rate = 0,
@@ -779158,13 +779158,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213011] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "bulletGER",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213011,
 		random_damage_rate = 0,
@@ -779213,13 +779213,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213012] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "bulletGER",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213012,
 		random_damage_rate = 0,
@@ -779268,19 +779268,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213013] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "heifangzhou_zhongyu_blue",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "ShellHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213013,
 		random_damage_rate = 0,
 		miss_sfx = "",
 		range = 100,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
@@ -779467,13 +779467,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213016] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "jiantouzidan09",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213016,
 		random_damage_rate = 0,
@@ -779678,19 +779678,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3213019] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "jiantouzidan10",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "ShellHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3213019,
 		random_damage_rate = 0,
 		miss_sfx = "",
 		range = 100,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
@@ -792893,13 +792893,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3218073] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "jiantouzidan09",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3218073,
 		random_damage_rate = 0,
@@ -793104,19 +793104,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3218076] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "jiantouzidan10",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "ShellHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3218076,
 		random_damage_rate = 0,
 		miss_sfx = "",
 		range = 100,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",
@@ -796469,13 +796469,13 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3218173] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "jiantouzidan11",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "CLHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3218173,
 		random_damage_rate = 0,
@@ -796680,19 +796680,19 @@ end)()
 
 (function()
 	_G.pg.base.bullet_template_1[3218176] = {
-		hit_sfx = "battle/hit",
+		hit_sfx = "",
 		range_offset = 0,
 		modle_ID = "jiantouzidan02",
 		type = 1,
 		out_bound = 0,
 		antisub_enhancement = 0,
-		hit_fx = "ShellHit",
+		hit_fx = "None",
 		effect_type = 1,
 		id = 3218176,
 		random_damage_rate = 0,
 		miss_sfx = "",
 		range = 100,
-		miss_fx = "ShellMiss",
+		miss_fx = "None",
 		pierce_count = 0,
 		ammo_type = 1,
 		alert_fx = "",

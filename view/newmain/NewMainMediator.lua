@@ -276,55 +276,61 @@ function var_0_0.initNotificationHandleDic(arg_22_0)
 
 			arg_46_0.viewComponent:emit(NewMainMediator.REMOVE_LAYERS, arg_46_1:getBody())
 		end,
-		[PlayerProxy.UPDATED] = function(arg_47_0, arg_47_1)
-			arg_47_0.viewComponent:OnPlayerUpdated()
+		[GAME.STORY_BEGIN] = function(arg_47_0, arg_47_1)
+			arg_47_0.viewComponent:emit(NewMainScene.STORY_BEGIN)
 		end,
-		[GAME.END_REFLUX_CG] = function(arg_48_0, arg_48_1)
-			arg_48_0.viewComponent:ShowOrHideBtnEffect(true)
+		[GAME.STORY_END] = function(arg_48_0, arg_48_1)
+			arg_48_0.viewComponent:emit(NewMainScene.STORY_END)
 		end,
-		[GAME.START_REFLUX_CG] = function(arg_49_0, arg_49_1)
-			arg_49_0.viewComponent:ShowOrHideBtnEffect(false)
+		[PlayerProxy.UPDATED] = function(arg_49_0, arg_49_1)
+			arg_49_0.viewComponent:OnPlayerUpdated()
 		end,
-		[ActivityProxy.UPDATED_TIP] = function(arg_50_0, arg_50_1)
-			arg_50_0.viewComponent:emit(MainBaseActivityBtn.UPDATED_TIP)
+		[GAME.END_REFLUX_CG] = function(arg_50_0, arg_50_1)
+			arg_50_0.viewComponent:ShowOrHideBtnEffect(true)
 		end,
-		[MiniGameProxy.ON_HUB_DATA_UPDATE] = function(arg_51_0, arg_51_1)
-			local var_51_0 = arg_51_0.viewComponent:GetFlagShip()
+		[GAME.START_REFLUX_CG] = function(arg_51_0, arg_51_1)
+			arg_51_0.viewComponent:ShowOrHideBtnEffect(false)
+		end,
+		[ActivityProxy.UPDATED_TIP] = function(arg_52_0, arg_52_1)
+			arg_52_0.viewComponent:emit(MainBaseActivityBtn.UPDATED_TIP)
+		end,
+		[MiniGameProxy.ON_HUB_DATA_UPDATE] = function(arg_53_0, arg_53_1)
+			local var_53_0 = arg_53_0.viewComponent:GetFlagShip()
 
-			if arg_51_0.viewComponent.theme and arg_51_0.viewComponent.theme:IsLoaded() then
-				arg_51_0.viewComponent.theme:Refresh(var_51_0)
+			if arg_53_0.viewComponent.theme and arg_53_0.viewComponent.theme:IsLoaded() then
+				arg_53_0.viewComponent.theme:Refresh(var_53_0)
 			end
 		end,
-		[GAME.CRUSING_CMD_DONE] = function(arg_52_0, arg_52_1)
-			local var_52_0 = arg_52_1:getBody()
-			local var_52_1 = var_52_0.awards
-			local var_52_2 = var_52_0.callback
+		[GAME.CRUSING_CMD_DONE] = function(arg_54_0, arg_54_1)
+			local var_54_0 = arg_54_1:getBody()
+			local var_54_1 = var_54_0.awards
+			local var_54_2 = var_54_0.callback
 
-			arg_52_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_52_1, var_52_2)
+			arg_54_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_54_1, var_54_2)
 		end
 	}
 end
 
-function var_0_0.BuildDebugBattleLoop(arg_53_0, arg_53_1)
+function var_0_0.BuildDebugBattleLoop(arg_55_0, arg_55_1)
 	if not IsUnityEditor then
 		return
 	end
 
-	local var_53_0 = {}
+	local var_55_0 = {}
 
-	for iter_53_0, iter_53_1 in arg_53_1:gmatch("%s+(%S+)") do
-		table.insert(var_53_0, iter_53_0)
+	for iter_55_0, iter_55_1 in arg_55_1:gmatch("%s+(%S+)") do
+		table.insert(var_55_0, iter_55_0)
 	end
 
-	local var_53_1 = {
-		loopCount = tonumber(var_53_0[2]),
-		loopStages = underscore.rest(var_53_0, 3),
+	local var_55_1 = {
+		loopCount = tonumber(var_55_0[2]),
+		loopStages = underscore.rest(var_55_0, 3),
 		tempList = {}
 	}
 
-	_G.InDebugBattleLoop = var_53_1
+	_G.InDebugBattleLoop = var_55_1
 
-	arg_53_0.viewComponent:CheckDebugBattleLoop()
+	arg_55_0.viewComponent:CheckDebugBattleLoop()
 end
 
 return var_0_0

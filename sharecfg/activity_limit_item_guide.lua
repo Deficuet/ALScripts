@@ -211,7 +211,37 @@ pg.activity_limit_item_guide.all = {
 	237,
 	238,
 	239,
-	240
+	240,
+	251,
+	252,
+	253,
+	254,
+	255,
+	256,
+	257,
+	258,
+	259,
+	260,
+	261,
+	262,
+	263,
+	264,
+	265,
+	266,
+	267,
+	268,
+	269,
+	270,
+	271,
+	272,
+	273,
+	274,
+	275,
+	276,
+	277,
+	278,
+	279,
+	280
 }
 pg.activity_limit_item_guide.get_id_list_by_activity = {
 	[4937] = {
@@ -448,6 +478,38 @@ pg.activity_limit_item_guide.get_id_list_by_activity = {
 		235,
 		236,
 		237
+	},
+	[51615] = {
+		251,
+		252,
+		253,
+		254,
+		255,
+		256,
+		257,
+		258,
+		259,
+		260,
+		261,
+		262,
+		263,
+		264,
+		265,
+		266,
+		267,
+		268,
+		269,
+		270,
+		271,
+		272,
+		273,
+		274,
+		275,
+		276,
+		277,
+		278,
+		279,
+		280
 	}
 }
 pg.base = pg.base or {}
@@ -4413,6 +4475,620 @@ end)()
 					"REVERSE_PACMAN_SELECT"
 				},
 				"完成「异常的日常进行中」活动玩法获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[251] = {
+		id = 251,
+		activity = 51615,
+		count = 1,
+		type = 4,
+		is_new = 1,
+		count_storage = 1,
+		drop_id = 9600171,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene get boat",
+					{
+						projectName = "new",
+						page = 1
+					}
+				},
+				"限时建造获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[252] = {
+		id = 252,
+		activity = 51615,
+		count = 1,
+		type = 4,
+		is_new = 1,
+		count_storage = 1,
+		drop_id = 9600181,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						warp = "activity"
+					}
+				},
+				"商店兑换获得"
+			},
+			{
+				2,
+				{
+					"scene get boat",
+					{
+						projectName = "new",
+						page = 1
+					}
+				},
+				"限时建造获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[253] = {
+		id = 253,
+		activity = 51615,
+		count = 1,
+		type = 4,
+		is_new = 1,
+		count_storage = 1,
+		drop_id = 9600191,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene get boat",
+					{
+						projectName = "new",
+						page = 1
+					}
+				},
+				"限时建造获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[254] = {
+		id = 254,
+		activity = 51615,
+		count = 1,
+		type = 4,
+		is_new = 1,
+		count_storage = 1,
+		drop_id = 9600201,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene get boat",
+					{
+						projectName = "new",
+						page = 1
+					}
+				},
+				"限时建造获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[255] = {
+		id = 255,
+		activity = 51615,
+		count = 1,
+		type = 4,
+		is_new = 1,
+		count_storage = 1,
+		drop_id = 9600211,
+		order = 0,
+		link_params = {
+			{
+				3,
+				51607,
+				"「飓风与雾霭回廊」-  「雾霭补给站」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[256] = {
+		id = 256,
+		activity = 51615,
+		count = 1,
+		type = 5,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 351,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene level"
+				},
+				"通关「飓风与雾霭回廊」T6获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[257] = {
+		id = 257,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4456,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[258] = {
+		id = 258,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4457,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[259] = {
+		id = 259,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4458,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[260] = {
+		id = 260,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4459,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[261] = {
+		id = 261,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4460,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[262] = {
+		id = 262,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4461,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[263] = {
+		id = 263,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4462,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[264] = {
+		id = 264,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4463,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[265] = {
+		id = 265,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4464,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[266] = {
+		id = 266,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4465,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[267] = {
+		id = 267,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4466,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[268] = {
+		id = 268,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4467,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[269] = {
+		id = 269,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4468,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[270] = {
+		id = 270,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4469,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[271] = {
+		id = 271,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4470,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[272] = {
+		id = 272,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4471,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[273] = {
+		id = 273,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4472,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[274] = {
+		id = 274,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 4473,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[275] = {
+		id = 275,
+		activity = 51615,
+		count = 1,
+		type = 1,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 767,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"完成「飓风与雾霭回廊」纪念任务获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[276] = {
+		id = 276,
+		activity = 51615,
+		count = 2,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 151300,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 51608,
+						warp = 1
+					}
+				},
+				"补给商店兑换"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[277] = {
+		id = 277,
+		activity = 51615,
+		count = 2,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 151280,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 51608,
+						warp = 1
+					}
+				},
+				"补给商店兑换"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[278] = {
+		id = 278,
+		activity = 51615,
+		count = 1,
+		type = 3,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 150080,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 51608,
+						warp = 1
+					}
+				},
+				"补给商店兑换"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[279] = {
+		id = 279,
+		activity = 51615,
+		count = 1,
+		type = 25,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 960081,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 51608,
+						warp = 1
+					}
+				},
+				"补给商店兑换"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[280] = {
+		id = 280,
+		activity = 51615,
+		count = 1,
+		type = 25,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 960091,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 51608,
+						warp = 1
+					}
+				},
+				"补给商店兑换"
 			}
 		}
 	}

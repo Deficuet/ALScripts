@@ -1,0 +1,24 @@
+return {
+	init_effect = "",
+	name = "",
+	time = 0,
+	picture = "",
+	desc = "",
+	stack = 1,
+	id = 152951,
+	icon = 152950,
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				attr = "DMG_FROM_TAG_1_Merkuriy",
+				number = 0.061
+			}
+		}
+	}
+}

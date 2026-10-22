@@ -37,14 +37,14 @@ function var_0_0.getResource(arg_2_0)
 	local var_2_4 = getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK)
 
 	for iter_2_2, iter_2_3 in ipairs(var_2_4) do
-		if not iter_2_3:isEnd() and tonumber(iter_2_3:getConfig("config_data")) > 0 then
-			local var_2_5 = iter_2_3:getConfig("config_id")
-			local var_2_6 = Drop.New({
-				type = DROP_TYPE_RESOURCE,
-				id = var_2_5
-			}):getIcon()
+		local var_2_5 = iter_2_3:getConfig("config_data")
 
-			var_2_2(var_2_6)
+		if not iter_2_3:isEnd() then
+			local var_2_6 = iter_2_3:GetPTDrop()
+
+			if var_2_6 then
+				var_2_2(var_2_6:getIcon())
+			end
 		end
 	end
 

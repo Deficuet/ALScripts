@@ -36,7 +36,9 @@ pg.commander_data_template.all = {
 	960041,
 	960051,
 	960061,
-	960071
+	960071,
+	960081,
+	960091
 }
 pg.base = pg.base or {}
 pg.base.commander_data_template = {}
@@ -749,6 +751,62 @@ pg.base.commander_data_template = {}
 			5111,
 			142,
 			5121
+		}
+	}
+	pg.base.commander_data_template[960081] = {
+		exp = 500,
+		name = "亚历山大喵",
+		ability_refresh_type = 1,
+		nationality = 96,
+		max_level = 30,
+		tactic_value = 40,
+		exp_cost = 30,
+		desc = "指挥喵亚历山大喵——通过活动「飓风与雾霭回廊」获取",
+		rarity = 5,
+		support_value = 66,
+		painting = "yalishandamiao",
+		group_type = 96008,
+		id = 960081,
+		bg = "1",
+		skill_id = 960081,
+		command_value = 57,
+		ability_show = {
+			5191,
+			931,
+			932,
+			161,
+			933,
+			5101,
+			162,
+			5121
+		}
+	}
+	pg.base.commander_data_template[960091] = {
+		exp = 300,
+		name = "奥拉夫喵",
+		ability_refresh_type = 1,
+		nationality = 96,
+		max_level = 30,
+		tactic_value = 43,
+		exp_cost = 20,
+		desc = "指挥喵奥拉夫喵——通过活动「飓风与雾霭回廊」获取",
+		rarity = 4,
+		support_value = 35,
+		painting = "aolafumiao",
+		group_type = 96009,
+		id = 960091,
+		bg = "1",
+		skill_id = 960091,
+		command_value = 55,
+		ability_show = {
+			5131,
+			831,
+			832,
+			151,
+			833,
+			5101,
+			152,
+			5201
 		}
 	}
 end)()

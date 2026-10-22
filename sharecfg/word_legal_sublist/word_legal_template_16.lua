@@ -7,6 +7,16 @@ var_0_0.word_legal_template_16 = {}
 local var_0_1 = var_0_0.word_legal_template_16
 
 function temp()
+	var_0_1.久 = {
+		远 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.猫 = {
 		音 = {
 			this = true

@@ -1,6 +1,7 @@
 local var_0_0 = class("SpinePaintingDrag")
 local var_0_1 = "spine_painting_idle_init_"
 local var_0_2 = "spine_painting_skin_init_"
+local var_0_3 = "spine_painting_lite_"
 
 function var_0_0.SetPaintingInitIdle(arg_1_0, arg_1_1, arg_1_2)
 	local var_1_0 = var_0_1 .. tostring(arg_1_0) .. tostring(arg_1_1)
@@ -34,6 +35,23 @@ function var_0_0.GetPaintingInitSkin(arg_4_0, arg_4_1)
 	end
 
 	return nil
+end
+
+function var_0_0.SetPaintingLite(arg_5_0, arg_5_1, arg_5_2)
+	local var_5_0 = var_0_3 .. tostring(arg_5_0) .. "_" .. tostring(arg_5_1)
+
+	PlayerPrefs.SetFloat(var_5_0, arg_5_2)
+end
+
+function var_0_0.GetPaintingLite(arg_6_0, arg_6_1)
+	local var_6_0 = var_0_3 .. tostring(arg_6_0) .. "_" .. tostring(arg_6_1)
+	local var_6_1 = PlayerPrefs.GetFloat(var_6_0)
+
+	if var_6_1 and var_6_1 >= 0 then
+		return var_6_1
+	end
+
+	return 0.5
 end
 
 return var_0_0

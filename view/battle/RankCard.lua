@@ -93,13 +93,9 @@ function var_0_0.update(arg_2_0, arg_2_1, arg_2_2)
 	if var_2_3 then
 		if arg_2_1.type == PowerRank.TYPE_PT then
 			if arg_2_2 then
-				local var_2_4 = getProxy(ActivityProxy):getActivityById(arg_2_2):getConfig("config_id")
-				local var_2_5 = Drop.New({
-					type = DROP_TYPE_RESOURCE,
-					id = var_2_4
-				}):getIcon()
+				local var_2_4 = getProxy(ActivityProxy):getActivityById(arg_2_2)
 
-				setImageSprite(arg_2_0.scoreIconTF, LoadSprite(var_2_5))
+				setImageSprite(arg_2_0.scoreIconTF, LoadSprite(var_2_4:GetPTDrop():getIcon()))
 			end
 		else
 			setImageSprite(arg_2_0.scoreIconTF, GetSpriteFromAtlas(var_2_3[1], var_2_3[2]), true)

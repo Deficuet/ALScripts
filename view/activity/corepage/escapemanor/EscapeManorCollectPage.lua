@@ -81,14 +81,16 @@ function var_0_0.OnUpdateItem(arg_9_0, arg_9_1, arg_9_2)
 	}):getName())
 	arg_9_0:RefreshCountText(var_9_0, arg_9_2)
 
-	GetOrAddComponent(arg_9_2:Find("owner"), typeof(CanvasGroup)).alpha = var_9_0.count == var_9_0.config.count and 0.5 or 1
+	local var_9_3 = var_9_0.count > 0 and var_9_0.count >= var_9_0.config.count
+
+	GetOrAddComponent(arg_9_2:Find("owner"), typeof(CanvasGroup)).alpha = var_9_3 and 0.5 or 1
 
 	setActive(arg_9_2:Find("new"), var_9_0.config.is_new == "1")
 
 	if var_9_2.type == 4 then
 		setActive(arg_9_2:Find("got"), var_9_0.count >= 1)
 	else
-		setActive(arg_9_2:Find("got"), var_9_0.count == var_9_0.config.count)
+		setActive(arg_9_2:Find("got"), var_9_3)
 	end
 end
 

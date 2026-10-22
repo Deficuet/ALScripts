@@ -666,6 +666,11 @@ pg.activity_ins_template.all = {
 	671,
 	672,
 	673,
+	674,
+	675,
+	676,
+	677,
+	678,
 	20001,
 	20002,
 	20003,
@@ -678,9 +683,10 @@ pg.activity_ins_template.all = {
 	20012,
 	20009,
 	20010,
-	20015,
 	20013,
-	20014
+	20014,
+	20015,
+	20016
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -27960,11 +27966,11 @@ end)()
 		name = "Tiger",
 		oalist_pic_persist = "",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/260908_huC6fJIPyL8kxAq0Ze.png",
 		title = "",
 		sculpture = "hu",
-		is_active = 1,
-		message_persist = "",
+		is_active = 0,
+		message_persist = "ins_669",
 		id = 669,
 		group_id = 669,
 		time = {
@@ -27979,19 +27985,33 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				9,
+				8
+			},
+			{
+				15,
+				30,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7443,
+			7447
+		}
 	}
 	pg.base.activity_ins_template[670] = {
 		ship_group = 30409,
 		name = "Azuchi",
 		oalist_pic_persist = "",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/260908_antum47khkGBLgnkajkq.png",
 		title = "",
 		sculpture = "antu",
-		is_active = 1,
-		message_persist = "",
+		is_active = 0,
+		message_persist = "ins_670",
 		id = 670,
 		group_id = 670,
 		time = {
@@ -28006,19 +28026,34 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				9,
+				9
+			},
+			{
+				14,
+				25,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7456,
+			7463,
+			7466
+		}
 	}
 	pg.base.activity_ins_template[671] = {
 		ship_group = 31703,
 		name = "I14",
 		oalist_pic_persist = "",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/260908_i149DPTUrujhjwM35Du.png",
 		title = "",
 		sculpture = "I14",
-		is_active = 1,
-		message_persist = "",
+		is_active = 0,
+		message_persist = "ins_671",
 		id = 671,
 		group_id = 671,
 		time = {
@@ -28033,19 +28068,34 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				9,
+				10
+			},
+			{
+				12,
+				50,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7476,
+			7478,
+			7485
+		}
 	}
 	pg.base.activity_ins_template[672] = {
 		ship_group = 20140,
 		name = "Hasty",
 		oalist_pic_persist = "",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/260908_congmangoj36lbDIdwgf1ZYT.png",
 		title = "",
 		sculpture = "congmang",
-		is_active = 1,
-		message_persist = "",
+		is_active = 0,
+		message_persist = "ins_672",
 		id = 672,
 		group_id = 672,
 		time = {
@@ -28060,19 +28110,33 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				9,
+				11
+			},
+			{
+				9,
+				36,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7495,
+			7501
+		}
 	}
 	pg.base.activity_ins_template[673] = {
 		ship_group = 20119,
 		name = "Hostile",
 		oalist_pic_persist = "",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/260908_diduizemwC6nQJfkJTfuU.png",
 		title = "",
 		sculpture = "didui",
-		is_active = 1,
-		message_persist = "",
+		is_active = 0,
+		message_persist = "ins_673",
 		id = 673,
 		group_id = 673,
 		time = {
@@ -28084,6 +28148,156 @@ end)()
 			{
 				20,
 				0,
+				0
+			}
+		},
+		time_persist = {
+			{
+				2026,
+				9,
+				12
+			},
+			{
+				20,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7511,
+			7515,
+			7519
+		}
+	}
+	pg.base.activity_ins_template[674] = {
+		ship_group = 960017,
+		name = "Mercury",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "shuixinghao",
+		is_active = 1,
+		message_persist = "",
+		id = 674,
+		group_id = 674,
+		time = {
+			{
+				2026,
+				10,
+				22
+			},
+			{
+				16,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[675] = {
+		ship_group = 960018,
+		name = "Jernbarden",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "tiejiaohao",
+		is_active = 1,
+		message_persist = "",
+		id = 675,
+		group_id = 675,
+		time = {
+			{
+				2026,
+				10,
+				22
+			},
+			{
+				10,
+				55,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[676] = {
+		ship_group = 960019,
+		name = "Selimiye",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "sailimiye",
+		is_active = 1,
+		message_persist = "",
+		id = 676,
+		group_id = 676,
+		time = {
+			{
+				2026,
+				10,
+				23
+			},
+			{
+				15,
+				30,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[677] = {
+		ship_group = 960020,
+		name = "Ormen Lange",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "changshehao",
+		is_active = 1,
+		message_persist = "",
+		id = 677,
+		group_id = 677,
+		time = {
+			{
+				2026,
+				10,
+				24
+			},
+			{
+				12,
+				50,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[678] = {
+		ship_group = 960021,
+		name = "Real bey",
+		oalist_pic_persist = "",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		sculpture = "leiyierbei",
+		is_active = 1,
+		message_persist = "",
+		id = 678,
+		group_id = 678,
+		time = {
+			{
+				2026,
+				10,
+				25
+			},
+			{
+				19,
+				36,
 				0
 			}
 		},
@@ -28414,33 +28628,6 @@ end)()
 		time_persist = {},
 		npc_discuss_persist = {}
 	}
-	pg.base.activity_ins_template[20015] = {
-		ship_group = 0,
-		name = "",
-		oalist_pic_persist = "",
-		type = 2,
-		picture_persist = "",
-		title = "【港区故事】征集：何为浪漫？",
-		sculpture = "",
-		is_active = 1,
-		message_persist = "",
-		id = 20015,
-		group_id = 20015,
-		time = {
-			{
-				2026,
-				10,
-				8
-			},
-			{
-				14,
-				0,
-				0
-			}
-		},
-		time_persist = {},
-		npc_discuss_persist = {}
-	}
 	pg.base.activity_ins_template[20013] = {
 		ship_group = 0,
 		name = "",
@@ -28485,6 +28672,60 @@ end)()
 				2026,
 				9,
 				17
+			},
+			{
+				14,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20015] = {
+		ship_group = 0,
+		name = "",
+		oalist_pic_persist = "",
+		type = 2,
+		picture_persist = "",
+		title = "【港区故事】征集：何为浪漫？",
+		sculpture = "",
+		is_active = 1,
+		message_persist = "",
+		id = 20015,
+		group_id = 20015,
+		time = {
+			{
+				2026,
+				10,
+				8
+			},
+			{
+				14,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20016] = {
+		ship_group = 0,
+		name = "",
+		oalist_pic_persist = "",
+		type = 2,
+		picture_persist = "",
+		title = "【港区秘闻】万圣节活动中出现奇怪现象是正常的",
+		sculpture = "",
+		is_active = 1,
+		message_persist = "",
+		id = 20016,
+		group_id = 20016,
+		time = {
+			{
+				2026,
+				10,
+				22
 			},
 			{
 				14,

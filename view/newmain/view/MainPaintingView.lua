@@ -79,6 +79,16 @@ function var_0_0.Register(arg_2_0)
 
 		arg_2_0.painting:ResetState()
 	end)
+	arg_2_0:bind(NewMainScene.STORY_BEGIN, function()
+		if arg_2_0.painting then
+			arg_2_0.painting:Pause()
+		end
+	end)
+	arg_2_0:bind(NewMainScene.STORY_END, function()
+		if arg_2_0.painting then
+			arg_2_0.painting:Resume()
+		end
+	end)
 
 	function Live2dConst.UnLoadL2dPating()
 		if not arg_2_0.reloadOnResume and arg_2_0.painting and isa(arg_2_0.painting, MainLive2dPainting) then
@@ -89,272 +99,272 @@ function var_0_0.Register(arg_2_0)
 	end
 end
 
-function var_0_0.OnChatStateChange(arg_14_0, arg_14_1)
-	if not arg_14_1 then
-		arg_14_0.painting:StopChatAnimtion()
+function var_0_0.OnChatStateChange(arg_16_0, arg_16_1)
+	if not arg_16_1 then
+		arg_16_0.painting:StopChatAnimtion()
 	end
 end
 
-function var_0_0.OnStopVoice(arg_15_0)
-	if arg_15_0.painting then
-		arg_15_0.painting:OnStopVoice()
+function var_0_0.OnStopVoice(arg_17_0)
+	if arg_17_0.painting then
+		arg_17_0.painting:OnStopVoice()
 	end
 end
 
-function var_0_0.IsLive2DState(arg_16_0)
-	return var_0_0.STATE_L2D == arg_16_0.state
+function var_0_0.IsLive2DState(arg_18_0)
+	return var_0_0.STATE_L2D == arg_18_0.state
 end
 
-function var_0_0.IsLoading(arg_17_0)
-	if arg_17_0.painting and arg_17_0.painting:IsLoading() then
+function var_0_0.IsLoading(arg_19_0)
+	if arg_19_0.painting and arg_19_0.painting:IsLoading() then
 		return true
 	end
 
 	return false
 end
 
-function var_0_0.Init(arg_18_0, arg_18_1, arg_18_2, arg_18_3)
-	if arg_18_0:ShouldReLoad(arg_18_1) then
-		arg_18_0:Reload(arg_18_1)
+function var_0_0.Init(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
+	if arg_20_0:ShouldReLoad(arg_20_1) then
+		arg_20_0:Reload(arg_20_1)
 	else
-		arg_18_0.painting:Resume()
+		arg_20_0.painting:Resume()
 	end
 
-	arg_18_0.shift = arg_18_2 or arg_18_0.shift
+	arg_20_0.shift = arg_20_2 or arg_20_0.shift
 
-	assert(arg_18_0.shift)
+	assert(arg_20_0.shift)
 
-	if arg_18_3 then
-		arg_18_0:AdjustPositionWithAnim(arg_18_1)
+	if arg_20_3 then
+		arg_20_0:AdjustPositionWithAnim(arg_20_1)
 	else
-		arg_18_0:AdjustPosition(arg_18_1)
+		arg_20_0:AdjustPosition(arg_20_1)
 	end
 
-	arg_18_0.painting:SetShift(arg_18_0.shift)
+	arg_20_0.painting:SetShift(arg_20_0.shift)
 end
 
-function var_0_0.Reload(arg_19_0, arg_19_1)
-	arg_19_0.ship = arg_19_1
+function var_0_0.Reload(arg_21_0, arg_21_1)
+	arg_21_0.ship = arg_21_1
 
-	local var_19_0, var_19_1 = var_0_0.GetAssistantStatus(arg_19_1)
-	local var_19_2 = arg_19_0.paintings[var_19_0]
+	local var_21_0, var_21_1 = var_0_0.GetAssistantStatus(arg_21_1)
+	local var_21_2 = arg_21_0.paintings[var_21_0]
 
-	if arg_19_0.painting then
-		arg_19_0.painting:Unload()
+	if arg_21_0.painting then
+		arg_21_0.painting:Unload()
 	end
 
-	var_19_2:Load(arg_19_1)
+	var_21_2:Load(arg_21_1)
 
-	arg_19_0.painting = var_19_2
-	arg_19_0.state = var_19_0
-	arg_19_0.bgToggle = PlayerPrefs.GetInt("paint_hide_other_obj_" .. arg_19_0.painting.paintingName, 0)
-	arg_19_0.skinId = arg_19_1:getSkinId()
+	arg_21_0.painting = var_21_2
+	arg_21_0.state = var_21_0
+	arg_21_0.bgToggle = PlayerPrefs.GetInt("paint_hide_other_obj_" .. arg_21_0.painting.paintingName, 0)
+	arg_21_0.skinId = arg_21_1:getSkinId()
 end
 
-function var_0_0.Refresh(arg_20_0, arg_20_1, arg_20_2)
-	arg_20_0:Init(arg_20_1, arg_20_2)
+function var_0_0.Refresh(arg_22_0, arg_22_1, arg_22_2)
+	arg_22_0:Init(arg_22_1, arg_22_2)
 end
 
-function var_0_0.ShouldReLoad(arg_21_0, arg_21_1)
-	if not arg_21_0.painting or not arg_21_0.ship or not arg_21_0.state or not arg_21_0.bgToggle then
+function var_0_0.ShouldReLoad(arg_23_0, arg_23_1)
+	if not arg_23_0.painting or not arg_23_0.ship or not arg_23_0.state or not arg_23_0.bgToggle then
 		return true
 	end
 
-	local var_21_0 = var_0_0.GetAssistantStatus(arg_21_1)
-	local var_21_1 = PlayerPrefs.GetInt("paint_hide_other_obj_" .. arg_21_0.painting.paintingName, 0)
+	local var_23_0 = var_0_0.GetAssistantStatus(arg_23_1)
+	local var_23_1 = PlayerPrefs.GetInt("paint_hide_other_obj_" .. arg_23_0.painting.paintingName, 0)
 
-	if arg_21_0.skinId == arg_21_0.ship:getSkinId() and arg_21_1.id == arg_21_0.ship.id and arg_21_0.state == var_21_0 and arg_21_0.bgToggle == var_21_1 and arg_21_1:GetRecordPosKey() == arg_21_0.ship:GetRecordPosKey() and not arg_21_0.reloadOnResume then
+	if arg_23_0.skinId == arg_23_0.ship:getSkinId() and arg_23_1.id == arg_23_0.ship.id and arg_23_0.state == var_23_0 and arg_23_0.bgToggle == var_23_1 and arg_23_1:GetRecordPosKey() == arg_23_0.ship:GetRecordPosKey() and not arg_23_0.reloadOnResume then
 		return false
 	else
-		if arg_21_0.reloadOnResume then
-			arg_21_0.reloadOnResume = false
+		if arg_23_0.reloadOnResume then
+			arg_23_0.reloadOnResume = false
 		end
 
 		return true
 	end
 end
 
-function var_0_0.SetOnceLoadedCall(arg_22_0, arg_22_1)
-	arg_22_0.painting:SetOnceLoadedCall(arg_22_1)
+function var_0_0.SetOnceLoadedCall(arg_24_0, arg_24_1)
+	arg_24_0.painting:SetOnceLoadedCall(arg_24_1)
 end
 
-function var_0_0.PlayChangeSkinActionIn(arg_23_0, arg_23_1)
-	arg_23_0.painting:PlayChangeSkinActionIn(arg_23_1)
+function var_0_0.PlayChangeSkinActionIn(arg_25_0, arg_25_1)
+	arg_25_0.painting:PlayChangeSkinActionIn(arg_25_1)
 end
 
-function var_0_0.PlayChangeSkinActionOut(arg_24_0, arg_24_1)
-	arg_24_0.painting:PlayChangeSkinActionOut(arg_24_1)
+function var_0_0.PlayChangeSkinActionOut(arg_26_0, arg_26_1)
+	arg_26_0.painting:PlayChangeSkinActionOut(arg_26_1)
 end
 
-function var_0_0.Disable(arg_25_0)
-	if arg_25_0.painting then
-		arg_25_0.painting:Pause()
+function var_0_0.Disable(arg_27_0)
+	if arg_27_0.painting then
+		arg_27_0.painting:Pause()
 	end
 end
 
-function var_0_0.AdjustPositionWithAnim(arg_26_0, arg_26_1)
-	LeanTween.cancel(go(arg_26_0._tf))
-	LeanTween.cancel(go(arg_26_0._bgTf))
+function var_0_0.AdjustPositionWithAnim(arg_28_0, arg_28_1)
+	LeanTween.cancel(go(arg_28_0._tf))
+	LeanTween.cancel(go(arg_28_0._bgTf))
 
-	local var_26_0 = arg_26_0:GetPositionAndScale(arg_26_1)
+	local var_28_0 = arg_28_0:GetPositionAndScale(arg_28_1)
 
-	LeanTween.moveLocal(go(arg_26_0._tf), var_26_0, 0.3):setEase(LeanTweenType.easeInOutExpo)
-	LeanTween.moveLocal(go(arg_26_0._bgTf), var_26_0, 0.3):setEase(LeanTweenType.easeInOutExpo)
+	LeanTween.moveLocal(go(arg_28_0._tf), var_28_0, 0.3):setEase(LeanTweenType.easeInOutExpo)
+	LeanTween.moveLocal(go(arg_28_0._bgTf), var_28_0, 0.3):setEase(LeanTweenType.easeInOutExpo)
 
-	local var_26_1, var_26_2 = arg_26_0.shift:GetSpineShift()
+	local var_28_1, var_28_2 = arg_28_0.shift:GetSpineShift()
 
-	LeanTween.moveLocal(go(arg_26_0.spineContainer), var_26_1, 0.3):setEase(LeanTweenType.easeInOutExpo)
+	LeanTween.moveLocal(go(arg_28_0.spineContainer), var_28_1, 0.3):setEase(LeanTweenType.easeInOutExpo)
 
-	local var_26_3, var_26_4 = arg_26_0.shift:GetL2dShift()
+	local var_28_3, var_28_4 = arg_28_0.shift:GetL2dShift()
 
-	if arg_26_0.painting:IslimitYPos() then
-		var_26_3.y = arg_26_0.painting:GetHalfBodyOffsetY()
+	if arg_28_0.painting:IslimitYPos() then
+		var_28_3.y = arg_28_0.painting:GetHalfBodyOffsetY()
 	end
 
-	LeanTween.moveLocal(go(arg_26_0.l2dContainer), var_26_3, 0.3):setEase(LeanTweenType.easeInOutExpo):setOnComplete(System.Action(function()
-		arg_26_0:AdjustPosition(arg_26_1)
+	LeanTween.moveLocal(go(arg_28_0.l2dContainer), var_28_3, 0.3):setEase(LeanTweenType.easeInOutExpo):setOnComplete(System.Action(function()
+		arg_28_0:AdjustPosition(arg_28_1)
 	end))
 end
 
-function var_0_0.AdjustPosition(arg_28_0, arg_28_1)
-	local var_28_0, var_28_1 = arg_28_0:GetPositionAndScale(arg_28_1)
+function var_0_0.AdjustPosition(arg_30_0, arg_30_1)
+	local var_30_0, var_30_1 = arg_30_0:GetPositionAndScale(arg_30_1)
 
-	arg_28_0._tf.anchoredPosition = var_28_0
-	arg_28_0._bgTf.anchoredPosition = var_28_0
+	arg_30_0._tf.anchoredPosition = var_30_0
+	arg_30_0._bgTf.anchoredPosition = var_30_0
 
-	local var_28_2, var_28_3 = arg_28_0.shift:GetL2dShift()
+	local var_30_2, var_30_3 = arg_30_0.shift:GetL2dShift()
 
-	if arg_28_0.painting:IslimitYPos() then
-		var_28_2.y = arg_28_0.painting:GetHalfBodyOffsetY()
+	if arg_30_0.painting:IslimitYPos() then
+		var_30_2.y = arg_30_0.painting:GetHalfBodyOffsetY()
 	end
 
-	arg_28_0.l2dContainer.anchoredPosition = var_28_2
+	arg_30_0.l2dContainer.anchoredPosition = var_30_2
 
-	local var_28_4, var_28_5 = arg_28_0.shift:GetSpineShift()
+	local var_30_4, var_30_5 = arg_30_0.shift:GetSpineShift()
 
-	arg_28_0.spineContainer.anchoredPosition = var_28_4
+	arg_30_0.spineContainer.anchoredPosition = var_30_4
 
-	local var_28_6, var_28_7, var_28_8 = getProxy(SettingsProxy):getSkinPosSetting(arg_28_1)
+	local var_30_6, var_30_7, var_30_8 = getProxy(SettingsProxy):getSkinPosSetting(arg_30_1)
 
-	if var_28_8 then
-		arg_28_0._bgTf.localScale = Vector3(var_28_8, var_28_8, 1)
-		arg_28_0._tf.localScale = Vector3(var_28_8, var_28_8, 1)
-	elseif arg_28_0.state == var_0_0.STATE_L2D then
-		arg_28_0._bgTf.localScale = var_28_3
-		arg_28_0._tf.localScale = var_28_3
-	elseif arg_28_0.state == var_0_0.STATE_SPINE_PAINTING then
-		arg_28_0._bgTf.localScale = var_28_5
-		arg_28_0._tf.localScale = var_28_5
+	if var_30_8 then
+		arg_30_0._bgTf.localScale = Vector3(var_30_8, var_30_8, 1)
+		arg_30_0._tf.localScale = Vector3(var_30_8, var_30_8, 1)
+	elseif arg_30_0.state == var_0_0.STATE_L2D then
+		arg_30_0._bgTf.localScale = var_30_3
+		arg_30_0._tf.localScale = var_30_3
+	elseif arg_30_0.state == var_0_0.STATE_SPINE_PAINTING then
+		arg_30_0._bgTf.localScale = var_30_5
+		arg_30_0._tf.localScale = var_30_5
 	else
-		arg_28_0._bgTf.localScale = var_28_1
-		arg_28_0._tf.localScale = var_28_1
+		arg_30_0._bgTf.localScale = var_30_1
+		arg_30_0._tf.localScale = var_30_1
 	end
 end
 
-function var_0_0.GetPositionAndScale(arg_29_0, arg_29_1)
-	local var_29_0, var_29_1, var_29_2 = getProxy(SettingsProxy):getSkinPosSetting(arg_29_1)
-	local var_29_3 = Vector3(0, 0, 0)
-	local var_29_4 = Vector3(1, 1, 1)
+function var_0_0.GetPositionAndScale(arg_31_0, arg_31_1)
+	local var_31_0, var_31_1, var_31_2 = getProxy(SettingsProxy):getSkinPosSetting(arg_31_1)
+	local var_31_3 = Vector3(0, 0, 0)
+	local var_31_4 = Vector3(1, 1, 1)
 
-	if var_29_0 then
-		var_29_3 = Vector3(var_29_0, var_29_1, 0)
-		var_29_4 = Vector3(var_29_2, var_29_2, 1)
+	if var_31_0 then
+		var_31_3 = Vector3(var_31_0, var_31_1, 0)
+		var_31_4 = Vector3(var_31_2, var_31_2, 1)
 	else
-		local var_29_5, var_29_6 = arg_29_0.shift:GetMeshImageShift()
+		local var_31_5, var_31_6 = arg_31_0.shift:GetMeshImageShift()
 
-		var_29_3 = var_29_5
-		var_29_4 = var_29_6
+		var_31_3 = var_31_5
+		var_31_4 = var_31_6
 	end
 
-	return var_29_3, var_29_4
+	return var_31_3, var_31_4
 end
 
-function var_0_0.GetAssistantStatus(arg_30_0)
-	local var_30_0 = arg_30_0:getPainting()
-	local var_30_1 = getProxy(SettingsProxy)
-	local var_30_2 = HXSet.autoHxShiftPath("spinepainting/" .. var_30_0)
-	local var_30_3 = checkABExist(var_30_2)
-	local var_30_4 = HXSet.autoHxShiftPath("live2d/" .. var_30_0)
-	local var_30_5 = var_0_0.Live2dIsDownload(var_30_4) and checkABExist(var_30_4)
-	local var_30_6 = var_30_1:getCharacterSetting(arg_30_0.id, SHIP_FLAG_BG)
+function var_0_0.GetAssistantStatus(arg_32_0)
+	local var_32_0 = arg_32_0:getPainting()
+	local var_32_1 = getProxy(SettingsProxy)
+	local var_32_2 = HXSet.autoHxShiftPath("spinepainting/" .. var_32_0)
+	local var_32_3 = checkABExist(var_32_2)
+	local var_32_4 = HXSet.autoHxShiftPath("live2d/" .. var_32_0)
+	local var_32_5 = var_0_0.Live2dIsDownload(var_32_4) and checkABExist(var_32_4)
+	local var_32_6 = var_32_1:getCharacterSetting(arg_32_0.id, SHIP_FLAG_BG)
 
-	if var_30_1:getCharacterSetting(arg_30_0.id, SHIP_FLAG_L2D) and var_30_5 then
-		return isa(arg_30_0, VirtualEducateCharShip) and var_0_0.STATE_EDUCATE_L2D or var_0_0.STATE_L2D, var_30_6
-	elseif var_30_1:getCharacterSetting(arg_30_0.id, SHIP_FLAG_SP) and var_30_3 then
-		return isa(arg_30_0, VirtualEducateCharShip) and var_0_0.STATE_EDUCATE_SPINE or var_0_0.STATE_SPINE_PAINTING, var_30_6
+	if var_32_1:getCharacterSetting(arg_32_0.id, SHIP_FLAG_L2D) and var_32_5 then
+		return isa(arg_32_0, VirtualEducateCharShip) and var_0_0.STATE_EDUCATE_L2D or var_0_0.STATE_L2D, var_32_6
+	elseif var_32_1:getCharacterSetting(arg_32_0.id, SHIP_FLAG_SP) and var_32_3 then
+		return isa(arg_32_0, VirtualEducateCharShip) and var_0_0.STATE_EDUCATE_SPINE or var_0_0.STATE_SPINE_PAINTING, var_32_6
 	else
-		return isa(arg_30_0, VirtualEducateCharShip) and var_0_0.STATE_EDUCATE_CHAR or var_0_0.STATE_PAINTING, var_30_6
+		return isa(arg_32_0, VirtualEducateCharShip) and var_0_0.STATE_EDUCATE_CHAR or var_0_0.STATE_PAINTING, var_32_6
 	end
 end
 
-function var_0_0.OnBoundChange(arg_31_0)
-	if arg_31_0.painting then
-		arg_31_0.painting:UpdateBound()
+function var_0_0.OnBoundChange(arg_33_0)
+	if arg_33_0.painting then
+		arg_33_0.painting:UpdateBound()
 	end
 end
 
-function var_0_0.Live2dIsDownload(arg_32_0)
-	local var_32_0 = GroupHelper.GetGroupMgrByName("L2D"):CheckF(arg_32_0)
+function var_0_0.Live2dIsDownload(arg_34_0)
+	local var_34_0 = GroupHelper.GetGroupMgrByName("L2D"):CheckF(arg_34_0)
 
-	return var_32_0 == DownloadState.None or var_32_0 == DownloadState.UpdateSuccess
+	return var_34_0 == DownloadState.None or var_34_0 == DownloadState.UpdateSuccess
 end
 
-function var_0_0.Fold(arg_33_0, arg_33_1, arg_33_2)
+function var_0_0.Fold(arg_35_0, arg_35_1, arg_35_2)
 	return
 end
 
-function var_0_0.EnableOrDisableScale(arg_34_0, arg_34_1)
-	arg_34_0.painting:EnableOrDisableMove(arg_34_1)
-	arg_34_0.painting:OnEnablePartScale(arg_34_1)
+function var_0_0.EnableOrDisableScale(arg_36_0, arg_36_1)
+	arg_36_0.painting:EnableOrDisableMove(arg_36_1)
+	arg_36_0.painting:OnEnablePartScale(arg_36_1)
 end
 
-function var_0_0.EnableOrDisableMove(arg_35_0, arg_35_1)
-	arg_35_0.painting:EnableOrDisableMove(arg_35_1)
+function var_0_0.EnableOrDisableMove(arg_37_0, arg_37_1)
+	arg_37_0.painting:EnableOrDisableMove(arg_37_1)
 
-	if arg_35_1 then
-		arg_35_0:EnableDragAndZoom()
+	if arg_37_1 then
+		arg_37_0:EnableDragAndZoom()
 	else
-		arg_35_0:DisableDragAndZoom()
+		arg_37_0:DisableDragAndZoom()
 	end
 end
 
-function var_0_0.OnAsmrTurnning(arg_36_0, arg_36_1)
-	arg_36_0.painting:OnAsmrTurnning(arg_36_1)
+function var_0_0.OnAsmrTurnning(arg_38_0, arg_38_1)
+	arg_38_0.painting:OnAsmrTurnning(arg_38_1)
 end
 
-function var_0_0.EnableDragAndZoom(arg_37_0)
-	arg_37_0.isEnableDrag = true
+function var_0_0.EnableDragAndZoom(arg_39_0)
+	arg_39_0.isEnableDrag = true
 
-	local var_37_0 = arg_37_0._tf.parent.gameObject
-	local var_37_1 = GetOrAddComponent(var_37_0, typeof(PinchZoom))
-	local var_37_2 = GetOrAddComponent(var_37_0, typeof(EventTriggerListener))
-	local var_37_3 = Vector3(0, 0, 0)
+	local var_39_0 = arg_39_0._tf.parent.gameObject
+	local var_39_1 = GetOrAddComponent(var_39_0, typeof(PinchZoom))
+	local var_39_2 = GetOrAddComponent(var_39_0, typeof(EventTriggerListener))
+	local var_39_3 = Vector3(0, 0, 0)
 
-	var_37_2:AddBeginDragFunc(function(arg_38_0, arg_38_1)
+	var_39_2:AddBeginDragFunc(function(arg_40_0, arg_40_1)
 		if Application.isEditor and Input.GetMouseButton(2) then
 			return
 		end
 
-		if var_37_1.processing then
+		if var_39_1.processing then
 			return
 		end
 
-		setButtonEnabled(var_37_0, false)
+		setButtonEnabled(var_39_0, false)
 
 		if Input.touchCount > 1 then
 			return
 		end
 
-		local var_38_0 = var_0_0.Screen2Local(var_37_0.transform.parent, arg_38_1.position)
+		local var_40_0 = var_0_0.Screen2Local(var_39_0.transform.parent, arg_40_1.position)
 
-		var_37_3 = arg_37_0._tf.localPosition - var_38_0
+		var_39_3 = arg_39_0._tf.localPosition - var_40_0
 	end)
-	var_37_2:AddDragFunc(function(arg_39_0, arg_39_1)
+	var_39_2:AddDragFunc(function(arg_41_0, arg_41_1)
 		if Application.isEditor and Input.GetMouseButton(2) then
 			return
 		end
 
-		if var_37_1.processing then
+		if var_39_1.processing then
 			return
 		end
 
@@ -362,71 +372,71 @@ function var_0_0.EnableDragAndZoom(arg_37_0)
 			return
 		end
 
-		local var_39_0 = var_0_0.Screen2Local(var_37_0.transform.parent, arg_39_1.position)
-		local var_39_1
+		local var_41_0 = var_0_0.Screen2Local(var_39_0.transform.parent, arg_41_1.position)
+		local var_41_1
 
-		if arg_37_0.painting:IslimitYPos() then
-			var_39_1 = Vector3(var_39_0.x, arg_37_0._tf.localPosition.y, 0) + Vector3(var_37_3.x, 0, 0)
+		if arg_39_0.painting:IslimitYPos() then
+			var_41_1 = Vector3(var_41_0.x, arg_39_0._tf.localPosition.y, 0) + Vector3(var_39_3.x, 0, 0)
 		else
-			var_39_1 = Vector3(var_39_0.x, var_39_0.y, 0) + var_37_3
+			var_41_1 = Vector3(var_41_0.x, var_41_0.y, 0) + var_39_3
 		end
 
-		arg_37_0._tf.localPosition = var_39_1
-		arg_37_0._bgTf.localPosition = arg_37_0.bgOffset + arg_37_0._tf.localPosition
+		arg_39_0._tf.localPosition = var_41_1
+		arg_39_0._bgTf.localPosition = arg_39_0.bgOffset + arg_39_0._tf.localPosition
 	end)
-	var_37_2:AddDragEndFunc(function()
-		setButtonEnabled(var_37_0, true)
+	var_39_2:AddDragEndFunc(function()
+		setButtonEnabled(var_39_0, true)
 	end)
 
-	if not arg_37_0.painting:IslimitYPos() then
-		var_37_1.enabled = true
+	if not arg_39_0.painting:IslimitYPos() then
+		var_39_1.enabled = true
 	end
 
-	var_37_2.enabled = true
+	var_39_2.enabled = true
 	Input.multiTouchEnabled = true
-	arg_37_0.cg.blocksRaycasts = false
+	arg_39_0.cg.blocksRaycasts = false
 
-	arg_37_0:AdjustPosition(arg_37_0.ship)
+	arg_39_0:AdjustPosition(arg_39_0.ship)
 end
 
-function var_0_0.DisableDragAndZoom(arg_41_0)
-	if arg_41_0.isEnableDrag then
-		local var_41_0 = arg_41_0._tf.parent:GetComponent(typeof(EventTriggerListener))
+function var_0_0.DisableDragAndZoom(arg_43_0)
+	if arg_43_0.isEnableDrag then
+		local var_43_0 = arg_43_0._tf.parent:GetComponent(typeof(EventTriggerListener))
 
-		ClearEventTrigger(var_41_0)
+		ClearEventTrigger(var_43_0)
 
-		var_41_0.enabled = false
-		arg_41_0._tf.parent:GetComponent(typeof(PinchZoom)).enabled = false
-		arg_41_0.cg.blocksRaycasts = true
-		arg_41_0.isEnableDrag = false
+		var_43_0.enabled = false
+		arg_43_0._tf.parent:GetComponent(typeof(PinchZoom)).enabled = false
+		arg_43_0.cg.blocksRaycasts = true
+		arg_43_0.isEnableDrag = false
 	end
 
-	arg_41_0:AdjustPosition(arg_41_0.ship)
+	arg_43_0:AdjustPosition(arg_43_0.ship)
 end
 
-function var_0_0.Dispose(arg_42_0)
-	var_0_0.super.Dispose(arg_42_0)
-	arg_42_0:DisableDragAndZoom()
+function var_0_0.Dispose(arg_44_0)
+	var_0_0.super.Dispose(arg_44_0)
+	arg_44_0:DisableDragAndZoom()
 
-	if arg_42_0.painting then
-		arg_42_0.painting:Unload()
+	if arg_44_0.painting then
+		arg_44_0.painting:Unload()
 	end
 
-	arg_42_0.painting = nil
+	arg_44_0.painting = nil
 
-	for iter_42_0, iter_42_1 in ipairs(arg_42_0.paintings) do
-		iter_42_1:Dispose()
+	for iter_44_0, iter_44_1 in ipairs(arg_44_0.paintings) do
+		iter_44_1:Dispose()
 	end
 
-	arg_42_0.paintings = nil
+	arg_44_0.paintings = nil
 end
 
-function var_0_0.Screen2Local(arg_43_0, arg_43_1)
-	local var_43_0 = GameObject.Find("UICamera"):GetComponent("Camera")
-	local var_43_1 = arg_43_0:GetComponent("RectTransform")
-	local var_43_2 = LuaHelper.ScreenToLocal(var_43_1, arg_43_1, var_43_0)
+function var_0_0.Screen2Local(arg_45_0, arg_45_1)
+	local var_45_0 = GameObject.Find("UICamera"):GetComponent("Camera")
+	local var_45_1 = arg_45_0:GetComponent("RectTransform")
+	local var_45_2 = LuaHelper.ScreenToLocal(var_45_1, arg_45_1, var_45_0)
 
-	return Vector3(var_43_2.x, var_43_2.y, 0)
+	return Vector3(var_45_2.x, var_45_2.y, 0)
 end
 
 return var_0_0

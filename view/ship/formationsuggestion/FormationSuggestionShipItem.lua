@@ -15,7 +15,7 @@ function var_0_0.Init(arg_2_0)
 	arg_2_0.paintingDefaultAngle = arg_2_0.uiPaintingTf.localEulerAngles
 	arg_2_0.UIlist = UIItemList.New(arg_2_0.uiStartsTf, arg_2_0.uiStartItem)
 
-	setActive(arg_2_0.uiUnownedText, i18n("word_not_get"))
+	setText(arg_2_0.uiUnownedText, i18n("word_not_get"))
 end
 
 function var_0_0.didEnter(arg_3_0)

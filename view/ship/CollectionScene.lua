@@ -210,6 +210,13 @@ function var_0_0.getResource(arg_3_0)
 			end
 		end
 
+		for iter_8_2, iter_8_3 in ipairs(pg.music_collect_config.all) do
+			local var_8_2 = pg.music_collect_config[iter_8_3].music
+			local var_8_3 = MusicCollectionConst.MUSIC_SONG_PATH_PREFIX .. var_8_2 .. ".b"
+
+			table.insert(var_8_0, var_8_3)
+		end
+
 		return var_8_0
 	end
 

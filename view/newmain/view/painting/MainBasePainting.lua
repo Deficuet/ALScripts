@@ -61,6 +61,10 @@ function var_0_0.Load(arg_7_0, arg_7_1)
 end
 
 function var_0_0.Unload(arg_9_0)
+	if arg_9_0.state == var_0_4 then
+		return
+	end
+
 	arg_9_0.state = var_0_4
 
 	removeOnButton(arg_9_0.container)

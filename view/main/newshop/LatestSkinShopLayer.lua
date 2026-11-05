@@ -1557,7 +1557,7 @@ function var_0_0.LoadMeshPainting(arg_85_0, arg_85_1, arg_85_2)
 
 		arg_85_0:CheckShowShopHx(var_86_2)
 		arg_85_0._paintingManager:SetOpacityPainting(tf(arg_86_0), PaintingFadeManager.PAINTING_TYPE.MESH)
-		arg_85_0._paintingManager:RevertPaintingContainer(1)
+		arg_85_0._paintingManager:RevertPaintingContainer()
 		arg_85_0._paintingManager:SetPaintingAlpha(1)
 	end)
 end

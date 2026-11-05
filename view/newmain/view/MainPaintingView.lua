@@ -133,9 +133,17 @@ function var_0_0.MakePaintingFadeIn(arg_18_0)
 	end
 
 	arg_18_0._paintingManager:SetOpacityPainting(var_18_2, var_18_1)
-	arg_18_0._paintingManager:SetPaintingFadeIn(function()
-		arg_18_0.painting:OnPaintingFade(false)
-	end)
+
+	if arg_18_0._firstPaintingLoading then
+		arg_18_0._firstPaintingLoading = false
+
+		arg_18_0._paintingManager:RevertPaintingContainer()
+		arg_18_0._paintingManager:SetPaintingAlpha(1)
+	else
+		arg_18_0._paintingManager:SetPaintingFadeIn(function()
+			arg_18_0.painting:OnPaintingFade(false)
+		end)
+	end
 end
 
 function var_0_0.IsLive2DState(arg_20_0)
@@ -159,6 +167,8 @@ function var_0_0.Init(arg_22_0, arg_22_1, arg_22_2, arg_22_3)
 		for iter_22_0, iter_22_1 in pairs(arg_22_0.paintings) do
 			iter_22_1:SetTargetContainer(arg_22_0._paintingManager:GetPaintingContainer())
 		end
+
+		arg_22_0._firstPaintingLoading = true
 	end
 
 	print("初始化舰船 = " .. arg_22_1:getPainting())
@@ -205,6 +215,10 @@ function var_0_0.Reload(arg_25_0, arg_25_1)
 		print("开始加载舰船 = " .. arg_25_0.ship:getPainting())
 
 		if arg_25_0._loadingPainting then
+			if arg_25_0._paintingManager then
+				arg_25_0._paintingManager:DisablePainting()
+			end
+
 			arg_25_0._loadingPainting:Unload()
 		end
 
@@ -241,15 +255,14 @@ function var_0_0.Refresh(arg_28_0, arg_28_1, arg_28_2)
 end
 
 function var_0_0.Disable(arg_29_0)
+	if arg_29_0._paintingManager then
+		arg_29_0._paintingManager:Dispose()
+
+		arg_29_0._paintingManager = nil
+		arg_29_0._paintingFadeFlag = false
+	end
+
 	if arg_29_0.painting then
-		if arg_29_0._paintingManager then
-			arg_29_0._paintingManager:DisablePainting()
-			arg_29_0._paintingManager:Dispose()
-
-			arg_29_0._paintingManager = nil
-			arg_29_0._paintingFadeFlag = false
-		end
-
 		arg_29_0.painting:Pause()
 	end
 end
@@ -505,6 +518,11 @@ end
 
 function var_0_0.Dispose(arg_50_0)
 	var_0_0.super.Dispose(arg_50_0)
+
+	if arg_50_0._paintingManager then
+		arg_50_0._paintingManager:Dispose()
+	end
+
 	arg_50_0:DisableDragAndZoom()
 
 	if arg_50_0.painting then
@@ -512,13 +530,10 @@ function var_0_0.Dispose(arg_50_0)
 	end
 
 	arg_50_0.painting = nil
+	arg_50_0._loadingPainting = nil
 
 	for iter_50_0, iter_50_1 in ipairs(arg_50_0.paintings) do
 		iter_50_1:Dispose()
-	end
-
-	if arg_50_0._paintingManager then
-		arg_50_0._paintingManager:Dispose()
 	end
 
 	arg_50_0.paintings = nil

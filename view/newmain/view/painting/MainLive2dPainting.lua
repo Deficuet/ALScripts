@@ -341,7 +341,7 @@ function var_0_0.RemoveSeTimer(arg_24_0)
 end
 
 function var_0_0.PlayChangeSkinActionIn(arg_25_0, arg_25_1)
-	if arg_25_0.live2dChar:IsLoaded() then
+	if arg_25_0.live2dChar and arg_25_0.live2dChar:IsLoaded() then
 		if arg_25_0.live2dChar:checkActionExist("change_in") then
 			arg_25_0:TriggerEvent("event_change_in")
 		else

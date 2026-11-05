@@ -31,6 +31,9 @@ end
 function var_0_0.getResource(arg_2_0)
 	local var_2_0 = {
 		"ui/newmainui",
+		"ui/paintingopacityui",
+		"ui/Paintingopacityprogressui",
+		"ui/paintingppacityui_atlas",
 		"commonbg/bg_main_night",
 		"commonbg/bg_main_twilight",
 		"commonbg/bg_main_day",

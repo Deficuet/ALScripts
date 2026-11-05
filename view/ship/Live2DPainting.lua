@@ -1266,7 +1266,7 @@ function var_0_0.offsetL2dPositonDelay(arg_65_0, arg_65_1, arg_65_2, arg_65_3)
 		LeanTween.cancel(go(arg_65_0._tf))
 	end
 
-	arg_65_0._tf.localPosition = Vector3(30000, 0, 0)
+	arg_65_0._tf.localPosition = Vector3(60000, 0, 0)
 	arg_65_0._animator.speed = arg_65_2
 
 	LeanTween.delayedCall(go(arg_65_0._tf), arg_65_1, System.Action(function()

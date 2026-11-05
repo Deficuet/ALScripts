@@ -52972,6 +52972,7 @@ end)()
 				1
 			},
 			PT_ACT = 51607,
+			painting = "tiejiaohao_pt",
 			use_secretary = false
 		}
 	}

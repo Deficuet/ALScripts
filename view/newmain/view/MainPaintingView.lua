@@ -139,6 +139,7 @@ function var_0_0.MakePaintingFadeIn(arg_18_0)
 
 		arg_18_0._paintingManager:RevertPaintingContainer()
 		arg_18_0._paintingManager:SetPaintingAlpha(1)
+		arg_18_0.painting:OnPaintingFade(false)
 	else
 		arg_18_0._paintingManager:SetPaintingFadeIn(function()
 			arg_18_0.painting:OnPaintingFade(false)

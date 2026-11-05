@@ -40,4 +40,10 @@ function var_0_0.IsUsingVulkan()
 	return string.find(string.lower(var_6_0), "vulkan")
 end
 
+function var_0_0.IsUsingOpenGL()
+	local var_7_0 = var_0_0.GetCurGraphApi() or ""
+
+	return string.find(string.lower(var_7_0), "opengl", 1, true) ~= nil
+end
+
 return var_0_0

@@ -43526,15 +43526,14 @@ end)()
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 10,
-		story_id = "",
-		priority_type = 0,
 		ryza_icon = "",
+		priority_type = 0,
 		fix_task = 0,
+		target_id = "0",
 		next_task = "0",
 		auto_commit = 0,
 		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
+		story_id = "",
 		tutorial_handbook_pic = "",
 		id = 7204,
 		target_num = 1,
@@ -43557,6 +43556,9 @@ end)()
 				54049,
 				2
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	}
 end)()
@@ -43579,15 +43581,14 @@ end)()
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 10,
-		story_id = "",
-		priority_type = 0,
 		ryza_icon = "",
+		priority_type = 0,
 		fix_task = 0,
+		target_id = "0",
 		next_task = "0",
 		auto_commit = 0,
 		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
+		story_id = "",
 		tutorial_handbook_pic = "",
 		id = 7205,
 		target_num = 1,
@@ -43610,6 +43611,9 @@ end)()
 				59900,
 				5
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	}
 end)()
@@ -371875,15 +371879,14 @@ end)()
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
-		story_id = "",
-		priority_type = 0,
 		ryza_icon = "",
+		priority_type = 0,
 		fix_task = 0,
+		target_id = "0",
 		next_task = "0",
 		auto_commit = 0,
 		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
+		story_id = "",
 		tutorial_handbook_pic = "",
 		id = 56803,
 		target_num = 1,
@@ -371896,6 +371899,9 @@ end)()
 				660,
 				200
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	}
 end)()
@@ -371918,15 +371924,14 @@ end)()
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
-		story_id = "",
-		priority_type = 0,
 		ryza_icon = "",
+		priority_type = 0,
 		fix_task = 0,
+		target_id = "0",
 		next_task = "0",
 		auto_commit = 0,
 		story_icon_shift = "",
-		target_id = "0",
-		scene = "",
+		story_id = "",
 		tutorial_handbook_pic = "",
 		id = 56804,
 		target_num = 1,
@@ -371939,6 +371944,9 @@ end)()
 				660,
 				200
 			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	}
 end)()

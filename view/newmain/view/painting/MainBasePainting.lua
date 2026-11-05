@@ -36,7 +36,7 @@ function var_0_0.IsLoaded(arg_5_0)
 end
 
 function var_0_0.SetOnceLoadedCall(arg_6_0, arg_6_1)
-	arg_6_0.loadedCallback = arg_6_1
+	return
 end
 
 function var_0_0.Load(arg_7_0, arg_7_1)

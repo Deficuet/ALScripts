@@ -109,6 +109,9 @@ function var_0_0.OnLoaded(arg_3_0)
 	arg_3_0.hatOn = arg_3_0.hatTF:Find("hatOn")
 	arg_3_0.hatOff = arg_3_0.hatTF:Find("hatOff")
 	arg_3_0.morphTF = arg_3_0._tf:Find("adapt/btns/morph")
+
+	setActive(arg_3_0.morphTF, false)
+
 	arg_3_0.morphBtn = arg_3_0.morphTF and arg_3_0.morphTF:Find("morphBtn")
 	arg_3_0.morphBlocker = arg_3_0._tf:Find("adapt/morph_blocker")
 

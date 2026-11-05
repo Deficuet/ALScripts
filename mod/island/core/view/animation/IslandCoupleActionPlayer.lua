@@ -2,6 +2,8 @@ local var_0_0 = class("IslandCoupleActionPlayer", import("..IslandBaseUnit"))
 local var_0_1 = 0
 local var_0_2 = 1
 local var_0_3 = 2
+local var_0_4 = 0
+local var_0_5 = 1
 
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1)
@@ -98,7 +100,7 @@ function var_0_0.Play(arg_5_0, arg_5_1, arg_5_2, arg_5_3)
 				return
 			end
 
-			arg_5_0:Face2Face(var_5_1, arg_5_2, arg_5_1, arg_8_0)
+			arg_5_0:Face2Face(arg_5_3, var_5_1, arg_5_2, arg_5_1, arg_8_0)
 		end,
 		function(arg_9_0)
 			if not arg_5_0.playing then
@@ -219,24 +221,30 @@ function var_0_0.OnNavigateToPointFailed(arg_18_0)
 	pg.TipsMgr.GetInstance():ShowTips(i18n("island_no_position_to_reponse_action"))
 end
 
-function var_0_0.Face2Face(arg_19_0, arg_19_1, arg_19_2, arg_19_3, arg_19_4)
-	local var_19_0 = arg_19_3._go.transform
-	local var_19_1 = arg_19_2._go.transform
-	local var_19_2 = var_19_1.position - var_19_0.position
-	local var_19_3 = Quaternion.LookRotation(var_19_2)
+function var_0_0.Face2Face(arg_19_0, arg_19_1, arg_19_2, arg_19_3, arg_19_4, arg_19_5)
+	local var_19_0 = arg_19_4._go.transform
+	local var_19_1 = arg_19_3._go.transform
 
-	var_19_0.rotation = Quaternion.Euler(0, var_19_3.eulerAngles.y, 0)
-	var_19_1.rotation = arg_19_1 * var_19_1.rotation
+	if arg_19_1.respond_dir == var_0_4 then
+		local var_19_2 = var_19_1.position - var_19_0.position
+		local var_19_3 = Quaternion.LookRotation(var_19_2)
+
+		var_19_0.rotation = Quaternion.Euler(0, var_19_3.eulerAngles.y, 0)
+	elseif arg_19_1.respond_dir == var_0_5 then
+		var_19_0.rotation = Quaternion.Euler(0, var_19_1.eulerAngles.y, 0)
+	end
+
+	var_19_1.rotation = arg_19_2 * var_19_1.rotation
+
+	if isa(arg_19_4, IslandPlayerUnit) then
+		arg_19_4.targetRotation = var_19_0.rotation
+	end
 
 	if isa(arg_19_3, IslandPlayerUnit) then
-		arg_19_3.targetRotation = var_19_0.rotation
+		arg_19_3.targetRotation = var_19_1.rotation
 	end
 
-	if isa(arg_19_2, IslandPlayerUnit) then
-		arg_19_2.targetRotation = var_19_1.rotation
-	end
-
-	arg_19_4()
+	arg_19_5()
 end
 
 function var_0_0.PlayCoupleActions(arg_20_0, arg_20_1, arg_20_2, arg_20_3, arg_20_4)

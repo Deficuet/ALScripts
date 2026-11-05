@@ -158,78 +158,90 @@ function var_0_0.StaticExistActivityAndCoupon(arg_24_0)
 	end)
 end
 
-function var_0_0.GetSkinCouponActFromEncoreAct(arg_26_0)
-	if not arg_26_0 then
+function var_0_0.GetSkinCouponTotalCnt(arg_26_0)
+	local var_26_0 = 0
+
+	for iter_26_0, iter_26_1 in ipairs(var_0_0.GetSkinCouponActivities(arg_26_0)) do
+		if iter_26_1:GetCanUsageCnt() > 0 then
+			var_26_0 = var_26_0 + iter_26_1:GetCanUsageCnt()
+		end
+	end
+
+	return var_26_0
+end
+
+function var_0_0.GetSkinCouponActFromEncoreAct(arg_27_0)
+	if not arg_27_0 then
 		return
 	end
 
-	local var_26_0 = Drop.New({
+	local var_27_0 = Drop.New({
 		type = DROP_TYPE_VITEM,
-		id = arg_26_0:GetConfigClientSetting("item_id")
+		id = arg_27_0:GetConfigClientSetting("item_id")
 	})
-	local var_26_1 = getProxy(ActivityProxy):getActivityById(var_26_0:getConfig("link_id"))
+	local var_27_1 = getProxy(ActivityProxy):getActivityById(var_27_0:getConfig("link_id"))
 
-	if var_26_1 and not var_26_1:isEnd() then
-		return var_26_1
+	if var_27_1 and not var_27_1:isEnd() then
+		return var_27_1
 	end
 end
 
-function var_0_0.GetSkinCouponEncoreActivities(arg_27_0)
-	local var_27_0 = {}
+function var_0_0.GetSkinCouponEncoreActivities(arg_28_0)
+	local var_28_0 = {}
 
-	for iter_27_0, iter_27_1 in ipairs(pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING] or {}) do
-		local var_27_1 = getProxy(ActivityProxy):RawGetActivityById(iter_27_1)
+	for iter_28_0, iter_28_1 in ipairs(pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING] or {}) do
+		local var_28_1 = getProxy(ActivityProxy):RawGetActivityById(iter_28_1)
 
-		if var_27_1 and not var_27_1:isEnd() and (not arg_27_0 or table.contains(var_27_1:getConfig("config_data")[2], arg_27_0)) then
-			table.insert(var_27_0, var_27_1)
+		if var_28_1 and not var_28_1:isEnd() and (not arg_28_0 or table.contains(var_28_1:getConfig("config_data")[2], arg_28_0)) then
+			table.insert(var_28_0, var_28_1)
 		end
 	end
 
-	return var_27_0
+	return var_28_0
 end
 
-function var_0_0.StaticEncoreActTip(arg_28_0)
-	assert(arg_28_0)
+function var_0_0.StaticEncoreActTip(arg_29_0)
+	assert(arg_29_0)
 
-	for iter_28_0, iter_28_1 in ipairs(var_0_0.GetSkinCouponEncoreActivities()) do
-		local var_28_0 = var_0_0.GetSkinCouponActFromEncoreAct(iter_28_1)
+	for iter_29_0, iter_29_1 in ipairs(var_0_0.GetSkinCouponEncoreActivities()) do
+		local var_29_0 = var_0_0.GetSkinCouponActFromEncoreAct(iter_29_1)
 
-		if var_28_0 and not var_28_0:isEnd() and iter_28_1 and not iter_28_1:isEnd() and var_28_0:IncludeShop(arg_28_0) and var_28_0:GetCanUsageCnt() <= 0 and iter_28_1:getData1() > 0 then
-			return iter_28_1
+		if var_29_0 and not var_29_0:isEnd() and iter_29_1 and not iter_29_1:isEnd() and var_29_0:IncludeShop(arg_29_0) and var_29_0:GetCanUsageCnt() <= 0 and iter_29_1:getData1() > 0 then
+			return iter_29_1
 		end
 	end
 end
 
-function var_0_0.GetOvercountEncoreActs(arg_29_0)
-	local var_29_0 = {}
+function var_0_0.GetOvercountEncoreActs(arg_30_0)
+	local var_30_0 = {}
 
-	for iter_29_0, iter_29_1 in ipairs(var_0_0.GetSkinCouponEncoreActivities(arg_29_0)) do
-		local var_29_1 = SkinCouponActivity.GetSkinCouponActFromEncoreAct(iter_29_1)
+	for iter_30_0, iter_30_1 in ipairs(var_0_0.GetSkinCouponEncoreActivities(arg_30_0)) do
+		local var_30_1 = SkinCouponActivity.GetSkinCouponActFromEncoreAct(iter_30_1)
 
-		if var_29_1 and not var_29_1:isEnd() then
-			local var_29_2, var_29_3 = var_29_1:GetOwnCount()
+		if var_30_1 and not var_30_1:isEnd() then
+			local var_30_2, var_30_3 = var_30_1:GetOwnCount()
 
-			if var_29_1:GetCanUsageCnt() + iter_29_1:getData1() + 1 > var_29_3 - var_29_2 - 1 then
-				table.insert(var_29_0, iter_29_1)
+			if var_30_1:GetCanUsageCnt() + iter_30_1:getData1() + 1 > var_30_3 - var_30_2 - 1 then
+				table.insert(var_30_0, iter_30_1)
 			end
 		end
 	end
 
-	return var_29_0
+	return var_30_0
 end
 
-function var_0_0.UseSkinCoupon(arg_30_0)
-	local var_30_0 = getProxy(ActivityProxy):getActivityById(arg_30_0)
+function var_0_0.UseSkinCoupon(arg_31_0)
+	local var_31_0 = getProxy(ActivityProxy):getActivityById(arg_31_0)
 
-	if not var_30_0 then
+	if not var_31_0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return
 	end
 
-	var_30_0.data2 = var_30_0.data2 + 1
+	var_31_0.data2 = var_31_0.data2 + 1
 
-	getProxy(ActivityProxy):updateActivity(var_30_0)
+	getProxy(ActivityProxy):updateActivity(var_31_0)
 end
 
 return var_0_0

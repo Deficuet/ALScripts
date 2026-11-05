@@ -12,104 +12,118 @@ function var_0_0.getUIName(arg_3_0)
 	return arg_3_0._uiName
 end
 
-function var_0_0.Flush(arg_4_0, arg_4_1)
-	arg_4_0.activity = arg_4_1
+function var_0_0.Init(arg_4_0)
+	var_0_0.super.Init(arg_4_0)
 
-	if arg_4_0:OnDataSetting() then
+	local var_4_0, var_4_1, var_4_2 = arg_4_0:GetBgParams()
+
+	if var_4_0 then
+		GetImageSpriteFromAtlasAsync(var_4_1, var_4_2, var_4_0)
+	end
+end
+
+function var_0_0.Flush(arg_5_0, arg_5_1)
+	arg_5_0.activity = arg_5_1
+
+	if arg_5_0:OnDataSetting() then
 		return
 	end
 
-	if defaultValue(arg_4_0.isFirst, true) then
-		arg_4_0.isFirst = false
+	if defaultValue(arg_5_0.isFirst, true) then
+		arg_5_0.isFirst = false
 
-		arg_4_0:BindPageLink()
-		arg_4_0:OnFirstFlush()
+		arg_5_0:BindPageLink()
+		arg_5_0:OnFirstFlush()
 	end
 
-	arg_4_0:OnUpdateFlush()
+	arg_5_0:OnUpdateFlush()
 end
 
-function var_0_0.ShowOrHide(arg_5_0, arg_5_1)
-	SetActive(arg_5_0._go, arg_5_1)
+function var_0_0.ShowOrHide(arg_6_0, arg_6_1)
+	SetActive(arg_6_0._go, arg_6_1)
 
-	if arg_5_1 then
-		local var_5_0 = {}
+	if arg_6_1 then
+		local var_6_0 = {}
 
-		arg_5_0:emit(ActivityMainScene.GET_PAGE_BGM, arg_5_0.__cname, var_5_0)
+		arg_6_0:emit(ActivityMainScene.GET_PAGE_BGM, arg_6_0.__cname, var_6_0)
 
-		if var_5_0.bgm then
-			pg.BgmMgr.GetInstance():Push(ActivityMainScene.__cname, var_5_0.bgm)
+		if var_6_0.bgm then
+			pg.BgmMgr.GetInstance():Push(ActivityMainScene.__cname, var_6_0.bgm)
 		end
 
-		arg_5_0:OnShowFlush()
+		arg_6_0:OnShowFlush()
 	else
-		arg_5_0:OnHideFlush()
+		arg_6_0:OnHideFlush()
 	end
 end
 
-function var_0_0.BindPageLink(arg_6_0)
-	for iter_6_0, iter_6_1 in ipairs(arg_6_0:GetPageLink()) do
-		ActivityConst.PageIdLink[iter_6_1] = arg_6_0.activity.id
+function var_0_0.BindPageLink(arg_7_0)
+	for iter_7_0, iter_7_1 in ipairs(arg_7_0:GetPageLink()) do
+		ActivityConst.PageIdLink[iter_7_1] = arg_7_0.activity.id
 	end
 end
 
-function var_0_0.SwitchOut(arg_7_0, arg_7_1)
-	arg_7_1()
+function var_0_0.SwitchOut(arg_8_0, arg_8_1)
+	arg_8_1()
 end
 
-function var_0_0.getResource(arg_8_0)
-	local var_8_0 = {
-		"ui/" .. arg_8_0:getUIName()
+function var_0_0.getResource(arg_9_0)
+	local var_9_0 = {
+		"ui/" .. arg_9_0:getUIName()
 	}
-	local var_8_1 = {}
+	local var_9_1 = {}
 
-	arg_8_0:emit(ActivityMainScene.GET_PAGE_BGM, arg_8_0.__cname, var_8_1)
+	arg_9_0:emit(ActivityMainScene.GET_PAGE_BGM, arg_9_0.__cname, var_9_1)
 
-	if var_8_1.bgm then
-		local var_8_2 = ResPathSupport.GetSoundResList(var_8_1.bgm)
+	if var_9_1.bgm then
+		local var_9_2 = ResPathSupport.GetSoundResList(var_9_1.bgm)
 
-		_.each(var_8_2, function(arg_9_0)
-			table.insert(var_8_0, arg_9_0)
+		_.each(var_9_2, function(arg_10_0)
+			table.insert(var_9_0, arg_10_0)
 		end)
 	end
 
-	return var_8_0
+	return var_9_0
 end
 
-function var_0_0.OnInit(arg_10_0)
+function var_0_0.OnInit(arg_11_0)
 	return
 end
 
-function var_0_0.OnDataSetting(arg_11_0)
+function var_0_0.OnDataSetting(arg_12_0)
 	return
 end
 
-function var_0_0.GetPageLink(arg_12_0)
+function var_0_0.GetPageLink(arg_13_0)
 	return {}
 end
 
-function var_0_0.OnFirstFlush(arg_13_0)
+function var_0_0.OnFirstFlush(arg_14_0)
 	return
 end
 
-function var_0_0.OnUpdateFlush(arg_14_0)
+function var_0_0.OnUpdateFlush(arg_15_0)
 	return
 end
 
-function var_0_0.OnHideFlush(arg_15_0)
+function var_0_0.OnHideFlush(arg_16_0)
 	return
 end
 
-function var_0_0.OnShowFlush(arg_16_0)
+function var_0_0.OnShowFlush(arg_17_0)
 	return
 end
 
-function var_0_0.OnDestroy(arg_17_0)
+function var_0_0.OnDestroy(arg_18_0)
 	return
 end
 
-function var_0_0.UseSecondPage(arg_18_0, arg_18_1)
+function var_0_0.UseSecondPage(arg_19_0, arg_19_1)
 	return false
+end
+
+function var_0_0.GetBgParams(arg_20_0)
+	return nil, nil, nil
 end
 
 return var_0_0

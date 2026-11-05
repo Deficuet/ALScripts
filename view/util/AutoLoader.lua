@@ -189,136 +189,134 @@ function var_0_0.GetSpriteDirect(arg_16_0, arg_16_1, arg_16_2, arg_16_3, arg_16_
 
 	arg_16_4 = arg_16_4 or arg_16_0:GenerateUID4LoadingRequest()
 
-	local var_16_0
-	local var_16_1 = var_0_9.New(arg_16_1, arg_16_2, function(arg_17_0)
+	local function var_16_0(arg_17_0)
 		arg_16_0._loadingRequest[arg_16_4] = nil
 
 		if arg_16_3 then
 			arg_16_3(arg_17_0)
 		end
-	end)
-
-	if var_0_1 then
-		warning("AutoLoader Loading Atlas: " .. arg_16_1 .. " Name: " .. arg_16_2 .. " ;")
 	end
 
-	arg_16_0._loadingRequest[arg_16_4] = var_16_1
+	local function var_16_1(arg_18_0, arg_18_1, arg_18_2)
+		local var_18_0 = var_0_9.New(arg_18_0, arg_18_1, arg_18_2)
 
-	var_16_1:Start()
+		if var_0_1 then
+			warning("AutoLoader Loading Atlas: " .. arg_18_0 .. " Name: " .. arg_18_1 .. " ;")
+		end
 
-	arg_16_0._returnRequest[arg_16_1] = var_0_13.New(arg_16_1)
+		arg_16_0._loadingRequest[arg_16_4] = var_18_0
+		arg_16_0._returnRequest[arg_18_0] = var_0_13.New(arg_18_0)
+
+		var_18_0:Start()
+	end
+
+	if HXSet.isHx() then
+		local var_16_2 = arg_16_1
+		local var_16_3 = arg_16_2
+
+		if arg_16_2 == "" then
+			if checkABExist(var_16_2 .. "_hx") then
+				var_16_2 = var_16_2 .. "_hx"
+			end
+		else
+			var_16_3 = var_16_3 .. "_hx"
+		end
+
+		var_16_1(var_16_2, var_16_3, function(arg_19_0)
+			if arg_19_0 == nil then
+				var_16_1(arg_16_1, arg_16_2, var_16_0)
+			else
+				var_16_0(arg_19_0)
+			end
+		end)
+	else
+		var_16_1(arg_16_1, arg_16_2, var_16_0)
+	end
 
 	return arg_16_4
 end
 
-function var_0_0.GetOffSpriteRequest(arg_18_0, arg_18_1)
-	arg_18_0:ClearRequest(arg_18_1)
+function var_0_0.GetOffSpriteRequest(arg_20_0, arg_20_1)
+	arg_20_0:ClearRequest(arg_20_1)
 end
 
-function var_0_0.LoadPrefab(arg_19_0, arg_19_1, arg_19_2, arg_19_3, arg_19_4)
-	arg_19_2 = arg_19_2 or ""
+function var_0_0.LoadPrefab(arg_21_0, arg_21_1, arg_21_2, arg_21_3, arg_21_4)
+	arg_21_2 = arg_21_2 or ""
 
-	arg_19_0:ClearRequest(arg_19_4)
+	arg_21_0:ClearRequest(arg_21_4)
 
-	arg_19_4 = arg_19_4 or arg_19_0:GenerateUID4LoadingRequest()
+	arg_21_4 = arg_21_4 or arg_21_0:GenerateUID4LoadingRequest()
 
-	local var_19_0
-	local var_19_1 = var_0_3.New(arg_19_1, arg_19_2, function(arg_20_0)
-		arg_19_0._loadingRequest[arg_19_4] = nil
-
-		if arg_19_3 then
-			arg_19_3(arg_20_0)
-		end
-	end)
-
-	if var_0_1 then
-		warning("AutoLoader Loading Once Path: " .. arg_19_1 .. " Name: " .. arg_19_2 .. " ;")
-	end
-
-	arg_19_0._loadingRequest[arg_19_4] = var_19_1
-
-	var_19_1:Start()
-
-	return arg_19_4
-end
-
-function var_0_0.LoadLive2D(arg_21_0, arg_21_1, arg_21_2, arg_21_3)
 	local var_21_0
-	local var_21_1, var_21_2 = HXSet.autoHxShift("live2d/", arg_21_1)
+	local var_21_1 = var_0_3.New(arg_21_1, arg_21_2, function(arg_22_0)
+		arg_21_0._loadingRequest[arg_21_4] = nil
 
-	arg_21_1 = var_21_2
-
-	local var_21_3 = var_21_1 .. arg_21_1
-
-	arg_21_0:ClearRequest(arg_21_3)
-
-	arg_21_3 = arg_21_3 or arg_21_0:GenerateUID4LoadingRequest()
-
-	local var_21_4
-	local var_21_5 = var_0_5.New(var_21_3, "", function(arg_22_0)
-		arg_21_0._loadingRequest[arg_21_3] = nil
-
-		if arg_21_2 then
-			arg_21_2(arg_22_0)
+		if arg_21_3 then
+			arg_21_3(arg_22_0)
 		end
 	end)
 
 	if var_0_1 then
-		warning("AutoLoader Loading Live2D Once Path: " .. var_21_3 .. " Name: " .. arg_21_1 .. " ;")
+		warning("AutoLoader Loading Once Path: " .. arg_21_1 .. " Name: " .. arg_21_2 .. " ;")
 	end
 
-	arg_21_0._loadingRequest[arg_21_3] = var_21_5
+	arg_21_0._loadingRequest[arg_21_4] = var_21_1
 
-	var_21_5:Start()
+	var_21_1:Start()
 
-	return arg_21_3
+	return arg_21_4
 end
 
-function var_0_0.LoadSprite(arg_23_0, arg_23_1, arg_23_2, arg_23_3, arg_23_4)
-	local var_23_0 = arg_23_3:GetComponent(typeof(Image))
+function var_0_0.LoadLive2D(arg_23_0, arg_23_1, arg_23_2, arg_23_3)
+	local var_23_0
+	local var_23_1, var_23_2 = HXSet.autoHxShift("live2d/", arg_23_1)
 
-	var_23_0.enabled = false
-	arg_23_2 = arg_23_2 or ""
+	arg_23_1 = var_23_2
 
-	local var_23_1 = tf(arg_23_3)
+	local var_23_3 = var_23_1 .. arg_23_1
 
-	arg_23_0:ClearRequest(var_23_1)
+	arg_23_0:ClearRequest(arg_23_3)
 
-	local var_23_2
-	local var_23_3 = var_0_4.New(arg_23_1, arg_23_2, typeof(Sprite), function(arg_24_0)
-		arg_23_0._loadingRequest[var_23_1] = nil
-		var_23_0.enabled = true
-		var_23_0.sprite = arg_24_0
+	arg_23_3 = arg_23_3 or arg_23_0:GenerateUID4LoadingRequest()
 
-		if arg_23_4 then
-			var_23_0:SetNativeSize()
+	local var_23_4
+	local var_23_5 = var_0_5.New(var_23_3, "", function(arg_24_0)
+		arg_23_0._loadingRequest[arg_23_3] = nil
+
+		if arg_23_2 then
+			arg_23_2(arg_24_0)
 		end
 	end)
 
 	if var_0_1 then
-		warning("AutoLoader Loading Once Path: " .. arg_23_1 .. " Name: " .. arg_23_2 .. " ;")
+		warning("AutoLoader Loading Live2D Once Path: " .. var_23_3 .. " Name: " .. arg_23_1 .. " ;")
 	end
 
-	arg_23_0._loadingRequest[var_23_1] = var_23_3
+	arg_23_0._loadingRequest[arg_23_3] = var_23_5
 
-	var_23_3:Start()
+	var_23_5:Start()
 
-	return var_23_1
+	return arg_23_3
 end
 
-function var_0_0.LoadReference(arg_25_0, arg_25_1, arg_25_2, arg_25_3, arg_25_4, arg_25_5)
+function var_0_0.LoadSprite(arg_25_0, arg_25_1, arg_25_2, arg_25_3, arg_25_4)
+	local var_25_0 = arg_25_3:GetComponent(typeof(Image))
+
+	var_25_0.enabled = false
 	arg_25_2 = arg_25_2 or ""
 
-	arg_25_0:ClearRequest(arg_25_5)
+	local var_25_1 = tf(arg_25_3)
 
-	arg_25_5 = arg_25_5 or arg_25_0:GenerateUID4LoadingRequest()
+	arg_25_0:ClearRequest(var_25_1)
 
-	local var_25_0
-	local var_25_1 = var_0_4.New(arg_25_1, arg_25_2, arg_25_3, function(arg_26_0)
-		arg_25_0._loadingRequest[arg_25_5] = nil
+	local var_25_2
+	local var_25_3 = var_0_4.New(arg_25_1, arg_25_2, typeof(Sprite), function(arg_26_0)
+		arg_25_0._loadingRequest[var_25_1] = nil
+		var_25_0.enabled = true
+		var_25_0.sprite = arg_26_0
 
 		if arg_25_4 then
-			arg_25_4(arg_26_0)
+			var_25_0:SetNativeSize()
 		end
 	end)
 
@@ -326,133 +324,160 @@ function var_0_0.LoadReference(arg_25_0, arg_25_1, arg_25_2, arg_25_3, arg_25_4,
 		warning("AutoLoader Loading Once Path: " .. arg_25_1 .. " Name: " .. arg_25_2 .. " ;")
 	end
 
-	arg_25_0._loadingRequest[arg_25_5] = var_25_1
+	arg_25_0._loadingRequest[var_25_1] = var_25_3
 
-	var_25_1:Start()
+	var_25_3:Start()
 
-	return arg_25_5
+	return var_25_1
 end
 
-function var_0_0.DestroyAtlas(arg_27_0, arg_27_1)
-	arg_27_0:ClearRequest(arg_27_1)
-end
+function var_0_0.LoadReference(arg_27_0, arg_27_1, arg_27_2, arg_27_3, arg_27_4, arg_27_5)
+	arg_27_2 = arg_27_2 or ""
 
-function var_0_0.LoadBundle(arg_28_0, arg_28_1, arg_28_2)
-	local var_28_0 = arg_28_0:GenerateUID4LoadingRequest()
-	local var_28_1
-	local var_28_2 = var_0_6.New(arg_28_1, function(arg_29_0)
-		arg_28_0._loadingRequest[var_28_0] = nil
-		arg_28_0._returnRequest[var_28_0] = var_0_12.New(arg_28_1)
+	arg_27_0:ClearRequest(arg_27_5)
 
-		existCall(arg_28_2, arg_29_0)
+	arg_27_5 = arg_27_5 or arg_27_0:GenerateUID4LoadingRequest()
+
+	local var_27_0
+	local var_27_1 = var_0_4.New(arg_27_1, arg_27_2, arg_27_3, function(arg_28_0)
+		arg_27_0._loadingRequest[arg_27_5] = nil
+
+		if arg_27_4 then
+			arg_27_4(arg_28_0)
+		end
 	end)
 
 	if var_0_1 then
-		warning("AutoLoader Loading Bundle: " .. arg_28_1 .. " ;")
+		warning("AutoLoader Loading Once Path: " .. arg_27_1 .. " Name: " .. arg_27_2 .. " ;")
 	end
 
-	arg_28_0._loadingRequest[var_28_0] = var_28_2
+	arg_27_0._loadingRequest[arg_27_5] = var_27_1
 
-	var_28_2:Start()
+	var_27_1:Start()
 
-	return var_28_0
+	return arg_27_5
 end
 
-function var_0_0.GetRequestPackage(arg_30_0, arg_30_1, arg_30_2)
-	arg_30_2 = arg_30_2 or var_0_0.PartLoading + var_0_0.PartLoaded
-
-	return bit.band(arg_30_2, var_0_0.PartLoading) > 0 and arg_30_0._loadingRequest[arg_30_1] or bit.band(arg_30_2, var_0_0.PartLoaded) > 0 and arg_30_0._returnRequest[arg_30_1] or nil
+function var_0_0.DestroyAtlas(arg_29_0, arg_29_1)
+	arg_29_0:ClearRequest(arg_29_1)
 end
 
-function var_0_0.GetLoadingRP(arg_31_0, arg_31_1)
-	return arg_31_0._loadingRequest[arg_31_1]
+function var_0_0.LoadBundle(arg_30_0, arg_30_1, arg_30_2)
+	local var_30_0 = arg_30_0:GenerateUID4LoadingRequest()
+	local var_30_1
+	local var_30_2 = var_0_6.New(arg_30_1, function(arg_31_0)
+		arg_30_0._loadingRequest[var_30_0] = nil
+		arg_30_0._returnRequest[var_30_0] = var_0_12.New(arg_30_1)
+
+		existCall(arg_30_2, arg_31_0)
+	end)
+
+	if var_0_1 then
+		warning("AutoLoader Loading Bundle: " .. arg_30_1 .. " ;")
+	end
+
+	arg_30_0._loadingRequest[var_30_0] = var_30_2
+
+	var_30_2:Start()
+
+	return var_30_0
 end
 
-function var_0_0.ClearRequest(arg_32_0, arg_32_1, arg_32_2)
-	if (not arg_32_2 or bit.band(arg_32_2, var_0_0.PartLoading) > 0) and arg_32_0._loadingRequest[arg_32_1] then
+function var_0_0.GetRequestPackage(arg_32_0, arg_32_1, arg_32_2)
+	arg_32_2 = arg_32_2 or var_0_0.PartLoading + var_0_0.PartLoaded
+
+	return bit.band(arg_32_2, var_0_0.PartLoading) > 0 and arg_32_0._loadingRequest[arg_32_1] or bit.band(arg_32_2, var_0_0.PartLoaded) > 0 and arg_32_0._returnRequest[arg_32_1] or nil
+end
+
+function var_0_0.GetLoadingRP(arg_33_0, arg_33_1)
+	return arg_33_0._loadingRequest[arg_33_1]
+end
+
+function var_0_0.ClearRequest(arg_34_0, arg_34_1, arg_34_2)
+	if (not arg_34_2 or bit.band(arg_34_2, var_0_0.PartLoading) > 0) and arg_34_0._loadingRequest[arg_34_1] then
 		if var_0_2 then
-			local var_32_0 = arg_32_0._loadingRequest[arg_32_1]
+			local var_34_0 = arg_34_0._loadingRequest[arg_34_1]
 
-			warning("AutoLoader Unload loading Path: " .. var_32_0.path .. " Name: " .. var_32_0.name .. " ;")
+			warning("AutoLoader Unload loading Path: " .. var_34_0.path .. " Name: " .. var_34_0.name .. " ;")
 		end
 
-		arg_32_0._loadingRequest[arg_32_1]:Stop()
+		arg_34_0._loadingRequest[arg_34_1]:Stop()
 
-		arg_32_0._loadingRequest[arg_32_1] = nil
+		arg_34_0._loadingRequest[arg_34_1] = nil
 	end
 
-	if not arg_32_2 or bit.band(arg_32_2, var_0_0.PartLoaded) > 0 then
-		if arg_32_0._returnRequest[arg_32_1] then
+	if not arg_34_2 or bit.band(arg_34_2, var_0_0.PartLoaded) > 0 then
+		if arg_34_0._returnRequest[arg_34_1] then
 			if var_0_2 then
-				local var_32_1 = arg_32_0._returnRequest[arg_32_1]
+				local var_34_1 = arg_34_0._returnRequest[arg_34_1]
 
-				if isa(var_32_1, var_0_11) then
-					warning("AutoLoader Unload Spine: " .. var_32_1.name .. " ;")
-				elseif isa(var_32_1, var_0_13) then
-					warning("AutoLoader Unload Atlas: " .. var_32_1.path .. " ;")
-				elseif isa(var_32_1, var_0_12) then
-					warning("AutoLoader Unload Bundle: " .. var_32_1.path .. " ;")
-				elseif isa(var_32_1, var_0_10) then
-					warning("AutoLoader Unload Path: " .. var_32_1.path .. " Name: " .. var_32_1.name .. " ;")
+				if isa(var_34_1, var_0_11) then
+					warning("AutoLoader Unload Spine: " .. var_34_1.name .. " ;")
+				elseif isa(var_34_1, var_0_13) then
+					warning("AutoLoader Unload Atlas: " .. var_34_1.path .. " ;")
+				elseif isa(var_34_1, var_0_12) then
+					warning("AutoLoader Unload Bundle: " .. var_34_1.path .. " ;")
+				elseif isa(var_34_1, var_0_10) then
+					warning("AutoLoader Unload Path: " .. var_34_1.path .. " Name: " .. var_34_1.name .. " ;")
 				else
-					warning("Not Handle " .. var_32_1.__cname .. " " .. (var_32_1.name or "NIL"))
+					warning("Not Handle " .. var_34_1.__cname .. " " .. (var_34_1.name or "NIL"))
 				end
 			end
 
-			arg_32_0._returnRequest[arg_32_1]:Start()
+			arg_34_0._returnRequest[arg_34_1]:Start()
 
-			arg_32_0._returnRequest[arg_32_1] = nil
+			arg_34_0._returnRequest[arg_34_1] = nil
 		end
 
-		if arg_32_0._keyInstDict[arg_32_1] then
-			arg_32_0._instKeyDict[arg_32_0._keyInstDict[arg_32_1]] = nil
-			arg_32_0._keyInstDict[arg_32_1] = nil
+		if arg_34_0._keyInstDict[arg_34_1] then
+			arg_34_0._instKeyDict[arg_34_0._keyInstDict[arg_34_1]] = nil
+			arg_34_0._keyInstDict[arg_34_1] = nil
 		end
 	end
 
-	if arg_32_1 then
-		arg_32_0._groupDict[arg_32_1] = nil
+	if arg_34_1 then
+		arg_34_0._groupDict[arg_34_1] = nil
 	end
 end
 
-function var_0_0.ClearLoadingRequests(arg_33_0)
-	for iter_33_0 in pairs(arg_33_0._loadingRequest) do
-		arg_33_0:ClearRequest(iter_33_0)
+function var_0_0.ClearLoadingRequests(arg_35_0)
+	for iter_35_0 in pairs(arg_35_0._loadingRequest) do
+		arg_35_0:ClearRequest(iter_35_0)
 	end
 
-	table.clear(arg_33_0._loadingRequest)
+	table.clear(arg_35_0._loadingRequest)
 end
 
-function var_0_0.ClearLoadedRequests(arg_34_0)
-	for iter_34_0 in pairs(arg_34_0._returnRequest) do
-		arg_34_0:ClearRequest(iter_34_0)
+function var_0_0.ClearLoadedRequests(arg_36_0)
+	for iter_36_0 in pairs(arg_36_0._returnRequest) do
+		arg_36_0:ClearRequest(iter_36_0)
 	end
 
-	table.clear(arg_34_0._returnRequest)
+	table.clear(arg_36_0._returnRequest)
 end
 
-function var_0_0.ClearRequests(arg_35_0)
-	arg_35_0:ClearLoadingRequests()
-	arg_35_0:ClearLoadedRequests()
-	table.clear(arg_35_0._instKeyDict)
-	table.clear(arg_35_0._keyInstDict)
+function var_0_0.ClearRequests(arg_37_0)
+	arg_37_0:ClearLoadingRequests()
+	arg_37_0:ClearLoadedRequests()
+	table.clear(arg_37_0._instKeyDict)
+	table.clear(arg_37_0._keyInstDict)
 end
 
-function var_0_0.RegisterLoaded(arg_36_0, arg_36_1, arg_36_2)
-	arg_36_0._instKeyDict[arg_36_2] = arg_36_1
-	arg_36_0._keyInstDict[arg_36_1] = arg_36_2
+function var_0_0.RegisterLoaded(arg_38_0, arg_38_1, arg_38_2)
+	arg_38_0._instKeyDict[arg_38_2] = arg_38_1
+	arg_38_0._keyInstDict[arg_38_1] = arg_38_2
 
-	local var_36_0 = {
+	local var_38_0 = {
 		Start = function()
-			Destroy(arg_36_2)
+			Destroy(arg_38_2)
 		end
 	}
 
-	arg_36_0._returnRequest[arg_36_1] = var_36_0
+	arg_38_0._returnRequest[arg_38_1] = var_38_0
 end
 
-function var_0_0.Clear(arg_38_0)
-	arg_38_0:ClearRequests()
+function var_0_0.Clear(arg_40_0)
+	arg_40_0:ClearRequests()
 end
 
 return var_0_0

@@ -131,6 +131,7 @@ function var_0_0.register(arg_1_0)
 		}))
 	end)
 	arg_1_0:bind(var_0_0.OPEN_COMMISION, function(arg_17_0)
+		getProxy(ChapterAutoProxy):MarkCommssionExpiredTip()
 		arg_1_0:addSubLayers(Context.New({
 			viewComponent = CommissionInfoLayer,
 			mediator = CommissionInfoMediator

@@ -189,42 +189,45 @@ function var_0_0.initNotificationHandleDic(arg_19_0)
 			if not getProxy(ShopsProxy):IsSkinTypeCharge(var_26_0) then
 				arg_26_0.viewComponent:closeView()
 			end
+		end,
+		[GAME.OPEN_SKIN_COUPON_MULTI_MSG_BOX] = function(arg_27_0, arg_27_1)
+			arg_27_0.viewComponent:OnOpenSkinCouponMultiMsgBox(arg_27_1:getBody())
 		end
 	}
 end
 
-function var_0_0.HandleNewSkin(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
-	if pg.ship_skin_template[arg_27_2].skin_type == ShipSkin.SKIN_TYPE_TB then
-		arg_27_0:addSubLayers(Context.New({
+function var_0_0.HandleNewSkin(arg_28_0, arg_28_1, arg_28_2, arg_28_3)
+	if pg.ship_skin_template[arg_28_2].skin_type == ShipSkin.SKIN_TYPE_TB then
+		arg_28_0:addSubLayers(Context.New({
 			mediator = NewSkinTBMediator,
 			viewComponent = NewSkinTBLayer,
 			data = {
-				skinId = arg_27_2,
-				timeLimit = arg_27_3
+				skinId = arg_28_2,
+				timeLimit = arg_28_3
 			}
 		}))
-	elseif PaintingShowScene.GetSkinShowAble(arg_27_2) then
-		arg_27_0:addSubLayers(Context.New({
+	elseif PaintingShowScene.GetSkinShowAble(arg_28_2) then
+		arg_28_0:addSubLayers(Context.New({
 			mediator = PaintingShowMediator,
 			viewComponent = PaintingShowNewSkinScene,
 			data = {
 				is_shop = true,
-				skinId = arg_27_2,
-				timeLimit = arg_27_3
+				skinId = arg_28_2,
+				timeLimit = arg_28_3
 			}
 		}))
 	else
-		arg_27_0:addSubLayers(Context.New({
+		arg_28_0:addSubLayers(Context.New({
 			mediator = NewSkinMediator,
 			viewComponent = NewSkinLayer,
 			data = {
-				skinId = arg_27_2,
-				timeLimit = arg_27_3
+				skinId = arg_28_2,
+				timeLimit = arg_28_3
 			}
 		}))
 	end
 
-	arg_27_0.viewComponent:OnShopping(arg_27_1)
+	arg_28_0.viewComponent:OnShopping(arg_28_1)
 	pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
 end
 

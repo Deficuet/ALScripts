@@ -386,6 +386,10 @@ function var_0_0.SetCommanderHairBlendShape(arg_19_0, arg_19_1)
 		return
 	end
 
+	if var_19_0.type == var_0_0.DressType.Body and pg.island_dress_template.get_id_list_by_related_dress[arg_19_1] then
+		return
+	end
+
 	local var_19_1 = var_19_0.sub_type - 1
 
 	GraphicsInterface.Instance:SetCharacterBlendShape(arg_19_0, var_0_0.ComponentType.Hair, var_19_1, 100)
@@ -466,6 +470,7 @@ function var_0_0.BuildCommanderCustomParts(arg_25_0, arg_25_1, arg_25_2, arg_25_
 			local var_26_1 = arg_25_1(var_0_0.DressType.Body) or 0
 
 			var_0_0.RefreshCommanderHatState(arg_25_0, var_26_0)
+			var_0_0.SetCommanderHairBlendShape(arg_25_0, var_26_1)
 			existCall(arg_25_3, var_25_0, var_26_1)
 		end
 	end
@@ -523,6 +528,7 @@ function var_0_0.ChangeCommanderPart(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
 			var_0_0.RefreshCommanderHatState(var_27_2, var_27_0)
 		elseif arg_27_1 == var_0_0.DressType.Hair then
 			var_0_0.RefreshCommanderHatState(var_27_2, arg_27_0.commanderDressDic[var_0_0.DressType.Hat] or 0)
+			var_0_0.SetCommanderHairBlendShape(var_27_2, arg_27_0.commanderDressDic[var_0_0.DressType.Body] or 0)
 		elseif arg_27_1 == var_0_0.DressType.Face then
 			local var_28_0 = pg.island_dress_template[var_27_0]
 			local var_28_1 = var_28_0.face_clip == "" and "idle" or var_28_0.face_clip
@@ -532,6 +538,7 @@ function var_0_0.ChangeCommanderPart(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
 				var_28_2:Play(var_28_1, 4)
 			end
 		elseif arg_27_1 == var_0_0.DressType.Body then
+			var_0_0.SetCommanderHairBlendShape(var_27_2, var_27_0)
 			arg_27_0:ApplyAnimatorOverride(var_27_0, arg_27_3)
 		end
 	end
@@ -547,6 +554,7 @@ function var_0_0.ChangeCommanderPart(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
 			existCall(arg_27_3)
 		end
 	elseif arg_27_1 == var_0_0.DressType.Body and var_27_0 == 0 then
+		var_0_0.SetCommanderHairBlendShape(var_27_2, var_27_0)
 		arg_27_0:ApplyAnimatorOverride(0, arg_27_3)
 	end
 end

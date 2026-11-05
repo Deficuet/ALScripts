@@ -1621,35 +1621,44 @@ function var_0_0.OnSetVisitorSyncData(arg_141_0, arg_141_1, arg_141_2)
 	end
 end
 
-function var_0_0.OnWorldObjectStartInteraction(arg_142_0, arg_142_1, arg_142_2, arg_142_3)
-	local var_142_0 = arg_142_2:GetHostId()
-	local var_142_1 = arg_142_2:GetUserId()
-	local var_142_2 = arg_142_0:GetUnitModule(var_142_0)
-	local var_142_3 = arg_142_0:GetPlayerUnitModule(var_142_1)
-	local var_142_4 = arg_142_0.player == var_142_3
+function var_0_0.OnWorldObjectStartInteraction(arg_142_0, arg_142_1, arg_142_2, arg_142_3, arg_142_4, arg_142_5)
+	local var_142_0 = arg_142_0:GetUnitModule(arg_142_1.id)
+	local var_142_1 = arg_142_0:GetPlayerUnitModule(arg_142_3)
 
-	if var_142_4 then
+	if not var_142_0 or not var_142_1 then
+		return
+	end
+
+	if not arg_142_1:GetTimeline()[arg_142_4] then
+		warning(string.format("wo view start dropped: timeline config missing unit=%s param=%s", tostring(arg_142_1.id), tostring(arg_142_4)))
+
+		return
+	end
+
+	local var_142_2 = arg_142_0.player == var_142_1
+
+	if var_142_2 then
 		arg_142_0:GetSubView(IslandOpView):StartInteraction()
 	end
 
-	local var_142_5 = arg_142_1:GetTimeline()[arg_142_3]
-	local var_142_6 = arg_142_1:GetBlackboardParam()[arg_142_3]
-
-	var_142_2:StartInteract(var_142_3, arg_142_2.id, arg_142_3, var_142_5, var_142_6, arg_142_1:AnySlotUsing(), var_142_4)
+	var_142_0:StartInteract(var_142_1, arg_142_2, arg_142_4, arg_142_5, var_142_2)
 end
 
-function var_0_0.OnWorldObjectEndInteraction(arg_143_0, arg_143_1, arg_143_2)
-	local var_143_0 = arg_143_2:GetHostId()
-	local var_143_1 = arg_143_2:GetUserId()
-	local var_143_2 = arg_143_0:GetUnitModule(var_143_0)
-	local var_143_3 = arg_143_0:GetPlayerUnitModule(var_143_1)
-	local var_143_4 = arg_143_0.player == var_143_3
+function var_0_0.OnWorldObjectEndInteraction(arg_143_0, arg_143_1, arg_143_2, arg_143_3, arg_143_4)
+	local var_143_0 = arg_143_0:GetUnitModule(arg_143_1.id)
+	local var_143_1 = arg_143_0:GetPlayerUnitModule(arg_143_3)
 
-	if var_143_4 then
+	if not var_143_0 or not var_143_1 then
+		return
+	end
+
+	local var_143_2 = arg_143_0.player == var_143_1
+
+	if var_143_2 then
 		arg_143_0:GetSubView(IslandOpView):EndInteraction()
 	end
 
-	var_143_2:EndInteract(var_143_3, arg_143_2.id, not arg_143_1:AnySlotUsing(), var_143_4)
+	var_143_0:EndInteract(var_143_1, arg_143_2, arg_143_4, var_143_2)
 end
 
 function var_0_0.OnWorldObjectInitStatus(arg_144_0, arg_144_1, arg_144_2)

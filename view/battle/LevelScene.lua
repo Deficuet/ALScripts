@@ -336,6 +336,8 @@ function var_0_0.initUI(arg_15_0)
 
 	arg_15_0.rtRightPanel = arg_15_0._tf:Find("entrance/enters/right_panel")
 	arg_15_0.actBtnTpl = arg_15_0.rtRightPanel:Find("content/tpl")
+	arg_15_0.expiredTF = arg_15_0.rtRightPanel:Find("expired")
+	arg_15_0.expireText = arg_15_0.expiredTF:Find("count/Text"):GetComponent(typeof(Text))
 
 	local var_15_1 = pg.UIMgr.GetInstance()
 
@@ -406,6 +408,10 @@ function var_0_0.LoadEntranceActivityBg(arg_16_0)
 
 	if string.sub(var_16_0, 1, #var_16_1) == var_16_1 then
 		var_16_0 = "MainUIBanner" .. string.sub(var_16_0, #var_16_1 + 1)
+	end
+
+	if HXSet.isHx() and checkABExist(var_16_0 .. "_hx") then
+		var_16_0 = var_16_0 .. "_hx"
 	end
 
 	arg_16_0.entranceActivityBgPath = var_16_0
@@ -856,6 +862,12 @@ function var_0_0.updateRightPanel(arg_66_0)
 	for iter_66_4, iter_66_5 in ipairs(var_66_1) do
 		iter_66_5:Clear()
 	end
+
+	local var_66_2 = getProxy(ChapterAutoProxy):GetWillExpireTicketCnt()
+
+	arg_66_0.expireText.text = "x" .. var_66_2
+
+	setActive(arg_66_0.expiredTF, var_66_2 > 0)
 end
 
 function var_0_0.checkChallengeOpen(arg_68_0)

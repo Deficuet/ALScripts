@@ -31,9 +31,18 @@ function var_0_0.init(arg_2_0)
 
 	arg_2_0.rtRightPanel = arg_2_0._tf:Find("adapt/right_panel")
 	arg_2_0.rtNothingTip = arg_2_0.rtRightPanel:Find("nothing_tip")
+
+	setText(arg_2_0.rtNothingTip:Find("Text"), i18n("world_task_notask"))
+
 	arg_2_0.btnClose = arg_2_0.rtRightPanel:Find("title/close_btn")
 	arg_2_0.toggleAll = arg_2_0.rtRightPanel:Find("title/task_all")
+
+	setText(arg_2_0.toggleAll, i18n("world_task_all"))
+
 	arg_2_0.toggleMain = arg_2_0.rtRightPanel:Find("title/task_main")
+
+	setText(arg_2_0.toggleAll, i18n("world_task_main"))
+
 	arg_2_0.rtContainer = arg_2_0.rtRightPanel:Find("main/viewport/content")
 	arg_2_0.taskItemList = UIItemList.New(arg_2_0.rtContainer, arg_2_0.rtContainer:Find("task_tpl"))
 
@@ -44,6 +53,13 @@ function var_0_0.init(arg_2_0)
 	end)
 
 	arg_2_0.btnDailyTask = arg_2_0.rtLeftPanel:Find("world_info/task_btn")
+
+	local var_2_0 = arg_2_0.rtContainer:Find("task_tpl")
+	local var_2_1 = var_2_0:Find("base_panel/btn_go/Text")
+	local var_2_2 = var_2_0:Find("base_panel/btn_get/Text")
+
+	setText(var_2_1, i18n("world_task_view"))
+	setText(var_2_2, i18n("world_task_get"))
 end
 
 function var_0_0.didEnter(arg_5_0)

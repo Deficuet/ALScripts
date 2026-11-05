@@ -35,6 +35,13 @@ function var_0_0.OnLoaded(arg_2_0)
 
 	setText(arg_2_0._tf:Find("window/frame/option/nonuse/Text"), i18n("skin_shop_nonuse_label"))
 	setText(arg_2_0._tf:Find("window/frame/option/use/Text"), i18n("skin_shop_use_label"))
+
+	arg_2_0.uiTipBar2 = arg_2_0._tf:Find("window/frame/tipBar2")
+
+	setText(arg_2_0.uiTipBar2:Find("Text"), i18n("shop_new_only_use_one_coupon"))
+	setActive(arg_2_0.uiTipBar2, false)
+	setActive(arg_2_0.tipBar, false)
+	setActive(arg_2_0.nonUseBtn, false)
 end
 
 function var_0_0.RegisterBtn(arg_3_0, arg_3_1)
@@ -57,6 +64,10 @@ function var_0_0.RegisterBtn(arg_3_0, arg_3_1)
 		arg_3_0:Hide()
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.switchBtn, function()
+		if SkinCouponActivity.GetSkinCouponTotalCnt(arg_3_1.commodityID) <= 1 then
+			return
+		end
+
 		arg_3_0:UpdateStyle(1 - arg_3_0.style)
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.confirmBtn, function()
@@ -118,23 +129,35 @@ end
 function var_0_0.UpdateItem(arg_14_0, arg_14_1)
 	arg_14_0.itemTrs = {}
 
-	local var_14_0 = arg_14_1.itemList
+	local var_14_0 = {}
 
-	UIItemList.StaticAlign(arg_14_0._tf:Find("window/frame/scrollrect/list"), arg_14_0._tf:Find("window/frame/left"), #var_14_0, function(arg_15_0, arg_15_1, arg_15_2)
+	UIItemList.StaticAlign(arg_14_0._tf:Find("window/frame/scrollrect/list"), arg_14_0._tf:Find("window/frame/left"), #arg_14_1.itemList + #arg_14_1.unuseItemList, function(arg_15_0, arg_15_1, arg_15_2)
 		if arg_15_0 == UIItemList.EventUpdate then
-			arg_14_0:FlushItem(var_14_0[arg_15_1 + 1], arg_15_2)
+			if arg_15_1 + 1 <= #arg_14_1.itemList then
+				arg_14_0:FlushItem(arg_14_1.itemList[arg_15_1 + 1], arg_15_2, true)
+			else
+				arg_14_0:FlushItem(arg_14_1.unuseItemList[arg_15_1 + 1 - #arg_14_1.itemList], arg_15_2, false)
+			end
 		end
 	end)
 end
 
-function var_0_0.FlushItem(arg_16_0, arg_16_1, arg_16_2)
+function var_0_0.FlushItem(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
 	updateDrop(arg_16_2, arg_16_1.drop)
-	setText(arg_16_2:Find("name_bg/Text"), arg_16_1.drop:getName())
-	onToggle(arg_16_0, arg_16_2, function(arg_17_0)
-		if arg_17_0 then
-			arg_16_0.selectedItem = arg_16_1
-		end
-	end, SFX_PANEL)
+	setScrollText(arg_16_2:Find("name_bg/Text"), arg_16_1.drop:getName())
+
+	if arg_16_3 then
+		setActive(arg_16_2:Find("lock"), false)
+		onToggle(arg_16_0, arg_16_2, function(arg_17_0)
+			if arg_17_0 then
+				arg_16_0.selectedItem = arg_16_1
+			end
+		end, SFX_PANEL)
+		setToggleEnabled(arg_16_2, true)
+	else
+		setToggleEnabled(arg_16_2, false)
+		setActive(arg_16_2:Find("lock"), true)
+	end
 
 	arg_16_0.itemTrs[arg_16_1] = arg_16_2
 end
@@ -163,6 +186,7 @@ function var_0_0.UpdateStyle(arg_20_0, arg_20_1)
 	setActive(arg_20_0.discountPriceBtn, arg_20_1 == var_0_1 and arg_20_0.prevSelected)
 	setActive(arg_20_0.confirmBtn, arg_20_1 == var_0_2)
 	setActive(arg_20_0.scrollrect, arg_20_1 == var_0_2)
+	setActive(arg_20_0.uiTipBar2, arg_20_1 == var_0_2)
 
 	local var_20_0 = arg_20_0:GetDefaultItem()
 
@@ -200,8 +224,6 @@ function var_0_0.SetTipText(arg_22_0, arg_22_1)
 			end
 		end
 	end
-
-	setActive(arg_22_0.tipBar, var_22_3)
 
 	if var_22_3 then
 		local var_22_4 = ""

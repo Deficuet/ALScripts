@@ -1,11 +1,12 @@
 local var_0_0 = class("FormationSuggestionCardItem", import("view.base.BasePanel"))
 
-function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 	arg_1_0._go = arg_1_1.gameObject
 
 	var_0_0.super.Ctor(arg_1_0, arg_1_0._go)
 
 	arg_1_0._parentClass = arg_1_2
+	arg_1_0.isLeading = arg_1_3
 
 	arg_1_0:attach(arg_1_2)
 	arg_1_0:Init()
@@ -104,7 +105,7 @@ function var_0_0.ShowShip(arg_10_0, arg_10_1)
 	setActive(arg_10_0.uiAnyGo, false)
 	setActive(arg_10_0.uiEmptyGo, false)
 	setActive(arg_10_0.uiContentGo, true)
-	arg_10_0.shipView:SetData(arg_10_0.id, arg_10_1)
+	arg_10_0.shipView:SetData(arg_10_0.id, arg_10_1, arg_10_0.isLeading)
 end
 
 function var_0_0.willExit(arg_11_0)

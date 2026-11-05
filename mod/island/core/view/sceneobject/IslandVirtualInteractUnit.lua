@@ -35,22 +35,18 @@ function var_0_0.GetTargetRoot(arg_6_0)
 	end
 end
 
-function var_0_0.GetPlayerParent(arg_7_0)
-	if arg_7_0.tempPlayerParentPath == nil then
+function var_0_0.GetPlayerParent(arg_7_0, arg_7_1)
+	local var_7_0 = arg_7_0.data:GetPlayerParentPath(arg_7_1)
+
+	if var_7_0 == nil then
 		return arg_7_0:GetTargetRoot()
 	else
-		local var_7_0 = arg_7_0:GetTargetRoot():Find(arg_7_0.tempPlayerParentPath)
+		local var_7_1 = arg_7_0:GetTargetRoot():Find(var_7_0)
 
-		assert(var_7_0, "can't find player parent with path: " .. arg_7_0.tempPlayerParentPath)
+		assert(var_7_1, "can't find player parent with path: " .. var_7_0)
 
-		return var_7_0
+		return var_7_1
 	end
-end
-
-function var_0_0.StartInteract(arg_8_0, arg_8_1, arg_8_2, arg_8_3, arg_8_4, arg_8_5, arg_8_6, arg_8_7, arg_8_8)
-	arg_8_0.tempPlayerParentPath = arg_8_8
-
-	var_0_0.super.StartInteract(arg_8_0, arg_8_1, arg_8_2, arg_8_3, arg_8_4, arg_8_5, arg_8_6, arg_8_7)
 end
 
 return var_0_0

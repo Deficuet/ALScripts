@@ -270,7 +270,7 @@ function var_0_0.GetProgress(arg_18_0)
 		local var_18_1 = var_18_0 and getProxy(ActivityProxy):getActivityById(var_18_0.activity_id)
 
 		if not var_18_1 then
-			return 0
+			return getProxy(ActivityPermanentProxy):GetActivityProgress(var_18_0.activity_id)
 		end
 
 		local var_18_2 = 0

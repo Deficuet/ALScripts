@@ -37,21 +37,53 @@ function var_0_0.AutoUnloadAssetBundle(arg_4_0, arg_4_1)
 end
 
 function var_0_0.LoadAsset(arg_6_0, arg_6_1, arg_6_2, arg_6_3, arg_6_4, arg_6_5)
+	local var_6_0 = arg_6_0
+	local var_6_1 = arg_6_1
+
+	if HXSet.isHx() then
+		if arg_6_1 == "" or arg_6_1 == nil then
+			if checkABExist(var_6_0 .. "_hx") then
+				var_6_0 = var_6_0 .. "_hx"
+			end
+		elseif var_6_1 ~= nil then
+			var_6_1 = var_6_1 .. "_hx"
+		end
+	end
+
 	if arg_6_3 then
-		AssetBundleHelper.LoadAssetBundle(arg_6_0, arg_6_3, true, function(arg_7_0)
-			arg_7_0:LoadAssetAsync(arg_6_1, arg_6_2, function(arg_8_0)
+		AssetBundleHelper.LoadAssetBundle(var_6_0, arg_6_3, true, function(arg_7_0)
+			local var_7_0 = AssetBundleHelper.LoadAssetBundle(var_6_0, arg_6_3, true)
+			local var_7_1 = true
+
+			if arg_6_1 ~= "" then
+				local var_7_2 = var_7_0:ChangeAssetName(var_6_1)
+				local var_7_3 = var_7_0:GetAllAssetNames()
+
+				var_7_1 = table.contains(var_7_3, var_7_2)
+			end
+
+			var_7_0:LoadAssetAsync(var_7_1 and var_6_1 or arg_6_1, arg_6_2, function(arg_8_0)
 				arg_6_4(arg_8_0)
-				var_0_0.AutoUnloadAssetBundle(arg_7_0, arg_6_5)
+				var_0_0.AutoUnloadAssetBundle(var_7_0, arg_6_5)
 			end, false, false)
 		end)
 	else
-		local var_6_0 = AssetBundleHelper.LoadAssetBundle(arg_6_0, arg_6_3, true)
-		local var_6_1 = var_6_0:LoadAssetSync(arg_6_1, arg_6_2, false, false)
+		local var_6_2 = AssetBundleHelper.LoadAssetBundle(var_6_0, arg_6_3, true)
+		local var_6_3 = true
 
-		existCall(arg_6_4, var_6_1)
-		var_0_0.AutoUnloadAssetBundle(var_6_0, arg_6_5)
+		if arg_6_1 ~= "" then
+			local var_6_4 = var_6_2:ChangeAssetName(var_6_1)
+			local var_6_5 = var_6_2:GetAllAssetNames()
 
-		return var_6_1
+			var_6_3 = table.contains(var_6_5, var_6_4)
+		end
+
+		local var_6_6 = var_6_2:LoadAssetSync(var_6_3 and var_6_1 or arg_6_1, arg_6_2, false, false)
+
+		existCall(arg_6_4, var_6_6)
+		var_0_0.AutoUnloadAssetBundle(var_6_2, arg_6_5)
+
+		return var_6_6
 	end
 end
 

@@ -6,12 +6,20 @@ function var_0_0.getResource(arg_1_0)
 
 	if var_1_1 and noEmptyStr(var_1_1.bg) then
 		table.insert(var_1_0, var_1_1.bg)
+
+		if HXSet.isHx() then
+			table.insert(var_1_0, var_1_1.bg .. "_hx")
+		end
 	end
 
 	local var_1_2 = arg_1_0.contextData and arg_1_0.contextData.falgShip or getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getData().character)
 
 	if var_1_2 then
 		table.insertto(var_1_0, ResPathSupport.GetPaintingListByPaintingName(var_1_2:getPainting()))
+	end
+
+	if HXSet.isHx() then
+		table.insertto(var_1_0, pg.ship_skin_template[900284].painting)
 	end
 
 	return table.insertto(var_1_0, var_0_0.super.getResource(arg_1_0))
@@ -88,6 +96,10 @@ end
 
 function var_0_0.UpdateBuildPoolPaiting(arg_11_0)
 	local var_11_0 = arg_11_0.contextData.falgShip:getPainting()
+
+	if HXSet.isHx() then
+		var_11_0 = pg.ship_skin_template[900284].painting
+	end
 
 	if arg_11_0.painting ~= var_11_0 then
 		pg.UIMgr.GetInstance():LoadingOn()

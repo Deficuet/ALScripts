@@ -8,6 +8,11 @@ function var_0_0.Enter(arg_1_0, arg_1_1)
 end
 
 function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
+	if HXSet.isHx() then
+		arg_2_1 = pg.ship_skin_template[107030].painting
+		arg_2_3 = true
+	end
+
 	arg_2_0.isShipPainting = arg_2_3
 
 	arg_2_0:Show()

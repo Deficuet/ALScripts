@@ -14,8 +14,9 @@ var_0_0.SHOW_TYPE_ABILITY = 11
 var_0_0.SHOW_TYPE_TASK_TARGET = 12
 var_0_0.SHOW_TYPE_SELF_ABILITY = 13
 var_0_0.SHOW_TYPE_ACTIVITY = 14
+var_0_0.SHOW_TYPE_CAN_SHIP_INTERACT = 15
 
-function var_0_0.Check(arg_1_0, arg_1_1)
+function var_0_0.Check(arg_1_0, arg_1_1, arg_1_2)
 	local var_1_0 = arg_1_1[1]
 	local var_1_1 = arg_1_1[2]
 	local var_1_2 = arg_1_1[3]
@@ -66,6 +67,33 @@ function var_0_0.Check(arg_1_0, arg_1_1)
 		end,
 		[var_0_0.SHOW_TYPE_ACTIVITY] = function()
 			return getProxy(ActivityProxy):IsActivityNotEnd(var_1_1)
+		end,
+		[var_0_0.SHOW_TYPE_CAN_SHIP_INTERACT] = function()
+			local var_14_0 = arg_1_0:GetInteractSyncAgency()
+			local var_14_1 = arg_1_2 and var_14_0:GetPointId(arg_1_2)
+			local var_14_2 = var_14_1 and pg.island_interact_point[var_14_1]
+
+			if not var_14_2 or var_14_2.allow_ship_interact ~= 1 then
+				return false
+			end
+
+			if var_14_0:GetSlotCnt(arg_1_2) <= 1 then
+				return false
+			end
+
+			if var_14_0:IsLocalInteracting() then
+				return false
+			end
+
+			if var_14_0:HasOwner(arg_1_2, var_14_0:GetLocalPlayerId()) then
+				return false
+			end
+
+			if var_14_0:IsSpecialOccupied(arg_1_2) then
+				return false
+			end
+
+			return #arg_1_0:GetFollowerAgency():GetFollowers() > 0
 		end
 	}, function()
 		assert(false, "非法显示条件类型:" .. var_1_0)

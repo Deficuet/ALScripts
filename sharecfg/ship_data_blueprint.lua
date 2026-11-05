@@ -2060,7 +2060,7 @@ pg.base.ship_data_blueprint = {}
 		blueprint_version = 4,
 		name = "埃吉尔",
 		simulate_dungeon = 9920,
-		luck_story = "",
+		luck_story = "LUCK49905",
 		strengthen_item = 42033,
 		id = 49905,
 		unlock_word = "铁血阵营科技点数达到<color=#92fc63>700</color>",
@@ -2070,7 +2070,16 @@ pg.base.ship_data_blueprint = {}
 		unlock_task_open_condition = {
 			60201
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19410,
+				18410
+			},
+			{
+				19430,
+				18430
+			}
+		},
 		unlock_task = {
 			{
 				60202,
@@ -2137,7 +2146,13 @@ pg.base.ship_data_blueprint = {}
 			2029,
 			2030
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			2031,
+			2032,
+			2033,
+			2034,
+			2035
+		},
 		attr_exp = {
 			100,
 			100,

@@ -120,7 +120,7 @@ function var_0_0.UpdateTask(arg_7_0, arg_7_1, arg_7_2)
 	local var_7_5 = var_7_3:getProgress()
 	local var_7_6 = var_7_3:getConfig("target_num")
 
-	if arg_7_0.allCompleteCount == var_0_0.FinishCount then
+	if arg_7_0.allCompleteCount >= var_0_0.FinishCount then
 		var_7_5 = var_7_6
 	end
 
@@ -145,7 +145,7 @@ function var_0_0.UpdateTask(arg_7_0, arg_7_1, arg_7_2)
 	local var_7_14 = arg_7_2:Find("got_btn")
 	local var_7_15 = var_7_3:getTaskStatus()
 
-	if arg_7_0.allCompleteCount == var_0_0.FinishCount then
+	if arg_7_0.allCompleteCount >= var_0_0.FinishCount then
 		var_7_15 = 2
 	end
 
@@ -402,6 +402,43 @@ function var_0_0.onBackPressed(arg_33_0)
 	end
 
 	arg_33_0.super.onBackPressed(arg_33_0)
+end
+
+function var_0_0.IsShowRed()
+	local var_34_0 = getProxy(TaskProxy)
+	local var_34_1 = getProxy(ActivityProxy):getActivityById(ActivityConst.WindFogCorridor_SkinStory_MainPage):getConfig("config_client")
+	local var_34_2 = 0
+	local var_34_3 = false
+
+	for iter_34_0, iter_34_1 in ipairs(var_34_1.group_1) do
+		local var_34_4 = var_34_0:getTaskById(iter_34_1) or var_34_0:getFinishTaskById(iter_34_1)
+
+		if var_34_4 then
+			local var_34_5 = var_34_4:getTaskStatus()
+
+			if var_34_5 == 2 then
+				var_34_2 = var_34_2 + 1
+			elseif var_34_5 == 1 then
+				var_34_3 = true
+			end
+		end
+	end
+
+	for iter_34_2, iter_34_3 in ipairs(var_34_1.group_2) do
+		local var_34_6 = var_34_0:getTaskById(iter_34_3) or var_34_0:getFinishTaskById(iter_34_3)
+
+		if var_34_6 then
+			local var_34_7 = var_34_6:getTaskStatus()
+
+			if var_34_7 == 2 then
+				var_34_2 = var_34_2 + 1
+			elseif var_34_7 == 1 then
+				var_34_3 = true
+			end
+		end
+	end
+
+	return var_34_2 < var_0_0.FinishCount and var_34_3
 end
 
 return var_0_0

@@ -8,6 +8,10 @@ function var_0_0.getResource(arg_1_0)
 		local var_1_2 = pg.activity_task_permanent[iter_1_1]
 
 		table.insert(var_1_0, "activitybanner/" .. var_1_2.banner_route)
+
+		if HXSet.isHx() then
+			table.insert(var_1_0, "activitybanner/" .. var_1_2.banner_route .. "_hx")
+		end
 	end
 
 	table.insertto(var_1_0, var_0_0.super.getResource(arg_1_0))

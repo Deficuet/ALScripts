@@ -95,6 +95,11 @@ function var_0_0.UpdateItemImage(arg_8_0, arg_8_1, arg_8_2)
 		end))
 	else
 		arg_8_0:ReturnItemPrefabCache(var_8_1)
+
+		if HXSet.isHx() and checkABExist(var_8_2 .. "_hx") then
+			var_8_2 = var_8_2 .. "_hx"
+		end
+
 		pg.PoolMgr.GetInstance():GetPrefab("MainUIBanner/" .. var_8_2, "", true, function(arg_10_0)
 			setParent(arg_10_0.transform, var_8_1)
 			onNextTick(function()

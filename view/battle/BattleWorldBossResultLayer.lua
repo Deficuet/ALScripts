@@ -378,8 +378,9 @@ function var_0_0.showRewardInfo(arg_19_0, arg_19_1)
 
 			for iter_21_4 = math.max(1, #var_21_5 - var_21_4 + 1), #var_21_5 do
 				local var_21_6 = var_21_5[iter_21_4]
+				local var_21_7 = pg.gameset.skip_duplicate_characters_rarity.key_value or ShipRarity.Gold
 
-				if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or var_21_6.virgin or var_21_6:getRarity() >= ShipRarity.Purple then
+				if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or var_21_6.virgin or var_21_7 <= var_21_6:getRarity() then
 					arg_19_0:emit(BattleResultMediator.GET_NEW_SHIP, var_21_6, var_19_1)
 					coroutine.yield()
 				end

@@ -25,7 +25,7 @@ function var_0_0.Init(arg_2_0)
 
 	for iter_2_0 = 1, 3 do
 		arg_2_0.mainItemList[iter_2_0] = FormationSuggestionCardItem.New(arg_2_0[string.format("uiMainShipTf%s", iter_2_0)], arg_2_0)
-		arg_2_0.vanguardItemList[iter_2_0] = FormationSuggestionCardItem.New(arg_2_0[string.format("uiVanguardShipTf%s", iter_2_0)], arg_2_0)
+		arg_2_0.vanguardItemList[iter_2_0] = FormationSuggestionCardItem.New(arg_2_0[string.format("uiVanguardShipTf%s", iter_2_0)], arg_2_0, true)
 	end
 
 	arg_2_0.animation = arg_2_0._tf:GetComponent(typeof(Animation))
@@ -57,7 +57,7 @@ function var_0_0.SetID(arg_3_0, arg_3_1)
 		end
 
 		for iter_3_6, iter_3_7 in ipairs(var_3_0.teamid1) do
-			arg_3_0.vanguardItemList[iter_3_6]:SetData(iter_3_7)
+			arg_3_0.vanguardItemList[iter_3_6]:SetData(iter_3_7, iter_3_6)
 		end
 	end
 end

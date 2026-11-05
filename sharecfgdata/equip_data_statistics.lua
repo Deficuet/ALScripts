@@ -49800,7 +49800,8 @@ end)()
 			"USS",
 			"CV",
 			"FT",
-			"F6F"
+			"F6F",
+			"BDZW"
 		}
 	}
 end)()
@@ -50018,7 +50019,8 @@ end)()
 			"USS",
 			"CV",
 			"FT",
-			"F6F"
+			"F6F",
+			"BDZW"
 		}
 	}
 end)()
@@ -50340,7 +50342,8 @@ end)()
 			"USS",
 			"CV",
 			"FT",
-			"F6F"
+			"F6F",
+			"BDZW"
 		}
 	}
 end)()
@@ -52080,7 +52083,8 @@ end)()
 			"USS",
 			"CV",
 			"FT",
-			"HERK"
+			"HERK",
+			"BDZW"
 		}
 	}
 end)()

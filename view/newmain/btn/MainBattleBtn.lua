@@ -1,6 +1,8 @@
 local var_0_0 = class("MainBattleBtn", import(".MainBaseBtn"))
 
 function var_0_0.OnClick(arg_1_0)
+	getProxy(ChapterAutoProxy):MarkBattleExpiredTip()
+
 	local var_1_0 = getProxy(ChapterProxy):getActiveChapter()
 
 	arg_1_0:emit(NewMainMediator.GO_SCENE, SCENE.LEVEL, {

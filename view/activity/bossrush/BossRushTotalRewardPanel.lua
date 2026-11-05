@@ -125,11 +125,12 @@ function var_0_0.ShowShips(arg_11_0, arg_11_1, arg_11_2)
 
 	for iter_11_0 = math.max(1, #var_11_1 - var_11_0 + 1), #var_11_1 do
 		local var_11_3 = var_11_1[iter_11_0]
-		local var_11_4 = PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or var_11_3.virgin or var_11_3:getRarity() >= ShipRarity.Purple
+		local var_11_4 = pg.gameset.skip_duplicate_characters_rarity.key_value or ShipRarity.Gold
+		local var_11_5 = PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or var_11_3.virgin or var_11_4 <= var_11_3:getRarity()
 
-		print(var_11_4)
+		print(var_11_5)
 
-		if var_11_4 then
+		if var_11_5 then
 			table.insert(var_11_2, function(arg_13_0)
 				arg_11_0:emit(BossRushTotalRewardPanelMediator.GET_NEW_SHIP, var_11_3, arg_13_0)
 			end)

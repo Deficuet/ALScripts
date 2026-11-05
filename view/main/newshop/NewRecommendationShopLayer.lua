@@ -115,6 +115,10 @@ function var_0_0.getResource(arg_3_0)
 
 			if noEmptyStr(var_3_19.pic) then
 				table.insert(var_3_11, var_3_19.pic)
+
+				if HXSet.isHx() then
+					table.insert(var_3_11, var_3_19.pic .. "_hx")
+				end
 			end
 
 			if var_3_19.relation_param ~= "" then

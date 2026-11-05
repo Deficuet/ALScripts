@@ -114,6 +114,7 @@ function var_0_0.init(arg_10_0)
 	arg_10_0._viewBtn = arg_10_0._left:Find("view_btn")
 	arg_10_0._evaluationBtn = arg_10_0._left:Find("evaluation_btn")
 	arg_10_0._shareBtn = arg_10_0._left:Find("share_btn")
+	arg_10_0._displayBtn = arg_10_0._shake:Find("display_ship_toggle")
 	arg_10_0.audioBtn = arg_10_0._shake:Find("property_btn")
 	arg_10_0.clickTF = arg_10_0._shake:Find("click")
 	arg_10_0.npc = arg_10_0._tf:Find("shake_panel/npc")
@@ -129,6 +130,7 @@ function var_0_0.init(arg_10_0)
 	setActive(arg_10_0._skipButton, arg_10_0.contextData.canSkipBatch)
 	setActive(arg_10_0._left, true)
 	setActive(arg_10_0.audioBtn, true)
+	setText(arg_10_0._displayBtn:Find("bg/Text"), i18n("display_ship_get_repeat"))
 	pg.UIMgr.GetInstance():OverlayPanel(arg_10_0._tf)
 
 	arg_10_0.metaRepeatTF = arg_10_0.rarityTF:Find("MetaRepeat")
@@ -173,6 +175,8 @@ function var_0_0.setShip(arg_14_0, arg_14_1)
 
 	arg_14_0._shipVO = arg_14_1
 	arg_14_0.isRemoulded = arg_14_1:isRemoulded()
+
+	triggerToggle(arg_14_0._displayBtn, PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1)
 
 	local var_14_0 = arg_14_1:isBluePrintShip()
 	local var_14_1 = arg_14_1:isMetaShip()
@@ -631,381 +635,394 @@ function var_0_0.didEnter(arg_37_0)
 			arg_37_0:emit(NewShipMediator.ON_SKIP_BATCH, arg_37_0.contextData.skipBatchType or NewShipMediator.SKIP_TYPE.BUILD)
 		end)
 	end, SFX_PANEL)
+	onToggle(arg_37_0, arg_37_0._displayBtn, function(arg_47_0)
+		if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == arg_47_0 then
+			return
+		end
+
+		SettingsOtherPanel.OnCommonSwitchByKey(DISPLAY_SHIP_GET_EFFECT, arg_47_0)
+
+		if arg_47_0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("trun_on_display_ship_get_repeat"))
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("trun_off_display_ship_get_repeat"))
+		end
+	end, SFX_CONFIRM)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_DOCKYARD_CHARGET)
 	pg.SystemGuideMgr.GetInstance():Play(arg_37_0)
 end
 
-function var_0_0.onBackPressed(arg_47_0)
-	if arg_47_0.inAnimating then
+function var_0_0.onBackPressed(arg_48_0)
+	if arg_48_0.inAnimating then
 		return
 	end
 
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
-	if arg_47_0.isInView then
-		arg_47_0:hidePaintView(true)
+	if arg_48_0.isInView then
+		arg_48_0:hidePaintView(true)
 
 		return
 	end
 
-	arg_47_0:DestroyNewShipDocumentView()
-	triggerButton(arg_47_0.clickTF)
+	arg_48_0:DestroyNewShipDocumentView()
+	triggerButton(arg_48_0.clickTF)
 end
 
-function var_0_0.paintView(arg_48_0)
-	local var_48_0 = {}
-	local var_48_1 = arg_48_0._shake.childCount
-	local var_48_2 = 0
+function var_0_0.paintView(arg_49_0)
+	local var_49_0 = {}
+	local var_49_1 = arg_49_0._shake.childCount
+	local var_49_2 = 0
 
-	while var_48_2 < var_48_1 do
-		local var_48_3 = arg_48_0._shake:GetChild(var_48_2)
+	while var_49_2 < var_49_1 do
+		local var_49_3 = arg_49_0._shake:GetChild(var_49_2)
 
-		if var_48_3.gameObject.activeSelf and var_48_3 ~= arg_48_0._paintingTF and var_48_3 ~= arg_48_0._bg and var_48_3 ~= arg_48_0._drag then
-			var_48_0[#var_48_0 + 1] = var_48_3
+		if var_49_3.gameObject.activeSelf and var_49_3 ~= arg_49_0._paintingTF and var_49_3 ~= arg_49_0._bg and var_49_3 ~= arg_49_0._drag then
+			var_49_0[#var_49_0 + 1] = var_49_3
 
-			setActive(var_48_3, false)
+			setActive(var_49_3, false)
 		end
 
-		var_48_2 = var_48_2 + 1
+		var_49_2 = var_49_2 + 1
 	end
 
-	setActive(arg_48_0._paintingShadowTF, false)
+	setActive(arg_49_0._paintingShadowTF, false)
 	openPortrait()
 
-	local var_48_4 = arg_48_0._paintingTF
-	local var_48_5 = var_48_4.anchoredPosition.x
-	local var_48_6 = var_48_4.anchoredPosition.y
-	local var_48_7 = var_48_4.rect.width
-	local var_48_8 = var_48_4.rect.height
-	local var_48_9 = arg_48_0._tf.rect.width / UnityEngine.Screen.width
-	local var_48_10 = arg_48_0._tf.rect.height / UnityEngine.Screen.height
-	local var_48_11 = var_48_7 / 2
-	local var_48_12 = var_48_8 / 2
-	local var_48_13
-	local var_48_14
+	local var_49_4 = arg_49_0._paintingTF
+	local var_49_5 = var_49_4.anchoredPosition.x
+	local var_49_6 = var_49_4.anchoredPosition.y
+	local var_49_7 = var_49_4.rect.width
+	local var_49_8 = var_49_4.rect.height
+	local var_49_9 = arg_49_0._tf.rect.width / UnityEngine.Screen.width
+	local var_49_10 = arg_49_0._tf.rect.height / UnityEngine.Screen.height
+	local var_49_11 = var_49_7 / 2
+	local var_49_12 = var_49_8 / 2
+	local var_49_13
+	local var_49_14
 
-	if not LeanTween.isTweening(go(var_48_4)) then
-		arg_48_0:AddLeanTween(function()
-			return LeanTween.moveX(rtf(var_48_4), 150, 0.5):setEase(LeanTweenType.easeInOutSine)
+	if not LeanTween.isTweening(go(var_49_4)) then
+		arg_49_0:AddLeanTween(function()
+			return LeanTween.moveX(rtf(var_49_4), 150, 0.5):setEase(LeanTweenType.easeInOutSine)
 		end)
 	end
 
-	local var_48_15 = GetOrAddComponent(arg_48_0._drag, "MultiTouchZoom")
+	local var_49_15 = GetOrAddComponent(arg_49_0._drag, "MultiTouchZoom")
 
-	var_48_15:SetZoomTarget(arg_48_0._paintingTF)
+	var_49_15:SetZoomTarget(arg_49_0._paintingTF)
 
-	local var_48_16 = GetOrAddComponent(arg_48_0._drag, "EventTriggerListener")
+	local var_49_16 = GetOrAddComponent(arg_49_0._drag, "EventTriggerListener")
 
-	arg_48_0.dragTrigger = var_48_16
+	arg_49_0.dragTrigger = var_49_16
 
-	local var_48_17 = true
+	local var_49_17 = true
 
-	var_48_15.enabled = true
-	var_48_16.enabled = true
+	var_49_15.enabled = true
+	var_49_16.enabled = true
 
-	local var_48_18 = false
+	local var_49_18 = false
 
-	var_48_16:AddPointDownFunc(function(arg_50_0)
+	var_49_16:AddPointDownFunc(function(arg_51_0)
 		if Input.touchCount == 1 or IsUnityEditor then
-			var_48_18 = true
-			var_48_17 = true
+			var_49_18 = true
+			var_49_17 = true
 		elseif Input.touchCount >= 2 then
-			var_48_17 = false
-			var_48_18 = false
+			var_49_17 = false
+			var_49_18 = false
 		end
 	end)
-	var_48_16:AddPointUpFunc(function(arg_51_0)
+	var_49_16:AddPointUpFunc(function(arg_52_0)
 		if Input.touchCount <= 2 then
-			var_48_17 = true
+			var_49_17 = true
 		end
 	end)
-	var_48_16:AddBeginDragFunc(function(arg_52_0, arg_52_1)
-		var_48_18 = false
-		var_48_13 = arg_52_1.position.x * var_48_9 - var_48_11 - tf(arg_48_0._paintingTF).localPosition.x
-		var_48_14 = arg_52_1.position.y * var_48_10 - var_48_12 - tf(arg_48_0._paintingTF).localPosition.y
+	var_49_16:AddBeginDragFunc(function(arg_53_0, arg_53_1)
+		var_49_18 = false
+		var_49_13 = arg_53_1.position.x * var_49_9 - var_49_11 - tf(arg_49_0._paintingTF).localPosition.x
+		var_49_14 = arg_53_1.position.y * var_49_10 - var_49_12 - tf(arg_49_0._paintingTF).localPosition.y
 	end)
-	var_48_16:AddDragFunc(function(arg_53_0, arg_53_1)
-		if var_48_17 then
-			local var_53_0 = tf(arg_48_0._paintingTF).localPosition
+	var_49_16:AddDragFunc(function(arg_54_0, arg_54_1)
+		if var_49_17 then
+			local var_54_0 = tf(arg_49_0._paintingTF).localPosition
 
-			tf(arg_48_0._paintingTF).localPosition = Vector3(arg_53_1.position.x * var_48_9 - var_48_11 - var_48_13, arg_53_1.position.y * var_48_10 - var_48_12 - var_48_14, -22)
+			tf(arg_49_0._paintingTF).localPosition = Vector3(arg_54_1.position.x * var_49_9 - var_49_11 - var_49_13, arg_54_1.position.y * var_49_10 - var_49_12 - var_49_14, -22)
 		end
 	end)
-	onButton(arg_48_0, arg_48_0._drag, function()
-		arg_48_0:hidePaintView()
+	onButton(arg_49_0, arg_49_0._drag, function()
+		arg_49_0:hidePaintView()
 	end, SFX_CANCEL)
 
-	function var_0_0.hidePaintView(arg_55_0, arg_55_1)
-		if not arg_55_1 and not var_48_18 then
+	function var_0_0.hidePaintView(arg_56_0, arg_56_1)
+		if not arg_56_1 and not var_49_18 then
 			return
 		end
 
-		var_48_16.enabled = false
-		var_48_15.enabled = false
+		var_49_16.enabled = false
+		var_49_15.enabled = false
 
-		for iter_55_0, iter_55_1 in ipairs(var_48_0) do
-			setActive(iter_55_1, true)
+		for iter_56_0, iter_56_1 in ipairs(var_49_0) do
+			setActive(iter_56_1, true)
 		end
 
-		setActive(arg_55_0._paintingShadowTF, true)
+		setActive(arg_56_0._paintingShadowTF, true)
 		closePortrait()
-		LeanTween.cancel(go(arg_55_0._paintingTF))
+		LeanTween.cancel(go(arg_56_0._paintingTF))
 
-		arg_55_0._paintingTF.localScale = Vector3(1, 1, 1)
+		arg_56_0._paintingTF.localScale = Vector3(1, 1, 1)
 
-		setAnchoredPosition(arg_55_0._paintingTF, {
-			x = var_48_5,
-			y = var_48_6
+		setAnchoredPosition(arg_56_0._paintingTF, {
+			x = var_49_5,
+			y = var_49_6
 		})
 
-		arg_55_0.isInView = false
+		arg_56_0.isInView = false
 
-		setActive(arg_55_0.clickTF, true)
+		setActive(arg_56_0.clickTF, true)
 	end
 end
 
-function var_0_0.recyclePainting(arg_56_0)
-	if arg_56_0._shipVO then
-		retPaintingPrefab(arg_56_0._paintingTF, arg_56_0._shipVO:getPainting())
-		retPaintingPrefab(arg_56_0._paintingShadowTF, arg_56_0._shipVO:getPainting())
+function var_0_0.recyclePainting(arg_57_0)
+	if arg_57_0._shipVO then
+		retPaintingPrefab(arg_57_0._paintingTF, arg_57_0._shipVO:getPainting())
+		retPaintingPrefab(arg_57_0._paintingShadowTF, arg_57_0._shipVO:getPainting())
 
-		arg_56_0._shipVO = nil
+		arg_57_0._shipVO = nil
 	end
 end
 
-function var_0_0.starsAnimation(arg_57_0)
-	arg_57_0.inAnimating = true
+function var_0_0.starsAnimation(arg_58_0)
+	arg_58_0.inAnimating = true
 
-	if arg_57_0._shipVO:getMaxStar() >= 6 and PlayerPrefs.GetInt(RARE_SHIP_VIBRATE, 1) > 0 then
+	if arg_58_0._shipVO:getMaxStar() >= 6 and PlayerPrefs.GetInt(RARE_SHIP_VIBRATE, 1) > 0 then
 		LuaHelper.Vibrate()
 	end
 
-	setActive(arg_57_0.starsCont, false)
+	setActive(arg_58_0.starsCont, false)
 
-	local var_57_0 = arg_57_0._tf:GetComponent(typeof(DftAniEvent))
+	local var_58_0 = arg_58_0._tf:GetComponent(typeof(DftAniEvent))
 
-	var_57_0:SetTriggerEvent(function(arg_58_0)
-		arg_57_0:AddLeanTween(function()
-			return LeanTween.scale(rtf(arg_57_0.starsCont), Vector3.one, 0):setOnComplete(System.Action(function()
-				setActive(arg_57_0.starsCont, true)
+	var_58_0:SetTriggerEvent(function(arg_59_0)
+		arg_58_0:AddLeanTween(function()
+			return LeanTween.scale(rtf(arg_58_0.starsCont), Vector3.one, 0):setOnComplete(System.Action(function()
+				setActive(arg_58_0.starsCont, true)
 			end))
 		end)
 
-		local var_58_0 = arg_57_0.STAR_ANIMATION_DUR1
+		local var_59_0 = arg_58_0.STAR_ANIMATION_DUR1
 
-		for iter_58_0 = 0, arg_57_0.starsCont.childCount - 1 do
-			local var_58_1 = arg_57_0.starsCont:GetChild(iter_58_0)
-			local var_58_2 = var_58_1:Find("star_empty")
-			local var_58_3 = var_58_1:Find("star")
+		for iter_59_0 = 0, arg_58_0.starsCont.childCount - 1 do
+			local var_59_1 = arg_58_0.starsCont:GetChild(iter_59_0)
+			local var_59_2 = var_59_1:Find("star_empty")
+			local var_59_3 = var_59_1:Find("star")
 
-			setActive(var_58_2, false)
-			setActive(var_58_3, false)
+			setActive(var_59_2, false)
+			setActive(var_59_3, false)
 
-			local var_58_4 = iter_58_0 * var_58_0
+			local var_59_4 = iter_59_0 * var_59_0
 
-			arg_57_0:AddLeanTween(function()
-				return LeanTween.scale(rtf(var_58_2), Vector3(1.8, 1.8, 1.8), 0):setDelay(var_58_4):setOnComplete(System.Action(function()
-					setActive(var_58_2, true)
-					arg_57_0:AddLeanTween(function()
-						return LeanTween.scale(rtf(var_58_2), Vector3(1, 1, 1), var_58_0)
+			arg_58_0:AddLeanTween(function()
+				return LeanTween.scale(rtf(var_59_2), Vector3(1.8, 1.8, 1.8), 0):setDelay(var_59_4):setOnComplete(System.Action(function()
+					setActive(var_59_2, true)
+					arg_58_0:AddLeanTween(function()
+						return LeanTween.scale(rtf(var_59_2), Vector3(1, 1, 1), var_59_0)
 					end)
 				end))
 			end)
 		end
 
-		local var_58_5 = arg_57_0._shipVO:getStar()
-		local var_58_6 = arg_57_0.STAR_ANIMATION_DUR2
-		local var_58_7 = arg_57_0.STAR_ANIMATION_DUR3
+		local var_59_5 = arg_58_0._shipVO:getStar()
+		local var_59_6 = arg_58_0.STAR_ANIMATION_DUR2
+		local var_59_7 = arg_58_0.STAR_ANIMATION_DUR3
 
-		for iter_58_1 = 0, var_58_5 - 1 do
-			local var_58_8 = arg_57_0.starsCont:GetChild(iter_58_1)
-			local var_58_9 = var_58_8:Find("star_empty")
-			local var_58_10 = var_58_8:Find("star")
-			local var_58_11 = var_58_0 * arg_57_0.starsCont.childCount + iter_58_1 * var_58_6
+		for iter_59_1 = 0, var_59_5 - 1 do
+			local var_59_8 = arg_58_0.starsCont:GetChild(iter_59_1)
+			local var_59_9 = var_59_8:Find("star_empty")
+			local var_59_10 = var_59_8:Find("star")
+			local var_59_11 = var_59_0 * arg_58_0.starsCont.childCount + iter_59_1 * var_59_6
 
-			arg_57_0:AddLeanTween(function()
-				return LeanTween.scale(rtf(var_58_10), Vector3(1.8, 1.8, 1.8), 0):setDelay(var_58_11):setOnStart(System.Action(function()
+			arg_58_0:AddLeanTween(function()
+				return LeanTween.scale(rtf(var_59_10), Vector3(1.8, 1.8, 1.8), 0):setDelay(var_59_11):setOnStart(System.Action(function()
 					pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_DOCKYARD_STAR)
 				end)):setOnComplete(System.Action(function()
-					setActive(var_58_9, false)
-					setActive(var_58_10, true)
-					arg_57_0:AddLeanTween(function()
-						return LeanTween.scale(rtf(var_58_10), Vector3(1, 1, 1), var_58_6)
+					setActive(var_59_9, false)
+					setActive(var_59_10, true)
+					arg_58_0:AddLeanTween(function()
+						return LeanTween.scale(rtf(var_59_10), Vector3(1, 1, 1), var_59_6)
 					end)
 				end))
 			end)
 
-			local var_58_12 = var_58_8:Find("light")
+			local var_59_12 = var_59_8:Find("light")
 
-			if var_58_12 then
-				arg_57_0:AddLeanTween(function()
-					return LeanTween.delayedCall(var_58_11, System.Action(function()
-						if arg_57_0.exited then
+			if var_59_12 then
+				arg_58_0:AddLeanTween(function()
+					return LeanTween.delayedCall(var_59_11, System.Action(function()
+						if arg_58_0.exited then
 							return
 						end
 
-						setActive(var_58_12, true)
+						setActive(var_59_12, true)
 					end))
 				end)
-				arg_57_0:AddLeanTween(function()
-					return LeanTween.alpha(rtf(var_58_12), 0, var_58_7):setDelay(var_58_11):setOnComplete(System.Action(function()
-						SetActive(var_58_12, false)
-						LeanTween.alpha(rtf(var_58_12), 1, 0)
+				arg_58_0:AddLeanTween(function()
+					return LeanTween.alpha(rtf(var_59_12), 0, var_59_7):setDelay(var_59_11):setOnComplete(System.Action(function()
+						SetActive(var_59_12, false)
+						LeanTween.alpha(rtf(var_59_12), 1, 0)
 					end))
 				end)
 
-				var_58_12.transform.localScale = Vector3(1, 1, 1)
+				var_59_12.transform.localScale = Vector3(1, 1, 1)
 
-				arg_57_0:AddLeanTween(function()
-					return LeanTween.scale(rtf(var_58_12), Vector3(0.5, 1, 1), arg_57_0.STAR_ANIMATION_DUR4):setDelay(var_58_11 + var_58_7 * 1 / 3)
+				arg_58_0:AddLeanTween(function()
+					return LeanTween.scale(rtf(var_59_12), Vector3(0.5, 1, 1), arg_58_0.STAR_ANIMATION_DUR4):setDelay(var_59_11 + var_59_7 * 1 / 3)
 				end)
 			end
 		end
 	end)
-	var_57_0:SetEndEvent(function(arg_73_0)
-		if arg_57_0._shipVO:getReMetaSpecialItemVO() then
-			GetComponent(arg_57_0.metaRepeatTF, "CanvasGroup").alpha = 1
+	var_58_0:SetEndEvent(function(arg_74_0)
+		if arg_58_0._shipVO:getReMetaSpecialItemVO() then
+			GetComponent(arg_58_0.metaRepeatTF, "CanvasGroup").alpha = 1
 
-			arg_57_0:managedTween(LeanTween.value, function()
-				setAnchoredPosition(arg_57_0.metaRepeatTF, {
+			arg_58_0:managedTween(LeanTween.value, function()
+				setAnchoredPosition(arg_58_0.metaRepeatTF, {
 					x = 0
 				})
 
-				arg_57_0.inAnimating = false
+				arg_58_0.inAnimating = false
 
-				setActive(arg_57_0.npc, arg_57_0._shipVO:isActivityNpc())
-				setActive(arg_57_0._shade, false)
-			end, go(arg_57_0.metaRepeatTF), arg_57_0.metaRepeatTF.rect.width, 0, 1):setOnUpdate(System.Action_float(function(arg_75_0)
-				setAnchoredPosition(arg_57_0.metaRepeatTF, {
-					x = arg_75_0
+				setActive(arg_58_0.npc, arg_58_0._shipVO:isActivityNpc())
+				setActive(arg_58_0._shade, false)
+			end, go(arg_58_0.metaRepeatTF), arg_58_0.metaRepeatTF.rect.width, 0, 1):setOnUpdate(System.Action_float(function(arg_76_0)
+				setAnchoredPosition(arg_58_0.metaRepeatTF, {
+					x = arg_76_0
 				})
 			end))
-			setAnchoredPosition(arg_57_0.metaRepeatTF, {
-				x = arg_57_0.metaRepeatTF.rect.width
+			setAnchoredPosition(arg_58_0.metaRepeatTF, {
+				x = arg_58_0.metaRepeatTF.rect.width
 			})
-			setActive(arg_57_0.metaRepeatTF, true)
+			setActive(arg_58_0.metaRepeatTF, true)
 		else
-			arg_57_0.inAnimating = false
+			arg_58_0.inAnimating = false
 
-			setActive(arg_57_0.npc, arg_57_0._shipVO:isActivityNpc())
-			setActive(arg_57_0._shade, false)
+			setActive(arg_58_0.npc, arg_58_0._shipVO:isActivityNpc())
+			setActive(arg_58_0._shade, false)
 		end
 	end)
 end
 
-function var_0_0.playOpening(arg_76_0, arg_76_1)
-	if arg_76_0._shipVO:isMetaShip() and not getProxy(ContextProxy):getContextByMediator(BuildShipMediator) then
-		if arg_76_1 then
-			arg_76_1()
+function var_0_0.playOpening(arg_77_0, arg_77_1)
+	if arg_77_0._shipVO:isMetaShip() and not getProxy(ContextProxy):getContextByMediator(BuildShipMediator) then
+		if arg_77_1 then
+			arg_77_1()
 		end
 
 		return
 	end
 
-	local var_76_0
+	local var_77_0
 
-	if arg_76_0._shipVO:isRemoulded() then
-		var_76_0 = ShipGroup.GetGroupConfig(arg_76_0._shipVO:getGroupId()).trans_skin
+	if arg_77_0._shipVO:isRemoulded() then
+		var_77_0 = ShipGroup.GetGroupConfig(arg_77_0._shipVO:getGroupId()).trans_skin
 	else
-		var_76_0 = ShipGroup.getDefaultSkin(arg_76_0._shipVO:getGroupId()).id
+		var_77_0 = ShipGroup.getDefaultSkin(arg_77_0._shipVO:getGroupId()).id
 	end
 
-	local var_76_1 = "star_level_unlock_anim_" .. var_76_0
+	local var_77_1 = "star_level_unlock_anim_" .. var_77_0
 
-	if checkABExist("ui/skinunlockanim/" .. var_76_1) then
+	if checkABExist("ui/skinunlockanim/" .. var_77_1) then
 		pg.CpkPlayMgr.GetInstance():PlayCpkMovie(function()
 			return
 		end, function()
-			if arg_76_1 then
-				arg_76_1()
+			if arg_77_1 then
+				arg_77_1()
 			end
-		end, "ui/skinunlockanim", var_76_1, true, false)
-	elseif arg_76_1 then
-		arg_76_1()
+		end, "ui/skinunlockanim", var_77_1, true, false)
+	elseif arg_77_1 then
+		arg_77_1()
 	end
 end
 
-function var_0_0.ClearTweens(arg_79_0, arg_79_1)
-	arg_79_0:cleanManagedTween(true)
+function var_0_0.ClearTweens(arg_80_0, arg_80_1)
+	arg_80_0:cleanManagedTween(true)
 end
 
-function var_0_0.willExit(arg_80_0)
+function var_0_0.willExit(arg_81_0)
 	pg.CpkPlayMgr.GetInstance():DisposeCpkMovie()
-	arg_80_0:StopAutoExitTimer()
-	arg_80_0:DestroyNewShipDocumentView()
+	arg_81_0:StopAutoExitTimer()
+	arg_81_0:DestroyNewShipDocumentView()
 
-	if arg_80_0.designBg then
-		PoolMgr.GetInstance():ReturnUI(arg_80_0.designName, arg_80_0.designBg)
+	if arg_81_0.designBg then
+		PoolMgr.GetInstance():ReturnUI(arg_81_0.designName, arg_81_0.designBg)
 	end
 
-	if arg_80_0.metaBg then
-		PoolMgr.GetInstance():ReturnUI(arg_80_0.metaName, arg_80_0.metaBg)
+	if arg_81_0.metaBg then
+		PoolMgr.GetInstance():ReturnUI(arg_81_0.metaName, arg_81_0.metaBg)
 	end
 
-	for iter_80_0, iter_80_1 in pairs(arg_80_0.rarityEffect) do
-		if iter_80_1 then
-			PoolMgr.GetInstance():ReturnUI("getrole_" .. iter_80_0, iter_80_1)
+	for iter_81_0, iter_81_1 in pairs(arg_81_0.rarityEffect) do
+		if iter_81_1 then
+			PoolMgr.GetInstance():ReturnUI("getrole_" .. iter_81_0, iter_81_1)
 		end
 	end
 
-	if arg_80_0.dragTrigger then
-		ClearEventTrigger(arg_80_0.dragTrigger)
+	if arg_81_0.dragTrigger then
+		ClearEventTrigger(arg_81_0.dragTrigger)
 
-		arg_80_0.dragTrigger = nil
+		arg_81_0.dragTrigger = nil
 	end
 
-	if not arg_80_0.isRemoulded then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newShipLayer_get", pg.ship_data_by_type[arg_80_0._shipVO:getShipType()].type_name, arg_80_0._shipVO:getName()), COLOR_GREEN)
+	if not arg_81_0.isRemoulded then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newShipLayer_get", pg.ship_data_by_type[arg_81_0._shipVO:getShipType()].type_name, arg_81_0._shipVO:getName()), COLOR_GREEN)
 	end
 
-	arg_80_0:recyclePainting()
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_80_0._tf)
-	arg_80_0:stopVoice()
+	arg_81_0:recyclePainting()
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_81_0._tf)
+	arg_81_0:stopVoice()
 
-	if arg_80_0.loadedCVBankName then
-		pg.CriMgr.UnloadCVBank(arg_80_0.loadedCVBankName)
+	if arg_81_0.loadedCVBankName then
+		pg.CriMgr.UnloadCVBank(arg_81_0.loadedCVBankName)
 
-		arg_80_0.loadedCVBankName = nil
+		arg_81_0.loadedCVBankName = nil
 	end
 
-	if LeanTween.isTweening(go(arg_80_0.rarityTF)) then
-		LeanTween.cancel(go(arg_80_0.rarityTF))
+	if LeanTween.isTweening(go(arg_81_0.rarityTF)) then
+		LeanTween.cancel(go(arg_81_0.rarityTF))
 	end
 
 	cameraPaintViewAdjust(false)
 end
 
-function var_0_0.DisplayNewShipDocumentView(arg_81_0)
-	arg_81_0.newShipDocumentView = NewShipDocumentView.New(arg_81_0._shake:Find("ForNotch"), arg_81_0.event, arg_81_0.contextData)
+function var_0_0.DisplayNewShipDocumentView(arg_82_0)
+	arg_82_0.newShipDocumentView = NewShipDocumentView.New(arg_82_0._shake:Find("ForNotch"), arg_82_0.event, arg_82_0.contextData)
 
-	arg_81_0.newShipDocumentView:Load()
+	arg_82_0.newShipDocumentView:Load()
 
-	local function var_81_0()
-		if not arg_81_0.isLoadBg then
+	local function var_82_0()
+		if not arg_82_0.isLoadBg then
 			return
 		end
 
-		arg_81_0:showExitTip()
+		arg_82_0:showExitTip()
 	end
 
-	arg_81_0.newShipDocumentView:ActionInvoke("SetParams", arg_81_0._shipVO, var_81_0)
-	arg_81_0.newShipDocumentView:ActionInvoke("RefreshUI")
+	arg_82_0.newShipDocumentView:ActionInvoke("SetParams", arg_82_0._shipVO, var_82_0)
+	arg_82_0.newShipDocumentView:ActionInvoke("RefreshUI")
 end
 
-function var_0_0.DestroyNewShipDocumentView(arg_83_0)
-	if arg_83_0.newShipDocumentView and arg_83_0.newShipDocumentView:CheckState(BaseSubView.STATES.INITED) then
-		arg_83_0.newShipDocumentView:Destroy()
+function var_0_0.DestroyNewShipDocumentView(arg_84_0)
+	if arg_84_0.newShipDocumentView and arg_84_0.newShipDocumentView:CheckState(BaseSubView.STATES.INITED) then
+		arg_84_0.newShipDocumentView:Destroy()
 	end
 end
 
-function var_0_0.StopAutoExitTimer(arg_84_0)
-	if not arg_84_0.autoExitTimer then
+function var_0_0.StopAutoExitTimer(arg_85_0)
+	if not arg_85_0.autoExitTimer then
 		return
 	end
 
-	arg_84_0.autoExitTimer:Stop()
+	arg_85_0.autoExitTimer:Stop()
 
-	arg_84_0.autoExitTimer = nil
+	arg_85_0.autoExitTimer = nil
 end
 
 return var_0_0

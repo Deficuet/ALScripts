@@ -121,8 +121,9 @@ function var_0_0.ShowShips(arg_11_0, arg_11_1, arg_11_2)
 	for iter_11_0 = math.max(1, #var_11_1 - var_11_0 + 1), #var_11_1 do
 		local var_11_3 = iter_11_0 == #var_11_1
 		local var_11_4 = var_11_1[iter_11_0]
+		local var_11_5 = pg.gameset.skip_duplicate_characters_rarity.key_value or ShipRarity.Gold
 
-		if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or var_11_4.virgin or var_11_4:getRarity() >= ShipRarity.Purple then
+		if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or var_11_4.virgin or var_11_5 <= var_11_4:getRarity() then
 			table.insert(var_11_2, function(arg_13_0)
 				if getProxy(ChapterAutoProxy):GetSkipBatchBuildFlag() then
 					arg_13_0()

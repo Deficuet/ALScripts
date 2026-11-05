@@ -1522,6 +1522,8 @@ pg.skill_data_template.all = {
 	18350,
 	18380,
 	18400,
+	18410,
+	18430,
 	18440,
 	18460,
 	18500,
@@ -3192,6 +3194,8 @@ pg.skill_data_template.all = {
 	1014200,
 	1013070,
 	1019170,
+	1012310,
+	1012500,
 	1090010,
 	1090020,
 	1090030,
@@ -131550,6 +131554,164 @@ end)()
 			}
 		}
 	}
+	pg.base.skill_data_template[18410] = {
+		desc_get = "",
+		name = "吞噬之漩 +",
+		id = 18410,
+		type = 3,
+		max_level = 10,
+		desc = "战斗中，自身装备的鱼雷武器开火时，使在场的敌方单位进入5秒【漩噬】状态：【漩噬】持续期间视同受到吸引效果影响，移动速度降低$1；自身不处于弹药匮乏状态下时，提高自身机动属性$2",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"30.0%",
+				"60.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30.0%",
+					"+3.3%"
+				},
+				{
+					"33.3%",
+					"+3.3%"
+				},
+				{
+					"36.6%",
+					"+3.3%"
+				},
+				{
+					"39.9%",
+					"+3.3%"
+				},
+				{
+					"43.2%",
+					"+3.3%"
+				},
+				{
+					"46.5%",
+					"+3.3%"
+				},
+				{
+					"49.8%",
+					"+3.3%"
+				},
+				{
+					"53.1%",
+					"+3.3%"
+				},
+				{
+					"56.4%",
+					"+3.6%"
+				},
+				{
+					"60.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[18430] = {
+		desc_get = "",
+		name = "噬啮之颚 +",
+		id = 18430,
+		type = 1,
+		max_level = 10,
+		desc = "主炮射击将对命中的敌人附加破甲效果；主炮每进行4次攻击，触发一轮【特殊弹幕 +】$1（威力依据技能等级），自身装备大型舰炮时，【特殊弹幕 +】触发所需的主炮开火次数降低为2",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[18440] = {
 		desc_get = "",
 		name = "Riddle a riddle +",
@@ -139818,6 +139980,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[19659] = {
 		desc_get = "",
 		name = "布雷斯特展示关卡用",
@@ -140066,8 +140230,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[19670] = {
 		desc_get = "",
 		name = "功能性增幅机制",
@@ -145396,6 +145558,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[21032] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -145424,8 +145588,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[21042] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -146798,6 +146960,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[23041] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -146826,8 +146990,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[23051] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -148200,6 +148362,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[28271] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -148228,8 +148392,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[28281] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -149606,6 +149768,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[29451] = {
 		desc_get = "",
 		name = "专属弹幕-克利夫兰(μ兵装)I",
@@ -149634,8 +149798,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[29461] = {
 		desc_get = "",
 		name = "专属弹幕-谢菲尔德(μ兵装)I",
@@ -151012,6 +151174,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[29971] = {
 		desc_get = "",
 		name = "专属弹幕-古比雪夫I",
@@ -151040,8 +151204,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[29981] = {
 		desc_get = "",
 		name = "专属弹幕-斯库拉I",
@@ -152414,6 +152576,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[30491] = {
 		desc_get = "",
 		name = "专属弹幕-维托里奥·库尼贝尔蒂I",
@@ -152442,8 +152606,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[30501] = {
 		desc_get = "",
 		name = "专属弹幕-迪米特里·顿斯科伊I",
@@ -157225,6 +157387,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[105140] = {
 		desc_get = "",
 		name = "野性的二元论",
@@ -157329,8 +157493,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[106010] = {
 		desc_get = "",
 		name = "玫瑰边刺",
@@ -166274,6 +166436,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[108250] = {
 		desc_get = "",
 		name = "那什么光线！ +",
@@ -166441,8 +166605,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[108270] = {
 		desc_get = "",
 		name = "实例控制·焰 +",
@@ -174745,6 +174907,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[111120] = {
 		desc_get = "",
 		name = "鲷鱼烧，超喜欢",
@@ -174865,8 +175029,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[111240] = {
 		desc_get = "",
 		name = "大家，来我这边",
@@ -183356,6 +183518,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[800090] = {
 		desc_get = "",
 		name = "烬火鹰翼",
@@ -183514,8 +183678,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[800110] = {
 		desc_get = "",
 		name = "情报掌握",
@@ -187881,6 +188043,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[800671] = {
 		desc_get = "",
 		name = "构造之理·亚利桑那I",
@@ -187913,8 +188077,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[800675] = {
 		desc_get = "",
 		name = "构造之理·亚利桑那I",
@@ -192999,6 +193161,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[801197] = {
 		desc_get = "",
 		name = "逐光之焰·吸血鬼II",
@@ -193157,8 +193321,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[801210] = {
 		desc_get = "",
 		name = "暴风降临",
@@ -198597,6 +198759,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[801760] = {
 		desc_get = "",
 		name = "光荣永存",
@@ -198836,8 +199000,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[801781] = {
 		desc_get = "",
 		name = "逐光之焰·光荣I",
@@ -203945,6 +204107,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[802305] = {
 		desc_get = "",
 		name = "逐光之焰·{namecode:446}I",
@@ -203977,8 +204141,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[802310] = {
 		desc_get = "",
 		name = "胜利之炬",
@@ -210300,6 +210462,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[1017200] = {
 		desc_get = "",
 		name = "圣洁轰炸 +",
@@ -210503,8 +210667,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[1017250] = {
 		desc_get = "",
 		name = "深海的恩典 +",
@@ -222966,6 +223128,299 @@ end)()
 			}
 		}
 	}
+	pg.base.skill_data_template[1012310] = {
+		desc_get = "",
+		name = "先进火控系统 +",
+		id = 1012310,
+		type = 1,
+		max_level = 10,
+		desc = "战斗中，自身暴击率提高$1，暴击伤害提高$1，自身对驱逐、轻巡的命中率提高$2；被自身主炮命中的角色有30%概率回避率降低$2，持续6秒；战斗开始后每15秒，触发一轮特殊弹幕$3(特殊弹幕威力依据技能等级)",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"30.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"LV1",
+				"LV10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1012500] = {
+		desc_get = "",
+		name = "咆哮的挑战者 +",
+		id = 1012500,
+		type = 1,
+		max_level = 10,
+		desc = "战斗开始时，自身航空、命中属性提升$2；自身装备{namecode:10002}或{namecode:10006}时，战斗机效率提升$1，空袭时额外使用{namecode:10002}、{namecode:10006}进行一次攻击$3(威力依据技能等级)。",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"30.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[1090010] = {
 		desc_get = "",
 		name = "舰队空母·光荣",
@@ -224014,6 +224469,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.skill_data_template[1090090] = {
 		desc_get = "",
 		name = "变迁的记忆·加富尔伯爵",
@@ -224573,8 +225030,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.skill_data_template[1090130] = {
 		desc_get = "",
 		name = "快速装填·{namecode:33}",

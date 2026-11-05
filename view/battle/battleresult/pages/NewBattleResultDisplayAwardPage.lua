@@ -64,12 +64,13 @@ function var_0_0.ShowShips(arg_6_0, arg_6_1, arg_6_2)
 
 	for iter_6_0 = math.max(1, #var_6_1 - var_6_0 + 1), #var_6_1 do
 		local var_6_4 = var_6_1[iter_6_0]
+		local var_6_5 = pg.gameset.skip_duplicate_characters_rarity.key_value or ShipRarity.Gold
 
-		if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or var_6_4.virgin or var_6_4:getRarity() >= ShipRarity.Purple then
-			local var_6_5 = arg_6_0.contextData.system == SYSTEM_SCENARIO and arg_6_0.contextData.autoSkipFlag
+		if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or var_6_4.virgin or var_6_5 <= var_6_4:getRarity() then
+			local var_6_6 = arg_6_0.contextData.system == SYSTEM_SCENARIO and arg_6_0.contextData.autoSkipFlag
 
 			table.insert(var_6_3, function(arg_10_0)
-				local var_10_0 = var_6_5 and not var_6_4.virgin and 3 or nil
+				local var_10_0 = var_6_6 and not var_6_4.virgin and 3 or nil
 
 				arg_6_0:emit(NewBattleResultMediator.GET_NEW_SHIP, var_6_4, arg_10_0, var_10_0)
 			end)

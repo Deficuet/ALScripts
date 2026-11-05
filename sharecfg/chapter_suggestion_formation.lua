@@ -48,14 +48,14 @@ pg.base.chapter_suggestion_formation = {}
 		id = 1,
 		page_title = "编队指引-13章",
 		teamid = {
-			1301,
 			1302,
+			1301,
 			1303
 		},
 		teamid1 = {
-			1304,
+			1306,
 			1305,
-			1306
+			1304
 		}
 	}
 	pg.base.chapter_suggestion_formation[2] = {
@@ -66,14 +66,14 @@ pg.base.chapter_suggestion_formation = {}
 		id = 2,
 		page_title = "编队指引-13章",
 		teamid = {
-			1311,
 			1312,
+			1311,
 			1313
 		},
 		teamid1 = {
-			1314,
+			1316,
 			1315,
-			1316
+			1314
 		}
 	}
 	pg.base.chapter_suggestion_formation[3] = {
@@ -85,8 +85,8 @@ pg.base.chapter_suggestion_formation = {}
 		page_title = "编队指引-13章",
 		teamid1 = "",
 		teamid = {
-			1331,
 			1332,
+			1331,
 			1333
 		}
 	}
@@ -98,14 +98,14 @@ pg.base.chapter_suggestion_formation = {}
 		id = 4,
 		page_title = "编队指引-14章",
 		teamid = {
-			1401,
 			1402,
+			1401,
 			1403
 		},
 		teamid1 = {
-			1404,
+			1406,
 			1405,
-			1406
+			1404
 		}
 	}
 	pg.base.chapter_suggestion_formation[5] = {
@@ -116,14 +116,14 @@ pg.base.chapter_suggestion_formation = {}
 		id = 5,
 		page_title = "编队指引-14章",
 		teamid = {
-			1411,
 			1412,
+			1411,
 			1413
 		},
 		teamid1 = {
-			1414,
+			1416,
 			1415,
-			1416
+			1414
 		}
 	}
 	pg.base.chapter_suggestion_formation[6] = {
@@ -135,8 +135,8 @@ pg.base.chapter_suggestion_formation = {}
 		page_title = "编队指引-14章",
 		teamid1 = "",
 		teamid = {
-			1431,
 			1432,
+			1431,
 			1433
 		}
 	}

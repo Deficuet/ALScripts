@@ -1,6 +1,12 @@
 local var_0_0 = class("MainChangeSkinBtn", import(".MainBaseBtn"))
 
 function var_0_0.OnClick(arg_1_0)
+	if arg_1_0._clickTime and Time.realtimeSinceStartup - arg_1_0._clickTime < 1 then
+		return
+	end
+
+	arg_1_0._clickTime = Time.realtimeSinceStartup
+
 	arg_1_0:emit(NewMainScene.ON_CHANGE_SKIN)
 end
 

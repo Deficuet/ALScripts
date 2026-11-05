@@ -207415,6 +207415,62 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[170008] = {
+		display = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		name = "星彩券 ",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 101,
+		id = 170008,
+		link_id = 990031,
+		icon = "Props/170000",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[170009] = {
+		display = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		name = "星彩券 ",
+		drop_arg = "",
+		type = 0,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 101,
+		id = 170009,
+		link_id = 990031,
+		icon = "Props/170000",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[200001] = {
 		display = "有几率获得以下设计图",
 		name = "未知设计图",

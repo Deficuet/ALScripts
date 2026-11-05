@@ -476,6 +476,7 @@ function var_0_0.OnDisable(arg_44_0)
 end
 
 function var_0_0.OnDispose(arg_45_0)
+	arg_45_0:OnDisable()
 	var_0_0.super.OnDispose(arg_45_0)
 	ClearLScrollrect(arg_45_0.scrollrect)
 	arg_45_0.chatView:Dispose()

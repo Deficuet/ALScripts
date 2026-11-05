@@ -70,54 +70,59 @@ function var_0_0.OnFirstFlush(arg_4_0)
 	end
 
 	onButton(arg_4_0, arg_4_0.rtSkinCoupon:Find("icon/get"), function()
-		arg_4_0:emit(ActivityMediator.EVENT_OPERATION, {
-			cmd = 1,
-			activity_id = arg_4_0.activity.id
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("shop_new_coupon_tip3"),
+			onYes = function()
+				arg_4_0:emit(ActivityMediator.EVENT_OPERATION, {
+					cmd = 1,
+					activity_id = arg_4_0.activity.id
+				})
+			end
 		})
 	end, SFX_CONFIRM)
 end
 
-function var_0_0.OnUpdateFlush(arg_11_0)
-	local var_11_0 = false
+function var_0_0.OnUpdateFlush(arg_12_0)
+	local var_12_0 = false
 
-	for iter_11_0, iter_11_1 in ipairs(arg_11_0.taskGroup) do
-		local var_11_1 = iter_11_1[1]
-		local var_11_2 = arg_11_0.taskProxy:getTaskVO(var_11_1) or Task.New({
-			id = var_11_1
+	for iter_12_0, iter_12_1 in ipairs(arg_12_0.taskGroup) do
+		local var_12_1 = iter_12_1[1]
+		local var_12_2 = arg_12_0.taskProxy:getTaskVO(var_12_1) or Task.New({
+			id = var_12_1
 		})
-		local var_11_3 = arg_11_0.rtLogin:GetChild(iter_11_0 - 1)
-		local var_11_4 = var_11_2:isReceive()
+		local var_12_3 = arg_12_0.rtLogin:GetChild(iter_12_0 - 1)
+		local var_12_4 = var_12_2:isReceive()
 
-		setActive(var_11_3:Find("got"), var_11_4 or iter_11_0 < arg_11_0.nday)
-		setActive(var_11_3:Find("get"), not var_11_0 and not var_11_4 and iter_11_0 == arg_11_0.nday)
+		setActive(var_12_3:Find("got"), var_12_4 or iter_12_0 < arg_12_0.nday)
+		setActive(var_12_3:Find("get"), not var_12_0 and not var_12_4 and iter_12_0 == arg_12_0.nday)
 
-		var_11_0 = var_11_0 or isActive(var_11_3:Find("get"))
+		var_12_0 = var_12_0 or isActive(var_12_3:Find("get"))
 	end
 
-	local var_11_5 = Drop.New({
+	local var_12_5 = Drop.New({
 		type = 8,
-		id = arg_11_0.couponItemId,
-		count = arg_11_0.couponGet
+		id = arg_12_0.couponItemId,
+		count = arg_12_0.couponGet
 	})
 
-	onButton(arg_11_0, arg_11_0.rtSkinCoupon:Find("icon"), function()
-		arg_11_0:emit(BaseUI.ON_DROP, var_11_5)
+	onButton(arg_12_0, arg_12_0.rtSkinCoupon:Find("icon"), function()
+		arg_12_0:emit(BaseUI.ON_DROP, var_12_5)
 	end, SFX_CONFIRM)
-	updateDrop(arg_11_0.rtSkinCoupon:Find("icon/IconTpl"), var_11_5)
-	setActive(arg_11_0.rtSkinCoupon:Find("icon/get"), arg_11_0.couponGet > 0)
-	setText(arg_11_0.rtSkinCoupon:Find("count"), i18n("SkinDiscount_Got", arg_11_0:GetCouponCountText()))
-	setActive(arg_11_0.rtSkinCoupon:Find("icon/get"), arg_11_0.couponGet > 0)
+	updateDrop(arg_12_0.rtSkinCoupon:Find("icon/IconTpl"), var_12_5)
+	setActive(arg_12_0.rtSkinCoupon:Find("icon/get"), arg_12_0.couponGet > 0)
+	setText(arg_12_0.rtSkinCoupon:Find("count"), i18n("SkinDiscount_Got", arg_12_0:GetCouponCountText()))
+	setActive(arg_12_0.rtSkinCoupon:Find("icon/get"), arg_12_0.couponGet > 0)
 end
 
-function var_0_0.GetTips(arg_13_0)
+function var_0_0.GetTips(arg_14_0)
 	return pg.gametip.SkinDiscountHelp_School.tip
 end
 
-function var_0_0.GetCouponCountText(arg_14_0)
-	return arg_14_0.couponCount
+function var_0_0.GetCouponCountText(arg_15_0)
+	return arg_15_0.couponCount
 end
 
-function var_0_0.GetGiftShopType(arg_15_0)
+function var_0_0.GetGiftShopType(arg_16_0)
 	return ChargeScene.TYPE_GIFT
 end
 

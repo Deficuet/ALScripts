@@ -22,7 +22,7 @@ function var_0_0.didEnter(arg_3_0)
 	return
 end
 
-function var_0_0.SetData(arg_4_0, arg_4_1, arg_4_2)
+function var_0_0.SetData(arg_4_0, arg_4_1, arg_4_2, arg_4_3)
 	arg_4_0.id = arg_4_1
 
 	if arg_4_0.shipVO then
@@ -76,6 +76,10 @@ function var_0_0.SetData(arg_4_0, arg_4_1, arg_4_2)
 	arg_4_0.shipVO = var_4_1
 
 	setActive(arg_4_0.uiFlagGo, arg_4_2)
+
+	if arg_4_2 then
+		setImageSprite(arg_4_0.uiFlagGo, GetSpriteFromAtlas("ui/formationsuggestionui_atlas", arg_4_3 and "main_ship_leading" or "main_ship_main"))
+	end
 
 	local var_4_8 = pg.ship_data_template[var_4_0.char_id].group_type
 	local var_4_9 = getProxy(BayProxy):findShipsByGroup(var_4_8)

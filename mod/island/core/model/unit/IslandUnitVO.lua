@@ -66,7 +66,6 @@ function var_0_0.GetAssetPath(arg_11_0)
 	local var_11_0
 
 	if arg_11_0:IsNpcType() then
-		warning(arg_11_0.type)
 		assert(pg.island_unit_character[arg_11_0.modelId], arg_11_0.modelId)
 
 		var_11_0 = pg.island_unit_character[arg_11_0.modelId].model

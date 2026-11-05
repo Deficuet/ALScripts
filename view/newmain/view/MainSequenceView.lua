@@ -12,6 +12,7 @@ function var_0_0.Ctor(arg_1_0)
 		MainRequestActDataSequence.New(),
 		MainUrShipReFetchSequence.New(),
 		MainReFluxSequence.New(),
+		MainMaliVulkanWarningSequence.New(),
 		MainUrgencySceneSequence.New(),
 		MainEquipmentChangeSequence.New(),
 		MainServerNoticeSequence.New(),

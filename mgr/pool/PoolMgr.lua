@@ -701,11 +701,23 @@ end
 function var_0_0.FromObjPack(arg_58_0, arg_58_1, arg_58_2, arg_58_3, arg_58_4, arg_58_5)
 	local var_58_0 = arg_58_1
 	local var_58_1 = {}
+	local var_58_2 = arg_58_1
+	local var_58_3 = arg_58_2
+
+	if HXSet.isHx() then
+		if arg_58_2 == "" then
+			if checkABExist(var_58_2 .. "_hx") then
+				var_58_2 = var_58_2 .. "_hx"
+			end
+		else
+			local var_58_4 = var_58_3 .. "_hx"
+		end
+	end
 
 	if not arg_58_0.pools_pack[var_58_0] then
 		table.insert(var_58_1, function(arg_59_0)
-			AssetBundleHelper.LoadAssetBundle(arg_58_1, arg_58_4, true, function(arg_60_0)
-				arg_58_0:AddPoolsPack(arg_58_1, arg_60_0)
+			AssetBundleHelper.LoadAssetBundle(var_58_2, arg_58_4, true, function(arg_60_0)
+				arg_58_0:AddPoolsPack(var_58_0, arg_60_0)
 				arg_59_0()
 			end)
 		end)

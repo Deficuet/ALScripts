@@ -33,6 +33,10 @@ function var_0_0.getResource(arg_2_0)
 		if var_3_1 then
 			if noEmptyStr(var_3_1.bg) then
 				table.insert(var_3_0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.BG.Base, var_3_1.bg))
+
+				if HXSet.isHx() then
+					table.insert(var_3_0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.BG.Base, var_3_1.bg) .. "_hx")
+				end
 			end
 
 			if noEmptyStr(var_3_1.bg_tips) then

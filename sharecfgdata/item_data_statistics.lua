@@ -147134,7 +147134,7 @@ end)()
 	_G.pg.base.item_data_statistics[81446] = {
 		open_directly = 1,
 		name = "船团建设礼包I",
-		display = "购买礼包可获得60钻，高级定向蓝图·八期*2",
+		display = "购买礼包可获得钻石*60，高级定向蓝图·八期*2",
 		type = 17,
 		display_effect = "",
 		id = 81446,
@@ -147177,7 +147177,7 @@ end)()
 	_G.pg.base.item_data_statistics[81447] = {
 		open_directly = 1,
 		name = "船团建设礼包II",
-		display = "购买礼包可获得200钻",
+		display = "购买礼包可获得钻石*200",
 		type = 17,
 		display_effect = "",
 		id = 81447,
@@ -147258,7 +147258,7 @@ end)()
 	_G.pg.base.item_data_statistics[81449] = {
 		open_directly = 1,
 		name = "船团建设礼包IV",
-		display = "购买礼包可获得60钻，试作型布里MKII*1",
+		display = "购买礼包可获得钻石*60，试作型布里MKII*1",
 		type = 17,
 		display_effect = "",
 		id = 81449,
@@ -147382,7 +147382,7 @@ end)()
 	_G.pg.base.item_data_statistics[81452] = {
 		open_directly = 1,
 		name = "船团建设礼包VII",
-		display = "购买礼包可获得60钻，高级定向蓝图·九期*2",
+		display = "购买礼包可获得钻石*60，高级定向蓝图·九期*2",
 		type = 17,
 		display_effect = "",
 		id = 81452,

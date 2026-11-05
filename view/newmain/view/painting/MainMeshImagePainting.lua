@@ -45,7 +45,7 @@ function var_0_0.OnLoad(arg_4_0, arg_4_1)
 	local var_4_0 = arg_4_0:GetPaintingName()
 
 	arg_4_0:ClearScalePart()
-	LoadPaintingPrefabAsync(arg_4_0.container, arg_4_0.paintingName, var_4_0, "mainNormal", function()
+	LoadPaintingPrefabAsync(arg_4_0.container, arg_4_0.paintingName, var_4_0, "mainNormal", function(arg_5_0)
 		if arg_4_0:IsExited() then
 			arg_4_0:Unload()
 
@@ -53,16 +53,16 @@ function var_0_0.OnLoad(arg_4_0, arg_4_1)
 		end
 
 		arg_4_0.loadPaintingName = var_4_0
+		arg_4_0._paintingGO = arg_5_0
 
 		local var_5_0 = arg_4_0:InitSpecialTouch()
 
 		arg_4_0:InitSpecialDrag(var_5_0)
 
 		if arg_4_0.expression then
-			ShipExpressionHelper.UpdateExpression(findTF(arg_4_0.container, "fitter"):GetChild(0), arg_4_0.paintingName, arg_4_0.expression)
+			ShipExpressionHelper.UpdateExpression(arg_4_0._paintingGO, arg_4_0.paintingName, arg_4_0.expression)
 		end
 
-		arg_4_0:Breath()
 		arg_4_0:InitScalePart()
 		arg_4_1()
 	end)
@@ -70,7 +70,7 @@ end
 
 function var_0_0.GetCenterPos(arg_6_0)
 	if arg_6_0:IsLoaded() then
-		local var_6_0 = arg_6_0.container:Find("fitter"):GetChild(0)
+		local var_6_0 = arg_6_0._paintingGO
 		local var_6_1 = (0.5 - var_6_0.pivot.x) * var_6_0.sizeDelta.x
 		local var_6_2 = var_6_0.localPosition + Vector3(var_6_1, 0, 0)
 
@@ -97,7 +97,7 @@ function var_0_0.PlayChangeSkinActionOut(arg_8_0, arg_8_1)
 end
 
 function var_0_0.InitSpecialTouch(arg_9_0)
-	local var_9_0 = findTF(findTF(arg_9_0.container, "fitter"):GetChild(0), "Touch")
+	local var_9_0 = findTF(arg_9_0._paintingGO, "Touch")
 
 	if not var_9_0 then
 		return
@@ -122,7 +122,7 @@ function var_0_0.InitSpecialTouch(arg_9_0)
 end
 
 function var_0_0.InitSpecialDrag(arg_12_0, arg_12_1)
-	local var_12_0 = findTF(findTF(arg_12_0.container, "fitter"):GetChild(0), "Drag")
+	local var_12_0 = findTF(arg_12_0._paintingGO, "Drag")
 
 	if not var_12_0 then
 		return
@@ -264,7 +264,7 @@ function var_0_0.ClearSpecialDrag(arg_26_0)
 		return
 	end
 
-	local var_26_0 = findTF(findTF(arg_26_0.container, "fitter"):GetChild(0), "Drag")
+	local var_26_0 = findTF(arg_26_0._paintingGO, "Drag")
 
 	if not var_26_0 then
 		return
@@ -297,7 +297,7 @@ end
 
 function var_0_0.OnDisplayWorld(arg_29_0, arg_29_1)
 	local var_29_0 = arg_29_0.ship:getCVIntimacy()
-	local var_29_1, var_29_2 = ShipExpressionHelper.SetExpression(findTF(arg_29_0.container, "fitter"):GetChild(0), arg_29_0.paintingName, arg_29_1, var_29_0, arg_29_0.ship:getSkinId())
+	local var_29_1, var_29_2 = ShipExpressionHelper.SetExpression(arg_29_0._paintingGO, arg_29_0.paintingName, arg_29_1, var_29_0, arg_29_0.ship:getSkinId())
 
 	arg_29_0.expression = var_29_2
 end
@@ -310,68 +310,73 @@ function var_0_0.OnTriggerEventAuto(arg_31_0)
 	arg_31_0:Shake(var_0_0.CHAT_HEIGHT, var_0_0.CHAT_DURATION)
 end
 
-function var_0_0.GetMeshPainting(arg_32_0)
-	local var_32_0 = findTF(arg_32_0.container, "fitter")
+function var_0_0.Shake(arg_32_0, arg_32_1, arg_32_2, arg_32_3)
+	local var_32_0
+	local var_32_1 = arg_32_1
 
-	if var_32_0.childCount <= 0 then
-		return nil
+	if var_32_0 then
+		var_32_1 = arg_32_1 - var_0_0.DEFAULT_HEIGHT + var_32_0
 	end
 
-	return (var_32_0:GetChild(0))
-end
+	arg_32_3 = arg_32_3 or math.random(3) - 1
 
-function var_0_0.Shake(arg_33_0, arg_33_1, arg_33_2, arg_33_3)
-	local var_33_0
-	local var_33_1 = arg_33_1
-
-	if var_33_0 then
-		var_33_1 = arg_33_1 - var_0_0.DEFAULT_HEIGHT + var_33_0
-	end
-
-	arg_33_3 = arg_33_3 or math.random(3) - 1
-
-	if arg_33_3 == 0 then
+	if arg_32_3 == 0 then
 		return
 	end
 
-	local var_33_2 = arg_33_0:GetMeshPainting()
+	local var_32_2 = arg_32_0._paintingGO
 
-	if not var_33_2 then
+	if not var_32_2 then
 		return
 	end
 
-	LeanTween.cancel(go(var_33_2))
-	LeanTween.moveY(rtf(var_33_2), var_33_1, 0.1):setLoopPingPong(arg_33_3):setOnComplete(System.Action(function()
-		arg_33_0:Breath()
+	LeanTween.cancel(go(var_32_2))
+	LeanTween.moveY(rtf(var_32_2), var_32_1, 0.1):setLoopPingPong(arg_32_3):setOnComplete(System.Action(function()
+		arg_32_0:Breath()
 	end))
 end
 
-function var_0_0.Breath(arg_35_0)
-	local var_35_0 = arg_35_0:GetMeshPainting()
+function var_0_0.Breath(arg_34_0)
+	local var_34_0 = arg_34_0._paintingGO
+
+	if not var_34_0 then
+		return
+	end
+
+	print("start breath")
+
+	local var_34_1
+	local var_34_2 = var_34_1 or var_0_0.BREATH_HEIGHT
+	local var_34_3 = var_34_1 and var_34_1 - 10 or var_0_0.DEFAULT_HEIGHT
+
+	LeanTween.cancel(go(var_34_0))
+	LeanTween.moveY(rtf(var_34_0), var_34_3, var_0_0.BREATH_DURATION):setLoopPingPong():setEase(LeanTweenType.easeInOutCubic):setFrom(var_34_2)
+end
+
+function var_0_0.StopBreath(arg_35_0)
+	local var_35_0 = arg_35_0._paintingGO
 
 	if not var_35_0 then
 		return
 	end
 
-	local var_35_1
-	local var_35_2 = var_35_1 or var_0_0.BREATH_HEIGHT
-	local var_35_3 = var_35_1 and var_35_1 - 10 or var_0_0.DEFAULT_HEIGHT
-
+	print("stop breath")
 	LeanTween.cancel(go(var_35_0))
-	LeanTween.moveY(rtf(var_35_0), var_35_3, var_0_0.BREATH_DURATION):setLoopPingPong():setEase(LeanTweenType.easeInOutCubic):setFrom(var_35_2)
 end
 
-function var_0_0.StopBreath(arg_36_0)
-	local var_36_0 = arg_36_0:GetMeshPainting()
+function var_0_0.OnEnableOrDisableDragAndZoom(arg_36_0, arg_36_1)
+	if arg_36_1 then
+		arg_36_0:StopBreath()
+	else
+		arg_36_0:Breath()
+	end
+end
 
-	if not var_36_0 then
+function var_0_0.OnPaintingFade(arg_37_0, arg_37_1)
+	if not arg_37_0:IsLoaded() then
 		return
 	end
 
-	LeanTween.cancel(go(var_36_0))
-end
-
-function var_0_0.OnEnableOrDisableDragAndZoom(arg_37_0, arg_37_1)
 	if arg_37_1 then
 		arg_37_0:StopBreath()
 	else
@@ -380,7 +385,7 @@ function var_0_0.OnEnableOrDisableDragAndZoom(arg_37_0, arg_37_1)
 end
 
 function var_0_0.GetPaintingTransform(arg_38_0)
-	return arg_38_0:GetMeshPainting()
+	return tf(arg_38_0._paintingGO)
 end
 
 function var_0_0.GetPartScaleData(arg_39_0)
@@ -402,8 +407,9 @@ function var_0_0.GetOffset(arg_42_0)
 end
 
 function var_0_0.OnResume(arg_43_0)
-	checkCullResume(arg_43_0.container:Find("fitter"):GetChild(0))
+	checkCullResume(arg_43_0._paintingGO)
 	arg_43_0:Breath()
+	arg_43_0:emit(NewMainScene.PAINTING_LOAD_COMPLETE)
 end
 
 function var_0_0.Unload(arg_44_0)
@@ -413,11 +419,16 @@ function var_0_0.Unload(arg_44_0)
 end
 
 function var_0_0.OnUnload(arg_45_0)
-	arg_45_0:StopBreath()
 	arg_45_0:ClearSpecialDrag()
 
-	if arg_45_0.loadPaintingName then
-		retPaintingPrefab(arg_45_0.container, arg_45_0.loadPaintingName)
+	if arg_45_0.loadPaintingName and arg_45_0._paintingGO then
+		local var_45_0 = arg_45_0._paintingGO.transform.parent.parent
+
+		if var_45_0 then
+			retPaintingPrefab(var_45_0, arg_45_0.loadPaintingName)
+		else
+			Destroy(arg_45_0._paintingGO)
+		end
 
 		arg_45_0.loadPaintingName = nil
 	end

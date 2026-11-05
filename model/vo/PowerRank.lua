@@ -156,10 +156,7 @@ function var_0_0.getTitleWord(arg_6_0, arg_6_1, arg_6_2)
 	end
 
 	if arg_6_1 == var_0_0.TYPE_PT then
-		local var_6_1 = getProxy(ActivityProxy):getActivityById(arg_6_2):getConfig("config_id")
-		local var_6_2 = id2ItemId(var_6_1)
-
-		var_6_0[4] = Item.getConfigData(var_6_2).name
+		var_6_0[4] = getProxy(ActivityProxy):getActivityById(arg_6_2):GetPTDrop():getName()
 	end
 
 	return var_6_0

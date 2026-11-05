@@ -616,6 +616,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	arg_1_0.facade:registerCommand(GAME.ISLAND_EXCHANGE_ITEM, IslandExchangeItemCommand)
 	arg_1_0.facade:registerCommand(GAME.ISLAND_SYNC_DATA, IslandSyncCommand)
 	arg_1_0.facade:registerCommand(GAME.ISLAND_SYNC_CONTROL, IslandSyncControlCommand)
+	arg_1_0.facade:registerCommand(GAME.ISLAND_HEART_BEAT, IslandHeartBeatCommand)
 	arg_1_0.facade:registerCommand(GAME.ISLAND_RECONNECT, IslandReconnectCommand)
 	arg_1_0.facade:registerCommand(GAME.ISLAND_ENTER, EnterIslandCommand)
 	arg_1_0.facade:registerCommand(GAME.ISLAND_CHANGE_ENTER, ChangeToIslandCommand)
@@ -736,6 +737,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	arg_1_0.facade:registerCommand(GAME.REVERSE_PACMAN_PASS_LEVEL, ReversePacmanPassLevelCommand)
 	arg_1_0.facade:registerCommand(GAME.ACT_REMASTER_ACTIVE, ActiveActReamsterCommand)
 	arg_1_0.facade:registerCommand(GAME.JUMP_TO_SCENE, JumpToSceneCommand)
+	arg_1_0.facade:registerCommand(GAME.RECORD_ACTIVITY_PERMANENT_PROGRESS, RecordActivityPermanentProgressCommand)
 end
 
 return var_0_0

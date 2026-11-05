@@ -151,7 +151,14 @@ function var_0_0.GetEntranceActivityResList()
 		local var_7_2 = var_7_1:getConfig("config_client").entrance_bg
 
 		if noEmptyStr(var_7_2) then
+			local var_7_3 = "activitybanner"
+
+			if string.sub(var_7_2, 1, #var_7_3) == var_7_3 then
+				var_7_2 = "MainUIBanner" .. string.sub(var_7_2, #var_7_3 + 1)
+			end
+
 			table.insert(var_7_0, var_7_2)
+			table.insert(var_7_0, var_7_2 .. "_hx")
 		end
 	end
 

@@ -348,6 +348,9 @@ function var_0_0.OnDestroy(arg_40_0)
 end
 
 function var_0_0.OnHide(arg_41_0)
+	arg_41_0:ClosePage(IslandDockPage)
+	arg_41_0:OnCloseDock()
+
 	if arg_41_0.shipDressHelper then
 		arg_41_0.shipDressHelper:Destroy()
 	end

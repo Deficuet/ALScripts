@@ -328,6 +328,8 @@ end
 
 function var_0_0.OnSetUpCore(arg_46_0, arg_46_1, arg_46_2)
 	arg_46_0.approachSpawnPointId = arg_46_2
+
+	arg_46_0.btnContainer:ActiveOrDisactive(true)
 end
 
 function var_0_0.OnAgoraEnterEditMode(arg_47_0)

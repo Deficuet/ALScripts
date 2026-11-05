@@ -104664,6 +104664,434 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.aircraft_template[184921] = {
+		attack_power = 2,
+		name = "巴丹专武技能F6FLV1",
+		type = 1,
+		accuracy = 23,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 0.315,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 184921,
+		icon = "f6f",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 11,
+		hp_growth = 1947,
+		speed = 50,
+		max_hp = 51,
+		scale = 1,
+		weapon_ID = {
+			50341,
+			50541,
+			184931
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184922] = {
+		id = 184922,
+		name = "巴丹专武技能F6FLV2",
+		hp_growth = 2201,
+		base = 184921,
+		max_hp = 57,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50342,
+			50542,
+			184932
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184923] = {
+		id = 184923,
+		name = "巴丹专武技能F6FLV3",
+		hp_growth = 2455,
+		base = 184921,
+		max_hp = 64,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50343,
+			50543,
+			184933
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184924] = {
+		id = 184924,
+		name = "巴丹专武技能F6FLV4",
+		hp_growth = 2710,
+		base = 184921,
+		max_hp = 70,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50344,
+			50544,
+			184934
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184925] = {
+		id = 184925,
+		name = "巴丹专武技能F6FLV5",
+		hp_growth = 2964,
+		base = 184921,
+		max_hp = 77,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50345,
+			50545,
+			184935
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184926] = {
+		id = 184926,
+		name = "巴丹专武技能F6FLV6",
+		hp_growth = 3218,
+		base = 184921,
+		max_hp = 84,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50346,
+			50546,
+			184936
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184927] = {
+		id = 184927,
+		name = "巴丹专武技能F6FLV7",
+		hp_growth = 3472,
+		base = 184921,
+		max_hp = 90,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50347,
+			50547,
+			184937
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184928] = {
+		id = 184928,
+		name = "巴丹专武技能F6FLV8",
+		hp_growth = 3726,
+		base = 184921,
+		max_hp = 97,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50348,
+			50548,
+			184938
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184929] = {
+		id = 184929,
+		name = "巴丹专武技能F6FLV9",
+		hp_growth = 3980,
+		base = 184921,
+		max_hp = 103,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50349,
+			50549,
+			184939
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184930] = {
+		id = 184930,
+		name = "巴丹专武技能F6FLV10",
+		hp_growth = 4234,
+		base = 184921,
+		max_hp = 110,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50350,
+			50550,
+			184940
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184941] = {
+		attack_power = 2,
+		name = "巴丹专武F6F地狱猫（HVAR搭载型）Lv1",
+		type = 1,
+		accuracy = 23,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 0.315,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 184941,
+		icon = "f6f",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 11,
+		hp_growth = 1947,
+		speed = 50,
+		max_hp = 51,
+		scale = 1,
+		weapon_ID = {
+			184951
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184942] = {
+		id = 184942,
+		name = "巴丹专武F6F地狱猫（HVAR搭载型）Lv2",
+		hp_growth = 2201,
+		base = 184941,
+		max_hp = 57,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184952
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184943] = {
+		id = 184943,
+		name = "巴丹专武F6F地狱猫（HVAR搭载型）Lv3",
+		hp_growth = 2455,
+		base = 184941,
+		max_hp = 64,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184953
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184944] = {
+		id = 184944,
+		name = "巴丹专武F6F地狱猫（HVAR搭载型）Lv4",
+		hp_growth = 2710,
+		base = 184941,
+		max_hp = 70,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184954
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184945] = {
+		id = 184945,
+		name = "巴丹专武F6F地狱猫（HVAR搭载型）Lv5",
+		hp_growth = 2964,
+		base = 184941,
+		max_hp = 77,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184955
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184946] = {
+		id = 184946,
+		name = "巴丹专武F6F地狱猫（HVAR搭载型）Lv6",
+		hp_growth = 3218,
+		base = 184941,
+		max_hp = 84,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184956
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184947] = {
+		id = 184947,
+		name = "巴丹专武F6F地狱猫（HVAR搭载型）Lv7",
+		hp_growth = 3472,
+		base = 184941,
+		max_hp = 90,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184957
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184948] = {
+		id = 184948,
+		name = "巴丹专武F6F地狱猫（HVAR搭载型）Lv8",
+		hp_growth = 3726,
+		base = 184941,
+		max_hp = 97,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184958
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184949] = {
+		id = 184949,
+		name = "巴丹专武F6F地狱猫（HVAR搭载型）Lv9",
+		hp_growth = 3980,
+		base = 184941,
+		max_hp = 103,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184959
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[184950] = {
+		id = 184950,
+		name = "巴丹专武F6F地狱猫（HVAR搭载型）Lv10",
+		hp_growth = 4234,
+		base = 184941,
+		max_hp = 110,
+		spawn_brownian = 1,
+		weapon_ID = {
+			184960
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.aircraft_template[200101] = {
 		attack_power = 2,
 		name = "【大舰队米德维BOSS】执棋者 轰炸机",

@@ -14,6 +14,11 @@ function var_0_0.getResource(arg_3_0)
 	table.insert(var_3_0, var_3_1:GetBg(LivingAreaCover.TYPE_DAY))
 	table.insert(var_3_0, var_3_1:GetBg(LivingAreaCover.TYPE_NIGHT))
 
+	if HXSet.isHx() then
+		table.insert(var_3_0, var_3_1:GetBg(LivingAreaCover.TYPE_DAY) .. "_hx")
+		table.insert(var_3_0, var_3_1:GetBg(LivingAreaCover.TYPE_NIGHT) .. "_hx")
+	end
+
 	return table.insertto(var_3_0, var_0_0.super.getResource(arg_3_0))
 end
 

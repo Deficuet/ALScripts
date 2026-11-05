@@ -1925,46 +1925,83 @@ local var_0_1 = {
 
 function SCENE.CheckPreloadData(arg_296_0, arg_296_1)
 	local var_296_0 = {}
+	local var_296_1 = getProxy(ActivityBanProxy) and getProxy(ActivityBanProxy):GetBanMediatorDic() or {}
 
-	table.insert(var_296_0, function(arg_297_0)
-		switch(arg_296_0.context.mediator.__cname, var_0_1, function(arg_298_0, arg_298_1)
-			arg_298_1()
-		end, arg_296_0, arg_297_0)
+	if var_296_1[arg_296_0.context.mediator.__cname] then
+		local function var_296_2(arg_297_0, arg_297_1)
+			if table.getCount(arg_297_0) == 0 then
+				return true
+			end
+
+			for iter_297_0, iter_297_1 in pairs(arg_297_0) do
+				if not arg_297_1[iter_297_0] or arg_297_1[iter_297_0] ~= iter_297_1 then
+					return false
+				end
+			end
+
+			return true
+		end
+
+		table.insert(var_296_0, function(arg_298_0)
+			local var_298_0 = var_296_1[arg_296_0.context.mediator.__cname]
+
+			if #var_298_0 == 0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("entrance_maintain"))
+
+				return
+			end
+
+			if underscore.any(var_298_0, function(arg_299_0)
+				return var_296_2(arg_299_0, arg_296_0.context.data)
+			end) then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("entrance_maintain"))
+
+				return
+			end
+
+			arg_298_0()
+		end)
+	end
+
+	table.insert(var_296_0, function(arg_300_0)
+		switch(arg_296_0.context.mediator.__cname, var_0_1, function(arg_301_0, arg_301_1)
+			arg_301_1()
+		end, arg_296_0, arg_300_0)
 	end)
 
-	local var_296_1 = arg_296_0.context.viewComponent:loadingQueue()
+	local var_296_3 = arg_296_0.context.viewComponent:loadingQueue()
 
-	if var_296_1 then
-		table.insert(var_296_0, function(arg_299_0)
-			local var_299_0 = arg_296_0.context.data
+	if var_296_3 then
+		table.insert(var_296_0, function(arg_302_0)
+			local var_302_0 = arg_296_0.context.data
 
 			arg_296_0.context.irregularSequence = true
 
-			var_296_1(function(arg_300_0)
-				var_299_0.resumeCallback = arg_300_0
+			var_296_3(function(arg_303_0)
+				var_302_0.resumeCallback = arg_303_0
 
-				arg_299_0()
+				arg_302_0()
 			end)
 		end)
 	end
 
-	table.insert(var_296_0, function(arg_301_0)
-		local var_301_0 = arg_296_0.context.data
-		local var_301_1 = arg_296_0.context.viewComponent
-		local var_301_2 = setmetatable({
-			contextData = var_301_0
+	table.insert(var_296_0, function(arg_304_0)
+		local var_304_0 = arg_296_0.context.data
+		local var_304_1 = arg_296_0.context.viewComponent
+		local var_304_2 = setmetatable({
+			contextData = var_304_0
 		}, {
-			__index = var_301_1
+			__index = var_304_1
 		}):getResource()
-		local var_301_3, var_301_4 = pcall(function()
-			SplitPackConst.DownloadByLuaArr(var_301_2, arg_301_0, {
+		local var_304_3, var_304_4 = pcall(function()
+			SplitPackConst.DownloadByLuaArr(var_304_2, arg_304_0, {
 				showMask = true
 			})
 		end)
 
-		if not var_301_3 then
-			warning(string.format("Split pack resource download failed: \n%s \nin %s\n", tostring(var_301_4), var_301_1.__cname))
-			arg_301_0()
+		if not var_304_3 then
+			warning(string.format("Split pack resource download failed: \n%s \nin %s\n", tostring(var_304_4), var_304_1.__cname))
+			arg_304_0()
 		end
 	end)
 	seriesAsync(var_296_0, arg_296_1)

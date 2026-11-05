@@ -33,6 +33,10 @@ function var_0_0.getResource(arg_1_0)
 
 		if var_1_7 then
 			var_1_8 = var_1_7 and var_1_7.bg
+
+			if HXSet.isHx() then
+				var_1_1(var_1_8 .. "_hx")
+			end
 		else
 			var_1_8 = ResPathSupport.CombinePath(ResPathSupport.ConstPath.BG.LoadingBG, "bg_" .. var_1_6.icon)
 		end
@@ -73,6 +77,10 @@ function var_0_0.getResource(arg_1_0)
 	local var_1_15 = arg_1_0.contextData and arg_1_0.contextData.falgShip or getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getData().character)
 
 	var_1_2(var_1_15 and var_1_15:getPainting())
+
+	if HXSet.isHx() then
+		var_1_2(pg.ship_skin_template[900284].painting)
+	end
 
 	return table.insertto(var_1_0, var_0_0.super.getResource(arg_1_0))
 end
@@ -615,7 +623,9 @@ end
 function var_0_0.UpdateBuildPoolPaiting(arg_52_0, arg_52_1)
 	local var_52_0
 
-	if arg_52_0.buildPainting then
+	if HXSet.isHx() then
+		var_52_0 = pg.ship_skin_template[900284].painting
+	elseif arg_52_0.buildPainting then
 		var_52_0 = arg_52_0.buildPainting
 	elseif var_0_2(arg_52_1) then
 		local var_52_1 = pg.ship_data_create_exchange[arg_52_1:GetActivityId()].exchange_ship_id[1]

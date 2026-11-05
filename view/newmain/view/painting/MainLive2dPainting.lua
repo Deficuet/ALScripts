@@ -30,19 +30,27 @@ function var_0_0.OnLoad(arg_4_0, arg_4_1)
 		arg_4_0:OnUnload()
 	end
 
-	local var_4_0 = Live2DPainting.GenerateData({
+	local var_4_0 = arg_4_0.live2dContainer
+	local var_4_1 = Live2DPainting.GenerateData({
 		loadPrefs = true,
 		ship = arg_4_0.ship,
 		position = Vector3(0, 0, 100),
-		parent = arg_4_0.live2dContainer
+		parent = var_4_0
 	})
 
 	arg_4_0.actionWaiting = false
-
-	arg_4_0:SetContainerVisible(true)
-
 	arg_4_0.cg.blocksRaycasts = true
-	arg_4_0.live2dChar = Live2DPainting.New(var_4_0, function(arg_5_0)
+	arg_4_0.live2dChar = Live2DPainting.New(var_4_1, function(arg_5_0)
+		if arg_5_0:IsDispose() then
+			print("live2d已经被释放,不再初始化")
+
+			return
+		end
+
+		if not arg_4_0.live2dChar then
+			arg_4_0.live2dChar = arg_5_0
+		end
+
 		arg_4_0:AdJustOrderInLayer(arg_5_0)
 
 		if Live2dConst.l2d_bound_open then
@@ -65,7 +73,11 @@ function var_0_0.OnLoad(arg_4_0, arg_4_1)
 			arg_4_0._initTriggerAction = nil
 		end
 
-		arg_4_1()
+		if arg_4_1 then
+			arg_4_1()
+
+			arg_4_1 = nil
+		end
 	end)
 	arg_4_0.shipGroup = getProxy(CollectionProxy):getShipGroup(arg_4_0.ship.groupId)
 
@@ -193,6 +205,7 @@ end
 
 function var_0_0.OnUnload(arg_18_0)
 	if arg_18_0.live2dChar then
+		print("释放live2d")
 		arg_18_0:RemoveScreenChangeTimer()
 		arg_18_0:ResetContainerPosition()
 
@@ -417,43 +430,46 @@ function var_0_0.OnUpdateShip(arg_34_0, arg_34_1)
 	end
 end
 
-function var_0_0.SetContainerVisible(arg_35_0, arg_35_1)
-	return
-end
-
-function var_0_0.IsLoaded(arg_36_0)
-	if not arg_36_0.live2dChar then
+function var_0_0.IsLoaded(arg_35_0)
+	if not arg_35_0.live2dChar then
 		return false
 	end
 
-	return var_0_0.super.IsLoaded(arg_36_0)
+	return var_0_0.super.IsLoaded(arg_35_0)
 end
 
-function var_0_0.OnResume(arg_37_0)
-	arg_37_0:SetContainerVisible(true)
-	arg_37_0:AddScreenChangeTimer()
-	arg_37_0:UpdateContainerPosition()
+function var_0_0.OnResume(arg_36_0)
+	arg_36_0:AddScreenChangeTimer()
+	arg_36_0:UpdateContainerPosition()
 	onNextTick(function()
-		if arg_37_0.ship then
-			arg_37_0:Load(arg_37_0.ship)
+		if arg_36_0.ship then
+			arg_36_0:Load(arg_36_0.ship)
 		end
 	end)
 end
 
-function var_0_0.Dispose(arg_39_0)
-	var_0_0.super.Dispose(arg_39_0)
-	arg_39_0:RemoveSeTimer()
-	arg_39_0:RemoveScreenChangeTimer()
+function var_0_0.Dispose(arg_38_0)
+	var_0_0.super.Dispose(arg_38_0)
+	arg_38_0:RemoveSeTimer()
+	arg_38_0:RemoveScreenChangeTimer()
 
-	if arg_39_0._dragBoundsUI then
-		arg_39_0._dragBoundsUI:Dispose()
+	if arg_38_0._dragBoundsUI then
+		arg_38_0._dragBoundsUI:Dispose()
 
-		arg_39_0._dragBoundsUI = nil
+		arg_38_0._dragBoundsUI = nil
 	end
 
-	if arg_39_0.eventTrigger then
-		ClearEventTrigger(arg_39_0.eventTrigger)
+	if arg_38_0.eventTrigger then
+		ClearEventTrigger(arg_38_0.eventTrigger)
 	end
+end
+
+function var_0_0.GetPaintingTransform(arg_39_0)
+	if arg_39_0.live2dChar then
+		return arg_39_0.live2dChar:GetLive2dTransform()
+	end
+
+	return nil
 end
 
 function var_0_0.GetOffset(arg_40_0)

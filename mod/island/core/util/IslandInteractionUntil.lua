@@ -22,6 +22,7 @@ var_0_0.TYPE_PERFORMANCE = 21
 var_0_0.TYPE_NEXT_INTERACTION = 22
 var_0_0.TYPE_FOLLOW_PLAYER = 23
 var_0_0.TYPE_SP_TRANSFER = 24
+var_0_0.TYPE_AGORA_FOLLOW_SHIP = 25
 var_0_0.SIGNIN_TIME_ID = 4002
 
 function var_0_0.GetInteractionOptions(arg_1_0, arg_1_1, arg_1_2)
@@ -85,214 +86,222 @@ end
 local function var_0_5(arg_11_0, arg_11_1)
 	local var_11_0 = arg_11_1.view.player.id
 
-	arg_11_1:Op("AgoraVirtualInterActionEnd", arg_11_0, var_11_0)
+	arg_11_1:Op("AgoraVirtualShipInterAction", arg_11_0, var_11_0)
 end
 
 local function var_0_6(arg_12_0, arg_12_1)
+	local var_12_0 = arg_12_1.view.player.id
+
+	arg_12_1:Op("AgoraVirtualInterActionEnd", arg_12_0, var_12_0)
+end
+
+local function var_0_7(arg_13_0, arg_13_1)
 	if not getProxy(SettingsProxy):ShouldTipIslandRestEvet() then
 		return false
 	end
 
-	return arg_12_0:GetManageAgency():GetRestaurant(arg_12_1):GetEventInfo() ~= 0
+	return arg_13_0:GetManageAgency():GetRestaurant(arg_13_1):GetEventInfo() ~= 0
 end
 
-local function var_0_7(arg_13_0, arg_13_1, arg_13_2)
-	local var_13_0 = Clone(arg_13_0)
-	local var_13_1 = var_13_0[1]
+local function var_0_8(arg_14_0, arg_14_1, arg_14_2)
+	local var_14_0 = Clone(arg_14_0)
+	local var_14_1 = var_14_0[1]
 
-	table.remove(var_13_0, 1)
-	table.insert(var_13_0, arg_13_2)
+	table.remove(var_14_0, 1)
+	table.insert(var_14_0, arg_14_2)
 
-	local var_13_2 = arg_13_1:GetView()
-	local var_13_3 = var_13_2:GetIsland()
+	local var_14_2 = arg_14_1:GetView()
+	local var_14_3 = var_14_2:GetIsland()
 
-	if var_13_1 == "IslandRestaurantPage" and var_0_6(var_13_3, unpack(var_13_0)) then
-		local var_13_4 = var_13_3:GetManageAgency():GetRestaurant(unpack(var_13_0))
+	if var_14_1 == "IslandRestaurantPage" and var_0_7(var_14_3, unpack(var_14_0)) then
+		local var_14_4 = var_14_3:GetManageAgency():GetRestaurant(unpack(var_14_0))
 
-		var_13_2:ShowMsgbox({
+		var_14_2:ShowMsgbox({
 			blur = true,
 			isNew = true,
 			type = IslandMsgBox.TYPE_ISLAND_POST_EVENT,
-			rest = var_13_4,
+			rest = var_14_4,
 			onHide = function()
-				arg_13_1:NotifiyIsland(ISLAND_EX_EVT.OPEN_PAGE, _G[var_13_1], unpack(var_13_0))
+				arg_14_1:NotifiyIsland(ISLAND_EX_EVT.OPEN_PAGE, _G[var_14_1], unpack(var_14_0))
 			end
 		})
 	else
-		arg_13_1:NotifiyIsland(ISLAND_EX_EVT.OPEN_PAGE, _G[var_13_1], unpack(var_13_0))
+		arg_14_1:NotifiyIsland(ISLAND_EX_EVT.OPEN_PAGE, _G[var_14_1], unpack(var_14_0))
 	end
 end
 
-local function var_0_8(arg_15_0, arg_15_1)
-	arg_15_1:NotifiyIsland(ISLAND_EX_EVT.SWITCH_MAP, tonumber(arg_15_0))
+local function var_0_9(arg_16_0, arg_16_1)
+	arg_16_1:NotifiyIsland(ISLAND_EX_EVT.SWITCH_MAP, tonumber(arg_16_0))
 end
 
-local function var_0_9(arg_16_0, arg_16_1, arg_16_2)
-	local var_16_0 = arg_16_2:GetView():GetUnitModule(arg_16_1)
+local function var_0_10(arg_17_0, arg_17_1, arg_17_2)
+	local var_17_0 = arg_17_2:GetView():GetUnitModule(arg_17_1)
 
-	if var_16_0.behaviourTreeOwner then
-		if tonumber(arg_16_0[2]) then
-			LuaHelper.NodeCanvasSetIntVariableValue(var_16_0.behaviourTreeOwner, arg_16_0[1], arg_16_0[2])
+	if var_17_0.behaviourTreeOwner then
+		if tonumber(arg_17_0[2]) then
+			LuaHelper.NodeCanvasSetIntVariableValue(var_17_0.behaviourTreeOwner, arg_17_0[1], arg_17_0[2])
 		else
-			var_16_0.behaviourTreeOwner.graph.blackboard:SetVariableValue(arg_16_0[1], arg_16_0[2])
+			var_17_0.behaviourTreeOwner.graph.blackboard:SetVariableValue(arg_17_0[1], arg_17_0[2])
 		end
 	end
 end
 
-local function var_0_10(arg_17_0, arg_17_1, arg_17_2)
-	local var_17_0 = arg_17_1.view.player.id
-
-	arg_17_1:Op("WorldObjectInterAction", arg_17_0, var_17_0, tonumber(arg_17_2))
-end
-
-local function var_0_11(arg_18_0, arg_18_1)
+local function var_0_11(arg_18_0, arg_18_1, arg_18_2)
 	local var_18_0 = arg_18_1.view.player.id
 
-	arg_18_1:Op("WorldObjectInterActionEnd", arg_18_0, var_18_0)
+	arg_18_1:Op("WorldObjectInterAction", arg_18_0, var_18_0, tonumber(arg_18_2))
 end
 
 local function var_0_12(arg_19_0, arg_19_1)
-	arg_19_1:NotifiyIsland(ISLAND_EX_EVT.TRIGGER_TASK, tonumber(arg_19_0))
+	local var_19_0 = arg_19_1.view.player.id
+
+	arg_19_1:Op("WorldObjectInterActionEnd", arg_19_0, var_19_0)
 end
 
 local function var_0_13(arg_20_0, arg_20_1)
-	arg_20_1:NotifiyIsland(ISLAND_EX_EVT.SUBMIT_TASK, tonumber(arg_20_0))
+	arg_20_1:NotifiyIsland(ISLAND_EX_EVT.TRIGGER_TASK, tonumber(arg_20_0))
 end
 
-local function var_0_14(arg_21_0)
-	arg_21_0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.SIGNIN)
+local function var_0_14(arg_21_0, arg_21_1)
+	arg_21_1:NotifiyIsland(ISLAND_EX_EVT.SUBMIT_TASK, tonumber(arg_21_0))
 end
 
 local function var_0_15(arg_22_0)
-	local var_22_0 = arg_22_0:GetView()
-	local var_22_1 = var_22_0:GetUnitModule(var_22_0.selectedUnitId)
-
-	if not var_22_1 then
-		return
-	end
-
-	local var_22_2 = var_22_0:GetIsland().id
-
-	arg_22_0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.SELECT_GIFT, var_22_2, var_22_1.data.index)
+	arg_22_0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.SIGNIN)
 end
 
 local function var_0_16(arg_23_0)
-	arg_23_0:NotifiyIsland(ISLAND_EX_EVT.OPEN_PAGE)
+	local var_23_0 = arg_23_0:GetView()
+	local var_23_1 = var_23_0:GetUnitModule(var_23_0.selectedUnitId)
+
+	if not var_23_1 then
+		return
+	end
+
+	local var_23_2 = var_23_0:GetIsland().id
+
+	arg_23_0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.SELECT_GIFT, var_23_2, var_23_1.data.index)
 end
 
-function var_0_0.AddInteractionTaskProgress(arg_24_0, arg_24_1)
-	arg_24_0:Op("NotifiyIsland", ISLAND_EX_EVT.ADD_TASK_PROGRESS, IslandTaskTargetType.INTERACTION, arg_24_1)
+local function var_0_17(arg_24_0)
+	arg_24_0:NotifiyIsland(ISLAND_EX_EVT.OPEN_PAGE)
 end
 
-local function var_0_17(arg_25_0)
-	arg_25_0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.GET_THEMES, function()
-		arg_25_0:Op("EnterEditMode")
+function var_0_0.AddInteractionTaskProgress(arg_25_0, arg_25_1)
+	arg_25_0:Op("NotifiyIsland", ISLAND_EX_EVT.ADD_TASK_PROGRESS, IslandTaskTargetType.INTERACTION, arg_25_1)
+end
+
+local function var_0_18(arg_26_0)
+	arg_26_0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.GET_THEMES, function()
+		arg_26_0:Op("EnterEditMode")
 	end)
 end
 
-local function var_0_18(arg_27_0)
-	local var_27_0 = arg_27_0:GetView()
-	local var_27_1 = var_27_0:GetIsland()
+local function var_0_19(arg_28_0)
+	local var_28_0 = arg_28_0:GetView()
+	local var_28_1 = var_28_0:GetIsland()
 
-	if not var_27_1:GetAgoraAgency():CanUpgrade() then
+	if not var_28_1:GetAgoraAgency():CanUpgrade() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("island_agora_max_level"))
 
 		return
 	end
 
-	var_27_0:ShowMsgbox({
+	var_28_0:ShowMsgbox({
 		type = IslandMsgBox.TYPE_AGORA_UPGRADE,
-		island = var_27_1,
+		island = var_28_1,
 		onYes = function()
-			arg_27_0:Op("Upgrade")
+			arg_28_0:Op("Upgrade")
 		end
 	})
 end
 
-local function var_0_19(arg_29_0, arg_29_1)
-	arg_29_0:NotifiyIsland(ISLAND_EX_EVT.PLAY_PERFORMANCE, {
-		name = arg_29_1
+local function var_0_20(arg_30_0, arg_30_1)
+	arg_30_0:NotifiyIsland(ISLAND_EX_EVT.PLAY_PERFORMANCE, {
+		name = arg_30_1
 	})
 end
 
-local function var_0_20(arg_30_0, arg_30_1)
-	arg_30_0:GetView():GetSubView(IslandInteractionView):ShowNextInteractionBtns(arg_30_1)
+local function var_0_21(arg_31_0, arg_31_1)
+	arg_31_0:GetView():GetSubView(IslandInteractionView):ShowNextInteractionBtns(arg_31_1)
 end
 
-local function var_0_21(arg_31_0, arg_31_1)
-	local var_31_0 = pg.island_strollnpc[arg_31_1]
-	local var_31_1
+local function var_0_22(arg_32_0, arg_32_1)
+	local var_32_0 = pg.island_strollnpc[arg_32_1]
+	local var_32_1
 
-	for iter_31_0, iter_31_1 in ipairs(pg.island_chara_template.all) do
-		if pg.island_chara_template[iter_31_1].unit_id == var_31_0.unit_id then
-			var_31_1 = iter_31_1
+	for iter_32_0, iter_32_1 in ipairs(pg.island_chara_template.all) do
+		if pg.island_chara_template[iter_32_1].unit_id == var_32_0.unit_id then
+			var_32_1 = iter_32_1
 
 			break
 		end
 	end
 
-	if var_31_1 then
-		arg_31_0:NotifiyMeditor(IslandMediator.ADD_FOLLOWER, var_31_1)
+	if var_32_1 then
+		arg_32_0:NotifiyMeditor(IslandMediator.ADD_FOLLOWER, var_32_1)
 	end
 end
 
-function var_0_0.Response(arg_32_0, arg_32_1, arg_32_2)
-	local var_32_0 = pg.island_interaction[arg_32_2]
+function var_0_0.Response(arg_33_0, arg_33_1, arg_33_2)
+	local var_33_0 = pg.island_interaction[arg_33_2]
 
-	if var_32_0.type == var_0_0.TYPE_STORY then
-		var_0_1(var_32_0.param, arg_32_0, arg_32_2)
-	elseif var_32_0.type == var_0_0.TYPE_BUBBLE then
-		var_0_2(var_32_0.param, arg_32_0, arg_32_2)
-	elseif var_32_0.type == var_0_0.TYPE_ACTION then
-		var_0_3(var_32_0.param[1], var_32_0.param[2], arg_32_0)
-	elseif var_32_0.type == var_0_0.TYPE_AGORA then
-		var_0_4(arg_32_1, arg_32_0, var_32_0.param)
-	elseif var_32_0.type == var_0_0.TYPE_AGORA_CANCEL then
-		var_0_5(arg_32_1, arg_32_0)
-	elseif var_32_0.type == var_0_0.TYPE_OPEN_PAGE then
-		var_0_7(var_32_0.param, arg_32_0, arg_32_1)
-	elseif var_32_0.type == var_0_0.TYPE_TRANSFER or var_32_0.type == var_0_0.TYPE_SP_TRANSFER then
-		var_0_8(var_32_0.param, arg_32_0)
-	elseif var_32_0.type == var_0_0.TYPE_BT_VALUE then
-		var_0_9(var_32_0.param, arg_32_1, arg_32_0)
-	elseif var_32_0.type == var_0_0.TYPE_ITEM_INTERACT then
-		var_0_10(arg_32_1, arg_32_0, var_32_0.param)
-	elseif var_32_0.type == var_0_0.TYPE_ITEM_INTERACT_CANCEL then
-		var_0_11(arg_32_1, arg_32_0)
-	elseif var_32_0.type == var_0_0.TYPE_ACCEPT_TASK then
-		var_0_12(var_32_0.param, arg_32_0)
-	elseif var_32_0.type == var_0_0.TYPE_SUBMIT_TASK then
-		var_0_13(var_32_0.param, arg_32_0)
-	elseif var_32_0.type == var_0_0.TYPE_SIGNIN then
-		var_0_14(arg_32_0)
-	elseif var_32_0.type == var_0_0.TYPE_SELECT_GIFT then
-		var_0_15(arg_32_0)
-	elseif var_32_0.type == var_0_0.TYPE_NOTHING then
+	if var_33_0.type == var_0_0.TYPE_STORY then
+		var_0_1(var_33_0.param, arg_33_0, arg_33_2)
+	elseif var_33_0.type == var_0_0.TYPE_BUBBLE then
+		var_0_2(var_33_0.param, arg_33_0, arg_33_2)
+	elseif var_33_0.type == var_0_0.TYPE_ACTION then
+		var_0_3(var_33_0.param[1], var_33_0.param[2], arg_33_0)
+	elseif var_33_0.type == var_0_0.TYPE_AGORA then
+		var_0_4(arg_33_1, arg_33_0, var_33_0.param)
+	elseif var_33_0.type == var_0_0.TYPE_AGORA_FOLLOW_SHIP then
+		var_0_5(arg_33_1, arg_33_0)
+	elseif var_33_0.type == var_0_0.TYPE_AGORA_CANCEL then
+		var_0_6(arg_33_1, arg_33_0)
+	elseif var_33_0.type == var_0_0.TYPE_OPEN_PAGE then
+		var_0_8(var_33_0.param, arg_33_0, arg_33_1)
+	elseif var_33_0.type == var_0_0.TYPE_TRANSFER or var_33_0.type == var_0_0.TYPE_SP_TRANSFER then
+		var_0_9(var_33_0.param, arg_33_0)
+	elseif var_33_0.type == var_0_0.TYPE_BT_VALUE then
+		var_0_10(var_33_0.param, arg_33_1, arg_33_0)
+	elseif var_33_0.type == var_0_0.TYPE_ITEM_INTERACT then
+		var_0_11(arg_33_1, arg_33_0, var_33_0.param)
+	elseif var_33_0.type == var_0_0.TYPE_ITEM_INTERACT_CANCEL then
+		var_0_12(arg_33_1, arg_33_0)
+	elseif var_33_0.type == var_0_0.TYPE_ACCEPT_TASK then
+		var_0_13(var_33_0.param, arg_33_0)
+	elseif var_33_0.type == var_0_0.TYPE_SUBMIT_TASK then
+		var_0_14(var_33_0.param, arg_33_0)
+	elseif var_33_0.type == var_0_0.TYPE_SIGNIN then
+		var_0_15(arg_33_0)
+	elseif var_33_0.type == var_0_0.TYPE_SELECT_GIFT then
+		var_0_16(arg_33_0)
+	elseif var_33_0.type == var_0_0.TYPE_NOTHING then
 		-- block empty
-	elseif var_32_0.type == var_0_0.TYPE_DECORATION then
-		var_0_17(arg_32_0)
-	elseif var_32_0.type == var_0_0.TYPE_EXTEND_AGORA then
-		var_0_18(arg_32_0)
-	elseif var_32_0.type == var_0_0.TYPE_ECHANGE_AGORA_BASE then
+	elseif var_33_0.type == var_0_0.TYPE_DECORATION then
+		var_0_18(arg_33_0)
+	elseif var_33_0.type == var_0_0.TYPE_EXTEND_AGORA then
+		var_0_19(arg_33_0)
+	elseif var_33_0.type == var_0_0.TYPE_ECHANGE_AGORA_BASE then
 		-- block empty
-	elseif var_32_0.type == var_0_0.TYPE_PERFORMANCE then
-		var_0_19(arg_32_0, var_32_0.param)
-	elseif var_32_0.type == var_0_0.TYPE_NEXT_INTERACTION then
-		var_0_20(arg_32_0, var_32_0.param)
-	elseif var_32_0.type == var_0_0.TYPE_FOLLOW_PLAYER then
-		var_0_21(arg_32_0, arg_32_1)
+	elseif var_33_0.type == var_0_0.TYPE_PERFORMANCE then
+		var_0_20(arg_33_0, var_33_0.param)
+	elseif var_33_0.type == var_0_0.TYPE_NEXT_INTERACTION then
+		var_0_21(arg_33_0, var_33_0.param)
+	elseif var_33_0.type == var_0_0.TYPE_FOLLOW_PLAYER then
+		var_0_22(arg_33_0, arg_33_1)
 	else
-		assert(false, "未处理类型:" .. var_32_0.type)
+		assert(false, "未处理类型:" .. var_33_0.type)
 	end
 
-	if var_32_0.type ~= var_0_0.TYPE_STORY and var_32_0.type ~= var_0_0.TYPE_BUBBLE then
-		var_0_0.AddInteractionTaskProgress(arg_32_0, arg_32_2)
+	if var_33_0.type ~= var_0_0.TYPE_STORY and var_33_0.type ~= var_0_0.TYPE_BUBBLE then
+		var_0_0.AddInteractionTaskProgress(arg_33_0, arg_33_2)
 	end
 
-	if var_32_0.type == var_0_0.TYPE_STORY or var_32_0.type == var_0_0.TYPE_BUBBLE then
-		local var_32_1 = pg.island_world_objects[arg_32_1].unitId
+	if var_33_0.type == var_0_0.TYPE_STORY or var_33_0.type == var_0_0.TYPE_BUBBLE then
+		local var_33_1 = pg.island_world_objects[arg_33_1].unitId
 
-		IslandBookHelper.OnNpcInteract(var_32_1)
+		IslandBookHelper.OnNpcInteract(var_33_1)
 	end
 end
 

@@ -232,7 +232,9 @@ function var_0_0.RegisterRedDots(arg_24_0)
 	var_24_2(arg_24_0._tf:Find("frame/right/combatBtn/tip"), {
 		"EVENT"
 	}, function(arg_39_0)
-		setActive(arg_39_0, getProxy(EventProxy):hasFinishState() or LimitChallengeConst.IsShowRedPoint())
+		local var_39_0 = getProxy(EventProxy):hasFinishState() or LimitChallengeConst.IsShowRedPoint() or getProxy(ChapterAutoProxy):IsAllCommissionFinish(ChapterAutoProxy.TYPE.WORLD) or getProxy(ChapterAutoProxy):IsShowTipInBattleUI()
+
+		setActive(arg_39_0, var_39_0)
 	end)
 	var_24_2(arg_24_0._tf:Find("frame/bottom/liveButton/tip"), {
 		"COURTYARD",

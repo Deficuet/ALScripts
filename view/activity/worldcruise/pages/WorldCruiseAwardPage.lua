@@ -210,32 +210,43 @@ function var_0_0.GetAllAward(arg_20_0)
 			end)
 		end
 
+		if _.any(var_20_0, function(arg_22_0)
+			return arg_22_0:IsSkinCoupon(arg_22_0)
+		end) then
+			table.insert(var_20_1, function(arg_23_0)
+				pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_MSGBOX, {
+					contentText = i18n("shop_new_coupon_tip3"),
+					onConfirm = arg_23_0
+				})
+			end)
+		end
+
 		seriesAsync(var_20_1, function()
 			arg_20_0:emit(WorldCruiseMediator.EVENT_GET_AWARD_ALL)
 		end)
 	end
 end
 
-function var_0_0.CheckLimitMax(arg_23_0, arg_23_1)
-	local var_23_0 = getProxy(PlayerProxy):getData()
+function var_0_0.CheckLimitMax(arg_25_0, arg_25_1)
+	local var_25_0 = getProxy(PlayerProxy):getData()
 
-	for iter_23_0, iter_23_1 in ipairs(arg_23_1) do
-		if iter_23_1.type == DROP_TYPE_RESOURCE then
-			if iter_23_1.id == 1 then
-				if var_23_0:GoldMax(iter_23_1.count) then
+	for iter_25_0, iter_25_1 in ipairs(arg_25_1) do
+		if iter_25_1.type == DROP_TYPE_RESOURCE then
+			if iter_25_1.id == 1 then
+				if var_25_0:GoldMax(iter_25_1.count) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title"))
 
 					return true
 				end
-			elseif iter_23_1.id == 2 and var_23_0:OilMax(iter_23_1.count) then
+			elseif iter_25_1.id == 2 and var_25_0:OilMax(iter_25_1.count) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title"))
 
 				return true
 			end
-		elseif iter_23_1.type == DROP_TYPE_ITEM then
-			local var_23_1 = Item.getConfigData(iter_23_1.id)
+		elseif iter_25_1.type == DROP_TYPE_ITEM then
+			local var_25_1 = Item.getConfigData(iter_25_1.id)
 
-			if var_23_1.type == Item.EXP_BOOK_TYPE and getProxy(BagProxy):getItemCountById(iter_23_1.id) + iter_23_1.count > var_23_1.max_num then
+			if var_25_1.type == Item.EXP_BOOK_TYPE and getProxy(BagProxy):getItemCountById(iter_25_1.id) + iter_25_1.count > var_25_1.max_num then
 				return true
 			end
 		end
@@ -244,7 +255,7 @@ function var_0_0.CheckLimitMax(arg_23_0, arg_23_1)
 	return false
 end
 
-function var_0_0.OnDestroy(arg_24_0)
+function var_0_0.OnDestroy(arg_26_0)
 	return
 end
 

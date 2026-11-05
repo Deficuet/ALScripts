@@ -11,15 +11,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		status = var_1_0.status,
 		type = var_1_0.type
 	}, 21210, function(arg_2_0)
-		if IslandConst.SYNC_TEST_DELAY_ON then
-			local var_2_0 = math.random(IslandConst.SYNC_TEST_DELAY_L, IslandConst.SYNC_TEST_DELAY_R)
-
-			LeanTween.delayedCall(var_2_0 / 1000, System.Action(function()
-				existCall(var_1_0.onResult, arg_2_0.result)
-			end))
-		else
-			existCall(var_1_0.onResult, arg_2_0.result)
-		end
+		existCall(var_1_0.onResult, arg_2_0.result)
 	end)
 end
 

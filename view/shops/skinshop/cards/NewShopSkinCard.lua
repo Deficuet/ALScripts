@@ -89,7 +89,9 @@ function var_0_0.GetTagId(arg_2_0, arg_2_1)
 
 	local var_2_1 = arg_2_0:getConfig("tag")
 
-	if (arg_2_0:isDisCount() or var_2_1 == var_0_5) and not arg_2_0:IsItemDiscountType() then
+	if arg_2_0:isShopDiscount() then
+		return var_0_5
+	elseif (arg_2_0:isDisCount() or var_2_1 == var_0_5) and not arg_2_0:IsItemDiscountType() then
 		return var_0_5
 	elseif var_0_11[var_2_1] then
 		return var_2_1

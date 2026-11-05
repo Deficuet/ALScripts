@@ -1,4 +1,6 @@
 local var_0_0 = class("IslandVisitorUnit", import(".IslandNavigableUnit"))
+local var_0_1 = 3
+local var_0_2 = 6
 
 function var_0_0.OnUpdate(arg_1_0)
 	if arg_1_0.delayTime == 0 then
@@ -22,6 +24,7 @@ function var_0_0.OnLaterAttach(arg_3_0, arg_3_1)
 
 	arg_3_0.delayTime = 0
 	arg_3_0.syncData = nil
+	arg_3_0.animSpeed = 0
 end
 
 function var_0_0.UpdateSyncData(arg_4_0, arg_4_1)
@@ -44,7 +47,7 @@ function var_0_0.MoveHandle(arg_7_0)
 	local var_7_3
 
 	if var_7_0 > 0 then
-		var_7_2 = Vector3.Lerp(arg_7_0:GetLocalPosition(), arg_7_0.syncData.pos, var_7_1)
+		var_7_2 = Vector3.Lerp(arg_7_0:GetPosition(), arg_7_0.syncData.pos, var_7_1)
 		var_7_3 = Quaternion.Lerp(arg_7_0:GetRotation(), arg_7_0:GetSyncDataRotation(), var_7_1)
 		arg_7_0.delayTime = var_7_0
 	else
@@ -53,31 +56,40 @@ function var_0_0.MoveHandle(arg_7_0)
 		arg_7_0.delayTime = 0
 	end
 
-	local var_7_4 = (var_7_2 - arg_7_0:GetLocalPosition()) / Time.deltaTime
+	if Time.deltaTime > 0 then
+		local var_7_4 = (var_7_2 - arg_7_0:GetPosition()) / Time.deltaTime
 
-	arg_7_0.speed = Vector2(var_7_4.x, var_7_4.z).magnitude
+		arg_7_0.speed = Vector2(var_7_4.x, var_7_4.z).magnitude
+	end
 
-	arg_7_0:SetLocalPosition(var_7_2)
+	arg_7_0:SetPosition(var_7_2)
 	arg_7_0:SetRotation(var_7_3)
 end
 
 function var_0_0.AnimHandle(arg_8_0)
-	if arg_8_0.speed > 0.1 then
-		arg_8_0.speed = 5
+	local var_8_0 = arg_8_0.speed or 0
+
+	if var_8_0 < 0.1 then
+		var_8_0 = 0
 	end
 
-	local var_8_0 = arg_8_0:GetAnimator()
+	local var_8_1 = var_8_0 > arg_8_0.animSpeed and var_0_1 or var_0_2
 
-	var_8_0:SetFloat(IslandConst.SPEED_FLAG_HASH, arg_8_0.speed)
+	arg_8_0.animSpeed = Mathf.Lerp(arg_8_0.animSpeed, var_8_0, var_8_1 * Time.deltaTime)
 
-	for iter_8_0 = 1, var_8_0.layerCount do
-		local var_8_1 = iter_8_0 - 1
+	local var_8_2 = arg_8_0:GetAnimator()
 
-		if not var_8_0:IsInTransition(var_8_1) then
-			local var_8_2 = arg_8_0.syncData.status[iter_8_0]
+	var_8_2:SetFloat(IslandConst.SPEED_FLAG_HASH, arg_8_0.animSpeed)
 
-			if var_8_0:GetCurrentAnimatorStateInfo(var_8_1).shortNameHash ~= var_8_2 then
-				var_8_0:CrossFadeInFixedTime(var_8_2, 0.25, var_8_1)
+	for iter_8_0 = 1, var_8_2.layerCount do
+		local var_8_3 = iter_8_0 - 1
+
+		if not var_8_2:IsInTransition(var_8_3) then
+			local var_8_4 = arg_8_0.syncData.status[iter_8_0]
+			local var_8_5 = var_8_2:GetCurrentAnimatorStateInfo(var_8_3)
+
+			if var_8_4 and var_8_5.shortNameHash ~= var_8_4 then
+				var_8_2:CrossFadeInFixedTime(var_8_4, 0.25, var_8_3)
 			end
 		end
 	end
@@ -87,16 +99,16 @@ function var_0_0.GetSyncDataRotation(arg_9_0)
 	return arg_9_0.syncData.dir
 end
 
-function var_0_0.GetLocalPosition(arg_10_0)
-	return arg_10_0._go.transform.localPosition
+function var_0_0.GetPosition(arg_10_0)
+	return arg_10_0._go.transform.position
 end
 
 function var_0_0.GetRotation(arg_11_0)
 	return arg_11_0._go.transform.rotation
 end
 
-function var_0_0.SetLocalPosition(arg_12_0, arg_12_1)
-	arg_12_0._go.transform.localPosition = arg_12_1
+function var_0_0.SetPosition(arg_12_0, arg_12_1)
+	arg_12_0._go.transform.position = arg_12_1
 end
 
 function var_0_0.SetRotation(arg_13_0, arg_13_1)

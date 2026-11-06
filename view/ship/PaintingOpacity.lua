@@ -18,6 +18,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	end, var_0_1, -1)
 
 	arg_1_0.timer:Start()
+	arg_1_0:SetVisible(false)
 end
 
 function var_0_0.step(arg_3_0)
@@ -101,7 +102,6 @@ function var_0_0.SetPaintingAlphaTween(arg_11_0, arg_11_1, arg_11_2, arg_11_3)
 	print("set painting alpha tween value = " .. arg_11_1 .. " time = " .. arg_11_2)
 
 	arg_11_0._delayCallback = arg_11_3
-	arg_11_0._delayCallbackTime = arg_11_2
 
 	local var_11_0 = 0
 
@@ -128,12 +128,18 @@ function var_0_0.SetPaintingAlphaTween(arg_11_0, arg_11_1, arg_11_2, arg_11_3)
 end
 
 function var_0_0.SetPaitningAlphaContent(arg_14_0)
+	if not arg_14_0:GetVisible() then
+		arg_14_0:SetVisible(true)
+	end
+
 	if not IsNil(arg_14_0._paintingTF) and not IsNil(arg_14_0._paintingContent) then
 		SetParent(arg_14_0._paintingTF, arg_14_0._paintingContent, false)
 	end
 end
 
 function var_0_0.RevertPaintingContent(arg_15_0)
+	print("revert content")
+
 	if not IsNil(arg_15_0._paintingTF) and not IsNil(arg_15_0._paintingPreParent) then
 		SetParent(arg_15_0._paintingTF, arg_15_0._paintingPreParent, false)
 	end
@@ -168,10 +174,10 @@ function var_0_0.SetMeshPaintingFillter(arg_19_0, arg_19_1)
 	var_19_0.Tween = 1
 end
 
-function var_0_0.SetMeshPainting(arg_20_0, arg_20_1)
+function var_0_0.SetMeshPainting(arg_20_0, arg_20_1, arg_20_2)
 	if arg_20_1 then
 		arg_20_0._paintingTF = arg_20_1
-		arg_20_0._paintingPreParent = arg_20_1.parent
+		arg_20_0._paintingPreParent = arg_20_2
 		arg_20_0._paintingContent = arg_20_0._meshContent
 
 		SetParent(arg_20_1, arg_20_0._meshContent, false)
@@ -180,14 +186,10 @@ function var_0_0.SetMeshPainting(arg_20_0, arg_20_1)
 	arg_20_0:SetRawImageAlpha(1)
 end
 
-function var_0_0.SetSpinePainting(arg_21_0, arg_21_1)
+function var_0_0.SetSpinePainting(arg_21_0, arg_21_1, arg_21_2)
 	if arg_21_1 then
 		arg_21_0._paintingTF = arg_21_1
-
-		if arg_21_1.parent then
-			arg_21_0._paintingPreParent = arg_21_1.parent
-		end
-
+		arg_21_0._paintingPreParent = arg_21_2
 		arg_21_0._paintingContent = arg_21_0._spineContent
 
 		SetParent(arg_21_1, arg_21_0._spineContent, false)
@@ -196,14 +198,10 @@ function var_0_0.SetSpinePainting(arg_21_0, arg_21_1)
 	arg_21_0:SetRawImageAlpha(1)
 end
 
-function var_0_0.SetLive2DPainting(arg_22_0, arg_22_1)
+function var_0_0.SetLive2DPainting(arg_22_0, arg_22_1, arg_22_2)
 	if arg_22_1 then
 		arg_22_0._paintingTF = arg_22_1
-
-		if arg_22_1.parent then
-			arg_22_0._paintingPreParent = arg_22_1.parent
-		end
-
+		arg_22_0._paintingPreParent = arg_22_2
 		arg_22_0._paintingContent = arg_22_0._live2dContent
 
 		SetParent(arg_22_1, arg_22_0._live2dContent, false)
@@ -229,27 +227,44 @@ function var_0_0.GetCanvasTF(arg_24_0)
 	return arg_24_0._canvasTF
 end
 
-function var_0_0.Dispose(arg_25_0)
-	if arg_25_0._isDispose then
+function var_0_0.SetVisible(arg_25_0, arg_25_1)
+	if IsNil(arg_25_0._go) then
+		return
+	end
+
+	setActive(arg_25_0._go, arg_25_1)
+	arg_25_0:SetRawImageAlpha(arg_25_1 and 1 or 0)
+end
+
+function var_0_0.GetVisible(arg_26_0)
+	if IsNil(arg_26_0._go) then
+		return false
+	end
+
+	return isActive(arg_26_0._go)
+end
+
+function var_0_0.Dispose(arg_27_0)
+	if arg_27_0._isDispose then
 		return
 	end
 
 	print("dispose opacity")
 
-	arg_25_0._isDispose = true
+	arg_27_0._isDispose = true
 
-	arg_25_0:DisablePainting()
-	arg_25_0:InvokeDelayCallback()
+	arg_27_0:DisablePainting()
+	arg_27_0:InvokeDelayCallback()
 
-	if arg_25_0.timer then
-		arg_25_0.timer:Stop()
+	if arg_27_0.timer then
+		arg_27_0.timer:Stop()
 
-		arg_25_0.timer = nil
+		arg_27_0.timer = nil
 	end
 
-	arg_25_0:ClearAlphaTween()
-	arg_25_0:ClearRendererTexture()
-	Destroy(arg_25_0._go)
+	arg_27_0:ClearAlphaTween()
+	arg_27_0:ClearRendererTexture()
+	Destroy(arg_27_0._go)
 end
 
 return var_0_0

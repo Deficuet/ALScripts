@@ -78,7 +78,7 @@ function var_0_0.getResource(arg_1_0)
 
 	var_1_2(var_1_15 and var_1_15:getPainting())
 
-	if HXSet.isHx() then
+	if HXSet.isHx() and CUSTOM_HX then
 		var_1_2(pg.ship_skin_template[900284].painting)
 	end
 
@@ -623,7 +623,7 @@ end
 function var_0_0.UpdateBuildPoolPaiting(arg_52_0, arg_52_1)
 	local var_52_0
 
-	if HXSet.isHx() then
+	if HXSet.isHx() and CUSTOM_HX then
 		var_52_0 = pg.ship_skin_template[900284].painting
 	elseif arg_52_0.buildPainting then
 		var_52_0 = arg_52_0.buildPainting

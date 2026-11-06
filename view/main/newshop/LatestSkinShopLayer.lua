@@ -1556,7 +1556,7 @@ function var_0_0.LoadMeshPainting(arg_85_0, arg_85_1, arg_85_2)
 		local var_86_2 = arg_86_0.transform:Find("shop_hx_ch" .. var_86_1)
 
 		arg_85_0:CheckShowShopHx(var_86_2)
-		arg_85_0._paintingManager:SetOpacityPainting(tf(arg_86_0), PaintingFadeManager.PAINTING_TYPE.MESH)
+		arg_85_0._paintingManager:SetOpacityPainting(tf(arg_86_0), var_85_0, PaintingFadeManager.PAINTING_TYPE.MESH)
 		arg_85_0._paintingManager:RevertPaintingContainer()
 		arg_85_0._paintingManager:SetPaintingAlpha(1)
 	end)
@@ -1638,7 +1638,7 @@ function var_0_0.LoadL2dPainting(arg_90_0, arg_90_1)
 
 		arg_91_0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 		pg.UIMgr.GetInstance():LoadingOff()
-		arg_90_0._paintingManager:SetOpacityPainting(arg_91_0:GetLive2dTransform(), PaintingFadeManager.PAINTING_TYPE.LIVE2D)
+		arg_90_0._paintingManager:SetOpacityPainting(arg_91_0:GetLive2dTransform(), arg_90_0.live2dContainer, PaintingFadeManager.PAINTING_TYPE.LIVE2D)
 		arg_90_0._paintingManager:SetPaintingFadeIn()
 	end)
 end
@@ -1696,7 +1696,7 @@ function var_0_0.LoadSpinePainting(arg_94_0, arg_94_1)
 	local var_94_5 = SpinePainting.GenerateData({
 		ship = var_94_2,
 		position = Vector3(0, 0, 0),
-		parent = arg_94_0._paintingManager:GetSpinePaintingContainer(),
+		parent = arg_94_0.spTF,
 		effectParent = arg_94_0.spBg,
 		offset = var_94_2:GetSkinConfig().shop_offset
 	})
@@ -1719,7 +1719,7 @@ function var_0_0.LoadSpinePainting(arg_94_0, arg_94_1)
 
 		arg_94_0:CheckShowShopHx(var_95_2)
 		pg.UIMgr.GetInstance():LoadingOff()
-		arg_94_0._paintingManager:SetOpacityPainting(arg_95_0:GetSpineTransform(), PaintingFadeManager.PAINTING_TYPE.SPINE)
+		arg_94_0._paintingManager:SetOpacityPainting(arg_95_0:GetSpineTransform(), arg_94_0.spTF, PaintingFadeManager.PAINTING_TYPE.SPINE)
 		arg_94_0._paintingManager:SetPaintingFadeIn(function()
 			arg_95_0:UpdateGraphic()
 		end)

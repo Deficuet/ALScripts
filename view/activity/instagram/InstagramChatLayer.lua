@@ -325,7 +325,7 @@ function var_0_0.UpdateChatContent(arg_15_0, arg_15_1, arg_15_2, arg_15_3)
 			end
 		end
 
-		if HXSet.isHx() then
+		if HXSet.isHx() and CUSTOM_HX then
 			SetActive(var_15_2, false)
 			SetActive(var_15_3, true)
 		else

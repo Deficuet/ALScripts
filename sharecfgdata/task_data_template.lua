@@ -43558,7 +43558,7 @@ end)()
 			}
 		},
 		scene = {
-			"LEVEL"
+			"DAILYLEVEL"
 		}
 	}
 end)()

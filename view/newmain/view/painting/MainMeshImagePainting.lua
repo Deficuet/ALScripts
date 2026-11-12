@@ -211,7 +211,9 @@ function var_0_0.SwitchToVariant(arg_17_0, arg_17_1)
 		end,
 		function(arg_21_0)
 			arg_17_0:UnloadOnlyPainting()
-			arg_17_0:Load(arg_17_0.ship, true)
+			arg_17_0:Load(arg_17_0.ship, function()
+				return
+			end)
 			onDelayTick(arg_21_0, 1)
 		end
 	}, function()
@@ -220,233 +222,247 @@ function var_0_0.SwitchToVariant(arg_17_0, arg_17_1)
 	end)
 end
 
-function var_0_0.PlayVariantEffect(arg_23_0, arg_23_1, arg_23_2)
-	local var_23_0 = getProxy(SettingsProxy):GetMainPaintingVariantFlag(arg_23_0.paintingName) == var_0_0.PAINTING_VARIANT_EX
-	local var_23_1 = var_23_0 and "lihui_qiehuan01" or "lihui_qiehuan02"
+function var_0_0.PlayVariantEffect(arg_24_0, arg_24_1, arg_24_2)
+	local var_24_0 = getProxy(SettingsProxy):GetMainPaintingVariantFlag(arg_24_0.paintingName) == var_0_0.PAINTING_VARIANT_EX
+	local var_24_1 = var_24_0 and "lihui_qiehuan01" or "lihui_qiehuan02"
 
-	pg.PoolMgr.GetInstance():GetPrefab("ui/" .. var_23_1, "", true, function(arg_24_0)
-		pg.ViewUtils.SetLayer(arg_24_0.transform, Layer.UI)
+	pg.PoolMgr.GetInstance():GetPrefab("ui/" .. var_24_1, "", true, function(arg_25_0)
+		pg.ViewUtils.SetLayer(arg_25_0.transform, Layer.UI)
 
-		arg_23_0.effectGo = arg_24_0
-		arg_23_0.effectGo.name = var_23_1
+		arg_24_0.effectGo = arg_25_0
+		arg_24_0.effectGo.name = var_24_1
 
-		if arg_23_0:IsExited() then
-			arg_23_0:ClearEffect()
+		if arg_24_0:IsExited() then
+			arg_24_0:ClearEffect()
 
 			return
 		end
 
-		setParent(arg_24_0, arg_23_0.container)
+		setParent(arg_25_0, arg_24_0.container)
 
-		arg_23_0.effectGo.transform.position = arg_23_1.position
+		arg_24_0.effectGo.transform.position = arg_24_1.position
 
-		if var_23_0 then
+		if var_24_0 then
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_EXPLOSIVE_SKIN)
 		else
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_ANTI_EXPLOSIVE_SKIN)
 		end
 
-		arg_23_2()
+		arg_24_2()
 	end)
 end
 
-function var_0_0.ClearEffect(arg_25_0)
-	if arg_25_0.effectTimer then
-		arg_25_0.effectTimer:Stop()
+function var_0_0.ClearEffect(arg_26_0)
+	if arg_26_0.effectTimer then
+		arg_26_0.effectTimer:Stop()
 
-		arg_25_0.effectTimer = nil
+		arg_26_0.effectTimer = nil
 	end
 
-	if arg_25_0.effectGo then
-		pg.PoolMgr.GetInstance():ReturnPrefab("ui/" .. arg_25_0.effectGo.name, "", arg_25_0.effectGo)
+	if arg_26_0.effectGo then
+		pg.PoolMgr.GetInstance():ReturnPrefab("ui/" .. arg_26_0.effectGo.name, "", arg_26_0.effectGo)
 
-		arg_25_0.effectGo = nil
+		arg_26_0.effectGo = nil
 	end
 end
 
-function var_0_0.ClearSpecialDrag(arg_26_0)
+function var_0_0.ClearSpecialDrag(arg_27_0)
 	if PLATFORM_CODE == PLATFORM_CH and HXSet.isHx() then
 		return
 	end
 
-	local var_26_0 = findTF(arg_26_0._paintingGO, "Drag")
+	local var_27_0 = findTF(arg_27_0._paintingGO, "Drag")
 
-	if not var_26_0 then
+	if not var_27_0 then
 		return
 	end
 
-	local var_26_1 = GetOrAddComponent(var_26_0, typeof(EventTriggerListener))
+	local var_27_1 = GetOrAddComponent(var_27_0, typeof(EventTriggerListener))
 
-	var_26_1:AddBeginDragFunc(nil)
-	var_26_1:AddDragEndFunc(nil)
-	var_26_1:AddPointUpFunc(nil)
-	GetOrAddComponent(var_26_0, "UILongPressTrigger").onLongPressed:RemoveAllListeners()
+	var_27_1:AddBeginDragFunc(nil)
+	var_27_1:AddDragEndFunc(nil)
+	var_27_1:AddPointUpFunc(nil)
+	GetOrAddComponent(var_27_0, "UILongPressTrigger").onLongPressed:RemoveAllListeners()
 end
 
-function var_0_0.OnClick(arg_27_0)
-	local var_27_0 = arg_27_0:CollectTouchEvents()
-	local var_27_1 = var_27_0[math.ceil(math.random(#var_27_0))]
+function var_0_0.OnClick(arg_28_0)
+	local var_28_0 = arg_28_0:CollectTouchEvents()
+	local var_28_1 = var_28_0[math.ceil(math.random(#var_28_0))]
 
-	arg_27_0:TriggerEvent(var_27_1)
+	arg_28_0:TriggerEvent(var_28_1)
 end
 
-function var_0_0.OnLongPress(arg_28_0)
-	if arg_28_0.isFoldState then
+function var_0_0.OnLongPress(arg_29_0)
+	if arg_29_0.isFoldState then
 		return
 	end
 
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
-		shipId = arg_28_0.ship.id
+		shipId = arg_29_0.ship.id
 	})
 end
 
-function var_0_0.OnDisplayWorld(arg_29_0, arg_29_1)
-	local var_29_0 = arg_29_0.ship:getCVIntimacy()
-	local var_29_1, var_29_2 = ShipExpressionHelper.SetExpression(arg_29_0._paintingGO, arg_29_0.paintingName, arg_29_1, var_29_0, arg_29_0.ship:getSkinId())
-
-	arg_29_0.expression = var_29_2
-end
-
-function var_0_0.OnTriggerEvent(arg_30_0)
-	arg_30_0:Shake(var_0_0.TOUCH_HEIGHT, var_0_0.TOUCH_DURATION, var_0_0.TOUCH_LOOP)
-end
-
-function var_0_0.OnTriggerEventAuto(arg_31_0)
-	arg_31_0:Shake(var_0_0.CHAT_HEIGHT, var_0_0.CHAT_DURATION)
-end
-
-function var_0_0.Shake(arg_32_0, arg_32_1, arg_32_2, arg_32_3)
-	local var_32_0
-	local var_32_1 = arg_32_1
-
-	if var_32_0 then
-		var_32_1 = arg_32_1 - var_0_0.DEFAULT_HEIGHT + var_32_0
+function var_0_0.OnEnableTimerEvent(arg_30_0)
+	if arg_30_0._nextChatTime and Time.realtimeSinceStartup < arg_30_0._nextChatTime then
+		return false
 	end
 
-	arg_32_3 = arg_32_3 or math.random(3) - 1
+	return true
+end
 
-	if arg_32_3 == 0 then
+function var_0_0.StartChatAnimtion(arg_31_0, arg_31_1, arg_31_2)
+	var_0_0.super.StartChatAnimtion(arg_31_0, arg_31_1, arg_31_2)
+
+	arg_31_0._nextChatTime = Time.realtimeSinceStartup + arg_31_1
+end
+
+function var_0_0.OnDisplayWorld(arg_32_0, arg_32_1)
+	local var_32_0 = arg_32_0.ship:getCVIntimacy()
+	local var_32_1, var_32_2 = ShipExpressionHelper.SetExpression(arg_32_0._paintingGO, arg_32_0.paintingName, arg_32_1, var_32_0, arg_32_0.ship:getSkinId())
+
+	arg_32_0.expression = var_32_2
+end
+
+function var_0_0.OnTriggerEvent(arg_33_0)
+	arg_33_0:Shake(var_0_0.TOUCH_HEIGHT, var_0_0.TOUCH_DURATION, var_0_0.TOUCH_LOOP)
+end
+
+function var_0_0.OnTriggerEventAuto(arg_34_0)
+	arg_34_0:Shake(var_0_0.CHAT_HEIGHT, var_0_0.CHAT_DURATION)
+end
+
+function var_0_0.Shake(arg_35_0, arg_35_1, arg_35_2, arg_35_3)
+	local var_35_0
+	local var_35_1 = arg_35_1
+
+	if var_35_0 then
+		var_35_1 = arg_35_1 - var_0_0.DEFAULT_HEIGHT + var_35_0
+	end
+
+	arg_35_3 = arg_35_3 or math.random(3) - 1
+
+	if arg_35_3 == 0 then
 		return
 	end
 
-	local var_32_2 = arg_32_0._paintingGO
+	local var_35_2 = arg_35_0._paintingGO
 
-	if not var_32_2 then
+	if not var_35_2 then
 		return
 	end
 
-	LeanTween.cancel(go(var_32_2))
-	LeanTween.moveY(rtf(var_32_2), var_32_1, 0.1):setLoopPingPong(arg_32_3):setOnComplete(System.Action(function()
-		arg_32_0:Breath()
+	LeanTween.cancel(go(var_35_2))
+	LeanTween.moveY(rtf(var_35_2), var_35_1, 0.1):setLoopPingPong(arg_35_3):setOnComplete(System.Action(function()
+		arg_35_0:Breath()
 	end))
 end
 
-function var_0_0.Breath(arg_34_0)
-	local var_34_0 = arg_34_0._paintingGO
+function var_0_0.Breath(arg_37_0)
+	local var_37_0 = arg_37_0._paintingGO
 
-	if not var_34_0 then
+	if not var_37_0 then
 		return
 	end
 
 	print("start breath")
 
-	local var_34_1
-	local var_34_2 = var_34_1 or var_0_0.BREATH_HEIGHT
-	local var_34_3 = var_34_1 and var_34_1 - 10 or var_0_0.DEFAULT_HEIGHT
+	local var_37_1
+	local var_37_2 = var_37_1 or var_0_0.BREATH_HEIGHT
+	local var_37_3 = var_37_1 and var_37_1 - 10 or var_0_0.DEFAULT_HEIGHT
 
-	LeanTween.cancel(go(var_34_0))
-	LeanTween.moveY(rtf(var_34_0), var_34_3, var_0_0.BREATH_DURATION):setLoopPingPong():setEase(LeanTweenType.easeInOutCubic):setFrom(var_34_2)
+	LeanTween.cancel(go(var_37_0))
+	LeanTween.moveY(rtf(var_37_0), var_37_3, var_0_0.BREATH_DURATION):setLoopPingPong():setEase(LeanTweenType.easeInOutCubic):setFrom(var_37_2)
 end
 
-function var_0_0.StopBreath(arg_35_0)
-	local var_35_0 = arg_35_0._paintingGO
+function var_0_0.StopBreath(arg_38_0)
+	local var_38_0 = arg_38_0._paintingGO
 
-	if not var_35_0 then
+	if not var_38_0 then
 		return
 	end
 
 	print("stop breath")
-	LeanTween.cancel(go(var_35_0))
+	LeanTween.cancel(go(var_38_0))
 end
 
-function var_0_0.OnEnableOrDisableDragAndZoom(arg_36_0, arg_36_1)
-	if arg_36_1 then
-		arg_36_0:StopBreath()
+function var_0_0.OnEnableOrDisableDragAndZoom(arg_39_0, arg_39_1)
+	if arg_39_1 then
+		arg_39_0:StopBreath()
 	else
-		arg_36_0:Breath()
+		arg_39_0:Breath()
 	end
 end
 
-function var_0_0.OnPaintingFade(arg_37_0, arg_37_1)
-	if not arg_37_0:IsLoaded() then
+function var_0_0.OnPaintingFade(arg_40_0, arg_40_1)
+	if not arg_40_0:IsLoaded() then
 		return
 	end
 
-	if arg_37_1 then
-		arg_37_0:StopBreath()
+	if arg_40_1 then
+		arg_40_0:StopBreath()
 	else
-		arg_37_0:Breath()
+		arg_40_0:Breath()
 	end
 end
 
-function var_0_0.GetPaintingTransform(arg_38_0)
-	return tf(arg_38_0._paintingGO)
+function var_0_0.GetPaintingTransform(arg_41_0)
+	return tf(arg_41_0._paintingGO)
 end
 
-function var_0_0.GetPartScaleData(arg_39_0)
-	return pg.ship_skin_template[arg_39_0.ship:getSkinId()].part_scale.paint
+function var_0_0.GetPartScaleData(arg_42_0)
+	return pg.ship_skin_template[arg_42_0.ship:getSkinId()].part_scale.paint
 end
 
-function var_0_0.GetPartStateType(arg_40_0)
+function var_0_0.GetPartStateType(arg_43_0)
 	return MainPaintingView.STATE_PAINTING
 end
 
-function var_0_0.OnFold(arg_41_0, arg_41_1)
-	if not arg_41_1 then
-		arg_41_0:Breath()
+function var_0_0.OnFold(arg_44_0, arg_44_1)
+	if not arg_44_1 then
+		arg_44_0:Breath()
 	end
 end
 
-function var_0_0.GetOffset(arg_42_0)
+function var_0_0.GetOffset(arg_45_0)
 	return MainPaintingView.MESH_POSITION_X_OFFSET
 end
 
-function var_0_0.OnResume(arg_43_0)
-	checkCullResume(arg_43_0._paintingGO)
-	arg_43_0:Breath()
-	arg_43_0:emit(NewMainScene.PAINTING_LOAD_COMPLETE)
+function var_0_0.OnResume(arg_46_0)
+	checkCullResume(arg_46_0._paintingGO)
+	arg_46_0:Breath()
+	arg_46_0:emit(NewMainScene.PAINTING_LOAD_COMPLETE)
 end
 
-function var_0_0.Unload(arg_44_0)
-	var_0_0.super.Unload(arg_44_0)
+function var_0_0.Unload(arg_47_0)
+	var_0_0.super.Unload(arg_47_0)
 
-	arg_44_0.expression = nil
+	arg_47_0.expression = nil
 end
 
-function var_0_0.OnUnload(arg_45_0)
-	arg_45_0:ClearSpecialDrag()
+function var_0_0.OnUnload(arg_48_0)
+	arg_48_0:ClearSpecialDrag()
 
-	if arg_45_0.loadPaintingName and arg_45_0._paintingGO then
-		local var_45_0 = arg_45_0._paintingGO.transform.parent.parent
+	if arg_48_0.loadPaintingName and arg_48_0._paintingGO then
+		local var_48_0 = arg_48_0._paintingGO.transform.parent.parent
 
-		if var_45_0 then
-			retPaintingPrefab(var_45_0, arg_45_0.loadPaintingName)
+		if var_48_0 then
+			retPaintingPrefab(var_48_0, arg_48_0.loadPaintingName)
 		else
-			Destroy(arg_45_0._paintingGO)
+			Destroy(arg_48_0._paintingGO)
 		end
 
-		arg_45_0.loadPaintingName = nil
+		arg_48_0.loadPaintingName = nil
 	end
 end
 
-function var_0_0.OnPause(arg_46_0)
-	arg_46_0:StopBreath()
-	arg_46_0:ClearEffect()
+function var_0_0.OnPause(arg_49_0)
+	arg_49_0:StopBreath()
+	arg_49_0:ClearEffect()
 end
 
-function var_0_0.Dispose(arg_47_0)
-	var_0_0.super.Dispose(arg_47_0)
-	arg_47_0:ClearEffect()
+function var_0_0.Dispose(arg_50_0)
+	var_0_0.super.Dispose(arg_50_0)
+	arg_50_0:ClearEffect()
 end
 
 return var_0_0

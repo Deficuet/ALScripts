@@ -137,7 +137,8 @@ pg.backyard_theme_template.all = {
 	141,
 	142,
 	143,
-	144
+	144,
+	145
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5841,6 +5842,33 @@ end)()
 			344304,
 			344305,
 			344306
+		}
+	}
+	pg.base.backyard_theme_template[145] = {
+		Cfg_1 = 5,
+		name = "漫研社",
+		hot = 1,
+		is_view = 1,
+		id = 145,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "尽情沉浸在“二次元”的世界中吧",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "mythemeicon",
+		deblocking = 1,
+		order = 145,
+		ids = {
+			345001,
+			345002,
+			345101,
+			345102,
+			345103,
+			345104,
+			345105,
+			345106,
+			345107
 		}
 	}
 end)()

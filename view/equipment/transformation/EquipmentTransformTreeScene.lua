@@ -259,8 +259,10 @@ function var_0_0.UpdateEquipmentTypes(arg_17_0)
 		arg_17_0.loader:GetSprite(var_0_2, "equipmentType" .. var_17_2, var_17_1:Find("itemName"), true)
 		setActive(var_17_1:Find("selectedframe"), false)
 		onToggle(arg_17_0, var_17_1, function(arg_18_0)
-			if arg_18_0 and arg_17_0.contextData.equipmentTypeIndex ~= var_17_2 then
-				arg_17_0.contextData.equipmentTypeIndex = var_17_2
+			local var_18_0 = var_0_0.GetSortTypes(arg_17_0.env.nationsTree[arg_17_0.contextData.nation])
+
+			if arg_18_0 and arg_17_0.contextData.equipmentTypeIndex ~= var_18_0[iter_17_0] then
+				arg_17_0.contextData.equipmentTypeIndex = var_18_0[iter_17_0]
 
 				arg_17_0:ResetCanvas()
 			end

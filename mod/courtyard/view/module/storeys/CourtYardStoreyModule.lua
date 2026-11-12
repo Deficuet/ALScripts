@@ -348,7 +348,7 @@ end
 function var_0_0.UpdateAttachment(arg_31_0)
 	for iter_31_0, iter_31_1 in pairs(arg_31_0.modules) do
 		if isa(iter_31_1, CourtYardShipModule) then
-			iter_31_1:HideAttachment(arg_31_0._layerCount ~= 0)
+			iter_31_1:HideAttachment(arg_31_0._layerCount and arg_31_0._layerCount ~= 0)
 		end
 	end
 end

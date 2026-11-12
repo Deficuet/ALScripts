@@ -312,8 +312,8 @@ function var_0_0.UpdateStory(arg_19_0, arg_19_1)
 	local var_19_7 = arg_19_0.branchUpWidth
 	local var_19_8 = arg_19_0.branchUpHeight
 	local var_19_9 = arg_19_0.UnionTailWidth
-	local var_19_10 = 95
-	local var_19_11 = 82
+	local var_19_10 = arg_19_0.NODE_SPACING or 95
+	local var_19_11 = arg_19_0.TAIL_SPACING or 82
 	local var_19_12 = 20
 	local var_19_13 = 0
 	local var_19_14 = pg.NewStoryMgr.GetInstance()

@@ -7,21 +7,22 @@ local var_0_3 = var_0_0.Battle.BattleConst
 local var_0_4 = var_0_0.Battle.BattleVariable
 local var_0_5 = var_0_0.Battle.BattleConfig
 local var_0_6 = var_0_0.Battle.BattleCardPuzzleEvent
-local var_0_7 = class("BattleUIMediator", var_0_0.MVC.Mediator)
+local var_0_7 = 0.12
+local var_0_8 = class("BattleUIMediator", var_0_0.MVC.Mediator)
 
-var_0_0.Battle.BattleUIMediator = var_0_7
-var_0_7.__name = "BattleUIMediator"
+var_0_0.Battle.BattleUIMediator = var_0_8
+var_0_8.__name = "BattleUIMediator"
 
-function var_0_7.Ctor(arg_1_0)
-	var_0_7.super.Ctor(arg_1_0)
+function var_0_8.Ctor(arg_1_0)
+	var_0_8.super.Ctor(arg_1_0)
 end
 
-function var_0_7.SetBattleUI(arg_2_0)
+function var_0_8.SetBattleUI(arg_2_0)
 	arg_2_0._ui = arg_2_0._state:GetUI()
 end
 
-function var_0_7.Initialize(arg_3_0)
-	var_0_7.super.Initialize(arg_3_0)
+function var_0_8.Initialize(arg_3_0)
+	var_0_8.super.Initialize(arg_3_0)
 
 	arg_3_0._dataProxy = arg_3_0._state:GetProxyByName(var_0_0.Battle.BattleDataProxy.__name)
 	arg_3_0._uiMGR = pg.UIMgr.GetInstance()
@@ -34,57 +35,60 @@ function var_0_7.Initialize(arg_3_0)
 	arg_3_0:InitGuide()
 end
 
-function var_0_7.Reinitialize(arg_4_0)
+function var_0_8.Reinitialize(arg_4_0)
 	arg_4_0._skillView:Dispose()
 end
 
-function var_0_7.EnableComponent(arg_5_0, arg_5_1)
+function var_0_8.EnableComponent(arg_5_0, arg_5_1)
 	arg_5_0._ui._tf:Find("PauseBtn"):GetComponent(typeof(Button)).enabled = arg_5_1
 
 	arg_5_0._skillView:EnableWeaponButton(arg_5_1)
 end
 
-function var_0_7.EnableJoystick(arg_6_0, arg_6_1)
+function var_0_8.EnableJoystick(arg_6_0, arg_6_1, arg_6_2)
 	arg_6_0._stickController.enabled = arg_6_1
+	arg_6_0._joystickVisible = arg_6_1 or arg_6_2 == true
+
+	arg_6_0._uiMGR:SetStickPosition(0, 0)
 
 	local var_6_0 = arg_6_0._joystick:GetComponent(typeof(Animation))
 
 	if var_6_0 then
-		var_6_0.enabled = arg_6_1
+		var_6_0.enabled = arg_6_0._joystickVisible
 	end
 
 	local var_6_1 = arg_6_0._joystick:GetComponent(typeof(Animator))
 
 	if var_6_1 then
-		var_6_1.enabled = arg_6_1
+		var_6_1.enabled = arg_6_0._joystickVisible
 	end
 
-	setActive(arg_6_0._joystick, arg_6_1)
+	setActive(arg_6_0._joystick, arg_6_0._joystickVisible)
 
 	local var_6_2 = arg_6_0._joystick:Find("Area/BG/spine")
 
 	if var_6_2 then
 		local var_6_3 = var_6_2:GetComponent(typeof(SpineAnimUI))
 
-		if arg_6_1 then
+		if arg_6_0._joystickVisible then
 			var_6_3:SetAction("cut_in", 0)
 		end
 	end
 end
 
-function var_0_7.EnableWeaponButton(arg_7_0, arg_7_1)
+function var_0_8.EnableWeaponButton(arg_7_0, arg_7_1)
 	arg_7_0._skillView:EnableWeaponButton(arg_7_1)
 end
 
-function var_0_7.EnableSkillFloat(arg_8_0, arg_8_1)
+function var_0_8.EnableSkillFloat(arg_8_0, arg_8_1)
 	arg_8_0._ui:EnableSkillFloat(arg_8_1)
 end
 
-function var_0_7.GetAppearFX(arg_9_0)
+function var_0_8.GetAppearFX(arg_9_0)
 	return arg_9_0._appearEffect
 end
 
-function var_0_7.DisableComponent(arg_10_0)
+function var_0_8.DisableComponent(arg_10_0)
 	arg_10_0._ui._tf:Find("PauseBtn"):GetComponent(typeof(Button)).enabled = false
 
 	arg_10_0._skillView:DisableWeapnButton()
@@ -100,11 +104,11 @@ function var_0_7.DisableComponent(arg_10_0)
 	end
 end
 
-function var_0_7.ActiveDebugConsole(arg_11_0)
+function var_0_8.ActiveDebugConsole(arg_11_0)
 	arg_11_0._debugConsoleView:SetActive(true)
 end
 
-function var_0_7.OpeningEffect(arg_12_0, arg_12_1, arg_12_2)
+function var_0_8.OpeningEffect(arg_12_0, arg_12_1, arg_12_2)
 	arg_12_0._uiMGR:SetActive(false)
 
 	if arg_12_2 == SYSTEM_SUBMARINE_RUN then
@@ -146,12 +150,12 @@ function var_0_7.OpeningEffect(arg_12_0, arg_12_1, arg_12_2)
 	arg_12_0._skillView:ButtonInitialAnima()
 end
 
-function var_0_7.InitScene(arg_14_0)
+function var_0_8.InitScene(arg_14_0)
 	arg_14_0._mapId = arg_14_0._dataProxy._mapId
 	arg_14_0._seaView = var_0_0.Battle.BattleMap.New(arg_14_0._mapId)
 end
 
-function var_0_7.InitJoystick(arg_15_0)
+function var_0_8.InitJoystick(arg_15_0)
 	arg_15_0._joystick = arg_15_0._ui._tf:Find("Stick")
 
 	local var_15_0 = var_0_5.JOY_STICK_DEFAULT_PREFERENCE
@@ -180,7 +184,7 @@ function var_0_7.InitJoystick(arg_15_0)
 
 		var_15_8:SetActionCallBack(function(arg_16_0)
 			if arg_16_0 == "finish" then
-				if arg_15_0._stickController.enabled then
+				if arg_15_0._stickController.enabled or arg_15_0._joystickVisible then
 					var_15_8:SetAction("normal", 0)
 				else
 					SetActive(arg_15_0._joystick, false)
@@ -190,7 +194,7 @@ function var_0_7.InitJoystick(arg_15_0)
 	end
 end
 
-function var_0_7.InitTimer(arg_17_0)
+function var_0_8.InitTimer(arg_17_0)
 	if arg_17_0._dataProxy:GetInitData().battleType == SYSTEM_DUEL then
 		arg_17_0._timerView = var_0_0.Battle.BattleTimerView.New(arg_17_0._ui._tf:Find("DuelTimer"))
 	else
@@ -198,29 +202,29 @@ function var_0_7.InitTimer(arg_17_0)
 	end
 end
 
-function var_0_7.InitEnemyHpBar(arg_18_0)
+function var_0_8.InitEnemyHpBar(arg_18_0)
 	arg_18_0._enemyHpBar = var_0_0.Battle.BattleEnmeyHpBarView.New(arg_18_0._ui._tf:Find("EnemyHPBar"))
 end
 
-function var_0_7.InitAirStrikeIcon(arg_19_0)
+function var_0_8.InitAirStrikeIcon(arg_19_0)
 	arg_19_0._airStrikeView = var_0_0.Battle.BattleAirStrikeIconView.New(arg_19_0._ui._tf:Find("AirFighterContainer/AirStrikeIcon"))
 	arg_19_0._airSupportTF = arg_19_0._ui._tf:Find("AirSupportLabel")
 end
 
-function var_0_7.InitCommonWarning(arg_20_0)
+function var_0_8.InitCommonWarning(arg_20_0)
 	arg_20_0._warningView = var_0_0.Battle.BattleCommonWarningView.New(arg_20_0._ui._tf:Find("WarningView"))
 	arg_20_0._updateViewList[arg_20_0._warningView] = true
 end
 
-function var_0_7.InitScoreBar(arg_21_0)
+function var_0_8.InitScoreBar(arg_21_0)
 	arg_21_0._scoreBarView = var_0_0.Battle.BattleScoreBarView.New(arg_21_0._ui._tf:Find("DodgemCountBar"))
 end
 
-function var_0_7.InitAirFightScoreBar(arg_22_0)
+function var_0_8.InitAirFightScoreBar(arg_22_0)
 	arg_22_0._scoreBarView = var_0_0.Battle.BattleScoreBarView.New(arg_22_0._ui._tf:Find("AirFightCountBar"))
 end
 
-function var_0_7.InitAutoBtn(arg_23_0)
+function var_0_8.InitAutoBtn(arg_23_0)
 	arg_23_0._autoBtn = arg_23_0._ui._tf:Find("AutoBtn")
 
 	local var_23_0 = var_0_5.AUTO_DEFAULT_PREFERENCE
@@ -233,40 +237,40 @@ function var_0_7.InitAutoBtn(arg_23_0)
 	arg_23_0._autoBtn.anchorMax = Vector2(var_23_2, var_23_3)
 end
 
-function var_0_7.InitDuelRateBar(arg_24_0)
+function var_0_8.InitDuelRateBar(arg_24_0)
 	arg_24_0._duelRateBar = var_0_0.Battle.BattleDuelDamageRateView.New(arg_24_0._ui._tf:Find("DuelDamageRate"))
 
 	return arg_24_0._duelRateBar
 end
 
-function var_0_7.InitSimulationBuffCounting(arg_25_0)
+function var_0_8.InitSimulationBuffCounting(arg_25_0)
 	arg_25_0._simulationBuffCountView = var_0_0.Battle.BattleSimulationBuffCountView.New(arg_25_0._ui._tf:Find("SimulationWarning"))
 
 	return arg_25_0._simulationBuffCountView
 end
 
-function var_0_7.InitMainDamagedView(arg_26_0)
+function var_0_8.InitMainDamagedView(arg_26_0)
 	arg_26_0._mainDamagedView = var_0_0.Battle.BattleMainDamagedView.New(arg_26_0._ui._tf:Find("HPWarning"))
 end
 
-function var_0_7.InitInkView(arg_27_0, arg_27_1)
+function var_0_8.InitInkView(arg_27_0, arg_27_1)
 	arg_27_0._inkView = var_0_0.Battle.BattleInkView.New(arg_27_0._ui._tf:Find("InkContainer"))
 
 	arg_27_1:RegisterEventListener(arg_27_0, var_0_1.FLEET_HORIZON_UPDATE, arg_27_0.onFleetHorizonUpdate)
 end
 
-function var_0_7.InitDebugConsole(arg_28_0)
+function var_0_8.InitDebugConsole(arg_28_0)
 	arg_28_0._debugConsoleView = arg_28_0._debugConsoleView or var_0_0.Battle.BattleDebugConsole.New(arg_28_0._ui._tf:Find("Debug_Console"), arg_28_0._state)
 end
 
-function var_0_7.InitCameraGestureSlider(arg_29_0)
+function var_0_8.InitCameraGestureSlider(arg_29_0)
 	arg_29_0._gesture = var_0_0.Battle.BattleCameraSlider.New(arg_29_0._ui._tf:Find("CameraController"))
 
 	var_0_0.Battle.BattleCameraUtil.GetInstance():SetCameraSilder(arg_29_0._gesture)
 	arg_29_0._cameraUtil:SwitchCameraPos("FOLLOW_GESTURE")
 end
 
-function var_0_7.InitAlchemistAPView(arg_30_0)
+function var_0_8.InitAlchemistAPView(arg_30_0)
 	if not arg_30_0._alchemistAP then
 		local var_30_0 = var_0_0.Battle.BattleResourceManager.GetInstance():InstReisalinAPUI()
 
@@ -276,7 +280,7 @@ function var_0_7.InitAlchemistAPView(arg_30_0)
 	end
 end
 
-function var_0_7.InitAlchemistManaView(arg_31_0)
+function var_0_8.InitAlchemistManaView(arg_31_0)
 	if not arg_31_0._alchemistMana then
 		local var_31_0 = var_0_0.Battle.BattleResourceManager.GetInstance():InstYumiaManaUI()
 
@@ -286,11 +290,11 @@ function var_0_7.InitAlchemistManaView(arg_31_0)
 	end
 end
 
-function var_0_7.InitGuide(arg_32_0)
+function var_0_8.InitGuide(arg_32_0)
 	return
 end
 
-function var_0_7.InitCamera(arg_33_0)
+function var_0_8.InitCamera(arg_33_0)
 	arg_33_0._camera = pg.UIMgr.GetInstance():GetMainCamera():GetComponent(typeof(Camera))
 	arg_33_0._uiCamera = GameObject.Find("UICamera"):GetComponent(typeof(Camera))
 	arg_33_0._cameraUtil = var_0_0.Battle.BattleCameraUtil.GetInstance()
@@ -300,13 +304,29 @@ function var_0_7.InitCamera(arg_33_0)
 	arg_33_0._cameraUtil:RegisterEventListener(arg_33_0, var_0_1.BULLET_TIME, arg_33_0.onBulletTime)
 end
 
-function var_0_7.Update(arg_34_0)
+function var_0_8.Update(arg_34_0)
+	if arg_34_0._joystickVisible and not arg_34_0._stickController.enabled then
+		local var_34_0 = arg_34_0._dataProxy:GetFleetByIFF(var_0_5.FRIENDLY_CODE)
+		local var_34_1 = var_34_0:GetFleetVelocity()
+		local var_34_2 = 0
+		local var_34_3 = 0
+
+		if var_34_1 > 0 then
+			local var_34_4 = var_34_0:GetMotion():GetSpeed()
+
+			var_34_2 = var_34_4.x / var_34_1
+			var_34_3 = var_34_4.z / var_34_1
+		end
+
+		arg_34_0._uiMGR:SetStickPosition(var_34_2, var_34_3, Time.deltaTime * 2 / var_0_7)
+	end
+
 	for iter_34_0, iter_34_1 in pairs(arg_34_0._updateViewList) do
 		iter_34_0:Update()
 	end
 end
 
-function var_0_7.AddUIEvent(arg_35_0)
+function var_0_8.AddUIEvent(arg_35_0)
 	arg_35_0._dataProxy:RegisterEventListener(arg_35_0, var_0_1.STAGE_DATA_INIT_FINISH, arg_35_0.onStageInit)
 	arg_35_0._dataProxy:RegisterEventListener(arg_35_0, var_0_1.COMMON_DATA_INIT_FINISH, arg_35_0.onCommonInit)
 	arg_35_0._dataProxy:RegisterEventListener(arg_35_0, var_0_1.ADD_FLEET, arg_35_0.onAddFleet)
@@ -326,7 +346,7 @@ function var_0_7.AddUIEvent(arg_35_0)
 	arg_35_0._dataProxy:RegisterEventListener(arg_35_0, var_0_6.CARD_PUZZLE_INIT, arg_35_0.OnCardPuzzleInit)
 end
 
-function var_0_7.RemoveUIEvent(arg_36_0)
+function var_0_8.RemoveUIEvent(arg_36_0)
 	arg_36_0._dataProxy:UnregisterEventListener(arg_36_0, var_0_1.COMMON_DATA_INIT_FINISH)
 	arg_36_0._dataProxy:UnregisterEventListener(arg_36_0, var_0_1.STAGE_DATA_INIT_FINISH)
 	arg_36_0._dataProxy:UnregisterEventListener(arg_36_0, var_0_1.ADD_FLEET)
@@ -364,7 +384,7 @@ function var_0_7.RemoveUIEvent(arg_36_0)
 	arg_36_0._dataProxy:UnregisterEventListener(arg_36_0, var_0_6.SHOW_CARD_DETAIL)
 end
 
-function var_0_7.ShowSkillPainting(arg_37_0, arg_37_1, arg_37_2, arg_37_3)
+function var_0_8.ShowSkillPainting(arg_37_0, arg_37_1, arg_37_2, arg_37_3)
 	arg_37_3 = arg_37_3 or 1
 
 	local var_37_0
@@ -382,21 +402,21 @@ function var_0_7.ShowSkillPainting(arg_37_0, arg_37_1, arg_37_2, arg_37_3)
 	arg_37_0._ui:CutInPainting(arg_37_1:GetTemplate(), arg_37_3, arg_37_1:GetIFF(), var_37_0)
 end
 
-function var_0_7.ShowSkillFloat(arg_38_0, arg_38_1, arg_38_2, arg_38_3)
+function var_0_8.ShowSkillFloat(arg_38_0, arg_38_1, arg_38_2, arg_38_3)
 	arg_38_0._ui:SkillHrzPop(arg_38_2, arg_38_1, arg_38_3)
 end
 
-function var_0_7.ShowSkillFloatCover(arg_39_0, arg_39_1, arg_39_2, arg_39_3)
+function var_0_8.ShowSkillFloatCover(arg_39_0, arg_39_1, arg_39_2, arg_39_3)
 	arg_39_0._ui:SkillHrzPopCover(arg_39_2, arg_39_1, arg_39_3)
 end
 
-function var_0_7.SeaSurfaceShift(arg_40_0, arg_40_1, arg_40_2, arg_40_3, arg_40_4)
+function var_0_8.SeaSurfaceShift(arg_40_0, arg_40_1, arg_40_2, arg_40_3, arg_40_4)
 	local var_40_0 = arg_40_3 or var_0_0.Battle.BattleConfig.calcInterval
 
 	arg_40_0._seaView:ShiftSurface(arg_40_1, arg_40_2, var_40_0, arg_40_4)
 end
 
-function var_0_7.ShowAutoBtn(arg_41_0)
+function var_0_8.ShowAutoBtn(arg_41_0)
 	SetActive(arg_41_0._autoBtn.transform, true)
 
 	local var_41_0 = arg_41_0:GetState():GetBattleType()
@@ -404,23 +424,23 @@ function var_0_7.ShowAutoBtn(arg_41_0)
 	triggerToggle(arg_41_0._autoBtn, var_0_0.Battle.BattleState.IsAutoBotActive(var_41_0))
 end
 
-function var_0_7.ShowTimer(arg_42_0)
+function var_0_8.ShowTimer(arg_42_0)
 	arg_42_0._timerView:SetActive(true)
 end
 
-function var_0_7.ShowDuelBar(arg_43_0)
+function var_0_8.ShowDuelBar(arg_43_0)
 	arg_43_0._duelRateBar:SetActive(true)
 end
 
-function var_0_7.ShowSimulationView(arg_44_0)
+function var_0_8.ShowSimulationView(arg_44_0)
 	arg_44_0._simulationBuffCountView:SetActive(true)
 end
 
-function var_0_7.ShowPauseButton(arg_45_0, arg_45_1)
+function var_0_8.ShowPauseButton(arg_45_0, arg_45_1)
 	setActive(arg_45_0._ui._tf:Find("PauseBtn"), arg_45_1)
 end
 
-function var_0_7.ShowDodgemScoreBar(arg_46_0)
+function var_0_8.ShowDodgemScoreBar(arg_46_0)
 	arg_46_0:InitScoreBar()
 	arg_46_0._dataProxy:RegisterEventListener(arg_46_0, var_0_1.UPDATE_DODGEM_SCORE, arg_46_0.onUpdateDodgemScore)
 	arg_46_0._dataProxy:RegisterEventListener(arg_46_0, var_0_1.UPDATE_DODGEM_COMBO, arg_46_0.onUpdateDodgemCombo)
@@ -428,7 +448,7 @@ function var_0_7.ShowDodgemScoreBar(arg_46_0)
 	arg_46_0._scoreBarView:SetActive(true)
 end
 
-function var_0_7.ShowAirFightScoreBar(arg_47_0)
+function var_0_8.ShowAirFightScoreBar(arg_47_0)
 	arg_47_0:InitAirFightScoreBar()
 	arg_47_0._dataProxy:RegisterEventListener(arg_47_0, var_0_1.UPDATE_DODGEM_SCORE, arg_47_0.onUpdateDodgemScore)
 	arg_47_0._dataProxy:RegisterEventListener(arg_47_0, var_0_1.UPDATE_DODGEM_COMBO, arg_47_0.onUpdateDodgemCombo)
@@ -436,7 +456,7 @@ function var_0_7.ShowAirFightScoreBar(arg_47_0)
 	arg_47_0._scoreBarView:SetActive(true)
 end
 
-function var_0_7.ScaleUISpeed(arg_48_0, arg_48_1)
+function var_0_8.ScaleUISpeed(arg_48_0, arg_48_1)
 	local var_48_0 = arg_48_0._ui._tf:Find("AutoBtn/on"):GetComponent(typeof(Animation))
 
 	if var_48_0 then
@@ -450,7 +470,7 @@ function var_0_7.ScaleUISpeed(arg_48_0, arg_48_1)
 	end
 end
 
-function var_0_7.onStageInit(arg_49_0, arg_49_1)
+function var_0_8.onStageInit(arg_49_0, arg_49_1)
 	arg_49_0:InitJoystick()
 	arg_49_0:InitScene()
 	arg_49_0:InitTimer()
@@ -461,7 +481,7 @@ function var_0_7.onStageInit(arg_49_0, arg_49_1)
 	arg_49_0:InitMainDamagedView()
 end
 
-function var_0_7.onEnemyHit(arg_50_0, arg_50_1)
+function var_0_8.onEnemyHit(arg_50_0, arg_50_1)
 	local var_50_0 = arg_50_1.Data
 
 	if var_50_0:GetDiveInvisible() and not var_50_0:GetDiveDetected() then
@@ -479,7 +499,7 @@ function var_0_7.onEnemyHit(arg_50_0, arg_50_1)
 	end
 end
 
-function var_0_7.onEnemyHpUpdate(arg_51_0, arg_51_1)
+function var_0_8.onEnemyHpUpdate(arg_51_0, arg_51_1)
 	local var_51_0 = arg_51_1.Dispatcher
 
 	if var_51_0 == arg_51_0._enemyHpBar:GetCurrentTarget() and (not var_51_0:GetDiveInvisible() or var_51_0:GetDiveDetected()) then
@@ -487,13 +507,13 @@ function var_0_7.onEnemyHpUpdate(arg_51_0, arg_51_1)
 	end
 end
 
-function var_0_7.onPlayerMainUnitHpUpdate(arg_52_0, arg_52_1)
+function var_0_8.onPlayerMainUnitHpUpdate(arg_52_0, arg_52_1)
 	if arg_52_1.Data.dHP < 0 then
 		arg_52_0._mainDamagedView:Play()
 	end
 end
 
-function var_0_7.onSkillFloat(arg_53_0, arg_53_1)
+function var_0_8.onSkillFloat(arg_53_0, arg_53_1)
 	local var_53_0 = arg_53_1.Data
 	local var_53_1 = var_53_0.coverHrzIcon
 	local var_53_2 = var_53_0.commander
@@ -507,7 +527,7 @@ function var_0_7.onSkillFloat(arg_53_0, arg_53_1)
 	end
 end
 
-function var_0_7.onCommonInit(arg_54_0, arg_54_1)
+function var_0_8.onCommonInit(arg_54_0, arg_54_1)
 	arg_54_0._skillView = var_0_0.Battle.BattleSkillView.New(arg_54_0, arg_54_1.Data)
 	arg_54_0._updateViewList[arg_54_0._skillView] = true
 	arg_54_0._userFleet = arg_54_0._dataProxy:GetFleetByIFF(var_0_5.FRIENDLY_CODE)
@@ -553,7 +573,7 @@ function var_0_7.onCommonInit(arg_54_0, arg_54_1)
 	end
 end
 
-function var_0_7.onAddFleet(arg_55_0, arg_55_1)
+function var_0_8.onAddFleet(arg_55_0, arg_55_1)
 	local var_55_0 = arg_55_1.Data.fleetVO
 
 	if PlayerPrefs.GetInt(BATTLE_EXPOSE_LINE, 1) == 1 then
@@ -561,7 +581,7 @@ function var_0_7.onAddFleet(arg_55_0, arg_55_1)
 	end
 end
 
-function var_0_7.SetFleetCloakLine(arg_56_0, arg_56_1)
+function var_0_8.SetFleetCloakLine(arg_56_0, arg_56_1)
 	if #arg_56_1:GetCloakList() > 0 then
 		local var_56_0 = arg_56_1:GetIFF()
 		local var_56_1 = arg_56_1:GetFleetVisionLine()
@@ -571,7 +591,7 @@ function var_0_7.SetFleetCloakLine(arg_56_0, arg_56_1)
 	end
 end
 
-function var_0_7.onAddUnit(arg_57_0, arg_57_1)
+function var_0_8.onAddUnit(arg_57_0, arg_57_1)
 	local var_57_0 = arg_57_1.Data.type
 	local var_57_1 = arg_57_1.Data.unit
 
@@ -598,7 +618,7 @@ function var_0_7.onAddUnit(arg_57_0, arg_57_1)
 	end
 end
 
-function var_0_7.onSubmarineDetected(arg_58_0, arg_58_1)
+function var_0_8.onSubmarineDetected(arg_58_0, arg_58_1)
 	local var_58_0 = arg_58_1.Dispatcher
 
 	if arg_58_0._enemyHpBar:GetCurrentTarget() and arg_58_0._enemyHpBar:GetCurrentTarget() == var_58_0 and var_58_0:GetDiveDetected() == false then
@@ -606,7 +626,7 @@ function var_0_7.onSubmarineDetected(arg_58_0, arg_58_1)
 	end
 end
 
-function var_0_7.onRemoveUnit(arg_59_0, arg_59_1)
+function var_0_8.onRemoveUnit(arg_59_0, arg_59_1)
 	local var_59_0 = arg_59_1.Data.unit
 	local var_59_1 = arg_59_1.Data.type
 
@@ -625,37 +645,37 @@ function var_0_7.onRemoveUnit(arg_59_0, arg_59_1)
 	end
 end
 
-function var_0_7.onUpdateCountDown(arg_60_0, arg_60_1)
+function var_0_8.onUpdateCountDown(arg_60_0, arg_60_1)
 	arg_60_0._timerView:SetCountDownText(arg_60_0._dataProxy:GetCountDown())
 end
 
-function var_0_7.onUpdateDodgemScore(arg_61_0, arg_61_1)
+function var_0_8.onUpdateDodgemScore(arg_61_0, arg_61_1)
 	local var_61_0 = arg_61_1.Data.totalScore
 
 	arg_61_0._scoreBarView:UpdateScore(var_61_0)
 end
 
-function var_0_7.onUpdateDodgemCombo(arg_62_0, arg_62_1)
+function var_0_8.onUpdateDodgemCombo(arg_62_0, arg_62_1)
 	local var_62_0 = arg_62_1.Data.combo
 
 	arg_62_0._scoreBarView:UpdateCombo(var_62_0)
 end
 
-function var_0_7.onAddAirStrike(arg_63_0, arg_63_1)
+function var_0_8.onAddAirStrike(arg_63_0, arg_63_1)
 	local var_63_0 = arg_63_1.Data.index
 	local var_63_1 = arg_63_0._dataProxy:GetAirFighterInfo(var_63_0)
 
 	arg_63_0._airStrikeView:AppendIcon(var_63_0, var_63_1)
 end
 
-function var_0_7.onRemoveAirStrike(arg_64_0, arg_64_1)
+function var_0_8.onRemoveAirStrike(arg_64_0, arg_64_1)
 	local var_64_0 = arg_64_1.Data.index
 	local var_64_1 = arg_64_0._dataProxy:GetAirFighterInfo(var_64_0)
 
 	arg_64_0._airStrikeView:RemoveIcon(var_64_0, var_64_1)
 end
 
-function var_0_7.onUpdateAirSupportLabel(arg_65_0, arg_65_1)
+function var_0_8.onUpdateAirSupportLabel(arg_65_0, arg_65_1)
 	local var_65_0 = arg_65_0._dataProxy:GetAirFighterList()
 	local var_65_1 = 0
 
@@ -672,14 +692,14 @@ function var_0_7.onUpdateAirSupportLabel(arg_65_0, arg_65_1)
 	end
 end
 
-function var_0_7.onUpdateHostileSubmarine(arg_67_0, arg_67_1)
+function var_0_8.onUpdateHostileSubmarine(arg_67_0, arg_67_1)
 	local var_67_0 = arg_67_0._dataProxy:GetEnemySubmarineCount()
 
 	arg_67_0._warningView:UpdateHostileSubmarineCount(var_67_0)
 	arg_67_0:onUpdateAirSupportLabel()
 end
 
-function var_0_7.onUpdateEnvironmentWarning(arg_68_0, arg_68_1)
+function var_0_8.onUpdateEnvironmentWarning(arg_68_0, arg_68_1)
 	if arg_68_1.Data.isActive then
 		arg_68_0._warningView:ActiveWarning(arg_68_0._warningView.WARNING_TYPE_ARTILLERY)
 	else
@@ -687,7 +707,7 @@ function var_0_7.onUpdateEnvironmentWarning(arg_68_0, arg_68_1)
 	end
 end
 
-function var_0_7.onCameraFocus(arg_69_0, arg_69_1)
+function var_0_8.onCameraFocus(arg_69_0, arg_69_1)
 	local var_69_0 = arg_69_1.Data
 
 	if var_69_0.unit ~= nil then
@@ -705,13 +725,13 @@ function var_0_7.onCameraFocus(arg_69_0, arg_69_1)
 	end
 end
 
-function var_0_7.onShowPainting(arg_71_0, arg_71_1)
+function var_0_8.onShowPainting(arg_71_0, arg_71_1)
 	local var_71_0 = arg_71_1.Data
 
 	arg_71_0:ShowSkillPainting(var_71_0.caster, var_71_0.skill, var_71_0.speed)
 end
 
-function var_0_7.onBulletTime(arg_72_0, arg_72_1)
+function var_0_8.onBulletTime(arg_72_0, arg_72_1)
 	local var_72_0 = arg_72_1.Data
 	local var_72_1 = var_72_0.key
 	local var_72_2 = var_72_0.rate
@@ -725,19 +745,19 @@ function var_0_7.onBulletTime(arg_72_0, arg_72_1)
 	arg_72_0._seaView:UpdateSpeedScaler()
 end
 
-function var_0_7.onShowBuffer(arg_73_0, arg_73_1)
+function var_0_8.onShowBuffer(arg_73_0, arg_73_1)
 	local var_73_0 = arg_73_1.Data.dist
 
 	arg_73_0._seaView:UpdateBufferAlpha(var_73_0)
 end
 
-function var_0_7.onManualSubShift(arg_74_0, arg_74_1)
+function var_0_8.onManualSubShift(arg_74_0, arg_74_1)
 	local var_74_0 = arg_74_1.Data.state
 
 	arg_74_0._skillView:ShiftSubmarineManualButton(var_74_0)
 end
 
-function var_0_7.onPointHitSight(arg_75_0, arg_75_1)
+function var_0_8.onPointHitSight(arg_75_0, arg_75_1)
 	local var_75_0 = arg_75_1.ID
 
 	if var_75_0 == var_0_2.POINT_HIT_CHARGE then
@@ -751,7 +771,7 @@ function var_0_7.onPointHitSight(arg_75_0, arg_75_1)
 	end
 end
 
-function var_0_7.onFleetBlind(arg_76_0, arg_76_1)
+function var_0_8.onFleetBlind(arg_76_0, arg_76_1)
 	local var_76_0 = arg_76_1.Data.isBlind
 	local var_76_1 = arg_76_1.Dispatcher
 
@@ -774,7 +794,7 @@ function var_0_7.onFleetBlind(arg_76_0, arg_76_1)
 	end
 end
 
-function var_0_7.onFleetHorizonUpdate(arg_77_0, arg_77_1)
+function var_0_8.onFleetHorizonUpdate(arg_77_0, arg_77_1)
 	if not arg_77_0._inkView then
 		return
 	end
@@ -784,7 +804,7 @@ function var_0_7.onFleetHorizonUpdate(arg_77_0, arg_77_1)
 	arg_77_0._inkView:UpdateHollow(var_77_0)
 end
 
-function var_0_7.onFleetAttrUpdate(arg_78_0, arg_78_1)
+function var_0_8.onFleetAttrUpdate(arg_78_0, arg_78_1)
 	if arg_78_0._alchemistAP and arg_78_1.Data.attr == arg_78_0._alchemistAP:GetAttrName() then
 		arg_78_0._alchemistAP:UpdateAP(arg_78_1.Data.value)
 	end
@@ -794,7 +814,7 @@ function var_0_7.onFleetAttrUpdate(arg_78_0, arg_78_1)
 	end
 end
 
-function var_0_7.OnAddUIFX(arg_79_0, arg_79_1)
+function var_0_8.OnAddUIFX(arg_79_0, arg_79_1)
 	local var_79_0 = arg_79_1.Data.FXID
 	local var_79_1 = arg_79_1.Data.position
 	local var_79_2 = arg_79_1.Data.localScale
@@ -803,7 +823,7 @@ function var_0_7.OnAddUIFX(arg_79_0, arg_79_1)
 	arg_79_0:AddUIFX(var_79_3, var_79_0, var_79_1, var_79_2)
 end
 
-function var_0_7.AddUIFX(arg_80_0, arg_80_1, arg_80_2, arg_80_3, arg_80_4)
+function var_0_8.AddUIFX(arg_80_0, arg_80_1, arg_80_2, arg_80_3, arg_80_4)
 	local var_80_0 = arg_80_0._fxPool:GetFX(arg_80_2)
 
 	arg_80_1 = arg_80_1 or 1
@@ -820,7 +840,7 @@ function var_0_7.AddUIFX(arg_80_0, arg_80_1, arg_80_2, arg_80_3, arg_80_4)
 	pg.EffectMgr.GetInstance():PlayBattleEffect(var_80_0, arg_80_3, true)
 end
 
-function var_0_7.AddBossWarningUI(arg_81_0)
+function var_0_8.AddBossWarningUI(arg_81_0)
 	arg_81_0._dataProxy:BlockManualCast(true)
 
 	local var_81_0 = var_0_0.Battle.BattleResourceManager.GetInstance()
@@ -853,20 +873,20 @@ function var_0_7.AddBossWarningUI(arg_81_0)
 	SetActive(arg_81_0._appearEffect, true)
 end
 
-function var_0_7.OnHideButtons(arg_85_0, arg_85_1)
+function var_0_8.OnHideButtons(arg_85_0, arg_85_1)
 	local var_85_0 = arg_85_1.Data.isActive
 
 	arg_85_0._skillView:HideSkillButton(not var_85_0)
 	SetActive(arg_85_0._autoBtn.transform, var_85_0)
 end
 
-function var_0_7.onEditCustomWarning(arg_86_0, arg_86_1)
+function var_0_8.onEditCustomWarning(arg_86_0, arg_86_1)
 	local var_86_0 = arg_86_1.Data.labelData
 
 	arg_86_0._warningView:EditCustomWarning(var_86_0)
 end
 
-function var_0_7.onGridmanSkillFloat(arg_87_0, arg_87_1)
+function var_0_8.onGridmanSkillFloat(arg_87_0, arg_87_1)
 	if not arg_87_0._gridmanSkillFloat then
 		local var_87_0 = var_0_0.Battle.BattleResourceManager.GetInstance():InstGridmanSkillUI()
 
@@ -886,12 +906,12 @@ function var_0_7.onGridmanSkillFloat(arg_87_0, arg_87_1)
 	end
 end
 
-function var_0_7.registerUnitEvent(arg_88_0, arg_88_1)
+function var_0_8.registerUnitEvent(arg_88_0, arg_88_1)
 	arg_88_1:RegisterEventListener(arg_88_0, var_0_2.SKILL_FLOAT, arg_88_0.onSkillFloat)
 	arg_88_1:RegisterEventListener(arg_88_0, var_0_2.CUT_INT, arg_88_0.onShowPainting)
 end
 
-function var_0_7.registerNPCUnitEvent(arg_89_0, arg_89_1)
+function var_0_8.registerNPCUnitEvent(arg_89_0, arg_89_1)
 	arg_89_1:RegisterEventListener(arg_89_0, var_0_2.UPDATE_HP, arg_89_0.onEnemyHpUpdate)
 
 	local var_89_0 = arg_89_1:GetTemplate().type
@@ -901,16 +921,16 @@ function var_0_7.registerNPCUnitEvent(arg_89_0, arg_89_1)
 	end
 end
 
-function var_0_7.registerPlayerMainUnitEvent(arg_90_0, arg_90_1)
+function var_0_8.registerPlayerMainUnitEvent(arg_90_0, arg_90_1)
 	arg_90_1:RegisterEventListener(arg_90_0, var_0_2.UPDATE_HP, arg_90_0.onPlayerMainUnitHpUpdate)
 end
 
-function var_0_7.unregisterUnitEvent(arg_91_0, arg_91_1)
+function var_0_8.unregisterUnitEvent(arg_91_0, arg_91_1)
 	arg_91_1:UnregisterEventListener(arg_91_0, var_0_2.SKILL_FLOAT)
 	arg_91_1:UnregisterEventListener(arg_91_0, var_0_2.CUT_INT)
 end
 
-function var_0_7.unregisterNPCUnitEvent(arg_92_0, arg_92_1)
+function var_0_8.unregisterNPCUnitEvent(arg_92_0, arg_92_1)
 	arg_92_1:UnregisterEventListener(arg_92_0, var_0_2.SKILL_FLOAT)
 	arg_92_1:UnregisterEventListener(arg_92_0, var_0_2.CUT_INT)
 	arg_92_1:UnregisterEventListener(arg_92_0, var_0_2.UPDATE_HP)
@@ -922,11 +942,11 @@ function var_0_7.unregisterNPCUnitEvent(arg_92_0, arg_92_1)
 	end
 end
 
-function var_0_7.unregisterPlayerMainUnitEvent(arg_93_0, arg_93_1)
+function var_0_8.unregisterPlayerMainUnitEvent(arg_93_0, arg_93_1)
 	arg_93_1:UnregisterEventListener(arg_93_0, var_0_2.UPDATE_HP)
 end
 
-function var_0_7.Dispose(arg_94_0)
+function var_0_8.Dispose(arg_94_0)
 	LeanTween.cancel(arg_94_0._ui._go)
 	arg_94_0._uiMGR:ClearStick()
 
@@ -1002,24 +1022,24 @@ function var_0_7.Dispose(arg_94_0)
 		arg_94_0:DisposeCardPuzzleComponent()
 	end
 
-	var_0_7.super.Dispose(arg_94_0)
+	var_0_8.super.Dispose(arg_94_0)
 end
 
-function var_0_7.OnCardPuzzleInit(arg_95_0, arg_95_1)
+function var_0_8.OnCardPuzzleInit(arg_95_0, arg_95_1)
 	arg_95_0._cardPuzzleComponent = arg_95_0._dataProxy:GetFleetByIFF(var_0_5.FRIENDLY_CODE):GetCardPuzzleComponent()
 
 	arg_95_0:ShowCardPuzzleComponent()
 	arg_95_0:RegisterCardPuzzleEvent()
 end
 
-function var_0_7.RegisterCardPuzzleEvent(arg_96_0)
+function var_0_8.RegisterCardPuzzleEvent(arg_96_0)
 	arg_96_0._cardPuzzleComponent:RegisterEventListener(arg_96_0, var_0_6.UPDATE_FLEET_SHIP, arg_96_0.onUpdateFleetShip)
 	arg_96_0._cardPuzzleComponent:RegisterEventListener(arg_96_0, var_0_6.COMMON_BUTTON_ENABLE, arg_96_0.onBlockCommonButton)
 	arg_96_0._cardPuzzleComponent:RegisterEventListener(arg_96_0, var_0_6.LONG_PRESS_BULLET_TIME, arg_96_0.onLongPressBulletTime)
 	arg_96_0._cardPuzzleComponent:RegisterEventListener(arg_96_0, var_0_6.SHOW_CARD_DETAIL, arg_96_0.onShowCardDetail)
 end
 
-function var_0_7.ShowCardPuzzleComponent(arg_97_0)
+function var_0_8.ShowCardPuzzleComponent(arg_97_0)
 	setActive(arg_97_0._ui._tf:Find("CardPuzzleConsole"), true)
 	arg_97_0:InitCardPuzzleCommonHPBar()
 	arg_97_0:InitCardPuzzleEnergyBar()
@@ -1033,7 +1053,7 @@ function var_0_7.ShowCardPuzzleComponent(arg_97_0)
 	arg_97_0:InitCardPuzzleGoalRemind()
 end
 
-function var_0_7.InitCardPuzzleCommonHPBar(arg_98_0)
+function var_0_8.InitCardPuzzleCommonHPBar(arg_98_0)
 	arg_98_0._cardPuzzleHPBar = var_0_0.Battle.CardPuzzleCommonHPBar.New(arg_98_0._ui._tf:Find("CardPuzzleConsole/commonHP"))
 
 	arg_98_0._cardPuzzleHPBar:SetCardPuzzleComponent(arg_98_0._cardPuzzleComponent)
@@ -1041,7 +1061,7 @@ function var_0_7.InitCardPuzzleCommonHPBar(arg_98_0)
 	arg_98_0._updateViewList[arg_98_0._cardPuzzleHPBar] = true
 end
 
-function var_0_7.InitCardPuzzleEnergyBar(arg_99_0)
+function var_0_8.InitCardPuzzleEnergyBar(arg_99_0)
 	arg_99_0._cardPuzzleEnergyBar = var_0_0.Battle.CardPuzzleEnergyBar.New(arg_99_0._ui._tf:Find("CardPuzzleConsole/energy_block"))
 
 	arg_99_0._cardPuzzleEnergyBar:SetCardPuzzleComponent(arg_99_0._cardPuzzleComponent)
@@ -1049,19 +1069,19 @@ function var_0_7.InitCardPuzzleEnergyBar(arg_99_0)
 	arg_99_0._updateViewList[arg_99_0._cardPuzzleEnergyBar] = true
 end
 
-function var_0_7.InitCameraCardBoardClicker(arg_100_0)
+function var_0_8.InitCameraCardBoardClicker(arg_100_0)
 	arg_100_0._cardPuzzleBoardClicker = var_0_0.Battle.CardPuzzleBoardClicker.New(arg_100_0._ui._tf:Find("CardBoardController"))
 
 	arg_100_0._cardPuzzleBoardClicker:SetCardPuzzleComponent(arg_100_0._cardPuzzleComponent)
 end
 
-function var_0_7.IntCardPuzzleFleetHead(arg_101_0)
+function var_0_8.IntCardPuzzleFleetHead(arg_101_0)
 	arg_101_0._cardPuzzleFleetHead = var_0_0.Battle.CardPuzzleFleetHead.New(arg_101_0._ui._tf:Find("CardPuzzleConsole/fleet"))
 
 	arg_101_0._cardPuzzleFleetHead:SetCardPuzzleComponent(arg_101_0._cardPuzzleComponent)
 end
 
-function var_0_7.InitCardPuzzleMovePile(arg_102_0)
+function var_0_8.InitCardPuzzleMovePile(arg_102_0)
 	arg_102_0._cardPuzzleMovePile = var_0_0.Battle.CardPuzzleMovePile.New(arg_102_0._ui._tf:Find("CardPuzzleConsole/movedeck"))
 
 	arg_102_0._cardPuzzleMovePile:SetCardPuzzleComponent(arg_102_0._cardPuzzleComponent)
@@ -1069,13 +1089,13 @@ function var_0_7.InitCardPuzzleMovePile(arg_102_0)
 	arg_102_0._updateViewList[arg_102_0._cardPuzzleMovePile] = true
 end
 
-function var_0_7.InitCardPuzzleDeckPile(arg_103_0)
+function var_0_8.InitCardPuzzleDeckPile(arg_103_0)
 	arg_103_0._cardPuzzleDeckPile = var_0_0.Battle.CardPuzzleDeckPool.New(arg_103_0._ui._tf:Find("CardPuzzleConsole/deck"))
 
 	arg_103_0._cardPuzzleDeckPile:SetCardPuzzleComponent(arg_103_0._cardPuzzleComponent)
 end
 
-function var_0_7.InitCardPuzzleIconList(arg_104_0)
+function var_0_8.InitCardPuzzleIconList(arg_104_0)
 	arg_104_0._cardPuzzleStatusIcon = var_0_0.Battle.CardPuzzleFleetIconList.New(arg_104_0._ui._tf:Find("CardPuzzleConsole/statusIcon"))
 
 	arg_104_0._cardPuzzleStatusIcon:SetCardPuzzleComponent(arg_104_0._cardPuzzleComponent)
@@ -1083,7 +1103,7 @@ function var_0_7.InitCardPuzzleIconList(arg_104_0)
 	arg_104_0._updateViewList[arg_104_0._cardPuzzleStatusIcon] = true
 end
 
-function var_0_7.InitCardPuzzleHandBoard(arg_105_0)
+function var_0_8.InitCardPuzzleHandBoard(arg_105_0)
 	arg_105_0._cardPuzzleHandBoard = var_0_0.Battle.CardPuzzleHandBoard.New(arg_105_0._ui._tf:Find("CardPuzzleConsole/cardboard"), arg_105_0._ui._tf:Find("CardPuzzleConsole/hand"))
 
 	arg_105_0._cardPuzzleHandBoard:SetCardPuzzleComponent(arg_105_0._cardPuzzleComponent)
@@ -1091,17 +1111,17 @@ function var_0_7.InitCardPuzzleHandBoard(arg_105_0)
 	arg_105_0._updateViewList[arg_105_0._cardPuzzleHandBoard] = true
 end
 
-function var_0_7.InitCardPuzzleGoalRemind(arg_106_0)
+function var_0_8.InitCardPuzzleGoalRemind(arg_106_0)
 	arg_106_0._cardPuzzleGoalRemind = var_0_0.Battle.CardPuzzleGoalRemind.New(arg_106_0._ui._tf:Find("CardPuzzleConsole/goal"))
 
 	arg_106_0._cardPuzzleGoalRemind:SetCardPuzzleComponent(arg_106_0._cardPuzzleComponent)
 end
 
-function var_0_7.InitCardPuzzleCardDetail(arg_107_0)
+function var_0_8.InitCardPuzzleCardDetail(arg_107_0)
 	arg_107_0._cardPuzzleCardDetail = var_0_0.Battle.CardPuzzleCardDetail.New(arg_107_0._ui._tf:Find("CardPuzzleConsole/cardDetail"))
 end
 
-function var_0_7.DisposeCardPuzzleComponent(arg_108_0)
+function var_0_8.DisposeCardPuzzleComponent(arg_108_0)
 	arg_108_0._cardPuzzleHPBar:Dispose()
 	arg_108_0._cardPuzzleEnergyBar:Dispose()
 	arg_108_0._cardPuzzleBoardClicker:Dispose()
@@ -1114,27 +1134,27 @@ function var_0_7.DisposeCardPuzzleComponent(arg_108_0)
 	arg_108_0._cardPuzzleCardDetail:Dispose()
 end
 
-function var_0_7.onUpdateFleetBuff(arg_109_0)
+function var_0_8.onUpdateFleetBuff(arg_109_0)
 	return
 end
 
-function var_0_7.onUpdateFleetShip(arg_110_0, arg_110_1)
+function var_0_8.onUpdateFleetShip(arg_110_0, arg_110_1)
 	arg_110_0._cardPuzzleFleetHead:UpdateShipIcon(arg_110_1.Data.teamType)
 end
 
-function var_0_7.onBlockCommonButton(arg_111_0, arg_111_1)
+function var_0_8.onBlockCommonButton(arg_111_0, arg_111_1)
 	local var_111_0 = arg_111_1.Data.flag
 
 	arg_111_0:EnableComponent(var_111_0)
 end
 
-function var_0_7.onLongPressBulletTime(arg_112_0, arg_112_1)
+function var_0_8.onLongPressBulletTime(arg_112_0, arg_112_1)
 	local var_112_0 = arg_112_1.Data.timeScale
 
 	arg_112_0._state:ScaleTimer(var_112_0)
 end
 
-function var_0_7.onShowCardDetail(arg_113_0, arg_113_1)
+function var_0_8.onShowCardDetail(arg_113_0, arg_113_1)
 	local var_113_0 = arg_113_1.Data.card
 
 	if var_113_0 then

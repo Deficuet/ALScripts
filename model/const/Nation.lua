@@ -53,6 +53,7 @@ function var_0_0.Nation2Print(arg_3_0)
 			[111] = "um",
 			[102] = "bili",
 			[110] = "um",
+			[118] = "um",
 			[103] = "um",
 			[109] = "um",
 			[117] = "um",
@@ -95,6 +96,7 @@ function var_0_0.Nation2Side(arg_4_0)
 			[111] = "Jp",
 			[102] = "Cn",
 			[110] = "Jp",
+			[118] = "Jp",
 			[103] = "Jp",
 			[109] = "West",
 			[117] = "West",
@@ -136,6 +138,7 @@ function var_0_0.Nation2BG(arg_5_0)
 			[111] = "bg/bg_church",
 			[102] = "bg/bg_church",
 			[110] = "bg/bg_church",
+			[118] = "bg/bg_church",
 			[103] = "bg/bg_church",
 			[109] = "bg/bg_church",
 			[117] = "bg/bg_church",
@@ -187,7 +190,8 @@ function var_0_0.Nation2Name(arg_6_0)
 			[113] = i18n("word_shipNation_yumia"),
 			[114] = i18n("word_shipNation_danmachi"),
 			[115] = i18n("word_shipNation_dal"),
-			[117] = i18n("word_shipNation_nierautomata")
+			[117] = i18n("word_shipNation_nierautomata"),
+			[118] = i18n("word_shipNation_ririsa")
 		}
 	end
 
@@ -228,7 +232,8 @@ function var_0_0.Nation2facionName(arg_7_0)
 			[113] = i18n("guild_faction_unknown"),
 			[114] = i18n("guild_faction_unknown"),
 			[115] = i18n("guild_faction_unknown"),
-			[117] = i18n("guild_faction_unknown")
+			[117] = i18n("guild_faction_unknown"),
+			[118] = i18n("guild_faction_unknown")
 		}
 	end
 

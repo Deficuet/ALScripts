@@ -196712,6 +196712,34 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[68761] = {
+		display = "可以获得天使羽翼(鱼雷机)、天使羽翼(战斗机)、天使羽翼(轰炸机)外观装备各一件",
+		name = "天使羽翼",
+		drop_arg = "",
+		type = 98,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = -1,
+		replace_item = 0,
+		virtual_type = 0,
+		id = 68761,
+		link_id = 0,
+		icon = "Equips/999131",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[68800] = {
 		display = "不会被看见，转换用",
 		name = "【新手任务】第1阶段pt",

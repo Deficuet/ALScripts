@@ -1318,52 +1318,57 @@ function var_0_5.GetAircraftResource(arg_79_0, arg_79_1, arg_79_2, arg_79_3)
 	arg_79_2 = arg_79_2 or 0
 
 	local var_79_1 = var_0_1.GetAircraftTmpDataFromID(arg_79_0)
-	local var_79_2
-	local var_79_3
-	local var_79_4
-	local var_79_5
 
 	if arg_79_2 ~= 0 then
-		local var_79_6, var_79_7, var_79_8
+		for iter_79_0, iter_79_1 in ipairs(var_0_1.GetEquipSkinGroupList(arg_79_2)) do
+			local var_79_2 = var_0_1.GetEquipSkinDataFromID(iter_79_1)
+			local var_79_3, var_79_4, var_79_5, var_79_6 = var_0_1.GetEquipSkin(iter_79_1)
 
-		var_79_2, var_79_6, var_79_7, var_79_8 = var_0_1.GetEquipSkin(arg_79_2)
+			if var_79_4 ~= "" then
+				var_79_0[#var_79_0 + 1] = var_0_5.GetBulletPath(var_79_4)
+			end
 
-		if var_79_6 ~= "" then
-			var_79_0[#var_79_0 + 1] = var_0_5.GetBulletPath(var_79_6)
-		end
+			if var_79_5 ~= "" then
+				var_79_0[#var_79_0 + 1] = var_0_5.GetBulletPath(var_79_5)
+			end
 
-		if var_79_7 ~= "" then
-			var_79_0[#var_79_0 + 1] = var_0_5.GetBulletPath(var_79_7)
-		end
+			if var_79_6 ~= "" then
+				var_79_0[#var_79_0 + 1] = var_0_5.GetBulletPath(var_79_6)
+			end
 
-		if var_79_8 ~= "" then
-			var_79_0[#var_79_0 + 1] = var_0_5.GetBulletPath(var_79_8)
+			if var_79_2.fire_fx_name ~= "" then
+				var_79_0[#var_79_0 + 1] = var_0_5.GetFXPath(var_79_2.fire_fx_name)
+			end
+
+			if var_79_2.hit_fx_name ~= "" then
+				var_79_0[#var_79_0 + 1] = var_0_5.GetFXPath(var_79_2.hit_fx_name)
+			end
+
+			var_79_0[#var_79_0 + 1] = var_0_5.GetCharacterGoPath(var_79_3)
 		end
 	else
-		var_79_2 = var_79_1.model_ID
+		var_79_0[#var_79_0 + 1] = var_0_5.GetCharacterGoPath(var_79_1.model_ID)
 	end
-
-	var_79_0[#var_79_0 + 1] = var_0_5.GetCharacterGoPath(var_79_2)
 
 	if arg_79_3 then
 		var_79_0[#var_79_0 + 1] = var_0_5.GetAircraftIconPath(var_79_1.model_ID)
 	end
 
-	local var_79_9 = arg_79_1 or var_79_1.weapon_ID
+	local var_79_7 = arg_79_1 or var_79_1.weapon_ID
 
-	if type(var_79_9) == "table" then
-		for iter_79_0, iter_79_1 in ipairs(var_79_9) do
-			local var_79_10 = var_0_5.GetWeaponResource(iter_79_1)
+	if type(var_79_7) == "table" then
+		for iter_79_2, iter_79_3 in ipairs(var_79_7) do
+			local var_79_8 = var_0_5.GetWeaponResource(iter_79_3)
 
-			for iter_79_2, iter_79_3 in ipairs(var_79_10) do
-				var_79_0[#var_79_0 + 1] = iter_79_3
+			for iter_79_4, iter_79_5 in ipairs(var_79_8) do
+				var_79_0[#var_79_0 + 1] = iter_79_5
 			end
 		end
 	else
-		local var_79_11 = var_0_5.GetWeaponResource(var_79_9)
+		local var_79_9 = var_0_5.GetWeaponResource(var_79_7)
 
-		for iter_79_4, iter_79_5 in ipairs(var_79_11) do
-			var_79_0[#var_79_0 + 1] = iter_79_5
+		for iter_79_6, iter_79_7 in ipairs(var_79_9) do
+			var_79_0[#var_79_0 + 1] = iter_79_7
 		end
 	end
 
@@ -1693,38 +1698,40 @@ end
 
 function var_0_5.GetEquipSkinBulletRes(arg_92_0)
 	local var_92_0 = {}
-	local var_92_1, var_92_2, var_92_3, var_92_4 = var_0_1.GetEquipSkin(arg_92_0)
 
-	local function var_92_5(arg_93_0)
+	local function var_92_1(arg_93_0)
 		if arg_93_0 ~= "" then
 			var_92_0[#var_92_0 + 1] = var_0_5.GetBulletPath(arg_93_0)
 		end
 	end
 
-	local var_92_6 = var_0_1.GetEquipSkinDataFromID(arg_92_0)
-	local var_92_7 = false
+	for iter_92_0, iter_92_1 in ipairs(var_0_1.GetEquipSkinGroupList(arg_92_0)) do
+		local var_92_2, var_92_3, var_92_4, var_92_5 = var_0_1.GetEquipSkin(iter_92_1)
+		local var_92_6 = var_0_1.GetEquipSkinDataFromID(iter_92_1)
+		local var_92_7 = false
 
-	for iter_92_0, iter_92_1 in ipairs(var_92_6.equip_type) do
-		if table.contains(EquipType.AircraftSkinType, iter_92_1) then
-			var_92_7 = true
+		for iter_92_2, iter_92_3 in ipairs(var_92_6.equip_type) do
+			if table.contains(EquipType.AircraftSkinType, iter_92_3) then
+				var_92_7 = true
+			end
 		end
+
+		if var_92_7 then
+			if var_92_2 ~= "" then
+				var_92_0[#var_92_0 + 1] = var_0_5.GetCharacterGoPath(var_92_2)
+			end
+		else
+			var_92_1(var_92_2)
+
+			if var_92_6.mirror == 1 then
+				var_92_0[#var_92_0 + 1] = var_0_5.GetBulletPath(var_92_2 .. var_0_0.Battle.BattleBulletUnit.MIRROR_RES)
+			end
+		end
+
+		var_92_1(var_92_3)
+		var_92_1(var_92_4)
+		var_92_1(var_92_5)
 	end
-
-	if var_92_7 then
-		if var_92_1 ~= "" then
-			var_92_0[#var_92_0 + 1] = var_0_5.GetCharacterGoPath(var_92_1)
-		end
-	else
-		var_92_5(var_92_1)
-
-		if var_0_1.GetEquipSkinDataFromID(arg_92_0).mirror == 1 then
-			var_92_0[#var_92_0 + 1] = var_0_5.GetBulletPath(var_92_1 .. var_0_0.Battle.BattleBulletUnit.MIRROR_RES)
-		end
-	end
-
-	var_92_5(var_92_2)
-	var_92_5(var_92_3)
-	var_92_5(var_92_4)
 
 	return var_92_0
 end

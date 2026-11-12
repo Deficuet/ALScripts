@@ -121,6 +121,10 @@ function var_0_0.getResource(arg_3_0)
 				end
 			end
 
+			if noEmptyStr(var_3_19.pic_overlay) then
+				table.insert(var_3_11, var_3_19.pic_overlay)
+			end
+
 			if var_3_19.relation_param ~= "" then
 				local var_3_20 = var_3_19.relation_param[1]
 				local var_3_21 = var_3_19.relation_param[2]
@@ -324,6 +328,15 @@ function var_0_0.SetPanel(arg_18_0)
 			local var_18_1 = iter_18_1:AddChild()
 
 			GetImageSpriteFromAtlasAsync(var_18_0.pic, "", var_18_1:Find("picture"))
+
+			local var_18_2 = var_18_0.pic_overlay ~= ""
+
+			setActive(var_18_1:Find("picture/overlay"), var_18_2)
+
+			if var_18_2 then
+				GetImageSpriteFromAtlasAsync(var_18_0.pic_overlay, "", var_18_1:Find("picture/overlay"), true)
+			end
+
 			setActive(var_18_1:Find("detail"), var_18_0.relation_param ~= "")
 			setActive(var_18_1:Find("time"), var_18_0.time_lable == 1)
 
@@ -333,128 +346,128 @@ function var_0_0.SetPanel(arg_18_0)
 			end
 
 			if var_18_0.relation_param ~= "" then
-				local var_18_2 = var_18_0.relation_param[1]
-				local var_18_3 = var_18_0.relation_param[2]
-				local var_18_4 = arg_18_0.commodities[var_18_2][var_18_3]
+				local var_18_3 = var_18_0.relation_param[1]
+				local var_18_4 = var_18_0.relation_param[2]
+				local var_18_5 = arg_18_0.commodities[var_18_3][var_18_4]
 
-				if iter_18_0 == "banner_small2" and var_18_2 == 1 and var_18_4:isMonthCard() then
+				if iter_18_0 == "banner_small2" and var_18_3 == 1 and var_18_5:isMonthCard() then
 					setActive(var_18_1:Find("detail"), false)
 					setActive(var_18_1:Find("monthCard"), true)
-					setText(var_18_1:Find("monthCard/name"), var_18_4:getConfig("name_display"))
-					GetImageSpriteFromAtlasAsync("chargeicon/" .. var_18_4:getConfig("picture"), "", var_18_1:Find("monthCard/icon"))
-					setText(var_18_1:Find("monthCard/get"), i18n("shop_new_get_now", var_18_4:GetGemCnt()))
+					setText(var_18_1:Find("monthCard/name"), var_18_5:getConfig("name_display"))
+					GetImageSpriteFromAtlasAsync("chargeicon/" .. var_18_5:getConfig("picture"), "", var_18_1:Find("monthCard/icon"))
+					setText(var_18_1:Find("monthCard/get"), i18n("shop_new_get_now", var_18_5:GetGemCnt()))
 
-					local var_18_5 = var_18_4:GetDropList()
+					local var_18_6 = var_18_5:GetDropList()
 
-					while #var_18_5 > 3 do
-						table.remove(var_18_5, #var_18_5)
+					while #var_18_6 > 3 do
+						table.remove(var_18_6, #var_18_6)
 					end
 
-					local var_18_6 = UIItemList.New(var_18_1:Find("monthCard/items"), var_18_1:Find("monthCard/items/item"))
+					local var_18_7 = UIItemList.New(var_18_1:Find("monthCard/items"), var_18_1:Find("monthCard/items/item"))
 
-					var_18_6:make(function(arg_19_0, arg_19_1, arg_19_2)
+					var_18_7:make(function(arg_19_0, arg_19_1, arg_19_2)
 						if arg_19_0 == UIItemList.EventUpdate then
-							local var_19_0 = var_18_5[arg_19_1 + 1]
+							local var_19_0 = var_18_6[arg_19_1 + 1]
 
 							updateDrop(arg_19_2:Find("mask/item"), var_19_0)
 						end
 					end)
-					var_18_6:align(#var_18_5)
+					var_18_7:align(#var_18_6)
 
-					local var_18_7 = var_18_2 == 1 and var_18_4:getShowType() ~= ""
-					local var_18_8 = var_18_4:isFree()
+					local var_18_8 = var_18_3 == 1 and var_18_5:getShowType() ~= ""
+					local var_18_9 = var_18_5:isFree()
 
 					setText(var_18_1:Find("monthCard/consume/icon_rmb"), GetMoneySymbol())
-					setActive(var_18_1:Find("monthCard/consume/icon_rmb"), var_18_2 == 1 and not var_18_7)
+					setActive(var_18_1:Find("monthCard/consume/icon_rmb"), var_18_3 == 1 and not var_18_8)
 
-					if PLATFORM_CODE == PLATFORM_CHT and var_18_4:IsLocalPrice() then
+					if PLATFORM_CODE == PLATFORM_CHT and var_18_5:IsLocalPrice() then
 						setActive(var_18_1:Find("monthCard/consume/icon_rmb"), false)
 					end
 
-					setActive(var_18_1:Find("monthCard/consume/icon_gem"), var_18_2 ~= 1 and not var_18_8)
-					setActive(var_18_1:Find("monthCard/consume/Text"), not var_18_8 and not var_18_7)
+					setActive(var_18_1:Find("monthCard/consume/icon_gem"), var_18_3 ~= 1 and not var_18_9)
+					setActive(var_18_1:Find("monthCard/consume/Text"), not var_18_9 and not var_18_8)
 
-					if var_18_2 == 1 then
-						setText(var_18_1:Find("monthCard/consume/Text"), var_18_4:getConfig("money"))
-					elseif var_18_2 == 2 then
-						setText(var_18_1:Find("monthCard/consume/Text"), var_18_4:GetPrice())
+					if var_18_3 == 1 then
+						setText(var_18_1:Find("monthCard/consume/Text"), var_18_5:getConfig("money"))
+					elseif var_18_3 == 2 then
+						setText(var_18_1:Find("monthCard/consume/Text"), var_18_5:GetPrice())
 					end
 
-					setActive(var_18_1:Find("monthCard/consume/FreeText"), var_18_8)
+					setActive(var_18_1:Find("monthCard/consume/FreeText"), var_18_9)
 					setText(var_18_1:Find("monthCard/consume/FreeText"), i18n("shop_free_tag"))
 
-					local var_18_9 = getProxy(PlayerProxy):getRawData():getCardById(VipCard.MONTH)
-					local var_18_10 = var_18_9 and var_18_9:GetLeftDay() > (var_18_4:getConfig("limit_arg") or 0)
+					local var_18_10 = getProxy(PlayerProxy):getRawData():getCardById(VipCard.MONTH)
+					local var_18_11 = var_18_10 and var_18_10:GetLeftDay() > (var_18_5:getConfig("limit_arg") or 0)
 
-					setActive(var_18_1:Find("monthCardhave"), var_18_10)
+					setActive(var_18_1:Find("monthCardhave"), var_18_11)
 
-					if var_18_10 then
-						setText(var_18_1:Find("monthCardhave/Text"), i18n("shop_new_remaining_time", var_18_9:GetLeftDay()))
+					if var_18_11 then
+						setText(var_18_1:Find("monthCardhave/Text"), i18n("shop_new_remaining_time", var_18_10:GetLeftDay()))
 					end
 				else
-					if var_18_2 == 1 then
-						setText(var_18_1:Find("detail/name"), var_18_4:getConfig("name_display"))
-						GetImageSpriteFromAtlasAsync("chargeicon/" .. var_18_4:getConfig("picture"), "", var_18_1:Find("detail/icon"))
-					elseif var_18_2 == 2 then
-						setText(var_18_1:Find("detail/name"), var_18_4:GetName())
-						GetImageSpriteFromAtlasAsync(var_18_4:getDropInfo():getIcon(), "", var_18_1:Find("detail/icon"))
+					if var_18_3 == 1 then
+						setText(var_18_1:Find("detail/name"), var_18_5:getConfig("name_display"))
+						GetImageSpriteFromAtlasAsync("chargeicon/" .. var_18_5:getConfig("picture"), "", var_18_1:Find("detail/icon"))
+					elseif var_18_3 == 2 then
+						setText(var_18_1:Find("detail/name"), var_18_5:GetName())
+						GetImageSpriteFromAtlasAsync(var_18_5:getDropInfo():getIcon(), "", var_18_1:Find("detail/icon"))
 					end
 
-					local var_18_11 = var_18_4:GetDropList()
+					local var_18_12 = var_18_5:GetDropList()
 
-					while #var_18_11 > 3 do
-						table.remove(var_18_11, #var_18_11)
+					while #var_18_12 > 3 do
+						table.remove(var_18_12, #var_18_12)
 					end
 
-					local var_18_12 = UIItemList.New(var_18_1:Find("detail/items"), var_18_1:Find("detail/items/item"))
+					local var_18_13 = UIItemList.New(var_18_1:Find("detail/items"), var_18_1:Find("detail/items/item"))
 
-					var_18_12:make(function(arg_20_0, arg_20_1, arg_20_2)
+					var_18_13:make(function(arg_20_0, arg_20_1, arg_20_2)
 						if arg_20_0 == UIItemList.EventUpdate then
-							local var_20_0 = var_18_11[arg_20_1 + 1]
+							local var_20_0 = var_18_12[arg_20_1 + 1]
 
 							updateDrop(arg_20_2:Find("mask/item"), var_20_0)
 						end
 					end)
-					var_18_12:align(#var_18_11)
+					var_18_13:align(#var_18_12)
 
-					local var_18_13 = var_18_2 == 1 and var_18_4:getShowType() ~= ""
-					local var_18_14 = var_18_4:isFree()
+					local var_18_14 = var_18_3 == 1 and var_18_5:getShowType() ~= ""
+					local var_18_15 = var_18_5:isFree()
 
 					setText(var_18_1:Find("detail/consume/icon_rmb"), GetMoneySymbol())
-					setActive(var_18_1:Find("detail/consume/icon_rmb"), var_18_2 == 1 and not var_18_13)
+					setActive(var_18_1:Find("detail/consume/icon_rmb"), var_18_3 == 1 and not var_18_14)
 
-					if PLATFORM_CODE == PLATFORM_CHT and var_18_4:IsLocalPrice() then
+					if PLATFORM_CODE == PLATFORM_CHT and var_18_5:IsLocalPrice() then
 						setActive(var_18_1:Find("detail/consume/icon_rmb"), false)
 					end
 
-					setActive(var_18_1:Find("detail/consume/icon_gem"), var_18_2 ~= 1 and not var_18_14)
-					setActive(var_18_1:Find("detail/consume/Text"), not var_18_14 and not var_18_13)
+					setActive(var_18_1:Find("detail/consume/icon_gem"), var_18_3 ~= 1 and not var_18_15)
+					setActive(var_18_1:Find("detail/consume/Text"), not var_18_15 and not var_18_14)
 
-					if var_18_2 == 1 then
-						setText(var_18_1:Find("detail/consume/Text"), var_18_4:getConfig("money"))
-					elseif var_18_2 == 2 then
-						setText(var_18_1:Find("detail/consume/Text"), var_18_4:GetPrice())
+					if var_18_3 == 1 then
+						setText(var_18_1:Find("detail/consume/Text"), var_18_5:getConfig("money"))
+					elseif var_18_3 == 2 then
+						setText(var_18_1:Find("detail/consume/Text"), var_18_5:GetPrice())
 					end
 
-					setActive(var_18_1:Find("detail/consume/FreeText"), var_18_14)
+					setActive(var_18_1:Find("detail/consume/FreeText"), var_18_15)
 					setText(var_18_1:Find("detail/consume/FreeText"), i18n("shop_free_tag"))
 				end
 			end
 
 			if var_18_0.time_lable == 1 then
-				local var_18_15 = var_18_0.time[2]
-				local var_18_16 = pg.TimeMgr.GetInstance():Table2ServerTime({
-					year = var_18_15[1][1],
-					month = var_18_15[1][2],
-					day = var_18_15[1][3],
-					hour = var_18_15[2][1],
-					min = var_18_15[2][2],
-					sec = var_18_15[2][3]
+				local var_18_16 = var_18_0.time[2]
+				local var_18_17 = pg.TimeMgr.GetInstance():Table2ServerTime({
+					year = var_18_16[1][1],
+					month = var_18_16[1][2],
+					day = var_18_16[1][3],
+					hour = var_18_16[2][1],
+					min = var_18_16[2][2],
+					sec = var_18_16[2][3]
 				})
 
 				arg_18_0:StartTimer(function()
 					local var_21_0 = pg.TimeMgr.GetInstance():GetServerTime()
-					local var_21_1 = var_18_16 - var_21_0
+					local var_21_1 = var_18_17 - var_21_0
 					local var_21_2 = math.floor(var_21_1 / 86400)
 					local var_21_3 = math.floor(var_21_1 % 86400 / 3600)
 					local var_21_4 = math.floor(var_21_1 % 86400 % 3600 / 60)

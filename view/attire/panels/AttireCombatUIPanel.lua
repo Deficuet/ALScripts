@@ -125,17 +125,31 @@ function var_0_0.OnInit(arg_13_0)
 	arg_13_0.confirmBtn = arg_13_0.listPanel:Find("confirm")
 	arg_13_0.previewBtn = arg_13_0.listPanel:Find("preview")
 	arg_13_0.lockBtn = arg_13_0.listPanel:Find("lock")
+	arg_13_0.alwaysShowStickToggle = arg_13_0.listPanel:Find("AlwaysShowStick")
 
-	function arg_13_0.scolrect.onInitItem(arg_14_0)
-		arg_13_0:OnInitItem(arg_14_0)
+	setText(arg_13_0.alwaysShowStickToggle:Find("Text"), i18n("combatUI_stick_set"))
+
+	local var_13_0 = getProxy(SettingsProxy)
+
+	arg_13_0.isShowStickInCombat = var_13_0:IsShowStickInCombat()
+
+	triggerToggle(arg_13_0.alwaysShowStickToggle, arg_13_0.isShowStickInCombat)
+	onToggle(arg_13_0, arg_13_0.alwaysShowStickToggle, function(arg_14_0)
+		arg_13_0.isShowStickInCombat = arg_14_0
+
+		var_13_0:SetShowStickInCombat(arg_14_0)
+	end)
+
+	function arg_13_0.scolrect.onInitItem(arg_15_0)
+		arg_13_0:OnInitItem(arg_15_0)
 	end
 
-	function arg_13_0.scolrect.onUpdateItem(arg_15_0, arg_15_1)
-		arg_13_0:OnUpdateItem(arg_15_0, arg_15_1)
+	function arg_13_0.scolrect.onUpdateItem(arg_16_0, arg_16_1)
+		arg_13_0:OnUpdateItem(arg_16_0, arg_16_1)
 	end
 
-	function arg_13_0.scolrect.onReturnItem(arg_16_0, arg_16_1)
-		arg_13_0:OnReturnItem(arg_16_0, arg_16_1)
+	function arg_13_0.scolrect.onReturnItem(arg_17_0, arg_17_1)
+		arg_13_0:OnReturnItem(arg_17_0, arg_17_1)
 	end
 
 	arg_13_0.cards = {}
@@ -158,129 +172,129 @@ function var_0_0.OnInit(arg_13_0)
 	arg_13_0.loader = AutoLoader.New()
 end
 
-function var_0_0.getUIName(arg_18_0)
+function var_0_0.getUIName(arg_19_0)
 	return "AttireCombatUIUI"
 end
 
-function var_0_0.GetData(arg_19_0)
-	return arg_19_0.rawAttireVOs.combatUIStyles
+function var_0_0.GetData(arg_20_0)
+	return arg_20_0.rawAttireVOs.combatUIStyles
 end
 
-function var_0_0.OnInitItem(arg_20_0, arg_20_1)
-	local var_20_0 = var_0_2(arg_20_1, arg_20_0.loader)
+function var_0_0.OnInitItem(arg_21_0, arg_21_1)
+	local var_21_0 = var_0_2(arg_21_1, arg_21_0.loader)
 
-	arg_20_0.cards[arg_20_1] = var_20_0
+	arg_21_0.cards[arg_21_1] = var_21_0
 
-	onButton(arg_20_0, var_20_0._go, function()
-		if not var_20_0:isEmpty() then
-			if arg_20_0.card then
-				arg_20_0.card:UpdateSelected(false)
+	onButton(arg_21_0, var_21_0._go, function()
+		if not var_21_0:isEmpty() then
+			if arg_21_0.card then
+				arg_21_0.card:UpdateSelected(false)
 			end
 
-			arg_20_0.contextData.iconFrameId = var_20_0.uiStyle.id
+			arg_21_0.contextData.iconFrameId = var_21_0.uiStyle.id
 
-			arg_20_0:UpdateDesc(var_20_0)
-			var_20_0:UpdateSelected(true)
+			arg_21_0:UpdateDesc(var_21_0)
+			var_21_0:UpdateSelected(true)
 
-			arg_20_0.card = var_20_0
+			arg_21_0.card = var_21_0
 
-			if var_20_0:IsOwned() then
-				setActive(arg_20_0.confirmBtn, true)
-				setActive(arg_20_0.lockBtn, false)
+			if var_21_0:IsOwned() then
+				setActive(arg_21_0.confirmBtn, true)
+				setActive(arg_21_0.lockBtn, false)
 			else
-				setActive(arg_20_0.confirmBtn, false)
-				setActive(arg_20_0.lockBtn, true)
+				setActive(arg_21_0.confirmBtn, false)
+				setActive(arg_21_0.lockBtn, true)
 			end
 		end
 	end, SFX_PANEL)
 end
 
-function var_0_0.OnReturnItem(arg_22_0, arg_22_1, arg_22_2)
-	local var_22_0 = arg_22_0.cards[arg_22_2]
+function var_0_0.OnReturnItem(arg_23_0, arg_23_1, arg_23_2)
+	local var_23_0 = arg_23_0.cards[arg_23_2]
 
-	if var_22_0 then
-		var_22_0:Dispose()
+	if var_23_0 then
+		var_23_0:Dispose()
 	end
 
-	arg_22_0.cards[arg_22_2] = nil
+	arg_23_0.cards[arg_23_2] = nil
 end
 
-function var_0_0.GetColumn(arg_23_0)
+function var_0_0.GetColumn(arg_24_0)
 	return 2
 end
 
-function var_0_0.OnUpdateItem(arg_24_0, arg_24_1, arg_24_2)
-	var_0_0.super.OnUpdateItem(arg_24_0, arg_24_1, arg_24_2)
+function var_0_0.OnUpdateItem(arg_25_0, arg_25_1, arg_25_2)
+	var_0_0.super.OnUpdateItem(arg_25_0, arg_25_1, arg_25_2)
 
-	local var_24_0 = arg_24_0.playerVO:getAttireByType(AttireConst.TYPE_COMBAT_UI_STYLE)
-	local var_24_1 = arg_24_0.cards[arg_24_2]
+	local var_25_0 = arg_25_0.playerVO:getAttireByType(AttireConst.TYPE_COMBAT_UI_STYLE)
+	local var_25_1 = arg_25_0.cards[arg_25_2]
 
-	if var_24_1.uiStyle.id == var_24_0 then
-		triggerButton(var_24_1._go)
+	if var_25_1.uiStyle.id == var_25_0 then
+		triggerButton(var_25_1._go)
 	end
 end
 
-function var_0_0.GetDisplayVOs(arg_25_0)
-	local var_25_0 = {}
-	local var_25_1 = 0
+function var_0_0.GetDisplayVOs(arg_26_0)
+	local var_26_0 = {}
+	local var_26_1 = 0
 
-	for iter_25_0, iter_25_1 in pairs(arg_25_0:GetData()) do
-		table.insert(var_25_0, iter_25_1)
+	for iter_26_0, iter_26_1 in pairs(arg_26_0:GetData()) do
+		table.insert(var_26_0, iter_26_1)
 
-		if iter_25_1:getState() == AttireFrame.STATE_UNLOCK and iter_25_1.id >= 0 then
-			var_25_1 = var_25_1 + 1
+		if iter_26_1:getState() == AttireFrame.STATE_UNLOCK and iter_26_1.id >= 0 then
+			var_26_1 = var_26_1 + 1
 		end
 	end
 
-	return var_25_0, var_25_1
+	return var_26_0, var_26_1
 end
 
-function var_0_0.UpdateDesc(arg_26_0, arg_26_1)
-	if arg_26_1:isEmpty() then
+function var_0_0.UpdateDesc(arg_27_0, arg_27_1)
+	if arg_27_1:isEmpty() then
 		return
 	end
 
-	onButton(arg_26_0, arg_26_0.confirmBtn, function()
-		local var_27_0 = arg_26_1.uiStyle:getType()
+	onButton(arg_27_0, arg_27_0.confirmBtn, function()
+		local var_28_0 = arg_27_1.uiStyle:getType()
 
-		arg_26_0:emit(AttireMediator.ON_APPLY, var_27_0, arg_26_1.uiStyle.id)
+		arg_27_0:emit(AttireMediator.ON_APPLY, var_28_0, arg_27_1.uiStyle.id)
 	end, SFX_PANEL)
 
-	local var_26_0 = Ship.New({
+	local var_27_0 = Ship.New({
 		id = 100001,
 		configId = 100001,
 		skin_id = 100000
 	})
-	local var_26_1 = Ship.New({
+	local var_27_1 = Ship.New({
 		id = 100011,
 		configId = 100011,
 		skin_id = 100010
 	})
-	local var_26_2 = arg_26_1.uiStyle:getConfig("key")
+	local var_27_2 = arg_27_1.uiStyle:getConfig("key")
 
-	onButton(arg_26_0, arg_26_0.previewBtn, function()
-		arg_26_0.combatPreview = CombatPreviewLayer.New(pg.UIMgr.GetInstance().OverlayMain)
+	onButton(arg_27_0, arg_27_0.previewBtn, function()
+		arg_27_0.combatPreview = CombatPreviewLayer.New(pg.UIMgr.GetInstance().OverlayMain)
 
-		arg_26_0.combatPreview:ExecuteAction("Show", arg_26_1.uiStyle:getConfig("id"), function()
-			arg_26_0.combatPreview:Destroy()
+		arg_27_0.combatPreview:ExecuteAction("Show", arg_27_1.uiStyle:getConfig("id"), function()
+			arg_27_0.combatPreview:Destroy()
 
-			arg_26_0.combatPreview = nil
+			arg_27_0.combatPreview = nil
 		end)
 	end, SFX_PANEL)
 end
 
-function var_0_0.onBackPressed(arg_30_0)
-	if arg_30_0.combatPreview then
-		arg_30_0.combatPreview:Destroy()
+function var_0_0.onBackPressed(arg_31_0)
+	if arg_31_0.combatPreview then
+		arg_31_0.combatPreview:Destroy()
 
-		arg_30_0.combatPreview = nil
+		arg_31_0.combatPreview = nil
 
 		return true
 	end
 end
 
-function var_0_0.OnDestroy(arg_31_0)
-	arg_31_0.loader:Clear()
+function var_0_0.OnDestroy(arg_32_0)
+	arg_32_0.loader:Clear()
 end
 
 return var_0_0

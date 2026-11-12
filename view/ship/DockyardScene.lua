@@ -600,6 +600,8 @@ function var_0_0.SwitchContainerDisplay(arg_32_0)
 				var_41_5.constraintCount = math.max(7, var_41_11)
 			end
 
+			arg_32_0.maxRecnetShipCnt = var_41_5.constraintCount
+
 			arg_32_0:filter()
 		end
 	})
@@ -1723,7 +1725,7 @@ function var_0_0.TriggerCard(arg_138_0, arg_138_1)
 		local var_138_11 = getBounds(var_138_9.tr)
 
 		if not var_138_10:Intersects(var_138_11) then
-			local var_138_12 = arg_138_1 * (arg_138_0.shipContainer:HeadIndexToValue(7) - arg_138_0.shipContainer:HeadIndexToValue(1))
+			local var_138_12 = arg_138_1 * (arg_138_0.shipContainer:HeadIndexToValue(arg_138_0.maxRecnetShipCnt) - arg_138_0.shipContainer:HeadIndexToValue(1))
 			local var_138_13 = arg_138_0.shipContainer.value + var_138_12
 
 			arg_138_0.shipContainer:SetNormalizedPosition(var_138_13, 1)
@@ -1731,7 +1733,7 @@ function var_0_0.TriggerCard(arg_138_0, arg_138_1)
 	end
 
 	if not var_138_9 then
-		local var_138_14 = (math.ceil(var_138_2 / 7) - math.ceil(var_138_1 / 7)) * (arg_138_0.shipContainer:HeadIndexToValue(21) - arg_138_0.shipContainer:HeadIndexToValue(1))
+		local var_138_14 = (math.ceil(var_138_2 / arg_138_0.maxRecnetShipCnt) - math.ceil(var_138_1 / arg_138_0.maxRecnetShipCnt)) * (arg_138_0.shipContainer:HeadIndexToValue(arg_138_0.maxRecnetShipCnt) - arg_138_0.shipContainer:HeadIndexToValue(1))
 		local var_138_15 = arg_138_0.shipContainer.value + var_138_14
 
 		arg_138_0.shipContainer:SetNormalizedPosition(var_138_15, 1)

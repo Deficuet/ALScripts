@@ -1953,7 +1953,7 @@ function var_0_9.CreateAircraft(arg_104_0, arg_104_1, arg_104_2, arg_104_3, arg_
 	local var_104_1 = var_0_5.CreateAircraftUnit(var_104_0, arg_104_2, arg_104_1, arg_104_3)
 
 	if arg_104_4 then
-		var_104_1:SetSkinID(arg_104_4)
+		var_104_1:SetSkinID(var_0_5.GetRandomEquipSkin(arg_104_4))
 	end
 
 	local var_104_2

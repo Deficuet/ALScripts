@@ -211,127 +211,130 @@ function var_0_0.initNotificationHandleDic(arg_22_0)
 		[GAME.CHANGE_LIVINGAREA_COVER_DONE] = function(arg_32_0, arg_32_1)
 			arg_32_0.viewComponent:emit(NewMainScene.UPDATE_COVER)
 		end,
-		[GAME.ACT_INSTAGRAM_CHAT_DONE] = function(arg_33_0, arg_33_1)
-			if arg_33_1:getBody().operation == ActivityConst.INSTAGRAM_CHAT_ACTIVATE_TOPIC then
-				local var_33_0 = arg_33_0.viewComponent:GetFlagShip()
+		[GAME.REQ_NEW_INSTAGRAM_DATA_DONE] = function(arg_33_0, arg_33_1)
+			arg_33_0.viewComponent:emit(GAME.REQ_NEW_INSTAGRAM_DATA_DONE)
+		end,
+		[GAME.ACT_INSTAGRAM_CHAT_DONE] = function(arg_34_0, arg_34_1)
+			if arg_34_1:getBody().operation == ActivityConst.INSTAGRAM_CHAT_ACTIVATE_TOPIC then
+				local var_34_0 = arg_34_0.viewComponent:GetFlagShip()
 
-				if arg_33_0.viewComponent.theme then
-					arg_33_0.viewComponent.theme:Refresh(var_33_0)
+				if arg_34_0.viewComponent.theme then
+					arg_34_0.viewComponent.theme:Refresh(var_34_0)
 				end
 			end
 		end,
-		[NewMainMediator.ON_DROP] = function(arg_34_0, arg_34_1)
-			arg_34_0.viewComponent:emit(BaseUI.ON_DROP, arg_34_1:getBody())
+		[NewMainMediator.ON_DROP] = function(arg_35_0, arg_35_1)
+			arg_35_0.viewComponent:emit(BaseUI.ON_DROP, arg_35_1:getBody())
 		end,
-		[NewMainMediator.ON_AWRADS] = function(arg_35_0, arg_35_1)
-			local var_35_0 = arg_35_1:getBody()
+		[NewMainMediator.ON_AWRADS] = function(arg_36_0, arg_36_1)
+			local var_36_0 = arg_36_1:getBody()
 
-			arg_35_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_35_0.items, var_35_0.callback)
+			arg_36_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_36_0.items, var_36_0.callback)
 		end,
-		[GAME.PLAY_CHANGE_SKIN_OUT] = function(arg_36_0, arg_36_1)
-			arg_36_0.viewComponent:SetEffectPanelVisible(false)
-			arg_36_0.viewComponent:HidePanel(true)
-			arg_36_0.viewComponent:PlayChangeSkinActionOut(arg_36_1:getBody())
+		[GAME.PLAY_CHANGE_SKIN_OUT] = function(arg_37_0, arg_37_1)
+			arg_37_0.viewComponent:SetEffectPanelVisible(false)
+			arg_37_0.viewComponent:HidePanel(true)
+			arg_37_0.viewComponent:PlayChangeSkinActionOut(arg_37_1:getBody())
 		end,
-		[GAME.PLAY_CHANGE_SKIN_IN] = function(arg_37_0, arg_37_1)
-			arg_37_0.viewComponent:PlayChangeSkinActionIn(arg_37_1:getBody())
+		[GAME.PLAY_CHANGE_SKIN_IN] = function(arg_38_0, arg_38_1)
+			arg_38_0.viewComponent:PlayChangeSkinActionIn(arg_38_1:getBody())
 		end,
-		[GAME.PLAY_CHANGE_SKIN_FINISH] = function(arg_38_0, arg_38_1)
-			arg_38_0.viewComponent:SetEffectPanelVisible(true)
-			arg_38_0.viewComponent:HidePanel(false)
+		[GAME.PLAY_CHANGE_SKIN_FINISH] = function(arg_39_0, arg_39_1)
+			arg_39_0.viewComponent:SetEffectPanelVisible(true)
+			arg_39_0.viewComponent:HidePanel(false)
 		end,
-		[GAME.CHANGE_SKIN_EXCHANGE] = function(arg_39_0, arg_39_1)
-			local var_39_0 = arg_39_1:getBody()
-			local var_39_1 = var_39_0.asmr and true or false
-			local var_39_2 = arg_39_0.viewComponent:GetFlagShip()
+		[GAME.CHANGE_SKIN_EXCHANGE] = function(arg_40_0, arg_40_1)
+			local var_40_0 = arg_40_1:getBody()
+			local var_40_1 = var_40_0.asmr and true or false
+			local var_40_2 = arg_40_0.viewComponent:GetFlagShip()
 
-			if arg_39_0.viewComponent then
-				arg_39_0.viewComponent:UpdateFlagShip(var_39_2, var_39_0)
+			if arg_40_0.viewComponent then
+				arg_40_0.viewComponent:UpdateFlagShip(var_40_2, var_40_0)
 			end
 
-			arg_39_0.viewComponent:AsmrTurning(var_39_1)
+			arg_40_0.viewComponent:AsmrTurning(var_40_1)
 		end,
-		[MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION] = function(arg_40_0, arg_40_1)
-			arg_40_0.viewComponent:CheckAndReplayBgm()
+		[MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION] = function(arg_41_0, arg_41_1)
+			arg_41_0.viewComponent:CheckAndReplayBgm()
 		end,
-		[NewMainMediator.FOLD_PANEL] = function(arg_41_0, arg_41_1)
-			arg_41_0.viewComponent:FoldPanels(arg_41_1:getBody())
+		[NewMainMediator.FOLD_PANEL] = function(arg_42_0, arg_42_1)
+			arg_42_0.viewComponent:FoldPanels(arg_42_1:getBody())
 		end,
-		[NewMainMediator.HIDE_PANEL] = function(arg_42_0, arg_42_1)
-			local var_42_0 = arg_42_1:getBody()
+		[NewMainMediator.HIDE_PANEL] = function(arg_43_0, arg_43_1)
+			local var_43_0 = arg_43_1:getBody()
 
-			arg_42_0.viewComponent:HidePanel(var_42_0.flag, var_42_0.content)
+			arg_43_0.viewComponent:HidePanel(var_43_0.flag, var_43_0.content)
 		end,
-		[GAME.SERIES_GUIDE_END] = function(arg_43_0, arg_43_1)
+		[GAME.SERIES_GUIDE_END] = function(arg_44_0, arg_44_1)
 			MainAwakeGuideSequence.New():Execute(function()
 				return
 			end)
 		end,
-		[var_0_0.DEBUG_BATTLE_LOOP] = function(arg_45_0, arg_45_1)
-			local var_45_0 = arg_45_1:getBody()
+		[var_0_0.DEBUG_BATTLE_LOOP] = function(arg_46_0, arg_46_1)
+			local var_46_0 = arg_46_1:getBody()
 
-			arg_45_0:BuildDebugBattleLoop(var_45_0)
+			arg_46_0:BuildDebugBattleLoop(var_46_0)
 		end,
-		[GAME.REMOVE_LAYERS] = function(arg_46_0, arg_46_1)
-			local var_46_0 = arg_46_1:getBody().context
+		[GAME.REMOVE_LAYERS] = function(arg_47_0, arg_47_1)
+			local var_47_0 = arg_47_1:getBody().context
 
-			arg_46_0.viewComponent:emit(NewMainMediator.REMOVE_LAYERS, arg_46_1:getBody())
+			arg_47_0.viewComponent:emit(NewMainMediator.REMOVE_LAYERS, arg_47_1:getBody())
 		end,
-		[GAME.STORY_BEGIN] = function(arg_47_0, arg_47_1)
-			arg_47_0.viewComponent:emit(NewMainScene.STORY_BEGIN)
+		[GAME.STORY_BEGIN] = function(arg_48_0, arg_48_1)
+			arg_48_0.viewComponent:emit(NewMainScene.STORY_BEGIN)
 		end,
-		[GAME.STORY_END] = function(arg_48_0, arg_48_1)
-			arg_48_0.viewComponent:emit(NewMainScene.STORY_END)
+		[GAME.STORY_END] = function(arg_49_0, arg_49_1)
+			arg_49_0.viewComponent:emit(NewMainScene.STORY_END)
 		end,
-		[PlayerProxy.UPDATED] = function(arg_49_0, arg_49_1)
-			arg_49_0.viewComponent:OnPlayerUpdated()
+		[PlayerProxy.UPDATED] = function(arg_50_0, arg_50_1)
+			arg_50_0.viewComponent:OnPlayerUpdated()
 		end,
-		[GAME.END_REFLUX_CG] = function(arg_50_0, arg_50_1)
-			arg_50_0.viewComponent:ShowOrHideBtnEffect(true)
+		[GAME.END_REFLUX_CG] = function(arg_51_0, arg_51_1)
+			arg_51_0.viewComponent:ShowOrHideBtnEffect(true)
 		end,
-		[GAME.START_REFLUX_CG] = function(arg_51_0, arg_51_1)
-			arg_51_0.viewComponent:ShowOrHideBtnEffect(false)
+		[GAME.START_REFLUX_CG] = function(arg_52_0, arg_52_1)
+			arg_52_0.viewComponent:ShowOrHideBtnEffect(false)
 		end,
-		[ActivityProxy.UPDATED_TIP] = function(arg_52_0, arg_52_1)
-			arg_52_0.viewComponent:emit(MainBaseActivityBtn.UPDATED_TIP)
+		[ActivityProxy.UPDATED_TIP] = function(arg_53_0, arg_53_1)
+			arg_53_0.viewComponent:emit(MainBaseActivityBtn.UPDATED_TIP)
 		end,
-		[MiniGameProxy.ON_HUB_DATA_UPDATE] = function(arg_53_0, arg_53_1)
-			local var_53_0 = arg_53_0.viewComponent:GetFlagShip()
+		[MiniGameProxy.ON_HUB_DATA_UPDATE] = function(arg_54_0, arg_54_1)
+			local var_54_0 = arg_54_0.viewComponent:GetFlagShip()
 
-			if arg_53_0.viewComponent.theme and arg_53_0.viewComponent.theme:IsLoaded() then
-				arg_53_0.viewComponent.theme:Refresh(var_53_0)
+			if arg_54_0.viewComponent.theme and arg_54_0.viewComponent.theme:IsLoaded() then
+				arg_54_0.viewComponent.theme:Refresh(var_54_0)
 			end
 		end,
-		[GAME.CRUSING_CMD_DONE] = function(arg_54_0, arg_54_1)
-			local var_54_0 = arg_54_1:getBody()
-			local var_54_1 = var_54_0.awards
-			local var_54_2 = var_54_0.callback
+		[GAME.CRUSING_CMD_DONE] = function(arg_55_0, arg_55_1)
+			local var_55_0 = arg_55_1:getBody()
+			local var_55_1 = var_55_0.awards
+			local var_55_2 = var_55_0.callback
 
-			arg_54_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_54_1, var_54_2)
+			arg_55_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_55_1, var_55_2)
 		end
 	}
 end
 
-function var_0_0.BuildDebugBattleLoop(arg_55_0, arg_55_1)
+function var_0_0.BuildDebugBattleLoop(arg_56_0, arg_56_1)
 	if not IsUnityEditor then
 		return
 	end
 
-	local var_55_0 = {}
+	local var_56_0 = {}
 
-	for iter_55_0, iter_55_1 in arg_55_1:gmatch("%s+(%S+)") do
-		table.insert(var_55_0, iter_55_0)
+	for iter_56_0, iter_56_1 in arg_56_1:gmatch("%s+(%S+)") do
+		table.insert(var_56_0, iter_56_0)
 	end
 
-	local var_55_1 = {
-		loopCount = tonumber(var_55_0[2]),
-		loopStages = underscore.rest(var_55_0, 3),
+	local var_56_1 = {
+		loopCount = tonumber(var_56_0[2]),
+		loopStages = underscore.rest(var_56_0, 3),
 		tempList = {}
 	}
 
-	_G.InDebugBattleLoop = var_55_1
+	_G.InDebugBattleLoop = var_56_1
 
-	arg_55_0.viewComponent:CheckDebugBattleLoop()
+	arg_56_0.viewComponent:CheckDebugBattleLoop()
 end
 
 return var_0_0

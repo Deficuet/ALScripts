@@ -290,7 +290,7 @@ function var_0_0.GetAllSkins(arg_34_0)
 
 		local var_36_1 = ShopConst.GetShopConfig(arg_36_0)
 		local var_36_2 = var_36_1.collaboration_skin_time
-		local var_36_3 = var_36_2 == "" or var_36_2 == var_36_1.time
+		local var_36_3 = var_36_2 == "" or table.equal(var_36_1.time, var_36_2)
 		local var_36_4, var_36_5 = pg.TimeMgr.GetInstance():inTime(var_36_1.time)
 
 		if var_36_3 and var_36_4 then

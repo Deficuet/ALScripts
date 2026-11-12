@@ -174,11 +174,11 @@ end
 
 function var_0_2.ActiveBot(arg_12_0, arg_12_1)
 	arg_12_0._weaponCommand:ActiveBot(arg_12_1, true)
-	arg_12_0:EnableJoystick(not arg_12_1)
+	arg_12_0:EnableJoystick(not arg_12_1, arg_12_1 and getProxy(SettingsProxy):IsShowStickInCombat())
 end
 
-function var_0_2.EnableJoystick(arg_13_0, arg_13_1)
-	arg_13_0._uiMediator:EnableJoystick(arg_13_1)
+function var_0_2.EnableJoystick(arg_13_0, arg_13_1, arg_13_2)
+	arg_13_0._uiMediator:EnableJoystick(arg_13_1, arg_13_2)
 end
 
 function var_0_2.IsBotActive(arg_14_0)

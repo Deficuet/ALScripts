@@ -55,25 +55,52 @@ pg.base.shop_banner_template = {}
 
 ;(function()
 	pg.base.shop_banner_template[10] = {
-		order = 10,
+		relation_param = "",
 		name = "banner_big",
-		time = "stop",
+		order = 10,
 		type = 2,
 		id = 10,
-		relation_param = "",
+		pic_overlay = "",
 		pic = "shopbanner/shop_skin",
 		time_lable = 1,
+		time = {
+			{
+				{
+					2026,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		param = {
 			"scene skinshop",
 			{}
 		}
 	}
 	pg.base.shop_banner_template[11] = {
-		order = 9,
+		relation_param = "",
 		name = "banner_big",
+		order = 9,
 		type = 2,
 		id = 11,
-		relation_param = "",
+		pic_overlay = "",
 		pic = "shopbanner/shop_skin2",
 		time_lable = 1,
 		time = {
@@ -81,7 +108,7 @@ pg.base.shop_banner_template = {}
 				{
 					2026,
 					10,
-					19
+					17
 				},
 				{
 					0,
@@ -108,19 +135,20 @@ pg.base.shop_banner_template = {}
 		}
 	}
 	pg.base.shop_banner_template[12] = {
-		order = 8,
+		relation_param = "",
 		name = "banner_big",
+		order = 8,
 		type = 2,
 		id = 12,
-		relation_param = "",
+		pic_overlay = "",
 		pic = "shopbanner/shop_skin3",
 		time_lable = 1,
 		time = {
 			{
 				{
 					2026,
-					6,
-					5
+					11,
+					12
 				},
 				{
 					0,
@@ -131,8 +159,8 @@ pg.base.shop_banner_template = {}
 			{
 				{
 					2026,
-					6,
-					17
+					11,
+					25
 				},
 				{
 					23,
@@ -147,13 +175,14 @@ pg.base.shop_banner_template = {}
 		}
 	}
 	pg.base.shop_banner_template[13] = {
-		order = 7,
+		relation_param = "",
 		name = "banner_big",
 		time = "stop",
 		type = 2,
-		id = 13,
-		relation_param = "",
+		order = 7,
 		pic = "shopbanner/shop_skin4",
+		id = 13,
+		pic_overlay = "",
 		time_lable = 1,
 		param = {
 			"scene skinshop",
@@ -161,13 +190,14 @@ pg.base.shop_banner_template = {}
 		}
 	}
 	pg.base.shop_banner_template[14] = {
-		order = 1,
+		relation_param = "",
 		name = "banner_big",
 		time = "always",
 		type = 2,
-		id = 14,
-		relation_param = "",
+		order = 1,
 		pic = "shopbanner/shop_skin_default",
+		id = 14,
+		pic_overlay = "",
 		time_lable = 0,
 		param = {
 			"scene skinshop",
@@ -179,6 +209,7 @@ pg.base.shop_banner_template = {}
 		name = "banner_middle",
 		type = 2,
 		id = 20,
+		pic_overlay = "",
 		pic = "shopbanner/shop_pack_bg",
 		time_lable = 1,
 		time = {
@@ -223,6 +254,7 @@ pg.base.shop_banner_template = {}
 		name = "banner_middle",
 		type = 2,
 		id = 21,
+		pic_overlay = "",
 		pic = "shopbanner/shop_pack_bg",
 		time_lable = 1,
 		time = {
@@ -263,13 +295,14 @@ pg.base.shop_banner_template = {}
 		}
 	}
 	pg.base.shop_banner_template[22] = {
-		order = 1,
+		relation_param = "",
 		name = "banner_middle",
 		time = "always",
 		type = 2,
-		id = 22,
-		relation_param = "",
+		order = 1,
 		pic = "shopbanner/shop_akashi_recommend",
+		id = 22,
+		pic_overlay = "",
 		time_lable = 0,
 		param = {
 			"scene charge",
@@ -283,6 +316,7 @@ pg.base.shop_banner_template = {}
 		name = "banner_middle",
 		type = 2,
 		id = 23,
+		pic_overlay = "",
 		pic = "shopbanner/shop_pack_bg",
 		time_lable = 1,
 		time = {
@@ -327,6 +361,7 @@ pg.base.shop_banner_template = {}
 		name = "banner_middle",
 		type = 2,
 		id = 24,
+		pic_overlay = "",
 		pic = "shopbanner/shop_pack_bg",
 		time_lable = 1,
 		time = {
@@ -371,6 +406,7 @@ pg.base.shop_banner_template = {}
 		name = "banner_middle",
 		type = 2,
 		id = 25,
+		pic_overlay = "",
 		pic = "shopbanner/shop_pack_bg",
 		time_lable = 1,
 		time = {
@@ -411,13 +447,14 @@ pg.base.shop_banner_template = {}
 		}
 	}
 	pg.base.shop_banner_template[30] = {
-		order = 10,
+		relation_param = "",
 		name = "banner_small1",
 		time = "always",
 		type = 2,
-		id = 30,
-		relation_param = "",
+		order = 10,
 		pic = "shopbanner/shop_diamond",
+		id = 30,
+		pic_overlay = "",
 		time_lable = 0,
 		param = {
 			"scene charge",
@@ -427,13 +464,14 @@ pg.base.shop_banner_template = {}
 		}
 	}
 	pg.base.shop_banner_template[31] = {
-		order = 1,
+		relation_param = "",
 		name = "banner_small1",
 		time = "always",
 		type = 2,
-		id = 31,
-		relation_param = "",
+		order = 1,
 		pic = "shopbanner/shop_props",
+		id = 31,
+		pic_overlay = "",
 		time_lable = 0,
 		param = {
 			"scene charge",
@@ -447,10 +485,11 @@ pg.base.shop_banner_template = {}
 		name = "banner_small2",
 		time = "stop",
 		type = 2,
+		relation_param = "",
 		order = 10,
 		pic = "",
 		id = 40,
-		relation_param = "",
+		pic_overlay = "",
 		time_lable = 0
 	}
 	pg.base.shop_banner_template[41] = {
@@ -459,6 +498,7 @@ pg.base.shop_banner_template = {}
 		time = "always",
 		type = 2,
 		id = 41,
+		pic_overlay = "",
 		pic = "shopbanner/shop_item_bg",
 		time_lable = 0,
 		param = {
@@ -473,11 +513,12 @@ pg.base.shop_banner_template = {}
 		}
 	}
 	pg.base.shop_banner_template[50] = {
-		order = 10,
+		relation_param = "",
 		name = "banner_small3",
+		order = 10,
 		type = 2,
 		id = 50,
-		relation_param = "",
+		pic_overlay = "shopbanner_text/activity",
 		pic = "shopbanner/shop_event_pt",
 		time_lable = 1,
 		time = {
@@ -514,13 +555,14 @@ pg.base.shop_banner_template = {}
 		}
 	}
 	pg.base.shop_banner_template[51] = {
-		order = 1,
+		relation_param = "",
 		name = "banner_small3",
 		time = "always",
 		type = 2,
-		id = 51,
-		relation_param = "",
+		order = 1,
 		pic = "shopbanner/shop_shopstreet",
+		id = 51,
+		pic_overlay = "shopbanner_text/supply",
 		time_lable = 0,
 		param = {
 			"scene shop",

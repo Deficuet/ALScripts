@@ -27,6 +27,9 @@ pg.activity_single_enemy.all = {
 	4001,
 	4002,
 	4003,
+	5001,
+	5002,
+	5003,
 	1000001,
 	1000002,
 	1000003,
@@ -892,6 +895,78 @@ pg.base.activity_single_enemy = {}
 		time = "always",
 		enter_cost = 0,
 		id = 4003,
+		activity_type = 1,
+		extra_drop = "",
+		strategy_id = "",
+		use_oil_limit = {
+			0,
+			0
+		},
+		limitation = {},
+		property_limitation = {}
+	}
+	pg.base.activity_single_enemy[5001] = {
+		expedition_id = 2079001,
+		pre_chapter = 0,
+		count = 0,
+		type = 1,
+		name = "STAGE-1",
+		enter_cost_drop = 0,
+		strategy_num = 0,
+		icon = "",
+		guardian_limit = 0,
+		level = "30",
+		time = "always",
+		enter_cost = 0,
+		id = 5001,
+		activity_type = 1,
+		extra_drop = "",
+		strategy_id = "",
+		use_oil_limit = {
+			0,
+			0
+		},
+		limitation = {},
+		property_limitation = {}
+	}
+	pg.base.activity_single_enemy[5002] = {
+		expedition_id = 2079002,
+		pre_chapter = 5001,
+		count = 0,
+		type = 1,
+		name = "STAGE-2",
+		enter_cost_drop = 0,
+		strategy_num = 0,
+		icon = "",
+		guardian_limit = 0,
+		level = "60",
+		time = "always",
+		enter_cost = 0,
+		id = 5002,
+		activity_type = 1,
+		extra_drop = "",
+		strategy_id = "",
+		use_oil_limit = {
+			0,
+			0
+		},
+		limitation = {},
+		property_limitation = {}
+	}
+	pg.base.activity_single_enemy[5003] = {
+		expedition_id = 2079003,
+		pre_chapter = 5002,
+		count = 0,
+		type = 1,
+		name = "STAGE-3",
+		enter_cost_drop = 0,
+		strategy_num = 0,
+		icon = "",
+		guardian_limit = 0,
+		level = "90",
+		time = "always",
+		enter_cost = 0,
+		id = 5003,
 		activity_type = 1,
 		extra_drop = "",
 		strategy_id = "",

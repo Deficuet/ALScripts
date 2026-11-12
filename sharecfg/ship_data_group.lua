@@ -793,6 +793,8 @@ pg.ship_data_group.all = {
 	10156,
 	10171,
 	10172,
+	10181,
+	10182,
 	20001,
 	20002,
 	20003,
@@ -3613,6 +3615,12 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	},
 	[1170002] = {
 		10172
+	},
+	[1180001] = {
+		10181
+	},
+	[1180002] = {
+		10182
 	}
 }
 pg.ship_data_group.get_id_list_by_handbook_type = {
@@ -4407,7 +4415,9 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		10155,
 		10156,
 		10171,
-		10172
+		10172,
+		10181,
+		10182
 	},
 	{
 		20001,
@@ -37810,6 +37820,70 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_data_group[10181] = {
+		type = 6,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 118,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10181,
+		code = 10181,
+		group_type = 1180001,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"E",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：开幕！天使们的碧蓝舞台",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[10182] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 118,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10182,
+		code = 10182,
+		group_type = 1180002,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：开幕！天使们的碧蓝舞台",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
 	pg.base.ship_data_group[20001] = {
 		type = 2,
 		redirect_id = 101,
@@ -38127,6 +38201,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_data_group[20010] = {
 		type = 18,
 		redirect_id = 101,
@@ -38197,8 +38273,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_data_group[20012] = {
 		type = 5,
 		redirect_id = 101,
@@ -41612,6 +41686,8 @@ end)()
 			}
 		}
 	}
+end)()
+;(function()
 	pg.base.ship_data_group[30063] = {
 		type = 2,
 		redirect_id = 101,
@@ -41682,8 +41758,6 @@ end)()
 			}
 		}
 	}
-end)()
-;(function()
 	pg.base.ship_data_group[30065] = {
 		type = 7,
 		redirect_id = 101,

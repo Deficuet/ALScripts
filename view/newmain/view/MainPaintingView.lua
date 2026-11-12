@@ -184,8 +184,6 @@ function var_0_0.IsLoading(arg_23_0)
 end
 
 function var_0_0.Init(arg_24_0, arg_24_1, arg_24_2, arg_24_3, arg_24_4)
-	print("初始化舰船 = " .. arg_24_1:getPainting())
-
 	if arg_24_0:ShouldReLoad(arg_24_1) then
 		arg_24_0.shift = arg_24_2 or arg_24_0.shift
 
@@ -222,6 +220,9 @@ function var_0_0.Init(arg_24_0, arg_24_1, arg_24_2, arg_24_3, arg_24_4)
 			end
 		end)
 	else
+		arg_24_0.shift = arg_24_2 or arg_24_0.shift
+
+		assert(arg_24_0.shift)
 		arg_24_0.painting:Resume()
 		arg_24_0:InitShipShift()
 

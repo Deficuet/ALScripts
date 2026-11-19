@@ -237,6 +237,8 @@ function var_0_0.InitBattleShow(arg_19_0)
 			arg_19_0.previewer:setDisplayWeapon({
 				100
 			})
+			arg_19_0.previewer:setHeroHpBarOffset(Vector3(-455, 130, 0))
+			arg_19_0.previewer:setEnemyHpBarOffset(Vector3(417, 130, 0))
 			arg_19_0.previewer:setCombatUI(var_20_2, var_20_3, var_20_4, var_19_2)
 			arg_19_0.previewer:load(40000, var_19_0, var_19_1, {}, function()
 				return

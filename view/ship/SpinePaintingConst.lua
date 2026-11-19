@@ -2426,6 +2426,31 @@ var_0_0.ship_drag_datas = {
 				}
 			}
 		}
+	},
+	xinaoerliang_3 = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = var_0_0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = false,
+					action = "drag",
+					idle = "normal",
+					is_default = true
+				},
+				{
+					change_idle = "normal",
+					click = false,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
+				}
+			}
+		}
 	}
 }
 var_0_0.ship_effect_action_able = {

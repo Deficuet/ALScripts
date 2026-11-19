@@ -176,18 +176,15 @@ end
 
 function var_0_0.GetDownloadList()
 	local var_16_0 = {}
-	local var_16_1 = GroupHelper.GetGroupMgrByName(var_0_0.DormGroupName)
+	local var_16_1 = GroupHelper.GetGroupMgrByName(var_0_0.DormGroupName).toUpdate
 
-	if var_16_1.toUpdate then
-		local var_16_2 = var_16_1.toUpdate.Count
+	if var_16_1 then
+		local var_16_2 = var_16_1.Count
 
 		for iter_16_0 = 0, var_16_2 - 1 do
-			local var_16_3 = var_16_1.toUpdate[iter_16_0]
-			local var_16_4 = var_16_3[0]
-			local var_16_5 = var_16_3[1]
-			local var_16_6 = var_16_3[2]
+			local var_16_3 = var_16_1[iter_16_0]
 
-			table.insert(var_16_0, var_16_4)
+			table.insert(var_16_0, var_16_3[0])
 		end
 	end
 
@@ -199,118 +196,145 @@ local var_0_1 = {
 	apartment = "dorm3d/character/"
 }
 local var_0_2
+local var_0_3
+
+function var_0_0.WithDownloadResourceSnapshot(arg_17_0)
+	if var_0_3 then
+		arg_17_0()
+
+		return
+	end
+
+	var_0_3 = {}
+
+	local var_17_0, var_17_1 = xpcall(arg_17_0, debug.traceback)
+
+	var_0_3 = nil
+
+	if not var_17_0 then
+		error(var_17_1, 0)
+	end
+end
 
 function var_0_0.GetDownloadResourceDic()
+	if var_0_3 and var_0_3.resourceDic then
+		return var_0_3.resourceDic
+	end
+
 	if not var_0_2 then
 		var_0_2 = {}
 
-		for iter_17_0, iter_17_1 in ipairs(pg.dorm3d_rooms.all) do
-			local var_17_0 = pg.dorm3d_rooms[iter_17_1]
+		for iter_18_0, iter_18_1 in ipairs(pg.dorm3d_rooms.all) do
+			local var_18_0 = pg.dorm3d_rooms[iter_18_1]
 
-			if var_17_0.is_common == 1 then
+			if var_18_0.is_common == 1 then
 				-- block empty
 			else
-				local var_17_1 = string.lower(var_17_0.resource_name)
+				local var_18_1 = string.lower(var_18_0.resource_name)
 
-				var_0_2[var_17_1] = true
+				var_0_2[var_18_1] = true
 			end
 		end
 	end
 
-	local var_17_2 = {}
+	local var_18_2 = {}
 
-	for iter_17_2, iter_17_3 in ipairs(DormGroupConst.GetDownloadList()) do
-		local var_17_3 = "common"
+	for iter_18_2, iter_18_3 in ipairs(DormGroupConst.GetDownloadList()) do
+		local var_18_3 = "common"
 
-		for iter_17_4, iter_17_5 in pairs(var_0_1) do
-			local var_17_4, var_17_5 = string.find(iter_17_3, iter_17_5)
+		for iter_18_4, iter_18_5 in pairs(var_0_1) do
+			local var_18_4, var_18_5 = string.find(iter_18_3, iter_18_5)
 
-			if var_17_5 then
-				local var_17_6 = string.split(string.sub(iter_17_3, var_17_5 + 1), "/")[1]
+			if var_18_5 then
+				local var_18_6 = string.split(string.sub(iter_18_3, var_18_5 + 1), "/")[1]
 
-				if var_0_2[var_17_6] then
-					var_17_3 = iter_17_4 .. "_" .. var_17_6
+				if var_0_2[var_18_6] then
+					var_18_3 = iter_18_4 .. "_" .. var_18_6
 				end
 
 				break
 			end
 		end
 
-		var_17_2[var_17_3] = var_17_2[var_17_3] or {}
+		var_18_2[var_18_3] = var_18_2[var_18_3] or {}
 
-		table.insert(var_17_2[var_17_3], iter_17_3)
+		table.insert(var_18_2[var_18_3], iter_18_3)
 	end
 
-	return var_17_2
-end
-
-function var_0_0.GetFilePathList(arg_18_0)
-	local var_18_0 = Application.persistentDataPath .. "/AssetBundles/"
-	local var_18_1 = var_18_0 .. arg_18_0
-
-	if not var_18_0:match("/$") then
-		var_18_0 = var_18_0 .. "/"
+	if var_0_3 then
+		var_0_3.resourceDic = var_18_2
 	end
-
-	originalPrint("fullCacheDirPath", tostring(var_18_0))
-	originalPrint("shortDirPath:", tostring(arg_18_0))
-	originalPrint("fullDirPath", tostring(var_18_1))
-
-	local var_18_2 = {}
-	local var_18_3 = System.IO.Directory
-	local var_18_4 = ReflectionHelp.RefGetField(typeof("System.IO.SearchOption"), "AllDirectories", nil)
-
-	originalPrint("fullDirPath Exist:", tostring(var_18_3.Exists(var_18_1)))
-
-	if var_18_3.Exists(var_18_1) then
-		local var_18_5 = var_18_3.GetFiles(var_18_1, "*", var_18_4):ToTable()
-
-		for iter_18_0, iter_18_1 in ipairs(var_18_5) do
-			iter_18_1 = iter_18_1:gsub("\\", "/")
-
-			local var_18_6 = string.sub(iter_18_1, #var_18_0 + 1)
-
-			table.insert(var_18_2, var_18_6)
-		end
-	end
-
-	originalPrint("filePathList first:", tostring(var_18_2[1]))
-	originalPrint("filePathList last:", tostring(var_18_2[#var_18_2]))
 
 	return var_18_2
 end
 
-function var_0_0.DelDir(arg_19_0)
-	local var_19_0 = var_0_0.GetFilePathList(arg_19_0)
-	local var_19_1 = #var_19_0
+function var_0_0.GetFilePathList(arg_19_0)
+	local var_19_0 = Application.persistentDataPath .. "/AssetBundles/"
+	local var_19_1 = var_19_0 .. arg_19_0
 
-	if var_19_1 > 0 then
-		local var_19_2 = System.Array.CreateInstance(typeof(System.String), var_19_1)
+	if not var_19_0:match("/$") then
+		var_19_0 = var_19_0 .. "/"
+	end
 
-		for iter_19_0 = 0, var_19_1 - 1 do
-			var_19_2[iter_19_0] = var_19_0[iter_19_0 + 1]
+	originalPrint("fullCacheDirPath", tostring(var_19_0))
+	originalPrint("shortDirPath:", tostring(arg_19_0))
+	originalPrint("fullDirPath", tostring(var_19_1))
+
+	local var_19_2 = {}
+	local var_19_3 = System.IO.Directory
+	local var_19_4 = ReflectionHelp.RefGetField(typeof("System.IO.SearchOption"), "AllDirectories", nil)
+
+	originalPrint("fullDirPath Exist:", tostring(var_19_3.Exists(var_19_1)))
+
+	if var_19_3.Exists(var_19_1) then
+		local var_19_5 = var_19_3.GetFiles(var_19_1, "*", var_19_4):ToTable()
+
+		for iter_19_0, iter_19_1 in ipairs(var_19_5) do
+			iter_19_1 = iter_19_1:gsub("\\", "/")
+
+			local var_19_6 = string.sub(iter_19_1, #var_19_0 + 1)
+
+			table.insert(var_19_2, var_19_6)
+		end
+	end
+
+	originalPrint("filePathList first:", tostring(var_19_2[1]))
+	originalPrint("filePathList last:", tostring(var_19_2[#var_19_2]))
+
+	return var_19_2
+end
+
+function var_0_0.DelDir(arg_20_0)
+	local var_20_0 = var_0_0.GetFilePathList(arg_20_0)
+	local var_20_1 = #var_20_0
+
+	if var_20_1 > 0 then
+		local var_20_2 = System.Array.CreateInstance(typeof(System.String), var_20_1)
+
+		for iter_20_0 = 0, var_20_1 - 1 do
+			var_20_2[iter_20_0] = var_20_0[iter_20_0 + 1]
 		end
 
-		HotfixHelper.DeleteFileByShortPathArr(var_0_0.DormGroupName, var_19_2)
+		HotfixHelper.DeleteFileByShortPathArr(var_0_0.DormGroupName, var_20_2)
 	end
 end
 
-function var_0_0.GetDelRoomSize(arg_20_0, arg_20_1)
-	local var_20_0 = 0
+function var_0_0.GetDelRoomSize(arg_21_0, arg_21_1)
+	local var_21_0 = 0
 
-	for iter_20_0, iter_20_1 in ipairs(arg_20_1) do
-		local var_20_1 = var_0_1[iter_20_1] .. arg_20_0
-		local var_20_2 = var_0_0.GetFilePathList(var_20_1)
-
-		var_20_0 = var_20_0 + var_0_0.GetDormMgr():GetCacheFileSize(var_20_2)
-	end
-
-	return HashUtil.BytesToString(var_20_0)
-end
-
-function var_0_0.DelRoom(arg_21_0, arg_21_1)
 	for iter_21_0, iter_21_1 in ipairs(arg_21_1) do
-		var_0_0.DelDir(var_0_1[iter_21_1] .. arg_21_0)
+		local var_21_1 = var_0_1[iter_21_1] .. arg_21_0
+		local var_21_2 = var_0_0.GetFilePathList(var_21_1)
+
+		var_21_0 = var_21_0 + var_0_0.GetDormMgr():GetCacheFileSize(var_21_2)
+	end
+
+	return HashUtil.BytesToString(var_21_0)
+end
+
+function var_0_0.DelRoom(arg_22_0, arg_22_1)
+	for iter_22_0, iter_22_1 in ipairs(arg_22_1) do
+		var_0_0.DelDir(var_0_1[iter_22_1] .. arg_22_0)
 	end
 end
 

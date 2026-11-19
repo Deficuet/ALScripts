@@ -79,14 +79,24 @@ function var_0_0.Show(arg_6_0, arg_6_1, arg_6_2)
 			end)
 		end
 	}, function()
+		if arg_6_0._state == var_0_0.STATES.DESTROY then
+			local var_13_0 = PoolMgr.GetInstance()
+
+			var_13_0:ReturnUI(var_6_2, var_6_4)
+			var_13_0:ReturnUI(var_6_2, var_6_5)
+			var_13_0:ReturnUI(var_6_1, var_6_3)
+
+			return
+		end
+
 		var_6_3.transform:SetParent(arg_6_0.uiLayer, false)
 		var_6_4.transform:SetParent(arg_6_0.uiLayer, false)
 		var_6_5.transform:SetParent(arg_6_0.uiLayer, false)
 
-		local var_13_0 = arg_6_0.sea.rect.width
-		local var_13_1 = arg_6_0.sea.rect.height
+		local var_13_1 = arg_6_0.sea.rect.width
+		local var_13_2 = arg_6_0.sea.rect.height
 
-		var_6_3.transform.localScale = Vector3(var_13_0 / 1920, var_13_1 / 1080, 1)
+		var_6_3.transform.localScale = Vector3(var_13_1 / 1920, var_13_2 / 1080, 1)
 		arg_6_0.previewer = CombatUIPreviewer.New(arg_6_0.rawImage)
 
 		arg_6_0.previewer:setDisplayWeapon({
@@ -94,18 +104,18 @@ function var_0_0.Show(arg_6_0, arg_6_1, arg_6_2)
 		})
 		arg_6_0.previewer:setCombatUI(var_6_3, var_6_4, var_6_5, var_6_0)
 
-		local var_13_2 = Ship.New({
+		local var_13_3 = Ship.New({
 			id = 100001,
 			configId = 100001,
 			skin_id = 100000
 		})
-		local var_13_3 = Ship.New({
+		local var_13_4 = Ship.New({
 			id = 100011,
 			configId = 100011,
 			skin_id = 100010
 		})
 
-		arg_6_0.previewer:load(40000, var_13_2, var_13_3, {}, function()
+		arg_6_0.previewer:load(40000, var_13_3, var_13_4, {}, function()
 			return
 		end)
 	end)

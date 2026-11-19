@@ -43,47 +43,14 @@ function var_0_1.OnCountChange(arg_2_0)
 	SetActive(arg_2_0._gizmosXue, arg_2_0._progressInfo:GetCount() > 0)
 end
 
-function var_0_1.SetToCombatUIPreview(arg_3_0, arg_3_1)
-	if arg_3_1 ~= CombatUIPreviewer.WeaponButtonPreviewMode.UNFILLED then
-		SetActive(arg_3_0._filled, true)
-		SetActive(arg_3_0._unfill, false)
+function var_0_1.updateProgressBar(arg_3_0)
+	local var_3_0 = arg_3_0._progressInfo:GetCurrent() / arg_3_0._progressInfo:GetMax()
 
-		arg_3_0._progressBar.fillAmount = 1
+	arg_3_0._progressBar.fillAmount = var_3_0
+
+	if arg_3_0._progressInfo.GetCount and arg_3_0._progressInfo:GetCount() > 0 then
 		arg_3_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1
-		arg_3_0._countTxt.text = "1/1"
-
-		if arg_3_0._gizmos1 then
-			SetActive(arg_3_0._gizmos1, true)
-			SetActive(arg_3_0._gizmosXue, true)
-		end
-
-		SetActive(arg_3_0._glowEff, true)
-		quickCheckAndPlayAnimator(arg_3_0._skin, "weapon_button_progress_filled")
 	else
-		SetActive(arg_3_0._unfill, true)
-		SetActive(arg_3_0._filled, false)
-
-		arg_3_0._progressBar.fillAmount = 0
-		arg_3_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 0
-		arg_3_0._countTxt.text = "0/0"
-
-		SetActive(arg_3_0._glowEff, false)
-
-		if arg_3_0._gizmos1 then
-			SetActive(arg_3_0._gizmos1, false)
-			SetActive(arg_3_0._gizmosXue, false)
-		end
-	end
-end
-
-function var_0_1.updateProgressBar(arg_4_0)
-	local var_4_0 = arg_4_0._progressInfo:GetCurrent() / arg_4_0._progressInfo:GetMax()
-
-	arg_4_0._progressBar.fillAmount = var_4_0
-
-	if arg_4_0._progressInfo.GetCount and arg_4_0._progressInfo:GetCount() > 0 then
-		arg_4_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1
-	else
-		arg_4_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = var_4_0
+		arg_3_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = var_3_0
 	end
 end

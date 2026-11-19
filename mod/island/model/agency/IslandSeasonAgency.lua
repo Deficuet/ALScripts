@@ -1,6 +1,7 @@
 local var_0_0 = class("IslandSeasonAgency", import(".IslandBaseAgency"))
 
 var_0_0.ADD_PT = "IslandSeasonAgency.ADD_PT"
+var_0_0.TW_SEASON_START = 4
 
 function var_0_0.OnInit(arg_1_0, arg_1_1)
 	arg_1_0.season = IslandSeason.New(arg_1_1.season)

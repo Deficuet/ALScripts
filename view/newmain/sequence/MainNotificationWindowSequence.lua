@@ -30,7 +30,10 @@ function var_0_0.Execute(arg_1_0, arg_1_1)
 
 	local var_1_2 = {}
 
-	for iter_1_0, iter_1_1 in ipairs(getProxy(BagProxy):getItemsByType(Item.SKIN_ASSIGNED_TYPE)) do
+	for iter_1_0, iter_1_1 in ipairs(getProxy(BagProxy):getItemsByTypeList({
+		Item.SKIN_ASSIGNED_TYPE,
+		Item.MESH_SKIN_ASSIGNED_TYPE
+	})) do
 		local var_1_3 = iter_1_1:getConfig("usage_arg")[1]
 
 		var_1_2[var_1_3] = var_1_2[var_1_3] or {}

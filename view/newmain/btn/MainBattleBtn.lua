@@ -11,18 +11,24 @@ function var_0_0.OnClick(arg_1_0)
 	})
 end
 
-function var_0_0.IsFixed(arg_2_0)
+function var_0_0.Flush(arg_2_0, arg_2_1)
+	local var_2_0 = arg_2_0:GetTarget():Find("LevelDropUpTag")
+
+	SetActive(var_2_0, LevelDropUpActUtil.EixstLevelDropUpAct())
+end
+
+function var_0_0.IsFixed(arg_3_0)
 	return true
 end
 
-function var_0_0.ShowOrHideBtnEffect(arg_3_0, arg_3_1)
-	local var_3_0 = arg_3_0._tf:Find("FX")
+function var_0_0.ShowOrHideBtnEffect(arg_4_0, arg_4_1)
+	local var_4_0 = arg_4_0._tf:Find("FX")
 
-	if IsNil(var_3_0) then
+	if IsNil(var_4_0) then
 		return
 	end
 
-	setActive(var_3_0, arg_3_1)
+	setActive(var_4_0, arg_4_1)
 end
 
 return var_0_0

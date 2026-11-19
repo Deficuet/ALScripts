@@ -326,70 +326,316 @@ function var_0_1.Update(arg_29_0)
 end
 
 function var_0_1.SetToCombatUIPreview(arg_30_0, arg_30_1)
-	if arg_30_1 ~= CombatUIPreviewer.WeaponButtonPreviewMode.UNFILLED then
-		SetActive(arg_30_0._filled, true)
-		SetActive(arg_30_0._unfill, false)
+	local var_30_0 = CombatUIPreviewer.WeaponButtonPreviewMode
 
-		arg_30_0._progressBar.fillAmount = 1
+	switch(arg_30_1, {
+		[var_30_0.UNFILLED] = function()
+			SetActive(arg_30_0._unfill, true)
+			SetActive(arg_30_0._filled, false)
 
-		if arg_30_0._bgEff then
-			arg_30_0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 1
+			arg_30_0._progressBar.fillAmount = 0
+
+			if arg_30_0._bgEff then
+				arg_30_0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 0
+			end
+
+			arg_30_0._countTxt.text = "0/0"
+
+			if arg_30_0._gizmos1 then
+				SetActive(arg_30_0._gizmos1, false)
+				SetActive(arg_30_0._gizmosXue, false)
+			end
+		end,
+		[var_30_0.FILLED] = function()
+			SetActive(arg_30_0._filled, true)
+			SetActive(arg_30_0._unfill, false)
+
+			arg_30_0._progressBar.fillAmount = 1
+
+			if arg_30_0._bgEff then
+				arg_30_0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 1
+			end
+
+			arg_30_0._countTxt.text = "1/1"
+
+			if arg_30_0._gizmos1 then
+				SetActive(arg_30_0._gizmos1, true)
+				SetActive(arg_30_0._gizmosXue, true)
+			end
+		end,
+		[var_30_0.LOOP] = function()
+			arg_30_0:SetToCombatUIPreview(var_30_0.FILLED)
+		end,
+		[var_30_0.USABLE] = function()
+			local var_34_0 = arg_30_0:GetProgressFaker(1)
+
+			var_34_0.current = var_34_0.max
+			var_34_0.count = 1
+			arg_30_0._progressInfo = var_34_0
+
+			arg_30_0:OnCountChange()
+			arg_30_0:OnOverLoadChange()
 		end
+	})
+end
 
-		arg_30_0._countTxt.text = "1/1"
+var_0_1.PREVIEW_LOOP_CONFIG = {
+	useInterval = 1.5,
+	usableDuration = 2,
+	restartDelay = 1.5,
+	chargeDurations = {
+		4,
+		2
+	}
+}
 
-		if arg_30_0._gizmos1 then
-			SetActive(arg_30_0._gizmos1, true)
-			SetActive(arg_30_0._gizmosXue, true)
-		end
+local var_0_2 = 0.033
+local var_0_3 = {
+	USE = 3,
+	USABLE = 2,
+	CHARGE = 1
+}
+
+function var_0_1.getPreviewGCD(arg_35_0)
+	local var_35_0 = arg_35_0.PREVIEW_LOOP_CONFIG
+
+	if var_35_0.gcd then
+		return var_35_0.gcd
+	end
+
+	local var_35_1 = var_0_0.Battle.BattleConfig
+
+	return ({
+		var_35_1.ChargeWeaponConfig.GCD,
+		var_35_1.TorpedoCFG.GCD,
+		var_35_1.AirAssistCFG.GCD
+	})[arg_35_0._iconIndex] or var_35_1.TorpedoCFG.GCD
+end
+
+function var_0_1.GetProgressFaker(arg_36_0, arg_36_1)
+	local var_36_0 = {
+		current = 0,
+		count = 0,
+		max = 1,
+		total = arg_36_1 or 1
+	}
+
+	function var_36_0.GetCurrent()
+		return var_36_0.current
+	end
+
+	function var_36_0.GetMax()
+		return var_36_0.max
+	end
+
+	function var_36_0.GetCount()
+		return var_36_0.count
+	end
+
+	function var_36_0.GetTotal()
+		return var_36_0.total
+	end
+
+	function var_36_0.IsOverLoad()
+		return var_36_0.current < var_36_0.max or var_36_0.count < 1
+	end
+
+	function var_36_0.GetCurrentWeaponIconIndex()
+		return arg_36_0._iconIndex
+	end
+
+	function var_36_0.RegisterEventListener()
+		return
+	end
+
+	function var_36_0.UnregisterEventListener()
+		return
+	end
+
+	return var_36_0
+end
+
+function var_0_1.StartCombatUIPreviewLoop(arg_45_0)
+	local var_45_0 = arg_45_0.PREVIEW_LOOP_CONFIG
+	local var_45_1 = arg_45_0:GetProgressFaker(#var_45_0.chargeDurations)
+
+	arg_45_0._progressInfo = var_45_1
+	arg_45_0._previewProgress = var_45_1
+
+	arg_45_0:enterCombatUIPreviewStep(var_0_3.CHARGE)
+end
+
+function var_0_1.StopCombatUIPreviewLoop(arg_46_0)
+	arg_46_0._previewStep = nil
+	arg_46_0._previewElapsed = nil
+	arg_46_0._previewProgress = nil
+end
+
+function var_0_1.previewPlus(arg_47_0)
+	local var_47_0 = arg_47_0._previewProgress
+	local var_47_1 = var_47_0.count
+
+	var_47_0.count = var_47_0.count + 1
+	var_47_0.current = 1
+	var_47_0.max = 1
+
+	arg_47_0:OnCountChange()
+	arg_47_0:OnfilledEffect()
+	arg_47_0:OnOverLoadChange({
+		Data = {
+			preCast = var_47_1
+		}
+	})
+end
+
+function var_0_1.previewDeduct(arg_48_0)
+	local var_48_0 = arg_48_0._previewProgress
+
+	var_48_0.count = math.max(var_48_0.count - 1, 0)
+
+	if var_48_0.count > 0 then
+		var_48_0.max = arg_48_0:getPreviewGCD()
+	end
+
+	var_48_0.current = 0
+
+	arg_48_0:OnCountChange()
+	arg_48_0:OnOverLoadChange({
+		Data = {
+			postCast = true
+		}
+	})
+end
+
+function var_0_1.updatePreviewGCD(arg_49_0, arg_49_1)
+	local var_49_0 = arg_49_0._previewProgress
+
+	if var_49_0.count <= 0 or var_49_0.current >= var_49_0.max then
+		return
+	end
+
+	var_49_0.current = var_49_0.current + arg_49_1
+
+	if var_49_0.current >= var_49_0.max then
+		var_49_0.current = var_49_0.max
+
+		arg_49_0:OnOverLoadChange()
 	else
-		SetActive(arg_30_0._unfill, true)
-		SetActive(arg_30_0._filled, false)
-
-		arg_30_0._progressBar.fillAmount = 0
-
-		if arg_30_0._bgEff then
-			arg_30_0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 0
-		end
-
-		arg_30_0._countTxt.text = "0/0"
-
-		if arg_30_0._gizmos1 then
-			SetActive(arg_30_0._gizmos1, false)
-			SetActive(arg_30_0._gizmosXue, false)
-		end
+		arg_49_0:updateProgressBar()
 	end
 end
 
-function var_0_1.updateProgressBar(arg_31_0)
-	local var_31_0 = arg_31_0._progressInfo:GetCurrent() / arg_31_0._progressInfo:GetMax()
+function var_0_1.enterCombatUIPreviewStep(arg_50_0, arg_50_1)
+	local var_50_0 = arg_50_0._previewProgress
 
-	arg_31_0._progressBar.fillAmount = var_31_0
+	arg_50_0._previewStep = arg_50_1
+	arg_50_0._previewElapsed = 0
 
-	if arg_31_0._bgEff then
-		if arg_31_0._progressInfo.GetCount and arg_31_0._progressInfo:GetCount() > 0 then
-			arg_31_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1
+	switch(arg_50_1, {
+		[var_0_3.CHARGE] = function()
+			var_50_0.count = 0
+			var_50_0.current = 0
+			var_50_0.max = arg_50_0.PREVIEW_LOOP_CONFIG.chargeDurations[1]
+			arg_50_0._previewLayer = 1
+
+			arg_50_0:OnCountChange()
+			arg_50_0:OnOverLoadChange()
+		end,
+		[var_0_3.USABLE] = function()
+			return
+		end,
+		[var_0_3.USE] = function()
+			arg_50_0._previewUseTimes = 1
+
+			arg_50_0:previewDeduct()
+		end
+	})
+end
+
+function var_0_1.UpdateCombatUIPreviewLoop(arg_54_0, arg_54_1)
+	if not arg_54_0._previewStep then
+		return
+	end
+
+	arg_54_1 = arg_54_1 or var_0_2
+
+	local var_54_0 = arg_54_0.PREVIEW_LOOP_CONFIG
+	local var_54_1 = arg_54_0._previewProgress
+
+	arg_54_0._previewElapsed = arg_54_0._previewElapsed + arg_54_1
+
+	switch(arg_54_0._previewStep, {
+		[var_0_3.CHARGE] = function()
+			local var_55_0 = var_54_0.chargeDurations[arg_54_0._previewLayer]
+
+			if var_54_1.count == 0 then
+				var_54_1.current = math.min(arg_54_0._previewElapsed, var_54_1.max)
+
+				arg_54_0:updateProgressBar()
+			end
+
+			if var_55_0 <= arg_54_0._previewElapsed then
+				arg_54_0._previewElapsed = arg_54_0._previewElapsed - var_55_0
+				arg_54_0._previewLayer = arg_54_0._previewLayer + 1
+
+				arg_54_0:previewPlus()
+
+				if var_54_1.count >= var_54_1.total then
+					arg_54_0:enterCombatUIPreviewStep(var_0_3.USABLE)
+				end
+			end
+		end,
+		[var_0_3.USABLE] = function()
+			if arg_54_0._previewElapsed >= var_54_0.usableDuration then
+				arg_54_0:enterCombatUIPreviewStep(var_0_3.USE)
+			end
+		end,
+		[var_0_3.USE] = function()
+			arg_54_0:updatePreviewGCD(arg_54_1)
+
+			if arg_54_0._previewUseTimes < var_54_1.total then
+				if arg_54_0._previewElapsed >= var_54_0.useInterval then
+					arg_54_0._previewElapsed = arg_54_0._previewElapsed - var_54_0.useInterval
+					arg_54_0._previewUseTimes = arg_54_0._previewUseTimes + 1
+
+					arg_54_0:previewDeduct()
+				end
+			elseif arg_54_0._previewElapsed >= var_54_0.restartDelay then
+				arg_54_0:enterCombatUIPreviewStep(var_0_3.CHARGE)
+			end
+		end
+	})
+end
+
+function var_0_1.updateProgressBar(arg_58_0)
+	local var_58_0 = arg_58_0._progressInfo:GetCurrent() / arg_58_0._progressInfo:GetMax()
+
+	arg_58_0._progressBar.fillAmount = var_58_0
+
+	if arg_58_0._bgEff then
+		if arg_58_0._progressInfo.GetCount and arg_58_0._progressInfo:GetCount() > 0 then
+			arg_58_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1
 		else
-			arg_31_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = var_31_0
+			arg_58_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = var_58_0
 		end
 	end
 end
 
-function var_0_1.Dispose(arg_32_0)
-	if arg_32_0.eventTriggers then
-		for iter_32_0, iter_32_1 in pairs(arg_32_0.eventTriggers) do
-			ClearEventTrigger(iter_32_0)
+function var_0_1.Dispose(arg_59_0)
+	if arg_59_0.eventTriggers then
+		for iter_59_0, iter_59_1 in pairs(arg_59_0.eventTriggers) do
+			ClearEventTrigger(iter_59_0)
 		end
 
-		arg_32_0.eventTriggers = nil
+		arg_59_0.eventTriggers = nil
 	end
 
-	arg_32_0._progress = nil
-	arg_32_0._progressBar = nil
+	arg_59_0._progress = nil
+	arg_59_0._progressBar = nil
 
-	arg_32_0._progressInfo:UnregisterEventListener(arg_32_0, var_0_0.Battle.BattleEvent.OVER_LOAD_CHANGE)
-	arg_32_0._progressInfo:UnregisterEventListener(arg_32_0, var_0_0.Battle.BattleEvent.WEAPON_TOTAL_CHANGE)
-	arg_32_0._progressInfo:UnregisterEventListener(arg_32_0, var_0_0.Battle.BattleEvent.WEAPON_COUNT_PLUS)
-	arg_32_0._progressInfo:UnregisterEventListener(arg_32_0, var_0_0.Battle.BattleEvent.COUNT_CHANGE)
-	var_0_0.EventListener.DetachEventListener(arg_32_0)
+	arg_59_0._progressInfo:UnregisterEventListener(arg_59_0, var_0_0.Battle.BattleEvent.OVER_LOAD_CHANGE)
+	arg_59_0._progressInfo:UnregisterEventListener(arg_59_0, var_0_0.Battle.BattleEvent.WEAPON_TOTAL_CHANGE)
+	arg_59_0._progressInfo:UnregisterEventListener(arg_59_0, var_0_0.Battle.BattleEvent.WEAPON_COUNT_PLUS)
+	arg_59_0._progressInfo:UnregisterEventListener(arg_59_0, var_0_0.Battle.BattleEvent.COUNT_CHANGE)
+	var_0_0.EventListener.DetachEventListener(arg_59_0)
 end

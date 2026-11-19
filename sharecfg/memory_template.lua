@@ -4480,6 +4480,9 @@ pg.memory_template.all = {
 	5625,
 	5631,
 	5632,
+	5641,
+	5642,
+	5643,
 	10011,
 	10012,
 	10013,
@@ -85389,7 +85392,7 @@ end)()
 		type = 1,
 		mask = "bg/bg_memory",
 		title = "理理沙的茶会特训",
-		condition = "参与「天使舞台L」活动",
+		condition = "完成「天使舞台L」DAY3",
 		number = 0,
 		task = 0,
 		year = 0,
@@ -85407,7 +85410,7 @@ end)()
 		type = 1,
 		mask = "bg/bg_memory",
 		title = "美花莉认真工作中",
-		condition = "参与「天使舞台M」活动",
+		condition = "完成「天使舞台M」DAY3",
 		number = 0,
 		task = 0,
 		year = 0,
@@ -85416,6 +85419,60 @@ end)()
 		is_open = 0,
 		unlock_pre = {
 			"TIANSHIMENDEBILANWUTAIRICHANG2"
+		}
+	}
+	pg.base.memory_template[5641] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN1",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "青涩的见习检查",
+		condition = "完成「港区时尚特刊：心动诊疗时间」那不勒斯的签到",
+		number = 0,
+		task = 0,
+		year = 0,
+		id = 5641,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN1"
+		}
+	}
+	pg.base.memory_template[5642] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN2",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "交错的诊断时间",
+		condition = "完成「港区时尚特刊：心动诊疗时间」新奥尔良的签到",
+		number = 0,
+		task = 0,
+		year = 0,
+		id = 5642,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN2"
+		}
+	}
+	pg.base.memory_template[5643] = {
+		ship_group = 0,
+		subtitle = "",
+		story = "SHISHANGTEKANXINDONGZHENLIAOSHIJIAN3",
+		type = 1,
+		mask = "bg/bg_memory",
+		title = "风中的纯白絮语",
+		condition = "完成「港区时尚特刊：心动诊疗时间」伴尔维的签到",
+		number = 0,
+		task = 0,
+		year = 0,
+		id = 5643,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANXINDONGZHENLIAOSHIJIAN3"
 		}
 	}
 	pg.base.memory_template[10011] = {
@@ -85796,6 +85853,8 @@ end)()
 			"NEPU_DAILY6"
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_template[10042] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85850,8 +85909,6 @@ end)()
 			"NEPU_STAGE102"
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_template[10045] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87598,6 +87655,8 @@ end)()
 			"LINGHANGYUANTANXIN12"
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_template[20064] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87652,8 +87711,6 @@ end)()
 			"LINGHANGYUANTANXIN15"
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_template[20067] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89400,6 +89457,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA15"
 		}
 	}
+end)()
+;(function()
 	pg.base.memory_template[20165] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89454,8 +89513,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA18"
 		}
 	}
-end)()
-;(function()
 	pg.base.memory_template[20168] = {
 		ship_group = 0,
 		subtitle = "",

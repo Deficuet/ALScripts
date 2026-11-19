@@ -107,8 +107,8 @@ pg.base.shop_banner_template = {}
 			{
 				{
 					2026,
-					10,
-					17
+					11,
+					19
 				},
 				{
 					0,
@@ -119,8 +119,8 @@ pg.base.shop_banner_template = {}
 			{
 				{
 					2026,
-					10,
-					21
+					11,
+					25
 				},
 				{
 					23,
@@ -177,13 +177,38 @@ pg.base.shop_banner_template = {}
 	pg.base.shop_banner_template[13] = {
 		relation_param = "",
 		name = "banner_big",
-		time = "stop",
-		type = 2,
 		order = 7,
-		pic = "shopbanner/shop_skin4",
+		type = 2,
 		id = 13,
 		pic_overlay = "",
+		pic = "shopbanner/shop_skin4",
 		time_lable = 1,
+		time = {
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		param = {
 			"scene skinshop",
 			{}

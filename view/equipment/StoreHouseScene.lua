@@ -1259,7 +1259,7 @@ function var_0_0.updateItem(arg_103_0, arg_103_1, arg_103_2)
 		onButton(arg_103_0, var_103_0.go, function()
 			arg_103_0:emit(var_0_0.ON_ITEM_EXTRA, var_103_1.id, var_103_1.extra)
 		end, SFX_PANEL)
-	elseif var_103_1:getConfig("type") == Item.SKIN_ASSIGNED_TYPE then
+	elseif var_103_1:IsExchangeSkinType() then
 		onButton(arg_103_0, var_103_0.go, function()
 			arg_103_0:emit(var_0_0.ON_ITEM, var_103_1.id, function()
 				local var_120_0 = var_103_1:getConfig("usage_arg")

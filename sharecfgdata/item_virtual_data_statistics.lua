@@ -196118,6 +196118,34 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[67005] = {
+		display = "用于「限时体验商店」兑换角色限时换装",
+		name = "换装体验券",
+		drop_arg = "",
+		type = 98,
+		album_config = "",
+		drop_oil_max = 0,
+		shop_id = 1,
+		replace_item = 0,
+		virtual_type = 0,
+		id = 67005,
+		link_id = 0,
+		icon = "Props/skinTicket",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		drop_gold_max = 0,
+		is_world = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[68081] = {
 		display = "用于「「深渊之国」的缔造者」活动提升角色好感，活动结束后将会消失",
 		name = "友好度-{namecode:544}",

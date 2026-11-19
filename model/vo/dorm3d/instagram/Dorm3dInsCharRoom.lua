@@ -68,11 +68,11 @@ function var_0_0.SetCare(arg_10_0, arg_10_1)
 end
 
 function var_0_0.ShouldTip(arg_11_0)
-	local var_11_0 = arg_11_0:GetInsContent()
-	local var_11_1 = arg_11_0:GetChatContent()
-	local var_11_2 = arg_11_0:GetChatContent()
+	if not arg_11_0:IsDownloaded() then
+		return false
+	end
 
-	return var_11_0 or var_11_1 or var_11_2
+	return getProxy(Dorm3dInsProxy):AnyInstagramShouldTip(arg_11_0.groupId) or getProxy(Dorm3dInsProxy):ShoudTipPhoneById(arg_11_0.groupId) or getProxy(Dorm3dChatProxy):ShouldShowShipTip(arg_11_0.groupId)
 end
 
 function var_0_0.GetInsContent(arg_12_0)

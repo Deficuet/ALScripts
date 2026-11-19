@@ -86,44 +86,64 @@ end
 function var_0_0.OnUpdateFlush(arg_10_0)
 	setText(arg_10_0.progressRule, i18n("nier_core_task_desc"))
 
-	local var_10_0 = arg_10_0.ptData:getTargetLevel()
-	local var_10_1, var_10_2, var_10_3 = arg_10_0.ptData:GetLevelProgress()
+	local var_10_0, var_10_1, var_10_2 = arg_10_0.ptData:GetLevelProgress()
 
-	setText(arg_10_0.nowday, string.format("%s", var_10_1))
-	setText(arg_10_0.aimday, string.format("/%s", var_10_2))
+	setText(arg_10_0.nowday, string.format("%s", var_10_0))
+	setText(arg_10_0.aimday, string.format("/%s", var_10_1))
 
-	local var_10_4, var_10_5, var_10_6 = arg_10_0.ptData:GetResProgress()
+	local var_10_3, var_10_4, var_10_5 = arg_10_0.ptData:GetResProgress()
 
-	setText(arg_10_0.progressStep, string.format("%s<color=#bdbad1>/%s</color>", var_10_6 >= 1 and setColorStr(var_10_4, COLOR_GREEN) or var_10_4, var_10_5))
-	setSlider(arg_10_0.slider, 0, 1, var_10_6)
+	setText(arg_10_0.progressStep, string.format("%s<color=#bdbad1>/%s</color>", var_10_5 >= 1 and setColorStr(var_10_3, COLOR_GREEN) or var_10_3, var_10_4))
+	setSlider(arg_10_0.slider, 0, 1, var_10_5)
 
-	local var_10_7 = arg_10_0.ptData:CanGetAward()
-	local var_10_8 = arg_10_0.ptData:CanGetNextAward()
-	local var_10_9 = arg_10_0.ptData:CanGetMorePt()
+	local var_10_6 = arg_10_0.ptData:CanGetAward()
+	local var_10_7 = arg_10_0.ptData:CanGetNextAward()
+	local var_10_8 = arg_10_0.ptData:CanGetMorePt()
 
-	setActive(arg_10_0.battleBtn, var_10_9 and not var_10_7 and var_10_8)
-	setActive(arg_10_0.getBtn, var_10_7)
-	setActive(arg_10_0.gotBtn, not var_10_8)
+	setActive(arg_10_0.battleBtn, var_10_8 and not var_10_6 and var_10_7)
+	setActive(arg_10_0.getBtn, var_10_6)
+	setActive(arg_10_0.gotBtn, not var_10_7)
 
-	local var_10_10 = arg_10_0.ptData:GetAward()
+	local var_10_9 = arg_10_0.ptData:GetAward()
 
-	updateDrop(arg_10_0.awardTF, var_10_10)
+	updateDrop(arg_10_0.awardTF, var_10_9)
 	onButton(arg_10_0, arg_10_0.awardTF, function()
-		arg_10_0:emit(BaseUI.ON_DROP, var_10_10)
+		arg_10_0:emit(BaseUI.ON_DROP, var_10_9)
 	end, SFX_PANEL)
+	arg_10_0:PlayStory()
 end
 
-function var_0_0.OnDestroy(arg_12_0)
+function var_0_0.PlayStory(arg_12_0)
+	local var_12_0 = 3
+
+	if var_12_0 > arg_12_0.ptData:GetLevel() then
+		return
+	end
+
+	local var_12_1 = arg_12_0.activity:getConfig("config_client").story
+	local var_12_2 = checkExist(var_12_1, {
+		var_12_0
+	}, {
+		1
+	})
+	local var_12_3 = pg.NewStoryMgr.GetInstance()
+
+	if var_12_2 and not var_12_3:IsPlayed(var_12_2) then
+		var_12_3:Play(var_12_2)
+	end
+end
+
+function var_0_0.OnDestroy(arg_13_0)
 	return
 end
 
-function var_0_0.GetWorldPtData(arg_13_0, arg_13_1)
-	if arg_13_1 <= pg.TimeMgr.GetInstance():GetServerTime() - (ActivityMainScene.Data2Time or 0) then
+function var_0_0.GetWorldPtData(arg_14_0, arg_14_1)
+	if arg_14_1 <= pg.TimeMgr.GetInstance():GetServerTime() - (ActivityMainScene.Data2Time or 0) then
 		ActivityMainScene.Data2Time = pg.TimeMgr.GetInstance():GetServerTime()
 
-		arg_13_0:emit(ActivityMediator.EVENT_PT_OPERATION, {
+		arg_14_0:emit(ActivityMediator.EVENT_PT_OPERATION, {
 			cmd = 2,
-			activity_id = arg_13_0.ptData:GetId()
+			activity_id = arg_14_0.ptData:GetId()
 		})
 	end
 end

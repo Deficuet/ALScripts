@@ -5,8 +5,20 @@ var_0_0.MODE_VIEW = 2
 
 function var_0_0.init(arg_1_0)
 	var_0_0.super.init(arg_1_0)
-	setText(arg_1_0._tf:Find("adapt/top/title/Text"), i18n("shop_new_able_to_exchange"))
-	setText(arg_1_0._tf:Find("adapt/top/have/Text"), i18n("shop_new_able_to_exchange"))
+
+	local var_1_0 = "shop_new_able_to_exchange"
+	local var_1_1 = arg_1_0.contextData.itemId
+
+	if var_1_1 and Item.New({
+		id = var_1_1
+	}):IsVItemSkinCoupon() then
+		var_1_0 = "shop_new_able_to_exchange_1"
+	end
+
+	local var_1_2 = i18n(var_1_0)
+
+	setText(arg_1_0._tf:Find("adapt/top/title/Text"), var_1_2)
+	setText(arg_1_0._tf:Find("adapt/top/have/Text"), var_1_2)
 
 	arg_1_0.msgBox = SelectSkinMsgbox.New(arg_1_0._tf, arg_1_0.event)
 end

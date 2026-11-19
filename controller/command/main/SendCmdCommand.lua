@@ -4,10 +4,6 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1:getBody()
 
 	assert(var_1_0.cmd, "cmd should exist")
-
-	local var_1_1 = var_1_0.cmd
-	local var_1_2 = var_1_0.arg1
-
 	pg.ConnectionMgr.GetInstance():Send(11100, {
 		cmd = var_1_0.cmd,
 		arg1 = var_1_0.arg1,

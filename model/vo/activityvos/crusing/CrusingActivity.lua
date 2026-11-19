@@ -4,8 +4,6 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1)
 
 	arg_1_0.previousPeriodAct = arg_1_0:CreatePreviousPeriodAct()
-
-	print("========================&", arg_1_0.id, arg_1_0.data3, arg_1_0.data4)
 end
 
 function var_0_0.GetCrusingUnreceiveAward(arg_2_0)

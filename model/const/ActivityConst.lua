@@ -6,6 +6,7 @@ local var_0_0 = setmetatable({}, {
 	end
 })
 
+var_0_0.ACTIVITY_TYPE_DONOTHING = 0
 var_0_0.ACTIVITY_TYPE_BUILDSHIP_1 = 1
 var_0_0.ACTIVITY_TYPE_PARAMETER = 2
 var_0_0.ACTIVITY_TYPE_7DAYSLOGIN = 3

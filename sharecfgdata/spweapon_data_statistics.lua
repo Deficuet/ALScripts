@@ -46027,7 +46027,7 @@ end)()
 
 (function()
 	_G.pg.base.spweapon_data_statistics[15981] = {
-		prev = 15981,
+		prev = 15980,
 		base = 15980,
 		next = 15982,
 		upgrade_id = 10002,
@@ -46040,7 +46040,7 @@ end)()
 
 (function()
 	_G.pg.base.spweapon_data_statistics[15982] = {
-		prev = 15982,
+		prev = 15981,
 		base = 15980,
 		next = 15983,
 		upgrade_id = 10003,
@@ -46053,7 +46053,7 @@ end)()
 
 (function()
 	_G.pg.base.spweapon_data_statistics[15983] = {
-		prev = 15983,
+		prev = 15982,
 		base = 15980,
 		next = 15984,
 		upgrade_id = 10004,
@@ -46066,7 +46066,7 @@ end)()
 
 (function()
 	_G.pg.base.spweapon_data_statistics[15984] = {
-		prev = 15984,
+		prev = 15983,
 		base = 15980,
 		next = 15985,
 		upgrade_id = 10005,
@@ -46079,7 +46079,7 @@ end)()
 
 (function()
 	_G.pg.base.spweapon_data_statistics[15985] = {
-		prev = 15985,
+		prev = 15984,
 		base = 15980,
 		next = 15986,
 		upgrade_id = 10006,
@@ -46092,7 +46092,7 @@ end)()
 
 (function()
 	_G.pg.base.spweapon_data_statistics[15986] = {
-		prev = 15986,
+		prev = 15985,
 		base = 15980,
 		next = 15987,
 		upgrade_id = 10007,
@@ -46105,7 +46105,7 @@ end)()
 
 (function()
 	_G.pg.base.spweapon_data_statistics[15987] = {
-		prev = 15987,
+		prev = 15986,
 		base = 15980,
 		next = 15988,
 		upgrade_id = 10008,
@@ -46118,7 +46118,7 @@ end)()
 
 (function()
 	_G.pg.base.spweapon_data_statistics[15988] = {
-		prev = 15988,
+		prev = 15987,
 		base = 15980,
 		next = 15989,
 		upgrade_id = 10009,
@@ -46131,7 +46131,7 @@ end)()
 
 (function()
 	_G.pg.base.spweapon_data_statistics[15989] = {
-		prev = 15989,
+		prev = 15988,
 		base = 15980,
 		next = 15990,
 		upgrade_id = 10010,
@@ -46145,7 +46145,7 @@ end)()
 (function()
 	_G.pg.base.spweapon_data_statistics[15990] = {
 		base = 15980,
-		prev = 15990,
+		prev = 15989,
 		next = 0,
 		upgrade_id = 10011,
 		id = 15990,

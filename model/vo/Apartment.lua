@@ -304,9 +304,9 @@ function var_0_0.getGiftIds(arg_41_0)
 end
 
 function var_0_0.needDownload(arg_42_0)
-	return #ApartmentRoom.New({
+	return ApartmentRoom.New({
 		id = arg_42_0:getConfig("bind_room")
-	}):getDownloadNameList() > 0
+	}):needDownload()
 end
 
 function var_0_0.filterUnlockTalkList(arg_43_0, arg_43_1)

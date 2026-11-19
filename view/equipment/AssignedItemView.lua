@@ -82,7 +82,7 @@ function var_0_0.OnInit(arg_2_0)
 
 		local var_8_1 = arg_2_0.displayDrops[arg_2_0.selectedIndex].type == DROP_TYPE_ITEM and arg_2_0.displayDrops[arg_2_0.selectedIndex]:getSubClass()
 
-		if var_8_1 and var_8_1:getConfig("type") == Item.SKIN_ASSIGNED_TYPE and var_8_1:IsAllSkinOwner() then
+		if var_8_1 and Item.StaticIsExchangeSkinType(var_8_1:getConfig("type"), var_8_1:getConfig("virtual_type")) and var_8_1:IsAllSkinOwner() then
 			table.insert(var_8_0, function(arg_10_0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("blackfriday_pack_select_skinall"),
@@ -219,7 +219,7 @@ function var_0_0.update(arg_19_0, arg_19_1)
 	UpdateOwnDisplay(arg_19_0.itemTF:Find("left/own"), var_19_1)
 
 	if underscore.any(arg_19_0.displayDrops, function(arg_24_0)
-		return arg_24_0.type == DROP_TYPE_ITEM and arg_24_0:getConfig("type") == Item.SKIN_ASSIGNED_TYPE
+		return arg_24_0.type == DROP_TYPE_ITEM and Item.StaticIsExchangeSkinType(arg_24_0:getConfig("type"), arg_24_0:getConfig("virtual_type"))
 	end) or var_19_1.type == DROP_TYPE_ITEM and var_19_1:getConfig("type") == Item.ASSIGNED_TYPE then
 		RegisterDetailButton(arg_19_0, arg_19_0.itemTF:Find("left/detail"), var_19_1)
 	else

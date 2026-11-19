@@ -463,9 +463,9 @@ function var_0_0.setAfterResDownload(arg_19_0, arg_19_1, arg_19_2, arg_19_3)
 		var_19_21.localScale = Vector3.zero
 
 		table.insert(arg_19_0.delayTween, LeanTween.scale(var_19_21, Vector3(1, 1, 1), 0.2).uniqueId)
-		table.insert(arg_19_0.delayTween, LeanTween.moveX(arg_19_0.passState, 0, 0.35):setEase(LeanTweenType.easeInOutSine):setDelay(0.3).uniqueId)
 	end
 
+	table.insert(arg_19_0.delayTween, LeanTween.moveX(arg_19_0.passState, 0, 0.35):setEase(LeanTweenType.easeInOutSine):setDelay(0.3).uniqueId)
 	arg_19_0:UpdateChapterAutoBtn()
 end
 
@@ -526,123 +526,145 @@ function var_0_0.cancelTween(arg_44_0)
 	arg_44_0.delayTween = {}
 end
 
-function var_0_0.updateDrop(arg_46_0, arg_46_1, arg_46_2, arg_46_3)
-	if arg_46_1 == UIItemList.EventUpdate then
-		local var_46_0 = arg_46_0.awards[arg_46_2 + 1]
-		local var_46_1 = Drop.Create(var_46_0)
+local function var_0_3(arg_46_0, arg_46_1, arg_46_2)
+	local var_46_0 = arg_46_1:getConfig("type") == 99
+	local var_46_1 = arg_46_2:Find("LevelDropUpTag")
 
-		updateDrop(arg_46_3, var_46_1)
-		onButton(arg_46_0, arg_46_3, function()
+	if not var_46_0 then
+		setActive(var_46_1, false)
+
+		return
+	end
+
+	local var_46_2 = arg_46_1:getConfig("display_icon")
+	local var_46_3 = _.all(var_46_2, function(arg_47_0)
+		local var_47_0 = arg_47_0[1]
+		local var_47_1 = arg_47_0[2]
+
+		return var_47_0 == DROP_TYPE_SHIP
+	end)
+
+	setActive(var_46_1, var_46_3 and arg_46_0 and LevelDropUpActUtil.IsDropUpChapter(arg_46_0.id))
+end
+
+function var_0_0.updateDrop(arg_48_0, arg_48_1, arg_48_2, arg_48_3)
+	if arg_48_1 == UIItemList.EventUpdate then
+		local var_48_0 = arg_48_0.awards[arg_48_2 + 1]
+		local var_48_1 = Drop.Create(var_48_0)
+
+		updateDrop(arg_48_3, var_48_1)
+		var_0_3(arg_48_0.chapter, var_48_1, arg_48_3)
+		onButton(arg_48_0, arg_48_3, function()
 			if ({
 				[99] = true
-			})[var_46_1:getConfig("type")] then
-				local function var_47_0(arg_48_0)
-					local var_48_0 = var_46_1:getConfig("display_icon")
-					local var_48_1 = {}
+			})[var_48_1:getConfig("type")] then
+				local function var_49_0(arg_50_0)
+					local var_50_0 = var_48_1:getConfig("display_icon")
+					local var_50_1 = {}
 
-					for iter_48_0, iter_48_1 in ipairs(var_48_0) do
-						local var_48_2 = iter_48_1[1]
-						local var_48_3 = iter_48_1[2]
-						local var_48_4 = var_48_2 == DROP_TYPE_SHIP and not table.contains(arg_48_0, var_48_3)
+					for iter_50_0, iter_50_1 in ipairs(var_50_0) do
+						local var_50_2 = iter_50_1[1]
+						local var_50_3 = iter_50_1[2]
+						local var_50_4 = var_50_2 == DROP_TYPE_SHIP and not table.contains(arg_50_0, var_50_3)
 
-						var_48_1[#var_48_1 + 1] = {
-							type = var_48_2,
-							id = var_48_3,
-							anonymous = var_48_4
+						var_50_1[#var_50_1 + 1] = {
+							type = var_50_2,
+							id = var_50_3,
+							anonymous = var_50_4
 						}
 					end
 
-					arg_46_0:emit(BaseUI.ON_DROP_LIST, {
+					arg_48_0:emit(BaseUI.ON_DROP_LIST, {
 						item2Row = true,
-						itemList = var_48_1,
-						content = var_46_1:getConfig("display")
+						itemList = var_50_1,
+						content = var_48_1:getConfig("display")
 					})
-					arg_46_0:initTestShowDrop(var_46_1, Clone(var_48_1))
+					arg_48_0:initTestShowDrop(var_48_1, Clone(var_50_1))
 				end
 
-				arg_46_0:emit(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, arg_46_0.chapter.id, var_47_0)
+				arg_48_0:emit(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, arg_48_0.chapter.id, var_49_0)
 			else
-				arg_46_0:emit(BaseUI.ON_DROP, var_46_1)
+				arg_48_0:emit(BaseUI.ON_DROP, var_48_1)
 			end
 		end, SFX_PANEL)
 	end
 end
 
-function var_0_0.getChapterAwards(arg_49_0)
-	local var_49_0 = Clone(arg_49_0:getConfig("awards"))
-	local var_49_1 = arg_49_0:getStageExtraAwards()
+function var_0_0.getChapterAwards(arg_51_0)
+	local var_51_0 = Clone(arg_51_0:getConfig("awards"))
+	local var_51_1 = arg_51_0:getStageExtraAwards()
 
-	if var_49_1 then
-		for iter_49_0 = #var_49_1, 1, -1 do
-			table.insert(var_49_0, 1, var_49_1[iter_49_0])
+	if var_51_1 then
+		for iter_51_0 = #var_51_1, 1, -1 do
+			table.insert(var_51_0, 1, var_51_1[iter_51_0])
 		end
 	end
 
-	local function var_49_2(arg_50_0)
-		return _.all(arg_50_0, function(arg_51_0)
-			return #arg_51_0 >= 3
+	local function var_51_2(arg_52_0)
+		return _.all(arg_52_0, function(arg_53_0)
+			return #arg_53_0 >= 3
 		end)
 	end
 
-	local var_49_3 = {
-		arg_49_0:getConfig("boss_expedition_id"),
-		arg_49_0:getConfig("ai_expedition_list")
+	local var_51_3 = {
+		arg_51_0:getConfig("boss_expedition_id"),
+		arg_51_0:getConfig("ai_expedition_list")
 	}
 
-	if arg_49_0:getPlayType() == ChapterConst.TypeMultiStageBoss then
-		table.insert(var_49_3, pg.chapter_model_multistageboss[arg_49_0.id].boss_expedition_id)
+	if arg_51_0:getPlayType() == ChapterConst.TypeMultiStageBoss then
+		table.insert(var_51_3, pg.chapter_model_multistageboss[arg_51_0.id].boss_expedition_id)
 	end
 
-	local var_49_4 = _.flatten(var_49_3)
-	local var_49_5 = {}
-	local var_49_6 = {}
+	local var_51_4 = _.flatten(var_51_3)
+	local var_51_5 = {}
+	local var_51_6 = {}
 
-	for iter_49_1, iter_49_2 in ipairs(var_49_4) do
-		local var_49_7 = checkExist(pg.expedition_activity_template[iter_49_2], {
+	for iter_51_1, iter_51_2 in ipairs(var_51_4) do
+		local var_51_7 = checkExist(pg.expedition_activity_template[iter_51_2], {
 			"pt_drop_display"
 		})
 
-		if var_49_7 and type(var_49_7) == "table" and var_49_2(var_49_7) then
-			for iter_49_3, iter_49_4 in ipairs(var_49_7) do
-				local var_49_8, var_49_9, var_49_10, var_49_11 = unpack(iter_49_4)
-				local var_49_12 = var_49_9 .. "_" .. var_49_10
+		if var_51_7 and type(var_51_7) == "table" and var_51_2(var_51_7) then
+			for iter_51_3, iter_51_4 in ipairs(var_51_7) do
+				local var_51_8, var_51_9, var_51_10, var_51_11 = unpack(iter_51_4)
+				local var_51_12 = var_51_9 .. "_" .. var_51_10
 
-				if not var_49_6[var_49_12] then
-					var_49_6[var_49_12] = {}
+				if not var_51_6[var_51_12] then
+					var_51_6[var_51_12] = {}
 
-					table.insert(var_49_5, var_49_12)
+					table.insert(var_51_5, var_51_12)
 				end
 
-				var_49_6[var_49_12][var_49_8] = var_49_11
+				var_51_6[var_51_12][var_51_8] = var_51_11
 			end
 		end
 	end
 
-	local var_49_13 = getProxy(ActivityProxy)
+	local var_51_13 = getProxy(ActivityProxy)
 
-	for iter_49_5 = #var_49_5, 1, -1 do
-		local var_49_14, var_49_15 = unpack(underscore.map(string.split(var_49_5[iter_49_5], "_"), function(arg_52_0)
-			return tonumber(arg_52_0)
+	for iter_51_5 = #var_51_5, 1, -1 do
+		local var_51_14, var_51_15 = unpack(underscore.map(string.split(var_51_5[iter_51_5], "_"), function(arg_54_0)
+			return tonumber(arg_54_0)
 		end))
 
-		for iter_49_6, iter_49_7 in pairs(var_49_6[var_49_5[iter_49_5]]) do
-			local var_49_16 = var_49_13:getActivityById(iter_49_6)
+		for iter_51_6, iter_51_7 in pairs(var_51_6[var_51_5[iter_51_5]]) do
+			local var_51_16 = var_51_13:getActivityById(iter_51_6)
 
-			if var_49_16 and not var_49_16:isEnd() then
-				if var_49_14 == DROP_TYPE_RESOURCE then
-					table.insert(var_49_0, 1, {
+			if var_51_16 and not var_51_16:isEnd() then
+				if var_51_14 == DROP_TYPE_RESOURCE then
+					table.insert(var_51_0, 1, {
 						DROP_TYPE_ITEM,
-						id2ItemId(var_49_15),
-						iter_49_7
+						id2ItemId(var_51_15),
+						iter_51_7
 					})
 
 					break
 				end
 
-				table.insert(var_49_0, 1, {
-					var_49_14,
-					var_49_15,
-					iter_49_7
+				table.insert(var_51_0, 1, {
+					var_51_14,
+					var_51_15,
+					iter_51_7
 				})
 
 				break
@@ -650,102 +672,102 @@ function var_0_0.getChapterAwards(arg_49_0)
 		end
 	end
 
-	return var_49_0
+	return var_51_0
 end
 
-function var_0_0.initTestShowDrop(arg_53_0, arg_53_1, arg_53_2)
+function var_0_0.initTestShowDrop(arg_55_0, arg_55_1, arg_55_2)
 	if IsUnityEditor then
-		local var_53_0 = pg.MsgboxMgr.GetInstance()._go
-		local var_53_1 = var_53_0.transform:Find("button_test_show_drop")
+		local var_55_0 = pg.MsgboxMgr.GetInstance()._go
+		local var_55_1 = var_55_0.transform:Find("button_test_show_drop")
 
-		if IsNil(var_53_1) then
-			var_53_1 = GameObject.New("button_test_show_drop")
+		if IsNil(var_55_1) then
+			var_55_1 = GameObject.New("button_test_show_drop")
 
-			var_53_1:AddComponent(typeof(Button))
-			var_53_1:AddComponent(typeof(RectTransform))
-			var_53_1:AddComponent(typeof(Image))
+			var_55_1:AddComponent(typeof(Button))
+			var_55_1:AddComponent(typeof(RectTransform))
+			var_55_1:AddComponent(typeof(Image))
 		end
 
-		local var_53_2 = var_53_1:GetComponent(typeof(RectTransform))
+		local var_55_2 = var_55_1:GetComponent(typeof(RectTransform))
 
-		var_53_2:SetParent(var_53_0.transform, false)
+		var_55_2:SetParent(var_55_0.transform, false)
 
-		var_53_2.anchoredPosition = Vector3(-239, 173, 0)
-		var_53_2.sizeDelta = Vector2(40, 40)
+		var_55_2.anchoredPosition = Vector3(-239, 173, 0)
+		var_55_2.sizeDelta = Vector2(40, 40)
 
-		onButton(arg_53_0, var_53_2, function()
-			_.each(arg_53_2, function(arg_55_0)
-				arg_55_0.anonymous = false
+		onButton(arg_55_0, var_55_2, function()
+			_.each(arg_55_2, function(arg_57_0)
+				arg_57_0.anonymous = false
 			end)
-			arg_53_0:emit(BaseUI.ON_DROP_LIST, {
+			arg_55_0:emit(BaseUI.ON_DROP_LIST, {
 				item2Row = true,
-				itemList = arg_53_2,
-				content = arg_53_1:getConfig("display")
+				itemList = arg_55_2,
+				content = arg_55_1:getConfig("display")
 			})
 		end)
 	end
 end
 
-function var_0_0.clearTestShowDrop(arg_56_0)
+function var_0_0.clearTestShowDrop(arg_58_0)
 	if IsUnityEditor then
-		local var_56_0 = pg.MsgboxMgr.GetInstance()._go.transform:Find("button_test_show_drop")
+		local var_58_0 = pg.MsgboxMgr.GetInstance()._go.transform:Find("button_test_show_drop")
 
-		if not IsNil(var_56_0) then
-			Destroy(var_56_0)
+		if not IsNil(var_58_0) then
+			Destroy(var_58_0)
 		end
 	end
 end
 
-function var_0_0.ShowChapterRewardPanel(arg_57_0)
-	if arg_57_0.rewardPanel == nil then
-		arg_57_0.rewardPanel = ChapterRewardPanel.New(arg_57_0._tf.parent, arg_57_0.event, arg_57_0.contextData)
+function var_0_0.ShowChapterRewardPanel(arg_59_0)
+	if arg_59_0.rewardPanel == nil then
+		arg_59_0.rewardPanel = ChapterRewardPanel.New(arg_59_0._tf.parent, arg_59_0.event, arg_59_0.contextData)
 
-		arg_57_0.rewardPanel:Load()
+		arg_59_0.rewardPanel:Load()
 	end
 
-	arg_57_0.rewardPanel:ActionInvoke("Enter", arg_57_0.chapter)
+	arg_59_0.rewardPanel:ActionInvoke("Enter", arg_59_0.chapter)
 end
 
-function var_0_0.ClearChapterRewardPanel(arg_58_0)
-	if arg_58_0.rewardPanel ~= nil then
-		arg_58_0.rewardPanel:Destroy()
+function var_0_0.ClearChapterRewardPanel(arg_60_0)
+	if arg_60_0.rewardPanel ~= nil then
+		arg_60_0.rewardPanel:Destroy()
 
-		arg_58_0.rewardPanel = nil
-	end
-end
-
-function var_0_0.ShowChapterAutoPanel(arg_59_0)
-	if arg_59_0.autoPanel == nil then
-		arg_59_0.autoPanel = ChapterAutoPanel.New(arg_59_0._tf, arg_59_0.event, arg_59_0.contextData)
-
-		arg_59_0.autoPanel:Load()
-	end
-
-	arg_59_0.autoPanel:ActionInvoke("Enter", arg_59_0.chapter)
-end
-
-function var_0_0.RefreshChapterAutoPanel(arg_60_0)
-	if arg_60_0.autoPanel and arg_60_0.autoPanel:isShowing() then
-		arg_60_0.autoPanel:ActionInvoke("RefreshView")
+		arg_60_0.rewardPanel = nil
 	end
 end
 
-function var_0_0.ClearChapterAutoPanel(arg_61_0)
-	if arg_61_0.autoPanel ~= nil then
-		arg_61_0.autoPanel:Destroy()
+function var_0_0.ShowChapterAutoPanel(arg_61_0)
+	if arg_61_0.autoPanel == nil then
+		arg_61_0.autoPanel = ChapterAutoPanel.New(arg_61_0._tf, arg_61_0.event, arg_61_0.contextData)
 
-		arg_61_0.autoPanel = nil
+		arg_61_0.autoPanel:Load()
+	end
+
+	arg_61_0.autoPanel:ActionInvoke("Enter", arg_61_0.chapter)
+end
+
+function var_0_0.RefreshChapterAutoPanel(arg_62_0)
+	if arg_62_0.autoPanel and arg_62_0.autoPanel:isShowing() then
+		arg_62_0.autoPanel:ActionInvoke("RefreshView")
 	end
 end
 
-function var_0_0.clear(arg_62_0)
-	arg_62_0:cancelTween()
-	arg_62_0.dropList:each(function(arg_63_0, arg_63_1)
-		clearDrop(arg_63_1)
+function var_0_0.ClearChapterAutoPanel(arg_63_0)
+	if arg_63_0.autoPanel ~= nil then
+		arg_63_0.autoPanel:Destroy()
+
+		arg_63_0.autoPanel = nil
+	end
+end
+
+function var_0_0.clear(arg_64_0)
+	arg_64_0:cancelTween()
+	arg_64_0.dropList:each(function(arg_65_0, arg_65_1)
+		clearDrop(arg_65_1)
 	end)
-	arg_62_0:clearTestShowDrop()
-	arg_62_0:ClearChapterRewardPanel()
-	arg_62_0:ClearChapterAutoPanel()
+	arg_64_0:clearTestShowDrop()
+	arg_64_0:ClearChapterRewardPanel()
+	arg_64_0:ClearChapterAutoPanel()
 end
 
 return var_0_0

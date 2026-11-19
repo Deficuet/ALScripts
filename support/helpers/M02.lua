@@ -4816,18 +4816,21 @@ function RegisterDetailButton(arg_338_0, arg_338_1, arg_338_2)
 	Drop.Change(arg_338_2)
 	switch(arg_338_2.type, {
 		[DROP_TYPE_ITEM] = function()
-			if arg_338_2:getConfig("type") == Item.SKIN_ASSIGNED_TYPE then
-				local var_339_0 = Item.getConfigData(arg_338_2.id).usage_arg
-				local var_339_1 = var_339_0[3]
+			if Item.StaticIsExchangeSkinType(arg_338_2:getConfig("type"), arg_338_2:getConfig("virtual_type")) then
+				local var_339_0 = Item.New({
+					id = arg_338_2.id
+				})
+				local var_339_1 = var_339_0:getConfig("usage_arg")
+				local var_339_2 = var_339_1[3]
 
-				if Item.InTimeLimitSkinAssigned(arg_338_2.id) then
-					var_339_1 = table.mergeArray(var_339_0[2], var_339_1, true)
+				if var_339_0:IsVItemSkinCoupon() or Item.InTimeLimitSkinAssigned(arg_338_2.id) then
+					var_339_2 = table.mergeArray(var_339_1[2], var_339_2, true)
 				end
 
-				local var_339_2 = {}
+				local var_339_3 = {}
 
-				for iter_339_0, iter_339_1 in ipairs(var_339_0[2]) do
-					var_339_2[iter_339_1] = true
+				for iter_339_0, iter_339_1 in ipairs(var_339_1[2]) do
+					var_339_3[iter_339_1] = true
 				end
 
 				onButton(arg_338_0, arg_338_1, function()
@@ -4840,10 +4843,10 @@ function RegisterDetailButton(arg_338_0, arg_338_1, arg_338_2)
 							data = {
 								mode = SelectSkinLayer.MODE_VIEW,
 								itemId = arg_338_2.id,
-								selectableSkinList = underscore.map(var_339_1, function(arg_341_0)
+								selectableSkinList = underscore.map(var_339_2, function(arg_341_0)
 									return SelectableSkin.New({
 										id = arg_341_0,
-										isTimeLimit = var_339_2[arg_341_0] or false
+										isTimeLimit = var_339_3[arg_341_0] or false
 									})
 								end)
 							}
@@ -4852,29 +4855,29 @@ function RegisterDetailButton(arg_338_0, arg_338_1, arg_338_2)
 				end, SFX_PANEL)
 				setActive(arg_338_1, true)
 			elseif arg_338_2:getConfig("usage") ~= ItemUsage.EX_RE_MAP then
-				local var_339_3 = getProxy(TechnologyProxy):getItemCanUnlockBluePrint(arg_338_2.id) and "tech" or arg_338_2:getConfig("type")
+				local var_339_4 = getProxy(TechnologyProxy):getItemCanUnlockBluePrint(arg_338_2.id) and "tech" or arg_338_2:getConfig("type")
 
-				if var_0_28[var_339_3] then
-					local var_339_4 = {
+				if var_0_28[var_339_4] then
+					local var_339_5 = {
 						item2Row = true,
-						content = i18n(var_0_28[var_339_3]),
+						content = i18n(var_0_28[var_339_4]),
 						itemList = underscore.map(arg_338_2:getConfig("display_icon"), function(arg_342_0)
 							return Drop.Create(arg_342_0)
 						end)
 					}
 
-					if var_339_3 == 11 then
+					if var_339_4 == 11 then
 						onButton(arg_338_0, arg_338_1, function()
-							arg_338_0:emit(BaseUI.ON_DROP_LIST_OWN, var_339_4)
+							arg_338_0:emit(BaseUI.ON_DROP_LIST_OWN, var_339_5)
 						end, SFX_PANEL)
 					else
 						onButton(arg_338_0, arg_338_1, function()
-							arg_338_0:emit(BaseUI.ON_DROP_LIST, var_339_4)
+							arg_338_0:emit(BaseUI.ON_DROP_LIST, var_339_5)
 						end, SFX_PANEL)
 					end
 				end
 
-				setActive(arg_338_1, tobool(var_0_28[var_339_3]))
+				setActive(arg_338_1, tobool(var_0_28[var_339_4]))
 			end
 		end,
 		[DROP_TYPE_EQUIP] = function()

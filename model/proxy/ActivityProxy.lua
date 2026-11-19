@@ -746,20 +746,11 @@ function var_0_0.updateActivity(arg_71_0, arg_71_1)
 
 	local var_71_0 = arg_71_0.data[arg_71_1.id]
 
-	if isa(arg_71_1, CrusingActivity) then
+	if isa(arg_71_1, CrusingActivity) or isa(arg_71_1, Hei5Activity) then
 		local var_71_1 = arg_71_1:GetUpdateToastData(var_71_0)
 
 		if var_71_1 then
 			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_CRUSING, var_71_1)
-		end
-	elseif arg_71_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_HEI5 then
-		local var_71_2 = pg.black_friday_battlepass_event_pt[arg_71_1.id].target
-
-		if var_71_0.data1 < var_71_2[#var_71_2] and arg_71_1.data1 - var_71_0.data1 > 0 then
-			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_CRUSING, {
-				ptId = pg.black_friday_battlepass_event_pt[arg_71_1.id].pt,
-				ptCount = arg_71_1.data1 - var_71_0.data1
-			})
 		end
 	end
 

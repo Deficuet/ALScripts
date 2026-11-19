@@ -47,46 +47,67 @@ function var_0_1.OnCountChange(arg_3_0)
 end
 
 function var_0_1.SetToCombatUIPreview(arg_4_0, arg_4_1)
-	if arg_4_1 ~= CombatUIPreviewer.WeaponButtonPreviewMode.UNFILLED then
-		SetActive(arg_4_0._filled, true)
-		SetActive(arg_4_0._unfill, false)
+	local var_4_0 = CombatUIPreviewer.WeaponButtonPreviewMode
 
-		arg_4_0._progressBar.fillAmount = 1
-		arg_4_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 0
-		arg_4_0._countTxt.text = "1/1"
+	switch(arg_4_1, {
+		[var_4_0.UNFILLED] = function()
+			SetActive(arg_4_0._unfill, true)
+			SetActive(arg_4_0._filled, false)
 
-		if arg_4_0._gizmos1 then
-			SetActive(arg_4_0._gizmos1, true)
-			SetActive(arg_4_0._gizmosXue, true)
+			arg_4_0._progressBar.fillAmount = 0
+
+			if arg_4_0._bgEff then
+				arg_4_0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 1
+			end
+
+			arg_4_0._countTxt.text = "0/0"
+
+			if arg_4_0._gizmos1 then
+				SetActive(arg_4_0._gizmos1, false)
+				SetActive(arg_4_0._gizmosXue, false)
+			end
+		end,
+		[var_4_0.FILLED] = function()
+			SetActive(arg_4_0._filled, true)
+			SetActive(arg_4_0._unfill, false)
+
+			arg_4_0._progressBar.fillAmount = 1
+
+			if arg_4_0._bgEff then
+				arg_4_0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 0
+			end
+
+			arg_4_0._countTxt.text = "1/1"
+
+			if arg_4_0._gizmos1 then
+				SetActive(arg_4_0._gizmos1, true)
+				SetActive(arg_4_0._gizmosXue, true)
+			end
+		end,
+		[var_4_0.LOOP] = function()
+			arg_4_0:SetToCombatUIPreview(var_4_0.FILLED)
+		end,
+		[var_4_0.USABLE] = function()
+			local var_8_0 = arg_4_0:GetProgressFaker(1)
+
+			var_8_0.current = var_8_0.max
+			var_8_0.count = 1
+			arg_4_0._progressInfo = var_8_0
+
+			arg_4_0:OnCountChange()
+			arg_4_0:OnOverLoadChange()
 		end
-
-		SetActive(arg_4_0._glowEff, true)
-		quickCheckAndPlayAnimator(arg_4_0._skin, "weapon_button_progress_filled")
-	else
-		SetActive(arg_4_0._unfill, true)
-		SetActive(arg_4_0._filled, false)
-
-		arg_4_0._progressBar.fillAmount = 0
-		arg_4_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1
-		arg_4_0._countTxt.text = "0/0"
-
-		SetActive(arg_4_0._glowEff, false)
-
-		if arg_4_0._gizmos1 then
-			SetActive(arg_4_0._gizmos1, false)
-			SetActive(arg_4_0._gizmosXue, false)
-		end
-	end
+	})
 end
 
-function var_0_1.updateProgressBar(arg_5_0)
-	local var_5_0 = arg_5_0._progressInfo:GetCurrent() / arg_5_0._progressInfo:GetMax()
+function var_0_1.updateProgressBar(arg_9_0)
+	local var_9_0 = arg_9_0._progressInfo:GetCurrent() / arg_9_0._progressInfo:GetMax()
 
-	arg_5_0._progressBar.fillAmount = var_5_0
+	arg_9_0._progressBar.fillAmount = var_9_0
 
-	if arg_5_0._progressInfo.GetCount and arg_5_0._progressInfo:GetCount() > 0 then
-		arg_5_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 0
+	if arg_9_0._progressInfo.GetCount and arg_9_0._progressInfo:GetCount() > 0 then
+		arg_9_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 0
 	else
-		arg_5_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1 - var_5_0
+		arg_9_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1 - var_9_0
 	end
 end

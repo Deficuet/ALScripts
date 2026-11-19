@@ -203,7 +203,7 @@ function var_0_0.UpdateTaskDisplay(arg_18_0, arg_18_1, arg_18_2)
 	setActive(arg_18_1:Find("got"), var_18_3 == 2)
 	setText(arg_18_1:Find("go/Text"), i18n("island_word_go"))
 	setText(arg_18_1:Find("get/Text"), i18n("handbook_research_final_task_btn_claim"))
-	setText(arg_18_1:Find("got/Text"), i18n("handbook_research_final_task_btn_finished"))
+	setText(arg_18_1:Find("got/Text") or arg_18_1:Find("got/Image/Text"), i18n("handbook_research_final_task_btn_finished"))
 
 	local var_18_4 = Drop.Create(arg_18_2:getConfig("award_display")[1])
 

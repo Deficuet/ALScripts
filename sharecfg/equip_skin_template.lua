@@ -64185,7 +64185,7 @@ end)()
 		orbit_rotate = false,
 		desc = "仿照战斗用战术目镜而做成的外观样式。",
 		orbit_combat_anima_change = "",
-		icon = "97732",
+		icon = "98641",
 		orbit_ui = "shebei_yanzhaoui",
 		mirror = 0,
 		miss_sfx = "",

@@ -316,25 +316,32 @@ function var_0_0.initNotificationHandleDic(arg_22_0)
 end
 
 function var_0_0.BuildDebugBattleLoop(arg_56_0, arg_56_1)
-	if not IsUnityEditor then
-		return
-	end
-
 	local var_56_0 = {}
 
-	for iter_56_0, iter_56_1 in arg_56_1:gmatch("%s+(%S+)") do
-		table.insert(var_56_0, iter_56_0)
-	end
+	table.insert(var_56_0, function(arg_57_0)
+		arg_56_0:sendNotification(GAME.SEND_CMD_GM_VALID, function(arg_58_0)
+			if arg_58_0 then
+				arg_57_0()
+			end
+		end)
+	end)
+	seriesAsync(var_56_0, function()
+		local var_59_0 = {}
 
-	local var_56_1 = {
-		loopCount = tonumber(var_56_0[2]),
-		loopStages = underscore.rest(var_56_0, 3),
-		tempList = {}
-	}
+		for iter_59_0, iter_59_1 in arg_56_1:gmatch("%s+(%S+)") do
+			table.insert(var_59_0, iter_59_0)
+		end
 
-	_G.InDebugBattleLoop = var_56_1
+		local var_59_1 = {
+			loopCount = tonumber(var_59_0[2]),
+			loopStages = underscore.rest(var_59_0, 3),
+			tempList = {}
+		}
 
-	arg_56_0.viewComponent:CheckDebugBattleLoop()
+		_G.InDebugBattleLoop = var_59_1
+
+		arg_56_0.viewComponent:CheckDebugBattleLoop()
+	end)
 end
 
 return var_0_0

@@ -655,6 +655,7 @@ function var_0_0.didEnter(arg_42_0)
 		arg_42_0:ShowSelectedMap(arg_42_0:GetInitializeMap())
 	end, SFX_PANEL)
 	setText(arg_42_0.entranceLayer:Find("enters/enter_main/Text"), getProxy(ChapterProxy):getLastUnlockMap():getLastUnlockChapterName())
+	setActive(arg_42_0.entranceLayer:Find("enters/enter_main/LevelDropUpTag"), LevelDropUpActUtil.EixstLevelDropUpAct())
 	onButton(arg_42_0, arg_42_0.entranceLayer:Find("enters/enter_world/enter"), function()
 		if arg_42_0:isfrozen() then
 			return

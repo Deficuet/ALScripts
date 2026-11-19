@@ -382,6 +382,18 @@ function var_0_0.commonBind(arg_39_0)
 						skinID = arg_40_2:getConfig("id")
 					}
 				}))
+			elseif arg_40_2.type == DROP_TYPE_VITEM and arg_40_2:getConfig("type") == Item.PUZZLA_TYPE and arg_40_2:getConfig("virtual_type") == VIRTUAL_DROP_TYPE_SKIN_COUPON then
+				arg_40_0:addSubLayers(Context.New({
+					mediator = ItemInfoMediator,
+					viewComponent = ItemInfoLayer,
+					data = {
+						drop = Drop.New({
+							type = DROP_TYPE_ITEM,
+							id = arg_40_2.id
+						})
+					},
+					onRemoved = arg_40_3
+				}))
 			else
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					type = MSGBOX_TYPE_SINGLE_ITEM,

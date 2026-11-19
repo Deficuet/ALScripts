@@ -76,182 +76,44 @@ function var_0_0.bindConfigTable(arg_8_0)
 	return pg.dorm3d_rooms
 end
 
-function var_0_0.getDownloadNameList(arg_9_0)
-	local var_9_0 = DormGroupConst.GetDownloadResourceDic()
-	local var_9_1 = string.lower(arg_9_0:getConfig("resource_name"))
-	local var_9_2 = {}
+function var_0_0.getDownloadBelongList(arg_9_0)
+	local var_9_0 = string.lower(arg_9_0:getConfig("resource_name"))
+	local var_9_1 = arg_9_0:getConfig("type")
 
-	switch(arg_9_0:getConfig("type"), {
-		function()
-			var_9_2 = {
-				"room_" .. var_9_1,
-				"common"
-			}
-		end,
-		function()
-			var_9_2 = {
-				"room_" .. var_9_1,
-				"apartment_" .. var_9_1,
-				"common"
-			}
-		end
-	}, function()
-		assert(false, "without room type:" .. arg_9_0:getConfig("type"))
-	end)
-
-	local var_9_3 = {}
-
-	for iter_9_0, iter_9_1 in ipairs(var_9_2) do
-		table.insertto(var_9_3, var_9_0[iter_9_1] or {})
-	end
-
-	return var_9_3
-end
-
-function var_0_0.needDownload(arg_13_0)
-	return #arg_13_0:getDownloadNameList() > 0
-end
-
-function var_0_0.getDownloadNeedSize(arg_14_0)
-	local var_14_0, var_14_1 = DormGroupConst.CalcDormListSize(arg_14_0:getDownloadNameList())
-
-	return var_14_0, var_14_1
-end
-
-function var_0_0.getState(arg_15_0)
-	if DormGroupConst.DormDownloadLock and DormGroupConst.DormDownloadLock.roomId == arg_15_0.configId then
-		return "loading"
-	elseif arg_15_0:needDownload() then
-		return "download"
+	if var_9_1 == 1 then
+		return {
+			"room_" .. var_9_0,
+			"common"
+		}
+	elseif var_9_1 == 2 then
+		return {
+			"room_" .. var_9_0,
+			"apartment_" .. var_9_0,
+			"common"
+		}
 	else
-		return "complete"
+		assert(false, "without room type:" .. var_9_1)
 	end
 end
 
-function var_0_0.isPersonalRoom(arg_16_0)
-	return arg_16_0:getConfig("type") == 2
-end
+function var_0_0.getDownloadNameList(arg_10_0)
+	local var_10_0 = DormGroupConst.GetDownloadResourceDic()
+	local var_10_1 = {}
 
-function var_0_0.getPersonalGroupId(arg_17_0)
-	assert(arg_17_0:isPersonalRoom())
-
-	return arg_17_0:getConfig("character")[1]
-end
-
-function var_0_0.getInviteList(arg_18_0)
-	return table.mergeArray(arg_18_0:getConfig("character"), arg_18_0:getConfig("character_pay"))
-end
-
-function var_0_0.getInteractRange(arg_19_0)
-	local var_19_0, var_19_1 = unpack(arg_19_0:getConfig("character_range"))
-
-	var_19_1 = var_19_1 or var_19_0
-
-	return var_19_0, var_19_1
-end
-
-function var_0_0.getRoomName(arg_20_0)
-	return arg_20_0:getConfig("room")
-end
-
-function var_0_0.GetZoneIDList(arg_21_0)
-	return pg.dorm3d_zone_template.get_id_list_by_room_id[arg_21_0.configId] or {}
-end
-
-function var_0_0.GetSlotIDList(arg_22_0)
-	return pg.dorm3d_furniture_slot_template.get_id_list_by_room_id[arg_22_0.configId] or {}
-end
-
-function var_0_0.GetFurnitureZoneIDList(arg_23_0)
-	return arg_23_0:getConfig("furniture_zones")
-end
-
-function var_0_0.GetCameraZoneIDList(arg_24_0)
-	return pg.dorm3d_camera_zone_template.get_id_list_by_room_id[arg_24_0.configId] or {}
-end
-
-function var_0_0.GetZones(arg_25_0)
-	return underscore(arg_25_0.zoneDic):chain():values():sort(CompareFuncs({
-		function(arg_26_0)
-			return arg_26_0.configId
-		end
-	})):value()
-end
-
-function var_0_0.GetFurnitureZones(arg_27_0)
-	local var_27_0 = arg_27_0:GetFurnitureZoneIDList()
-
-	return underscore.map(var_27_0, function(arg_28_0)
-		return (table.Find(arg_27_0.zoneDic, function(arg_29_0, arg_29_1)
-			return arg_29_1:GetConfigID() == arg_28_0
-		end))
-	end)
-end
-
-function var_0_0.GetCameraZones(arg_30_0)
-	return arg_30_0.cameraZones
-end
-
-function var_0_0.GetSlots(arg_31_0)
-	return underscore(arg_31_0.slotDic):chain():values():sort(CompareFuncs({
-		function(arg_32_0)
-			return arg_32_0.configId
-		end
-	})):value()
-end
-
-function var_0_0.GetFurnitureIDList(arg_33_0)
-	return pg.dorm3d_furniture_template.get_id_list_by_room_id[arg_33_0.configId]
-end
-
-function var_0_0.GetFurnitures(arg_34_0)
-	return arg_34_0.furnitures
-end
-
-function var_0_0.HasFurniture(arg_35_0, arg_35_1)
-	return _.any(arg_35_0.furnitures, function(arg_36_0)
-		return arg_36_0:GetConfigID() == arg_35_1
-	end)
-end
-
-function var_0_0.AddFurnitureByID(arg_37_0, arg_37_1)
-	table.insert(arg_37_0.furnitures, Dorm3dFurniture.New({
-		configId = arg_37_1
-	}))
-end
-
-function var_0_0.ReplaceFurnitures(arg_38_0, arg_38_1)
-	_.each(arg_38_1, function(arg_39_0)
-		arg_38_0:ReplaceFurniture(arg_39_0.slotId, arg_39_0.furnitureId)
-	end)
-	arg_38_0:UpdateFurnitureReplaceConfig()
-end
-
-function var_0_0.ReplaceFurniture(arg_40_0, arg_40_1, arg_40_2)
-	if arg_40_1 > 0 then
-		local var_40_0 = _.detect(arg_40_0.furnitures, function(arg_41_0)
-			return arg_41_0:GetSlotID() == arg_40_1
-		end)
-
-		if var_40_0 then
-			var_40_0:SetSlotID(0)
-		end
+	for iter_10_0, iter_10_1 in ipairs(arg_10_0:getDownloadBelongList()) do
+		table.insertto(var_10_1, var_10_0[iter_10_1] or {})
 	end
 
-	if arg_40_2 > 0 then
-		local var_40_1 = _.detect(arg_40_0.furnitures, function(arg_42_0)
-			return arg_42_0:GetConfigID() == arg_40_2 and arg_42_0:GetSlotID() == 0
-		end)
-
-		if var_40_1 then
-			var_40_1:SetSlotID(arg_40_1)
-		end
-	end
+	return var_10_1
 end
 
-function var_0_0.IsFurnitureSetIn(arg_43_0, arg_43_1)
-	for iter_43_0, iter_43_1 in ipairs(arg_43_0.furnitures) do
-		if iter_43_1:GetConfigID() == arg_43_1 and iter_43_1.slotId > 0 then
+function var_0_0.needDownload(arg_11_0)
+	local var_11_0 = DormGroupConst.GetDownloadResourceDic()
+
+	for iter_11_0, iter_11_1 in ipairs(arg_11_0:getDownloadBelongList()) do
+		local var_11_1 = var_11_0[iter_11_1]
+
+		if var_11_1 and #var_11_1 > 0 then
 			return true
 		end
 	end
@@ -259,12 +121,159 @@ function var_0_0.IsFurnitureSetIn(arg_43_0, arg_43_1)
 	return false
 end
 
-function var_0_0.UpdateFurnitureReplaceConfig(arg_44_0)
-	local var_44_0 = {}
+function var_0_0.getDownloadNeedSize(arg_12_0)
+	local var_12_0, var_12_1 = DormGroupConst.CalcDormListSize(arg_12_0:getDownloadNameList())
 
-	for iter_44_0, iter_44_1 in ipairs(arg_44_0.furnitures) do
-		if iter_44_1.slotId ~= 0 then
-			var_44_0[iter_44_1.slotId] = iter_44_1
+	return var_12_0, var_12_1
+end
+
+function var_0_0.getState(arg_13_0)
+	if DormGroupConst.DormDownloadLock and DormGroupConst.DormDownloadLock.roomId == arg_13_0.configId then
+		return "loading"
+	elseif arg_13_0:needDownload() then
+		return "download"
+	else
+		return "complete"
+	end
+end
+
+function var_0_0.isPersonalRoom(arg_14_0)
+	return arg_14_0:getConfig("type") == 2
+end
+
+function var_0_0.getPersonalGroupId(arg_15_0)
+	assert(arg_15_0:isPersonalRoom())
+
+	return arg_15_0:getConfig("character")[1]
+end
+
+function var_0_0.getInviteList(arg_16_0)
+	return table.mergeArray(arg_16_0:getConfig("character"), arg_16_0:getConfig("character_pay"))
+end
+
+function var_0_0.getInteractRange(arg_17_0)
+	local var_17_0, var_17_1 = unpack(arg_17_0:getConfig("character_range"))
+
+	var_17_1 = var_17_1 or var_17_0
+
+	return var_17_0, var_17_1
+end
+
+function var_0_0.getRoomName(arg_18_0)
+	return arg_18_0:getConfig("room")
+end
+
+function var_0_0.GetZoneIDList(arg_19_0)
+	return pg.dorm3d_zone_template.get_id_list_by_room_id[arg_19_0.configId] or {}
+end
+
+function var_0_0.GetSlotIDList(arg_20_0)
+	return pg.dorm3d_furniture_slot_template.get_id_list_by_room_id[arg_20_0.configId] or {}
+end
+
+function var_0_0.GetFurnitureZoneIDList(arg_21_0)
+	return arg_21_0:getConfig("furniture_zones")
+end
+
+function var_0_0.GetCameraZoneIDList(arg_22_0)
+	return pg.dorm3d_camera_zone_template.get_id_list_by_room_id[arg_22_0.configId] or {}
+end
+
+function var_0_0.GetZones(arg_23_0)
+	return underscore(arg_23_0.zoneDic):chain():values():sort(CompareFuncs({
+		function(arg_24_0)
+			return arg_24_0.configId
+		end
+	})):value()
+end
+
+function var_0_0.GetFurnitureZones(arg_25_0)
+	local var_25_0 = arg_25_0:GetFurnitureZoneIDList()
+
+	return underscore.map(var_25_0, function(arg_26_0)
+		return (table.Find(arg_25_0.zoneDic, function(arg_27_0, arg_27_1)
+			return arg_27_1:GetConfigID() == arg_26_0
+		end))
+	end)
+end
+
+function var_0_0.GetCameraZones(arg_28_0)
+	return arg_28_0.cameraZones
+end
+
+function var_0_0.GetSlots(arg_29_0)
+	return underscore(arg_29_0.slotDic):chain():values():sort(CompareFuncs({
+		function(arg_30_0)
+			return arg_30_0.configId
+		end
+	})):value()
+end
+
+function var_0_0.GetFurnitureIDList(arg_31_0)
+	return pg.dorm3d_furniture_template.get_id_list_by_room_id[arg_31_0.configId]
+end
+
+function var_0_0.GetFurnitures(arg_32_0)
+	return arg_32_0.furnitures
+end
+
+function var_0_0.HasFurniture(arg_33_0, arg_33_1)
+	return _.any(arg_33_0.furnitures, function(arg_34_0)
+		return arg_34_0:GetConfigID() == arg_33_1
+	end)
+end
+
+function var_0_0.AddFurnitureByID(arg_35_0, arg_35_1)
+	table.insert(arg_35_0.furnitures, Dorm3dFurniture.New({
+		configId = arg_35_1
+	}))
+end
+
+function var_0_0.ReplaceFurnitures(arg_36_0, arg_36_1)
+	_.each(arg_36_1, function(arg_37_0)
+		arg_36_0:ReplaceFurniture(arg_37_0.slotId, arg_37_0.furnitureId)
+	end)
+	arg_36_0:UpdateFurnitureReplaceConfig()
+end
+
+function var_0_0.ReplaceFurniture(arg_38_0, arg_38_1, arg_38_2)
+	if arg_38_1 > 0 then
+		local var_38_0 = _.detect(arg_38_0.furnitures, function(arg_39_0)
+			return arg_39_0:GetSlotID() == arg_38_1
+		end)
+
+		if var_38_0 then
+			var_38_0:SetSlotID(0)
+		end
+	end
+
+	if arg_38_2 > 0 then
+		local var_38_1 = _.detect(arg_38_0.furnitures, function(arg_40_0)
+			return arg_40_0:GetConfigID() == arg_38_2 and arg_40_0:GetSlotID() == 0
+		end)
+
+		if var_38_1 then
+			var_38_1:SetSlotID(arg_38_1)
+		end
+	end
+end
+
+function var_0_0.IsFurnitureSetIn(arg_41_0, arg_41_1)
+	for iter_41_0, iter_41_1 in ipairs(arg_41_0.furnitures) do
+		if iter_41_1:GetConfigID() == arg_41_1 and iter_41_1.slotId > 0 then
+			return true
+		end
+	end
+
+	return false
+end
+
+function var_0_0.UpdateFurnitureReplaceConfig(arg_42_0)
+	local var_42_0 = {}
+
+	for iter_42_0, iter_42_1 in ipairs(arg_42_0.furnitures) do
+		if iter_42_1.slotId ~= 0 then
+			var_42_0[iter_42_1.slotId] = iter_42_1
 		end
 	end
 end
@@ -274,51 +283,51 @@ var_0_0.ITEM_UNLOCK = 1
 var_0_0.ITEM_ACTIVE = 2
 var_0_0.ITEM_FIRST = 3
 
-function var_0_0.getTriggerableCollectItemDic(arg_45_0, arg_45_1)
-	local var_45_0 = {}
+function var_0_0.getTriggerableCollectItemDic(arg_43_0, arg_43_1)
+	local var_43_0 = {}
 
-	for iter_45_0, iter_45_1 in ipairs(pg.dorm3d_collection_template.get_id_list_by_room_id[arg_45_0.configId] or {}) do
-		local var_45_1 = pg.dorm3d_collection_template[iter_45_1]
+	for iter_43_0, iter_43_1 in ipairs(pg.dorm3d_collection_template.get_id_list_by_room_id[arg_43_0.configId] or {}) do
+		local var_43_1 = pg.dorm3d_collection_template[iter_43_1]
 
-		if var_45_1.time ~= 0 and var_45_1.time ~= arg_45_1 or not ApartmentProxy.CheckUnlockConfig(var_45_1.unlock) then
-			var_45_0[iter_45_1] = var_0_0.ITEM_LOCK
-		elseif arg_45_0.collectItemDic[iter_45_1] then
-			var_45_0[iter_45_1] = var_0_0.ITEM_ACTIVE
+		if var_43_1.time ~= 0 and var_43_1.time ~= arg_43_1 or not ApartmentProxy.CheckUnlockConfig(var_43_1.unlock) then
+			var_43_0[iter_43_1] = var_0_0.ITEM_LOCK
+		elseif arg_43_0.collectItemDic[iter_43_1] then
+			var_43_0[iter_43_1] = var_0_0.ITEM_ACTIVE
 		else
-			var_45_0[iter_45_1] = var_0_0.ITEM_FIRST
+			var_43_0[iter_43_1] = var_0_0.ITEM_FIRST
 		end
 	end
 
-	return var_45_0
+	return var_43_0
 end
 
-function var_0_0.getNormalZoneNames(arg_46_0)
-	return underscore(arg_46_0.zoneDic):chain():values():select(function(arg_47_0)
-		return not arg_47_0:IsGlobal()
-	end):map(function(arg_48_0)
-		return arg_48_0:GetWatchCameraName()
+function var_0_0.getNormalZoneNames(arg_44_0)
+	return underscore(arg_44_0.zoneDic):chain():values():select(function(arg_45_0)
+		return not arg_45_0:IsGlobal()
+	end):map(function(arg_46_0)
+		return arg_46_0:GetWatchCameraName()
 	end):value()
 end
 
-function var_0_0.getZoneConfig(arg_49_0, arg_49_1, arg_49_2)
-	return arg_49_0.zoneDic[arg_49_1]:getConfig(arg_49_2)
+function var_0_0.getZoneConfig(arg_47_0, arg_47_1, arg_47_2)
+	return arg_47_0.zoneDic[arg_47_1]:getConfig(arg_47_2)
 end
 
-function var_0_0.getApartmentZoneConfig(arg_50_0, arg_50_1, arg_50_2, arg_50_3)
-	return Apartment.getGroupConfig(arg_50_3, arg_50_0:getZoneConfig(arg_50_1, arg_50_2))
+function var_0_0.getApartmentZoneConfig(arg_48_0, arg_48_1, arg_48_2, arg_48_3)
+	return Apartment.getGroupConfig(arg_48_3, arg_48_0:getZoneConfig(arg_48_1, arg_48_2))
 end
 
-function var_0_0.getAllARAnimationListByShip(arg_51_0, arg_51_1)
-	return arg_51_0.shipArAnimationDic[arg_51_1]
+function var_0_0.getAllARAnimationListByShip(arg_49_0, arg_49_1)
+	return arg_49_0.shipArAnimationDic[arg_49_1]
 end
 
-function var_0_0.getMiniGames(arg_52_0)
-	return underscore.rest(pg.dorm3d_minigame.get_id_list_by_room_id[arg_52_0.configId] or {}, 1)
+function var_0_0.getMiniGames(arg_50_0)
+	return underscore.rest(pg.dorm3d_minigame.get_id_list_by_room_id[arg_50_0.configId] or {}, 1)
 end
 
-function var_0_0.unlockAllInvite(arg_53_0)
-	for iter_53_0, iter_53_1 in ipairs(arg_53_0:getConfig("character_pay")) do
-		if not arg_53_0.unlockCharacter[iter_53_1] then
+function var_0_0.unlockAllInvite(arg_51_0)
+	for iter_51_0, iter_51_1 in ipairs(arg_51_0:getConfig("character_pay")) do
+		if not arg_51_0.unlockCharacter[iter_51_1] then
 			return false
 		end
 	end
@@ -326,35 +335,35 @@ function var_0_0.unlockAllInvite(arg_53_0)
 	return true
 end
 
-function var_0_0.GetAllTouchIDByZone(arg_54_0, arg_54_1, arg_54_2)
-	local var_54_0 = {}
-	local var_54_1 = arg_54_0:getApartmentZoneConfig(arg_54_1, "touch_id", arg_54_2)
+function var_0_0.GetAllTouchIDByZone(arg_52_0, arg_52_1, arg_52_2)
+	local var_52_0 = {}
+	local var_52_1 = arg_52_0:getApartmentZoneConfig(arg_52_1, "touch_id", arg_52_2)
 
-	if var_54_1 then
-		table.insert(var_54_0, {
-			touchId = var_54_1
+	if var_52_1 then
+		table.insert(var_52_0, {
+			touchId = var_52_1
 		})
 	end
 
-	for iter_54_0, iter_54_1 in pairs(arg_54_0.furnitures) do
-		if iter_54_1:GetSlotID() > 0 then
-			local var_54_2 = arg_54_0.slotDic[iter_54_1:GetSlotID()]
+	for iter_52_0, iter_52_1 in pairs(arg_52_0.furnitures) do
+		if iter_52_1:GetSlotID() > 0 then
+			local var_52_2 = arg_52_0.slotDic[iter_52_1:GetSlotID()]
 
-			if var_54_2 and pg.dorm3d_zone_template[var_54_2:GetZoneID()].watch_camera == arg_54_1 then
-				local var_54_3 = iter_54_1:GetName()
-				local var_54_4 = Apartment.getGroupConfig(arg_54_2, iter_54_1:getConfig("touch_id"))
+			if var_52_2 and pg.dorm3d_zone_template[var_52_2:GetZoneID()].watch_camera == arg_52_1 then
+				local var_52_3 = iter_52_1:GetName()
+				local var_52_4 = Apartment.getGroupConfig(arg_52_2, iter_52_1:getConfig("touch_id"))
 
-				if var_54_3 and var_54_4 then
-					table.insert(var_54_0, {
-						touchId = var_54_4,
-						furnitureName = var_54_3
+				if var_52_3 and var_52_4 then
+					table.insert(var_52_0, {
+						touchId = var_52_4,
+						furnitureName = var_52_3
 					})
 				end
 			end
 		end
 	end
 
-	return var_54_0
+	return var_52_0
 end
 
 return var_0_0

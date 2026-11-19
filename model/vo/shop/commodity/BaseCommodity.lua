@@ -207,4 +207,12 @@ function var_0_0.StaticCanUseVoucherType(arg_35_0, arg_35_1)
 	return false
 end
 
+function var_0_0.ExistMeshImageSkinExchangeItem(arg_36_0)
+	return false
+end
+
+function var_0_0.GetMeshImageSkinExchangeItems(arg_37_0)
+	return {}
+end
+
 return var_0_0

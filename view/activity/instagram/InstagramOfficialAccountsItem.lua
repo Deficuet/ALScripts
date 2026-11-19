@@ -26,7 +26,7 @@ function var_0_0.RefreshUI(arg_4_0)
 	local var_4_0 = arg_4_0.id
 	local var_4_1 = getProxy(InstagramProxy):GetOfficialAccounts()[var_4_0]
 
-	setText(arg_4_0.uiNameText, shortenString(var_4_1:getConfig("title"), 26))
+	setText(arg_4_0.uiNameText, shortenString(HXSet.hxLan(var_4_1:getConfig("title")), 26))
 	arg_4_0:RefreshTip()
 end
 

@@ -70,3 +70,57 @@ function var_0_1.OnOverLoadChange(arg_3_0, arg_3_1)
 		arg_3_0:updateProgressBar()
 	end
 end
+
+function var_0_1.SetToCombatUIPreview(arg_4_0, arg_4_1)
+	local var_4_0 = CombatUIPreviewer.WeaponButtonPreviewMode
+
+	switch(arg_4_1, {
+		[var_4_0.UNFILLED] = function()
+			SetActive(arg_4_0._unfill, true)
+			SetActive(arg_4_0._filled, false)
+
+			arg_4_0._progressBar.fillAmount = 0
+
+			if arg_4_0._bgEff then
+				arg_4_0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 1
+			end
+
+			arg_4_0._countTxt.text = "0/0"
+
+			if arg_4_0._gizmos1 then
+				SetActive(arg_4_0._gizmos1, false)
+				SetActive(arg_4_0._gizmosXue, false)
+			end
+		end,
+		[var_4_0.FILLED] = function()
+			SetActive(arg_4_0._filled, true)
+			SetActive(arg_4_0._unfill, false)
+
+			arg_4_0._progressBar.fillAmount = 1
+
+			if arg_4_0._bgEff then
+				arg_4_0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 0
+			end
+
+			arg_4_0._countTxt.text = "1/1"
+
+			if arg_4_0._gizmos1 then
+				SetActive(arg_4_0._gizmos1, true)
+				SetActive(arg_4_0._gizmosXue, true)
+			end
+		end,
+		[var_4_0.LOOP] = function()
+			arg_4_0:SetToCombatUIPreview(var_4_0.FILLED)
+		end,
+		[var_4_0.USABLE] = function()
+			local var_8_0 = arg_4_0:GetProgressFaker(1)
+
+			var_8_0.current = var_8_0.max
+			var_8_0.count = 1
+			arg_4_0._progressInfo = var_8_0
+
+			arg_4_0:OnCountChange()
+			arg_4_0:OnOverLoadChange()
+		end
+	})
+end

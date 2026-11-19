@@ -40,7 +40,13 @@ end
 
 function var_0_0.UpdateSelector(arg_7_0)
 	if arg_7_0.isOpen then
-		local var_7_0 = IslandSeasonAgency.GetCurrentSeason() - 1
+		local var_7_0 = IslandSeasonAgency.GetCurrentSeason()
+
+		if PLATFORM_CODE == PLATFORM_CHT then
+			var_7_0 = var_7_0 - IslandSeasonAgency.TW_SEASON_START
+		else
+			var_7_0 = var_7_0 - 1
+		end
 
 		arg_7_0.uiList:align(var_7_0 or 0)
 	end
@@ -59,7 +65,14 @@ function var_0_0.Hide(arg_8_0)
 end
 
 function var_0_0.UpdateItem(arg_9_0, arg_9_1, arg_9_2)
-	local var_9_0 = arg_9_1 + 1
+	local var_9_0
+
+	if PLATFORM_CODE == PLATFORM_CHT then
+		var_9_0 = IslandSeasonAgency.TW_SEASON_START + arg_9_1
+	else
+		var_9_0 = arg_9_1 + 1
+	end
+
 	local var_9_1 = pg.island_season[var_9_0].name_short
 
 	setText(arg_9_2, var_9_1)

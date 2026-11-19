@@ -4,6 +4,8 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1)
 
 	arg_1_0.dataConfig = pg.activity_event_shop_discount[arg_1_0.configId]
+
+	assert(arg_1_0.dataConfig, "Invalid activity config for SkinCouponActivity>>>>>" .. arg_1_0.configId)
 end
 
 function var_0_0.GetDiscountPrice(arg_2_0)

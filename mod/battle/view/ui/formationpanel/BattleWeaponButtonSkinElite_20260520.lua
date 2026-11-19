@@ -70,121 +70,64 @@ function var_0_1.OnCountChange(arg_6_0)
 	SetActive(arg_6_0._glowEff, arg_6_0._progressInfo:GetCount() > 0)
 end
 
-function var_0_1.StopCombatUIPreviewLoop(arg_7_0)
-	if arg_7_0._skin then
-		LeanTween.cancel(go(arg_7_0._skin))
+function var_0_1.ApplyCombatUIPreviewState(arg_7_0, arg_7_1, arg_7_2, arg_7_3)
+	local var_7_0 = #arg_7_0.PREVIEW_LOOP_CONFIG.chargeDurations
+
+	SetActive(arg_7_0._filled, not arg_7_3 and arg_7_1 > 0)
+	SetActive(arg_7_0._unfill, arg_7_3 or arg_7_1 <= 0)
+	SetActive(arg_7_0._unfillShade, arg_7_3 or arg_7_1 <= 0)
+
+	arg_7_0._progressBar.fillAmount = arg_7_2
+	arg_7_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = (arg_7_3 or arg_7_1 > 0) and 1 or 0
+	arg_7_0._countTxt.text = arg_7_1 .. "/" .. var_7_0
+
+	if arg_7_0._gizmos1 then
+		SetActive(arg_7_0._gizmos1, arg_7_1 > 0)
+		SetActive(arg_7_0._gizmosXue, arg_7_1 > 0)
 	end
+
+	SetActive(arg_7_0._glowEff, arg_7_1 > 0)
+
+	arg_7_0._bgEffAni.enabled = true
+
+	arg_7_0:updateProgressBG(arg_7_2, 5)
 end
 
-function var_0_1.ApplyCombatUIPreviewState(arg_8_0, arg_8_1, arg_8_2, arg_8_3)
-	local var_8_0 = 2
+function var_0_1.updateProgressBar(arg_8_0)
+	local var_8_0 = arg_8_0._progressInfo:GetCurrent() / arg_8_0._progressInfo:GetMax()
 
-	SetActive(arg_8_0._filled, not arg_8_3 and arg_8_1 > 0)
-	SetActive(arg_8_0._unfill, arg_8_3 or arg_8_1 <= 0)
-	SetActive(arg_8_0._unfillShade, arg_8_3 or arg_8_1 <= 0)
+	arg_8_0._progressBar.fillAmount = var_8_0
 
-	arg_8_0._progressBar.fillAmount = arg_8_2
-	arg_8_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = (arg_8_3 or arg_8_1 > 0) and 1 or 0
-	arg_8_0._countTxt.text = arg_8_1 .. "/" .. var_8_0
-
-	if arg_8_0._gizmos1 then
-		SetActive(arg_8_0._gizmos1, arg_8_1 > 0)
-		SetActive(arg_8_0._gizmosXue, arg_8_1 > 0)
-	end
-
-	SetActive(arg_8_0._glowEff, arg_8_1 > 0)
-
-	arg_8_0._bgEffAni.enabled = true
-
-	arg_8_0:updateProgressBG(arg_8_2, 5)
-end
-
-function var_0_1.StartCombatUIPreviewLoop(arg_9_0)
-	local var_9_0 = go(arg_9_0._skin)
-
-	local function var_9_1()
-		arg_9_0:ApplyCombatUIPreviewState(0, 0, true)
-		LeanTween.value(var_9_0, 0, 1, 5):setOnUpdate(System.Action_float(function(arg_11_0)
-			arg_9_0:ApplyCombatUIPreviewState(0, arg_11_0, true)
-		end)):setOnComplete(System.Action(function()
-			arg_9_0:ApplyCombatUIPreviewState(2, 1, false)
-			quickCheckAndPlayAnimator(arg_9_0._skin, "weapon_button_progress_filled")
-			LeanTween.delayedCall(var_9_0, 3, System.Action(function()
-				arg_9_0:ApplyCombatUIPreviewState(1, 1, false)
-				quickCheckAndPlayAnimator(arg_9_0._skin, "weapon_button_progress_use")
-				LeanTween.delayedCall(var_9_0, 3, System.Action(function()
-					arg_9_0:ApplyCombatUIPreviewState(0, 0, false)
-					quickCheckAndPlayAnimator(arg_9_0._skin, "weapon_button_progress_use")
-					LeanTween.delayedCall(var_9_0, 3, System.Action(function()
-						var_9_1()
-					end))
-				end))
-			end))
-		end))
-	end
-
-	var_9_1()
-end
-
-function var_0_1.SetToCombatUIPreview(arg_16_0, arg_16_1)
-	arg_16_0:StopCombatUIPreviewLoop()
-
-	local var_16_0 = CombatUIPreviewer.WeaponButtonPreviewMode
-
-	if arg_16_1 == var_16_0.LOOP then
-		arg_16_0:StartCombatUIPreviewLoop()
-
-		return
-	end
-
-	if arg_16_1 ~= var_16_0.UNFILLED then
-		arg_16_0:ApplyCombatUIPreviewState(2, 1, false)
-		quickCheckAndPlayAnimator(arg_16_0._skin, "weapon_button_progress_filled")
+	if arg_8_0._progressInfo.GetCount and arg_8_0._progressInfo:GetCount() > 0 then
+		arg_8_0:updateProgressBG(1, arg_8_0._progressInfo:GetMax())
 	else
-		arg_16_0:ApplyCombatUIPreviewState(0, 0, false)
+		arg_8_0._bgEffAni.enabled = true
+
+		arg_8_0:updateProgressBG(var_8_0, arg_8_0._progressInfo:GetMax())
 	end
 end
 
-function var_0_1.updateProgressBar(arg_17_0)
-	local var_17_0 = arg_17_0._progressInfo:GetCurrent() / arg_17_0._progressInfo:GetMax()
+function var_0_1.updateProgressBG(arg_9_0, arg_9_1, arg_9_2)
+	arg_9_1 = Mathf.Clamp01(arg_9_1)
 
-	arg_17_0._progressBar.fillAmount = var_17_0
+	local var_9_0 = arg_9_0._bgEffAniClipTotalFrames - 1
+	local var_9_1 = arg_9_1 * var_9_0
+	local var_9_2
 
-	if arg_17_0._progressInfo.GetCount and arg_17_0._progressInfo:GetCount() > 0 then
-		arg_17_0:updateProgressBG(1, arg_17_0._progressInfo:GetMax())
+	if arg_9_2 and arg_9_2 > var_0_2 then
+		local var_9_3 = math.floor(var_9_1)
+		local var_9_4 = math.min(var_9_0, var_9_3 + 1)
+		local var_9_5 = var_9_1 - var_9_3
+
+		var_9_2 = (var_9_3 + (var_9_4 - var_9_3) * var_9_5) / var_9_0
 	else
-		arg_17_0._bgEffAni.enabled = true
-
-		arg_17_0:updateProgressBG(var_17_0, arg_17_0._progressInfo:GetMax())
-	end
-end
-
-function var_0_1.updateProgressBG(arg_18_0, arg_18_1, arg_18_2)
-	arg_18_1 = Mathf.Clamp01(arg_18_1)
-
-	local var_18_0 = arg_18_0._bgEffAniClipTotalFrames - 1
-	local var_18_1 = arg_18_1 * var_18_0
-	local var_18_2
-
-	if arg_18_2 and arg_18_2 > var_0_2 then
-		local var_18_3 = math.floor(var_18_1)
-		local var_18_4 = math.min(var_18_0, var_18_3 + 1)
-		local var_18_5 = var_18_1 - var_18_3
-
-		var_18_2 = (var_18_3 + (var_18_4 - var_18_3) * var_18_5) / var_18_0
-	else
-		var_18_2 = math.floor(var_18_1 + 0.5) / var_18_0
+		var_9_2 = math.floor(var_9_1 + 0.5) / var_9_0
 	end
 
-	arg_18_0._bgEffAni.speed = 1
+	arg_9_0._bgEffAni.speed = 1
 
-	arg_18_0._bgEffAni:Play("skinui_button_bg", 0, var_18_2)
-	arg_18_0._bgEffAni:Update(0)
+	arg_9_0._bgEffAni:Play("skinui_button_bg", 0, var_9_2)
+	arg_9_0._bgEffAni:Update(0)
 
-	arg_18_0._bgEffAni.speed = 0
-end
-
-function var_0_1.Dispose(arg_19_0)
-	arg_19_0:StopCombatUIPreviewLoop()
-	var_0_1.super.Dispose(arg_19_0)
+	arg_9_0._bgEffAni.speed = 0
 end

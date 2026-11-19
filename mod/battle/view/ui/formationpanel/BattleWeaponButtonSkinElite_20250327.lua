@@ -47,77 +47,44 @@ function var_0_1.OnCountChange(arg_3_0)
 	SetActive(arg_3_0._glowEff, arg_3_0._progressInfo:GetCount() > 0)
 end
 
-function var_0_1.SetToCombatUIPreview(arg_4_0, arg_4_1)
-	if arg_4_1 ~= CombatUIPreviewer.WeaponButtonPreviewMode.UNFILLED then
-		SetActive(arg_4_0._filled, true)
-		SetActive(arg_4_0._unfill, false)
+function var_0_1.updateProgressBar(arg_4_0)
+	local var_4_0 = arg_4_0._progressInfo:GetCurrent() / arg_4_0._progressInfo:GetMax()
 
-		arg_4_0._progressBar.fillAmount = 1
+	arg_4_0._progressBar.fillAmount = var_4_0
+
+	if arg_4_0._progressInfo.GetCount and arg_4_0._progressInfo:GetCount() > 0 then
 		arg_4_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 0
-		arg_4_0._countTxt.text = "1/1"
-
-		if arg_4_0._gizmos1 then
-			SetActive(arg_4_0._gizmos1, true)
-			SetActive(arg_4_0._gizmosXue, true)
-		end
-
-		SetActive(arg_4_0._glowEff, true)
-		quickCheckAndPlayAnimator(arg_4_0._skin, "weapon_button_progress_filled")
 	else
-		SetActive(arg_4_0._unfill, true)
-		SetActive(arg_4_0._filled, false)
-
-		arg_4_0._progressBar.fillAmount = 0
-		arg_4_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1
-		arg_4_0._countTxt.text = "0/0"
-
-		SetActive(arg_4_0._glowEff, false)
-
-		if arg_4_0._gizmos1 then
-			SetActive(arg_4_0._gizmos1, false)
-			SetActive(arg_4_0._gizmosXue, false)
-		end
+		arg_4_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1 - var_4_0
 	end
 end
 
-function var_0_1.updateProgressBar(arg_5_0)
-	local var_5_0 = arg_5_0._progressInfo:GetCurrent() / arg_5_0._progressInfo:GetMax()
-
-	arg_5_0._progressBar.fillAmount = var_5_0
-
-	if arg_5_0._progressInfo.GetCount and arg_5_0._progressInfo:GetCount() > 0 then
-		arg_5_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 0
+function var_0_1.OnOverLoadChange(arg_5_0, arg_5_1)
+	if arg_5_0._progressInfo:IsOverLoad() then
+		arg_5_0._block:SetActive(true)
+		arg_5_0:OnUnfill()
 	else
-		arg_5_0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1 - var_5_0
-	end
-end
-
-function var_0_1.OnOverLoadChange(arg_6_0, arg_6_1)
-	if arg_6_0._progressInfo:IsOverLoad() then
-		arg_6_0._block:SetActive(true)
-		arg_6_0:OnUnfill()
-	else
-		arg_6_0._block:SetActive(false)
-		arg_6_0:OnFilled()
+		arg_5_0._block:SetActive(false)
+		arg_5_0:OnFilled()
 	end
 
-	if arg_6_0._progressInfo:GetCount() >= 1 and arg_6_1 and arg_6_1.Data then
-		local var_6_0 = arg_6_1.Data.preCast
+	if arg_5_0._progressInfo:GetCount() >= 1 and arg_5_1 and arg_5_1.Data then
+		local var_5_0 = arg_5_1.Data.preCast
 
-		if var_6_0 then
-			if var_6_0 == 0 then
-				quickCheckAndPlayAnimator(arg_6_0._skin, "weapon_button_progress_filled")
-			elseif var_6_0 > 0 then
-				quickCheckAndPlayAnimator(arg_6_0._skin, "weapon_button_progress_charge")
+		if var_5_0 then
+			if var_5_0 == 0 then
+				quickCheckAndPlayAnimator(arg_5_0._skin, "weapon_button_progress_filled")
+			elseif var_5_0 > 0 then
+				quickCheckAndPlayAnimator(arg_5_0._skin, "weapon_button_progress_charge")
 			end
 		end
 	end
 
-	if arg_6_1 and arg_6_1.Data and arg_6_1.Data.postCast then
-		quickCheckAndPlayAnimator(arg_6_0._skin, "weapon_button_progress_use")
+	if arg_5_1 and arg_5_1.Data and arg_5_1.Data.postCast then
+		quickCheckAndPlayAnimator(arg_5_0._skin, "weapon_button_progress_use")
 	end
 
-	if arg_6_0._progressInfo:GetTotal() > 0 then
-		arg_6_0:updateProgressBar()
+	if arg_5_0._progressInfo:GetTotal() > 0 then
+		arg_5_0:updateProgressBar()
 	end
 end

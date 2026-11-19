@@ -199,15 +199,15 @@ function var_0_0.OnGetCount(arg_15_0, arg_15_1)
 end
 
 function var_0_0.ShowSitePage(arg_16_0)
-	local var_16_0 = arg_16_0.showDataList[2].config.drop_id
+	local var_16_0 = arg_16_0.showDataList[1].config.drop_id
 	local var_16_1 = arg_16_0.bg_1:Find("Role_left")
 	local var_16_2 = var_16_1:Find("lock_bg")
 	local var_16_3 = var_16_1:Find("name_bg/mask/name")
 	local var_16_4 = var_16_1:Find("get")
 	local var_16_5 = var_16_1:Find("notget")
 	local var_16_6 = Drop.New({
-		type = arg_16_0.showDataList[2].config.type,
-		id = arg_16_0.showDataList[2].config.drop_id
+		type = arg_16_0.showDataList[1].config.type,
+		id = arg_16_0.showDataList[1].config.drop_id
 	})
 	local var_16_7 = var_16_6:getName()
 	local var_16_8 = var_16_6.id
@@ -224,10 +224,10 @@ function var_0_0.ShowSitePage(arg_16_0)
 	local var_16_13 = var_16_11:Find("name_bg/mask/name")
 	local var_16_14 = var_16_11:Find("get")
 	local var_16_15 = var_16_11:Find("notget")
-	local var_16_16 = arg_16_0.showDataList[1].config.drop_id
+	local var_16_16 = arg_16_0.showDataList[2].config.drop_id
 	local var_16_17 = Drop.New({
-		type = arg_16_0.showDataList[1].config.type,
-		id = arg_16_0.showDataList[1].config.drop_id
+		type = arg_16_0.showDataList[2].config.type,
+		id = arg_16_0.showDataList[2].config.drop_id
 	})
 	local var_16_18 = var_16_17:getName()
 	local var_16_19 = var_16_17.id

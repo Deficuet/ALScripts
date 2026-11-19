@@ -41,7 +41,7 @@ function var_0_0.ShowAndCheckDrops(arg_7_0, arg_7_1)
 	end
 
 	local var_7_1 = underscore.detect(arg_7_1, function(arg_9_0)
-		return arg_9_0.type == DROP_TYPE_ITEM and arg_9_0:getConfig("type") == Item.SKIN_ASSIGNED_TYPE and Item.InTimeLimitSkinAssigned(arg_9_0.id)
+		return arg_9_0.type == DROP_TYPE_ITEM and Item.StaticIsExchangeSkinType(arg_9_0:getConfig("type"), arg_9_0:getConfig("virtual_type")) and Item.InTimeLimitSkinAssigned(arg_9_0.id)
 	end)
 
 	if var_7_1 then

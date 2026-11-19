@@ -23,5 +23,6 @@ var_0_0.USAGE_SKIN_EXP = "usage_skin_exp"
 var_0_0.SHIP_GIFT = "usage_favorability"
 var_0_0.REPAIR_LOVE_LETTER = "usage_loveitem_change_2018"
 var_0_0.EX_RE_MAP = "usage_drop_re_map"
+var_0_0.MESH_IMAGE_SKIN_EXCHANGE = "usage_skin_exchange"
 
 return var_0_0

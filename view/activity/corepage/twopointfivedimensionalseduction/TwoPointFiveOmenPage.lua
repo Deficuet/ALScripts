@@ -124,26 +124,54 @@ function var_0_0.OnUpdateFlush(arg_12_0)
 	if arg_12_0.taskWindow:isShowing() then
 		arg_12_0.taskWindow:ExecuteAction("Show", arg_12_0.activity)
 	end
+
+	arg_12_0:PlayStory()
 end
 
-function var_0_0.getTaskIdx(arg_13_0, arg_13_1)
-	local var_13_0 = 1
-	local var_13_1 = arg_13_1:getNDay()
-	local var_13_2 = #arg_13_0.taskGroup
-	local var_13_3 = math.min(var_13_1, var_13_2)
-	local var_13_4 = true
+function var_0_0.PlayStory(arg_13_0)
+	local var_13_0 = 3
+	local var_13_1 = arg_13_0.activity:getConfig("config_client").story
+	local var_13_2 = checkExist(var_13_1, {
+		var_13_0
+	}, {
+		1
+	})
 
-	for iter_13_0 = 1, var_13_3 do
-		if not var_13_4 then
+	if not var_13_2 or var_13_0 > arg_13_0.nday then
+		return
+	end
+
+	for iter_13_0, iter_13_1 in ipairs(arg_13_0.taskGroup[var_13_0]) do
+		if not arg_13_0:isTaskFinished(iter_13_1) then
+			return
+		end
+	end
+
+	local var_13_3 = pg.NewStoryMgr.GetInstance()
+
+	if not var_13_3:IsPlayed(var_13_2) then
+		var_13_3:Play(var_13_2)
+	end
+end
+
+function var_0_0.getTaskIdx(arg_14_0, arg_14_1)
+	local var_14_0 = 1
+	local var_14_1 = arg_14_1:getNDay()
+	local var_14_2 = #arg_14_0.taskGroup
+	local var_14_3 = math.min(var_14_1, var_14_2)
+	local var_14_4 = true
+
+	for iter_14_0 = 1, var_14_3 do
+		if not var_14_4 then
 			break
 		end
 
-		var_13_0 = iter_13_0
+		var_14_0 = iter_14_0
 
-		if iter_13_0 < var_13_3 then
-			for iter_13_1, iter_13_2 in ipairs(arg_13_0.taskGroup[iter_13_0]) do
-				if not arg_13_0:isTaskFinished(iter_13_2) then
-					var_13_4 = false
+		if iter_14_0 < var_14_3 then
+			for iter_14_1, iter_14_2 in ipairs(arg_14_0.taskGroup[iter_14_0]) do
+				if not arg_14_0:isTaskFinished(iter_14_2) then
+					var_14_4 = false
 
 					break
 				end
@@ -151,35 +179,35 @@ function var_0_0.getTaskIdx(arg_13_0, arg_13_1)
 		end
 	end
 
-	return math.min(var_13_0, var_13_2)
+	return math.min(var_14_0, var_14_2)
 end
 
-function var_0_0.isTaskFinished(arg_14_0, arg_14_1)
-	if not arg_14_0.taskProxy then
-		arg_14_0.taskProxy = getProxy(TaskProxy)
+function var_0_0.isTaskFinished(arg_15_0, arg_15_1)
+	if not arg_15_0.taskProxy then
+		arg_15_0.taskProxy = getProxy(TaskProxy)
 	end
 
-	local var_14_0 = arg_14_0.taskProxy:getTaskById(arg_14_1) or arg_14_0.taskProxy:getFinishTaskById(arg_14_1)
+	local var_15_0 = arg_15_0.taskProxy:getTaskById(arg_15_1) or arg_15_0.taskProxy:getFinishTaskById(arg_15_1)
 
-	return var_14_0 and var_14_0:getTaskStatus() == 2
+	return var_15_0 and var_15_0:getTaskStatus() == 2
 end
 
-function var_0_0.GetProgressColor(arg_15_0)
+function var_0_0.GetProgressColor(arg_16_0)
 	return "#ff89b9", "#ffb1d8"
 end
 
-function var_0_0.OnHideFlush(arg_16_0)
-	if arg_16_0.taskWindow:isShowing() then
-		arg_16_0.taskWindow:Hide()
+function var_0_0.OnHideFlush(arg_17_0)
+	if arg_17_0.taskWindow:isShowing() then
+		arg_17_0.taskWindow:Hide()
 	end
 end
 
-function var_0_0.OnDestroy(arg_17_0)
-	if arg_17_0.taskWindow then
-		arg_17_0.taskWindow:Hide()
-		arg_17_0.taskWindow:Destroy()
+function var_0_0.OnDestroy(arg_18_0)
+	if arg_18_0.taskWindow then
+		arg_18_0.taskWindow:Hide()
+		arg_18_0.taskWindow:Destroy()
 
-		arg_17_0.taskWindow = nil
+		arg_18_0.taskWindow = nil
 	end
 end
 

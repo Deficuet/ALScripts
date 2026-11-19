@@ -20,10 +20,10 @@ function var_0_0.setActivity(arg_2_0, arg_2_1)
 	end
 
 	arg_2_0.contextData.phase = arg_2_0.phase
+	arg_2_0.helpBtnTip = "blackfriday_battlepass_main_help_" .. pg.black_friday_battlepass_event_pt[arg_2_0.activity.id].map_name
 end
 
 function var_0_0.initTplVar(arg_3_0)
-	arg_3_0.helpBtnTip = "blackfriday_battlepass_main_help_" .. pg.black_friday_battlepass_event_pt[arg_3_0.activity.id].map_name
 	arg_3_0.awardPageCls = PSSHei5AwardPage
 	arg_3_0.taskPageCls = PSSHei5TaskPage
 	arg_3_0.chargePageCls = PSSCruiseChargePage

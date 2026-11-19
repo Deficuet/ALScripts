@@ -123,10 +123,16 @@ function var_0_0.BindEvent(arg_2_0)
 	end)
 	arg_2_0:bind(var_0_0.ON_SKIP_UNIQUE_SHIPS, function(arg_10_0, arg_10_1)
 		local var_10_0 = getProxy(ContextProxy):getCurrentContext()
+		local var_10_1 = pg.MsgboxMgr.GetInstance()
+
+		if var_10_1.enable then
+			var_10_1:hide()
+		end
 
 		if var_10_0 and var_10_0.scene == SCENE.EQUIPSCENE then
 			var_10_0.data.warp = StoreHouseConst.WARP_TO_WEAPON
 			var_10_0.data.mode = StoreHouseConst.SPWEAPON
+			var_10_0.cleanChild = true
 		end
 
 		arg_2_0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {

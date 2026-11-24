@@ -1481,7 +1481,7 @@ function var_0_0.FlushPainting(arg_81_0, arg_81_1)
 end
 
 function var_0_0.loadPainting(arg_83_0, arg_83_1)
-	local var_83_0 = arg_83_0:GetPaintingState(arg_83_1)
+	local var_83_0 = arg_83_0.paintingState.state
 
 	if var_83_0 == var_0_1 then
 		arg_83_0:LoadMeshPainting(arg_83_1, arg_83_0.isToggleShowBg)

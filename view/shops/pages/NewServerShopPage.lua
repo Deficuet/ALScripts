@@ -20,18 +20,15 @@ function var_0_0.OnLoaded(arg_2_0)
 end
 
 function var_0_0.UpdateRes(arg_3_0)
-	local var_3_0 = arg_3_0.shop:GetPtId()
-	local var_3_1 = getProxy(PlayerProxy):getRawData():getResource(var_3_0)
+	local var_3_0 = arg_3_0.shop:GetPtDrop()
+	local var_3_1 = var_3_0:getOwnedCount()
 
 	arg_3_0.resTxt.text = var_3_1
 
 	if not arg_3_0.isInitResIcon then
 		arg_3_0.isInitResIcon = true
 
-		GetImageSpriteFromAtlasAsync(Drop.New({
-			type = DROP_TYPE_RESOURCE,
-			id = var_3_0
-		}):getIcon(), "", arg_3_0.resIcon)
+		GetImageSpriteFromAtlasAsync(var_3_0:getIcon(), "", arg_3_0.resIcon)
 	end
 end
 

@@ -1,6 +1,6 @@
 return {
 	init_effect = "",
-	name = "战列-战术-装填I",
+	name = "战列-指挥-装填I",
 	time = 0,
 	color = "yellow",
 	picture = "",

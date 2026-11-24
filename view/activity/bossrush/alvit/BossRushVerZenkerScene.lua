@@ -1,4 +1,4 @@
-local var_0_0 = class("BossRushVerZenkerScene", import("view.base.BaseUI"))
+local var_0_0 = class("BossRushVerZenkerScene", import("view.activity.BossRush.BossRushBaseScene"))
 
 var_0_0.DISPLAY = {
 	STORY = "Story",

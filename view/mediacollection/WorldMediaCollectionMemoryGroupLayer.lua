@@ -167,6 +167,7 @@ function var_0_0.OnInit(arg_2_0)
 	end
 
 	arg_2_0.storyLineView:ConfigCallback(var_2_2, var_2_3)
+	arg_2_0:InitEasterEgg()
 end
 
 function var_0_0.StoryLineBtnSetActive(arg_16_0, arg_16_1)
@@ -414,6 +415,7 @@ function var_0_0.UpdateActivityBar(arg_35_0)
 end
 
 function var_0_0.OnDestroy(arg_36_0)
+	arg_36_0:ExitEasterEgg()
 	var_0_0.super.OnDestroy(arg_36_0)
 	arg_36_0.storyLineView:Dispose()
 	arg_36_0:UnOverlayPanel(arg_36_0.memoryTogGroup, arg_36_0._tf)
@@ -431,6 +433,82 @@ function var_0_0.GetMatchGroupList(arg_37_0, arg_37_1, arg_37_2)
 	end
 
 	return var_37_0
+end
+
+function var_0_0.Scroll2MemoryGroup(arg_38_0, arg_38_1, arg_38_2)
+	if arg_38_0.currentMode ~= var_0_0.FORM_MODE or not arg_38_0.memoryGroupList or not arg_38_0.memoryGroupList.isStart then
+		return
+	end
+
+	local var_38_0 = arg_38_0.searchGroupList or arg_38_0.memoryGroups or {}
+
+	for iter_38_0, iter_38_1 in ipairs(var_38_0) do
+		if iter_38_1.id == arg_38_1 then
+			local var_38_1 = math.clamp(arg_38_0.memoryGroupList:HeadIndexToValue(iter_38_0 - 1), 0, 1)
+			local var_38_2 = arg_38_0.memoryGroupList.value
+			local var_38_3 = go(arg_38_0.memoryGroupList)
+
+			LeanTween.cancel(var_38_3)
+			arg_38_0.memoryGroupList:StopMovement()
+
+			if math.abs(var_38_1 - var_38_2) < 0.001 then
+				return
+			end
+
+			if arg_38_2 then
+				arg_38_0.memoryGroupList:ScrollTo(var_38_1, false)
+
+				break
+			end
+
+			local var_38_4 = math.clamp(math.abs(var_38_1 - var_38_2) * 1.5, 0.2, 0.8)
+
+			LeanTween.value(var_38_3, var_38_2, var_38_1, var_38_4):setEase(LeanTweenType.easeInOutCirc):setOnUpdate(System.Action_float(function(arg_39_0)
+				arg_38_0.memoryGroupList:ScrollTo(arg_39_0, false)
+			end))
+
+			break
+		end
+	end
+end
+
+function var_0_0.InitEasterEgg(arg_40_0)
+	local var_40_0 = EasterEggTools.GetActivity()
+
+	if EasterEggTools.IsEnabled(var_40_0, EasterEggConst.SCENE.CollectionMemory) then
+		arg_40_0.easterEggView = EasterEggView.New(findTF(arg_40_0._tf, "GroupRect/easterEggBtn"), arg_40_0, EasterEggConst.SCENE.CollectionMemory)
+
+		local var_40_1
+
+		arg_40_0.easterEggView:SetEasterEggCallBack(function(arg_41_0, arg_41_1)
+			arg_41_1()
+		end, function(arg_42_0)
+			pg.UIMgr.GetInstance():LoadingOn(false)
+			arg_40_0:Scroll2MemoryGroup(EasterEggConst.MEMORY_GROUP_ID, true)
+			arg_40_0.easterEggView:AddHideEasterEggTimer(EasterEggConst.SCROLL_FREZZE_TIME, function()
+				pg.UIMgr.GetInstance():LoadingOff()
+				arg_42_0()
+			end)
+		end)
+	end
+end
+
+function var_0_0.ShowEasterEgg(arg_44_0)
+	if arg_44_0.easterEggView then
+		arg_44_0.easterEggView:ShowEasterEgg()
+	end
+end
+
+function var_0_0.HideEasterEgg(arg_45_0)
+	if arg_45_0.easterEggView then
+		arg_45_0.easterEggView:HideEasterEgg()
+	end
+end
+
+function var_0_0.ExitEasterEgg(arg_46_0)
+	if arg_46_0.easterEggView then
+		arg_46_0.easterEggView:willExit()
+	end
 end
 
 return var_0_0

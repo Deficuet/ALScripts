@@ -1399,7 +1399,7 @@ function var_0_0.setEnableActions(arg_70_0, arg_70_1)
 	arg_70_0.enablePlayActions = arg_70_1 and arg_70_1 or {}
 end
 
-function var_0_0.changeIdleIndex(arg_71_0, arg_71_1)
+function var_0_0.changeIdleIndex(arg_71_0, arg_71_1, arg_71_2)
 	local var_71_0 = false
 
 	if arg_71_0.idleIndex ~= arg_71_1 then
@@ -1421,6 +1421,10 @@ function var_0_0.changeIdleIndex(arg_71_0, arg_71_1)
 		idle_change = var_71_0
 	})
 	arg_71_0:updateDragsSateData()
+
+	if arg_71_2 then
+		var_0_13(arg_71_0, "idle", true)
+	end
 end
 
 function var_0_0.live2dActionChange(arg_72_0, arg_72_1)

@@ -723,6 +723,7 @@ function var_0_0.OnStart(arg_78_0)
 	removeOnButton(arg_78_0.skipBtn)
 	removeOnButton(arg_78_0.autoBtn)
 	removeOnButton(arg_78_0.recordBtn)
+	setActive(arg_78_0.frontEvtTr, false)
 
 	arg_78_0.mainImage.color = Color(0, 0, 0, arg_78_0.storyScript:GetStoryAlpha())
 

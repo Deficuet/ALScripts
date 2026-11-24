@@ -146,46 +146,69 @@ function var_0_0.UpdateNextAward(arg_15_0, arg_15_1)
 end
 
 function var_0_0.GetAllAward(arg_16_0)
-	local var_16_0 = arg_16_0.activity:GetHei5UnreceiveAward()
+	local function var_16_0(arg_17_0)
+		local var_17_0 = {}
 
-	if #var_16_0 > 0 then
-		local var_16_1 = {}
-
-		if arg_16_0:CheckLimitMax(var_16_0) then
-			table.insert(var_16_1, function(arg_17_0)
+		if arg_16_0:CheckLimitMax(arg_17_0) then
+			table.insert(var_17_0, function(arg_18_0)
 				pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_MSGBOX, {
 					contentText = i18n("player_expResource_mail_fullBag"),
-					onConfirm = arg_17_0
+					onConfirm = arg_18_0
 				})
 			end)
 		end
 
-		seriesAsync(var_16_1, function()
+		seriesAsync(var_17_0, function()
 			arg_16_0:emit(PSSHei5Mediator.EVENT_GET_AWARD_ALL)
 		end)
 	end
+
+	local var_16_1 = arg_16_0.activity:GetHei5UnreceiveAward()
+
+	if #var_16_1 > 0 then
+		local var_16_2 = false
+
+		for iter_16_0, iter_16_1 in ipairs(var_16_1) do
+			var_16_2 = iter_16_1.id == 65559
+
+			if var_16_2 then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("shop_new_coupon_tip3"),
+					onYes = function()
+						var_16_0(var_16_1)
+					end
+				})
+
+				break
+			end
+		end
+
+		if not var_16_2 then
+			var_16_0(var_16_1)
+		end
+	end
 end
 
-function var_0_0.CheckLimitMax(arg_19_0, arg_19_1)
-	local var_19_0 = getProxy(PlayerProxy):getData()
+function var_0_0.CheckLimitMax(arg_21_0, arg_21_1)
+	local var_21_0 = getProxy(PlayerProxy):getData()
 
-	for iter_19_0, iter_19_1 in ipairs(arg_19_1) do
-		if iter_19_1.type == DROP_TYPE_RESOURCE then
-			if iter_19_1.id == 1 then
-				if var_19_0:GoldMax(iter_19_1.count) then
+	for iter_21_0, iter_21_1 in ipairs(arg_21_1) do
+		if iter_21_1.type == DROP_TYPE_RESOURCE then
+			if iter_21_1.id == 1 then
+				if var_21_0:GoldMax(iter_21_1.count) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title"))
 
 					return true
 				end
-			elseif iter_19_1.id == 2 and var_19_0:OilMax(iter_19_1.count) then
+			elseif iter_21_1.id == 2 and var_21_0:OilMax(iter_21_1.count) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title"))
 
 				return true
 			end
-		elseif iter_19_1.type == DROP_TYPE_ITEM then
-			local var_19_1 = Item.getConfigData(iter_19_1.id)
+		elseif iter_21_1.type == DROP_TYPE_ITEM then
+			local var_21_1 = Item.getConfigData(iter_21_1.id)
 
-			if var_19_1.type == Item.EXP_BOOK_TYPE and getProxy(BagProxy):getItemCountById(iter_19_1.id) + iter_19_1.count > var_19_1.max_num then
+			if var_21_1.type == Item.EXP_BOOK_TYPE and getProxy(BagProxy):getItemCountById(iter_21_1.id) + iter_21_1.count > var_21_1.max_num then
 				return true
 			end
 		end
@@ -194,7 +217,7 @@ function var_0_0.CheckLimitMax(arg_19_0, arg_19_1)
 	return false
 end
 
-function var_0_0.OnDestroy(arg_20_0)
+function var_0_0.OnDestroy(arg_22_0)
 	return
 end
 

@@ -4,6 +4,9 @@ function var_0_0.register(arg_1_0)
 	arg_1_0.eventDic = {}
 	arg_1_0.countDownList = {}
 	arg_1_0.lastFlushTime = 0
+	arg_1_0.dirty = false
+	arg_1_0.flushing = false
+	arg_1_0.flushingTime = 0
 
 	arg_1_0:on(13002, function(arg_2_0)
 		arg_1_0.maxFleetNums = arg_2_0.max_team
@@ -375,6 +378,44 @@ end
 
 function var_0_0.CanStartEvent(arg_41_0)
 	return arg_41_0:countBusyFleetNums() < arg_41_0.maxFleetNums
+end
+
+function var_0_0.SetDirty(arg_42_0, arg_42_1)
+	arg_42_0.dirty = arg_42_1
+end
+
+function var_0_0.IsDirty(arg_43_0)
+	return arg_43_0.dirty
+end
+
+local var_0_1 = 30
+
+function var_0_0.SetFlushing(arg_44_0, arg_44_1)
+	arg_44_0.flushing = arg_44_1
+	arg_44_0.flushingTime = arg_44_1 and pg.TimeMgr.GetInstance():GetServerTime() or 0
+end
+
+function var_0_0.IsFlushing(arg_45_0)
+	return arg_45_0.flushing and pg.TimeMgr.GetInstance():GetServerTime() - arg_45_0.flushingTime < var_0_1
+end
+
+function var_0_0.FlushIfDirty(arg_46_0)
+	if arg_46_0.dirty then
+		arg_46_0.facade:sendNotification(GAME.EVENT_FLUSH_ALL)
+	end
+end
+
+function var_0_0.SendEventRequest(arg_47_0, arg_47_1, arg_47_2, arg_47_3, arg_47_4)
+	arg_47_0:SetDirty(true)
+	pg.ConnectionMgr.GetInstance():Send(arg_47_1, arg_47_2, arg_47_3, function(arg_48_0)
+		if arg_48_0.result == 0 then
+			arg_47_0:SetDirty(false)
+		else
+			arg_47_0.facade:sendNotification(GAME.EVENT_FLUSH_ALL)
+		end
+
+		arg_47_4(arg_48_0)
+	end)
 end
 
 return var_0_0

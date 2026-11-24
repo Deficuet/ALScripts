@@ -31,7 +31,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			onConfirm = var_1_3
 		})
 	else
-		pg.ConnectionMgr.GetInstance():Send(13005, {
+		var_1_4:SendEventRequest(13005, {
 			id = var_1_1
 		}, 13006, function(arg_2_0)
 			if arg_2_0.result == 0 then

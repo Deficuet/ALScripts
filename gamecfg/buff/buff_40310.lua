@@ -4,7 +4,7 @@ return {
 	time = 0,
 	color = "yellow",
 	picture = "",
-	desc = "战列受到炮击减伤,+装填",
+	desc = "战列受到伤害降低,+装填",
 	stack = 1,
 	id = 40310,
 	icon = 40310,

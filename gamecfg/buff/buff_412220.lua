@@ -1,6 +1,6 @@
 return {
 	init_effect = "",
-	name = "驱逐-战术-雷击II",
+	name = "先锋-战术-雷击II",
 	time = 0,
 	color = "yellow",
 	picture = "",

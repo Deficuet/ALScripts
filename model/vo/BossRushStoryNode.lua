@@ -1,10 +1,12 @@
 local var_0_0 = class("BossRushStoryNode", import("model.vo.BaseVO"))
 
 var_0_0.TRIGGER_TYPE = {
-	PT_GOT = 1,
 	HIDE_READED = 4,
+	ANY_STORY_READED = 6,
 	STORY_READED = 3,
-	SERIES_PASSED = 2
+	SERIES_PASSED = 2,
+	PT_GOT = 1,
+	STORY_BRANCH = 5
 }
 var_0_0.NODE_TYPE = {
 	NORMAL = 1,
@@ -49,104 +51,181 @@ end
 
 function var_0_0.IsActive(arg_5_0, arg_5_1, arg_5_2)
 	return underscore.all(arg_5_0:GetTriggers(), function(arg_6_0)
-		return switch(arg_6_0.type, {
-			[var_0_0.TRIGGER_TYPE.PT_GOT] = function()
-				return arg_5_2.data1 >= arg_6_0.value
-			end,
-			[var_0_0.TRIGGER_TYPE.SERIES_PASSED] = function()
-				return BossRushSeriesData.New({
-					id = arg_6_0.value,
-					actId = arg_5_1.id
-				}):IsUnlock(arg_5_1)
-			end,
-			[var_0_0.TRIGGER_TYPE.STORY_READED] = function()
-				return var_0_0.New({
-					id = arg_6_0.value
-				}):IsReaded()
-			end,
-			[var_0_0.TRIGGER_TYPE.HIDE_READED] = function()
-				return not var_0_0.New({
-					id = arg_6_0.value
-				}):IsReaded()
-			end
-		}, function()
-			return false
-		end)
+		return arg_5_0:_IsActive(arg_5_1, arg_5_2, arg_6_0)
 	end)
 end
 
-function var_0_0.IsReaded(arg_12_0)
-	local var_12_0 = arg_12_0:GetStory()
+function var_0_0._IsActive(arg_7_0, arg_7_1, arg_7_2, arg_7_3)
+	return switch(arg_7_3.type, {
+		[var_0_0.TRIGGER_TYPE.PT_GOT] = function()
+			return arg_7_2.data1 >= arg_7_3.value
+		end,
+		[var_0_0.TRIGGER_TYPE.SERIES_PASSED] = function()
+			return BossRushSeriesData.New({
+				id = arg_7_3.value,
+				actId = arg_7_1.id
+			}):IsUnlock(arg_7_1)
+		end,
+		[var_0_0.TRIGGER_TYPE.STORY_READED] = function()
+			return var_0_0.New({
+				id = arg_7_3.value
+			}):IsReaded()
+		end,
+		[var_0_0.TRIGGER_TYPE.HIDE_READED] = function()
+			return not var_0_0.New({
+				id = arg_7_3.value
+			}):IsReaded()
+		end,
+		[var_0_0.TRIGGER_TYPE.STORY_BRANCH] = function()
+			return arg_7_0:IsActiveBranchType(arg_7_1.id, arg_7_3.value)
+		end,
+		[var_0_0.TRIGGER_TYPE.ANY_STORY_READED] = function()
+			return underscore.any(arg_7_3.value, function(arg_14_0)
+				return var_0_0.New({
+					id = arg_14_0
+				}):IsReaded()
+			end)
+		end
+	}, function()
+		return false
+	end)
+end
 
-	if var_12_0 and var_12_0 ~= "" then
-		return tobool(pg.NewStoryMgr.GetInstance():IsPlayed(var_12_0))
+function var_0_0.IsReaded(arg_16_0)
+	local var_16_0 = arg_16_0:GetStory()
+
+	if var_16_0 and var_16_0 ~= "" then
+		return tobool(pg.NewStoryMgr.GetInstance():IsPlayed(var_16_0))
 	else
 		return true
 	end
 end
 
-function var_0_0.GetType(arg_13_0)
-	return arg_13_0:getConfig("type")
+function var_0_0.IsActiveBranchType(arg_17_0, arg_17_1, arg_17_2)
+	local var_17_0 = arg_17_2[1]
+	local var_17_1 = arg_17_2[2]
+	local var_17_2 = arg_17_2[3]
+
+	if not var_0_0.New({
+		id = var_17_0
+	}):IsReaded() then
+		return false
+	end
+
+	if underscore.any(var_17_2, function(arg_18_0)
+		return not var_0_0.New({
+			id = arg_18_0
+		}):IsReaded()
+	end) then
+		return true
+	end
+
+	local var_17_3 = var_0_0.GetLocalBranchFlag(arg_17_1, var_17_0)
+
+	return var_17_3 == 0 or var_17_3 == var_17_1
 end
 
-function var_0_0.GetName(arg_14_0)
-	return arg_14_0:getConfig("name")
+function var_0_0.IsLockBranchType(arg_19_0, arg_19_1, arg_19_2)
+	local var_19_0 = arg_19_0:GetTriggers()
+
+	if underscore.all(var_19_0, function(arg_20_0)
+		return arg_20_0.type ~= var_0_0.TRIGGER_TYPE.STORY_BRANCH
+	end) then
+		return false
+	end
+
+	return underscore.all(var_19_0, function(arg_21_0)
+		if arg_21_0.type == var_0_0.TRIGGER_TYPE.STORY_BRANCH then
+			if not var_0_0.New({
+				id = arg_21_0.value[1]
+			}):IsReaded() then
+				return false
+			end
+
+			return not var_0_0:IsActiveBranchType(arg_19_1.id, arg_21_0.value)
+		else
+			return arg_19_0:_IsActive(arg_19_1, arg_19_2, arg_21_0)
+		end
+	end)
 end
 
-function var_0_0.GetIconName(arg_15_0)
-	return arg_15_0:getConfig("icon")
+function var_0_0.GetType(arg_22_0)
+	return arg_22_0:getConfig("type")
 end
 
-function var_0_0.GetStory(arg_16_0)
-	return arg_16_0:getConfig("story")
+function var_0_0.GetName(arg_23_0)
+	return arg_23_0:getConfig("name")
 end
 
-function var_0_0.GetActiveLink(arg_17_0)
-	return arg_17_0:getConfig("line")
+function var_0_0.GetIconName(arg_24_0)
+	return arg_24_0:getConfig("icon")
 end
 
-function var_0_0.GetCleanBG(arg_18_0)
-	return noEmptyStr(arg_18_0:getConfig("change_background"))
+function var_0_0.GetStory(arg_25_0)
+	return arg_25_0:getConfig("story")
 end
 
-function var_0_0.GetCleanBGM(arg_19_0)
-	return noEmptyStr(arg_19_0:getConfig("change_bgm"))
+function var_0_0.GetActiveLink(arg_26_0)
+	return arg_26_0:getConfig("line")
 end
 
-function var_0_0.GetCleanAnimator(arg_20_0)
-	return noEmptyStr(arg_20_0:getConfig("change_prefab"))
+function var_0_0.GetCleanBG(arg_27_0)
+	return noEmptyStr(arg_27_0:getConfig("change_background"))
 end
 
-function var_0_0.GetParams(arg_21_0, arg_21_1)
-	local var_21_0 = noEmptyStr(arg_21_0:getConfig("params"))
+function var_0_0.GetCleanBGM(arg_28_0)
+	return noEmptyStr(arg_28_0:getConfig("change_bgm"))
+end
 
-	if not var_21_0 then
+function var_0_0.GetCleanAnimator(arg_29_0)
+	return noEmptyStr(arg_29_0:getConfig("change_prefab"))
+end
+
+function var_0_0.GetParams(arg_30_0, arg_30_1)
+	local var_30_0 = noEmptyStr(arg_30_0:getConfig("params"))
+
+	if not var_30_0 then
 		return nil
 	end
 
-	for iter_21_0, iter_21_1 in ipairs(var_21_0) do
-		if iter_21_1[1] == arg_21_1 then
-			return iter_21_1
+	for iter_30_0, iter_30_1 in ipairs(var_30_0) do
+		if iter_30_1[1] == arg_30_1 then
+			return iter_30_1
 		end
 	end
 
 	return nil
 end
 
-function var_0_0.IsRecrew(arg_22_0)
-	local var_22_0 = arg_22_0:getConfig("label_key")
+function var_0_0.IsRecrew(arg_31_0)
+	local var_31_0 = arg_31_0:getConfig("label_key")
 
-	if type(var_22_0) ~= "table" then
+	if type(var_31_0) ~= "table" then
 		return nil
 	end
 
-	local var_22_1 = StoryStep.GetGlobalFlagKey(var_22_0.flagID) .. var_22_0.flagIndex
+	local var_31_1 = StoryStep.GetGlobalFlagKey(var_31_0.flagID) .. var_31_0.flagIndex
 
-	if not PlayerPrefs.HasKey(var_22_1) then
+	if not PlayerPrefs.HasKey(var_31_1) then
 		return nil
 	end
 
-	return PlayerPrefs.GetInt(var_22_1) > 0
+	return PlayerPrefs.GetInt(var_31_1) > 0
+end
+
+function var_0_0.GetBranchFlagKey(arg_32_0, arg_32_1)
+	local var_32_0 = getProxy(PlayerProxy):getRawData().id
+
+	return string.format("BossRushStoryNode_BranchSel_%s_%s_%s", var_32_0, arg_32_0, arg_32_1)
+end
+
+function var_0_0.GetLocalBranchFlag(arg_33_0, arg_33_1)
+	return PlayerPrefs.GetInt(var_0_0.GetBranchFlagKey(arg_33_0, arg_33_1), 0)
+end
+
+function var_0_0.SetLocalBranchFlag(arg_34_0, arg_34_1, arg_34_2)
+	PlayerPrefs.SetInt(var_0_0.GetBranchFlagKey(arg_34_0, arg_34_1), arg_34_2)
+	PlayerPrefs.Save()
 end
 
 return var_0_0

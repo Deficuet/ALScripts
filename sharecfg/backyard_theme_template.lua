@@ -138,7 +138,8 @@ pg.backyard_theme_template.all = {
 	142,
 	143,
 	144,
-	145
+	145,
+	146
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5869,6 +5870,48 @@ end)()
 			345105,
 			345106,
 			345107
+		}
+	}
+	pg.base.backyard_theme_template[146] = {
+		Cfg_1 = 5,
+		name = "悠游假日",
+		hot = 1,
+		is_view = 1,
+		id = 146,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "来到阳光明媚的度假庭院，在粼粼波光与阵阵欢笑中度过惬意的一天吧~",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "ycthemeicon",
+		deblocking = 1,
+		order = 146,
+		ids = {
+			346001,
+			346002,
+			346101,
+			346102,
+			346103,
+			346104,
+			346105,
+			346106,
+			346107,
+			346108,
+			346109,
+			346110,
+			346111,
+			346112,
+			346113,
+			346114,
+			346115,
+			346116,
+			346117,
+			346118,
+			346119,
+			346120,
+			346121,
+			346122
 		}
 	}
 end)()

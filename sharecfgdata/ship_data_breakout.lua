@@ -46986,6 +46986,77 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_breakout[702131] = {
+		use_gold = 1000,
+		breakout_id = 702132,
+		use_char_num = 1,
+		use_char = 70213,
+		breakout_view = "获得专属弹幕I/主炮效率提高5%",
+		level = 10,
+		id = 702131,
+		icon = "10001",
+		pre_id = 0,
+		use_item = {},
+		weapon_ids = {
+			171191
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[702132] = {
+		use_gold = 3000,
+		breakout_id = 702133,
+		use_char_num = 1,
+		use_char = 70213,
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		level = 30,
+		id = 702132,
+		icon = "10001",
+		pre_id = 702131,
+		use_item = {},
+		weapon_ids = {
+			85120,
+			85120
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[702133] = {
+		use_gold = 10000,
+		breakout_id = 702134,
+		use_char_num = 2,
+		use_char = 70213,
+		breakout_view = "专属弹幕升级/主炮效率提高15%",
+		level = 70,
+		id = 702133,
+		icon = "10001",
+		pre_id = 702132,
+		use_item = {},
+		weapon_ids = {
+			171192
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[702134] = {
+		use_gold = 0,
+		breakout_id = 0,
+		use_char_num = 0,
+		use_char = 70213,
+		breakout_view = "无",
+		level = 0,
+		id = 702134,
+		icon = "10001",
+		pre_id = 702133,
+		use_item = {},
+		weapon_ids = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_breakout[702091] = {
 		use_gold = 500,
 		breakout_id = 702092,
@@ -48006,6 +48077,158 @@ end)()
 		id = 705094,
 		icon = "10001",
 		pre_id = 705093,
+		use_item = {},
+		weapon_ids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[705101] = {
+		use_gold = 1000,
+		breakout_id = 705102,
+		use_char_num = 1,
+		use_char = 70510,
+		breakout_view = "主炮底座+1/主炮效率提高5%",
+		level = 10,
+		id = 705101,
+		icon = "10001",
+		pre_id = 0,
+		use_item = {},
+		weapon_ids = {
+			85300,
+			85300,
+			85300
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[705102] = {
+		use_gold = 3000,
+		breakout_id = 705103,
+		use_char_num = 1,
+		use_char = 70510,
+		breakout_view = "副炮底座+2/主炮效率提高10%",
+		level = 30,
+		id = 705102,
+		icon = "10001",
+		pre_id = 705101,
+		use_item = {},
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[705103] = {
+		use_gold = 10000,
+		breakout_id = 705104,
+		use_char_num = 2,
+		use_char = 70510,
+		breakout_view = "主炮底座+1/主炮效率提高15%",
+		level = 70,
+		id = 705103,
+		icon = "10001",
+		pre_id = 705102,
+		use_item = {},
+		weapon_ids = {
+			85300,
+			85300,
+			85300,
+			85300
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[705104] = {
+		use_gold = 0,
+		breakout_id = 0,
+		use_char_num = 0,
+		use_char = 70510,
+		breakout_view = "无",
+		level = 0,
+		id = 705104,
+		icon = "10001",
+		pre_id = 705103,
+		use_item = {},
+		weapon_ids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[705111] = {
+		use_gold = 500,
+		breakout_id = 705112,
+		use_char_num = 1,
+		use_char = 70511,
+		breakout_view = "主炮底座+1/主炮效率提高5%",
+		level = 10,
+		id = 705111,
+		icon = "10001",
+		pre_id = 0,
+		use_item = {},
+		weapon_ids = {
+			85420,
+			85420
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[705112] = {
+		use_gold = 1500,
+		breakout_id = 705113,
+		use_char_num = 1,
+		use_char = 70511,
+		breakout_view = "副炮底座+2/主炮效率提高10%",
+		level = 30,
+		id = 705112,
+		icon = "10001",
+		pre_id = 705111,
+		use_item = {},
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[705113] = {
+		use_gold = 2500,
+		breakout_id = 705114,
+		use_char_num = 2,
+		use_char = 70511,
+		breakout_view = "主炮底座+1/主炮效率提高15%",
+		level = 70,
+		id = 705113,
+		icon = "10001",
+		pre_id = 705112,
+		use_item = {},
+		weapon_ids = {
+			85420,
+			85420,
+			85420
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_breakout[705114] = {
+		use_gold = 0,
+		breakout_id = 0,
+		use_char_num = 0,
+		use_char = 70511,
+		breakout_view = "无",
+		level = 0,
+		id = 705114,
+		icon = "10001",
+		pre_id = 705113,
 		use_item = {},
 		weapon_ids = {}
 	}

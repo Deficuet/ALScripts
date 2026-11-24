@@ -399,6 +399,11 @@ pg.task_meta_data_template.all = {
 	100613,
 	100614,
 	100615,
+	100621,
+	100622,
+	100623,
+	100624,
+	100625,
 	200001,
 	200002,
 	200003,
@@ -606,7 +611,11 @@ pg.task_meta_data_template.all = {
 	200521,
 	200522,
 	200523,
-	200524
+	200524,
+	200531,
+	200532,
+	200533,
+	200534
 }
 pg.base = pg.base or {}
 pg.base.task_meta_data_template = {}
@@ -3778,6 +3787,48 @@ end)()
 		target_num = 1,
 		target_id = "100"
 	}
+	pg.base.task_meta_data_template[100621] = {
+		target_id_2 = "970114",
+		sub_type = 180,
+		desc = "使用凯尔圣·META获得1次胜利",
+		id = 100621,
+		target_num = 1,
+		target_id = ""
+	}
+	pg.base.task_meta_data_template[100622] = {
+		target_id_2 = "970114",
+		sub_type = 180,
+		desc = "使用凯尔圣·META击破等级＞30的敌方1次",
+		id = 100622,
+		target_num = 1,
+		target_id = "30"
+	}
+	pg.base.task_meta_data_template[100623] = {
+		target_id_2 = "970114",
+		sub_type = 180,
+		desc = "使用凯尔圣·META击破等级＞55的敌方1次",
+		id = 100623,
+		target_num = 1,
+		target_id = "55"
+	}
+	pg.base.task_meta_data_template[100624] = {
+		target_id_2 = "970114",
+		sub_type = 180,
+		desc = "使用凯尔圣·META击破等级＞80的敌方1次",
+		id = 100624,
+		target_num = 1,
+		target_id = "80"
+	}
+	pg.base.task_meta_data_template[100625] = {
+		target_id_2 = "970114",
+		sub_type = 180,
+		desc = "使用凯尔圣·META击破等级＞100的敌方1次",
+		id = 100625,
+		target_num = 1,
+		target_id = "100"
+	}
+end)()
+;(function()
 	pg.base.task_meta_data_template[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -3818,8 +3869,6 @@ end)()
 		target_num = 1,
 		target_id = "0"
 	}
-end)()
-;(function()
 	pg.base.task_meta_data_template[200022] = {
 		target_id_2 = "970102",
 		sub_type = 302,
@@ -4580,6 +4629,8 @@ end)()
 		target_num = 1,
 		target_id = "100"
 	}
+end)()
+;(function()
 	pg.base.task_meta_data_template[200261] = {
 		target_id_2 = "970507",
 		sub_type = 302,
@@ -4620,8 +4671,6 @@ end)()
 		target_num = 1,
 		target_id = "0"
 	}
-end)()
-;(function()
 	pg.base.task_meta_data_template[200272] = {
 		target_id_2 = "970705",
 		sub_type = 302,
@@ -5382,6 +5431,8 @@ end)()
 		target_num = 1,
 		target_id = "100"
 	}
+end)()
+;(function()
 	pg.base.task_meta_data_template[200501] = {
 		target_id_2 = "970710",
 		sub_type = 302,
@@ -5422,8 +5473,6 @@ end)()
 		target_num = 1,
 		target_id = ""
 	}
-end)()
-;(function()
 	pg.base.task_meta_data_template[200522] = {
 		target_id_2 = "970113",
 		sub_type = 302,
@@ -5445,6 +5494,38 @@ end)()
 		sub_type = 302,
 		desc = "大型作战内使用灵敏·META击破等级＞100的敌方1次",
 		id = 200524,
+		target_num = 1,
+		target_id = "100"
+	}
+	pg.base.task_meta_data_template[200531] = {
+		target_id_2 = "970114",
+		sub_type = 302,
+		desc = "大型作战内使用凯尔圣·META获得1次胜利",
+		id = 200531,
+		target_num = 1,
+		target_id = ""
+	}
+	pg.base.task_meta_data_template[200532] = {
+		target_id_2 = "970114",
+		sub_type = 302,
+		desc = "大型作战内使用凯尔圣·META击破等级＞70的敌方1次",
+		id = 200532,
+		target_num = 1,
+		target_id = "70"
+	}
+	pg.base.task_meta_data_template[200533] = {
+		target_id_2 = "970114",
+		sub_type = 302,
+		desc = "大型作战内使用凯尔圣·META击破等级＞90的敌方1次",
+		id = 200533,
+		target_num = 1,
+		target_id = "90"
+	}
+	pg.base.task_meta_data_template[200534] = {
+		target_id_2 = "970114",
+		sub_type = 302,
+		desc = "大型作战内使用凯尔圣·META击破等级＞100的敌方1次",
+		id = 200534,
 		target_num = 1,
 		target_id = "100"
 	}

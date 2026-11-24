@@ -25,6 +25,11 @@ function var_0_0.UpdateMapItems(arg_5_0)
 	var_0_0.super.UpdateMapItems(arg_5_0)
 
 	local var_5_0 = arg_5_0.contextData.map
+
+	if not var_5_0 then
+		return
+	end
+
 	local var_5_1 = var_5_0:getConfig("cloud_suffix")
 
 	if var_5_1 == "" then

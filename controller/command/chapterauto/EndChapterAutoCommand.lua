@@ -26,7 +26,9 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				[ChapterAutoProxy.TYPE.WORLD] = function()
 					return var_1_2 and "world_auto_plan_error_tip6" or "world_auto_plan_cancel_tip"
 				end
-			})
+			}, function()
+				return "auto_battle_ing_stop_tips"
+			end)
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n(var_3_0),
@@ -35,13 +37,13 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		end)
 	end
 
-	if underscore.any(var_1_4, function(arg_6_0)
-		return not arg_6_0:IsFinished() and arg_6_0:UsedTicket() and pg.TimeMgr.GetInstance():GetServerTime() > arg_6_0:GetTicketTime()
+	if underscore.any(var_1_4, function(arg_7_0)
+		return not arg_7_0:IsFinished() and arg_7_0:UsedTicket() and pg.TimeMgr.GetInstance():GetServerTime() > arg_7_0:GetTicketTime()
 	end) then
-		table.insert(var_1_13, function(arg_7_0)
+		table.insert(var_1_13, function(arg_8_0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("auto_battle_drop_book_expired"),
-				onYes = arg_7_0
+				onYes = arg_8_0
 			})
 		end)
 	end
@@ -54,33 +56,33 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		local var_1_18 = var_1_16 + var_1_14
 
 		if var_1_17 < var_1_18 then
-			table.insert(var_1_13, function(arg_8_0)
+			table.insert(var_1_13, function(arg_9_0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("auto_battle_drop_classEXP_overflow", var_1_18 - var_1_17),
-					onYes = arg_8_0
+					onYes = arg_9_0
 				})
 			end)
 		end
 
-		local var_1_19 = underscore.reduce(var_1_4, 0, function(arg_9_0, arg_9_1)
-			return arg_9_0 + (arg_9_1:IsFinished() and arg_9_1:UsedTicket() and arg_9_1:GetExpBookAward() or 0)
+		local var_1_19 = underscore.reduce(var_1_4, 0, function(arg_10_0, arg_10_1)
+			return arg_10_0 + (arg_10_1:IsFinished() and arg_10_1:UsedTicket() and arg_10_1:GetExpBookAward() or 0)
 		end)
 		local var_1_20 = getProxy(BagProxy):getItemCountById(ChapterAutoCommission.EXP_BOOK_ID) + var_1_19
 		local var_1_21 = Item.getConfigData(ChapterAutoCommission.EXP_BOOK_ID).max_num
 
 		if var_1_21 < var_1_20 then
-			table.insert(var_1_13, function(arg_10_0)
+			table.insert(var_1_13, function(arg_11_0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("auto_battle_drop_bookEXP_overflow", var_1_20 - var_1_21),
-					onYes = arg_10_0
+					onYes = arg_11_0
 				})
 			end)
 		end
 	end
 
 	if var_1_11 == ChapterAutoProxy.TYPE.WORLD then
-		table.insert(var_1_13, function(arg_11_0)
-			WorldConst.ReqWorldCheck(arg_11_0)
+		table.insert(var_1_13, function(arg_12_0)
+			WorldConst.ReqWorldCheck(arg_12_0)
 		end)
 	end
 
@@ -89,104 +91,119 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	end)
 end
 
-function var_0_0.Send(arg_13_0, arg_13_1, arg_13_2, arg_13_3, arg_13_4, arg_13_5, arg_13_6, arg_13_7, arg_13_8, arg_13_9)
+function var_0_0.Send(arg_14_0, arg_14_1, arg_14_2, arg_14_3, arg_14_4, arg_14_5, arg_14_6, arg_14_7, arg_14_8, arg_14_9)
 	getProxy(ChapterAutoProxy):SetRecordEventFlag(true)
 	pg.ConnectionMgr.GetInstance():Send(13014, {
-		num = arg_13_3
-	}, 13015, function(arg_14_0)
-		if arg_14_0.result == 0 then
-			local var_14_0 = getProxy(ChapterAutoProxy)
+		num = arg_14_3
+	}, 13015, function(arg_15_0)
+		if arg_15_0.result == 0 then
+			local var_15_0 = getProxy(ChapterAutoProxy)
 
-			var_14_0:SetRecordEventFlag(false)
-			var_14_0:ClearCommissionList()
-			var_14_0:ReduceCostTime(arg_14_0.seconds)
-			var_14_0:AddTickets(arg_14_0.chapter_auto_ticket_list)
-			var_14_0:IncreaseOil(arg_14_0.oil)
+			var_15_0:SetRecordEventFlag(false)
+			var_15_0:ClearCommissionList()
+			var_15_0:ReduceCostTime(arg_15_0.seconds)
+			var_15_0:AddTickets(arg_15_0.chapter_auto_ticket_list)
+			var_15_0:IncreaseOil(arg_15_0.oil)
 
-			if arg_13_1 == ChapterAutoProxy.TYPE.WORLD then
-				local var_14_1 = nowWorld().staminaMgr
+			if arg_14_1 == ChapterAutoProxy.TYPE.WORLD then
+				local var_15_1 = nowWorld().staminaMgr
 
-				var_14_1:UpdateStamina()
-				var_14_1:PlusStamina(arg_14_0.world_ap)
+				var_15_1:UpdateStamina()
+				var_15_1:PlusStamina(arg_15_0.world_ap)
 			end
 
-			local var_14_2 = false
+			local var_15_2 = false
 
-			switch(arg_13_1, {
+			switch(arg_14_1, {
 				[ChapterAutoProxy.TYPE.SLG] = function()
-					local var_15_0 = getProxy(ChapterProxy)
+					local var_16_0 = getProxy(ChapterProxy)
 
-					var_15_0:addRemasterPassCount(arg_13_2, nil, arg_13_4)
+					var_16_0:addRemasterPassCount(arg_14_2, nil, arg_14_4)
 
-					local var_15_1 = var_15_0:getChapterById(arg_13_2, true)
+					local var_16_1 = var_16_0:getChapterById(arg_14_2, true)
 
-					var_15_1:writeDrops(arg_14_0.drop_list)
+					var_16_1:writeDrops(arg_15_0.drop_list)
 
-					if arg_13_6 > 0 and var_15_0:getMapById(var_15_1:getConfig("map")):isRemaster() then
-						var_14_2 = true
+					if arg_14_6 > 0 and var_16_0:getMapById(var_16_1:getConfig("map")):isRemaster() then
+						var_15_2 = true
 
-						local var_15_2 = arg_13_6 * var_15_0:getRemasterTicketCost()
+						local var_16_2 = arg_14_6 * var_16_0:getRemasterTicketCost()
 
-						var_15_0:updateRemasterTicketsNum(math.min(var_15_0.remasterTickets + var_15_2, pg.gameset.reactivity_ticket_max.key_value))
+						var_16_0:updateRemasterTicketsNum(math.min(var_16_0.remasterTickets + var_16_2, pg.gameset.reactivity_ticket_max.key_value))
+					end
+				end,
+				[ChapterAutoProxy.TYPE.RUSH] = function()
+					local var_17_0 = getProxy(ChapterProxy)
+					local var_17_1 = pg.activity_series_enemy_auto[arg_14_2].link_id
+
+					var_17_0:addRemasterPassCount(arg_14_2, var_17_1, arg_14_4)
+
+					local var_17_2 = BossRushChapterRemasterHelper.GetRemasterByActivityId(var_17_1) ~= nil
+
+					if arg_14_6 > 0 and var_17_2 then
+						local var_17_3 = BossRushChapterRemasterHelper.GetPermanentActivityTicketCost(var_17_1, arg_14_2)
+						local var_17_4 = arg_14_6 * var_17_3
+
+						var_17_0:updateRemasterTicketsNum(math.min(var_17_0.remasterTickets + var_17_4, pg.gameset.reactivity_ticket_max.key_value))
 					end
 				end
 			})
-			getProxy(NavalAcademyProxy):AddProficiency(arg_14_0.class_exp)
+			getProxy(NavalAcademyProxy):AddProficiency(arg_15_0.class_exp)
 
-			local var_14_3 = PlayerConst.addTranDrop(arg_14_0.drop_list)
-			local var_14_4 = {}
+			local var_15_3 = PlayerConst.addTranDrop(arg_15_0.drop_list)
+			local var_15_4 = {}
 
-			if arg_13_1 == ChapterAutoProxy.TYPE.WORLD then
-				local var_14_5 = nowWorld()
-				local var_14_6 = var_14_5:GetAtlas()
+			if arg_14_1 == ChapterAutoProxy.TYPE.WORLD then
+				local var_15_5 = nowWorld()
+				local var_15_6 = var_15_5:GetAtlas()
 
-				for iter_14_0, iter_14_1 in ipairs(underscore.first(arg_13_7, arg_13_3)) do
-					table.insert(var_14_4, iter_14_1.id)
-					var_14_6:AddDelegatedMap(iter_14_1.id)
+				for iter_15_0, iter_15_1 in ipairs(underscore.first(arg_14_7, arg_14_3)) do
+					table.insert(var_15_4, iter_15_1.id)
+					var_15_6:AddDelegatedMap(iter_15_1.id)
 				end
 
 				getProxy(WorldProxy):RecordDelegateAward({
-					var_14_4,
-					var_14_3
+					var_15_4,
+					var_15_3
 				})
 
-				if arg_13_8 then
-					local var_14_7 = {}
+				if arg_14_8 then
+					local var_15_7 = {}
 
-					for iter_14_2, iter_14_3 in ipairs(var_14_4) do
-						local var_14_8 = var_14_5.pressingAwardDic[iter_14_3]
+					for iter_15_2, iter_15_3 in ipairs(var_15_4) do
+						local var_15_8 = var_15_5.pressingAwardDic[iter_15_3]
 
-						if var_14_8.flag then
-							var_14_5:FlagMapPressingAward(iter_14_3)
-							var_14_6:MarkMapTransport(iter_14_3)
+						if var_15_8.flag then
+							var_15_5:FlagMapPressingAward(iter_15_3)
+							var_15_6:MarkMapTransport(iter_15_3)
 
-							local var_14_9 = pg.world_event_complete[var_14_8.id].event_reward_slgbuff
+							local var_15_9 = pg.world_event_complete[var_15_8.id].event_reward_slgbuff
 
-							if #var_14_9 > 0 then
-								var_14_7[var_14_9[1]] = defaultValue(var_14_7[var_14_9[1]], 0) + var_14_9[2]
+							if #var_15_9 > 0 then
+								var_15_7[var_15_9[1]] = defaultValue(var_15_7[var_15_9[1]], 0) + var_15_9[2]
 							end
 						end
 					end
 
-					for iter_14_4, iter_14_5 in pairs(var_14_7) do
-						var_14_5:AddGlobalBuff(iter_14_4, iter_14_5)
+					for iter_15_4, iter_15_5 in pairs(var_15_7) do
+						var_15_5:AddGlobalBuff(iter_15_4, iter_15_5)
 					end
 				end
 			end
 
-			arg_13_0:sendNotification(GAME.END_CHAPTER_AUTO_DONE, {
-				isRemaster = var_14_2,
-				type = arg_13_1,
-				id = arg_13_2,
-				awards = var_14_3,
-				proficiency = arg_14_0.class_exp,
-				finishCnt = arg_13_3,
-				allCnt = arg_13_3 + arg_13_5,
-				mapList = var_14_4
+			arg_14_0:sendNotification(GAME.END_CHAPTER_AUTO_DONE, {
+				isRemaster = var_15_2,
+				type = arg_14_1,
+				id = arg_14_2,
+				awards = var_15_3,
+				proficiency = arg_15_0.class_exp,
+				finishCnt = arg_14_3,
+				allCnt = arg_14_3 + arg_14_5,
+				mapList = var_15_4
 			})
-			existCall(arg_13_9)
+			existCall(arg_14_9)
 		else
-			pg.TipsMgr.GetInstance():ShowTips(errorTip("chapter_auto_end_fail", arg_14_0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("chapter_auto_end_fail", arg_15_0.result))
 		end
 	end)
 end

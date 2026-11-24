@@ -26,6 +26,8 @@ function var_0_0.Init(arg_3_0)
 	setActive(arg_3_0.lockTF, not var_3_0)
 
 	arg_3_0.detailPanel = ChapterAutoDetailPanel.New(arg_3_0._tf, arg_3_0.view.event)
+	arg_3_0.detailTypeBossPanel = ChapterAutoDetailPanelTypeBoss.New(arg_3_0._tf, arg_3_0.view.event)
+	arg_3_0.detailTypeRushPanel = ChapterAutoDetailPanelTypeRush.New(arg_3_0._tf, arg_3_0.view.event)
 end
 
 function var_0_0.OnFlush(arg_4_0)
@@ -124,24 +126,54 @@ function var_0_0.OnSkip(arg_11_0)
 		end,
 		[ChapterAutoProxy.TYPE.WORLD] = function()
 			arg_11_0:emit(CommissionInfoMediator.GO_WORLD)
+		end,
+		[ChapterAutoProxy.TYPE.BOSS] = function()
+			if arg_11_0.isLeisure then
+				arg_11_0:emit(CommissionInfoMediator.GO_BATTLE)
+			else
+				local var_14_0 = arg_11_0:GetList()[1]:GetID()
+
+				arg_11_0.detailTypeBossPanel:ExecuteAction("Enter", var_14_0)
+			end
+		end,
+		[ChapterAutoProxy.TYPE.RUSH] = function()
+			if arg_11_0.isLeisure then
+				arg_11_0:emit(CommissionInfoMediator.GO_BATTLE)
+			else
+				local var_15_0 = arg_11_0:GetList()[1]:GetID()
+
+				arg_11_0.detailTypeRushPanel:ExecuteAction("Enter", var_15_0)
+			end
 		end
 	}, function()
 		arg_11_0:emit(CommissionInfoMediator.GO_BATTLE)
 	end)
 end
 
-function var_0_0.OnFinishAll(arg_15_0)
-	arg_15_0:emit(CommissionInfoMediator.ON_END_CHAPTER_AUTO)
+function var_0_0.OnFinishAll(arg_17_0)
+	arg_17_0:emit(CommissionInfoMediator.ON_END_CHAPTER_AUTO)
 end
 
-function var_0_0.Dispose(arg_16_0)
-	var_0_0.super.Dispose(arg_16_0)
-	arg_16_0:RemoveTimer()
+function var_0_0.Dispose(arg_18_0)
+	var_0_0.super.Dispose(arg_18_0)
+	arg_18_0:RemoveTimer()
 
-	if arg_16_0.detailPanel then
-		arg_16_0.detailPanel:Destroy()
+	if arg_18_0.detailPanel then
+		arg_18_0.detailPanel:Destroy()
 
-		arg_16_0.detailPanel = nil
+		arg_18_0.detailPanel = nil
+	end
+
+	if arg_18_0.detailTypeBossPanel then
+		arg_18_0.detailTypeBossPanel:Destroy()
+
+		arg_18_0.detailTypeBossPanel = nil
+	end
+
+	if arg_18_0.detailTypeRushPanel then
+		arg_18_0.detailTypeRushPanel:Destroy()
+
+		arg_18_0.detailTypeRushPanel = nil
 	end
 end
 

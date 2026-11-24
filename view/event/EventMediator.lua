@@ -60,13 +60,15 @@ function var_0_0.register(arg_1_0)
 		})
 	end)
 	arg_1_0:updateEventList(false, arg_1_0.contextData.eventList)
+	getProxy(EventProxy):FlushIfDirty()
 end
 
 function var_0_0.listNotificationInterests(arg_9_0)
 	return {
 		GAME.EVENT_LIST_UPDATE,
 		GAME.EVENT_FINISH_UPDATE,
-		GAME.EVENT_SHOW_AWARDS
+		GAME.EVENT_SHOW_AWARDS,
+		GAME.ON_RECONNECTION
 	}
 end
 
@@ -78,6 +80,8 @@ function var_0_0.handleNotification(arg_10_0, arg_10_1)
 		arg_10_0:updateEventList(true)
 	elseif var_10_0 == GAME.EVENT_FINISH_UPDATE then
 		arg_10_0:updateEventList(true)
+	elseif var_10_0 == GAME.ON_RECONNECTION then
+		getProxy(EventProxy):FlushIfDirty()
 	elseif var_10_0 == GAME.EVENT_SHOW_AWARDS then
 		local var_10_2
 
@@ -104,7 +108,14 @@ function var_0_0.updateEventList(arg_12_0, arg_12_1, arg_12_2)
 	local var_12_1 = getProxy(EventProxy)
 
 	var_12_1.virgin = false
-	arg_12_0.contextData.eventList = arg_12_2 or var_12_1:getEventList()
+
+	local var_12_2 = arg_12_2 or var_12_1:getEventList()
+
+	if not arg_12_2 then
+		arg_12_0:keepEditingShips(arg_12_0.contextData.eventList, var_12_2)
+	end
+
+	arg_12_0.contextData.eventList = var_12_2
 
 	arg_12_0.viewComponent:setEventList(arg_12_0.contextData.eventList)
 
@@ -123,20 +134,45 @@ function var_0_0.updateEventList(arg_12_0, arg_12_1, arg_12_2)
 	end
 end
 
-function var_0_0.getDockCallbackFuncs(arg_14_0, arg_14_1)
-	local function var_14_0(arg_15_0, arg_15_1, arg_15_2)
-		local var_15_0, var_15_1 = ShipStatus.ShipStatusCheck("inEvent", arg_15_0, arg_15_1)
+function var_0_0.keepEditingShips(arg_14_0, arg_14_1, arg_14_2)
+	local var_14_0 = arg_14_0.contextData.selectedEventId
 
-		if not var_15_0 then
-			return var_15_0, var_15_1
+	if not arg_14_1 or not var_14_0 then
+		return
+	end
+
+	local var_14_1 = underscore.detect(arg_14_1, function(arg_15_0)
+		return arg_15_0.id == var_14_0
+	end)
+	local var_14_2 = underscore.detect(arg_14_2, function(arg_16_0)
+		return arg_16_0.id == var_14_0
+	end)
+
+	if not var_14_1 or not var_14_2 or var_14_1:GetState() ~= EventInfo.StateNone or var_14_2:GetState() ~= EventInfo.StateNone or #var_14_1.shipIds == 0 then
+		return
+	end
+
+	local var_14_3 = getProxy(EventProxy):getActiveShipIds()
+
+	var_14_2:setShipIds(underscore.filter(var_14_1.shipIds, function(arg_17_0)
+		return not table.contains(var_14_3, arg_17_0)
+	end))
+end
+
+function var_0_0.getDockCallbackFuncs(arg_18_0, arg_18_1)
+	local function var_18_0(arg_19_0, arg_19_1, arg_19_2)
+		local var_19_0, var_19_1 = ShipStatus.ShipStatusCheck("inEvent", arg_19_0, arg_19_1)
+
+		if not var_19_0 then
+			return var_19_0, var_19_1
 		end
 
-		local var_15_2 = getProxy(BayProxy)
+		local var_19_2 = getProxy(BayProxy)
 
-		for iter_15_0, iter_15_1 in ipairs(arg_15_2) do
-			local var_15_3 = var_15_2:getShipById(iter_15_1)
+		for iter_19_0, iter_19_1 in ipairs(arg_19_2) do
+			local var_19_3 = var_19_2:getShipById(iter_19_1)
 
-			if arg_15_0:isSameKind(var_15_3) then
+			if arg_19_0:isSameKind(var_19_3) then
 				return false, i18n("ship_formationMediator_changeNameError_sameShip")
 			end
 		end
@@ -144,15 +180,15 @@ function var_0_0.getDockCallbackFuncs(arg_14_0, arg_14_1)
 		return true
 	end
 
-	local function var_14_1(arg_16_0, arg_16_1, arg_16_2)
-		arg_16_1()
+	local function var_18_1(arg_20_0, arg_20_1, arg_20_2)
+		arg_20_1()
 	end
 
-	local function var_14_2(arg_17_0)
-		arg_14_1:setShipIds(arg_17_0)
+	local function var_18_2(arg_21_0)
+		arg_18_1:setShipIds(arg_21_0)
 	end
 
-	return var_14_0, var_14_1, var_14_2
+	return var_18_0, var_18_1, var_18_2
 end
 
 return var_0_0

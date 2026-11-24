@@ -653,7 +653,11 @@ function var_0_0.listNotificationInterests(arg_43_0)
 		GAME.GET_POWERRANK_DONE,
 		ActivityBossBuffSelectMediator.ON_START,
 		GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE,
-		CommanderProxy.PREFAB_FLEET_UPDATE
+		CommanderProxy.PREFAB_FLEET_UPDATE,
+		GAME.START_CHAPTER_AUTO_DONE,
+		GAME.END_CHAPTER_AUTO_DONE,
+		GAME.ADD_CHAPTER_AUTO_TIME_DONE,
+		GAME.ZERO_HOUR_OP_DONE
 	}
 end
 
@@ -708,6 +712,24 @@ function var_0_0.handleNotification(arg_44_0, arg_44_1)
 		arg_44_0.viewComponent:updateCommanderPrefab()
 	elseif var_44_0 == ActivityBossBuffSelectMediator.ON_START then
 		arg_44_0.viewComponent:ShowSPFleet()
+	elseif var_44_0 == GAME.START_CHAPTER_AUTO_DONE then
+		arg_44_0.viewComponent:OnStartChapterAuto(var_44_1)
+	elseif var_44_0 == GAME.END_CHAPTER_AUTO_DONE then
+		arg_44_0.viewComponent:OnEndChapterAuto(var_44_1)
+		arg_44_0:addSubLayers(Context.New({
+			viewComponent = ChapterAutoTotalRewardLayer,
+			mediator = ChapterAutoTotalRewardMediator,
+			data = {
+				rewards = var_44_1.awards,
+				totalTimes = var_44_1.allCnt,
+				finishTimes = var_44_1.finishCnt,
+				proficiency = var_44_1.proficiency
+			}
+		}), true)
+	elseif var_44_0 == GAME.ADD_CHAPTER_AUTO_TIME_DONE then
+		arg_44_0.viewComponent:OnAddChapterAutoTimeDone(var_44_1)
+	elseif var_44_0 == GAME.ZERO_HOUR_OP_DONE then
+		arg_44_0.viewComponent:OnZeroHour(var_44_1)
 	end
 end
 

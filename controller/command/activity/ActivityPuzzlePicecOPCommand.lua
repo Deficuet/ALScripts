@@ -90,7 +90,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			var_1_5:updateActivity(var_1_6)
 
 			if var_1_4 then
-				var_1_4()
+				var_1_4(arg_2_0)
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", arg_2_0.result))

@@ -7,6 +7,16 @@ var_0_0.word_legal_template_15 = {}
 local var_0_1 = var_0_0.word_legal_template_15
 
 function temp()
+	var_0_1.滨 = {
+		江 = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.冈 = {
 		依 = {
 			沙 = {
@@ -448,16 +458,6 @@ function temp()
 			this = true
 		},
 		B = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1["3"] = {
-		["3"] = {
 			this = true
 		}
 	}

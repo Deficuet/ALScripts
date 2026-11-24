@@ -692,16 +692,16 @@ function var_0_0.UpdateLive2dPainting(arg_53_0, arg_53_1, arg_53_2, arg_53_3, ar
 
 	local function var_53_1(arg_56_0)
 		if arg_56_0 then
-			local var_56_0 = arg_53_1:GetLive2dAction()
+			local var_56_0 = arg_53_1:GetL2dIdleIndex()
 
-			if var_56_0 and var_56_0 ~= "" then
-				arg_56_0:TriggerAction(var_56_0)
+			if var_56_0 and var_56_0 ~= "" and var_56_0 >= 0 then
+				arg_56_0:changeIdleIndex(var_56_0, true)
 			end
 
-			local var_56_1 = arg_53_1:GetL2dIdleIndex()
+			local var_56_1 = arg_53_1:GetLive2dAction()
 
-			if var_56_1 and var_56_1 ~= "" and var_56_1 > 0 then
-				arg_56_0:changeIdleIndex(var_56_1)
+			if var_56_1 and var_56_1 ~= "" then
+				arg_56_0:TriggerAction(var_56_1)
 			end
 
 			local var_56_2 = arg_53_1:GetL2dParams()

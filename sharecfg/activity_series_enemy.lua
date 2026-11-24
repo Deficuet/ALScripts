@@ -40,6 +40,11 @@ pg.activity_series_enemy.all = {
 	6003,
 	6004,
 	6005,
+	7001,
+	7002,
+	7003,
+	7004,
+	7005,
 	1001001,
 	1001002,
 	1001003,
@@ -2707,6 +2712,333 @@ pg.base.activity_series_enemy = {}
 			{
 				"huali_2",
 				2
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		},
+		ex_count = {
+			8000,
+			20,
+			0.2,
+			1000,
+			0.8
+		}
+	}
+	pg.base.activity_series_enemy[7001] = {
+		pre_chapter = 0,
+		name = "学生宿舍",
+		chapter_name = "简单",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		additional_awards_display = "",
+		pos_y = "0",
+		whether_singlefight = 0,
+		collection_group_id = 104,
+		ex_count = "",
+		oil = 0,
+		profiles = "位于校园西侧的学生宿舍。只属于青春的心事正在这里悄悄萌芽。",
+		id = 7001,
+		limitation = {},
+		expedition_id = {
+			2079101
+		},
+		boss_icon = {
+			{
+				"beili_2",
+				1
+			}
+		},
+		pass_awards_display = {
+			{
+				8,
+				66133,
+				40
+			},
+			{
+				2,
+				200867,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54012,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[7002] = {
+		pre_chapter = 7001,
+		name = "飞艇码头",
+		chapter_name = "普通",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		collection_group_id = 105,
+		pos_y = "0",
+		whether_singlefight = 1,
+		id = 7002,
+		ex_count = "",
+		oil = 0,
+		profiles = "飞艇静静停泊在云海边的码头，从这里出发，开始一场天空之上的约会吧。",
+		limitation = {},
+		expedition_id = {
+			2079201,
+			2079202
+		},
+		boss_icon = {
+			{
+				"beili_2",
+				1
+			},
+			{
+				"yingxiong_2",
+				1
+			}
+		},
+		pass_awards_display = {
+			{
+				8,
+				66133,
+				140
+			},
+			{
+				2,
+				200868,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				8,
+				66133,
+				25
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[7003] = {
+		pre_chapter = 7002,
+		name = "教学楼",
+		chapter_name = "困难",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		collection_group_id = 106,
+		pos_y = "0",
+		whether_singlefight = 1,
+		id = 7003,
+		ex_count = "",
+		oil = 0,
+		profiles = "阳光洒满教学楼的长廊，每一间教室都珍藏着欢笑与悸动的青春回忆。",
+		limitation = {},
+		expedition_id = {
+			2079301,
+			2079302,
+			2079303
+		},
+		boss_icon = {
+			{
+				"maliyahuanghou",
+				5
+			},
+			{
+				"moluotuofu",
+				2
+			},
+			{
+				"xinuopu",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				8,
+				66133,
+				360
+			},
+			{
+				2,
+				200869,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				8,
+				66133,
+				60
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
+		}
+	}
+	pg.base.activity_series_enemy[7004] = {
+		pre_chapter = 7003,
+		name = "星象观测台",
+		chapter_name = "S.P",
+		type = 2,
+		pos_x = "0",
+		count = 1,
+		additional_awards_display = "",
+		pos_y = "0",
+		whether_singlefight = 0,
+		collection_group_id = 107,
+		ex_count = "",
+		oil = 0,
+		profiles = "用于星象学研究的星象观测台。今晚的夜空格外清澈，想好要和谁一起在这里看星星了吗？",
+		id = 7004,
+		limitation = {},
+		expedition_id = {
+			2079401,
+			2079402,
+			2079403,
+			2079404
+		},
+		boss_icon = {
+			{
+				"beili_2",
+				1
+			},
+			{
+				"yingxiong_2",
+				1
+			},
+			{
+				"maliyahuanghou",
+				5
+			},
+			{
+				"moluotuofu",
+				2
+			}
+		},
+		pass_awards_display = {
+			{
+				8,
+				66133,
+				800
+			},
+			{
+				2,
+				200870,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54016,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			40,
+			16
+		}
+	}
+	pg.base.activity_series_enemy[7005] = {
+		pre_chapter = 7004,
+		name = "图书馆",
+		chapter_name = "E.X",
+		type = 3,
+		pos_x = "0",
+		count = 0,
+		additional_awards_display = "",
+		pos_y = "0",
+		whether_singlefight = 0,
+		collection_group_id = 0,
+		pass_awards_display = "",
+		oil = 0,
+		profiles = "表面普通的图书馆，地下却隐藏着学院的禁书库。此处尘封的禁忌知识，正静静等待再次解封。",
+		id = 7005,
+		limitation = {},
+		expedition_id = {
+			2079501,
+			2079502,
+			2079503,
+			2079504,
+			2079505
+		},
+		boss_icon = {
+			{
+				"beili_2",
+				1
+			},
+			{
+				"yingxiong_2",
+				1
+			},
+			{
+				"maliyahuanghou",
+				5
+			},
+			{
+				"moluotuofu",
+				2
+			},
+			{
+				"xinuopu",
+				5
 			}
 		},
 		defeat_story = {},

@@ -325,7 +325,11 @@ end
 function var_0_0.listNotificationInterests(arg_26_0)
 	return {
 		GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE,
-		BossRushPreCombatMediator.ON_FLEET_REFRESHED
+		BossRushPreCombatMediator.ON_FLEET_REFRESHED,
+		GAME.START_CHAPTER_AUTO_DONE,
+		GAME.END_CHAPTER_AUTO_DONE,
+		GAME.ADD_CHAPTER_AUTO_TIME_DONE,
+		GAME.ZERO_HOUR_OP_DONE
 	}
 end
 
@@ -339,6 +343,12 @@ function var_0_0.handleNotification(arg_27_0, arg_27_1)
 		arg_27_0.viewComponent:updateEliteFleets()
 	elseif var_27_0 == BossRushPreCombatMediator.ON_FLEET_REFRESHED then
 		arg_27_0.viewComponent:updateEliteFleets()
+	elseif var_27_0 == GAME.START_CHAPTER_AUTO_DONE then
+		arg_27_0.viewComponent:closeView()
+	elseif var_27_0 == GAME.ADD_CHAPTER_AUTO_TIME_DONE then
+		arg_27_0.viewComponent:RefreshChapterAutoPanel()
+	elseif var_27_0 == GAME.ZERO_HOUR_OP_DONE then
+		arg_27_0.viewComponent:RefreshChapterAutoPanel()
 	end
 end
 

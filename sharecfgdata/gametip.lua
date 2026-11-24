@@ -1138,6 +1138,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.easter_egg_tips = {
+		tip = ""
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_guide_active = {
 		tip = "可解锁"
 	}
@@ -1150,6 +1156,18 @@ end)()
 				info = "巡游任务说明\n\n·<color=#92fc63>开放时间</color>\n    2021.12.1 0点 ~ 2022.1.31 23:59:59\n\n·<color=#92fc63>巡游任务分为两种</color>\n（1）每周任务\n    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。\n（2）S.P.任务\n    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。\n（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励\n\n·<color=#92fc63>「巡游任务快速完成券」说明</color>\n（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务\n（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐\n（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关\n（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>"
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.auto_chapter_unlock_tip_series_multi = {
+		tip = "完成一次多队出击后开启"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.secretary_closed = {
+		tip = "暂未开放"
 	}
 end)()
 
@@ -1224,6 +1242,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.auto_battle_series_tip = {
+		tip = "※完成一次多队出击后，使用作战全权委托书的作战委托将追加多队出击额外奖励"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.world_instruction_detect_1 = {
 		tip = "是否消耗$1行动力，\n侦查当前海域的全部区域？"
 	}
@@ -1232,6 +1256,16 @@ end)()
 (function()
 	_G.pg.base.gametip.common_ship_type = {
 		tip = "舰艇类型"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zhenli_series_help = {
+		tip = {
+			{
+				info = "<b>活动时间：</b>\n·<color=#92fc63>11.24-12.10维护；</color>\n·活动期间开启限时活动「真理学院的转校生」。\n\n<b>活动说明：</b>\n·本次作战分为<color=#92fc63>【作战模式】</color>和<color=#92fc63>【剧情模式】</color>。\n·在【作战模式】中，指挥官可上阵多只队伍按照顺序分别挑战各个关卡，完成关卡内全部挑战后视为关卡通关并获得奖励。\n·同时，部分关卡可切换<color=#92fc63>「单队连战」</color>、<color=#92fc63>「多队出击」</color>两种模式：\n--「单队连战」为单只队伍挑战各个关卡。选择「单队连战」模式时，每个关卡开始前角色耐久值及各类状态均将重置。\n--「多队出击」为不同队伍挑战各个关卡。选择「多队出击」模式时，可获得额外奖励。\n\n·指挥官可以通过作战模式获取「罗曼蒂克圣杯」，累计收集「罗曼蒂克圣杯」可获得角色<color=#92fc63>「玛丽亚皇后」</color>、装备<color=#92fc63>「魔导秘典」</color>在内的大量奖励。\n\n·完成【剧情模式】的全部内容后，可获得限定纪念外观<color=#92fc63>「魔导之力」</color>。"
+			}
+		}
 	}
 end)()
 
@@ -1260,6 +1294,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.world_task_notask = {
+		tip = "指挥官，当前还没有接到任务哦"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_task_main = {
+		tip = "主线历程"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.mail_take_all_mail_msgbox = {
 		tip = "※是否领取所有选中的邮件"
 	}
@@ -1268,6 +1314,12 @@ end)()
 (function()
 	_G.pg.base.gametip.battle_text_common_1 = {
 		tip = "敌人正在准备着某种强大的攻击，请<color=#f1f102>集中火力将其打断</color>！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_task_all = {
+		tip = "任务汇总"
 	}
 end)()
 
@@ -1302,6 +1354,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.world_task_view = {
+		tip = "查看"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.islandnode_tips3 = {
 		tip = "*只能选择一次哦"
 	}
@@ -1320,8 +1378,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.world_task_get = {
+		tip = "领取"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.ship_profile_words = {
 		tip = "台词鉴赏"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.auto_battle_cost_oil = {
+		tip = "<color=#92fc63><icon name=oil w=0.7 h=0.7/>$1石油</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.easter_egg_complate = {
+		tip = ""
 	}
 end)()
 
@@ -1332,8 +1408,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_task_notask = {
-		tip = "指挥官，当前还没有接到任务哦"
+	_G.pg.base.gametip.battlepass_main_help_2612 = {
+		tip = {
+			{
+				info = "世界巡游(2026.12.1-2027.1.31)\n\n·<color=#92fc63>开放时间</color>\n 2026.12.1 0点 ~ 2027.1.31 23:59:59\n\n·<color=#92fc63>巡游进度说明</color>\n（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。\n（2）巡游任务随时间开放解锁。\n（3）每获取100点「巡游点数」即可增加1巡游进度\n（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。\n\n·<color=#92fc63>奖励规则</color>\n巡游进度奖励分为两种：\n（1）基础巡游奖励：包含<color=#ff5c5c>「凯尔圣·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·九期</color>等奖励；\n 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。\n（2）特许巡游奖励：包含<color=#ff5c5c>优可可洛换装「小恶魔女仆的限定芭菲 </color>」、<color=#ff5c5c>钻石</color>等奖励；\n 购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。\n 注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。\n\n·<color=#92fc63>「特许巡游凭证」说明</color>\n（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。\n（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即01.31 22:59:59停止)，请指挥官注意购买时间。\n\n·<color=#92fc63>任务说明</color>\n巡游任务分为两种：\n（1）每周任务 \n 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务\n（2）S.P.任务\n S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。\n（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。\n\n·<color=#92fc63>「巡游任务快速完成券」说明</color>\n（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务\n（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐\n（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关\n（4）「巡游任务快速完成券」不会随本期活动结束而消失\n\n·<color=#ff5c5c>特别提示</color>\n（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。\n（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效"
+			}
+		}
 	}
 end)()
 
@@ -1344,14 +1424,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_task_main = {
-		tip = "主线历程"
+	_G.pg.base.gametip.auto_chapter_unlock_tip_series = {
+		tip = "完成一次未被打断且全程自律的出击后开启"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_task_all = {
-		tip = "任务汇总"
+	_G.pg.base.gametip.guaitan_story_reward_count = {
+		tip = "通关全部剧情后可以获得限定纪念外观"
 	}
 end)()
 
@@ -1392,8 +1472,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_task_view = {
-		tip = "查看"
+	_G.pg.base.gametip.ActivityRemasterCore_re5_2 = {
+		tip = "樊笼内的神光"
 	}
 end)()
 
@@ -1416,14 +1496,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_task_get = {
-		tip = "领取"
+	_G.pg.base.gametip.cruise_task_help_2612 = {
+		tip = {
+			{
+				info = "巡游任务说明\n\n·<color=#92fc63>开放时间</color>\n 2026.12.1 0点 ~ 2027.1.31 23:59:59\n\n·<color=#92fc63>巡游任务分为两种</color>\n（1）每周任务\n 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。\n（2）S.P.任务\n S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。\n（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励\n\n·<color=#92fc63>「巡游任务快速完成券」说明</color>\n（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务\n（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐\n（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关\n（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_cost_oil = {
-		tip = "<color=#92fc63><icon name=oil w=0.7 h=0.7/>$1石油</color>"
+	_G.pg.base.gametip.battlepass_main_tip_2612 = {
+		tip = "2026/12/1-2027/1/31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「凯尔圣·META 」</color>在内的丰富奖励"
 	}
 end)()
 
@@ -2886,8 +2970,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ActivityRemasterCore_re5_2 = {
-		tip = "樊笼内的神光"
+	_G.pg.base.gametip.cruise_title_2612 = {
+		tip = "世界巡游·第三十二期"
 	}
 end)()
 
@@ -3555,7 +3639,7 @@ end)()
 	_G.pg.base.gametip.auto_battle_help = {
 		tip = {
 			{
-				info = "<color=#92fc63>作战委托</color>说明:\n\n作战委托系统是通过自动委托的方式通关已攻略关卡的系统，对目标关卡执行作战委托后，等待倒计时结束，即可收获委托奖励。作战委托倒计时在玩家离线时<color=#92fc63>不会暂停</color>，将继续保持计时。\n1 作战委托系统仅能委托完成过一次<color=#92fc63>未中断且全程自律的连续作战</color>的关卡。\n2 单次作战委托所需等待时间为目标关卡一次<color=#92fc63>未中断且全程自律的连续作战</color>通关的最短时间（<color=#92fc63>舰队跨射不会影响时间统计</color>，仅记录功能上线后的通关时间）。\n3 每日可获得<color=#92fc63>8小时作战委托可用时间</color>，委托可用时间耗尽后，将无法进行作战委托。每次进行作战委托时，将<color=#92fc63>消耗与等待时间相同</color>的委托可用时间，剩余时间<color=#92fc63>不足1次委托所需时间时，仍可完成最后一次委托</color>。委托可用时间会在<color=#92fc63>每天0时</color>重置。\n4 作战委托<color=#92fc63>期间无法出击主线关卡、活动关卡以及活动档案</color>。\n5 作战委托产出大讲堂熟练度，使用<color=#92fc63>作战全权委托书可以为一次作战委托追加额外产出</color>。\n\n<color=#92fc63>作战全权委托书</color>介绍：\n\n1 作战全权委托书是用于<color=#92fc63>增加作战委托产出</color>的物品，使用后可为<color=#92fc63>一次作战委托</color>追加额外产出。可通过<color=#92fc63>每日任务</color>等途径获取\n2 在使用作战全权委托书追加产出的同时，还需要支付一定数量的<color=#92fc63>石油资源</color>。\n3 作战全权委托书追加的额外产出将<color=#92fc63>基于关卡通关奖励</color>，不同关卡会有不同的通关奖励，包括<color=#92fc63>角色、物资、材料、活动掉落</color>等。\n4 使用作战全权委托书的作战委托会为<color=#92fc63>部分任务增加任务进度</color>。\n5 使用作战全权委托书的作战委托将有概率出现<color=#92fc63>紧急委托</color>，一次作战委托最多出现一个。\n6 作战全权委托书还可在“兑换可用时间”界面中用于<color=#92fc63>增加当日的作战委托可用时间</color>，每本作战全权委托书可增加<color=#92fc63>1小时</color>的委托可用时间。"
+				info = "<color=#92fc63>作战委托</color>说明:\n\n作战委托系统是通过自动委托的方式通关已攻略关卡的系统，对目标关卡执行作战委托后，等待倒计时结束，即可收获委托奖励。作战委托倒计时在玩家离线时<color=#92fc63>不会暂停</color>，将继续保持计时。\n1 作战委托系统仅能委托完成过一次<color=#92fc63>未中断且全程自律的连续作战</color>的关卡。\n2 单次作战委托所需等待时间为目标关卡一次<color=#92fc63>未中断且全程自律的连续作战</color>通关的最短时间（<color=#92fc63>舰队跨射不会影响时间统计</color>，仅记录功能上线后的通关时间）。\n3 每日可获得<color=#92fc63>8小时作战委托可用时间</color>，委托可用时间耗尽后，将无法进行作战委托。每次进行作战委托时，将<color=#92fc63>消耗与等待时间相同</color>的委托可用时间，剩余时间<color=#92fc63>不足1次委托所需时间时，仍可完成最后一次委托</color>。委托可用时间会在<color=#92fc63>每天0时</color>重置。\n4 作战委托<color=#92fc63>期间无法出击主线关卡、活动关卡以及活动档案</color>。\n5 作战委托产出大讲堂熟练度，使用<color=#92fc63>作战全权委托书可以为一次作战委托追加额外产出</color>。\n\n<color=#92fc63>作战全权委托书</color>介绍：\n\n1 作战全权委托书是用于<color=#92fc63>增加作战委托产出</color>的物品，使用后可为<color=#92fc63>一次作战委托</color>追加额外产出。可通过<color=#92fc63>每日任务</color>等途径获取\n2 在使用作战全权委托书追加产出的同时，还需要支付一定数量的<color=#92fc63>石油资源</color>，消耗石油数量依据关卡固定，不受通关记录所用队伍影响。\n3 作战全权委托书追加的额外产出将<color=#92fc63>基于关卡通关奖励</color>，不同关卡会有不同的通关奖励，包括<color=#92fc63>角色、物资、材料、活动掉落</color>等。\n4 使用作战全权委托书的作战委托会为<color=#92fc63>部分任务增加任务进度</color>。\n5 使用作战全权委托书的作战委托将有概率出现<color=#92fc63>紧急委托</color>，一次作战委托最多出现一个。\n6 作战全权委托书还可在“兑换可用时间”界面中用于<color=#92fc63>增加当日的作战委托可用时间</color>，每本作战全权委托书可增加<color=#92fc63>1小时</color>的委托可用时间。"
 			}
 		}
 	}
@@ -34705,7 +34789,7 @@ end)()
 				info = "纪念手册："
 			},
 			{
-				info = "1. 回忆页面内新增「纪念手册」系统入口。\n2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得活动勋章。\n ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；\n ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；\n ※ 「纪念贴纸」可以通过完成对应活动任务获取；\n ※ 奖励领取界面将延长至$1；"
+				info = "1. 回忆页面内新增「纪念手册」系统入口。\n2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得活动勋章。\n ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；\n ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；\n ※ 「纪念贴纸」可以通过完成对应活动任务获取；\n ※ 奖励领取界面将延长至12月15日24时；"
 			}
 		}
 	}
@@ -36526,8 +36610,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.secretary_closed = {
-		tip = "暂未开放"
+	_G.pg.base.gametip.auto_battle_series_finish_tip = {
+		tip = "※已完成多队出击，使用作战全权委托书的作战委托已追加多队出击额外奖励"
 	}
 end)()
 

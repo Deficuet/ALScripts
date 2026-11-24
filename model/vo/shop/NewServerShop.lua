@@ -31,10 +31,14 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	end
 end
 
-function var_0_0.GetPtId(arg_2_0)
+function var_0_0.GetPtDrop(arg_2_0)
 	local var_2_0 = getProxy(ActivityProxy):getActivityById(arg_2_0.activityId):getConfig("config_data")
+	local var_2_1 = pg.newserver_shop_template[var_2_0[1]]
 
-	return pg.newserver_shop_template[var_2_0[1]].resource_type
+	return Drop.New({
+		type = var_2_1.resource_category,
+		id = var_2_1.resource_type
+	})
 end
 
 function var_0_0.WrapPhaseGoods(arg_3_0, arg_3_1, arg_3_2, arg_3_3)

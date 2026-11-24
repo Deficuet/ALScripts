@@ -2,8 +2,9 @@ local var_0_0 = class("EventGiveUpCommand", pm.SimpleCommand)
 
 function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1:getBody().id
+	local var_1_1 = getProxy(EventProxy)
 
-	if getProxy(EventProxy):getEventInfo(var_1_0):IsActivityType() then
+	if var_1_1:getEventInfo(var_1_0):IsActivityType() then
 		arg_1_0:sendNotification(GAME.ACT_COLLECTION_EVENT_OP, {
 			arg2 = 0,
 			cmd = ActivityConst.COLLETION_EVENT_OP_GIVE_UP,
@@ -11,7 +12,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			arg_list = {}
 		})
 	else
-		pg.ConnectionMgr.GetInstance():Send(13007, {
+		var_1_1:SendEventRequest(13007, {
 			id = var_1_0
 		}, 13008, function(arg_2_0)
 			if arg_2_0.result == 0 then

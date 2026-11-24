@@ -30,7 +30,7 @@ function var_0_0.OnFirstFlush(arg_3_0)
 		local var_5_1 = arg_3_0.taskProxy:getTaskById(var_5_0) or arg_3_0.taskProxy:getFinishTaskById(var_5_0)
 
 		if var_5_1 and var_5_1:getTaskStatus() == 1 then
-			arg_3_0:emit(ActivityMediator.ON_TASK_SUBMIT, var_5_1)
+			arg_3_0:SubmitTaskWithCheck(var_5_1)
 		end
 	end, SFX_PANEL)
 end
@@ -84,90 +84,118 @@ function var_0_0.UpdateTask(arg_7_0)
 		arg_7_0:emit(ActivityMediator.ON_TASK_GO, var_7_0)
 	end, SFX_PANEL)
 	onButton(arg_7_0, var_7_4, function()
-		local var_9_0 = {}
-		local var_9_1 = var_7_0:getConfig("award_display")
-		local var_9_2 = getProxy(PlayerProxy):getRawData()
-		local var_9_3 = pg.gameset.urpt_chapter_max.description[1]
-		local var_9_4 = LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(var_9_3)
-		local var_9_5, var_9_6 = Task.StaticJudgeOverflow(var_9_2.gold, var_9_2.oil, var_9_4, true, true, var_9_1)
+		arg_7_0:SubmitTaskWithCheck(var_7_0)
+	end, SFX_PANEL)
+end
 
-		if var_9_5 then
-			table.insert(var_9_0, function(arg_10_0)
+function var_0_0.SubmitTaskWithCheck(arg_10_0, arg_10_1)
+	local var_10_0 = {}
+	local var_10_1 = arg_10_1:getConfig("award_display")
+	local var_10_2 = getProxy(PlayerProxy):getRawData()
+	local var_10_3 = pg.gameset.urpt_chapter_max.description[1]
+	local var_10_4 = LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(var_10_3)
+
+	local function var_10_5()
+		local var_11_0, var_11_1 = Task.StaticJudgeOverflow(var_10_2.gold, var_10_2.oil, var_10_4, true, true, var_10_1)
+
+		if var_11_0 then
+			table.insert(var_10_0, function(arg_12_0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					type = MSGBOX_TYPE_ITEM_BOX,
 					content = i18n("award_max_warning"),
-					items = var_9_6,
-					onYes = arg_10_0
+					items = var_11_1,
+					onYes = arg_12_0
 				})
 			end)
 		end
 
-		seriesAsync(var_9_0, function()
-			arg_7_0:emit(ActivityMediator.ON_TASK_SUBMIT, var_7_0)
+		seriesAsync(var_10_0, function()
+			arg_10_0:emit(ActivityMediator.ON_TASK_SUBMIT, arg_10_1)
 		end)
-	end, SFX_PANEL)
+	end
+
+	local var_10_6 = false
+
+	for iter_10_0, iter_10_1 in ipairs(var_10_1) do
+		local var_10_7 = Drop.Create(iter_10_1)
+
+		if var_10_7.type == DROP_TYPE_VITEM and var_10_7.id == 69985 then
+			var_10_6 = true
+
+			break
+		end
+	end
+
+	if var_10_6 then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("shop_new_coupon_tip3"),
+			onYes = var_10_5
+		})
+	else
+		var_10_5()
+	end
 end
 
-function var_0_0.UpdateEndAward(arg_12_0)
-	local var_12_0 = arg_12_0.activity:getConfig("config_client").extra_task
-	local var_12_1 = arg_12_0.taskProxy:getTaskById(var_12_0) or arg_12_0.taskProxy:getFinishTaskById(var_12_0)
+function var_0_0.UpdateEndAward(arg_14_0)
+	local var_14_0 = arg_14_0.activity:getConfig("config_client").extra_task
+	local var_14_1 = arg_14_0.taskProxy:getTaskById(var_14_0) or arg_14_0.taskProxy:getFinishTaskById(var_14_0)
 
-	if var_12_1 == nil then
+	if var_14_1 == nil then
 		warning("未获取到活动数据")
 
 		return
 	end
 
-	local var_12_2 = var_12_1:getTaskStatus()
+	local var_14_2 = var_14_1:getTaskStatus()
 
-	setActive(arg_12_0.endGetBtn, var_12_2 == 1)
-	setActive(arg_12_0.endGotBtn, var_12_2 == 2)
+	setActive(arg_14_0.endGetBtn, var_14_2 == 1)
+	setActive(arg_14_0.endGotBtn, var_14_2 == 2)
 
-	local var_12_3 = Drop.Create(var_12_1:getConfig("award_display")[1])
+	local var_14_3 = Drop.Create(var_14_1:getConfig("award_display")[1])
 
-	updateDrop(arg_12_0.endAward, var_12_3)
-	onButton(arg_12_0, arg_12_0.endAward, function()
-		arg_12_0:emit(BaseUI.ON_DROP, var_12_3)
+	updateDrop(arg_14_0.endAward, var_14_3)
+	onButton(arg_14_0, arg_14_0.endAward, function()
+		arg_14_0:emit(BaseUI.ON_DROP, var_14_3)
 	end, SFX_PANEL)
 end
 
-function var_0_0.InitAward(arg_14_0, arg_14_1, arg_14_2)
-	local var_14_0 = arg_14_0:GetDayTaskVo(arg_14_2)
-	local var_14_1 = Drop.Create(var_14_0:getConfig("award_display")[1])
+function var_0_0.InitAward(arg_16_0, arg_16_1, arg_16_2)
+	local var_16_0 = arg_16_0:GetDayTaskVo(arg_16_2)
+	local var_16_1 = Drop.Create(var_16_0:getConfig("award_display")[1])
 
-	updateDrop(arg_14_1, var_14_1)
-	onButton(arg_14_0, arg_14_1, function()
-		arg_14_0:emit(BaseUI.ON_DROP, var_14_1)
+	updateDrop(arg_16_1, var_16_1)
+	onButton(arg_16_0, arg_16_1, function()
+		arg_16_0:emit(BaseUI.ON_DROP, var_16_1)
 	end, SFX_PANEL)
 end
 
-function var_0_0.GetDayTaskVo(arg_16_0, arg_16_1)
-	local var_16_0 = arg_16_0.taskGroup[arg_16_1][1]
-	local var_16_1 = arg_16_0.taskProxy:getTaskById(var_16_0) or arg_16_0.taskProxy:getFinishTaskById(var_16_0)
+function var_0_0.GetDayTaskVo(arg_18_0, arg_18_1)
+	local var_18_0 = arg_18_0.taskGroup[arg_18_1][1]
+	local var_18_1 = arg_18_0.taskProxy:getTaskById(var_18_0) or arg_18_0.taskProxy:getFinishTaskById(var_18_0)
 
-	assert(var_16_1, "without this task by id: " .. var_16_0)
+	assert(var_18_1, "without this task by id: " .. var_18_0)
 
-	return var_16_1
+	return var_18_1
 end
 
-function var_0_0.getTaskIdx(arg_17_0, arg_17_1)
-	local var_17_0 = 1
-	local var_17_1 = arg_17_1:getNDay()
-	local var_17_2 = #arg_17_0.taskGroup
-	local var_17_3 = math.min(var_17_1, var_17_2)
-	local var_17_4 = true
+function var_0_0.getTaskIdx(arg_19_0, arg_19_1)
+	local var_19_0 = 1
+	local var_19_1 = arg_19_1:getNDay()
+	local var_19_2 = #arg_19_0.taskGroup
+	local var_19_3 = math.min(var_19_1, var_19_2)
+	local var_19_4 = true
 
-	for iter_17_0 = 1, var_17_3 do
-		if not var_17_4 then
+	for iter_19_0 = 1, var_19_3 do
+		if not var_19_4 then
 			break
 		end
 
-		var_17_0 = iter_17_0
+		var_19_0 = iter_19_0
 
-		if iter_17_0 < var_17_3 then
-			for iter_17_1, iter_17_2 in ipairs(arg_17_0.taskGroup[iter_17_0]) do
-				if not arg_17_0:isTaskFinished(iter_17_2) then
-					var_17_4 = false
+		if iter_19_0 < var_19_3 then
+			for iter_19_1, iter_19_2 in ipairs(arg_19_0.taskGroup[iter_19_0]) do
+				if not arg_19_0:isTaskFinished(iter_19_2) then
+					var_19_4 = false
 
 					break
 				end
@@ -175,31 +203,31 @@ function var_0_0.getTaskIdx(arg_17_0, arg_17_1)
 		end
 	end
 
-	return math.min(var_17_0, var_17_2)
+	return math.min(var_19_0, var_19_2)
 end
 
-function var_0_0.isTaskFinished(arg_18_0, arg_18_1)
-	if not arg_18_0.taskProxy then
-		arg_18_0.taskProxy = getProxy(TaskProxy)
+function var_0_0.isTaskFinished(arg_20_0, arg_20_1)
+	if not arg_20_0.taskProxy then
+		arg_20_0.taskProxy = getProxy(TaskProxy)
 	end
 
-	local var_18_0 = arg_18_0.taskProxy:getTaskById(arg_18_1) or arg_18_0.taskProxy:getFinishTaskById(arg_18_1)
+	local var_20_0 = arg_20_0.taskProxy:getTaskById(arg_20_1) or arg_20_0.taskProxy:getFinishTaskById(arg_20_1)
 
-	return var_18_0 and var_18_0:getTaskStatus() == 2
+	return var_20_0 and var_20_0:getTaskStatus() == 2
 end
 
-function var_0_0.OnHideFlush(arg_19_0)
-	if arg_19_0.taskWindow:isShowing() then
-		arg_19_0.taskWindow:Hide()
+function var_0_0.OnHideFlush(arg_21_0)
+	if arg_21_0.taskWindow:isShowing() then
+		arg_21_0.taskWindow:Hide()
 	end
 end
 
-function var_0_0.OnDestroy(arg_20_0)
-	if arg_20_0.taskWindow then
-		arg_20_0.taskWindow:Hide()
-		arg_20_0.taskWindow:Destroy()
+function var_0_0.OnDestroy(arg_22_0)
+	if arg_22_0.taskWindow then
+		arg_22_0.taskWindow:Hide()
+		arg_22_0.taskWindow:Destroy()
 
-		arg_20_0.taskWindow = nil
+		arg_22_0.taskWindow = nil
 	end
 end
 

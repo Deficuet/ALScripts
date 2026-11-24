@@ -775,6 +775,10 @@ function var_0_0.GetSubActorName(arg_77_0)
 end
 
 function var_0_0.IsSamePainting(arg_78_0, arg_78_1)
+	if not arg_78_1:GetIsExecuted() then
+		return false
+	end
+
 	local function var_78_0()
 		return arg_78_1:ShouldAddGlitchArtEffect() or arg_78_0:ShouldAddGlitchArtEffect()
 	end

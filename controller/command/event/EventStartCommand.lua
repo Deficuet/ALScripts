@@ -9,6 +9,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 	if not var_1_4 and not var_1_3:CanStartEvent() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("event_fleet_busy"))
+		var_1_3:FlushIfDirty()
 
 		return
 	end
@@ -33,7 +34,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				event = var_1_0
 			})
 		else
-			pg.ConnectionMgr.GetInstance():Send(13003, {
+			var_1_3:SendEventRequest(13003, {
 				id = var_1_1,
 				ship_id_list = var_1_2
 			}, 13004, function(arg_3_0)

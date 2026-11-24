@@ -1715,6 +1715,15 @@ function var_0_0.ShowOfficialAccountsInfo(arg_112_0, arg_112_1)
 			arg_112_0:CloseCommentPanel()
 		end
 	end, SFX_PANEL)
+
+	local var_112_0 = arg_112_1:getConfig("official_type") == InstagramConst.OFFICIAL_TYPE.STORY
+	local var_112_1 = EasterEggTools.GetActivity()
+
+	if var_112_1 then
+		var_112_0 = var_112_0 and not EasterEggTools.IsEnabled(var_112_1, EasterEggConst.SCENE.InstagramMainUI)
+	end
+
+	setActive(arg_112_0.officialAccountsInfoItem:Find("easterEgg"), var_112_0)
 end
 
 function var_0_0.ExitOfficialAccountsInfo(arg_116_0)

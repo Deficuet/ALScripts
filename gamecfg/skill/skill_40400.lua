@@ -1,6 +1,6 @@
 return {
 	uiEffect = "",
-	name = "德雷克",
+	name = "战列风帆-指挥-炮击II",
 	cd = 0,
 	painting = 1,
 	id = 40400,
@@ -22,8 +22,6 @@ return {
 					4,
 					5,
 					10,
-					22,
-					23,
 					24
 				}
 			}

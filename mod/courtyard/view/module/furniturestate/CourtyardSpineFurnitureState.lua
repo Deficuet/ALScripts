@@ -81,7 +81,6 @@ function var_0_0.OnReset(arg_9_0, arg_9_1)
 	local var_9_0 = arg_9_1.animator:GetNormalAnimationName()
 
 	if var_9_0 then
-		arg_9_1.animator:RestartAnimation(var_9_0)
 		arg_9_0.furnitureSpineStateAnimUI:SetAction(var_9_0, 0)
 	end
 end

@@ -16,7 +16,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(11202, {
+	var_1_5:SendEventRequest(11202, {
 		activity_id = var_1_7.id,
 		cmd = var_1_0.cmd,
 		arg1 = var_1_0.arg1,
@@ -61,7 +61,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				end
 			end
 		else
-			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_2_0.result] .. arg_2_0.result)
+			pg.TipsMgr.GetInstance():ShowTips((ERROR_MESSAGE[arg_2_0.result] or "") .. arg_2_0.result)
 		end
 	end)
 end

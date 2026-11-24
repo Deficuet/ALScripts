@@ -253,6 +253,7 @@ function var_0_0.didEnter(arg_17_0)
 	onButton(arg_17_0, arg_17_0.topItems:Find("adapt/stamp"), function()
 		getProxy(TaskProxy):dealMingshiTouchFlag(2)
 	end, SFX_CONFIRM)
+	arg_17_0:InitEasterEgg()
 	onButton(arg_17_0, arg_17_0.helpBtn, function()
 		local var_19_0
 
@@ -457,13 +458,18 @@ function var_0_0.didEnter(arg_17_0)
 	onToggle(arg_17_0, arg_17_0.materialToggle, function(arg_37_0)
 		arg_17_0.inMaterial = arg_37_0
 
-		if arg_37_0 and arg_17_0.contextData.warp ~= StoreHouseConst.WARP_TO_MATERIAL then
-			arg_17_0.contextData.warp = StoreHouseConst.WARP_TO_MATERIAL
+		if arg_37_0 then
+			if arg_17_0.contextData.warp ~= StoreHouseConst.WARP_TO_MATERIAL then
+				arg_17_0.contextData.warp = StoreHouseConst.WARP_TO_MATERIAL
 
-			setText(arg_17_0.tip, i18n("equipment_select_materials_tip"))
-			setActive(arg_17_0.capacityTF.parent, false)
-			setActive(arg_17_0.tip, true)
-			arg_17_0:sortItems()
+				setText(arg_17_0.tip, i18n("equipment_select_materials_tip"))
+				setActive(arg_17_0.capacityTF.parent, false)
+				setActive(arg_17_0.tip, true)
+				arg_17_0:sortItems()
+				arg_17_0:ShowEasterEgg()
+			end
+		else
+			arg_17_0:HideEasterEgg()
 		end
 
 		setActive(arg_17_0.helpBtn, not arg_37_0)
@@ -1508,27 +1514,108 @@ function var_0_0.SwitchEquipmentType(arg_134_0, arg_134_1)
 	arg_134_0.searchBar:ClearInputText()
 end
 
-function var_0_0.willExit(arg_135_0)
-	arg_135_0:UnOverlayPanel(arg_135_0.blurPanel, arg_135_0._tf)
-	arg_135_0:UnOverlayPanel(arg_135_0.topItems, arg_135_0._tf)
-
-	if arg_135_0.bulinTip then
-		arg_135_0.bulinTip:Destroy()
-
-		arg_135_0.bulinTip = nil
+function var_0_0.Scroll2Item(arg_135_0, arg_135_1, arg_135_2)
+	if arg_135_0.contextData.warp ~= StoreHouseConst.WARP_TO_MATERIAL or not arg_135_0.itemRect or not arg_135_0.itemRect.isStart then
+		return
 	end
 
-	if arg_135_0.searchBar then
-		arg_135_0.searchBar:Dispose()
+	for iter_135_0, iter_135_1 in ipairs(arg_135_0.itemVOs or {}) do
+		if iter_135_1.id == arg_135_1 then
+			local var_135_0 = math.clamp(arg_135_0.itemRect:HeadIndexToValue(iter_135_0 - 1), 0, 1)
+			local var_135_1 = arg_135_0.itemRect.value
 
-		arg_135_0.searchBar = nil
+			if math.abs(var_135_0 - var_135_1) < 0.001 then
+				return
+			end
+
+			if arg_135_2 then
+				arg_135_0.itemRect:ScrollTo(var_135_0, false)
+
+				break
+			end
+
+			local var_135_2 = math.clamp(math.abs(var_135_0 - var_135_1) * 1.5, 0.2, 0.8)
+			local var_135_3 = go(arg_135_0.itemView)
+
+			LeanTween.cancel(var_135_3)
+			LeanTween.value(var_135_3, var_135_1, var_135_0, var_135_2):setEase(LeanTweenType.easeInOutCirc):setOnUpdate(System.Action_float(function(arg_136_0)
+				arg_135_0.itemRect:ScrollTo(arg_136_0, false)
+			end))
+
+			break
+		end
+	end
+end
+
+function var_0_0.InitEasterEgg(arg_137_0)
+	local var_137_0 = EasterEggTools.GetActivity()
+
+	if EasterEggTools.IsEnabled(var_137_0, EasterEggConst.SCENE.StoreHouseScene) then
+		arg_137_0.easterEggView = EasterEggView.New(findTF(arg_137_0.topItems, "adapt/easterEggBtn"), arg_137_0, EasterEggConst.SCENE.StoreHouseScene)
+
+		local var_137_1
+
+		arg_137_0.easterEggView:SetEasterEggCallBack(function(arg_138_0, arg_138_1)
+			var_137_1 = arg_138_0
+
+			arg_138_1()
+		end, function(arg_139_0)
+			local var_139_0 = PlayerConst.addTranDrop(var_137_1.award_list)
+
+			arg_137_0:emit(BaseUI.ON_ACHIEVE, var_139_0, function()
+				pg.UIMgr.GetInstance():LoadingOn(false)
+				arg_137_0:Scroll2Item(var_137_1.award_list[1].id, true)
+				arg_137_0.easterEggView:AddHideEasterEggTimer(1, function()
+					pg.UIMgr.GetInstance():LoadingOff()
+					arg_139_0()
+				end)
+			end)
+		end)
+	end
+end
+
+function var_0_0.ShowEasterEgg(arg_142_0)
+	if arg_142_0.easterEggView then
+		arg_142_0.easterEggView:ShowEasterEgg()
+	end
+end
+
+function var_0_0.HideEasterEgg(arg_143_0)
+	if arg_143_0.easterEggView then
+		arg_143_0.easterEggView:HideEasterEgg()
+	end
+end
+
+function var_0_0.ExitEasterEgg(arg_144_0)
+	if arg_144_0.easterEggView then
+		arg_144_0.easterEggView:willExit()
 	end
 
-	arg_135_0.destroyConfirmView:Destroy()
-	arg_135_0.assignedItemView:Destroy()
-	arg_135_0.blueprintAssignedItemView:Destroy()
-	arg_135_0.equipDestroyConfirmWindow:Destroy()
-	arg_135_0.msgBox:Destroy()
+	arg_144_0.easterEggView = nil
+end
+
+function var_0_0.willExit(arg_145_0)
+	arg_145_0:UnOverlayPanel(arg_145_0.blurPanel, arg_145_0._tf)
+	arg_145_0:UnOverlayPanel(arg_145_0.topItems, arg_145_0._tf)
+	arg_145_0:ExitEasterEgg()
+
+	if arg_145_0.bulinTip then
+		arg_145_0.bulinTip:Destroy()
+
+		arg_145_0.bulinTip = nil
+	end
+
+	if arg_145_0.searchBar then
+		arg_145_0.searchBar:Dispose()
+
+		arg_145_0.searchBar = nil
+	end
+
+	arg_145_0.destroyConfirmView:Destroy()
+	arg_145_0.assignedItemView:Destroy()
+	arg_145_0.blueprintAssignedItemView:Destroy()
+	arg_145_0.equipDestroyConfirmWindow:Destroy()
+	arg_145_0.msgBox:Destroy()
 end
 
 return var_0_0

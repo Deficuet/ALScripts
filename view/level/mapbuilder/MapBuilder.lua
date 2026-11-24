@@ -166,7 +166,7 @@ function var_0_0.TryOpenChapterInfo(arg_28_0, arg_28_1, arg_28_2, arg_28_3)
 	local var_28_1 = getProxy(ChapterAutoProxy)
 
 	if var_28_1:IsCommissionDoing() and not var_28_1:HasTypeCommission(ChapterAutoProxy.TYPE.WORLD) then
-		arg_28_0:ChapterAutoOccupied(var_28_0)
+		arg_28_0:CheckChapterAutoOccupied(var_28_0)
 
 		return
 	end
@@ -223,7 +223,7 @@ function var_0_0.TryOpenChapterInfo(arg_28_0, arg_28_1, arg_28_2, arg_28_3)
 	end
 end
 
-function var_0_0.ChapterAutoOccupied(arg_29_0, arg_29_1)
+function var_0_0.CheckChapterAutoOccupied(arg_29_0, arg_29_1)
 	local var_29_0 = getProxy(ChapterAutoProxy):GetCommissionDoingType()
 
 	switch(var_29_0, {
@@ -246,15 +246,48 @@ function var_0_0.ChapterAutoOccupied(arg_29_0, arg_29_1)
 					})
 				end
 			end
+		end,
+		[ChapterAutoProxy.TYPE.BOSS] = function()
+			local var_32_0 = getProxy(ChapterAutoProxy):GetCommissionList()[1]:GetOccupiedName()
+
+			arg_29_0.sceneParent:HandleShowMsgBox({
+				content = i18n("auto_drop_is_activation", var_32_0),
+				onYes = function()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACT_BOSS_BATTLE)
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end,
+		[ChapterAutoProxy.TYPE.RUSH] = function()
+			local var_34_0 = getProxy(ChapterAutoProxy):GetCommissionList()[1]:GetOccupiedName()
+			local var_34_1 = getProxy(ChapterAutoProxy):GetCommissionList()[1].id
+			local var_34_2 = pg.activity_series_enemy_auto[var_34_1].link_id
+			local var_34_3 = BossRushChapterRemasterHelper.GetRemasterByActivityId(var_34_2) ~= nil
+
+			arg_29_0.sceneParent:HandleShowMsgBox({
+				content = i18n("auto_drop_is_activation", var_34_0),
+				onYes = function()
+					if var_34_3 then
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_REMASTER, {
+							id = var_34_2
+						})
+					else
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)
+					end
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
 		end
 	})
 end
 
-function var_0_0.OnSubmitTaskDone(arg_32_0)
+function var_0_0.OnSubmitTaskDone(arg_36_0)
 	return
 end
 
-function var_0_0.PlayEnterAnim(arg_33_0)
+function var_0_0.PlayEnterAnim(arg_37_0)
 	return
 end
 

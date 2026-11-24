@@ -27,23 +27,35 @@ function var_0_0.AddUsedBonus(arg_5_0, arg_5_1)
 end
 
 function var_0_0.GetPassCounts(arg_6_0)
-	return arg_6_0.data2_list
+	return table.mergeArray(arg_6_0.data2_list, arg_6_0.data3_list, true)
 end
 
-function var_0_0.AddPassSeries(arg_7_0, arg_7_1)
-	if arg_7_0:HasPassSeries(arg_7_1) then
-		return
-	end
+function var_0_0.AddPassSeries(arg_7_0, arg_7_1, arg_7_2)
+	if arg_7_2 then
+		if table.contains(arg_7_0.data2_list, arg_7_1) then
+			return
+		end
 
-	table.insert(arg_7_0:GetPassCounts(), arg_7_1)
+		table.insert(arg_7_0.data2_list, arg_7_1)
+	else
+		if table.contains(arg_7_0.data3_list, arg_7_1) then
+			return
+		end
+
+		table.insert(arg_7_0.data3_list, arg_7_1)
+	end
 end
 
 function var_0_0.HasPassSeries(arg_8_0, arg_8_1)
 	return table.contains(arg_8_0:GetPassCounts(), arg_8_1)
 end
 
-function var_0_0.GetActiveSeriesIds(arg_9_0)
-	return arg_9_0:getConfig("config_data")
+function var_0_0.IsPassWithMulti(arg_9_0, arg_9_1)
+	return table.contains(arg_9_0.data3_list, arg_9_1)
+end
+
+function var_0_0.GetActiveSeriesIds(arg_10_0)
+	return arg_10_0:getConfig("config_data")
 end
 
 return var_0_0

@@ -176,19 +176,7 @@ function var_0_0.OnDestroy(arg_21_0)
 end
 
 function var_0_0.GetAwards(arg_22_0)
-	local var_22_0 = LevelInfoView.getChapterAwards(arg_22_0)
-	local var_22_1 = pg.chapter_auto_statistics[arg_22_0.id].drop_display_extra
-
-	if type(var_22_1) == "table" then
-		for iter_22_0, iter_22_1 in ipairs(var_22_1) do
-			table.insert(var_22_0, {
-				iter_22_1[1],
-				iter_22_1[2]
-			})
-		end
-	end
-
-	return var_22_0
+	return ChapterAutoPanel.GetAwards(arg_22_0)
 end
 
 return var_0_0

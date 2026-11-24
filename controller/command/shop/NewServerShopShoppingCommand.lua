@@ -23,10 +23,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_9 = var_1_8:getData()
 	local var_1_10 = var_1_6:GetCommodityById(var_1_1)
 	local var_1_11 = var_1_10:GetConsume()
-
-	assert(var_1_11.type == 1, "暂不支持资源以为的类型")
-
-	local var_1_12 = var_1_9:getResource(var_1_11.id)
+	local var_1_12 = var_1_11:getOwnedCount()
 	local var_1_13 = var_1_11.count
 
 	if var_1_12 < var_1_13 * var_1_7 then
@@ -105,13 +102,20 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				end
 			end
 
-			local var_2_1 = getProxy(PlayerProxy):getData()
-			local var_2_2 = var_1_10:getConfig("resource_type")
+			if var_1_11.type == DROP_TYPE_VITEM and var_1_11:getConfig("virtual_type") == 103 then
+				local var_2_1 = getProxy(ActivityProxy)
+				local var_2_2 = var_2_1:getActivityById(var_1_11:getConfig("link_id"))
 
-			var_2_1:consume({
-				[id2res(var_2_2)] = var_1_13 * var_1_7
-			})
-			var_1_8:updatePlayer(var_2_1)
+				if var_2_2 and not var_2_2:isEnd() and var_2_2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2 then
+					var_2_2.data4 = math.max(0, (var_2_2.data4 or 0) - var_1_13 * var_1_7)
+
+					var_2_1:updateActivity(var_2_2)
+				end
+			end
+
+			local var_2_3 = getProxy(PlayerProxy):getData()
+
+			var_1_8:updatePlayer(var_2_3)
 			arg_1_0:sendNotification(GAME.NEW_SERVER_SHOP_SHOPPING_DONE, {
 				awards = var_2_0
 			})

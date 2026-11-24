@@ -825,6 +825,7 @@ function var_0_0.didEnter(arg_42_0)
 		arg_42_0.contextData.open_remaster = nil
 	end
 
+	arg_42_0:InitEasterEgg()
 	arg_42_0:ShowEntranceUI(arg_42_0.contextData.entranceStatus)
 
 	if not arg_42_0.contextData.entranceStatus then
@@ -986,6 +987,10 @@ function var_0_0.ShowEntranceUI(arg_71_0, arg_71_1)
 
 		arg_71_0.contextData.mapIdx = nil
 		arg_71_0.contextData.map = nil
+
+		arg_71_0:ShowEasterEgg()
+	else
+		arg_71_0:HideEasterEgg()
 	end
 
 	arg_71_0:PlayBGM()
@@ -3949,100 +3954,135 @@ function var_0_0.DestroyChapterAutoDetailPanel(arg_334_0)
 	end
 end
 
-function var_0_0.willExit(arg_335_0)
-	arg_335_0:ClearMapTransitions()
-	arg_335_0.loader:Clear()
+function var_0_0.InitEasterEgg(arg_335_0)
+	local var_335_0 = EasterEggTools.GetActivity()
 
-	if arg_335_0.entranceActivityBg then
-		pg.PoolMgr.GetInstance():ReturnPrefab(arg_335_0.entranceActivityBgPath, "", arg_335_0.entranceActivityBg)
+	if EasterEggTools.IsEnabled(var_335_0, EasterEggConst.SCENE.LevelScene) then
+		arg_335_0.easterEggView = EasterEggView.New(findTF(arg_335_0.entranceLayer, "easterEggBtn"), arg_335_0, EasterEggConst.SCENE.LevelScene)
 
-		arg_335_0.entranceActivityBg = nil
-		arg_335_0.entranceActivityBgPath = nil
+		local var_335_1
+
+		arg_335_0.easterEggView:SetEasterEggCallBack(function(arg_336_0, arg_336_1)
+			arg_336_1()
+		end, function(arg_337_0)
+			arg_337_0()
+		end)
+	end
+end
+
+function var_0_0.ShowEasterEgg(arg_338_0)
+	if arg_338_0.easterEggView then
+		arg_338_0.easterEggView:ShowEasterEgg()
+	end
+end
+
+function var_0_0.HideEasterEgg(arg_339_0)
+	if arg_339_0.easterEggView then
+		arg_339_0.easterEggView:HideEasterEgg()
+	end
+end
+
+function var_0_0.ExitEasterEgg(arg_340_0)
+	if arg_340_0.easterEggView then
+		arg_340_0.easterEggView:willExit()
+	end
+end
+
+function var_0_0.willExit(arg_341_0)
+	arg_341_0:ExitEasterEgg()
+	arg_341_0:ClearMapTransitions()
+	arg_341_0.loader:Clear()
+
+	if arg_341_0.entranceActivityBg then
+		pg.PoolMgr.GetInstance():ReturnPrefab(arg_341_0.entranceActivityBgPath, "", arg_341_0.entranceActivityBg)
+
+		arg_341_0.entranceActivityBg = nil
+		arg_341_0.entranceActivityBgPath = nil
 	end
 
-	if arg_335_0.contextData.chapterVO then
-		arg_335_0:UnOverlayPanel(arg_335_0.topPanel, arg_335_0._tf)
+	if arg_341_0.contextData.chapterVO then
+		arg_341_0:UnOverlayPanel(arg_341_0.topPanel, arg_341_0._tf)
 	end
 
-	if arg_335_0.levelFleetView and arg_335_0.levelFleetView.selectIds then
-		arg_335_0.contextData.selectedFleetIDs = {}
+	if arg_341_0.levelFleetView and arg_341_0.levelFleetView.selectIds then
+		arg_341_0.contextData.selectedFleetIDs = {}
 
-		for iter_335_0, iter_335_1 in pairs(arg_335_0.levelFleetView.selectIds) do
-			for iter_335_2, iter_335_3 in pairs(iter_335_1) do
-				arg_335_0.contextData.selectedFleetIDs[#arg_335_0.contextData.selectedFleetIDs + 1] = iter_335_3
+		for iter_341_0, iter_341_1 in pairs(arg_341_0.levelFleetView.selectIds) do
+			for iter_341_2, iter_341_3 in pairs(iter_341_1) do
+				arg_341_0.contextData.selectedFleetIDs[#arg_341_0.contextData.selectedFleetIDs + 1] = iter_341_3
 			end
 		end
 	end
 
-	arg_335_0:destroyChapterPanel()
-	arg_335_0:DestroyLevelInfoSPPanel()
-	arg_335_0:destroyFleetEdit()
-	arg_335_0:destroyCommanderPanel()
-	arg_335_0:DestroyLevelStageView()
-	arg_335_0:hideRepairWindow()
-	arg_335_0:hideStrategyInfo()
-	arg_335_0:hideRemasterPanel()
-	arg_335_0:hideSpResult()
-	arg_335_0:destroyGrid()
-	arg_335_0:destroyAmbushWarn()
-	arg_335_0:destroyAirStrike()
-	arg_335_0:destroyTorpedo()
-	arg_335_0:destroyStrikeAnim()
-	arg_335_0:destroyTracking()
-	arg_335_0:destroyUIAnims()
-	arg_335_0:DestroyChapterAutoDetailPanel()
+	arg_341_0:destroyChapterPanel()
+	arg_341_0:DestroyLevelInfoSPPanel()
+	arg_341_0:destroyFleetEdit()
+	arg_341_0:destroyCommanderPanel()
+	arg_341_0:DestroyLevelStageView()
+	arg_341_0:hideRepairWindow()
+	arg_341_0:hideStrategyInfo()
+	arg_341_0:hideRemasterPanel()
+	arg_341_0:hideSpResult()
+	arg_341_0:destroyGrid()
+	arg_341_0:destroyAmbushWarn()
+	arg_341_0:destroyAirStrike()
+	arg_341_0:destroyTorpedo()
+	arg_341_0:destroyStrikeAnim()
+	arg_341_0:destroyTracking()
+	arg_341_0:destroyUIAnims()
+	arg_341_0:DestroyChapterAutoDetailPanel()
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad_mark", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/plane", "")
 
-	for iter_335_4, iter_335_5 in pairs(arg_335_0.mbDict) do
-		iter_335_5:Destroy()
+	for iter_341_4, iter_341_5 in pairs(arg_341_0.mbDict) do
+		iter_341_5:Destroy()
 	end
 
-	arg_335_0.mbDict = nil
+	arg_341_0.mbDict = nil
 
-	for iter_335_6, iter_335_7 in pairs(arg_335_0.tweens) do
-		LeanTween.cancel(iter_335_7)
+	for iter_341_6, iter_341_7 in pairs(arg_341_0.tweens) do
+		LeanTween.cancel(iter_341_7)
 	end
 
-	arg_335_0.tweens = nil
+	arg_341_0.tweens = nil
 
-	if arg_335_0.cloudTimer then
-		_.each(arg_335_0.cloudTimer, function(arg_336_0)
-			LeanTween.cancel(arg_336_0)
+	if arg_341_0.cloudTimer then
+		_.each(arg_341_0.cloudTimer, function(arg_342_0)
+			LeanTween.cancel(arg_342_0)
 		end)
 
-		arg_335_0.cloudTimer = nil
+		arg_341_0.cloudTimer = nil
 	end
 
-	if arg_335_0.newChapterCDTimer then
-		arg_335_0.newChapterCDTimer:Stop()
+	if arg_341_0.newChapterCDTimer then
+		arg_341_0.newChapterCDTimer:Stop()
 
-		arg_335_0.newChapterCDTimer = nil
+		arg_341_0.newChapterCDTimer = nil
 	end
 
-	for iter_335_8, iter_335_9 in ipairs(arg_335_0.damageTextActive) do
-		LeanTween.cancel(iter_335_9)
+	for iter_341_8, iter_341_9 in ipairs(arg_341_0.damageTextActive) do
+		LeanTween.cancel(iter_341_9)
 	end
 
-	LeanTween.cancel(go(arg_335_0.avoidText))
+	LeanTween.cancel(go(arg_341_0.avoidText))
 
-	arg_335_0.map.localScale = Vector3.one
-	arg_335_0.map.pivot = Vector2(0.5, 0.5)
-	arg_335_0.float.localScale = Vector3.one
-	arg_335_0.float.pivot = Vector2(0.5, 0.5)
+	arg_341_0.map.localScale = Vector3.one
+	arg_341_0.map.pivot = Vector2(0.5, 0.5)
+	arg_341_0.float.localScale = Vector3.one
+	arg_341_0.float.pivot = Vector2(0.5, 0.5)
 
-	for iter_335_10, iter_335_11 in ipairs(arg_335_0.mapTFs) do
-		clearImageSprite(iter_335_11)
+	for iter_341_10, iter_341_11 in ipairs(arg_341_0.mapTFs) do
+		clearImageSprite(iter_341_11)
 	end
 
-	_.each(arg_335_0.cloudRTFs, function(arg_337_0)
-		clearImageSprite(arg_337_0)
+	_.each(arg_341_0.cloudRTFs, function(arg_343_0)
+		clearImageSprite(arg_343_0)
 	end)
-	Destroy(arg_335_0.enemyTpl)
-	arg_335_0:RecordLastMapOnExit()
-	arg_335_0.levelRemasterView:Destroy()
+	Destroy(arg_341_0.enemyTpl)
+	arg_341_0:RecordLastMapOnExit()
+	arg_341_0.levelRemasterView:Destroy()
 end
 
 return var_0_0

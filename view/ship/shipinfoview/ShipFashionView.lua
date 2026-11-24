@@ -424,30 +424,43 @@ function var_0_0.RegisterShareToggle(arg_29_0)
 	end, SFX_PANEL)
 end
 
-function var_0_0.OnDestroy(arg_31_0)
-	setParent(arg_31_0.phantomBtn, arg_31_0._tf)
+function var_0_0.OnOpenSkinCouponMultiMsgBox(arg_31_0, arg_31_1)
+	arg_31_0.skinCouponMultiMsgBox = arg_31_0.skinCouponMultiMsgBox or SkinCouponMultiMsgBox.New(pg.UIMgr.GetInstance().OverlayMain, arg_31_0)
+	arg_31_1 = arg_31_1 or {}
 
-	if arg_31_0.fashionDetailWrapper then
-		local var_31_0 = arg_31_0.fashionDetailWrapper
+	arg_31_0.skinCouponMultiMsgBox:ExecuteAction("Show", arg_31_1)
+end
 
-		if var_31_0.character:Find(var_31_0.prefab) and arg_31_0.spineChar then
-			arg_31_0.spineChar:Dispose()
+function var_0_0.OnDestroy(arg_32_0)
+	if arg_32_0.skinCouponMultiMsgBox then
+		arg_32_0.skinCouponMultiMsgBox:Destroy()
 
-			arg_31_0.spineChar = nil
+		arg_32_0.skinCouponMultiMsgBox = nil
+	end
+
+	setParent(arg_32_0.phantomBtn, arg_32_0._tf)
+
+	if arg_32_0.fashionDetailWrapper then
+		local var_32_0 = arg_32_0.fashionDetailWrapper
+
+		if var_32_0.character:Find(var_32_0.prefab) and arg_32_0.spineChar then
+			arg_32_0.spineChar:Dispose()
+
+			arg_32_0.spineChar = nil
 		end
 	end
 
-	arg_31_0.fashionDetailWrapper = nil
+	arg_32_0.fashionDetailWrapper = nil
 
-	for iter_31_0, iter_31_1 in pairs(arg_31_0.fashionCellMap) do
-		iter_31_1:clear()
+	for iter_32_0, iter_32_1 in pairs(arg_32_0.fashionCellMap) do
+		iter_32_1:clear()
 	end
 
-	arg_31_0.fashionCellMap = {}
-	arg_31_0.fashionSkins = {}
-	arg_31_0.fashionGroup = 0
-	arg_31_0.fashionSkinId = 0
-	arg_31_0.shareData = nil
+	arg_32_0.fashionCellMap = {}
+	arg_32_0.fashionSkins = {}
+	arg_32_0.fashionGroup = 0
+	arg_32_0.fashionSkinId = 0
+	arg_32_0.shareData = nil
 end
 
 return var_0_0

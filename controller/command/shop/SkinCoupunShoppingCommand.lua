@@ -92,12 +92,6 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		end
 	end
 
-	if SkinCouponActivity.GetSkinCouponTotalCnt(var_1_1) <= 1 then
-		var_1_8(var_1_9[1])
-
-		return
-	end
-
 	arg_1_0:sendNotification(GAME.OPEN_SKIN_COUPON_MULTI_MSG_BOX, {
 		itemList = var_1_9,
 		unuseItemList = var_0_0.GetAllSkinCouponList(var_1_1),

@@ -284,63 +284,85 @@ function var_0_0.OnStart(arg_23_0, arg_23_1)
 	end)
 end
 
-function var_0_0.UpdateAwardTpl(arg_27_0, arg_27_1, arg_27_2)
-	local var_27_0 = arg_27_0.awards[arg_27_1 + 1]
-	local var_27_1 = Drop.Create(var_27_0)
+local function var_0_1(arg_27_0, arg_27_1, arg_27_2)
+	local var_27_0 = arg_27_1:getConfig("type") == 99
+	local var_27_1 = arg_27_2:Find("LevelDropUpTag")
 
-	updateDrop(arg_27_2, var_27_1)
-	onButton(arg_27_0, arg_27_2, function()
+	if not var_27_0 then
+		setActive(var_27_1, false)
+
+		return
+	end
+
+	local var_27_2 = arg_27_1:getConfig("display_icon")
+	local var_27_3 = _.all(var_27_2, function(arg_28_0)
+		local var_28_0 = arg_28_0[1]
+		local var_28_1 = arg_28_0[2]
+
+		return var_28_0 == DROP_TYPE_SHIP
+	end)
+
+	setActive(var_27_1, var_27_3 and arg_27_0 and LevelDropUpActUtil.IsDropUpChapter(arg_27_0.id))
+end
+
+function var_0_0.UpdateAwardTpl(arg_29_0, arg_29_1, arg_29_2)
+	local var_29_0 = arg_29_0.awards[arg_29_1 + 1]
+	local var_29_1 = Drop.Create(var_29_0)
+
+	updateDrop(arg_29_2, var_29_1)
+	onButton(arg_29_0, arg_29_2, function()
 		if ({
 			[99] = true
-		})[var_27_1:getConfig("type")] then
-			local function var_28_0(arg_29_0)
-				local var_29_0 = var_27_1:getConfig("display_icon")
-				local var_29_1 = {}
+		})[var_29_1:getConfig("type")] then
+			local function var_30_0(arg_31_0)
+				local var_31_0 = var_29_1:getConfig("display_icon")
+				local var_31_1 = {}
 
-				for iter_29_0, iter_29_1 in ipairs(var_29_0) do
-					local var_29_2 = iter_29_1[1]
-					local var_29_3 = iter_29_1[2]
-					local var_29_4 = var_29_2 == DROP_TYPE_SHIP and not table.contains(arg_29_0, var_29_3)
+				for iter_31_0, iter_31_1 in ipairs(var_31_0) do
+					local var_31_2 = iter_31_1[1]
+					local var_31_3 = iter_31_1[2]
+					local var_31_4 = var_31_2 == DROP_TYPE_SHIP and not table.contains(arg_31_0, var_31_3)
 
-					var_29_1[#var_29_1 + 1] = {
-						type = var_29_2,
-						id = var_29_3,
-						anonymous = var_29_4
+					var_31_1[#var_31_1 + 1] = {
+						type = var_31_2,
+						id = var_31_3,
+						anonymous = var_31_4
 					}
 				end
 
-				arg_27_0:emit(BaseUI.ON_DROP_LIST, {
+				arg_29_0:emit(BaseUI.ON_DROP_LIST, {
 					item2Row = true,
-					itemList = var_29_1,
-					content = var_27_1:getConfig("display")
+					itemList = var_31_1,
+					content = var_29_1:getConfig("display")
 				})
 			end
 
-			arg_27_0:emit(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, arg_27_0.chapter.id, var_28_0)
+			arg_29_0:emit(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, arg_29_0.chapter.id, var_30_0)
 		else
-			arg_27_0:emit(BaseUI.ON_DROP, var_27_1)
+			arg_29_0:emit(BaseUI.ON_DROP, var_29_1)
 		end
 	end, SFX_PANEL)
+	var_0_1(arg_29_0.chapter, var_29_1, arg_29_2)
 end
 
-function var_0_0.OnDestroy(arg_30_0)
-	if arg_30_0.addTimePanel ~= nil then
-		arg_30_0.addTimePanel:Destroy()
+function var_0_0.OnDestroy(arg_32_0)
+	if arg_32_0.addTimePanel ~= nil then
+		arg_32_0.addTimePanel:Destroy()
 
-		arg_30_0.addTimePanel = nil
+		arg_32_0.addTimePanel = nil
 	end
 
-	arg_30_0.leftPageUtil:Dispose()
-	arg_30_0.rightPageUtil:Dispose()
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_30_0._tf, arg_30_0._parentTf)
+	arg_32_0.leftPageUtil:Dispose()
+	arg_32_0.rightPageUtil:Dispose()
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_32_0._tf, arg_32_0._parentTf)
 end
 
-function var_0_0.NeedHelpPop(arg_31_0)
-	return PlayerPrefs.GetInt(var_0_0.TIP_KEY .. "_" .. arg_31_0.playerId, 0) == 0
+function var_0_0.NeedHelpPop(arg_33_0)
+	return PlayerPrefs.GetInt(var_0_0.TIP_KEY .. "_" .. arg_33_0.playerId, 0) == 0
 end
 
-function var_0_0.PopHelpTip(arg_32_0)
-	PlayerPrefs.SetInt(var_0_0.TIP_KEY .. "_" .. arg_32_0.playerId, 1)
+function var_0_0.PopHelpTip(arg_34_0)
+	PlayerPrefs.SetInt(var_0_0.TIP_KEY .. "_" .. arg_34_0.playerId, 1)
 	PlayerPrefs.Save()
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		type = MSGBOX_TYPE_HELP,
@@ -348,20 +370,20 @@ function var_0_0.PopHelpTip(arg_32_0)
 	})
 end
 
-function var_0_0.GetAwards(arg_33_0)
-	local var_33_0 = LevelInfoView.getChapterAwards(arg_33_0)
-	local var_33_1 = pg.chapter_auto_statistics[arg_33_0.id].drop_display_extra
+function var_0_0.GetAwards(arg_35_0)
+	local var_35_0 = LevelInfoView.getChapterAwards(arg_35_0)
+	local var_35_1 = pg.chapter_auto_statistics[arg_35_0.id].drop_display_extra
 
-	if type(var_33_1) == "table" then
-		for iter_33_0, iter_33_1 in ipairs(var_33_1) do
-			table.insert(var_33_0, {
-				iter_33_1[1],
-				iter_33_1[2]
+	if type(var_35_1) == "table" then
+		for iter_35_0, iter_35_1 in ipairs(var_35_1) do
+			table.insert(var_35_0, {
+				iter_35_1[1],
+				iter_35_1[2]
 			})
 		end
 	end
 
-	return var_33_0
+	return var_35_0
 end
 
 return var_0_0

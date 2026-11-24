@@ -18,70 +18,74 @@ var_0_0.GO_META_BOSS = "CommissionInfoMediator:GO_META_BOSS"
 var_0_0.GO_BATTLE = "CommissionInfoMediator.GO_BATTLE"
 var_0_0.ON_END_CHAPTER_AUTO = "CommissionInfoMediator.ON_END_CHAPTER_AUTO"
 var_0_0.GO_WORLD = "CommissionInfoMediator.GO_WORLD"
+var_0_0.GO_ACT_BOSS = "CommissionInfoMediator.GO_ACT_BOSS"
 
 function var_0_0.register(arg_1_0)
 	local var_1_0 = getProxy(PlayerProxy)
 
 	arg_1_0.viewComponent:setPlayer(var_1_0:getData())
-	arg_1_0:bind(var_0_0.GO_WORLD, function(arg_2_0, arg_2_1, arg_2_2)
+	arg_1_0:bind(var_0_0.GO_ACT_BOSS, function(arg_2_0)
+		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.ACT_BOSS_BATTLE)
+	end)
+	arg_1_0:bind(var_0_0.GO_WORLD, function(arg_3_0)
 		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
 	end)
-	arg_1_0:bind(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, function(arg_3_0, arg_3_1, arg_3_2)
+	arg_1_0:bind(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, function(arg_4_0, arg_4_1, arg_4_2)
 		arg_1_0:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST, {
-			chapterId = arg_3_1,
-			callback = arg_3_2
+			chapterId = arg_4_1,
+			callback = arg_4_2
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_END_CHAPTER_AUTO, function(arg_4_0)
-		local var_4_0 = getProxy(ChapterAutoProxy):GetFinishedCnt()
+	arg_1_0:bind(var_0_0.ON_END_CHAPTER_AUTO, function(arg_5_0)
+		local var_5_0 = getProxy(ChapterAutoProxy):GetFinishedCnt()
 
 		arg_1_0:sendNotification(GAME.END_CHAPTER_AUTO, {
-			num = var_4_0
+			num = var_5_0
 		})
 	end)
-	arg_1_0:bind(var_0_0.GO_BATTLE, function(arg_5_0)
-		local var_5_0 = getProxy(ChapterProxy):getActiveChapter()
+	arg_1_0:bind(var_0_0.GO_BATTLE, function(arg_6_0)
+		local var_6_0 = getProxy(ChapterProxy):getActiveChapter()
 
 		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-			chapterId = var_5_0 and var_5_0.id,
-			mapIdx = var_5_0 and var_5_0:getConfig("map")
+			chapterId = var_6_0 and var_6_0.id,
+			mapIdx = var_6_0 and var_6_0:getConfig("map")
 		})
 	end)
-	arg_1_0:bind(var_0_0.GO_META_BOSS, function(arg_6_0)
+	arg_1_0:bind(var_0_0.GO_META_BOSS, function(arg_7_0)
 		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.WORLDBOSS)
 	end)
-	arg_1_0:bind(var_0_0.ON_UR_ACTIVITY, function(arg_7_0)
+	arg_1_0:bind(var_0_0.ON_UR_ACTIVITY, function(arg_8_0)
 		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = ActivityConst.UR_ITEM_ACT_ID
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_CRUSING, function(arg_8_0)
+	arg_1_0:bind(var_0_0.ON_CRUSING, function(arg_9_0)
 		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.CRUSING)
 	end)
-	arg_1_0:bind(var_0_0.GET_CLASS_RES, function(arg_9_0)
+	arg_1_0:bind(var_0_0.GET_CLASS_RES, function(arg_10_0)
 		arg_1_0:sendNotification(GAME.HARVEST_CLASS_RES)
 	end)
-	arg_1_0:bind(var_0_0.ON_TECH_QUEUE_FINISH, function(arg_10_0)
+	arg_1_0:bind(var_0_0.ON_TECH_QUEUE_FINISH, function(arg_11_0)
 		arg_1_0:sendNotification(GAME.FINISH_QUEUE_TECHNOLOGY)
 	end)
-	arg_1_0:bind(var_0_0.ON_TECH_FINISHED, function(arg_11_0, arg_11_1)
+	arg_1_0:bind(var_0_0.ON_TECH_FINISHED, function(arg_12_0, arg_12_1)
 		arg_1_0:sendNotification(GAME.FINISH_TECHNOLOGY, {
-			id = arg_11_1.id,
-			pool_id = arg_11_1.pool_id
+			id = arg_12_1.id,
+			pool_id = arg_12_1.pool_id
 		})
 	end)
-	arg_1_0:bind(var_0_0.FINISH_EVENT, function(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
-		arg_1_0.contextData.oneStepFinishEventCount = arg_12_2
+	arg_1_0:bind(var_0_0.FINISH_EVENT, function(arg_13_0, arg_13_1, arg_13_2, arg_13_3)
+		arg_1_0.contextData.oneStepFinishEventCount = arg_13_2
 		arg_1_0.contextData.inFinished = true
 
 		arg_1_0:sendNotification(GAME.EVENT_FINISH, {
-			id = arg_12_1.id,
+			id = arg_13_1.id,
 			callback = function()
 				arg_1_0.contextData.inFinished = nil
 			end,
 			onConfirm = function()
-				if arg_12_3 then
-					arg_12_3()
+				if arg_13_3 then
+					arg_13_3()
 				end
 
 				if arg_1_0.contextData.oneStepFinishEventCount then
@@ -96,29 +100,29 @@ function var_0_0.register(arg_1_0)
 			end
 		})
 	end)
-	arg_1_0:bind(var_0_0.FINISH_CLASS, function(arg_15_0, arg_15_1, arg_15_2, arg_15_3)
+	arg_1_0:bind(var_0_0.FINISH_CLASS, function(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
 		arg_1_0:sendNotification(GAME.CANCEL_LEARN_TACTICS, {
-			shipId = arg_15_1,
-			type = arg_15_2,
-			onConfirm = arg_15_3
+			shipId = arg_16_1,
+			type = arg_16_2,
+			onConfirm = arg_16_3
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_ACTIVE_EVENT, function(arg_16_0)
+	arg_1_0:bind(var_0_0.ON_ACTIVE_EVENT, function(arg_17_0)
 		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.EVENT)
 	end)
-	arg_1_0:bind(var_0_0.ON_ACTIVE_CLASS, function(arg_17_0)
+	arg_1_0:bind(var_0_0.ON_ACTIVE_CLASS, function(arg_18_0)
 		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS)
 	end)
-	arg_1_0:bind(var_0_0.ON_ACTIVE_TECH, function(arg_18_0)
+	arg_1_0:bind(var_0_0.ON_ACTIVE_TECH, function(arg_19_0)
 		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.TECHNOLOGY)
 	end)
-	arg_1_0:bind(var_0_0.GET_OIL_RES, function(arg_19_0)
+	arg_1_0:bind(var_0_0.GET_OIL_RES, function(arg_20_0)
 		arg_1_0:sendNotification(GAME.HARVEST_RES, PlayerConst.ResOil)
 	end)
-	arg_1_0:bind(var_0_0.GET_GOLD_RES, function(arg_20_0)
+	arg_1_0:bind(var_0_0.GET_GOLD_RES, function(arg_21_0)
 		arg_1_0:sendNotification(GAME.HARVEST_RES, PlayerConst.ResGold)
 	end)
-	arg_1_0:bind(var_0_0.ON_INS, function(arg_21_0)
+	arg_1_0:bind(var_0_0.ON_INS, function(arg_22_0)
 		arg_1_0:sendNotification(GAME.ON_OPEN_INS_LAYER)
 		arg_1_0.viewComponent:emit(BaseUI.ON_CLOSE)
 	end)
@@ -126,33 +130,34 @@ function var_0_0.register(arg_1_0)
 		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS)
 	end)
 	arg_1_0:Notify()
+	getProxy(EventProxy):FlushIfDirty()
 end
 
-function var_0_0.Notify(arg_23_0)
-	arg_23_0.viewComponent:NotifyIns()
-	arg_23_0.viewComponent:UpdateLinkPanel()
+function var_0_0.Notify(arg_24_0)
+	arg_24_0.viewComponent:NotifyIns()
+	arg_24_0.viewComponent:UpdateLinkPanel()
 end
 
-function var_0_0.continueClass(arg_24_0, arg_24_1, arg_24_2, arg_24_3)
-	local var_24_0 = getProxy(BayProxy):getShipById(arg_24_1)
-	local var_24_1 = getProxy(BagProxy):getItemsByType(Item.LESSON_TYPE)
+function var_0_0.continueClass(arg_25_0, arg_25_1, arg_25_2, arg_25_3)
+	local var_25_0 = getProxy(BayProxy):getShipById(arg_25_1)
+	local var_25_1 = getProxy(BagProxy):getItemsByType(Item.LESSON_TYPE)
 
-	if table.getCount(var_24_1 or {}) <= 0 then
+	if table.getCount(var_25_1 or {}) <= 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_no_lesson"))
 
 		return
 	end
 
-	arg_24_0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS, {
+	arg_25_0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS, {
 		shipToLesson = {
-			shipId = arg_24_1,
-			skillIndex = var_24_0:getSkillIndex(arg_24_2),
-			index = arg_24_3
+			shipId = arg_25_1,
+			skillIndex = var_25_0:getSkillIndex(arg_25_2),
+			index = arg_25_3
 		}
 	})
 end
 
-function var_0_0.listNotificationInterests(arg_25_0)
+function var_0_0.listNotificationInterests(arg_26_0)
 	return {
 		PlayerProxy.UPDATED,
 		GAME.HARVEST_RES_DONE,
@@ -164,162 +169,165 @@ function var_0_0.listNotificationInterests(arg_25_0)
 		GAME.FINISH_QUEUE_TECHNOLOGY_DONE,
 		GAME.START_CHAPTER_AUTO_DONE,
 		GAME.END_CHAPTER_AUTO_DONE,
-		GAME.ZERO_HOUR_OP_DONE
+		GAME.ZERO_HOUR_OP_DONE,
+		GAME.ON_RECONNECTION
 	}
 end
 
-function var_0_0.handleNotification(arg_26_0, arg_26_1)
-	local var_26_0 = arg_26_1:getName()
-	local var_26_1 = arg_26_1:getBody()
+function var_0_0.handleNotification(arg_27_0, arg_27_1)
+	local var_27_0 = arg_27_1:getName()
+	local var_27_1 = arg_27_1:getBody()
 
-	if var_26_0 == PlayerProxy.UPDATED then
-		arg_26_0.viewComponent:OnPlayerUpdate(var_26_1)
-	elseif var_26_0 == GAME.HARVEST_RES_DONE then
-		local var_26_2
+	if var_27_0 == PlayerProxy.UPDATED then
+		arg_27_0.viewComponent:OnPlayerUpdate(var_27_1)
+	elseif var_27_0 == GAME.HARVEST_RES_DONE then
+		local var_27_2
 
-		if var_26_1.type == 2 then
-			var_26_2 = i18n("word_oil")
-		elseif var_26_1.type == 1 then
-			var_26_2 = i18n("word_gold")
+		if var_27_1.type == 2 then
+			var_27_2 = i18n("word_oil")
+		elseif var_27_1.type == 1 then
+			var_27_2 = i18n("word_gold")
 		end
 
-		pg.TipsMgr.GetInstance():ShowTips(i18n("commission_get_award", var_26_2, var_26_1.outPut))
-	elseif var_26_0 == GAME.EVENT_LIST_UPDATE or var_26_0 == GAME.EVENT_FINISH_UPDATE then
-		local var_26_3 = getProxy(EventProxy)
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commission_get_award", var_27_2, var_27_1.outPut))
+	elseif var_27_0 == GAME.EVENT_LIST_UPDATE or var_27_0 == GAME.EVENT_FINISH_UPDATE then
+		local var_27_3 = getProxy(EventProxy)
 
-		arg_26_0.viewComponent:OnUpdateEventInfo()
-	elseif var_26_0 == GAME.EVENT_SHOW_AWARDS then
-		local var_26_4
+		arg_27_0.viewComponent:OnUpdateEventInfo()
+	elseif var_27_0 == GAME.ON_RECONNECTION then
+		getProxy(EventProxy):FlushIfDirty()
+	elseif var_27_0 == GAME.EVENT_SHOW_AWARDS then
+		local var_27_4
 
-		var_26_4 = coroutine.wrap(function()
-			if #var_26_1.oldShips > 0 then
-				arg_26_0.viewComponent:emit(BaseUI.ON_SHIP_EXP, {
-					title = pg.collection_template[var_26_1.eventId].title,
-					oldShips = var_26_1.oldShips,
-					newShips = var_26_1.newShips,
-					isCri = var_26_1.isCri
-				}, var_26_4)
+		var_27_4 = coroutine.wrap(function()
+			if #var_27_1.oldShips > 0 then
+				arg_27_0.viewComponent:emit(BaseUI.ON_SHIP_EXP, {
+					title = pg.collection_template[var_27_1.eventId].title,
+					oldShips = var_27_1.oldShips,
+					newShips = var_27_1.newShips,
+					isCri = var_27_1.isCri
+				}, var_27_4)
 				coroutine.yield()
 			end
 
-			arg_26_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_26_1.awards, function()
-				if var_26_1.onConfirm then
-					var_26_1.onConfirm()
+			arg_27_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_27_1.awards, function()
+				if var_27_1.onConfirm then
+					var_27_1.onConfirm()
 				end
 			end)
 		end)
 
-		var_26_4()
-	elseif var_26_0 == GAME.CANCEL_LEARN_TACTICS_DONE then
-		arg_26_0.viewComponent:OnUpdateClass()
+		var_27_4()
+	elseif var_27_0 == GAME.CANCEL_LEARN_TACTICS_DONE then
+		arg_27_0.viewComponent:OnUpdateClass()
 
-		local var_26_5 = var_26_1.totalExp
-		local var_26_6 = var_26_1.oldSkill
-		local var_26_7 = var_26_1.newSkill
-		local var_26_8 = getProxy(BayProxy):getShipById(var_26_1.shipId)
-		local var_26_9 = var_26_7.id
-		local var_26_10
+		local var_27_5 = var_27_1.totalExp
+		local var_27_6 = var_27_1.oldSkill
+		local var_27_7 = var_27_1.newSkill
+		local var_27_8 = getProxy(BayProxy):getShipById(var_27_1.shipId)
+		local var_27_9 = var_27_7.id
+		local var_27_10
 
-		if var_26_7.level > var_26_6.level then
-			var_26_10 = i18n("tactics_end_to_learn", var_26_8:getName(), getSkillName(var_26_9), var_26_5) .. i18n("tactics_skill_level_up", var_26_6.level, var_26_7.level)
+		if var_27_7.level > var_27_6.level then
+			var_27_10 = i18n("tactics_end_to_learn", var_27_8:getName(), getSkillName(var_27_9), var_27_5) .. i18n("tactics_skill_level_up", var_27_6.level, var_27_7.level)
 		else
-			var_26_10 = i18n("tactics_end_to_learn", var_26_8:getName(), getSkillName(var_26_9), var_26_5)
+			var_27_10 = i18n("tactics_end_to_learn", var_27_8:getName(), getSkillName(var_27_9), var_27_5)
 		end
 
-		if pg.skill_data_template[var_26_9].max_level <= var_26_7.level then
-			arg_26_0:HandleClassMaxLevel(var_26_8, var_26_1, var_26_9, var_26_5)
+		if pg.skill_data_template[var_27_9].max_level <= var_27_7.level then
+			arg_27_0:HandleClassMaxLevel(var_27_8, var_27_1, var_27_9, var_27_5)
 		else
-			local var_26_11 = var_26_10 .. i18n("tactics_continue_to_learn")
+			local var_27_11 = var_27_10 .. i18n("tactics_continue_to_learn")
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = true,
 				hideNo = false,
 				hideClose = true,
-				content = var_26_11,
+				content = var_27_11,
 				onYes = function()
-					arg_26_0.openMsgBox = false
+					arg_27_0.openMsgBox = false
 
-					arg_26_0:continueClass(var_26_1.shipId, var_26_9, var_26_1.id)
+					arg_27_0:continueClass(var_27_1.shipId, var_27_9, var_27_1.id)
 				end,
 				onNo = function()
-					arg_26_0.openMsgBox = false
+					arg_27_0.openMsgBox = false
 				end
 			})
 		end
-	elseif var_26_0 == GAME.FINISH_TECHNOLOGY_DONE then
-		arg_26_0.viewComponent:OnUpdateTechnology()
+	elseif var_27_0 == GAME.FINISH_TECHNOLOGY_DONE then
+		arg_27_0.viewComponent:OnUpdateTechnology()
 
-		if #var_26_1.items > 0 then
-			arg_26_0.viewComponent:emit(BaseUI.ON_AWARD, {
+		if #var_27_1.items > 0 then
+			arg_27_0.viewComponent:emit(BaseUI.ON_AWARD, {
 				animation = true,
-				items = var_26_1.items
+				items = var_27_1.items
 			})
 		end
-	elseif var_26_0 == GAME.FINISH_QUEUE_TECHNOLOGY_DONE then
-		arg_26_0.viewComponent:OnUpdateTechnology()
+	elseif var_27_0 == GAME.FINISH_QUEUE_TECHNOLOGY_DONE then
+		arg_27_0.viewComponent:OnUpdateTechnology()
 
-		local var_26_12 = {}
+		local var_27_12 = {}
 
-		for iter_26_0, iter_26_1 in ipairs(var_26_1.dropInfos) do
-			if #iter_26_1 > 0 then
-				table.insert(var_26_12, function(arg_31_0)
-					arg_26_0.viewComponent:emit(BaseUI.ON_AWARD, {
+		for iter_27_0, iter_27_1 in ipairs(var_27_1.dropInfos) do
+			if #iter_27_1 > 0 then
+				table.insert(var_27_12, function(arg_32_0)
+					arg_27_0.viewComponent:emit(BaseUI.ON_AWARD, {
 						animation = true,
-						items = iter_26_1,
-						removeFunc = arg_31_0
+						items = iter_27_1,
+						removeFunc = arg_32_0
 					})
 				end)
 			end
 		end
 
-		seriesAsync(var_26_12, function()
-			local var_32_0 = getProxy(TechnologyProxy):getActivateTechnology()
+		seriesAsync(var_27_12, function()
+			local var_33_0 = getProxy(TechnologyProxy):getActivateTechnology()
 
-			if var_32_0 and var_32_0:isCompleted() then
-				arg_26_0:sendNotification(GAME.FINISH_TECHNOLOGY, {
-					id = var_32_0.id,
-					pool_id = var_32_0.poolId
+			if var_33_0 and var_33_0:isCompleted() then
+				arg_27_0:sendNotification(GAME.FINISH_TECHNOLOGY, {
+					id = var_33_0.id,
+					pool_id = var_33_0.poolId
 				})
 			end
 		end)
-	elseif var_26_0 == GAME.END_CHAPTER_AUTO_DONE then
-		arg_26_0:HandleChapterAutoDone(var_26_1)
-	elseif var_26_0 == START_CHAPTER_AUTO_DONE then
-		arg_26_0.viewComponent:OnUpdateChapterAuto()
-	elseif var_26_0 == GAME.ZERO_HOUR_OP_DONE then
-		arg_26_0.viewComponent:OnUpdateChapterAuto()
+	elseif var_27_0 == GAME.END_CHAPTER_AUTO_DONE then
+		arg_27_0:HandleChapterAutoDone(var_27_1)
+	elseif var_27_0 == START_CHAPTER_AUTO_DONE then
+		arg_27_0.viewComponent:OnUpdateChapterAuto()
+	elseif var_27_0 == GAME.ZERO_HOUR_OP_DONE then
+		arg_27_0.viewComponent:OnUpdateChapterAuto()
 	end
 end
 
-function var_0_0.HandleClassMaxLevel(arg_33_0, arg_33_1, arg_33_2, arg_33_3, arg_33_4)
-	local var_33_0 = i18n("tactics_end_to_learn", arg_33_1:getName(), getSkillName(arg_33_3), arg_33_4)
-	local var_33_1 = arg_33_1:getSkillList()
+function var_0_0.HandleClassMaxLevel(arg_34_0, arg_34_1, arg_34_2, arg_34_3, arg_34_4)
+	local var_34_0 = i18n("tactics_end_to_learn", arg_34_1:getName(), getSkillName(arg_34_3), arg_34_4)
+	local var_34_1 = arg_34_1:getSkillList()
 
-	if _.all(var_33_1, function(arg_34_0)
-		return ShipSkill.New(arg_33_1.skills[arg_34_0]):IsMaxLevel()
+	if _.all(var_34_1, function(arg_35_0)
+		return ShipSkill.New(arg_34_1.skills[arg_35_0]):IsMaxLevel()
 	end) then
-		local var_33_2 = var_33_0 .. i18n("tactics_continue_to_learn_other_ship_skill")
+		local var_34_2 = var_34_0 .. i18n("tactics_continue_to_learn_other_ship_skill")
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			modal = true,
 			hideClose = true,
-			content = var_33_2,
+			content = var_34_2,
 			onYes = function()
-				arg_33_0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS)
+				arg_34_0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS)
 			end
 		})
 	else
-		local var_33_3 = var_33_0 .. i18n("tactics_continue_to_learn_other_skill")
+		local var_34_3 = var_34_0 .. i18n("tactics_continue_to_learn_other_skill")
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			modal = true,
 			hideClose = true,
-			content = var_33_3,
+			content = var_34_3,
 			onYes = function()
-				arg_33_0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS, {
+				arg_34_0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS, {
 					shipToLesson = {
-						shipId = arg_33_2.shipId,
-						index = arg_33_2.id
+						shipId = arg_34_2.shipId,
+						index = arg_34_2.id
 					}
 				})
 			end
@@ -327,71 +335,81 @@ function var_0_0.HandleClassMaxLevel(arg_33_0, arg_33_1, arg_33_2, arg_33_3, arg
 	end
 end
 
-function var_0_0.HandleChapterAutoDone(arg_37_0, arg_37_1)
-	switch(arg_37_1.type, {
+function var_0_0.HandleChapterAutoDone(arg_38_0, arg_38_1)
+	local function var_38_0()
+		arg_38_0:addSubLayers(Context.New({
+			viewComponent = ChapterAutoTotalRewardLayer,
+			mediator = ChapterAutoTotalRewardMediator,
+			data = {
+				rewards = arg_38_1.awards,
+				totalTimes = arg_38_1.allCnt,
+				finishTimes = arg_38_1.finishCnt,
+				proficiency = arg_38_1.proficiency,
+				onClose = function()
+					arg_38_0.viewComponent:OnUpdateChapterAuto()
+				end
+			}
+		}), true)
+	end
+
+	switch(arg_38_1.type, {
 		[ChapterAutoProxy.TYPE.SLG] = function()
-			arg_37_0:addSubLayers(Context.New({
-				viewComponent = ChapterAutoTotalRewardLayer,
-				mediator = ChapterAutoTotalRewardMediator,
-				data = {
-					rewards = arg_37_1.awards,
-					totalTimes = arg_37_1.allCnt,
-					finishTimes = arg_37_1.finishCnt,
-					proficiency = arg_37_1.proficiency,
-					onClose = function()
-						arg_37_0.viewComponent:OnUpdateChapterAuto()
-					end
-				}
-			}), true)
+			var_38_0()
 		end,
 		[ChapterAutoProxy.TYPE.WORLD] = function()
-			local var_40_0 = nowWorld()
-			local var_40_1 = var_40_0:GetAtlas()
-			local var_40_2 = {}
+			local var_42_0 = nowWorld()
+			local var_42_1 = var_42_0:GetAtlas()
+			local var_42_2 = {}
 
-			for iter_40_0, iter_40_1 in ipairs(arg_37_1.mapList) do
-				local var_40_3 = var_40_0.pressingAwardDic[iter_40_1]
+			for iter_42_0, iter_42_1 in ipairs(arg_38_1.mapList) do
+				local var_42_3 = var_42_0.pressingAwardDic[iter_42_1]
 
-				if var_40_3.flag then
-					var_40_0:FlagMapPressingAward(iter_40_1)
-					var_40_1:MarkMapTransport(iter_40_1)
+				if var_42_3.flag then
+					var_42_0:FlagMapPressingAward(iter_42_1)
+					var_42_1:MarkMapTransport(iter_42_1)
 
-					local var_40_4 = pg.world_event_complete[var_40_3.id].event_reward_slgbuff
+					local var_42_4 = pg.world_event_complete[var_42_3.id].event_reward_slgbuff
 
-					if #var_40_4 > 0 then
-						var_40_2[var_40_4[1]] = defaultValue(var_40_2[var_40_4[1]], 0) + var_40_4[2]
+					if #var_42_4 > 0 then
+						var_42_2[var_42_4[1]] = defaultValue(var_42_2[var_42_4[1]], 0) + var_42_4[2]
 					end
 				end
 			end
 
-			local var_40_5 = {}
+			local var_42_5 = {}
 
-			for iter_40_2, iter_40_3 in pairs(var_40_2) do
-				local var_40_6 = {
-					id = iter_40_2,
-					floor = iter_40_3,
-					before = var_40_0:GetGlobalBuff(iter_40_2):GetFloor()
+			for iter_42_2, iter_42_3 in pairs(var_42_2) do
+				local var_42_6 = {
+					id = iter_42_2,
+					floor = iter_42_3,
+					before = var_42_0:GetGlobalBuff(iter_42_2):GetFloor()
 				}
 
-				table.insert(var_40_5, var_40_6)
-				var_40_0:AddGlobalBuff(iter_40_2, iter_40_3)
+				table.insert(var_42_5, var_42_6)
+				var_42_0:AddGlobalBuff(iter_42_2, iter_42_3)
 			end
 
-			arg_37_0:addSubLayers(Context.New({
+			arg_38_0:addSubLayers(Context.New({
 				viewComponent = WorldChapterAutoRewardLayer,
 				mediator = WorldChapterAutoRewardMediator,
 				data = {
-					awards = arg_37_1.awards,
-					buffInfos = var_40_5,
-					proficiency = arg_37_1.proficiency,
+					awards = arg_38_1.awards,
+					buffInfos = var_42_5,
+					proficiency = arg_38_1.proficiency,
 					onClose = function()
-						arg_37_0.viewComponent:OnUpdateChapterAuto()
+						arg_38_0.viewComponent:OnUpdateChapterAuto()
 					end
 				}
 			}), true)
+		end,
+		[ChapterAutoProxy.TYPE.BOSS] = function()
+			var_38_0()
+		end,
+		[ChapterAutoProxy.TYPE.RUSH] = function()
+			var_38_0()
 		end
 	}, function()
-		assert(false, "Unknown commission type: " .. arg_37_1.type)
+		assert(false, "Unknown commission type: " .. arg_38_1.type)
 	end)
 end
 

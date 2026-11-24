@@ -146,7 +146,7 @@ function var_0_0.ConfirmItem(arg_12_0, arg_12_1, arg_12_2)
 
 	for iter_12_0, iter_12_1 in pairs(arg_12_0.heapDic) do
 		if table.removebyvalue(iter_12_1, arg_12_1) > 0 then
-			arg_12_0.heap:UpdateValue(arg_12_1)
+			arg_12_0.heap:UpdateValue(iter_12_0)
 		end
 	end
 end
@@ -203,7 +203,7 @@ function var_0_0.OpenSelectWindow(arg_15_0, arg_15_1)
 	end)
 	triggerToggle(arg_15_0.rtSelectScrollContent:GetChild(0), true)
 	onButton(arg_15_0, arg_15_0.btnSelectConfirm, function()
-		arg_15_0.heap:POP(arg_15_1)
+		arg_15_0.heap:POP(var_15_1)
 		arg_15_0:ConfirmItem(arg_15_1, var_15_1)
 		arg_15_0:DropHump()
 		arg_15_0:UpdateDisplay()

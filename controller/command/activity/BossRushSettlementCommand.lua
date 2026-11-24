@@ -10,37 +10,44 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		if arg_2_0.result == 0 then
 			local var_2_0 = getProxy(ActivityProxy):getActivityById(var_1_0.actId)
 			local var_2_1 = var_2_0:GetSeriesData()
+			local var_2_2 = var_2_1:GetMode() == BossRushSeriesData.MODE.SINGLE
 
 			var_2_0:SetSeriesData(nil)
 
-			local var_2_2 = PlayerConst.GetTranAwards(var_1_0, arg_2_0)
-			local var_2_3 = var_1_0.actId
-			local var_2_4 = getProxy(ActivityProxy):GetBossRushRuntime(var_2_3).settlementData
+			local var_2_3 = PlayerConst.GetTranAwards(var_1_0, arg_2_0)
+			local var_2_4 = var_1_0.actId
+			local var_2_5 = getProxy(ActivityProxy):GetBossRushRuntime(var_2_4).settlementData
 
 			getProxy(ActivityProxy):GetBossRushRuntime(var_2_0.id).settlementData = nil
 
-			local var_2_5
+			local var_2_6
 
-			if var_2_4.win then
-				var_2_0:AddPassSeries(var_2_4.seriesId)
-				getProxy(ChapterProxy):addRemasterPassCount(var_2_4.seriesId, var_1_0.actId)
+			if var_2_5.win then
+				local var_2_7 = arg_2_0.number[1] or 0
 
-				local var_2_6 = BossRushChapterRemasterHelper.GetActivityRemasterByFinalSeriesId(var_1_0.actId, var_2_4.seriesId)
+				if var_2_7 ~= 0 then
+					getProxy(ChapterAutoProxy):UpdateRecord(ChapterAutoProxy.TYPE.RUSH, var_2_5.seriesId, var_2_7)
+				end
 
-				var_2_5 = var_2_6 and var_2_6.memory_group
+				var_2_0:AddPassSeries(var_2_5.seriesId, var_2_2)
+				getProxy(ChapterProxy):addRemasterPassCount(var_2_5.seriesId, var_1_0.actId)
+
+				local var_2_8 = BossRushChapterRemasterHelper.GetActivityRemasterByFinalSeriesId(var_1_0.actId, var_2_5.seriesId)
+
+				var_2_6 = var_2_8 and var_2_8.memory_group
 
 				if var_2_0:getConfig("type") ~= ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
-					var_2_0:AddUsedBonus(var_2_4.seriesId)
+					var_2_0:AddUsedBonus(var_2_5.seriesId)
 				end
 			end
 
-			for iter_2_0, iter_2_1 in ipairs(var_2_4) do
-				table.insertto(var_2_2, iter_2_1.drops)
-				table.insertto(var_2_2, iter_2_1.extraDrops)
+			for iter_2_0, iter_2_1 in ipairs(var_2_5) do
+				table.insertto(var_2_3, iter_2_1.drops)
+				table.insertto(var_2_3, iter_2_1.extraDrops)
 			end
 
 			if var_2_1 then
-				var_2_1:AddFinalResults(var_2_4)
+				var_2_1:AddFinalResults(var_2_5)
 			end
 
 			getProxy(ActivityProxy):updateActivity(var_2_0)
@@ -49,7 +56,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 					local var_3_0 = {
 						seriesData = var_2_1,
 						activityId = var_1_0.actId,
-						awards = var_2_2,
+						awards = var_2_3,
 						callback = arg_3_0
 					}
 
@@ -60,7 +67,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 					end
 				end,
 				function(arg_4_0)
-					if not BossRushChapterRemasterHelper.UnlockMemoryGroupStoriesAndShowMsgBox(var_2_5, function(arg_5_0)
+					if not BossRushChapterRemasterHelper.UnlockMemoryGroupStoriesAndShowMsgBox(var_2_6, function(arg_5_0)
 						arg_4_0(arg_5_0)
 					end) then
 						arg_4_0({})

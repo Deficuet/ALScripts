@@ -1,12 +1,12 @@
 return {
 	uiEffect = "",
-	name = "航母-航空-指挥II+航母-装填-指挥IV",
+	name = "航母-指挥-航空I+航母-指挥-装填I",
 	cd = 0,
 	painting = 1,
 	id = 40110,
 	picture = "0",
 	aniEffect = "",
-	desc = "航母-航空-指挥II+航母-装填-指挥IV",
+	desc = "航母-指挥-航空I+航母-指挥-装填I",
 	effect_list = {
 		{
 			type = "BattleSkillAddBuff",

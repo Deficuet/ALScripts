@@ -1,4 +1,4 @@
-local var_0_0 = class("BossRushEscapeManorScene", import("view.base.BaseUI"))
+local var_0_0 = class("BossRushEscapeManorScene", import("view.activity.BossRush.BossRushBaseScene"))
 local var_0_1 = "anim_BRVZ_change"
 
 var_0_0.DISPLAY = {

@@ -65,6 +65,8 @@ function var_0_0.didEnter(arg_6_0)
 	else
 		triggerButton(arg_6_0.chatBtn)
 	end
+
+	arg_6_0:InitEasterEgg()
 end
 
 function var_0_0.FlushMusicPlayer(arg_7_0)
@@ -133,6 +135,41 @@ end
 
 function var_0_0.willExit(arg_16_0)
 	arg_16_0.musicPlayerView:Destroy()
+	arg_16_0:ExitEasterEgg()
+end
+
+function var_0_0.InitEasterEgg(arg_17_0)
+	local var_17_0 = EasterEggTools.GetActivity()
+
+	if EasterEggTools.IsEnabled(var_17_0, EasterEggConst.SCENE.InstagramMainUI) then
+		arg_17_0.easterEggView = EasterEggView.New(findTF(arg_17_0._tf, "mainPanel/easterEggBtn"), arg_17_0, EasterEggConst.SCENE.InstagramMainUI)
+
+		local var_17_1
+
+		arg_17_0.easterEggView:SetEasterEggCallBack(function(arg_18_0, arg_18_1)
+			arg_18_1()
+		end, function(arg_19_0)
+			arg_19_0()
+		end)
+	end
+end
+
+function var_0_0.ShowEasterEgg(arg_20_0)
+	if arg_20_0.easterEggView then
+		arg_20_0.easterEggView:ShowEasterEgg()
+	end
+end
+
+function var_0_0.HideEasterEgg(arg_21_0)
+	if arg_21_0.easterEggView then
+		arg_21_0.easterEggView:HideEasterEgg()
+	end
+end
+
+function var_0_0.ExitEasterEgg(arg_22_0)
+	if arg_22_0.easterEggView then
+		arg_22_0.easterEggView:willExit()
+	end
 end
 
 return var_0_0

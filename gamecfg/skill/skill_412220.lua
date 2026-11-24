@@ -1,6 +1,6 @@
 return {
 	uiEffect = "",
-	name = "驱逐-战术-雷击II",
+	name = "先锋-战术-雷击II",
 	cd = 0,
 	painting = 1,
 	id = 412220,
@@ -14,15 +14,10 @@ return {
 			targetAniEffect = "",
 			target_choise = {
 				"TargetAllHelp",
-				"TargetShipType"
+				"TargetPlayerVanguardFleet"
 			},
 			arg_list = {
-				buff_id = 412221,
-				ship_type_list = {
-					1,
-					20,
-					21
-				}
+				buff_id = 412221
 			}
 		}
 	}

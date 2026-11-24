@@ -1,6 +1,6 @@
 return {
 	init_effect = "",
-	name = "航母-指挥-航空II+航母-指挥-装填II",
+	name = "航母-指挥-航空I+航母-指挥-装填I",
 	time = 0,
 	color = "yellow",
 	picture = "",

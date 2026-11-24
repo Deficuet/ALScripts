@@ -99,6 +99,7 @@ function var_0_0.SendRequest(arg_4_0, arg_4_1, arg_4_2)
 	pg.ConnectionMgr.GetInstance():Send(40003, arg_4_1, 40004, function(arg_5_0)
 		if arg_5_0.result == 0 or arg_5_0.result == 1030 then
 			arg_4_2(arg_5_0)
+			var_0_0.CheckChapterAutoRecord(arg_4_1)
 		else
 			arg_4_0:RequestFailStandardProcess(arg_5_0)
 		end
@@ -272,6 +273,14 @@ function var_0_0.GenerateCommanderExp(arg_12_0, arg_12_1, arg_12_2)
 		surfaceCMD = var_12_3,
 		submarineCMD = var_12_4
 	}
+end
+
+function var_0_0.CheckChapterAutoRecord(arg_14_0)
+	local var_14_0 = arg_14_0.auto_before == 1 and arg_14_0.auto_after == 1 and arg_14_0.auto_switch_time == 0
+
+	if arg_14_0.system == SYSTEM_ACT_BOSS and var_14_0 then
+		getProxy(ChapterAutoProxy):UpdateRecord(ChapterAutoProxy.TYPE.BOSS, arg_14_0.data, arg_14_0.total_time)
+	end
 end
 
 return var_0_0

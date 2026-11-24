@@ -180,7 +180,24 @@ pg.activity_series_enemy_story.all = {
 	184,
 	185,
 	186,
-	187
+	187,
+	188,
+	189,
+	190,
+	191,
+	192,
+	193,
+	194,
+	195,
+	196,
+	197,
+	198,
+	199,
+	200,
+	201,
+	202,
+	203,
+	204
 }
 pg.base = pg.base or {}
 pg.base.activity_series_enemy_story = {}
@@ -4536,6 +4553,468 @@ end)()
 		},
 		trigger_value = {
 			186
+		}
+	}
+	pg.base.activity_series_enemy_story[188] = {
+		pos_x = "",
+		name = "EPS-1恋爱游戏启动中！",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "star_level_bg_156",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG1",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 188,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			1
+		},
+		trigger_value = {
+			0
+		}
+	}
+	pg.base.activity_series_enemy_story[189] = {
+		pos_x = "",
+		name = "EPS-2入学日",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "bg_zhenlixueyuan_1",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG2",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 189,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			188
+		}
+	}
+	pg.base.activity_series_enemy_story[190] = {
+		pos_x = "",
+		name = "EPS-3帮手",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "star_level_bg_381",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG3",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 190,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			189
+		}
+	}
+	pg.base.activity_series_enemy_story[191] = {
+		pos_x = "",
+		name = "EPS-4.1课后辅导",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "star_level_bg_501",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG4-1",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 191,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				190,
+				1,
+				{
+					192,
+					193
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[192] = {
+		pos_x = "",
+		name = "EPS-4.2天台的午餐时间",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "star_level_bg_605",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG4-2",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 192,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				190,
+				2,
+				{
+					190,
+					193
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[193] = {
+		pos_x = "",
+		name = "EPS-4.3伪装情侣",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "star_level_bg_178",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG4-3",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 193,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				190,
+				3,
+				{
+					191,
+					192
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[194] = {
+		pos_x = "",
+		name = "EPS-5圣杯的传闻",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "star_level_bg_130",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG5",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 194,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			6
+		},
+		trigger_value = {
+			{
+				191,
+				192,
+				193
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[195] = {
+		pos_x = "",
+		name = "EPS-6许愿与怪物",
+		label_key = "",
+		type = 3,
+		change_prefab = "",
+		change_background = "star_level_bg_311",
+		en_name = "",
+		story = "2079601",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 195,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			194
+		}
+	}
+	pg.base.activity_series_enemy_story[196] = {
+		pos_x = "",
+		name = "EPS-7舞会与抉择",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "star_level_bg_600",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG7",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 196,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			195
+		}
+	}
+	pg.base.activity_series_enemy_story[197] = {
+		pos_x = "",
+		name = "EPS-8.1预演一曲",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "star_level_bg_600",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG8-1",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 197,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				196,
+				1,
+				{
+					198,
+					199
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[198] = {
+		pos_x = "",
+		name = "EPS-8.2裙摆之间",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "star_level_bg_178",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG8-2",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 198,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				196,
+				2,
+				{
+					197,
+					199
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[199] = {
+		pos_x = "",
+		name = "EPS-8.3旧梦巡礼",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "star_level_bg_381",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG8-3",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 199,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				196,
+				3,
+				{
+					197,
+					198
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[200] = {
+		pos_x = "",
+		name = "EPS-9毕业前夕",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "bg_zhenlixueyuan_2",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG9",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 200,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			6
+		},
+		trigger_value = {
+			{
+				197,
+				198,
+				199
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[201] = {
+		pos_x = "",
+		name = "EPS-10她想留住的昨天",
+		label_key = "",
+		type = 3,
+		change_prefab = "",
+		change_background = "star_level_bg_177",
+		en_name = "",
+		story = "2079602",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 201,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			200
+		}
+	}
+	pg.base.activity_series_enemy_story[202] = {
+		pos_x = "",
+		name = "EPS-11.1第三次入学",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "bg_highschool_future",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG11-1",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 202,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				201,
+				1,
+				{
+					203,
+					204
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[203] = {
+		pos_x = "",
+		name = "EPS-11.2女皇的贴身保镖",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "bg_highschool_future",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG11-2",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 203,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				201,
+				2,
+				{
+					202,
+					204
+				}
+			}
+		}
+	}
+	pg.base.activity_series_enemy_story[204] = {
+		pos_x = "",
+		name = "EPS-11.3起舞于明日",
+		label_key = "",
+		type = 1,
+		change_prefab = "",
+		change_background = "bg_zhenlixueyuan_2",
+		en_name = "",
+		story = "ZHENLIXUEYUANDEZHUANXIAOSHENG11-3",
+		pos_y = "",
+		change_bgm = "story-richang-afterschool",
+		line = 0,
+		params = "",
+		id = 204,
+		icon = "",
+		pass_awards = 0,
+		trigger_type = {
+			5
+		},
+		trigger_value = {
+			{
+				201,
+				3,
+				{
+					202,
+					203
+				}
+			}
 		}
 	}
 end)()

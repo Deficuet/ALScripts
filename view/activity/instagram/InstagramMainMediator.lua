@@ -45,9 +45,12 @@ function var_0_0.register(arg_1_0)
 	arg_1_0:bind(var_0_0.INS_BACK_PRESSED, function(arg_8_0)
 		arg_1_0:sendNotification(InstagramMediator.BACK_PRESSED)
 	end)
+	arg_1_0:bind(EasterEggView.ON_CLICK_EASTER_EGG, function(arg_9_0, arg_9_1)
+		arg_1_0:sendNotification(GAME.PUZZLE_PIECE_OP, arg_9_1)
+	end)
 end
 
-function var_0_0.listNotificationInterests(arg_9_0)
+function var_0_0.listNotificationInterests(arg_10_0)
 	return {
 		var_0_0.CHANGE_CHAT_TIP,
 		var_0_0.CHANGE_JUUS_TIP,
@@ -55,16 +58,16 @@ function var_0_0.listNotificationInterests(arg_9_0)
 	}
 end
 
-function var_0_0.handleNotification(arg_10_0, arg_10_1)
-	local var_10_0 = arg_10_1:getName()
-	local var_10_1 = arg_10_1:getBody()
+function var_0_0.handleNotification(arg_11_0, arg_11_1)
+	local var_11_0 = arg_11_1:getName()
+	local var_11_1 = arg_11_1:getBody()
 
-	if var_10_0 == var_0_0.CHANGE_CHAT_TIP then
-		arg_10_0.viewComponent:ChangeChatTip()
-	elseif var_10_0 == var_0_0.CHANGE_JUUS_TIP then
-		arg_10_0.viewComponent:ChangeJuusTip()
-	elseif var_10_0 == var_0_0.CLOSE_ALL then
-		arg_10_0.viewComponent:closeView()
+	if var_11_0 == var_0_0.CHANGE_CHAT_TIP then
+		arg_11_0.viewComponent:ChangeChatTip()
+	elseif var_11_0 == var_0_0.CHANGE_JUUS_TIP then
+		arg_11_0.viewComponent:ChangeJuusTip()
+	elseif var_11_0 == var_0_0.CLOSE_ALL then
+		arg_11_0.viewComponent:closeView()
 	end
 end
 

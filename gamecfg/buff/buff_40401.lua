@@ -4,7 +4,7 @@ return {
 	time = 0,
 	color = "yellow",
 	picture = "",
-	desc = "战列-指挥-炮击II",
+	desc = "战列风帆-指挥-炮击II",
 	stack = 1,
 	id = 40401,
 	icon = 40400,

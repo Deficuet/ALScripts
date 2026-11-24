@@ -1,4 +1,4 @@
-local var_0_0 = class("BossRushDALCollabScene", import("view.base.BaseUI"))
+local var_0_0 = class("BossRushDALCollabScene", import("view.activity.BossRush.BossRushBaseScene"))
 
 function var_0_0.getUIName(arg_1_0)
 	return "BossRushDALCollabUI"

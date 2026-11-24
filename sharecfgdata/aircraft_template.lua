@@ -318355,3 +318355,398 @@ end)()
 	}
 end)()
 
+(function()
+	_G.pg.base.aircraft_template[3456080] = {
+		attack_power = 2,
+		name = "【2026莫洛托夫SP活动】卡通怪物航母 舰载机 Lv1",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_huangjiachuan",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3456080,
+		icon = "feiji_huangjiachuan",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1680,
+		speed = 40,
+		max_hp = 60,
+		scale = 0.75,
+		weapon_ID = {
+			3456085,
+			3456090
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3456081] = {
+		attack_power = 2,
+		name = "【2026莫洛托夫SP活动】卡通怪物航母 舰载机 Lv2",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_huangjiachuan",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3456081,
+		icon = "feiji_huangjiachuan",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1960,
+		speed = 40,
+		max_hp = 90,
+		scale = 0.75,
+		weapon_ID = {
+			3456086,
+			3456091
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3456082] = {
+		attack_power = 2,
+		name = "【2026莫洛托夫SP活动】卡通怪物航母 舰载机 Lv3",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_huangjiachuan",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3456082,
+		icon = "feiji_huangjiachuan",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2240,
+		speed = 40,
+		max_hp = 120,
+		scale = 0.75,
+		weapon_ID = {
+			3456087,
+			3456092
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3456083] = {
+		attack_power = 2,
+		name = "【2026莫洛托夫SP活动】卡通怪物航母 舰载机 Lv4",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_huangjiachuan",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3456083,
+		icon = "feiji_huangjiachuan",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2520,
+		speed = 40,
+		max_hp = 150,
+		scale = 0.75,
+		weapon_ID = {
+			3456088,
+			3456093
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3456084] = {
+		attack_power = 2,
+		name = "【2026莫洛托夫SP活动】卡通怪物航母 舰载机 Lv5",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_huangjiachuan",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3456084,
+		icon = "feiji_huangjiachuan",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2800,
+		speed = 40,
+		max_hp = 180,
+		scale = 0.75,
+		weapon_ID = {
+			3456089,
+			3456094
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+

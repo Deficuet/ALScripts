@@ -17,11 +17,14 @@ end
 function var_0_0.init(arg_3_0)
 	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 	arg_3_0:InitUI()
+
+	arg_3_0.autoPanel = ChapterAutoPanelTypeRush.New(arg_3_0._tf, arg_3_0.event, arg_3_0.contextData)
 end
 
 function var_0_0.InitUI(arg_4_0)
 	local var_4_0 = arg_4_0._tf:Find("Panel")
 
+	arg_4_0.infoPanel = var_4_0:Find("Info")
 	arg_4_0.tfFleets = {
 		[FleetType.Normal] = arg_4_0._tf:Find("Panel/Fleet/Normal"),
 		[FleetType.Submarine] = arg_4_0._tf:Find("Panel/Fleet/Submarine")
@@ -45,6 +48,7 @@ function var_0_0.InitUI(arg_4_0)
 
 	arg_4_0.btnBack = var_4_0:Find("Info/Title/BtnClose")
 	arg_4_0.btnGo = var_4_0:Find("Info/Start")
+	arg_4_0.btnAuto = var_4_0:Find("Info/Auto")
 
 	setText(arg_4_0._tf:Find("Panel/Fleet/SonarRange/Text"), i18n("fleet_antisub_range") .. ":")
 	setText(arg_4_0._tf:Find("Panel/Fleet/CostLimit/Title"), i18n("formationScene_use_oil_limit_tip_worldboss"))
@@ -65,10 +69,6 @@ function var_0_0.didEnter(arg_5_0)
 	local var_5_0 = arg_5_0.contextData.seriesData
 
 	onButton(arg_5_0, arg_5_0.btnGo, function()
-		if StartChapterAutoCommand.CheckOccupied() then
-			return
-		end
-
 		for iter_6_0 = 1, #arg_5_0.contextData.fleets - 1 do
 			if arg_5_0.contextData.fleets[iter_6_0]:isLegalToFight() ~= true then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_team_notenough"))
@@ -265,6 +265,7 @@ function var_0_0.didEnter(arg_5_0)
 
 	arg_5_0:updateToggles()
 	triggerToggle(arg_5_0.fleetIndexToggles[arg_5_0.contextData.fleetIndex], true)
+	arg_5_0:UpdateAutoBtn()
 end
 
 local var_0_1 = {
@@ -300,6 +301,12 @@ function var_0_0.ShowDropDetail(arg_23_0, arg_23_1)
 end
 
 function var_0_0.willExit(arg_24_0)
+	if arg_24_0.autoPanel then
+		arg_24_0.autoPanel:Destroy()
+
+		arg_24_0.autoPanel = nil
+	end
+
 	pg.UIMgr.GetInstance():UnOverlayPanel(arg_24_0._tf)
 end
 
@@ -420,6 +427,7 @@ function var_0_0.updateToggles(arg_34_0)
 			arg_34_0.fleetIndexToggles[arg_35_1] = arg_35_0
 		end
 	end)
+	arg_34_0:UpdateAutoBtn()
 end
 
 function var_0_0.updateEliteFleets(arg_36_0)
@@ -563,6 +571,118 @@ function var_0_0.initCommander(arg_45_0, arg_45_1, arg_45_2)
 			arg_45_0:emit(BossRushFleetSelectMediator.OPEN_COMMANDER_PANEL, arg_45_1)
 		end, SFX_PANEL)
 	end
+end
+
+function var_0_0.UpdateAutoBtn(arg_48_0)
+	if not arg_48_0.btnAuto then
+		return
+	end
+
+	local var_48_0 = arg_48_0.contextData.seriesData.id
+	local var_48_1 = pg.activity_series_enemy_auto[var_48_0]
+	local var_48_2 = ChapterAutoProxy.IsSystemOpen()
+
+	setActive(arg_48_0.btnAuto, var_48_1)
+	arg_48_0:FixAutoInfoLayout(var_48_1)
+
+	if not var_48_1 then
+		return
+	end
+
+	local var_48_3 = getProxy(ChapterAutoProxy):GetRecord(ChapterAutoProxy.TYPE.RUSH, var_48_0)
+	local var_48_4 = getProxy(ActivityProxy):getActivityById(arg_48_0.contextData.seriesData.actId):IsPassWithMulti(var_48_0)
+	local var_48_5 = arg_48_0.contextData.mode == BossRushSeriesData.MODE.MULTIPLE
+	local var_48_6 = var_48_2 and var_48_3 > 0 and (not var_48_5 or var_48_4)
+
+	setGray(arg_48_0.btnAuto, not var_48_6, true)
+	onButton(arg_48_0, arg_48_0.btnAuto, function()
+		if var_48_6 then
+			local var_49_0 = getProxy(ChapterAutoProxy):GetCommissionDoingType()
+
+			if not var_49_0 then
+				arg_48_0:ShowChapterAutoPanel()
+			else
+				arg_48_0:CheckChapterAutoOccupied(var_49_0)
+			end
+		elseif not var_48_2 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("auto_battle_unlock_tip"))
+		elseif var_48_3 <= 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("auto_chapter_unlock_tip_series"))
+		elseif var_48_5 and not var_48_4 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("auto_chapter_unlock_tip_series_multi"))
+		end
+	end, SFX_PANEL)
+end
+
+function var_0_0.GetAutoInfoLayout(arg_50_0)
+	return nil
+end
+
+function var_0_0.FixAutoInfoLayout(arg_51_0, arg_51_1)
+	local var_51_0 = arg_51_0:GetAutoInfoLayout()
+
+	if not var_51_0 then
+		return
+	end
+
+	for iter_51_0, iter_51_1 in pairs(var_51_0) do
+		local var_51_1 = arg_51_0.infoPanel:Find(iter_51_0)
+
+		if var_51_1 then
+			setAnchoredPosition(var_51_1, arg_51_1 and iter_51_1[2] or iter_51_1[1])
+		end
+	end
+end
+
+function var_0_0.ShowChapterAutoPanel(arg_52_0)
+	arg_52_0.autoPanel:ExecuteAction("Enter", arg_52_0.contextData.seriesData.id)
+end
+
+function var_0_0.RefreshChapterAutoPanel(arg_53_0)
+	if arg_53_0.autoPanel:isShowing() then
+		arg_53_0.autoPanel:ExecuteAction("RefreshView")
+	end
+end
+
+function var_0_0.HideChapterAutoPanel(arg_54_0)
+	arg_54_0.autoPanel:ExecuteAction("Hide")
+end
+
+function var_0_0.CheckChapterAutoOccupied(arg_55_0, arg_55_1)
+	local var_55_0 = getProxy(ChapterAutoProxy):GetCommissionList()[1]:GetOccupiedName()
+
+	switch(arg_55_1, {
+		[ChapterAutoProxy.TYPE.WORLD] = function()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("auto_battle_in_world"),
+				onYes = function()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end,
+		[ChapterAutoProxy.TYPE.SLG] = function()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("auto_battle_in_world"),
+				onYes = function()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL)
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end,
+		[ChapterAutoProxy.TYPE.BOSS] = function()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("auto_battle_in_world"),
+				onYes = function()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACT_BOSS_BATTLE)
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end
+	})
 end
 
 return var_0_0

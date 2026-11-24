@@ -84,6 +84,16 @@ function var_0_0.updateUI(arg_4_0)
 	onButton(arg_4_0, arg_4_0.fight, function()
 		arg_4_0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
 	end)
+
+	if arg_4_0.rpManual then
+		local var_4_8 = arg_4_0.activity:getConfig("config_client").medal_group_id or arg_4_0:GetMedalAlbumView().GROUP_ID
+
+		setActive(arg_4_0.rpManual, ActivityMedalGroup.showTip(var_4_8))
+	end
+end
+
+function var_0_0.GetMedalAlbumView(arg_8_0)
+	return TianqiongMedalAlbumView
 end
 
 return var_0_0

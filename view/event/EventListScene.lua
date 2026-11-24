@@ -270,7 +270,9 @@ function var_0_0.Flush(arg_21_0, arg_21_1)
 	if not arg_21_1 then
 		arg_21_0.labelShipNums.text = var_21_0.maxFleetNums - var_21_0:countBusyFleetNums() .. "/" .. var_21_0.maxFleetNums
 
-		if arg_21_0.contextData.selectedEventId then
+		if arg_21_0.contextData.selectedEventId and not arg_21_0.restoringDetail then
+			arg_21_0.restoringDetail = true
+
 			pg.UIMgr.GetInstance():LoadingOn()
 			seriesAsync({
 				function(arg_22_0)
@@ -309,6 +311,8 @@ function var_0_0.Flush(arg_21_0, arg_21_1)
 					arg_23_0()
 				end
 			}, function()
+				arg_21_0.restoringDetail = false
+
 				pg.UIMgr.GetInstance():LoadingOff()
 			end)
 		end

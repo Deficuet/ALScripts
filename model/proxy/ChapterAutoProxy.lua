@@ -3,8 +3,10 @@ local var_0_0 = class("ChapterAutoProxy", import("model.proxy.NetProxy"))
 var_0_0.FINISH_UPDATE = "ChapterAutoProxy.FINISH_UPDATE"
 var_0_0.EXPIRED_TIP_MARK = "ChapterAutoProxy.EXPIRED_TIP_MARK"
 var_0_0.TYPE = {
+	RUSH = 4,
+	SLG = 1,
 	WORLD = 2,
-	SLG = 1
+	BOSS = 3
 }
 
 function var_0_0.register(arg_1_0)
@@ -46,6 +48,10 @@ function var_0_0.register(arg_1_0)
 end
 
 function var_0_0.UpdateRecord(arg_3_0, arg_3_1, arg_3_2, arg_3_3)
+	if arg_3_3 == 0 then
+		return
+	end
+
 	if not arg_3_0.recordData[arg_3_1] then
 		arg_3_0.recordData[arg_3_1] = {}
 	end
@@ -398,6 +404,24 @@ function var_0_0.GetFixTime(arg_50_0, arg_50_1, arg_50_2)
 			end
 
 			return math.floor(arg_50_2 * var_51_0.time_rate) + var_51_0.time_correction
+		end,
+		[var_0_0.TYPE.BOSS] = function()
+			local var_52_0 = pg.expedition_auto_statistics[arg_50_1]
+
+			if not var_52_0 then
+				return arg_50_2
+			end
+
+			return math.floor(arg_50_2 * var_52_0.time_rate) + var_52_0.time_correction
+		end,
+		[var_0_0.TYPE.RUSH] = function()
+			local var_53_0 = pg.activity_series_enemy_auto[arg_50_1]
+
+			if not var_53_0 then
+				return arg_50_2
+			end
+
+			return math.floor(arg_50_2 * var_53_0.time_rate) + var_53_0.time_correction
 		end
 	}, function()
 		return arg_50_2

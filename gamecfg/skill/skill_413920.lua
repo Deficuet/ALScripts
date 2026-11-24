@@ -1,12 +1,12 @@
 return {
 	uiEffect = "",
-	name = "驱逐-后勤-机动II",
+	name = "驱逐-后勤-机动I",
 	cd = 0,
 	painting = 1,
 	id = 413920,
 	picture = "0",
 	aniEffect = "",
-	desc = "驱逐-后勤-机动II",
+	desc = "驱逐-后勤-机动I",
 	effect_list = {
 		{
 			type = "BattleSkillAddBuff",
